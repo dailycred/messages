@@ -1,0 +1,26 @@
+$Page Max for Live
+$TargetName Max for Live
+Max for Liveへようこそ
+
+$If Product 70
+Max for Liveはこのマシンにオーソライズされていますが、正常にインストールされていません。 以下の手順に従ってMax for Liveをインストールしてください。
+
+-> cycling74.comから $Link 最新バージョンのMax <$MaxMSPDownloadUrl> をダウンロードし、インストールします。  インストール後、再起動が必要となる場合があります。 Maxのインストールが完了したら、Liveを再起動します。
+$Else
+Max for Liveは、このマシンにオーソライズされていないか、正常にインストールされていません。 以下の手順に従ってMax for Liveを設定してください。
+
+-> 最新バージョンがインストールされていない場合は、cycling74.comから $Link 最新バージョンのMax <$MaxMSPDownloadUrl>をダウンロードし、インストールしてください。 インストール後、再起動が必要となる場合があります。 Maxのインストールが完了したら、Liveを再起動します。
+
+-> Liveのオーソライズを更新します。 $Link Liveの［環境設定］の［User Account/Licenses］タブ <Pref:products>を開きます。 ここから、オンラインまたはオフラインでオーソライズが行えます。
+AuthorizationsTab.tif
+$Endif
+
+Maxがデフォルト以外のロケーションにインストールされている場合、 $Link Liveの[環境設定]の[File/Folder]タブ <Pref:FileFolder> でMaxアプリケーションを指定する必要があります。
+MaxFileFolderPref.tif
+
+-> LiveがMaxのインストールを認識すると、Max for Liveコンテンツを含むLiveパックをインストールするよう指示するメッセージが表示されます。
+
+-> パックをインストールしたら、 $Link Max for Liveスタートアップガイド <Lesson:/8-MaxForLive Category/01-Getting Started with Max for Live>レッスンをご覧ください。 このレッスンでは、Max for Liveの基本と、ファクトリーコンテンツとチュートリアルの使用方法について説明しています。
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,190 @@
+$Page Connecting MIDI Controllers 
+$TargetName Connecting MIDI Controllers
+
+$0 allows hands-on control of most of its interface via external MIDI keyboards and control surfaces. This lesson will show you how to set up your MIDI controllers to play software instruments or add tactile remote control to your $0 experience.
+
+This lesson assumes that your MIDI keyboard or control surface uses a /USB port/ for communicating with the computer. If it has only MIDI jacks, and no USB port, then you'll also need an external /MIDI interface/ to connect it to.
+
+Before we begin, please verify that your external MIDI keyboard or control surface is connected to your computer and powered on.
+
+*Windows users note:* USB devices must be connected and recognized by the operating system /before/ launching $0.
+
+-> To learn specifically about setting up /MIDI keyboards,/ click on the /Next Page/ button below.
+-> To learn specifically about setting up /MIDI control surfaces,/ click $Link here <GotoPage:Connecting MIDI Control Surfaces>.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Connecting MIDI Keyboards 
+$TargetName Connecting MIDI Keyboards
+
+You can play $0's software instruments most naturally using your MIDI keyboard. This section of the lesson will help you configure $0 so that notes played on your MIDI keyboard will reach your instrument of choice.
+
+Open $0's Preferences by selecting them from /Live/ menu in OS X (or the /Options/ menu in Windows), then click on the /MIDI/Sync/ tab:
+MidiSyncTab.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page MIDI Keyboard Setup 
+$TargetName MIDI Keyboard Setup
+
+If everything is connected properly, you should see one or more entries for your keyboard in the /MIDI Ports/ section of the MIDI/Sync tab. You may have to scroll the list to see all available ports.
+MidiPorts.tif
+
+Both /input/ and /output/ ports are displayed in this list, if available. Since we're interested in getting your keyboard's notes /into/ $0, we'll concentrate only upon the input ports.
+
+Set the /Track/ switch of your keyboard's input port to *On:*
+MidiInputTrackButton.tif
+
+The other two columns here enable the port for MIDI synchronization and for $Link remote control <GotoPage:Connecting MIDI Control Surfaces> of $0's interface elements. You can now close the Preferences window.
+
+You can verify that your MIDI keyboard is communicating with $0 by pressing one of its keys: $0's /MIDI Track In/ indicator will flash whenever it recognizes incoming MIDI messages.
+MidiInputIndicator.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page MIDI Track Setup 
+$TargetName MIDI Track Setup
+
+$0's software instruments and their presets are accessed through the /Device Browser:/
+DeviceBrowser.tif
+
+Instruments are played from $0's MIDI tracks. Please use the Create menu's *Insert MIDI Track* command to add a new MIDI track to your Live Set now. While the track is selected, you can add an instrument to it simply by double-clicking on a preset in the Device Browser.
+ClickPreset.tif
+
+The instrument will appear in the Track View at the bottom of the application window:
+InstrumentInTrackView.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Arming the Track 
+$TargetName Arming the Track
+
+Finally, /arm/ the track by engaging its /Arm/ button. This allows the track to receive the MIDI notes that you play.
+TrackArmed.tif
+
+That's all that is needed! You can now freely explore $0's instruments and presets. Fortunately, $0 will remember your MIDI port preferences so that you'll be ready to play from now on.
+
+If you want to record your performance at any point, you'll first need to engage the Control Bar's /Global Record/ button:
+GlobalRecordRec.tif
+
+Then press the /Play/ button to begin recording:
+TransportPlayRec.tif
+
+To stop recording, press the adjacent /Stop/ button:
+TransportStopRec.tif
+
+MIDI recording is described in more detail in the $Link Playing Software Instruments <Lesson:Builtin/1-Live Basics Category/4-Playing Software Instruments> lesson.
+
+Continue the Lesson to learn about using your MIDI keyboard as a control surface for remote control of $0's interface.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Connecting MIDI Control Surfaces 
+$TargetName Connecting MIDI Control Surfaces
+
+ZeroSLHeader.tif
+
+This portion of the lesson will show you how to set up your MIDI controllers to add tactile remote control to $0's interface.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Instant and Manual Mappings 
+$TargetName Instant and Manual Mappings
+
+$0 uses two complementary methods for interfacing with control surfaces: /Instant Mappings/ and /manual mappings./
+
+-> $0's Instant Mappings extend native support to many of the control surfaces available today. Instant Mappings provide a common approach to control which adapts whenever possible to the selected element in $0. After you've completed this lesson, you'll want to check out the $Link *Control Surface Reference* <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference>, which details how each natively-supported controller interacts with $0.
+
+-> If your MIDI controller is not supported natively, it can still control most of $0's interface through the creation of manual mappings. This approach defines fixed mappings between the parameters in $0 and each button, knob, pad or slider on your control surface. Manual mappings can also be used to override Instant Mappings when both methods are enabled. After completing this lesson, you'll want to learn how to $Link create your own manual mappings <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Creating Manual Mappings>.
+
+
+Open $0's Preferences by selecting them from the /Live/ menu in Mac OS X (or the /Options/ menu in Windows), then click on the /MIDI/Sync/ tab.
+MidiSyncTab.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Control Surface Setup 
+$TargetName Control Surface Setup
+
+The upper half of the MIDI/Sync tab defines up to six natively-supported control surfaces. Your first step will be to check whether your control surface is supported natively, by clicking on the first chooser in the /Control Surface/ column:
+RemoteSLControlSurface.tif
+
+Select your control surface if you see it listed here. If not, you'll want to continue to the next page to enable manual mappings.
+
+After selecting your control surface, use the /Input/ and /Output/ choosers to define the MIDI ports which it is connected to:
+RemoteSLPorts.tif
+
+If the /Dump/ button to the right of the output port becomes enabled, then a /preset dump/ is required to configure the chosen controller for use in $0. You should only need to dump to your controller once unless you've changed its internal settings:
+RemoteSLDump.tif
+
+*Before* pressing the Dump button, consult the manufacturer's documentation to ensure that your controller is ready to receive SysEx preset dumps. The dump will change some settings within the controller; If you have customized these settings before, be sure to make a backup copy of them before pressing the Dump button.
+
+The Instant Mappings for your MIDI controller are now set up. With one more step, we can enable the additional use of manual mappings.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Enabling Manual Mappings 
+$TargetName Enabling Manual Mappings
+
+Manual mappings between $0 and your control surfaces are configured in the lower half of the MIDI/Sync tab. All MIDI ports which are available to your computer are listed here. Each entry has three On/Off switches: /Track, Sync,/ and /Remote./
+
+Enable the Remote switch for each /Input/ port in this list which has a control surface connected to it. If native support for your control surface wasn't available on the previous page, you'll probably want to enable the Remote switch for your /Output/ ports as well (so that $0 can send feedback to the controller if possible):
+MidiInputRemoteButton.tif
+
+Enabling an input port's Remote switch tells $0 that it should listen for MIDI control messages arriving from that port. The other two columns enable this device for MIDI synchronization and for input to $0's MIDI tracks. For more information about these uses of MIDI in $0, please see the beginning of this lesson and read the Reference Manual's "Synchronization and ReWire" and "Routing and I/O" chapters.
+
+You're now set up for remote control! The Preferences window can be closed. Next, we're going to verify your connections, then leave you with a useful technique for locking natively-supported controllers.
+
+
+Divider.tif
+*Tip:* If you have overridden Instant Mappings with manual mappings, you can easily switch back to the Instant Mappings by deactivating the Remote switch of the respective input port. Activating the switch again will re-establish your manual mappings.
+Divider.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Verifying Remote Control Setup 
+$TargetName Verifying Remote Control Setup
+
+You can always verify that your MIDI controller is communicating with $0 by touching any of its knobs, faders or keys. As you do this, $0 will acknowledge that MIDI messages are being received by flashing the /MIDI Track In/ indicator in the upper-right corner of the application window:
+MidiInputIndicator.tif
+
+If a knob, fader, or key is remotely controlling a parameter in $0, the /Key/MIDI In/ indicator will flash when receiving messages from that control:
+MidiIndicator.tif
+
+The indicator immediately below it flashes whenever $0 sends feedback to a MIDI controller. This is used to keep motorized faders and status LEDs up to date.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Locking Control Surfaces to Devices 
+$TargetName Locking Control Surfaces to Devices
+
+Most native control surfaces will focus on the currently selected device in the selected track. If one or more of these controls surfaces are active, you will notice a small icon in the title bar of the selected device. This icon moves along with the selection:
+OperatorHand.tif
+
+If, however, you would like to control a specific device with your control surface regardless of whether it is selected or not, you can /lock/ your control surface to that device. To do so, *$ContextMenu* on the device's title bar and select your control surface in the context menu's *Lock to Control Surface* section:
+OperatorLockMenu.tif
+
+Some control surfaces don't support locking to devices; their entries in the device's context menu will appear disabled.
+
+To unlock the control surface from the device, simply repeat these steps. If you lock the same control surface to a different device without unlocking it, the control surface is first unlocked from the device it was previously locked to.
+
+Some control surfaces use a button to lock/unlock the currently selected device. If a device is locked/unlocked using such a button, $0 will confirm the action with a status bar message as shown:
+RemoteLockingStatus.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Staying in Control 
+$TargetName Staying in Control
+
+Live7LessonsNoText.tif
+
+By setting up remote control, you've tapped into one of the most powerful and expandable ways to work with $0. We recommend that you read the following two lessons, which will teach you how to *use* your new abilities!
+
+Access $0's $Link Control Surface Reference <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference> at any time to see the specifics of each natively-supported controller's operation within $0.
+
+If you've enabled manual mappings, you'll definitely want to follow the lesson on $Link creating manual mappings <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Creating Manual Mappings>.
+
+$Comment Status: Translate
+
+
+$Comment Status: Translate

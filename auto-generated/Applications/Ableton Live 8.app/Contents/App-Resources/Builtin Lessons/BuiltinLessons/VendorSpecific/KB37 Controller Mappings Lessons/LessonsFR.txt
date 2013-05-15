@@ -1,0 +1,107 @@
+$Page Affectation des contrôleurs du KB37
+$TargetName KB37 Controller Mappings
+$ListInTocForProduct 2B
+
+Vous trouverez ici les réglages par défaut du preset d'affectation de contrôleurs *Ableton Live.* Vous pouvez l'utiliser à titre de référence si vos réglages ont changé. Cliquez sur le bouton /Arrière/ ci-dessus pour retourner à la leçon principale sur le TonePort.
+
+
+Divider.tif
+/Molette Mod/
+Vers la sortie MIDI: *CC MIDI (14 bits)*
+CC MIDI/Action: *001/033 - Molette Mod*
+
+/Sound Select –/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *097 - Décrémentation de donnée*
+Mode de commutation: *Simple*
+
+/Sound Select +/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *096 - Incrémentation de donnée*
+Mode de commutation: *Simple*
+
+Divider.tif
+/Bouton 1/
+Vers la sortie MIDI: *CC MIDI (14 bits)*
+CC MIDI/Action: *016/048 - Commande générale 1*
+
+/Bouton 2/
+Vers la sortie MIDI: *CC MIDI (14 bits)*
+CC MIDI/Action: *017/049 - Commande générale 2*
+
+/Bouton 3/
+Vers la sortie MIDI: *CC MIDI (14 bits)*
+CC MIDI/Action: *018/050 - Commande générale 3*
+
+/Bouton 4/
+Vers la sortie MIDI: *CC MIDI (14 bits)*
+CC MIDI/Action: *019/051 - Commande générale 4*
+
+Divider.tif
+/Touche 1/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *080 - Commande générale 5*
+Mode de commutation: *Bascule*
+
+/Touche 2/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *081 - Commande générale 6*
+Mode de commutation: *Bascule*
+
+/Touche 3/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *082 - Commande générale 7*
+Mode de commutation: *Bascule*
+
+/Touche 4/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *083 - Commande générale 8*
+Mode de commutation: *Bascule*
+
+Divider.tif
+/Transport Retour rapide/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *027 - CC 27*
+Mode de commutation: *Bascule*
+
+/Transport Avance rapide/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *059 - CC 59*
+Mode de commutation: *Bascule*
+
+/Transport Stop/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *003 - CC 3*
+Mode de commutation: *Simple*
+
+/Transport Lecture/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *002 - Commande par souffle*
+Mode de commutation: *Simple*
+
+/Transport Enregistrement/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *006 - Entrée de donnée*
+Mode de commutation: *Simple*
+
+Divider.tif
+/Pédale d'expression/
+(Pas d'affectations)
+
+/Pédale commutateur 1/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *Personnalisée*
+Mode de commutation: *Bascule*
+Bascule1/CC –: *2*
+Bascule1/Val. –: *127*
+Bascule2/CC +: *3*
+Bascule2/Val. +: *127*
+
+/Pédale commutateur 2/
+Vers la sortie MIDI: *CC MIDI*
+CC MIDI/Action: *006 - Entrée de donnée*
+Mode de commutation: *Momentané*
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

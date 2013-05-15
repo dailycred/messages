@@ -1,0 +1,57 @@
+$Page Amp
+$TargetName Amp
+$ListInTocForProduct 64
+amp_logo.tif
+
+/¡Bienvenido a Amp!/
+
+*Amp* es un efecto de audio de Ableton que ofrece calidez y pegada sin lios ni complicaciones. Desarrollado en cooperación con Softube, Amp ofrece con gran precisión el sonido y sencillez de legendarios amplificadores y muebles de altavoces.
+
+Amp viene con *Cabinet,* un efecto aparte que ofrece una selección de clásicos muebles de altavoces para guitarras, con micros optimizados y posicionamiento de micros. También hemos incluido un amplio rango de sonidos que tranforman los efectos e instrumentos de Ableton con el nuevo carácter sonoro de Amp. Estos incluyen Racks de instrumentos y efectos, Live Clips y más de 400 presets.
+
+Use este enlace para acceder rápidamente a presets de efectos de guitarra usando Amp:
+
+-> $Link *Guitar Amp Clean*<BrowseLibraryPresets:/Audio Effects/Audio Effect Rack/Guitar Amp Clean/> presets del efecto de audio
+-> $Link *Guitar Amp Distortion*<BrowseLibraryPresets:/Audio Effects/Audio Effect Rack/Guitar Amp Distortion/> presets del efecto de audio
+-> $Link *Guitar Processing*<BrowseLibraryPresets:/Audio Effects/Audio Effect Rack/Guitar Processing/> presets del efecto de audio
+-> $Link *Bass Amp*<BrowseLibraryPresets:/Audio Effects/Audio Effect Rack/Bass Amp/> presets del efecto de audio
+
+También hay un cierto número de Efectos de Audio y Racks de Instrumentos que utilizan los dispositivos Amp y Cabinet.
+
+Amp Kits de construcción:
+
+-> $Link *Blue Berlin(Cmin)-175bpm.als* <Set:/../Clips/Construction Kits/Blue Berlin(Cmin)-175bpm.als>
+-> $Link *Cubed(Emin)-120bpm.als* <Set:/../Clips/Construction Kits/Cubed(Emin)-120bpm.als>
+-> $Link *Jump 2 Jump(Emin)-99bpm.als* <Set:/../Clips/Construction Kits/Jump 2 Jump(Emin)-99bpm.als>
+
+Por favor pulse en el botón /Página siguiente/ de abajo para saber más acerca de los modelos usados en Amp.
+
+$Comment --------------------------------------------------------------------------------
+$Page Aquí están los modelos
+$TargetName Meet the Models
+
+Use estos enlaces para cargar Live Sets que le mostrarán los diversos modelos de amplis y muebles de altavoces usando baterías, guitarras y sintetizadores.
+
+-> $Link *Ejemplos Amp-Drum* <Set:/Sets/Amp-Drum Examples.als>
+-> $Link *Ejemplos Amp-Guitar* <Set:/Sets/Amp-Guitar Examples.als>
+-> $Link *Ejemplos Amp-Synth* <Set:/Sets/Amp-Synth Examples.als>
+-> $Link *Ejemplos Amp-Cabinet* <Set:/Sets/Amp-Cabinet Examples.als>
+
+Hay siete modelos de amplis entre los que elegir:
+
+-> *Clean* está basado en el canal "Brilliant" de un ampli clásico de los '60s. Este ampli fue ampliamente utilizado por guitarristas de la invasión Brit.
+
+-> *Boost* está basado en el canal "Tremolo" del mismo ampli, y va genial para riffs de rock cortantes.
+
+-> *Blues* está basado en un ampli de guitarra de la era de los '70s con un carácter brillante. Este ampli clásico es popular entre los guitarristas de country, rock y blues.
+
+-> *Rock* está diseñado siguiendo el modelo de un clásico ampli de 45 vatios de los '60s. Se trata quizá del ampli de rock más conocido de todos los tiempos.
+
+-> *Lead* está basado en el canal "Modern" de un ampli de alta ganancia popular entre los guitarristas de metal.
+
+-> *Heavy* está basado en el canal "Vintage" del mismo ampli y también es ideal para sonidos metal y grunge.
+
+-> *Bass* ha sido diseñado siguiendo el modelo de un raro PA de los '70s que se ha hecho popular entre los bajistas gracias a sus fuertes graves y sonido "fuzz" a volúmenes altos.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

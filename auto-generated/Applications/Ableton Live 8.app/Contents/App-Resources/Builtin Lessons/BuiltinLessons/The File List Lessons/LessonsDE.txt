@@ -1,0 +1,16 @@
+$Page Die Datei-Liste
+$TargetName The File List
+
+Die Datei-Liste zeigt jedes vom aktuellen Live-Set genutze Sample an:
+FileList.tif
+
+Sie können jedes Sample in der Liste über Drag 'n' Drop durch ein anderes ersetzen. Audio-Clips behalten ihre Warp-Marker, wenn die Länge des neuen Samples mit der des alten identisch oder länger ist. Samples können auch über den /Hot-Swap-Schalter/ mit anschließender Nutzung des Browsers ersetzt werden.
+
+Klicken Sie auf des /Edit-Schalter/ eines Samples, um es in einem externen Sample-Editor zu öffnen. Solange der Edit-Schalter aktiv ist, wird das Sample unbenutzt bleiben. Audio-Clips behalten ihre Warp-Marker /nur,/ wenn ihre Sample-Länge sich durch die Bearbeitung nicht ändert.
+
+Die /Ort-Spalte/ zeigt an, ob sich die Samples in $0s Library, in einem Projekt-Ordner oder in einem anderen, externen Ordner befinden. Fehlende Samples werden hier ebenfalls angezeigt.
+
+Wenn $0 nach fehlenden Samples sucht, wird die Anzahl möglicher Treffer in der /Kandidaten-Spalte/ angezeigt.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

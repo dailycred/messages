@@ -1,0 +1,31 @@
+$Page Utilización de la Vista Ayuda
+$TargetName Using the Help View
+
+Esta es la /Vista Ayuda/ de $0. Puede llegar a ella en cualquier momento seleccionando *Vista Ayuda* desde el menú Ayuda.
+
+Aquí se incluyen un gran número de tutoriales prácticos que nos muestran las características únicas y el flujo de trabajo de $0. Esta página le explicará cómo orientarse por la Vista Ayuda.
+
+MetaView.tif
+
+La barra de título en la parte superior de la Vista Ayuda muestra, de izquierda a derecha: Un botón para cerrar la Vista Ayuda; El nombre de la página actual; Los botones Atrás, Adelante, e Inicio.
+
+Conmute /Atrás/ y /Adelante/ entre lecciones enteras, por ejemplo después de seguir un /hipervínculo/ desde una lección a otra. Puede reconocer los hipervínculos por su uso exclusivo de $Link texto subrayado <>.
+
+En la mayoría de los casos, navegará por las lecciones utilizando los botones que se encuentran en la parte inferior de la Vista Ayuda. En este momento, están etiquetados como *Página anterior* y *Página siguiente.*
+
+Una barra de desplazamiento vertical a la derecha completa el conjunto de funciones de la Vista Ayuda, ayudándole a navegar por las páginas más largas.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Encontrar más ayuda
+$TargetName Finding More Help
+
+Para obtener ayuda sensible al contexto mientras trabaja con $0, despliegue la /Vista Info:/
+OverviewInfoView.tif
+
+Se trata de un recurso muy útil que le dará información de casi todo lo que señale con el puntero del ratón. Al giual con con otras muchas vistas en $0, puede mostrarse u ocultarse según lo necesite simplemente pulsando sobre el botón triangular /desplegar/ cerca de su esquina inferior izquierda.
+
+Puede encontrar la más extensa documentación acerca de las características y conceptos de $0 en el $Link Manual de Referencia <Manual>, al que siempre podrá acceder seleccionando *Leer el Manual de Live...* desde el menú Ayuda.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

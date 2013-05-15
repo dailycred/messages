@@ -1,0 +1,179 @@
+$Page Using the APC40 
+$TargetName Using the APC40
+APC40.tif
+
+The /APC40/ (Ableton Performance Controller) is a dedicated controller for Ableton Live, designed by the same engineering team responsible for Akai's iconic MPC range of products. This lesson will help you set up your APC40, and introduce its capabilities.
+
+Click $Link here <Set:/Sets/APC40 Demo.als> to launch a Live Set that you can work with while learning the APC40. Then click the /Next Page/ button at the bottom right of this lesson to proceed, or use the following links for quick reference:
+
+-> $Link Connecting the APC40 <GotoPage:Connecting the APC40>
+-> $Link Clip Launch Matrix <GotoPage:Clip Launch Matrix>
+-> $Link Session Overview <GotoPage:Session Overview>
+-> $Link Mixer Section <GotoPage:Mixer Section>
+-> $Link Device Control <GotoPage:Device Control>
+-> $Link Transport and Global Buttons <GotoPage:Transport and Global Buttons>
+-> $Link Track Control <GotoPage:Track Control>
+-> $Link Tempo Control <GotoPage:Tempo Control>
+-> $Link Crossfader <GotoPage:Crossfader>
+-> $Link Customizing the APC40 Controls <GotoPage:Customizing the APC40 Controls>
+
+For a general introduction to using control surfaces with Live, as well as a list of how Live's devices are mapped across control surfaces, please see the $Link Control Surface Reference <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference> lesson.
+
+$Comment -----------------------------------------------------------------------
+$Page Connecting the APC40 
+$TargetName Connecting the APC40
+
+Once you've unlocked Live, powered on the APC40 and connected it to your computer's USB port, you'll need to select the APC40 in Live's /Preferences./
+
+1) Open Live's Preferences from the /Live/ menu in OS X (or the /Options/ menu in Windows)
+
+2) Go to the /MIDI/Sync Tab/
+
+3) Select the APC40 Preset from the /Control Surface/ chooser. Then select the port the APC40 is connected to in the /Input/ and /Output/ choosers:
+MIDISyncSetup.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Clip Launch Matrix 
+$TargetName Clip Launch Matrix
+
+The APC40's unique matrix of buttons gives you direct access to the clips in your Session View. The matrix has 40 three-color buttons arranged in a five-scene-deep-by-eight-track-wide grid. The smart color-coding system lets you know exactly what's happening in each clip, and simple directional controls let you move around inside your Session View.
+LaunchMatrix.tif
+
+Pressing a /Clip Launch/ button triggers the clip in the corresponding clip slot in Live. If the track is armed to record, pressing the button records a new clip.
+
+The buttons in the matrix light up in different colors so you know what's going on:
+
+-> Yellow: this slot contains a clip
+-> Green: this clip is playing
+-> Red: this clip is recording
+
+Many aspects of the Live interface are replicated in the APC40. You can stop all music in a track with its /Clip Stop/ button and fire horizontal lines of clips with the /Scene Launch/ buttons. /Stop All Clips/ does just that.
+
+The controller tells you what's going on in the software, but, importantly, the software also reflects what's happening on the controller. The clip slots currently being controlled by the button matrix are shown in Live with a simple red border.
+RedBorder.tif
+
+Simple directional controls and a /Shift/ button increase the scope of the eight-by-five grid:
+NavigateAndShift.tif
+
+-> Pressing Up or Down moves you up or down one scene at a time. Hold the Shift button while hitting Up or Down to move five scenes up or down.
+-> The Left and Right arrow keys move you left or right one track at a time. Hold the Shift button while hitting Left or Right to move eight tracks at a time.
+
+$Comment -----------------------------------------------------------------------
+$Page Session Overview 
+$TargetName Session Overview
+
+The APC40's /Session Overview/ lets you navigate through your Live Set quickly. Hold down the Shift button and the matrix zooms out to reveal an overview of your Session View. In the Session Overview, each button represents a five-scene-by-eight-track block of clips, giving you a matrix of 125 scenes by 64 tracks. Hit a button to focus on that section of the Session View. For example, hitting the Shift button and then pressing the button in row three, column one will put the focus on scenes 11-15 and tracks 1-8.
+SessionOverview.tif
+
+In the Session Overview, the color coding is a little different:
+
+-> Yellow: indicates the currently selected block of clips, which will be surrounded by the red border in the software.
+-> Green: there are clips playing in that block of clips (though that may not be the block of clips selected).
+-> Red: there are no clips playing in that range.
+-> No color: there are no tracks or scenes in that range.
+
+$Comment -----------------------------------------------------------------------
+$Page Mixer Section 
+$TargetName Mixer Section
+
+The APC40 features eight tracks, each with its own /fader,/ /solo/pre-cue,/ /mute/ and /record arm/ buttons. A /Master/ fader controls the master volume and a /Cue Level/ knob controls cue volume, so you can pre-listen to a clip or the metronome without your audience hearing it.
+MixerSection.tif
+
+You can shift these eight tracks around the Session View using the directional controls. Press the right or left arrows to move incrementally, one track at a time. Hold the Shift button and press the right or left arrows to jump in blocks of eight tracks at a time.
+
+$Comment -----------------------------------------------------------------------
+$Page Device Control 
+$TargetName Device Control
+
+The APC40 features an intuitive way of controlling effects and virtual instruments. Eight /endless dials/ and four /control buttons/ map to your devices automatically for flexibility and speed on stage or in the studio.
+DeviceControl.tif
+
+The Track Selection buttons route the eight endless encoders to the first device or device rack on that track, with LED rings to automatically show you the levels on the selected parameter.
+
+Four buttons below the dials give you additional control options. /Clip/Track/ lets you switch between viewing the devices on a track or the properties of the clip currently playing on that track. /Device On/Off/ turns the currently selected device on or off. /Device Left/ and /Device Right/ (indicated by two arrows) shift you one step sideways along a track's device chain.
+
+Some effects or virtual instruments have more than eight parameters. When holding down the Shift button, these eight buttons let you select eight banks of eight device parameter controls:
+DeviceParameterBanking.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Transport and Global Buttons 
+$TargetName Transport and Global Buttons
+
+Live's /Play/ /Stop/ and /Global Record/ buttons are all easily accessible, and four global buttons access Live's functions, cleaning up your screen view onstage and freeing you from the mouse in the studio:
+TransportAndGlobalButtons.tif
+
+-> /Detail View/ opens and closes the Clip/Track View, so you can see more of your clips.
+-> /Record Quantization/ lets you toggle input quantization between 'none' and the last selected quantization setting.
+-> /MIDI Overdub/ lets you overdub on a MIDI clip.
+-> /Metronome/ turns the metronome on and off.
+
+$Comment -----------------------------------------------------------------------
+$Page Track Control 
+$TargetName Track Control
+
+The Track Control section covers pan settings and send effects for whichever eight tracks are currently selected. It consists of eight /endless dials/ with LED rings and four buttons: /Pan,/ /Send A,/ /Send B/ and /Send C./
+TrackControl.tif
+
+The buttons let you select what the encoders are controlling, while the encoders control the amount or depth of the pan or send effect.
+
+$Comment -----------------------------------------------------------------------
+$Page Tempo Control 
+$TargetName Tempo Control
+
+/Tap Tempo/ and /Nudge Left/Right/ buttons are essential for live performance, helping you to stay in sync with turntables, other musicians or a live band, and correct timing issues quickly.
+TempoControl.tif
+
+As you hit the Tap Tempo button once every beat, the tempo of the Live Set will follow your tapping.
+
+You can also use tapping to count in: If you are working in a 4:4 signature, it takes four taps to start song playback at the tapped tempo.
+
+On stage and in the studio, you may find yourself in situations in which you need to adjust to sources that aren't locked to one tempo, such as live musicians or turntables. You can use the Nudge buttons to temporarily speed up or slow down Live's playback to match what you hear.
+
+$Comment -----------------------------------------------------------------------
+$Page Crossfader 
+$TargetName Crossfader
+
+The APC40's replaceable crossfader can stand up to some pretty brutal treatment. Not only an essential DJ control, it's also handy for controlling effect, volume and modulation curves.
+Crossfader.tif
+
+In Live, you can set any track as an A or B destination, and then crossfade between A and B with the crossfader.
+CrossfadeAssignment.tif
+
+Normal wear and tear can render a crossfader obsolete. The APC40's crossfader is fully replaceable from the bottom of the device, so you can extend the lifetime of this already durable unit.
+
+$Comment -----------------------------------------------------------------------
+$Page Customizing the APC40 Controls 
+$TargetName Customizing the APC40 Controls
+
+You can change the assignment of all of the knobs, faders and buttons on the APC40.
+
+To prepare the APC40 for custom mapping, you'll need to return to the /MIDI/Sync Tab/ of Live's Preferences. Then enable the Remote switch for the /Input/ and /Output/ ports for the APC40:
+CustomMappingSettings.tif
+
+Enabling an input port's Remote switch tells $0 that it should listen for MIDI control messages arriving from that port, while the Remote switch for the output port allows changes made within Live to be sent out to the controller.
+
+Now, by entering Live's /MIDI Map Mode,/ you can override the pre-assigned functions of all of the APC40's knobs, faders and buttons. Control parameters like tempo by assigning them yourself, and completely customize to your personal workflow.
+
+Divider.tif
+*Tip:* If you have overridden the APC40's default mappings with manual mappings, you can easily switch back to the defaults by deactivating the Remote switch of the APC40's input port. Activating the switch again will re-establish your manual mappings.
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Connecting Multiple APC40s 
+$TargetName Connecting Multiple APC40s
+
+You can use up to six APC40s simultaneously. Each assigned controller will display a different colored ring in Live's Session View. To assign multiple controllers:
+
+1) Make sure that all of the APCs are connected and powered on.
+
+2) Configure the first APC as described $Link previously <GotoPage:Connecting the APC40>
+
+3) To configure the next controller, select APC40 from an unused /Control Surface/ chooser. 
+SecondAPC.tif
+
+4) Select the appropriate port from the /Input/ and /Output/ choosers. On OS X, this will be named "Akai APC40 (Port 2)." On Windows, this will be named "USB Audio Device (Port 2.)"
+
+*Note:* you can use any of the six Control Surface slots for your APC40s, but if you change from one slot to another, you may need to manually unassign the previously assigned Input and Output choosers before your new selection will work.
+
+
+$Comment Status: Translate

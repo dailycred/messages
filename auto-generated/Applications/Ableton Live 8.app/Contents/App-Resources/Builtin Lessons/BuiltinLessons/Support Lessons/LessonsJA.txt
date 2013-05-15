@@ -1,0 +1,21 @@
+$Page 技術的な問題が生じたら
+$TargetName Getting Technical Help
+SupportLogo.tif
+
+お客様への回答を正確・迅速に行うためにも、サポートへご連絡いただく際には、次のファイルを必ずご添付ください。
+
+BUG_REPORTING_PACKAGE_NAME
+
+このステータスレポートPackには、今回のLive実行時に生成された次の情報が含まれています。
+
+-> Liveの[Preferences]ファイルとオーソライズに関するファイル
+-> 今回のプログラム実行中のソフトウェア動作を記録したログファイル
+-> 今回のプログラム実行中に使用されたLiveセット、プリセット、Maxデバイスすべて(サンプルを除く)
+-> Liveにより作成された他のログファイル
+
+上記以外の情報は送信されません。バグレポートに含まれるデータは、バグ修正のみの目的で使用されます。個人情報の使用について、詳しくは $Link プライバシーポリシー <http://www.ableton.com/privacy-policy> をご覧ください。
+
+サポートへのお問い合わせについて、詳しくは $Link ウェブサイトのサポートページ <http://www.ableton.com/support> をご覧ください。
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

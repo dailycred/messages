@@ -1,0 +1,12 @@
+$Page Keine Kurse installiert
+$TargetName No Lessons Installed
+
+Am aktuellen Speicherort Ihrer Library sind keine Kurse installiert.
+
+Klicken Sie $Link hier <Pref:packages>, um die /Live-Packs-Seite/ in den /Voreinstellungen/ von $0 zu öffnen.
+LivePacksTab.tif
+
+Von hier aus haben Sie Zugriff auf die verfügbaren Standard-Live-Packs sowie auf Live-Packs von Abletons Webseite. Wählen Sie ein Kurs-Live-Pack aus, um es zu installieren.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

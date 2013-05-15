@@ -1,0 +1,86 @@
+Application.NoSuchClient=Не постоји клијент за С ИД%.
+Application.NoSuchApp=Не постоји апликација за С ИД%.
+Application.NoClientProvided=Наведите ИД клијента са захтевом.
+Application.NoRedirectProvided=Наведите преусмеравају са ОАутх захтев. <br/> <b>Програмери: пружи</b> свој УРИ за повратни позив користећи параметар <span style="font-family:monospace">редирецт_ури = хттп://вебсите.цом/цаллбацк</span> или постављање подразумеване цаллбацк у <a href="https://www.dailycred.com/admin/setup">подешавањима налога</a> .
+Application.EnterEmailOrUsername=Молимо унесите вашу е-маил или корисничко име.
+Application.EnterEmail=Молимо Вас да унесете своју е-пошту.
+Application.EnterUsername=Молимо Вас да унесете своје корисничко име.
+Application.EnterPassword=Молимо унесите вашу лозинку.
+Application.AtNotAllowed=Симбол &quot;@&quot; не може да се користи на своје корисничко име.
+Application.WrongPasswordOrUsername=Молимо проверите ваше корисничко име и лозинку и покушајте поново. <a href="%s">како би променили лозинку кликните овде.</a>
+Application.BadDomain=Домен &quot;% с&quot; није важећа.
+Application.BadEmail=Молимо Вас проверите да ли ваш е-маил је исправно унели и покушајте поново.
+Application.BadNewEmail=Молимо Вас проверите да ли ваш нови е-маил је исправно унели и покушајте поново.
+Application.PasswordTooShort=Молимо вас унесите лозинку са најмање% д карактера.
+Application.NoCallbackUri=% С није поставио још за повратни УРИ. Молимо Вас покушајте поново касније.
+Application.EmailTaken=Овај емаил је већ у употреби.
+Application.UsernameTaken=Ово корисничко име је већ заузето. Молимо Вас да користите друго корисничко име.
+Application.EmailSent=Порука је послата. Проверите е-пошту за даља упутства.
+Application.EmailSentGmail=Порука је послата. <a href="http://mail.google.com/">Проверите свој Гмаил за даља упутства.</a>
+Application.GoToGmail=Идите на ваш Гмаил инбок
+Application.EmailSentYahoo=Порука је послата. <a href="http://mail.yahoo.com/">Проверите е-пошту Иахоо! даља упутства.</a>
+Application.GoToYahoo=Идите на ваш инбок Иахоо
+Application.EmailSentHotmail=Порука је послата. <a href="http://www.hotmail.com/">Молимо проверите ваш Хотмаил за даља упутства.</a>
+Application.GoToHotmail=Иди на Хотмаил инбок
+Application.EmailSentICloud=Порука је послата. <a href="https://www.icloud.com/#mail">Молимо проверите иЦлоуд Маил за даља упутства.</a>
+Application.GoToICloud=Идите на ваш инбок иЦлоуд
+Application.NoSuchEmail=Не постоји упутство за е-% с.
+Application.NoSuchUser=Не постоји упутство за С ИД%.
+Application.NoSuchUserFriendly=Нисмо могли да пронађемо кориснички налог за овај маил или корисничко име. Молимо Вас покушајте поново.
+Application.NoSuchToken=Дошло је до грешке приликом потписивања вас на свој налог. Покушајте поново ускоро.
+Application.PasswordResetInvalid=Овај захтев за поништавање лозинке је неважећа или није пронађен. Покушајте поновно постављање лозинке.
+Application.PasswordUpdated=Ваша лозинка је ажурирана.
+Application.APIWrongPassword=Молимо Вас да проверите своју лозинку и покушајте поново.
+Application.APIError=Неочекиване грешке. Молимо Вас покушајте поново.
+Application.APIBadToken=Неважећи ОАутх токен за приступ.
+Application.APINoToken=Активан приступ знак мора да се користи за упит информације о тренутном кориснику.
+Application.APIBadCode=Неважећи ОАутх код.
+Application.TimeOut=То ми се чини да траје предуго. Покушајте поново ускоро.
+Application.BadURL=Ово није важећа УРЛ адреса. Ово поље мора да буде пуна, не-релативни УРЛ, као хттпс://ввв.даилицред.цом/цаллбацк
+Application.FriendlyNameTooLong=Ово поље има максималну дужину од 200 знакова. Молимо Вас да користите нешто краћи.
+Application.NoStripeKey=Нема трака АПИ кључ је пронађен. Молимо подесите пругица АПИ кључ у вашем <a href="https://dailycred.com/admin/setup">подешавање</a> страници.
+Application.OAuthCallBackNotInDomain=Условом редирецт_ури није одобрио рачуна овог клијента подешавања.
+Application.CNameNotValidDomain=Условом ЦНАМЕ не изгледа да буде важећи домен.
+Application.Required=Ово је обавезно поље.
+Application.LogoFileTooLarge=Датотека прелази ограничење.
+Application.LogoFileIsNotImage=Тип датотеке није важећа. Само ПНГ, ЈПГ и ГИФ су дозвољени.
+Application.NoClientSecret=Морате навести цлиент_сецрет параметар садржи Даилицред свој тајни кључ.
+Application.InvalidClientSecret=Ово је неважећа Даилицред тајни кључ.
+Application.MissingRequiredFields=Изгледа да недостаје неколико обавезна поља. Молимо идите на <a href="/admin/setup">сетуп</a> страницу да се успостави.
+Application.CouldNotUnsubscribe=Жао нам је, због техничке грешке нисмо могли да те одјавити директно са овог линка. Покушајте поново, или <a href="mailto:support@dailycred.com">нас контактирајте директно</a> да се уклони.
+Application.Unsubscribed=Били сте одјавили. Жао нам је да одете!
+Application.Subscribed=Били сте пријавили. Хвала!
+Application.CouldNotSubscribe=Жао нам је, због техничке грешке нисмо могли да се претплатите директно са овог линка. Покушајте поново, или <a href="mailto:support@dailycred.com">нас контактирајте директно</a> да се дода.
+Application.AdminsCantUnsubscribe=Признаје да не може одјавити из сопственог рачуна.
+Application.EmailIsSame=Нова е-маил је исти као ваш тренутни поште.
+Application.EmailOnlyUserNotAllowed=Ова апликација не подржава е само корисницима.
+Application.EmailChangeSuccess=Ваша е-маил је промењено у% с. Молимо вас тражити потврду е-маил и потврдите своју нову адресу.
+Application.EmailVerifySuccess=Е-маил% с је верификован.
+Application.PostOnly=Овај захтев мора да се користи <b>ХТТП ПОСТ захтев.</b> <br/><br/> Ако сте тек проверавао АПИ, предлажемо вам да користите цУРЛ или <a target="_blank" href="http://hurl.it/">бацити</a> .
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">Корисник</a> има суђења која се ближи крају. Овај емаил је изазвана Стрипе вебхоок.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">Корисник</a> је успешно оптужен. Овај емаил је изазвана Стрипе вебхоок.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">Корисник</a> је безуспешно оптужен. Овај емаил је изазвана Стрипе вебхоок.
+Application.BillingError=Нешто је пошло наопако када покушавате да поставите информације о плаћању. Покушајте поново тренутак.
+Application.TrialWillEnd=Ваша бесплатна проба са Даилицред је о до краја на% с. Молимо Вас посетите <a href="https://www.dailycred.com/admin/settings/billing">страницу за обрачун</a> како би се спречило ваш налог од тога деактивирана.
+Application.TrialWillEndLong=Ваша бесплатна проба са ДаилиЦред ускоро завршава на% с. <br><br> Да би ваш налог активан, молимо вас да посетите <a href="https://www.dailycred.com/admin/settings/billing">страницу за обрачун</a> да прегледате <a href="https://www.dailycred.com/pricing">јефтине планове</a> и унесете детаље плаћања данас.
+Application.CannotRemoveActiveCard=Не можете да уклоните активно метод за обрачун. Ако желите да откажете суппорт@даилицред.цом налога е-поште са вашег броја рачуна.
+Application.StateCheckFailed=Захтев недостаје државну параметар. Молимо Вас покушајте поново.
+Application.UnexpectedError=Жао нам је, до неочекиване грешке. Молимо Вас покушајте поново.
+Application.UserAnotherIdentityProvider=Чини се да имате налог преко% с. <a href="%s">Кликните овде да се повежете помоћу% С</a> , или <a href="%s">кликните овде да поставите лозинку</a> .
+Application.APIKeyNotFound=АПИ кључ није пронађен. Молимо подесите АПИ кључ за ову идентитета провајдера на вашој <a href="https://www.dailycred.com/admin/settings">страници подешавања</a> .
+Application.ForeignIDAlreadyRegistered=Нисмо могли да повежемо овај налог јер фореигнИД% с за% с провајдер је већ повезан са% с корисника.
+Application.TwitterCallbackURLIncorrect=Проверите своје <a href="https://dev.twitter.com/apps">поставке Твиттер апликације</a> . Цаллбацк УРЛ адреса вашег апп не може бити празна. (То може бити било који важећи УРЛ адреса.)
+Application.ThankYouForSigningUp=Хвала што сте се пријавили за% с!
+Application.ThankYouForSigningUpNoClient=Хвала што сте се пријавили!
+Application.CannotDeleteLastApp=Не може се избрисати: Ваш налог мора имати барем једну Апп.
+Application.CouldNotSendEmail=Жао нам је, дошло је до проблема слања тај мејл. Покушајте поново ускоро.
+Application.EmailVerificationRequiredSignUp=Морате да верификујете своју е-пошту пре пријављивања. Проверите е-пошту за даља упутства.
+Application.EmailVerificationRequiredSignIn=Морате да верификујете своју е-пошту пре потписивања унутра Проверите е-пошту за даља упутства.
+Application.Blocked=Жао нам је, да су блокирани од стране администратора.
+
+=
+template.authorize.passwordStrength.0=Врло слаб
+template.authorize.passwordStrength.1=Слаб
+template.authorize.passwordStrength.2=Свакојако
+template.authorize.passwordStrength.3=Добар
+template.authorize.passwordStrength.4=Сјајно!

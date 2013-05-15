@@ -1,0 +1,86 @@
+Application.NoSuchClient=Tidak ada klien ada untuk id% s.
+Application.NoSuchApp=Tidak ada aplikasi ada untuk id% s.
+Application.NoClientProvided=Harap memberikan nomor klien Anda dengan permintaan Anda.
+Application.NoRedirectProvided=Harap memberikan redirect dengan permintaan OAuth Anda. <br/> <b>Pengembang:</b> menyediakan uri callback Anda menggunakan parameter <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> atau dengan menetapkan callback default dalam <a href="https://www.dailycred.com/admin/setup">pengaturan akun Anda</a> .
+Application.EnterEmailOrUsername=Silakan masukkan email atau nama pengguna.
+Application.EnterEmail=Silakan masukkan email Anda.
+Application.EnterUsername=Silakan masukkan nama pengguna.
+Application.EnterPassword=Masukkan sandi Anda.
+Application.AtNotAllowed=Simbol &quot;@&quot; tidak dapat digunakan dalam nama pengguna.
+Application.WrongPasswordOrUsername=Silakan periksa username dan password Anda dan coba lagi. <a href="%s">Untuk mereset password Anda klik di sini.</a>
+Application.BadDomain=The domain &quot;% s&quot; tidak sah.
+Application.BadEmail=Silakan periksa bahwa email Anda telah dimasukkan dengan benar dan coba lagi.
+Application.BadNewEmail=Silakan periksa bahwa email baru telah dimasukkan dengan benar dan coba lagi.
+Application.PasswordTooShort=Harap masukkan sandi dengan minimal% d karakter.
+Application.NoCallbackUri=% S belum menetapkan URI callback belum. Silakan coba lagi nanti.
+Application.EmailTaken=Email ini sudah digunakan.
+Application.UsernameTaken=Username ini telah diambil. Silakan gunakan username yang berbeda.
+Application.EmailSent=Sebuah email telah dikirim. Silakan periksa email Anda untuk instruksi lebih lanjut.
+Application.EmailSentGmail=Sebuah email telah dikirim. <a href="http://mail.google.com/">periksa Gmail Anda untuk instruksi lebih lanjut.</a>
+Application.GoToGmail=Pergi ke inbox Gmail Anda
+Application.EmailSentYahoo=Sebuah email telah dikirim. <a href="http://mail.yahoo.com/">periksa Yahoo! Email Anda untuk instruksi lebih lanjut.</a>
+Application.GoToYahoo=Pergi ke Yahoo inbox
+Application.EmailSentHotmail=Sebuah email telah dikirim. <a href="http://www.hotmail.com/">periksa hotmail Anda untuk instruksi lebih lanjut.</a>
+Application.GoToHotmail=Pergi ke inbox Hotmail
+Application.EmailSentICloud=Sebuah email telah dikirim. <a href="https://www.icloud.com/#mail">periksa iCloud Mail Anda untuk instruksi lebih lanjut.</a>
+Application.GoToICloud=Pergi ke iCloud inbox
+Application.NoSuchEmail=Tidak ada untuk pengguna email s%.
+Application.NoSuchUser=Tidak ada pengguna ada untuk id% s.
+Application.NoSuchUserFriendly=Kami tidak dapat menemukan sebuah akun email ini atau username. Silakan coba lagi.
+Application.NoSuchToken=Ada kesalahan penandatanganan Anda ke akun Anda. Coba beberapa saat lagi.
+Application.PasswordResetInvalid=Ini permintaan atur ulang sandi tidak valid atau tidak ditemukan. Silakan coba atur ulang kata sandi lagi.
+Application.PasswordUpdated=Kata sandi Anda telah diperbarui.
+Application.APIWrongPassword=Silakan periksa password Anda dan coba lagi.
+Application.APIError=Galat tak terduga terjadi. Silakan coba lagi.
+Application.APIBadToken=Akses token OAuth tidak valid.
+Application.APINoToken=Token akses aktif harus digunakan untuk query informasi tentang pengguna saat ini.
+Application.APIBadCode=Kode OAuth tidak valid.
+Application.TimeOut=Yang tampaknya terlalu lama. Coba beberapa saat lagi.
+Application.BadURL=Ini bukan URL yang valid. Bidang ini harus penuh, non-URL relatif, seperti https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Bidang ini memiliki panjang maksimal 200 karakter. Silakan gunakan sesuatu yang lebih pendek.
+Application.NoStripeKey=Tidak Stripe API Key ditemukan. Silakan set API key Stripe di Anda <a href="https://dailycred.com/admin/setup">pengaturan</a> halaman.
+Application.OAuthCallBackNotInDomain=Yang disediakan redirect_uri tidak disetujui oleh pengaturan akun klien ini.
+Application.CNameNotValidDomain=Yang disediakan CNAME tidak muncul untuk menjadi domain yang valid.
+Application.Required=Ini adalah bidang yang diperlukan.
+Application.LogoFileTooLarge=Berkas tersebut melampaui batas ukuran.
+Application.LogoFileIsNotImage=Jenis file tidak valid. Hanya PNG, JPG dan GIF diperbolehkan.
+Application.NoClientSecret=Anda harus menentukan parameter client_secret mengandung kunci rahasia Dailycred Anda.
+Application.InvalidClientSecret=Ini adalah kunci rahasia Dailycred valid.
+Application.MissingRequiredFields=Sepertinya Anda kehilangan beberapa bidang yang diperlukan. Silakan pergi ke <a href="/admin/setup">pengaturan</a> halaman untuk mendapatkan suatu set.
+Application.CouldNotUnsubscribe=Mohon maaf, karena kesalahan teknis kami tidak bisa menghentikan langganan Anda langsung dari link ini. Silakan coba lagi, atau <a href="mailto:support@dailycred.com">hubungi kami langsung</a> untuk dihapus.
+Application.Unsubscribed=Anda telah berhenti berlangganan. Maaf untuk melihat Anda pergi!
+Application.Subscribed=Anda telah berlangganan. Terima kasih!
+Application.CouldNotSubscribe=Mohon maaf, karena kesalahan teknis kami tidak bisa berlangganan Anda langsung dari link ini. Silakan coba lagi, atau <a href="mailto:support@dailycred.com">hubungi kami langsung</a> yang akan ditambahkan.
+Application.AdminsCantUnsubscribe=Diakuinya tidak dapat berhenti berlangganan dari akun mereka sendiri.
+Application.EmailIsSame=Email yang baru adalah sama dengan email Anda saat ini.
+Application.EmailOnlyUserNotAllowed=Aplikasi ini tidak hanya mendukung pengguna email.
+Application.EmailChangeSuccess=Email Anda telah diubah menjadi% s. Silahkan mencari email konfirmasi dan verifikasi alamat baru Anda.
+Application.EmailVerifySuccess=Email s% telah diverifikasi.
+Application.PostOnly=Permintaan ini harus dilakukan dengan menggunakan <b>permintaan POST HTTP.</b> <br/><br/> Jika Anda hanya memeriksa API, kami sarankan menggunakan cURL atau <a target="_blank" href="http://hurl.it/">melemparkan</a> .
+Application.StripeTrialEnd=Seorang <a href="https://www.dailycred.com/admin/user/%s">pengguna</a> memiliki percobaan yang akan berakhir. Email ini disebabkan oleh webhook Stripe.
+Application.StripePaymentSucceeded=Seorang <a href="https://www.dailycred.com/admin/user/%s">pengguna</a> berhasil ditagih. Email ini disebabkan oleh webhook Stripe.
+Application.StripePaymentFailed=Seorang <a href="https://www.dailycred.com/admin/user/%s">pengguna</a> yang berhasil ditagih. Email ini disebabkan oleh webhook Stripe.
+Application.BillingError=Ada yang salah ketika mencoba untuk mengatur informasi penagihan. Silakan coba lagi sesaat.
+Application.TrialWillEnd=Anda percobaan gratis dengan Dailycred akan berakhir pada% s. Silahkan kunjungi Anda <a href="https://www.dailycred.com/admin/settings/billing">halaman penagihan</a> untuk mencegah account Anda dari yang dinonaktifkan.
+Application.TrialWillEndLong=Anda percobaan gratis dengan DailyCred segera berakhir pada% s. <br><br> Untuk menjaga account Anda aktif, harap kunjungi <a href="https://www.dailycred.com/admin/settings/billing">halaman penagihan</a> untuk meninjau <a href="https://www.dailycred.com/pricing">murah rencana</a> dan memasukkan rincian pembayaran hari ini.
+Application.CannotRemoveActiveCard=Anda tidak dapat menghapus metode penagihan aktif. Jika Anda ingin membatalkan email support@dailycred.com account Anda dengan nomor rekening Anda.
+Application.StateCheckFailed=Permintaan hilang parameter negara. Silakan coba lagi.
+Application.UnexpectedError=Maaf, kesalahan yang tidak terduga terjadi. Silakan coba lagi.
+Application.UserAnotherIdentityProvider=Tampaknya Anda memiliki account menggunakan% s. <a href="%s">Klik di sini untuk terhubung menggunakan% s</a> atau <a href="%s">klik di sini untuk mengatur password</a> .
+Application.APIKeyNotFound=API key tidak ditemukan. Silakan set kunci API untuk ini penyedia identitas Anda pada <a href="https://www.dailycred.com/admin/settings">halaman pengaturan</a> .
+Application.ForeignIDAlreadyRegistered=Kita tidak bisa menghubungkan account ini karena foreignID% s untuk% s penyedia sudah dikaitkan dengan pengguna% s.
+Application.TwitterCallbackURLIncorrect=Periksa Anda <a href="https://dev.twitter.com/apps">pengaturan aplikasi Twitter</a> . URL callback App Anda yang tidak boleh kosong. (Hal ini dapat setiap URL yang valid.)
+Application.ThankYouForSigningUp=Terima kasih telah mendaftar untuk% s!
+Application.ThankYouForSigningUpNoClient=Terima kasih telah mendaftar!
+Application.CannotDeleteLastApp=Tidak dapat menghapus: account Anda harus memiliki setidaknya satu App.
+Application.CouldNotSendEmail=Maaf, ada masalah saat mengirim email itu. Coba beberapa saat lagi.
+Application.EmailVerificationRequiredSignUp=Anda harus memverifikasi email Anda sebelum mendaftar. Silakan periksa email Anda untuk instruksi lebih lanjut.
+Application.EmailVerificationRequiredSignIn=Anda harus memverifikasi email Anda sebelum sign in Silakan cek email Anda untuk instruksi lebih lanjut.
+Application.Blocked=Maaf, Anda telah diblokir oleh administrator.
+
+=
+template.authorize.passwordStrength.0=Sangat Lemah
+template.authorize.passwordStrength.1=Lemah
+template.authorize.passwordStrength.2=Bolehlah
+template.authorize.passwordStrength.3=Baik
+template.authorize.passwordStrength.4=Besar!

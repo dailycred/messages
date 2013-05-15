@@ -1,0 +1,86 @@
+Application.NoSuchClient=Žiadny klient existuje s ID%.
+Application.NoSuchApp=Žiadne app existuje s ID%.
+Application.NoClientProvided=Uveďte Vaše klientske číslo vašej žiadosti.
+Application.NoRedirectProvided=Uveďte, prosím, presmerovanie s OAuth žiadosti. <br/> <b>Vývojári:</b> poskytnúť svoje spätné URI pomocou parametra <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> alebo nastavením predvolené spätné volanie v <a href="https://www.dailycred.com/admin/setup">nastaveniach svojho účtu</a> .
+Application.EnterEmailOrUsername=Prosím zadajte svoj e-mail alebo užívateľské meno.
+Application.EnterEmail=Prosím zadajte svoj e-mail.
+Application.EnterUsername=Prosím, zadajte svoje užívateľské meno.
+Application.EnterPassword=Prosím, zadajte svoje heslo.
+Application.AtNotAllowed=Symbol &quot;@&quot; nedá použiť svoje používateľské meno.
+Application.WrongPasswordOrUsername=Skontrolujte prosím užívateľské meno a heslo a skúste to znova. <a href="%s">Ak chcete obnoviť vaše heslo kliknite sem.</a>
+Application.BadDomain=Doména &quot;% s&quot; nie je platný.
+Application.BadEmail=Skontrolujte, či váš e-mail bol zadaný správne, a skúste to znova.
+Application.BadNewEmail=Skontrolujte, či váš nový e-mail bol zadaný správne, a skúste to znova.
+Application.PasswordTooShort=Zadajte prosím heslo, ktoré tvoria najmenej% d znakov.
+Application.NoCallbackUri=% S nie je nastavená na spätné volanie URI ešte. Skúste to znova neskôr.
+Application.EmailTaken=Tento e-mail je už používaný.
+Application.UsernameTaken=Toto užívateľské meno je už prijatá. Použite prosím iné užívateľské meno.
+Application.EmailSent=E-mail bol odoslaný. Skontrolujte prosím e-mail pre ďalšie pokyny.
+Application.EmailSentGmail=E-mail bol odoslaný. <a href="http://mail.google.com/">Skontrolujte prosím Gmail ďalšie pokyny.</a>
+Application.GoToGmail=Prejdite do priečinka Doručená pošta Gmail
+Application.EmailSentYahoo=E-mail bol odoslaný. <a href="http://mail.yahoo.com/">Skontrolujte prosím Yahoo! e-mail pre ďalšie pokyny.</a>
+Application.GoToYahoo=Prejsť do Yahoo schránky
+Application.EmailSentHotmail=E-mail bol odoslaný. <a href="http://www.hotmail.com/">Skontrolujte prosím Hotmail pre ďalšie pokyny.</a>
+Application.GoToHotmail=Prejsť do služby Hotmail schránky
+Application.EmailSentICloud=E-mail bol odoslaný. <a href="https://www.icloud.com/#mail">Skontrolujte prosím iCloud Mail pre ďalšie pokyny.</a>
+Application.GoToICloud=Prejsť do iCloud schránky
+Application.NoSuchEmail=Žiadny užívateľ existuje pre e-mailovú% s
+Application.NoSuchUser=Žiadny užívateľ existuje s ID%.
+Application.NoSuchUserFriendly=Nemohli sme nájsť užívateľský účet pre tento e-mail alebo užívateľské meno. Prosím, skúste to znova.
+Application.NoSuchToken=Došlo k chybe pri podpise vám na váš účet. Skúste to prosím znova krátko.
+Application.PasswordResetInvalid=Táto žiadosť o obnovenie hesla je neplatný alebo nebol nájdený. Skúste to znova obnoviť heslo.
+Application.PasswordUpdated=Vaše heslo bolo aktualizované.
+Application.APIWrongPassword=Skontrolujte heslo a skúste to znova.
+Application.APIError=Došlo k neočakávanej chybe. Prosím, skúste to znova.
+Application.APIBadToken=Neplatný prístup OAuth tokenu.
+Application.APINoToken=Aktívne prístupový token musí byť použité dopytovať informácie o aktuálneho používateľa.
+Application.APIBadCode=Neplatný kód OAuth.
+Application.TimeOut=Zdá sa, že sa príliš dlho. Skúste to prosím znova krátko.
+Application.BadURL=Toto nie je platná adresa URL. Toto pole musí byť úplné, non-relatívna URL, ako https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Toto pole má maximálnu dĺžku 200 znakov. Prosím, použite niečo kratšie.
+Application.NoStripeKey=Nie Stripe API kľúč bol nájdený. Nastavte prosím svoj ​​Stripe API kľúč na vašom <a href="https://dailycred.com/admin/setup">nastavení</a> stránky.
+Application.OAuthCallBackNotInDomain=Ak redirect_uri nie je schválený týmto klienta nastavenia účtu.
+Application.CNameNotValidDomain=Za predpokladu, CNAME sa nezdá byť platným domény.
+Application.Required=Toto pole je povinné.
+Application.LogoFileTooLarge=Veľkosť súboru presiahne limit.
+Application.LogoFileIsNotImage=Typ súboru nie je platný. Iba PNG, JPG a GIF sú povolené.
+Application.NoClientSecret=Musíte zadať client_secret parameter obsahujúci vaše Dailycred tajný kľúč.
+Application.InvalidClientSecret=Toto je neplatná Dailycred tajný kľúč.
+Application.MissingRequiredFields=Vyzerá to, že chýba niekoľko požadovaných polí. Prosím, choďte do <a href="/admin/setup">nastavenia</a> stránky sprevádzkovanie.
+Application.CouldNotUnsubscribe=Je nám ľúto, v dôsledku technickej chyby sme nemohli odhlásiť priamo z tohto odkazu. Skúste to znova, alebo <a href="mailto:support@dailycred.com">nás kontaktujte priamo</a> odstrániť.
+Application.Unsubscribed=Boli ste odhlásiť. Je nám ľúto, že odchádzate!
+Application.Subscribed=Bol si upísaný. Vďaka!
+Application.CouldNotSubscribe=Je nám ľúto, v dôsledku technickej chyby sme nemohli predplatiť priamo z tohto odkazu. Skúste to znova, alebo <a href="mailto:support@dailycred.com">nás kontaktujte priamo</a> sa dopĺňajú.
+Application.AdminsCantUnsubscribe=Pripúšťa, nemôžu odhlásiť zo svojho účtu.
+Application.EmailIsSame=Nového e-mailu je rovnaký ako aktuálna e-mailu.
+Application.EmailOnlyUserNotAllowed=Táto aplikácia nepodporuje iba e-mailom užívateľom.
+Application.EmailChangeSuccess=Váš email bol zmenený na% s Pozrite sa prosím na potvrdzovací e-mail a overte svoju novú adresu.
+Application.EmailVerifySuccess=Napísať% s bola overená.
+Application.PostOnly=Táto žiadosť musí byť vykonané pomocou <b>HTTP POST požiadavke.</b> <br/><br/> Ak ste práve mimo kontrolu API, doporučujeme použiť cURL alebo <a target="_blank" href="http://hurl.it/">vrhnúť</a> .
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">Užívateľ</a> má súd, ktorý sa chýli ku koncu. Tento e-mail bol spôsobený webhook Stripe.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">Užívateľ</a> bol úspešne účtovaný. Tento e-mail bol spôsobený webhook Stripe.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">Užívateľ</a> bol neúspešne účtovaný. Tento e-mail bol spôsobený webhook Stripe.
+Application.BillingError=Niečo je zle, keď sa snažia nastaviť svoje fakturačné údaje. Skúste to prosím znova krátko.
+Application.TrialWillEnd=Váš bezplatnej skúšobnej verzie s Dailycred sa chýli ku koncu na% s Navštívte prosím <a href="https://www.dailycred.com/admin/settings/billing">stránku fakturačnú</a> aby sa zabránilo váš účet pred deaktivovaný.
+Application.TrialWillEndLong=Vaša bezplatná skúšobná verzia s DailyCred končí čoskoro na% s <br><br> Aby bol váš účet aktívny, prosím navštívte <a href="https://www.dailycred.com/admin/settings/billing">stránku fakturačný</a> preskúmať <a href="https://www.dailycred.com/pricing">low-cost plány</a> a zadajte platobné údaje dnes.
+Application.CannotRemoveActiveCard=Nemôžete odstrániť vaše aktívny spôsob účtovania. Ak chcete zrušiť svoj účet e-mailovú support@dailycred.com s číslom účtu.
+Application.StateCheckFailed=Žiadosť chýba štátna parameter. Prosím, skúste to znova.
+Application.UnexpectedError=Ospravedlňujeme sa, došlo k neočakávanej chybe. Prosím, skúste to znova.
+Application.UserAnotherIdentityProvider=Zdá sa, že máte účet pomocou% s <a href="%s">Kliknite tu pripojiť pomocou% s</a> , alebo <a href="%s">kliknite tu nastaviť heslo</a> .
+Application.APIKeyNotFound=API kľúč nebol nájdený. Prosím nastavte API kľúč pre tento poskytovateľa identity na vašej <a href="https://www.dailycred.com/admin/settings">stránke nastavení</a> .
+Application.ForeignIDAlreadyRegistered=Nemohli sme odkaz na túto úvahu, pretože foreignID% s pre poskytovateľa% s je už spojená s s užívateľom%.
+Application.TwitterCallbackURLIncorrect=Skontrolujte, či vaše <a href="https://dev.twitter.com/apps">Twitter nastavenia aplikácie</a> . Vaše aplikácie Callback URL nemôže byť prázdny. (Môže to byť akýkoľvek platný URL).
+Application.ThankYouForSigningUp=Ďakujeme za registráciu do% s!
+Application.ThankYouForSigningUpNoClient=Ďakujeme za registráciu!
+Application.CannotDeleteLastApp=Nedá odstrániť: Váš účet musí mať aspoň jeden App.
+Application.CouldNotSendEmail=Je nám ľúto, že bol problém odoslaním tohto e-mailu. Skúste to prosím znova krátko.
+Application.EmailVerificationRequiredSignUp=Musíte overiť Váš e-mail ešte pred registráciou. Skontrolujte prosím e-mail pre ďalšie pokyny.
+Application.EmailVerificationRequiredSignIn=Musíte overiť svoj e-mail pred podpisom palcov Skontrolujte prosím e-mail pre ďalšie pokyny.
+Application.Blocked=Ospravedlňujeme sa, ale si bola zablokovaná správcom.
+
+=
+template.authorize.passwordStrength.0=Veľmi slabá
+template.authorize.passwordStrength.1=Slabý
+template.authorize.passwordStrength.2=Ako-tak
+template.authorize.passwordStrength.3=Dobrý
+template.authorize.passwordStrength.4=Skvelé!

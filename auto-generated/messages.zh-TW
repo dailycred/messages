@@ -1,0 +1,86 @@
+Application.NoSuchClient=ID％s的無客戶端存在。
+Application.NoSuchApp=沒有應用程序存在為ID％s。
+Application.NoClientProvided=您的要求，請提供您的客戶端ID。
+Application.NoRedirectProvided=請提供您的OAuth的請求重定向。 <br/> <b>開發商</b> <span style="font-family:monospace"><b>：redirect_uri</b> = http://website.com/callback</span>使用參數或在<a href="https://www.dailycred.com/admin/setup">您的帳戶設置中</a>設置一個默認的回調，回調URI 。
+Application.EnterEmailOrUsername=請輸入您的電子郵件或用戶名。
+Application.EnterEmail=請輸入您的電子郵件。
+Application.EnterUsername=請輸入您的用戶名。
+Application.EnterPassword=請輸入您的密碼。
+Application.AtNotAllowed=符號“@”無法使用您的用戶名。
+Application.WrongPasswordOrUsername=請檢查您的用戶名和密碼，然後再試一次。 <a href="%s">要重置您的密碼，請點擊這裡。</a>
+Application.BadDomain=域“％s”不是有效的。
+Application.BadEmail=請正確輸入您的電子郵件，然後再試一次。
+Application.BadNewEmail=請檢查你的新電子郵件的輸入是正確的，然後再試一次。
+Application.PasswordTooShort=請輸入一個密碼至少％d個字符。
+Application.NoCallbackUri=％s不設置一個回調URI。請稍後再試。
+Application.EmailTaken=此電子郵件已在使用中。
+Application.UsernameTaken=此用戶名已被使用。請使用不同的用戶名。
+Application.EmailSent=一封電子郵件已經發送。請檢查您的電子郵件以獲得進一步的說明。
+Application.EmailSentGmail=電子郵件已發送， <a href="http://mail.google.com/">請檢查您的Gmail作進一步的說明。</a>
+Application.GoToGmail=轉到您的Gmail收件箱
+Application.EmailSentYahoo=電子郵件已發送。 <a href="http://mail.yahoo.com/">進一步的說明，請檢查您的Yahoo!電子郵件。</a>
+Application.GoToYahoo=雅虎收件箱
+Application.EmailSentHotmail=已發送電子郵件， <a href="http://www.hotmail.com/">請檢查您的Hotmail進一步說明。</a>
+Application.GoToHotmail=轉到您的Hotmail收件箱
+Application.EmailSentICloud=電子郵件已發送。 <a href="https://www.icloud.com/#mail">進一步的說明，請檢查您的iCloud郵件。</a>
+Application.GoToICloud=轉到您的iCloud的收件箱
+Application.NoSuchEmail=沒有用戶電子郵件％s的存在。
+Application.NoSuchUser=不需要用戶ID％s的存在。
+Application.NoSuchUserFriendly=這封電子郵件或用戶名，我們無法找到一個用戶帳戶。請再試一次。
+Application.NoSuchToken=有一個錯誤，你簽約到您的帳戶。請稍後再試。
+Application.PasswordResetInvalid=這個密碼重置請求是無效的，還是沒有找到。請再次嘗試重置您的密碼。
+Application.PasswordUpdated=您的密碼已更新。
+Application.APIWrongPassword=請檢查您的密碼，然後再試一次。
+Application.APIError=發生意外錯誤。請再試一次。
+Application.APIBadToken=無效的OAuth訪問令牌。
+Application.APINoToken=活躍的訪問令牌，必須使用當前用戶的信息查詢。
+Application.APIBadCode=OAuth的代碼無效。
+Application.TimeOut=這似乎太長。請稍後再試。
+Application.BadURL=這不是一個有效的URL。此字段必須是一個完整的，不相關的URL，如https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=此字段的最大長度為200個字符。請使用較短的東西。
+Application.NoStripeKey=無條紋的API密鑰被發現。在<a href="https://dailycred.com/admin/setup">設置</a>頁面，請設置您的條紋API密鑰。
+Application.OAuthCallBackNotInDomain=redirect_uri不批准該客戶的帳戶設置。
+Application.CNameNotValidDomain=CNAME不會出現是一個有效的域。
+Application.Required=這是一個必需的字段。
+Application.LogoFileTooLarge=該文件超過大小限制。
+Application.LogoFileIsNotImage=文件類型是無效的。只有PNG，JPG和GIF是允許的。
+Application.NoClientSecret=你必須指定一個包含您的Dailycred的密鑰CLIENT_SECRET參數。
+Application.InvalidClientSecret=這是一個無效的的Dailycred秘密密鑰。
+Application.MissingRequiredFields=它看起來像你缺少一些必填字段。請到<a href="/admin/setup">設置</a>頁面設立。
+Application.CouldNotUnsubscribe=我們很抱歉，由於技術性錯誤，我們無法直接從您退訂此鏈接。請再試一次，或<a href="mailto:support@dailycred.com">直接聯繫我們</a>要刪除。
+Application.Unsubscribed=您已經退訂。我們很遺憾地看到你去！
+Application.Subscribed=你已經被認購。非常感謝！
+Application.CouldNotSubscribe=我們很抱歉，由於技術性錯誤，我們不能同意你直接從這個鏈接。請再試一次，或<a href="mailto:support@dailycred.com">直接聯繫我們</a>無以复加。
+Application.AdminsCantUnsubscribe=承認不能退訂從自己的帳戶中。
+Application.EmailIsSame=新的電子郵件是目前的電子郵件一樣。
+Application.EmailOnlyUserNotAllowed=這個應用程序不支持電子郵件的唯一用戶。
+Application.EmailChangeSuccess=您的郵件已被更改為％s。請確認電子郵件，並確認您的新地址。
+Application.EmailVerifySuccess=郵件％s已經得到了驗證。
+Application.PostOnly=這個請求必須使用<b>HTTP POST請求</b> 。 <br/><br/>如果你只是檢查出的API，我們建議使用捲曲或<a target="_blank" href="http://hurl.it/">投擲</a> 。
+Application.StripeTrialEnd=à <a href="https://www.dailycred.com/admin/user/%s">用戶</a>試用即將結束。這是由於電子郵件條webhook。
+Application.StripePaymentSucceeded=à <a href="https://www.dailycred.com/admin/user/%s">用戶</a>成功收取費用。這是由於電子郵件條webhook。
+Application.StripePaymentFailed=à <a href="https://www.dailycred.com/admin/user/%s">用戶</a>充電失敗。這是由於電子郵件條webhook。
+Application.BillingError=出了錯時，試圖設置您的帳單資料。請暫時再試。
+Application.TrialWillEnd=您的免費試用與Dailycred是即將結束在％s。請訪問您的<a href="https://www.dailycred.com/admin/settings/billing">帳單</a> ，以防止您的帳戶被停用。
+Application.TrialWillEndLong=你免費試用DailyCred的結束很快在％s。 <br><br>為了保持激活您的帳戶，請訪問您的<a href="https://www.dailycred.com/admin/settings/billing">帳單頁</a>檢討<a href="https://www.dailycred.com/pricing">低成本計劃</a>和進入今天的付款細節。
+Application.CannotRemoveActiveCard=你不能刪除您的活躍計費方式。如果你想取消您的帳戶的電子郵件support@dailycred.com您的帳號。
+Application.StateCheckFailed=請求缺少狀態參數。請再試一次。
+Application.UnexpectedError=很抱歉，發生意外的錯誤。請再試一次。
+Application.UserAnotherIdentityProvider=你有一個帳戶用％s。 <a href="%s">點擊這裡用％s連接</a>或<a href="%s">點擊這裡設置一個密碼</a> 。
+Application.APIKeyNotFound=API密鑰沒有被發現。請設置一個API密鑰<a href="https://www.dailycred.com/admin/settings">設置</a>此標識提供者。
+Application.ForeignIDAlreadyRegistered=因為foreignID為提供商％s％s的％s用戶已經與我們無法連結此帳戶。
+Application.TwitterCallbackURLIncorrect=檢查您的<a href="https://dev.twitter.com/apps">Twitter應用程序的設置</a> 。你的應用程序的回調URL不能為空。 （它可以是任何有效的URL）。
+Application.ThankYouForSigningUp=感謝您訂閱％s的！
+Application.ThankYouForSigningUpNoClient=謝謝您註冊！
+Application.CannotDeleteLastApp=無法刪除您的帳戶必須至少有一個應用程序。
+Application.CouldNotSendEmail=對不起，有一個問題，發送該電子郵件。請稍後再試。
+Application.EmailVerificationRequiredSignUp=簽約前，您必須確認您的電子郵件。請檢查您的電子郵件以獲得進一步的說明。
+Application.EmailVerificationRequiredSignIn=在登錄前，您必須確認您的電子郵件，請檢查您的電子郵件以獲得進一步的說明。
+Application.Blocked=我們很抱歉，你已經被管理員封鎖。
+
+=
+template.authorize.passwordStrength.0=很弱
+template.authorize.passwordStrength.1=弱
+template.authorize.passwordStrength.2=馬馬虎虎
+template.authorize.passwordStrength.3=好
+template.authorize.passwordStrength.4=太好了！

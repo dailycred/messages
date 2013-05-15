@@ -1,0 +1,86 @@
+Application.NoSuchClient=Hiçbir istemci kimliği% s için var.
+Application.NoSuchApp=Hiçbir uygulama kimliği% s için var.
+Application.NoClientProvided=İsteğiniz ile müşteri kimlik vermek.
+Application.NoRedirectProvided=A OAuth isteği ile yönlendirme veriniz. <br/> <b>Geliştiriciler:</b> Parametre <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> veya varsayılan bir geri arama ayarlayarak kullanarak geri arama uri sağlamak <a href="https://www.dailycred.com/admin/setup">hesap ayarlarınızı</a> .
+Application.EnterEmailOrUsername=E-posta veya kullanıcı adı girin.
+Application.EnterEmail=E-posta girin.
+Application.EnterUsername=Kullanıcı adınızı girin.
+Application.EnterPassword=Şifrenizi giriniz.
+Application.AtNotAllowed=Sembolü &quot;@&quot; kullanıcı adınızı olarak kullanılamaz.
+Application.WrongPasswordOrUsername=Kullanıcı adınızı ve şifrenizi kontrol edin ve tekrar deneyin. <a href="%s">Şifrenizi tıklayınız sıfırlamak için.</a>
+Application.BadDomain=Etki alanı &quot;% s&quot; geçerli değil.
+Application.BadEmail=E-posta doğru girildiğinden emin olun ve tekrar deneyin.
+Application.BadNewEmail=Yeni e-posta doğru girildiğinden emin olun ve tekrar deneyin.
+Application.PasswordTooShort=En az% d karakterden oluşan parola girin.
+Application.NoCallbackUri=% S henüz bir geri arama URI belirlememiştir. Daha sonra tekrar deneyiniz.
+Application.EmailTaken=Bu e-posta zaten kullanılıyor.
+Application.UsernameTaken=Bu kullanıcı adı önceden alınmış. Farklı bir kullanıcı adı kullanın.
+Application.EmailSent=Bir e-posta gönderildi. Daha ayrıntılı talimatlar için e-postanızı kontrol edin.
+Application.EmailSentGmail=Bir e-posta gönderildi. <a href="http://mail.google.com/">ayrıntılı talimatlar için Gmail kontrol ediniz.</a>
+Application.GoToGmail=Gmail gelen kutunuza git
+Application.EmailSentYahoo=Bir e-posta gönderildi. <a href="http://mail.yahoo.com/">ayrıntılı talimatlar için Yahoo! E-posta kontrol ediniz.</a>
+Application.GoToYahoo=Yahoo gelen kutusu git
+Application.EmailSentHotmail=Bir e-posta gönderildi. <a href="http://www.hotmail.com/">ayrıntılı talimatlar için hotmail kontrol ediniz.</a>
+Application.GoToHotmail=Hotmail gelen kutunuza gidin
+Application.EmailSentICloud=Bir e-posta gönderildi. <a href="https://www.icloud.com/#mail">ayrıntılı talimatlar için iCloud posta kontrol ediniz.</a>
+Application.GoToICloud=Sizin iCloud gelen kutusu git
+Application.NoSuchEmail=Hiçbir kullanıcı e-posta% s için var.
+Application.NoSuchUser=Hiçbir kullanıcı kimliği% s için var.
+Application.NoSuchUserFriendly=Bu e-posta veya kullanıcı adı için bir kullanıcı hesabı bulamadı. Lütfen tekrar deneyiniz.
+Application.NoSuchToken=Hesabınızda size imza bir hata oluştu. Kısa bir süre tekrar deneyin.
+Application.PasswordResetInvalid=Bu şifre sıfırlama isteği geçersiz veya bulunamadı değildir. Şifrenizi sıfırlamayı tekrar deneyin.
+Application.PasswordUpdated=Parolanız güncellendi.
+Application.APIWrongPassword=Parolanızı kontrol edin ve tekrar deneyin.
+Application.APIError=Beklenmeyen bir hata oluştu. Lütfen tekrar deneyiniz.
+Application.APIBadToken=Geçersiz OAuth erişim belirteci.
+Application.APINoToken=Aktif bir erişim belirteci geçerli kullanıcı hakkında bilgi sorgulamak için kullanılmalıdır.
+Application.APIBadCode=Geçersiz OAuth kodu.
+Application.TimeOut=Bu çok uzun süreceğe benziyor. Kısa bir süre tekrar deneyin.
+Application.BadURL=Bu geçerli bir URL değil. Bu alan https://www.dailycred.com/callback gibi, tam olmayan göreli bir URL olmalıdır
+Application.FriendlyNameTooLong=Bu alan 200 karakter uzunluğunda. Kısa bir şey kullanın.
+Application.NoStripeKey=Şerit API Anahtarı bulunamadı. Sizin adresinden Şerit API anahtarı Lütfen kullanıcı <a href="https://dailycred.com/admin/setup">kurulum</a> sayfa.
+Application.OAuthCallBackNotInDomain=Sağlanan redirect_uri Bu müşterinin hesap ayarları tarafından onaylanmamıştır.
+Application.CNameNotValidDomain=Sağlanan cname geçerli bir etki alanı olarak görünmüyor.
+Application.Required=Bu gerekli bir alandır.
+Application.LogoFileTooLarge=Dosya boyutu sınırı aşıyor.
+Application.LogoFileIsNotImage=Dosya türü geçerli değil. Sadece PNG, JPG ve GIF izin verilir.
+Application.NoClientSecret=Eğer Dailycred gizli anahtar içeren bir client_secret parametre belirtmeniz gerekir.
+Application.InvalidClientSecret=Bu geçersiz bir Dailycred gizli anahtarıdır.
+Application.MissingRequiredFields=Birkaç gerekli alanları eksik gibi görünüyor. Lütfen gidin <a href="/admin/setup">kurulum</a> kurmak için sayfa.
+Application.CouldNotUnsubscribe=Biz bu linkten doğrudan çıkmak değil, üzgünüm bir teknik hata nedeniyle konum. Tekrar deneyin veya lütfen <a href="mailto:support@dailycred.com">bizimle doğrudan temas</a> kaldırılacak.
+Application.Unsubscribed=Sen çıkmak olmuştur. Biz gitmek görmek için üzgünüz!
+Application.Subscribed=Sen abone oldum. Teşekkürler!
+Application.CouldNotSubscribe=Biz bu linkten doğrudan abone değil bir teknik hata nedeniyle, özür dileriz. Tekrar deneyin veya lütfen <a href="mailto:support@dailycred.com">bizimle doğrudan temas</a> eklenecek.
+Application.AdminsCantUnsubscribe=Itiraf ediyor kendi hesabına çıkmak olamaz.
+Application.EmailIsSame=Yeni e-posta geçerli e-posta ile aynıdır.
+Application.EmailOnlyUserNotAllowed=Bu uygulama yalnızca e-posta kullanıcıları desteklemiyor.
+Application.EmailChangeSuccess=E-posta% s olarak değiştirildi. Onay e-postası için bakmak ve yeni adresinizi kontrol edin.
+Application.EmailVerifySuccess=E-posta% s doğrulandı.
+Application.PostOnly=Bu istek bir <b>HTTP POST isteği</b> kullanılarak yapılmalıdır. <br/><br/> Sadece API kontrol ediyoruz, biz cURL veya kullanmanızı öneririz <a target="_blank" href="http://hurl.it/">savurmak</a> .
+Application.StripeTrialEnd=Bir <a href="https://www.dailycred.com/admin/user/%s">kullanıcı</a> hakkında son bir deneme vardır. Bu e-posta bir şerit webhook neden oldu.
+Application.StripePaymentSucceeded=Bir <a href="https://www.dailycred.com/admin/user/%s">kullanıcı</a> başarıyla suçlandı. Bu e-posta bir şerit webhook neden oldu.
+Application.StripePaymentFailed=Bir <a href="https://www.dailycred.com/admin/user/%s">kullanıcı</a> başarısız suçlandı. Bu e-posta bir şerit webhook neden oldu.
+Application.BillingError=Fatura bilgilerinizi ayarlamak için çalışırken bir şeyler ters gitti. An tekrar deneyin.
+Application.TrialWillEnd=Dailycred ile ücretsiz deneme% s tarihinde sona üzeredir. Lütfen ziyaret edin <a href="https://www.dailycred.com/admin/settings/billing">fatura sayfa</a> devre dışı olmaktan hesap önlemek için.
+Application.TrialWillEndLong=DailyCred ile ücretsiz deneme% s yakında biter. <br><br> Hesabınızı etkinleştirmek için, ziyaret edin <a href="https://www.dailycred.com/admin/settings/billing">fatura sayfa</a> yorumlayan <a href="https://www.dailycred.com/pricing">düşük maliyetli planları</a> ve bugün ödeme bilgilerinizi girin.
+Application.CannotRemoveActiveCard=Eğer aktif faturalandırma yöntemi kaldıramazsınız. Eğer hesap numarası ile hesap e-posta support@dailycred.com iptal etmek isterseniz.
+Application.StateCheckFailed=İstek devlet parametre eksik. Lütfen tekrar deneyiniz.
+Application.UnexpectedError=Üzgünüz, beklenmeyen bir hata oluştu. Lütfen tekrar deneyiniz.
+Application.UserAnotherIdentityProvider=Bu% s kullanarak bir hesap var görünüyor. <a href="%s">% s kullanarak bağlanmak için tıklayınız</a> veya <a href="%s">bir şifre koymak için tıklayınız</a> .
+Application.APIKeyNotFound=API anahtarı bulunamadı. Sizin bu kimlik sağlayıcı için bir API anahtarı Lütfen kullanıcı <a href="https://www.dailycred.com/admin/settings">ayarları sayfasında</a> .
+Application.ForeignIDAlreadyRegistered=Sağlayıcı% s foreignID% s zaten kullanıcı% s ile ilişkili olduğu için bu hesabı bağlantı olamazdı.
+Application.TwitterCallbackURLIncorrect=Lütfen kontrol edin <a href="https://dev.twitter.com/apps">Twitter uygulaması ayarlarını</a> . Sizin App geri arama URL boş olamaz. (Herhangi geçerli bir URL olabilir.)
+Application.ThankYouForSigningUp=% S için kayıt olduğunuz için teşekkür ederiz!
+Application.ThankYouForSigningUpNoClient=Kayıt olduğunuz için teşekkür ederiz!
+Application.CannotDeleteLastApp=Silinemiyor: Hesabınıza en az bir Uygulaması olmalıdır.
+Application.CouldNotSendEmail=Üzgünüz, bu e-posta göndererek bir sorun vardı. Kısa bir süre tekrar deneyin.
+Application.EmailVerificationRequiredSignUp=Sen kaydolmadan önce e-posta doğrulamalısınız. Daha ayrıntılı talimatlar için e-postanızı kontrol edin.
+Application.EmailVerificationRequiredSignIn=Bu oturum açmadan önce e-posta doğrulamalısınız ayrıntılı talimatlar için e-postanızı kontrol edin.
+Application.Blocked=Üzgünüz bir yönetici tarafından bloke edilmiş demektir.
+
+=
+template.authorize.passwordStrength.0=Çok Zayıf
+template.authorize.passwordStrength.1=Zayıf
+template.authorize.passwordStrength.2=Şöyle böyle
+template.authorize.passwordStrength.3=Iyi
+template.authorize.passwordStrength.4=Büyük!

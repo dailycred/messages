@@ -1,0 +1,15 @@
+$Page Cos'è la Libreria?
+$TargetName What is the Library?
+
+La /Libreria/ di Live è il luogo nel quale collocare i suoni e i preset che dovrebbero essere accessibili a tutti i Progetti.
+Library.tif
+
+Puoi accedere ai contenuti della tua Libreria utilizzando il menu dei /segnalibri/ in qualsiasi Browser dei File di Live:
+LibraryMenu.tif
+
+La Libreria comprende preset, loop, groove e altre idee sonore fornite in concessione da Ableton. Ti invitiamo a fare esperimenti con questo materiale per farti un'idea di ciò che il programma è in grado di fare.
+
+Ableton fornisce contenuti di Libreria aggiuntivi sotto forma di /Live Pack./ La versione boxed di Live include diversi gigabyte di strumenti multicampionati. Troverai altri Live Pack presso il $Link sito web Ableton <http://www.ableton.com/downloads>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

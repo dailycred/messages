@@ -1,0 +1,110 @@
+$Page Superfici di Controllo M-Audio Axiom
+$TargetName M-Audio Axiom Control Surfaces
+
+Live estende il supporto per superfici di controllo alla serie /Axiom/ di M-Audio. Questa lezione ti aiuterà a configurare la tua Axiom e ti introdurrà alle sue capacità.
+Axioms.tif
+
+
+Clicca sul pulsante /Pagina succ./ ai piedi di questa pagina per procedere oppure clicca sui seguenti link per accedere rapidamente alle specifiche sezioni della lezione:
+
+-> $Link Configurazione della Axiom <GotoPage:Setting Up the Axiom>
+-> $Link Funzioni dei Preset della Axiom <GotoPage:Functions of the Axiom's Presets>
+-> $Link Controllo di Sessione e Arrangiamento <GotoPage:Controlling the Session and Arrangement>
+-> $Link Controllo dei Dispositivi di Live <GotoPage:Controlling $0's Devices>
+
+Per un'introduzione generale sull'uso delle superfici di controllo con Live, nonché per un elenco di come i dispositivi di Live siano mappati alle varie superfici di controllo, fai riferimento alla lezione $Link Guida sulle Superfici di Controllo <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference>.
+
+$Comment -----------------------------------------------------------------------
+$Page Configurazione della Axiom
+$TargetName Setting Up the Axiom
+
+Innanzitutto accertati che la tua Axiom sia collegata al computer e accesa. Gli utenti Windows che non abbiano effettuato questo passaggio prima di lanciare Live dovranno riavviare Live affinché la Axiom possa essere riconosciuta.
+
+Apri le Preferenze di Live selezionando /Preferenze/ nel menu 'Live' (Mac OS X) o nel menu 'Opzioni' (Windows). Quindi accedi alla scheda /MIDI/Sync./
+
+Nella parte superiore seleziona il modello della tua Axiom tramite il selettore /Superficie di Controllo,/ quindi definisci le porte MIDI di Entrata e di Uscita alle quali è collegata.
+
+Cliccando sul pulsante /Dump/ verranno cancellati i contenuti dei preset 18, 19 e 20 della tua Axiom e questa verrà configurata per l'uso come superficie di controllo di Live. Live ti avvertirà di tutto ciò e ti darà la possibilità di annullare il dump di preset prima di sovrascrivere qualsiasi dato. Se invece desideri procedere, clicca su "OK" nella finestra di avvertimento.
+
+Dopodiché chiudi le Preferenze di Live e seleziona i preset 18, 19 o 20 sulla tua Axiom. Se il preset desiderato è già selezionato sarà necessario selezionarlo nuovamente affinché le modifiche abbiano effetto.
+
+$Comment -----------------------------------------------------------------------
+$Page Funzioni dei Preset della Axiom
+$TargetName Functions of the Axiom's Presets
+
+La Axiom ti permette di controllare la Vista Sessione, la Vista Arrangiamento e tutti i dispositivi di Effetto disponibili in Live. Puoi passare dal controllo della Vista Sessione/Arrangiamento a quello dei dispositivi di Live semplicemente cambiando il canale MIDI della tua Axiom. I preset 18-20 forniscono alcune condizioni utili durante l'utilizzo della superficie di controllo:
+
+*Preset 20:* nel Preset 20 tutti i controlli della Axiom trasmettono sul Canale Global. Pertanto, dovresti usare il Preset 20 per ottenere il controllo generale sull'intera superficie di controllo modificando l'impostazione del Canale Global della tua Axiom. Questo è descritto più dettagliatamente nelle sezioni successive.
+
+*Preset 19:* nel Preset 19 gli encoder trasmettono sul Canale 16, condizione che li assegna al controllo di qualsiasi dispositivo di Live venga puntato. Gli slider e i pulsanti degli slider (solo modelli 49 & 61) trasmettono sul Canale 1, il che significa che controlleranno sempre Volume, Pan, Mute e Armamento per la Registrazione delle tracce 1-8 nella Vista Sessione/Arrangiamento. Con il Preset 19 selezionato, i controlli sono assegnati alle rispettive funzioni nella superficie di controllo e, pertanto, l'impostazione del Canale Global della tua Axiom non ha alcun effetto sulla superficie di controllo stessa. Usa questo preset se stai controllando una traccia MIDI su un determinato canale MIDI e allo stesso tempo desideri modificare i parametri dei dispositivi di Live.
+
+*Preset 18:* nel Preset 18 i pad sono predisposti sulle note MIDI che attivano gli 8 pad di Impulse. Gli slider, i pulsanti degli slider (solo modelli 49 & 61) e gli encoder sono assegnati al Canale 1, il che significa che controllano Volume, Pan, Mute e Armamento per la Registrazione delle tracce 1-8. Come nel Preset 19, l'impostazione del Canale Global della tua Axiom non ha alcun effetto sulla superficie di controllo. Dovresti dunque usare questo preset per suonare Impulse sul canale MIDI richiesto utilizzando i pad della tua Axiom.
+
+
+Divider.tif
+/Suggerimento:/ puoi impostare i pulsanti '+' e '-' della tua Axiom per cambiare il canale MIDI al volo. Per farlo, premi il pulsante 'Glob Chan'. Pertanto, puoi usare i pulsanti '+' e '-' per passare rapidamente tra il controllo di un dispositivo di Live e il controllo della Vista Sessione/Arrangiamento.
+
+$Comment -----------------------------------------------------------------------
+$Page Controllo di Sessione e Arrangiamento
+$TargetName Controlling the Session and Arrangement
+
+Le sezioni seguenti descrivono le funzioni della Axiom. Il controllo della Vista Sessione e il controllo della Vista Arrangiamento sono molto simili.
+
+Divider.tif
+
+/Trasporto/
+
+-> LOOP: Innesca la riproduzione della Scena (Vista Sessione) | Attiva la Modalità Loop (Vista Arrangiamento).
+-> AVVOLGIMENTO RAPIDO: Seleziona la Scena precedente (Vista Sessione) | Salta indietro di una misura (Vista Arrangiamento).
+-> AVANZAMENTO RAPIDO: Seleziona la Scena successiva (Vista Sessione) | Salta avanti di una misura (Vista Arrangiamento).
+-> STOP: Stop
+-> PLAY: Riproduzione
+-> RECORD: Registrazione
+
+/Nota:/ i controlli di Trasporto devono trasmettere sul Canale MIDI 16. Questo è il loro canale pre-definito nei Preset 18, 19 e 20.
+
+Divider.tif
+
+/Controlli dipendenti dai Canali/
+
+Alcuni controlli hanno funzioni diverse a seconda del canale MIDI selezionato. Ad esempio, i primi 8 slider, i pulsanti dei primi 8 slider e gli encoder formano una strip di canali per le prime 8 tracce sul Canale 1. Cambiando il canale MIDI è possibile selezionare altre tracce da controllare, come segue:
+
+Canale 1: Tracce 1-8
+Canale 2: Tracce 9-16
+Canale 3: Tracce 17-24
+Canale 4: Tracce 25-32
+
+Ciò significa che puoi saltare rapidamente tra gruppi di 8 tracce usando i pulsanti '+' e '-'.
+
+-> Slider 9: Volume Master
+-> Pulsante dello Slider 9: questo è un pulsante di modifica. Se premuto, i pulsanti degli slider armano per la registrazione le tracce selezionate. Se rilasciato, i pulsanti degli slider mettono in Mute le tracce selezionate.
+-> Slider 1-8: Volume delle otto tracce selezionate.
+-> Pulsanti degli Slider 1-8: Mute/Armamento per la Registrazione delle otto tracce selezionate.
+-> Encoder 1-8: Pan delle otto tracce selezionate.
+-> Pad 1-8: Innesco delle clip nelle otto tracce selezionate della scena selezionata (Vista Sessione) | Salta al marcatore 1-8, 9-16, etc. (Vista Arrangiamento).
+
+
+Divider.tif
+/Nota per Axiom 25:/ la Axiom 25 non dispone di slider. Pertanto, per default, gli encoder controllano il Volumi delle tracce 1-8. Tuttavia, se colleghi un pedale alla porta Expression della tua Axiom 25, questo pedale agirà da modificatore del funzionamento degli encoder. A questo scopo, consigliamo di usare uno pedale di commutazione (tipo switch). Lo stato OFF o il valore 0 faranno sì che che gli encoder controllino il Volume delle tracce di Live. Lo stato ON o un qualsiasi valore diverso da 0 faranno sì che gli encoder controllino il Pan delle tracce di Live.
+
+/Nota per Axiom 49/61:/ lo slider 9 controlla sempre il Volume Master, indipendentemente dal canale sul quale trasmette.
+
+/Suggerimento:/ premi 'Ctrl Mute' per allineare uno slider al fader del volume di Live senza far saltare il parametro.
+
+$Comment -----------------------------------------------------------------------
+$Page Controllo dei Dispositivi di Live
+$TargetName Controlling $0's Devices
+
+Per controllare i dispositivi di Live devi impostare la tua Axiom sul Canale MIDI 16. Puoi farlo al volo usando i pulsanti '+' e '-'. Se è selezionato il Canale 1 e premi il pulsante '-', diventa selezionato il Canale 16. Perciò, i pulsanti '+' e '-' consentono di passare rapidamente tra il controllo dei dispositivi di Live e il controllo della Vista Sessione/Arrangiamento.
+
+La Axiom controllerà il dispositivo che è stato selezionato per ultimo o che è attivo correntemente.
+
+I parametri di ogni dispositivo si mappano sugli encoder della Axiom. Nei modelli Axiom 49 e Axiom 61 gli slider e i pulsanti degli slider non hanno alcuna funzione quando trasmettono sul Canale 16. Questo significa che, se lo desideri, puoi usarli per la funzione MIDI "Learn" (acquisizione del messaggio MIDI).
+
+*Nota:* lo slider 9 è un'eccezione, poiché controlla sempre il Volume Master, indipendentemente dal canale sul quale trasmette.
+
+Alcuni dei dispositivi di Live hanno più di 8 parametri da controllare. In tal caso i parametri sono suddivisi in banchi. I banchi si selezionano premendo i pad: Pad 1 per Banco 1, Pad 2 per Banco 2, etc.
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

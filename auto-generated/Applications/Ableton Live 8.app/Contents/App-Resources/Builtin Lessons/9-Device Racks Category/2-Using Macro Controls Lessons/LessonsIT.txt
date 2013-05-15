@@ -1,0 +1,162 @@
+$Page Uso dei Controlli Macro
+$TargetName Using Macro Controls
+$ListInTocForProduct 00
+
+Una delle caratteristiche più potenti dei Rack di Live è il set di /Controlli Macro./ Ogni Rack comprende otto manopole totalmente definibili dall'utente: ciascuna manopola può controllare qualsiasi numero di parametri di qualsiasi dispositivo all'interno del Rack - contemporaneamente. Inoltre, ciascun Controllo Macro può avere un intervallo e una polarità propri. E, naturalmente, ogni manopola Macro può essere a sua volta controllata da un controller MIDI hardware per una ulteriore flessibilità durante le performance dal vivo.
+
+In questa lezione apprenderai come creare e modificare le assegnazioni dei Controlli Macro e come gestire questi controlli via MIDI.
+
+Divider.tif
+*Questa lezione è accompagnata da un Live Set col quale interagirai procedendo. Quando sei pronto $Link clicca qui <Set:/Sets/Using Macro Controls.als> per caricare il Live Set.*
+Divider.tif
+
+
+Una volta caricato il Set, clicca sul pulsante /Pagina succ./ qui sotto per continuare.
+
+$Comment --------------------------------------------------------------------------------
+$Page Visualizzazione dei Controlli Macro
+$TargetName Viewing the Macro Controls
+
+Questo Set contiene una traccia, chiamata *Synth,* che a sua volta contiene un Rack piuttosto semplice con due catene. Se non hai già seguito la lezione $Link Costruzione di Strumenti Stratificati <Lesson:Builtin/9-Device Racks Category/1-Building Layered Instruments>, ti consigliamo di cominciare da lì per acquisire familiarità con le nozioni di base sulla creazione e l'utilizzo dei Rack.
+
+Divider.tif
+Se hai bisogno di aiuto per configurare la tua tastiera MIDI, segui la lezione $Link Collegamento dei Controller MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+Divider.tif
+
+Per iniziare a lavorare con i Controlli Macro, attivane la visualizzazione cliccando sul pulsante /Mostra/Nascondi Controlli Macro./
+ShowMacros.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Modalità Mappatura
+$TargetName Map Mode
+
+Con la finestra dei Controlli Macro aperta, puoi vedere le nostre otto manopole.
+MacroKnobs.tif
+
+Attualmente non sono assegnate, pertanto, sebbene tu possa ruotarle come qualsiasi altra manopola di Live, per ora non agiscono su alcunché. Per configurarle clicca sul pulsante /Map Mode/ (Modalità Mappatura).
+MacroMapButton.tif
+
+Quando accedi alla Modalità Mappatura accadono diverse cose:
+-> Se il Browser è aperto, diventa il /Browser delle Mappature./ Una volta definite alcune mappature dei Controlli Macro, puoi editarle qui.
+MacroBrowser.tif
+
+-> Ogni parametro del Rack assegnabile ad un Controllo Macro viene evidenziato. Ciò include tanto quasi tutti i parametri di qualsiasi dispositivo del Rack, quanto i controlli /Volume,/ /Pan/ e /Attivazione/ della /Catena,/ sia nell' /Elenco delle Catene/ sia nel Mixer della Sessione.
+-> L'area sotto ciascuna manopola Macro diventa un pulsante chiamato /Map./
+MapButtons.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Assegnazione dei Controlli Macro
+$TargetName Assigning Macro Controls
+
+Per assegnare un parametro ad una manopola Macro, devi innanzitutto assicurarti di stare guardando la giusta catena di dispositivi. Fallo adesso, cliccando come prima cosa sulla catena "Air" per selezionarla.
+AirChain.tif
+
+Poi clicca sulla manopola /Freq/ nello strumento /Simpler/ della catena, per prepararne la Frequenza di Taglio del Filtro all'assegnazione.
+FreqKnob.tif
+
+Nota come i pulsanti Map vengano abilitati non appena clicchi su un parametro. Per completare la mappatura, clicca sul pulsante Map sotto la manopola etichettata /Macro 1./
+
+Una volta eseguita un'assegnazione, accadono diverse altre cose:
+-> Ora puoi vedere (e modificare) i dettagli della mappatura nel Browser delle Mappature.
+MappingEntry.tif
+
+-> Il parametro assegnato appare con una cornice colorata nel proprio angolo superiore sinistro e con un campo di testo che mostra il nome del Controllo Macro al quale è stato mappato.
+AssignedKnob.tif
+
+-> Il Controllo Macro mappato ha ora preso sia il nome, sia le unità del parametro mappato.
+MacroNameUnits.tif
+
+-> Ora, quando il parametro assegnato è selezionato, il pulsante sotto il Controllo Macro "Filter Freq" indica /Unmap/ (rimuovi la mappatura). Puoi cliccarlo per eliminare l'assegnazione della frequenza di taglio del filtro. Puoi eliminare le assegnazioni anche tramite le rispettive voci nel Browser delle Mappature. Inoltre, puoi effettuare/eliminare (ed editare) le assegnazioni tramite il *menu di contesto,* cliccando destro sul parametro, sulla  manopola Macro o sul Campo del Nome del Controllo Macro.
+MappingContext.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Assegnazioni Macro Multiple
+$TargetName Multiple Macro Assignments
+
+Ora assegnamo la risonanza del filtro allo stesso Controllo Macro. Per farlo, clicca sulla manopola /Res/ per selezionarla, quindi clicca sul pulsante Map del primo Controllo Macro per completare l'assegnazione.
+ResKnob.tif
+
+Poiché hai assegnato lo stesso Controllo Macro a più parametri, il nome della manopola torna ad un generico "Macro 1". Rinominiamolo con qualcosa di più facile da ricordare - come "Filter". Per rinominare un Controllo Macro, cliccalo per selezionarlo, quindi premi *$CommandMod-R* per richiamare il comando Rinomina, oppure *cliccalo destro* per accedere allo stesso comando tramite il menu di contesto. Nota come il nome si aggiorni immediatamente, sia nel campo di testo di entrambi i nostri parametri assegnati, sia nel Browser delle Mappature. Questo rende più facile tenere traccia di cosa sia stato assegnato a cosa.
+
+Finora abbiamo assegnato due parametri dello stesso dispositivo ad un Controllo Macro. Ma i Controlli Macro possono essere assegnati anche a più dispositivi, a condizione che siano contenuti nello stesso Rack. Per assegnare i parametri del filtro del dispositivo della catena "Wood", semplicemente clicca sul nome della catena nell'Elenco delle Catene per selezionarla:
+WoodChain.tif
+
+Quindi mappane le manopole Freq e Res al Controllo Macro "Filter", esattamente come hai fatto per lo strumento Simpler della catena "Air".
+
+Una volta fatto, dovresti avere quattro voci nel Browser delle Mappature.
+FourAssignments.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Il Browser delle Mappature
+$TargetName The Mapping Browser
+
+Il Browser delle Mappature consente di visualizzare in un unico luogo tutte le impostazioni delle tue assegnazioni e, se necessario, di regolarne gli intervalli. Per default, il Browser mostra le seguenti colonne:
+
+-> *Macro* - nome di ciascuna manopola Macro assegnata
+-> *Percorso* - nome della catena, seguito dal nome del dispositivo della catena assegnato
+-> *Nome* - nome del parametro assegnato
+-> *Min* - valore del parametro quando la manopola Macro è ruotata completamente in senso antiorario
+-> *Max* - valore del parametro quando la manopola Macro è ruotata completamente in senso orario
+
+*Cliccando destro* nell'area d'intestazione del Browser, puoi scegliere quali di queste colonne mostrare o nascondere.
+BrowserContext.tif
+
+Quando si deve gestire un elevato numero di mappature, può essere utile focalizzare l'attenzione solo su determinati criteri - per esempio, tutti i parametri assegnati a Macro 1 oppure tutti i parametri di un particolare dispositivo. Per aiutarti, puoi riordinare il Browser delle Mappature per Macro, per Percorso o per Nome, cliccandone le rispettive intestazioni.
+SortingTriangle.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Editing delle Mappature dei Controlli Macro
+$TargetName Editing Macro Mappings
+
+Modificando i campi Min e Max nel Browser delle Mappature puoi limitare (o addirittura invertire) gli intervalli dei valori che saranno trasmessi dalle manopole Macro ai rispettivi parametri mappati. Ad esempio, per limitare a 150 Hz il valore Min della frequenza di taglio di "Air", semplicemente selezionane la voce nel Browser delle Mappature...
+AirFilterSelect.tif
+
+...poi digita *150* nel suo campo Min.
+TypedMinValue.tif
+
+Come tutti gli altri campi numerici di Live, queste aree di testo sono anche dei cursori: in quanto tali, puoi trascinarli con il mouse per impostarne il valore.
+
+Ora, ruotando la manopola Macro puoi constatare che hai modificato unicamente questo valore: gli altri parametri assegnati sono rimasti inalterati.
+
+Limitiamo anche il valore Max del controllo Res di questo filtro a *4,* per limitare i picchi aspri causati dalle impostazioni di risonanza estremamente alte. I campi del tuo filtro di "Air" dovrebbero dunque apparire così:
+AirFilterSettings.tif
+
+Poiché i campi Min e Max del Browser delle Mappature possono essere impostati in modo indipendente lungo l'intero intervallo di valori praticabili per un determinato parametro, creare mappature /invertite/ è facile: basta impostare il valore Min /più alto/ del corrispondente valore Max. Un metodo ancora più semplice è quello di usare il comando *Inverti Intervallo,* accessibile *cliccando destro* sulla voce desiderata nel Browser delle Mappature. Ciò scambia immediatamente i valori Min e Max. Prova a farlo adesso con l'assegnazione Filter Freq di "Air".
+InvertRange.tif
+
+Ora, ruotando in Controllo Macro "Filter" in senso orario, la frequenza di taglio del filtro si abbassa, mentre la risonanza si alza.
+
+$Comment --------------------------------------------------------------------------------
+$Page Controllo MIDI dei Controlli Macro
+$TargetName MIDI Control of Macros
+
+Divider.tif
+Se la tua tastiera MIDI non dispone di manopole e/o fader, dovrai configurare un'altra superficie di controllo per questa parte della lezione. Se hai bisogno di aiuto per la configurazione, segui la lezione $Link Collegamento dei Controller MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+Divider.tif
+
+Per una flessibilità ancora maggiore, puoi assegnare manopole e fader MIDI per controllare le manopole Macro. La creazione di queste assegnazioni MIDI funziona come tutte le altre assegnazioni MIDI di Live. Innanzitutto, clicca sull'interruttore *Modalità Mappatura MIDI* (o premi *$CommandMod-M).*
+MIDIMapButton.tif
+
+Poi, clicca sul Controllo Macro "Filter" per selezionarlo per la mappatura MIDI.
+MIDIKnob.tif
+
+Quindi, muovi l'elemento hardware (manopola/fader) che desideri assegnare. Esci dalla Modalità Mappatura MIDI per utilizzare la tua nuova assegnazione del controller.
+
+*Nota* - quando sei in Modalità Mappatura MIDI, il Browser delle Mappature mostra le assegnazioni della Mappatura MIDI (anziché le assegnazioni dei Controlli Macro). I Browser MIDI e Macro condividono una buona parte di funzionalità, compresa la possibilità di limitare e invertire i valori Min e Max degli intervalli delle assegnazioni. L'inversione di un'assegnazione MIDI ha lo stesso comportamento dell'inversione di un'assegnazione Macro.
+
+Ma se inverti l'assegnazione MIDI di un Controllo Macro che ha /già/ una mappatura invertita di un determinato parametro, il controllo MIDI di tale parametro si comporterà come se non fosse invertito. Questo tipo di scenario comporta un elevato rischio di mal di testa. La morale della favola è che è facile perdere traccia delle tue mappature: "da un grande potere derivano grandi responsabilità".
+
+$Comment --------------------------------------------------------------------------------
+$Page Come continuare?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Ora sai come assegnare i Controlli Macro ad uno o più parametri all'interno di un Rack. Configurando con cura i tuoi Controlli Macro quando allestisci i tuoi Rack, puoi nascondere una complessa struttura di strumenti e/o effetti dietro ad un'interfaccia di controllo facile da modificare. Fai degli esperimenti, aggiungendo e modificando ulteriori assegnazioni di controlli Macro, per acquisire più dimestichezza con il flusso di lavoro.
+
+-> Prova ad assegnare un Controllo Macro ai cursori /Volume della Catena./ Invertendo una delle assegnazioni, puoi creare un crossfader per catene.
+
+-> Per esperimenti di sound design radicali, prova ad assegnare i Controlli Macro a parametri completamente privi di correlazione all'interno di un singolo dispositivo. Ad esempio, una manopola Macro che controlli la Frequenza dell'LFO, il tipo di Filtro e la Trasposizione può avere un impatto sconvolgente (nel bene e nel male) sulla tua patch - specialmente quando inizi a manipolare i valori Min e Max.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

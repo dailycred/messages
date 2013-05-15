@@ -1,0 +1,140 @@
+$Page Creazione di suoni di Pad
+$TargetName Creating Pad Sounds
+$ListInTocForProduct 40
+
+Nelle lezioni precedenti ci siamo focalizzati sugli strumenti di sintesi ibrida di Operator. In questa lezione useremo i quattro oscillatori e le opzioni di filtraggio morbido di Operator per creare una serie di ricche trame di pad.
+
+Divider.tif
+*Nota:* questa lezione è accompagnata da un Live Set col quale interagirai procedendo. $Link Clicca qui <Set:/Sets/OP-Default Set.als> per caricare il Live Set.
+Divider.tif
+
+Come per le altre lezioni di Operator, puoi ottenere una migliore visione dello strumento nella /Vista Traccia./ Richiudi la /Finestra Info/ cliccando sul pulsante Mostra/Nascondi nell'angolo in basso a sinistra dello schermo.
+HideInfoViewPad.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Regolazione del Primo Oscillatore
+$TargetName Adjusting the First Oscillator
+
+Rendi la sezione globale di Operator accessibile nel display, cliccandola nella shell:
+GlobalSectionPad.tif
+
+Seleziona l'ultimo algoritmo, che contiene quattro oscillatori paralleli:
+LastAlgorithm.tif
+
+Inizieremo lavorando con l'Oscillatore A: imposta /Level/ a -3.5 dB, lascia l'intonazione /Coarse/ a 1 e aumenta l'intonazione /Fine/ a 6.
+OscASettings.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Inviluppo e Forma d'Onda
+$TargetName The Envelope and Waveform
+
+Regoliamo l'inviluppo dell'oscillatore, ammorbidendone l'attacco e il rilascio per levigare il suono.
+
+Accertandoti che l'Oscillatore A sia ancora selezionato, allunga il tempo di /Attack/ a 29.4 ms e quello di /Release/ a 759 ms (ricorda che puoi cliccare sui parametri e digitare i valori):
+OscAEnvelope.tif
+
+Suona qualche accordo e regola l'attacco e il rilascio a tuo piacimento.
+
+Nota che un tempo di rilascio più lungo conferirà alla progressioni di accordi un coda simil-riverbero (a scapito delle risorse di CPU, dal momento che richiede più polifonia).
+
+Quindi, imposta la forma d'onda di /Wave/ su Saw 16 (Sw16 - Dente di Sega 16), la quale è simile alla Saw 64 che abbiamo utilizzato nelle precedenti lezioni, ma con meno armoniche alte:
+OscASw16.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Il Secondo Oscillatore
+$TargetName The Second Oscillator
+
+Una volta che hai modificato l'inviluppo e selezionato la forma d'onda dell'Oscillatore A, imposta in modo identico l'inviluppo e la forma d'onda dell'Oscillatore B. Il modo più semplice per farlo è quello di passare alla visualizzazione dell'inviluppo dell'Oscillatore B e poi copiare le impostazioni di A utilizzando il comando che diventa disponibile cliccando destro sul display:
+CopyOscillator.tif
+
+Quindi abbassa l'intonazione /Coarse/ dell'Oscillatore B a 0.5 e aumentane l'intonazione /Fine/ a 994:
+OscBTuning.tif
+
+Questa intonazione darà al suono un lieve effetto chorus.
+
+Suonando qualche altro accordo sentirai che ora abbiamo un suono base di pad con un tocco di risonanza dovuta alle caratteristiche delle forme d'onda.
+
+A questo punto puoi sperimentare l'uso di forme d'onda diverse sugli Oscillatori A e B. Quando hai finito di esplorare, riportane le impostazioni su SW16.
+
+$Comment --------------------------------------------------------------------------------
+$Page Uso del parametro Spread
+$TargetName Using the Spread Parameter
+
+Operator dispone di un bell'effetto simil-chorus chiamato /Spread./ Questa funzione utilizza due copie del suono, stonandole leggermente e allargando il campo stereo: un effetto perfetto per arricchire un pad (o qualsiasi altro suono).
+
+Per ottenere il massimo da questo effetto, impostalo al 100% e ascoltane i risultati:
+Spread.tif
+
+/Nota:/ poiché la funzione Spread raddoppia il suono con una copia leggermente stonata, utilizza il doppio della polifonia e anche il doppio delle risorse di CPU. Se stai usando un sistema poco potente, usa questa funzione con criterio oppure semplicemente registra la parte come audio in una clip diversa, quando hai finito di crearla. (Per ulteriori informazioni, ved. capitolo "Registrazione di Nuove Clip" nel $Link manuale di riferimento <Manual>.
+
+$Comment --------------------------------------------------------------------------------
+$Page Rendere il suono più profondo
+$TargetName Deepening the Sound
+
+Per rendere il pad più ricco e profondo, usiamo l'Oscillatore C per aggiungere un onda sinusoidale un'ottava sotto agli Oscillatori A e B.
+
+Imposteremo perciò l'intonazione /Coarse/ dell'Oscillatore C a 0.5 e il /Level/ a -16 dB, in modo che le frequenze basse non sopraffacciano la leggerezza del nostro pad:
+OscCSettings.tif
+
+A questo punto potremmo lasciare l'inviluppo dell'Oscillatore C così com'è, per un maggiore impatto, oppure potremmo dagli un attacco e un rilascio più lenti, per creare un lieve rinforzo quando gli accordi vengono tenuti. Prova un valore di /Attack/ di 1.38 secondi e di /Release/ di 882 ms:
+OscCEnvelope.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Aggiunta del Filtraggio
+$TargetName Adding Filtering
+
+Ora usiamo uno dei classici /filtri passa-basse/ di Operator per silenziare le armoniche superiori, conferendo al nostro suono di pad un colore più ovattato.
+
+In primo luogo, attiva la sezione del filtro con l'interruttore posto sul suo lato sinistro e scegli il filtro /Low Ladder/ tramite il relativo selettore:
+FilterChooser.tif
+
+Quindi, imposta la frequenza /Freq/ a 764 Hz e lascia la Risonanza a 1.00:
+FilterCutoff.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Produzione di Effetti Phaser
+$TargetName Producing Phaser Effects
+
+Operator è assai capace di creare trame più animate. Possiamo usare le opzioni dei filtri multimodali di Operator per emulare alcuni  classici effetti phaser.
+
+Come prima cosa imposta su /Notch 12dB/ il tipo di filtro...
+NotchFilter.tif
+
+...poi riduci la frequenza di taglio /Freq/ a 176 Hz.
+NotchCutoff.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Loop degli Inviluppi
+$TargetName Looping Envelopes
+
+Ora proviamo ad usare l'esclusiva funzione /loop d'inviluppo/ di Operator per trasformare l'inviluppo del filtro in uno strumento di animazione tipo LFO, capace di scorrere lungo la frequenza e creare il caratteristico "whoosh" di un pedale phase-shifter.
+
+Per assicurarti che nel display al centro dello strumento tu stia vedendo l'inviluppo del filtro, accertati che il modulo del filtro sia selezionato nella shell e che i parametri dell'inviluppo siano selezionati nel display:
+FilterEnvSwitch.tif
+
+Comincia impostando /Attack/ su un generoso 12.1 secondi, poi imposta /Decay/ a 24.4 secondi e /Release/ a 11.7 secondi. Questo creerà una lenta e ondeggiante escursione nel filtro.
+FilterEnvSettings.tif
+
+Ora attiva la funzione del loop dell'inviluppo, scegliendo l'opzione /Loop/ nel selettore delle Modalità di Loop...
+EnvLoop.tif
+
+...e impostando l'intensità del controllo /Envelope/ al 100%.
+EnvelopeAmount.tif
+
+Tieni un accordo per circa un minuto e ascolta l'escursione del filtro. Puoi regolare la velocità e la forma dell'escursione modificando i valori di /Attack/ e /Release./
+
+$Comment --------------------------------------------------------------------------------
+$Page ...Infine
+$TargetName ... and Finally
+
+Come puoi vedere, Operator è un generatore di pad estremamente flessibile.
+
+Se hai completato anche le lezioni precedenti, dovresti ormai avere una solida conoscenza su come si comportino le varie funzioni degli oscillatori e della FM. Dal momento che in questa patch abbiamo ancora un oscillatore inutilizzato, perché non sperimentare diverse opzioni d'inviluppo, di forma d'onda e d'intonazione dell'Oscillatore D?
+
+In alternativa potresti passare ad un altro algoritmo ed esplorare tecniche di sintesi FM più complesse. Come con qualsiasi strumento di sound design, il modo più veloce per conoscere Operator è quello di ruotare le manopole e provare le funzioni.
+
+Ricorda che la Finestra Info è una grande risorsa in grado di fornire una breve descrizione di qualsiasi parametro di Operator. Puoi sempre mostrarla o nasconderla cliccando sul pulsante triangolare nell'angolo in basso a sinistra dello schermo.
+PadInfoView.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

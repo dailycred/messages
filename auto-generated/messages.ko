@@ -1,0 +1,86 @@
+Application.NoSuchClient=어떤 클라이언트 ID가 % s이 존재하지 않습니다.
+Application.NoSuchApp=어떤 응용 프로그램은 ID가 % s이 존재하지 않습니다.
+Application.NoClientProvided=귀하의 요청으로 클라이언트 ID를 제공하십시오.
+Application.NoRedirectProvided=가 OAuth를 요청 리디렉션을 제공하십시오. <br/> <b>개발자 :</b> 매개 변수 <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> 또는의 기본 콜백 설정하여 사용하여 콜백 URI를 제공 <a href="https://www.dailycred.com/admin/setup">하여 계정 설정을</a> .
+Application.EnterEmailOrUsername=당신의 전자 우편 또는 사용자 이름을 입력하십시오.
+Application.EnterEmail=귀하의 이메일 주소를 입력 해주십시오.
+Application.EnterUsername=사용자 이름을 입력하십시오.
+Application.EnterPassword=비밀번호를 입력하십시오.
+Application.AtNotAllowed=기호 &quot;@&quot;사용자 이름에 사용할 수 없습니다.
+Application.WrongPasswordOrUsername=사용자 이름과 암호를 확인하고 다시 시도하십시오. <a href="%s">암호 여기를 클릭 재설정합니다.</a>
+Application.BadDomain=도메인 &quot;% s&quot;이 (가) 유효하지 않습니다.
+Application.BadEmail=이메일이 제대로 입력했는지 확인하고 다시 시도하십시오.
+Application.BadNewEmail=새 이메일이 제대로 입력했는지 확인하고 다시 시도하십시오.
+Application.PasswordTooShort=적어도 % d 자 사이의 암호를 입력하십시오.
+Application.NoCallbackUri=% s은 아직 콜백 URI를 설정하지 않았습니다. 나중에 다시 시도하십시오.
+Application.EmailTaken=이 이메일이 이미 사용 중입니다.
+Application.UsernameTaken=이 사용자 이름은 이미 가지고 있습니다. 다른 이름을 사용하십시오.
+Application.EmailSent=이메일이 전송되었습니다. 자세한 지침은 귀하의 이메일을 확인하시기 바랍니다.
+Application.EmailSentGmail=이메일이 전송되었습니다. <a href="http://mail.google.com/">자세한 지침은 귀하의 Gmail을 확인하시기 바랍니다.</a>
+Application.GoToGmail=귀하의 Gmail받은 편지함으로 이동
+Application.EmailSentYahoo=이메일이 전송되었습니다. <a href="http://mail.yahoo.com/">자세한 지침은 야후 메일을 확인하시기 바랍니다.</a>
+Application.GoToYahoo=귀하의 야후받은 편지함으로 이동
+Application.EmailSentHotmail=이메일이 전송되었습니다. <a href="http://www.hotmail.com/">자세한 지침에 대한 귀하의 핫메일을 확인하시기 바랍니다.</a>
+Application.GoToHotmail=귀하의 핫메일받은 편지함으로 이동
+Application.EmailSentICloud=이메일이 전송되었습니다. <a href="https://www.icloud.com/#mail">자세한 지침은 iCloud에 메일을 확인하시기 바랍니다.</a>
+Application.GoToICloud=귀하의 iCloud에받은 편지함으로 이동
+Application.NoSuchEmail=사용자가 이메일을 % s이 존재하지 않습니다.
+Application.NoSuchUser=어떤 사용자 ID가 % s이 존재하지 않습니다.
+Application.NoSuchUserFriendly=우리는이 이메일 또는 사용자 이름에 대한 사용자 계정을 찾을 수 없습니다. 다시 시도하십시오.
+Application.NoSuchToken=귀하의 계정에 당신이 서명 오류가 발생했습니다. 잠시 후 다시 시도하십시오.
+Application.PasswordResetInvalid=이 암호 재설정 요청이 유효하지 않거나 찾을 수 없습니다. 비밀번호를 다시 재설정 시도하십시오.
+Application.PasswordUpdated=비밀번호가 업데이트되었습니다.
+Application.APIWrongPassword=암호를 확인하고 다시 시도하십시오.
+Application.APIError=예기치 않은 오류가 발생했습니다. 다시 시도하십시오.
+Application.APIBadToken=잘못된 OAuth는 액세스 토큰.
+Application.APINoToken=활성 액세스 토큰이 현재 사용자에 대한 정보를 쿼리하는 데 사용되어야합니다.
+Application.APIBadCode=잘못된 OAuth는 코드입니다.
+Application.TimeOut=그것은 너무 오래 걸리는 것 같습니다. 잠시 후 다시 시도하십시오.
+Application.BadURL=이 유효한 URL이 아닙니다. 이 필드는 https://www.dailycred.com/callback처럼 전체가 아닌 상대 URL이어야합니다
+Application.FriendlyNameTooLong=이 필드는 200 자의 최대 길이를 가지고 있습니다. 짧은 것을 사용하시기 바랍니다.
+Application.NoStripeKey=스트라이프 API 키를 찾을 수없는 경우. 당신에 당신의 스트라이프 API 키를 설정하십시오 <a href="https://dailycred.com/admin/setup">설치</a> 페이지를 참조하십시오.
+Application.OAuthCallBackNotInDomain=제공된 redirect_uri이 클라이언트의 계정 설정에 의해 승인되지 않습니다.
+Application.CNameNotValidDomain=제공된 CNAME은 유효한 도메인이 나타나지 않습니다.
+Application.Required=이 필드는 필수 필드입니다.
+Application.LogoFileTooLarge=파일 크기 제한을 초과합니다.
+Application.LogoFileIsNotImage=파일 형식이 유효하지 않습니다. 만 PNG, JPG 및 GIF이 허용됩니다.
+Application.NoClientSecret=당신은 당신의 Dailycred 비밀 키를 포함하는 client_secret 매개 변수를 지정해야합니다.
+Application.InvalidClientSecret=이것은 잘못된 Dailycred 비밀 키입니다.
+Application.MissingRequiredFields=당신은 몇 가지 필수 항목을 누락 것 같습니다. 당신에 가십시오 <a href="/admin/setup">설정</a> 설정 얻을 페이지입니다.
+Application.CouldNotUnsubscribe=우리는 우리가이 링크에서 직접을 취소 할 수 없습니다 죄송 기술적 인 오류로 인해입니다. 다시 시도하거나 주시기 바랍니다 <a href="mailto:support@dailycred.com">저희에게 직접 연락</a> 제거 할 수 있습니다.
+Application.Unsubscribed=당신은 수신 거부했습니다. 우리는 당신이 가서 볼 죄송합니다!
+Application.Subscribed=당신은 가입 했어요. 감사합니다!
+Application.CouldNotSubscribe=우리는 우리가이 링크에서 직접 구독 할 수 없습니다 기술적 인 오류로 인해 죄송합니다. 다시 시도하거나 주시기 바랍니다 <a href="mailto:support@dailycred.com">직접 문의</a> 추가 할 수 있습니다.
+Application.AdminsCantUnsubscribe=시인은 자신의 계정에서 취소 할 수 없습니다.
+Application.EmailIsSame=새 전자 메일은 현재 메일과 동일합니다.
+Application.EmailOnlyUserNotAllowed=이 응용 프로그램은 전자 메일 만 사용자를 지원하지 않습니다.
+Application.EmailChangeSuccess=이메일을 % s로 변경되었습니다. 확인 이메일을보고 새 주소를 확인하시기 바랍니다.
+Application.EmailVerifySuccess=이메일 % s 님이 확인되었습니다.
+Application.PostOnly=이 요청은 <b>HTTP POST 요청을</b> 사용하셔야합니다. <br/><br/> 당신이 API를 체크 아웃하는 경우, 우리는 말려 있거나 사용하는 것이 좋습니다 <a target="_blank" href="http://hurl.it/">던지다을</a> .
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">사용자</a> 에 대한 종료하는 시험이있다. 이 이메일은 스트라이프 webhook에 의해 발생되었다.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">사용자가</a> 성공적으로 위탁되었다. 이 이메일은 스트라이프 webhook에 의해 발생되었다.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">사용자가</a> 성공적으로 위탁되었다. 이 이메일은 스트라이프 webhook에 의해 발생되었다.
+Application.BillingError=결제 정보를 설정하려고 할 때 문제가 발생했습니다. 잠시 후 다시 시도하십시오.
+Application.TrialWillEnd=Dailycred와 함께 무료 평가판 % S에 종료 할 정도입니다. 여러분의 방문하십시오 <a href="https://www.dailycred.com/admin/settings/billing">결제 페이지를</a> 비활성화되는 계정을 방지 할 수 있습니다.
+Application.TrialWillEndLong=DailyCred와 함께 무료 평가판 % S에 곧 끝납니다. <br><br> 계정이 활성 상태로 유지하려면 방문하시기 바랍니다 <a href="https://www.dailycred.com/admin/settings/billing">결제 페이지를</a> 검토하는 <a href="https://www.dailycred.com/pricing">저가의 계획을</a> 오늘 지불 세부 정보를 입력합니다.
+Application.CannotRemoveActiveCard=당신은 활성 결제 방법을 제거 할 수 없습니다. 귀하의 계정 번호와 계정 이메일 support@dailycred.com을 취소하고자하는 경우.
+Application.StateCheckFailed=요청 state 매개 변수가 없습니다. 다시 시도하십시오.
+Application.UnexpectedError=죄송합니다, 예기치 않은 오류가 발생했습니다. 다시 시도하십시오.
+Application.UserAnotherIdentityProvider=그것은 당신이 % s을 (를) 사용하여 계정이 나타납니다. <a href="%s">% s을 (를) 사용하여 연결하려면 여기를 클릭</a> 하거나 <a href="%s">암호를 설정하기 위해 여기를 클릭하십시오</a> .
+Application.APIKeyNotFound=API 키를 찾을 수 없습니다. 온이 ID 공급자 API 키를 설정하십시오 <a href="https://www.dailycred.com/admin/settings">설정 페이지를</a> .
+Application.ForeignIDAlreadyRegistered=공급자 % s에 대한 foreignID % S가 이미 사용자 % s 님과 연결되어 있기 때문에 우리는이 계정을 연결 할 수 없습니다.
+Application.TwitterCallbackURLIncorrect=수표 <a href="https://dev.twitter.com/apps">트위터 응용 프로그램의 설정을</a> . 귀하의 응용 프로그램의 콜백 URL은 비워 둘 수 없습니다. (그것은 어떤 유효한 URL이 될 수 있습니다.)
+Application.ThankYouForSigningUp=% S에 가입 해 주셔서 감사합니다!
+Application.ThankYouForSigningUpNoClient=가입 주셔서 감사합니다!
+Application.CannotDeleteLastApp=삭제할 수 없습니다 : 귀하의 계정은 적어도 하나의 응용 프로그램이 있어야합니다.
+Application.CouldNotSendEmail=죄송합니다, 해당 이메일을 보내는 문제가 발생했습니다. 잠시 후 다시 시도하십시오.
+Application.EmailVerificationRequiredSignUp=당신은 가입하기 전에 이메일을 확인해야합니다. 자세한 지침은 귀하의 이메일을 확인하시기 바랍니다.
+Application.EmailVerificationRequiredSignIn=당신이 로그인하기 전에 메일을 확인해야하는 자세한 지침은 귀하의 이메일을 확인하시기 바랍니다.
+Application.Blocked=죄송합니다, 당신은 관리자에 의해 차단되어있어.
+
+=
+template.authorize.passwordStrength.0=매우 약한
+template.authorize.passwordStrength.1=약한
+template.authorize.passwordStrength.2=그저 그 정도로
+template.authorize.passwordStrength.3=좋은
+template.authorize.passwordStrength.4=좋아요!

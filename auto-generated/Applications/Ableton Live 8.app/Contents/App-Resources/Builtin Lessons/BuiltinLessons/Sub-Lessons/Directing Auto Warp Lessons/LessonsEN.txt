@@ -1,0 +1,27 @@
+$Page Directing Auto-Warp 
+$TargetName Directing Auto-Warp
+
+If the /Auto-Warp/ algorithm does not quite do what you want, you can control its results with the grid markers' $ContextMenu context menu.
+GridMarkerContextMenu.tif
+The /Set 1.1.1 Here command/ realigns the grid so that the selected grid marker becomes 1.1.1. This is useful when /Auto-Warp/ guessed the tempo right but got the downbeat wrong. This $ContextMenu command is also available for the start marker.
+
+The /Warp From Here commands/ offer options for resetting Warp Markers to the right of the chosen position. Warp Markers to the left are left untouched.
+
+-> /Warp From Here/ simply runs /Auto-Warp./
+-> /Warp From Here (Start At ... BPM)/ directs /Auto-Warp/ to use the project tempo as a starting point for tempo tracking. Using this, you can: Turn off warping for this clip and play it unwarped; use the Control Bar's Tap button to tap along and set the project tempo; then turn warping on again and use this command to tell /Auto-Warp/ to use your tapped tempo.
+-> /Warp From Here (Straight)/ tells /Auto-Warp/ that this is a clip with no tempo variations, i.e., an electronically produced piece. /Auto-Warp/ will therefore set a single Warp Marker according to its own tempo guess.
+-> /Warp ... BPM From Here/ forces /Auto-Warp/ to interpret the piece as exactly matching the project tempo. This is useful in cases when you happen to know the exact BPM value of an electronically produced piece.
+
+/Warp As ...-Bar Loop/ tells /Auto-Warp/ to assume this clip is a perfectly cut loop of 1, 2, 4, 8, etc. bars. $0 will propose a loop length that makes the most sense given the current project tempo.  Decreasing the project tempo can, for instance, lead $0 to assume the loop is 8 bars at 90 BPM instead of 16 bars at 180 BPM.
+
+
+$Page Auto-Warp Options 
+$TargetName Auto-Warp Options
+
+You can direct $0's assumptions about new samples using the Default Preferences. If the /Auto-Warp Long Samples/ preference is on, $0 assumes that long samples contain music that should be played in sync with the project tempo. If you'd rather have $0 default to playing long samples as they are, disengage this preference.
+AutoWarpLongSamplesPref.tif
+
+Regardless of how $0 interprets new samples by default, you can always override these decisions on a per-clip basis by toggling the Clip View's Warp switch.
+ClipViewWarpSwitch.tif
+
+$Comment Status: Translate

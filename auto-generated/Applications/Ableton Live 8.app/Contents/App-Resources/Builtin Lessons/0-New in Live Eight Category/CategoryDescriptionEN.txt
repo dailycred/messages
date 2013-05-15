@@ -1,0 +1,4 @@
+Live7LessonsImage.tif
+Lessons are short, interactive tutorials that can help you get more out of $0. Lessons are navigated much like websites. For help with navigation, please click $Link here <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Lesson View>.
+
+*New in Live 8* - Take a look at new features and enhancements in $0 8.

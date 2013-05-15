@@ -1,0 +1,86 @@
+Application.NoSuchClient=Există nici un client pentru ID-ul% s.
+Application.NoSuchApp=Nu există App pentru ID-ul% s.
+Application.NoClientProvided=Vă rugăm să furnizați ID-ul de client cu cererea dumneavoastră.
+Application.NoRedirectProvided=Vă rugăm să furnizați o redirecționare cu cererea dumneavoastră OAuth. <br/> <b>Dezvoltatori:</b> oferă uri dvs. de apel invers folosind parametrul <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> sau prin stabilirea unui apel invers implicit în <a href="https://www.dailycred.com/admin/setup">setările contului</a> .
+Application.EnterEmailOrUsername=Vă rugăm să introduceți adresa de email sau nume de utilizator.
+Application.EnterEmail=Vă rugăm să introduceți adresa dvs. de email.
+Application.EnterUsername=Vă rugăm introduceți numele de utilizator.
+Application.EnterPassword=Va rugam sa introduceti parola.
+Application.AtNotAllowed=Simbolul &quot;@&quot; nu poate fi folosit în numele dvs. de utilizator.
+Application.WrongPasswordOrUsername=Vă rugăm să verificați numele de utilizator și parola și încercați din nou. <a href="%s">Pentru a reseta parola click aici.</a>
+Application.BadDomain=Domeniul &quot;% s&quot; nu este valabil.
+Application.BadEmail=Vă rugăm să verificați că adresa dvs. de email a fost introdus corect și încercați din nou.
+Application.BadNewEmail=Vă rugăm să verificați că dvs. de e-mail nou a fost introdus corect și încercați din nou.
+Application.PasswordTooShort=Vă rugăm să introduceți o parolă cu cel puțin% d caractere.
+Application.NoCallbackUri=% S nu a stabilit un URI apel invers încă. Vă rugăm să încercați din nou mai târziu.
+Application.EmailTaken=Acest e-mail este deja în uz.
+Application.UsernameTaken=Acest nume de utilizator este deja luat. Vă rugăm să folosiți un alt nume de utilizator.
+Application.EmailSent=Un email a fost trimis. Vă rugăm să verificați e-mailul pentru instrucțiuni suplimentare.
+Application.EmailSentGmail=Un email a fost trimis. <a href="http://mail.google.com/">Vă rugăm să verificați Gmail pentru instrucțiuni suplimentare.</a>
+Application.GoToGmail=Du-te la căsuța poștală Gmail
+Application.EmailSentYahoo=Un email a fost trimis. <a href="http://mail.yahoo.com/">Vă rugăm să verificați e-mail Yahoo! pentru instrucțiuni suplimentare.</a>
+Application.GoToYahoo=Du-te la dvs. de Yahoo Inbox
+Application.EmailSentHotmail=Un email a fost trimis. <a href="http://www.hotmail.com/">Vă rugăm să verificați Hotmail pentru instrucțiuni suplimentare.</a>
+Application.GoToHotmail=Du-te la Inbox Hotmail
+Application.EmailSentICloud=Un email a fost trimis. <a href="https://www.icloud.com/#mail">Vă rugăm să verificați mesageria icloud pentru instrucțiuni suplimentare.</a>
+Application.GoToICloud=Du-te la dvs. icloud Inbox
+Application.NoSuchEmail=Nu există utilizator de e-mail% s.
+Application.NoSuchUser=Nu există utilizator pentru ID-ul% s.
+Application.NoSuchUserFriendly=Nu am putut găsi un cont de utilizator pentru acest e-mail sau nume de utilizator. Vă rugăm să încercați din nou.
+Application.NoSuchToken=Nu a fost o eroare semnarea vă la contul dumneavoastră. Vă rugăm să încercați din nou în scurt timp.
+Application.PasswordResetInvalid=Această solicitare de resetare a parolei este invalid sau nu a fost găsit. Vă rugăm să încercați din nou resetarea parolei.
+Application.PasswordUpdated=Parola dvs. a fost actualizat.
+Application.APIWrongPassword=Va rugam sa verificati parola și încercați din nou.
+Application.APIError=A apărut o eroare neașteptată. Vă rugăm să încercați din nou.
+Application.APIBadToken=Accesul semn OAuth invalid.
+Application.APINoToken=Un simbol acces activ trebuie să fie folosite pentru a interoga informații despre utilizator curent.
+Application.APIBadCode=Codul OAuth invalid.
+Application.TimeOut=Care pare a fi a lua prea mult timp. Vă rugăm să încercați din nou în scurt timp.
+Application.BadURL=Aceasta nu este o adresă URL validă. Acest câmp trebuie să fie complet, URL-ul non-relativă, cum ar fi https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Acest câmp are o lungime maximă de 200 de caractere. Va rugam sa folositi ceva mai scurt.
+Application.NoStripeKey=Nu Stripe API Key a fost găsit. Vă rugăm să setați cheia API dunga de la dvs. <a href="https://dailycred.com/admin/setup">de configurare</a> pagina.
+Application.OAuthCallBackNotInDomain=Redirect_uri furnizat nu este aprobat de setările contului acestui client.
+Application.CNameNotValidDomain=Cu condiția CNAME nu pare să fie un domeniu valid.
+Application.Required=Acesta este un câmp obligatoriu.
+Application.LogoFileTooLarge=Fișierul depășește limita de dimensiune.
+Application.LogoFileIsNotImage=Tipul de fișier nu este valid. Numai PNG, JPG și GIF sunt permise.
+Application.NoClientSecret=Trebuie să specificați un parametru client_secret conține cheia secretă Dailycred.
+Application.InvalidClientSecret=Aceasta este o cheie invalid secretă Dailycred.
+Application.MissingRequiredFields=Se pare ca lipsesc cateva rubrici obligatorii. Vă rugăm să mergeți la <a href="/admin/setup">Setup</a> pagină pentru a obține înființat.
+Application.CouldNotUnsubscribe=Ne pare rău, din cauza unei erori tehnice nu ar putea dezabona direct de la acest link. Vă rugăm să încercați din nou, sau <a href="mailto:support@dailycred.com">contactati-ne direct</a> pentru a fi eliminate.
+Application.Unsubscribed=Ai fost dezabonare. Ne pare rău pentru a vedea te duci!
+Application.Subscribed=Ai fost subscrise. Vă mulțumim!
+Application.CouldNotSubscribe=Ne pare rău, din cauza unei erori tehnice noi nu ai putea abona direct de la acest link. Vă rugăm să încercați din nou, sau <a href="mailto:support@dailycred.com">contactati-ne direct</a> pentru a fi adăugate.
+Application.AdminsCantUnsubscribe=Admite nu pot dezabona de la contul lor propriu.
+Application.EmailIsSame=Noul e-mail este la fel ca e-mail curent.
+Application.EmailOnlyUserNotAllowed=Această aplicație nu are suport e-mail numai utilizatorilor.
+Application.EmailChangeSuccess=E-mailul a fost schimbat la% s. Vă rugăm să căutați pentru e-mail de confirmare și pentru a verifica noua adresă.
+Application.EmailVerifySuccess=E-mail% s a fost verificată.
+Application.PostOnly=Această cerere trebuie să fie făcută cu o <b>cerere HTTP POST.</b> <br/><br/> Dacă sunteți doar la verificarea API, vă sugerăm să utilizați cURL sau <a target="_blank" href="http://hurl.it/">arunca</a> .
+Application.StripeTrialEnd=Un <a href="https://www.dailycred.com/admin/user/%s">utilizator</a> are un proces care este pe cale să se încheie. Acest e-mail a fost cauzat de un webhook Stripe.
+Application.StripePaymentSucceeded=Un <a href="https://www.dailycred.com/admin/user/%s">utilizator</a> a fost încărcat cu succes. Acest e-mail a fost cauzat de un webhook Stripe.
+Application.StripePaymentFailed=Un <a href="https://www.dailycred.com/admin/user/%s">utilizator</a> a fost fără succes încărcat. Acest e-mail a fost cauzat de un webhook Stripe.
+Application.BillingError=Ceva nu a mers bine atunci când încearcă să stabilească informațiile dvs. de facturare. Vă rugăm să încercați din nou momentan.
+Application.TrialWillEnd=Proces gratuit cu Dailycred este pe cale să se încheie pe% s. Vă rugăm să vizitați dvs. <a href="https://www.dailycred.com/admin/settings/billing">pagina de facturare</a> pentru a preveni contul dvs. de a fi dezactivat.
+Application.TrialWillEndLong=Proces gratuit cu DailyCred se termină în curând pe% s. <br><br> Pentru a păstra contul dvs. activ, va rugam sa vizitati ta <a href="https://www.dailycred.com/admin/settings/billing">pagina de facturare</a> pentru a revizui <a href="https://www.dailycred.com/pricing">planurile de low-cost</a> și introduceți detaliile de plată ziua de azi.
+Application.CannotRemoveActiveCard=Nu se poate elimina metoda de facturare activ. Dacă doriți să anulați support@dailycred.com e-mail cont cu numărul de cont.
+Application.StateCheckFailed=Cererea lipsește parametrul de stat. Vă rugăm să încercați din nou.
+Application.UnexpectedError=Ne pare rău, a apărut o eroare neașteptată. Vă rugăm să încercați din nou.
+Application.UserAnotherIdentityProvider=Se pare că aveți un cont folosind% s. <a href="%s">Click aici pentru a vă conecta folosind% s</a> sau <a href="%s">click aici pentru a seta o parolă</a> .
+Application.APIKeyNotFound=API-cheie nu a fost găsit. Vă rugăm să setați o cheie API pentru acest furnizor de identitate pe dvs. <a href="https://www.dailycred.com/admin/settings">pagina de setări</a> .
+Application.ForeignIDAlreadyRegistered=Nu am putut lega acest cont deoarece foreignID% s pentru furnizorul% s este deja asociat cu utilizatorul% s.
+Application.TwitterCallbackURLIncorrect=Verificați-vă <a href="https://dev.twitter.com/apps">setările aplicației Twitter</a> . URL-ul de apel invers App dvs. nu poate fi gol. (Acesta poate fi orice URL valid.)
+Application.ThankYouForSigningUp=Vă mulțumesc pentru semnarea pentru% s!
+Application.ThankYouForSigningUpNoClient=Vă mulțumesc pentru semnarea în sus!
+Application.CannotDeleteLastApp=Nu se poate șterge: contul dvs. trebuie să aibă cel puțin un App.
+Application.CouldNotSendEmail=Ne pare rău, nu a fost o problemă care trimite e-mail. Vă rugăm să încercați din nou în scurt timp.
+Application.EmailVerificationRequiredSignUp=Trebuie să vă verificați e-mail înainte de semnarea contractului. Vă rugăm să verificați e-mailul pentru instrucțiuni suplimentare.
+Application.EmailVerificationRequiredSignIn=Trebuie să vă verificați e-mail înainte de a semna inch Va rugam sa verificati adresa de email pentru instrucțiuni suplimentare.
+Application.Blocked=Ne pare rău, ați fost blocat de către un administrator.
+
+=
+template.authorize.passwordStrength.0=Foarte slab
+template.authorize.passwordStrength.1=Slab
+template.authorize.passwordStrength.2=Deci, așa-
+template.authorize.passwordStrength.3=Bun
+template.authorize.passwordStrength.4=Minunat!

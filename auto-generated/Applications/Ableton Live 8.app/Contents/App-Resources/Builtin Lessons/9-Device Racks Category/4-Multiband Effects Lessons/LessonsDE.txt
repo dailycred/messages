@@ -1,0 +1,91 @@
+$Page Multiband-Effekte
+$TargetName Multiband Effects
+$ListInTocForProduct 00
+
+Das Verständnis der Prinzipien hinter dem Signalfluss in /Geräte-Ketten/ ist ein wichtiger Schritt zur kreativen und effizienten Nutzung von Racks. In diesem Kurs lernen Sie, Multiband-Effekte zu erstellen, indem Sie EQs zum Aufteilen des Frequenzbandes eines Audiosignals in mehrere, eigene Ketten einsetzten.
+
+Divider.tif
+*Dieser Kurs wird von einem Live-Set begleitet, mit dem Sie im Verlauf dieses Kurses interagieren werden. Wenn Sie bereit sind, klicken Sie nun $Link hier <Set:/Sets/Multiband Effects.als>, um das Live-Set zu laden.*
+Divider.tif
+
+
+Wenn Sie das Set geladen haben, klicken Sie bitte unten auf /Nächste Seite,/ um fortzufahren.
+
+$Comment --------------------------------------------------------------------------------
+$Page Das Problem identifizieren
+$TargetName Identifying the Problem
+
+Dieses Set enthält einen geloopten Drum-Clip, den wir als Quellmaterial verwenden werden. Klicken Sie auf den Wiedergabetaster des Clips, um ihn zu starten.
+
+Da dies eine Mischung ist (im Gegensatz zu Einzelspuren für die Instrumente), wäre es normalerweise sehr schwierig, die individuellen Frequenzen darin zur Bearbeitung zu isolieren. Nur den hohen Frequenzen einen Hall hinzuzufügen, wäre zum Beispiel einfach, wenn jedes Instrument auf einer separaten Spur säße. Da die Instrumente aber schon abgemischt sind, wird die Sache komplizierter. Das ist eine Situation, mit der Mastering-Ingenieure oft konfrontiert sind: Bestimmte Komponenten einer bereits abgemischten Audio-Datei voneinander zu isolieren und diese dann uabhängig voneinander zu bearbeiten.
+
+Glücklicherweise erlauben uns die Racks in $0 eine einfache Lösung dieses Problems.
+
+$Comment --------------------------------------------------------------------------------
+$Page Das Rack aufbauen
+$TargetName Building our Rack
+
+Um mit dem Aufbau unseres Racks zu beginnen, öffnen Sie den /Geräte-Browser,/ indem Sie auf seinen Schalter im Browser-Bereich klicken.
+DeviceBrowserButton.tif
+
+Öffnen Sie den Ordner mit den /Audio-Effekten/ und fügen Sie entweder per *Doppelklick* oder per Drag-And-Drop auf die Spur ein leeres /Audio-Effekt-Rack/ ein.
+AudioEffectRack.tif
+
+Lassen Sie uns jetzt unsere Geräte-Ketten hinzufügen. Wir werden eine Kette für jedes Frequenzband benötigen, das wir unabhängig bearbeiten möchten. Für diesen Kurs werden wir mit drei Bändern arbeiten. Zunächst muss die /Ketten-Liste/ sichtbar sein, was Sie mit einem Klick auf ihren Schalter im Rack erreichen.
+ChainList.tif
+
+Fangen Sie an, indem Sie einen /EQ Three-Effekt/ aus dem Browser in die Ketten-Liste ziehen, um die erste Geräte-Kette zu erzeugen.
+Chain1.tif
+
+Dann ziehen Sie einen weiteren EQ Three in die Ketten-Liste, um die zweite Kette zu erzeugen.
+Chain2.tif
+
+Beachten Sie bitte, dass die Lautstärke dadurch sofort deutlich ansteigt. Das liegt daran, dass die Ketten das Eingangssignal unabhängig voneinander bearbeiten und sich ihre Pegel addieren. Da wir an unseren EQs noch keinerlei Einstellungen vorgenommen haben, schwächt keiner von ihnen das Signal ab. Bevor Sie den dritten EQ hinzufügen, sollten Sie vielleicht die Lautstärke entweder am Master oder an der Spur etwas reduzieren.
+
+Ziehen Sie jetzt einen dritten EQ Three in die Ketten-Liste, um die letzte Kette zu erzeugen. Jetzt haben wir ein Rack, das nichts tut, außer unser Signal zu laut zu machen. Um seinen Nutzen zu erhöhen, werden wir die Parameter jedes EQs so einstellen, dass jeder nur einen bestimmten Frequenzbereich durchlässt.
+
+$Comment -------------------------------------------------------------------------------
+$Page Einstellung der Parameter
+$TargetName Adjusting the Parameters
+
+Wir werden jetzt die Ketten umbenennen, so dass wir einen besseren Überblick über unsere Arbeit erhalten. Klicken Sie dazu auf den Eintrag jeder Kette in der Ketten-Liste und drücken Sie *$CommandMod-R.* Sie können den Namen auch mittels *$ContextMenu* ändern. Benennen Sie die Ketten mit *Low,* *Mid,* und *High.*
+RenamedChains.tif
+
+Jetzt werden die EQs jeder Kette eingestellt: Klicken Sie auf die Kette *Low,* um sie anzuwählen und schalten Sie dann die Bänder *M* und *H* aus. Nur *L* bleibt aktiv.
+LowEQParameters.tif
+
+Wiederholen Sie diese Prozedur für die beiden anderen Ketten, wobei Sie in der Kette *Mid* nur das Band *M* aktiv lassen und in der Kette *High* nur das Band *H.* Vielleicht möchten Sie auch noch ein bisschen mit den Frequenzweichen-Parametern *FreqLow* und *FreqHigh* der EQs experimentieren, sowie mit dem Schalter *24 dB/48 dB,* um die Frequenzwiedergabe jeder Kette optimal anzupassen.
+OtherParameters.tif
+
+Die Ketten auf Solo zu schalten kann Ihnen dabei helfen, die Auswirkungen Ihrer Arbeit besser zu hören.
+SoloButtons.tif
+
+$Comment -------------------------------------------------------------------------------
+$Page Weitere Effekte hinzufügen
+$TargetName Adding more Effects
+Jetzt, da jede Kette für eine bestimmte Frequenzkomponente zuständig ist, können Sie hinter den EQs zusätzliche Effekte einsetzen, um den Klang Ketten-spezifisch zu bearbeiten. Lassen Sie uns der Kette *High* einen /Hall/ hinzufügen. Zunächst klicken Sie auf die Kette in der Ketten-Liste, um sie anzuwählen. Dann ziehen Sie den Effekt Reverb aus dem Geräte-Browser auf den Platz rechts neben dem EQ und lassen ihn dort los.
+HiReverb.tif
+
+Seien Sie vorsichtig und platzieren Sie den Reverb-Effekt nicht rechts neben der Klammer, die das Ende des Racks anzeigt. Jeder Effekt, der dort platziert wird, bearbeitet das Gesamtsignal des Racks und damit sämtliche Frequenzbänder zugleich.
+
+Fahren wir fort und fügen der Kette *Low* einen /Compressor/ hinzu.
+LowCompressor.tif
+
+Dann bekommt die Kette *Mid* ein /Ping Pong Delay./
+MidPingPong.tif
+
+Mit den neuen Effekten wird es einfacher, die Frequenz-Trennung zwischen den Ketten zu hören.
+
+$Comment -------------------------------------------------------------------------------
+$Page Mehr Möglichkeiten...
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Probieren Sie für die Ketten verschiedene Effekte aus und experimentieren Sie mit den Parametern und EQ-Einstellungen. Auch subtile Änderungen an den Frequenzweichen können dramatische Effekte auf die Art haben, wie die einzelnen Ketten bestimmte Frequenzen freistellen.
+
+-> Indem Sie den Ketten weitere EQs hinzufügen, können Sie mehr Kontrolle über die Frequenzbänder erlangen. Versuchen Sie zum Beispiel mal, weitere Ketten zu erzeugen, die für feinere Kontrolle den /EQ Eight/ benutzen.
+
+-> Platzieren Sie weitere Effekte hinter (oder vor) dem Rack, um den Gesamtklang zu bearbeiten.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

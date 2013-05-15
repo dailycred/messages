@@ -1,0 +1,86 @@
+Application.NoSuchClient=Nr klientas egzistuoja id% s.
+Application.NoSuchApp=Nr App egzistuoja id% s.
+Application.NoClientProvided=Prašome pateikti savo kliento ID su savo prašymą.
+Application.NoRedirectProvided=Prašome pateikti nukreipti savo OAuth prašymu. <br/> <b>Programavimas:</b> pateikti savo atgalinio ryšio uri naudojant parametrą <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> arba nustatydama numatytąją atgalinių į <a href="https://www.dailycred.com/admin/setup">savo paskyros nustatymus</a> .
+Application.EnterEmailOrUsername=Prašome įvesti savo elektroninio pašto adresą arba vartotojo vardą.
+Application.EnterEmail=Prašome įvesti savo elektroninio pašto adresą.
+Application.EnterUsername=Prašome įvesti savo vartotojo vardą.
+Application.EnterPassword=Prašome įvesti savo slaptažodį.
+Application.AtNotAllowed=Simbolis &quot;@&quot; negali būti naudojama jūsų vardu.
+Application.WrongPasswordOrUsername=Patikrinkite savo vartotojo vardą ir slaptažodį, ir bandyti iš naujo. <a href="%s">Norėdami slaptažodžio spauskite čia.</a>
+Application.BadDomain=Domeno &quot;% s&quot; yra netinkamas.
+Application.BadEmail=Prašome įsitikinti, kad jūsų elektroninio pašto adresas buvo įvestas teisingai ir bandykite dar kartą.
+Application.BadNewEmail=Prašome įsitikinti, kad jūsų naujas laiškas buvo įvestas teisingai ir bandykite dar kartą.
+Application.PasswordTooShort=Įveskite slaptažodį mažiausiai% d simbolių.
+Application.NoCallbackUri=% S negali nustatyti atgalinio ryšio URI dar. Prašome pabandyti vėliau.
+Application.EmailTaken=Šis laiškas yra jau naudojamas.
+Application.UsernameTaken=Šis vartotojo vardas jau užimtas. Prašome naudoti kitą vardą.
+Application.EmailSent=Laiškas buvo išsiųstas. Prašome patikrinti savo elektroninio pašto tolimesnius nurodymus.
+Application.EmailSentGmail=Laiškas buvo išsiųstas. <a href="http://mail.google.com/">Prašome patikrinti jūsų Gmail tolimesnius nurodymus.</a>
+Application.GoToGmail=Eikite į savo &quot;Gmail&quot; pašto dėžutę
+Application.EmailSentYahoo=Laiškas buvo išsiųstas. <a href="http://mail.yahoo.com/">Prašome patikrinti Yahoo! Siųsti tolesnių instrukcijų.</a>
+Application.GoToYahoo=Eikite į savo &quot;Yahoo&quot; pašto dėžutę
+Application.EmailSentHotmail=Laiškas buvo išsiųstas. <a href="http://www.hotmail.com/">prašome patikrinti savo &quot;Hotmail&quot; tolesnių instrukcijų.</a>
+Application.GoToHotmail=Eikite į savo &quot;Hotmail&quot; pašto dėžutę
+Application.EmailSentICloud=Laiškas buvo išsiųstas. <a href="https://www.icloud.com/#mail">Prašome patikrinti jūsų iCloud &quot;Mail for tolimesnius nurodymus.</a>
+Application.GoToICloud=Eikite į savo iCloud pašto dėžutę
+Application.NoSuchEmail=Nėra jokių naudotojų pašto% s.
+Application.NoSuchUser=Nėra jokių naudotojų tapatybės% s.
+Application.NoSuchUserFriendly=Mums nepavyko rasti vartotojo sąskaitą šį laišką ar naudotojui. Bandykite dar kartą.
+Application.NoSuchToken=Įvyko klaida pasirašyti jus į jūsų sąskaitą. Bandykite dar kartą vėliau.
+Application.PasswordResetInvalid=Tai slaptažodžio prašymas yra neteisingas arba nerastas. Prašome pabandyti slaptažodį dar kartą.
+Application.PasswordUpdated=Jūsų slaptažodis buvo atnaujintas.
+Application.APIWrongPassword=Patikrinkite savo slaptažodį ir bandykite dar kartą.
+Application.APIError=Įvyko netikėta klaida. Bandykite dar kartą.
+Application.APIBadToken=Neteisingas OAuth &quot;prieigos raktą.
+Application.APINoToken=Aktyvus prieigos raktas turi būti naudojamas užklausą informaciją apie esamą vartotojas.
+Application.APIBadCode=Neteisingas OAuth kodas.
+Application.TimeOut=Tai užtrunka per ilgai. Bandykite dar kartą vėliau.
+Application.BadURL=Tai nėra teisingas URL adresas. Šiame laukelyje privalo būti pilnas, o ne santykinis URL kaip https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Šis laukas turi maksimalią 200 simbolių. Prašome naudoti kažką trumpesnis.
+Application.NoStripeKey=Nr juostele API raktas buvo rastas. Prašome nustatyti jūsų Stripe API raktą prie savo <a href="https://dailycred.com/admin/setup">nustatymų</a> puslapį.
+Application.OAuthCallBackNotInDomain=Jei redirect_uri nėra patvirtintas šio kliento paskyros nustatymų.
+Application.CNameNotValidDomain=Jei cname neatrodo, kad būti galiojantis domenas.
+Application.Required=Tai būtinas laukas.
+Application.LogoFileTooLarge=Failas viršija limitą.
+Application.LogoFileIsNotImage=Failo tipas yra neleistinas. Tik PNG, JPG ir GIF yra priimami.
+Application.NoClientSecret=Turite nurodyti client_secret parametrą, kuriame yra jūsų Dailycred slaptą raktą.
+Application.InvalidClientSecret=Tai negalioja Dailycred slaptą raktą.
+Application.MissingRequiredFields=Atrodo, kad jums trūksta kelis privalomus laukus. Prašome kreiptis į savo <a href="/admin/setup">nustatymų</a> puslapyje gauti įsteigti.
+Application.CouldNotUnsubscribe=Atsiprašome, dėl techninių klaidų mes negalėjome atsisakyti tiesiai iš šią nuorodą. Bandykite dar kartą arba <a href="mailto:support@dailycred.com">susisiekite su mumis tiesiogiai</a> bus pašalintas.
+Application.Unsubscribed=Jūs buvote atsisakyti. Apgailestaujame to see you go!
+Application.Subscribed=Jūs buvote adresą. Ačiū!
+Application.CouldNotSubscribe=Atsiprašome, dėl techninių klaidų mes negalėjome pasirašyti jus tiesiai pagal šią nuorodą. Bandykite dar kartą arba <a href="mailto:support@dailycred.com">susisiekite su mumis tiesiogiai</a> turi būti pridedama.
+Application.AdminsCantUnsubscribe=Pripažįsta, negali išeiti iš savo sąskaitos.
+Application.EmailIsSame=Naujas elektroninio pašto yra kaip Jūsų dabartinis el pats.
+Application.EmailOnlyUserNotAllowed=Ši programa nepalaiko tik elektroniniu paštu vartotojams.
+Application.EmailChangeSuccess=Jūsų elektroninio pašto adresas buvo pakeistas į% s. Prašome ieškoti patvirtinimo laišką ir patvirtinti naują adresą.
+Application.EmailVerifySuccess=Siųsti% s buvo patikrintas.
+Application.PostOnly=Šis prašymas privalo būti pateiktas naudojant <b>HTTP POST užklausą.</b> <br/><br/> Jei jūs tik patikrinti API, mes rekomenduojame naudoti cURL arba <a target="_blank" href="http://hurl.it/">sviesti</a> .
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">Vartotojas</a> turi bandymus, kad netrukus pasibaigs. Šis laiškas sukėlė Stripe webhook.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">Vartotojas</a> buvo sėkmingai įkrauta. Šis laiškas sukėlė Stripe webhook.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">Vartotojas</a> buvo nesėkmingai įkrautas. Šis laiškas sukėlė Stripe webhook.
+Application.BillingError=Kažkas nutiko bandant nustatyti savo atsiskaitymo informaciją. Bandykite dar kartą trumpam.
+Application.TrialWillEnd=Nemokama bandomoji versija su Dailycred netrukus pasibaigs% s. Prašome apsilankyti savo <a href="https://www.dailycred.com/admin/settings/billing">atsiskaitymo puslapį</a> , kad jūsų sąskaitą bus išjungta.
+Application.TrialWillEndLong=Nemokama bandomoji versija su DailyCred baigiasi netrukus% s. <br><br> Norėdami, kad jūsų sąskaita aktyvus, eikite į <a href="https://www.dailycred.com/admin/settings/billing">atsiskaitymo puslapį</a> peržiūrėti <a href="https://www.dailycred.com/pricing">pigių planus</a> ir įvesti mokėjimo informaciją šiandien.
+Application.CannotRemoveActiveCard=Jūs negalite ištrinti savo aktyvų atsiskaitymo būdą. Jei norite atšaukti savo paskyros el support@dailycred.com su jūsų sąskaitos numeriu.
+Application.StateCheckFailed=Užklausoje trūksta valstybės parametrą. Bandykite dar kartą.
+Application.UnexpectedError=Atsiprašome, įvyko netikėta klaida. Bandykite dar kartą.
+Application.UserAnotherIdentityProvider=Atrodo turite sąskaitą, naudojant% s. <a href="%s">Spauskite čia norėdami prisijungti naudojant% s</a> arba <a href="%s">paspauskite čia, kad nustatyti slaptažodį</a> .
+Application.APIKeyNotFound=API raktas nerastas. Prašome nustatyti API raktą šios tapatybės teikėjo jūsų <a href="https://www.dailycred.com/admin/settings">nustatymų puslapyje</a> .
+Application.ForeignIDAlreadyRegistered=Mes negalėjo susieti šią sąskaitą, nes foreignID% s teikėjo% s jau yra susietas su vartotojo% s.
+Application.TwitterCallbackURLIncorrect=Patikrinkite savo <a href="https://dev.twitter.com/apps">Twitter taikymas nustatymus</a> . Jūsų app yra atgalinių URL negali būti tuščias. (Tai gali būti bet koks galiojantis URL.)
+Application.ThankYouForSigningUp=Dėkojame, kad užsiregistravote% s!
+Application.ThankYouForSigningUpNoClient=Dėkojame, kad užsiregistravote!
+Application.CannotDeleteLastApp=Negalite trinti: jūsų sąskaita turi turėti bent vieną Progr.
+Application.CouldNotSendEmail=Apgailestaujame, ten buvo problema išsiųsti šį laišką. Bandykite dar kartą vėliau.
+Application.EmailVerificationRequiredSignUp=Jūs turite patikrinti savo elektroninį paštą prieš registruodamiesi. Prašome patikrinti savo elektroninio pašto tolimesnius nurodymus.
+Application.EmailVerificationRequiredSignIn=Jūs turite patikrinti savo elektroninį paštą prieš pasirašant in Patikrinkite savo elektroninio pašto tolimesnius nurodymus.
+Application.Blocked=Įvyko klaida, jūs turite užblokavo administratorius.
+
+=
+template.authorize.passwordStrength.0=Labai Silpnas
+template.authorize.passwordStrength.1=Silpnas
+template.authorize.passwordStrength.2=Pusėtinai
+template.authorize.passwordStrength.3=Geras
+template.authorize.passwordStrength.4=Puiku!

@@ -1,0 +1,191 @@
+$Page Conexión de controladores MIDI
+$TargetName Connecting MIDI Controllers
+
+$0 permite el control manual de la mayor parte de su interfaz mediante teclados y superficies de control MIDI externas. Esta lección le mostrará cómo configurar sus controladores MIDI para tocar instrumentos software o para añadir un control remoto táctil a su experiencia con $0.
+
+Esta lección asume que su teclado o superficie de control MIDI usa un /puerto USB/ para comunicarse con el ordenador. Si sólo tiene jacks MIDI, y ningún puerto USB, entonces necesitará también un /interfaz MIDI/ externo donde conectarlo.
+
+Antes de comenzar, por favor asegúrese de que su teclado MIDI o superficie de control externa esté conectada a su ordenador y encendida.
+
+*Nota para usuarios de Windows:* Los dispositivos USB deben estar conectados y ser reconocidos por el sistema operativo /antes/ de lanzar $0.
+
+-> Para aprender específicamente sobre cómo configurar /teclados MIDI,/ pulse sobre el botón /Siguiente página/ abajo.
+-> Para aprender específicamente sobre cómo configurar /superfícies de control MIDI,/ pulse $Link aquí <GotoPage:Connecting MIDI Control Surfaces>.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Conexión de teclados MIDI
+$TargetName Connecting MIDI Keyboards
+
+Puede tocar los instrumentos software de $0 de forma más natural usando su teclado MIDI. Esta sección de la lección le ayudará a configurar $0 de forma que las notas que toque en su teclado MIDI lleguen al instrumento de su elección.
+
+Abra las Preferencias de $0 seleccionándolas desde el menú /Live/ en OS X (o desde el menú /Opciones/ en Windows), luego pulse en la pestaña /MIDI/Sincro:/
+MidiSyncTab.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Configuración del teclado MIDI
+$TargetName MIDI Keyboard Setup
+
+Si todo se ha conectado correctamente, debería ver una o más entradas para su teclado en la sección /Puertos MIDI/ de la pestaña MIDI/Sincro. Puede que tenga que desplazar la lista para ver todos los puertos disponibles.
+MidiPorts.tif
+
+Tanto los puertos de /entrada/ como los de /salida/ se muestran en esta lista, si están disponibles. Puesto que lo que nos interesa es que las notas de su teclado /entren/ en $0, nos concentraremos sólo en los puertos de entrada.
+
+Ajuste el conmutador /Track/ del puerto de entrada de su teclado en *On:*
+MidiInputTrackButton.tif
+
+Las otras dos columnas aquí habilitan el puerto para sincronización MIDI y para $Link control remoto <GotoPage:Connecting MIDI Control Surfaces> de los elementos del interfaz de $0. Ahora ya puede cerrar la ventana Preferencias.
+
+Puede comprobar que su teclado MIDI se está comunicando con $0 pulsando una de las teclas: El indicador /MIDI Track In/ de $0 parpadeará al reconocer los mensajes MIDI entrantes.
+MidiInputIndicator.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Configuración de pista MIDI
+$TargetName MIDI Track Setup
+
+Puede acceder a los instrumentos software de $0 y sus presets por medio del /Navegador de dispositivos:/
+DeviceBrowser.tif
+
+Los instrumentos se tocan desde las pistas MIDI de $0. Por favor utilice el comando *Insertar pista MIDI* del menú Crear para añadir ahora una nueva pista MIDI a su Live Set. Mientras la pista está seleccionada, puede añadirle un instrumento simplemente pulsando dos veces en un preset en el Navegador de dispositivos.
+ClickPreset.tif
+
+El instrumento aparecerá en la Vista Pista en la parte inferior de la ventana de la aplicación:
+InstrumentInTrackView.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Armar la pista
+$TargetName Arming the Track
+
+Finalmente, /arme/ la pista activando su botón /Armar./ Esto permite que la pista reciba las notas MIDI que usted toca.
+TrackArmed.tif
+
+¡Y eso es todo lo que se necesita! Ahora puede explorar libremente los instrumentos y presets de $0. Afortunadamente, $0 recordará las preferencias de su puerto MIDI de forma que estará listo para que usted pueda tocar desde este momento.
+
+Si quiere grabar sus interpretaciones en cualquier momento, primero tendrá que activar el botón /Grabación Global/ de la Barra de control:
+GlobalRecordRec.tif
+
+Luego pulse el botón /Reproducir/ para comenzar la grabación:
+TransportPlayRec.tif
+
+Para detener la grabación, pulse el botón /Detener/ adyacente:
+TransportStopRec.tif
+
+La grabación MIDI se describe con más detalle en la lección $Link Reproducción con instrumentos software <Lesson:Builtin/1-Live Basics Category/4-Playing Software Instruments>.
+
+Continúe con la lección para aprender a utilizar su teclado MIDI como superfície de control para un control remoto del interfaz de $0.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Conexión de superficies de control MIDI
+$TargetName Connecting MIDI Control Surfaces
+
+ZeroSLHeader.tif
+
+Esta porción de la lección le mostrará cómo configurar sus controladores MIDI para añadir control remoto táctil al interfaz de $0.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Mapeados instantáneos y manuales
+$TargetName Instant and Manual Mappings
+
+$0 utiliza dos métodos complementarios para intercomunicarse con superficies de control: /Mapeados instantáneos/ y /mapeados manuales./
+
+-> Los mapeados instantáneos de $0 amplían el soporte nativo a muchas de las superficies de control disponibles hoy en día. Los Mapeados instantáneos proporcionan un enfoque común hacia el control que se adapta siempre que sea posible al alemento seleccionado en $0. Una vez haya completado esta lección, debería consultar $Link *Referencia de superficies de control* <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference>, que detalla cómo cada controlador soportado interactua con $0.
+
+-> Si su controlador MIDI no cuenta con soporte nativo, todavía puede controlar la mayor parte del interfaz de $0 mediante la cereación de mapeados manuales. Este enfoque define mapeados fijos entre los parámetros en $0 y cada botón, knob, pad o deslizador en su superficie de control. Los mapeados manuales también pueden usarse para anular los Mapeados instantáneos cuando se han activado ambos métodos. Una vez haya completado esta lección, debería aprender cómo $Link crear sus propios mapeados manuales <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Creating Manual Mappings>.
+
+
+Abra las Preferencias de $0 seleccionándolas desde el menú /Live/ en Mac OS X (o desde el menú /Opciones/ en Windows), luego pulse en la pestaña /MIDI/Sincro./
+MidiSyncTab.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Configuración de la superficie de control
+$TargetName Control Surface Setup
+
+La mitad superior de la pestaña MIDI/Sincro define hasta seis superficies de control con soporte nativo. Su primer paso consistirá en comprobar si su superfície de control tiene soporte nativo, pulsando en el primer selector en la columna /Superficie de control:/
+RemoteSLControlSurface.tif
+
+Seleccione su superfície de control si aparece en la lista. Si no está, debería continuar en la siguiente página para activar los mapeados manuales.
+
+Tras seleccionar su superficie de control, utilice los selectores /Input/ y /Output/ para definir los puertos MIDI a los que está conectada:
+RemoteSLPorts.tif
+
+Si el botón /Dump/ a la derecha del puerto de salida aparece habilitado, entonces se requiere un /preset dump/ o volcado de preset para configurar el controlador seleccionado para usarlo con $0. Sólo debería volcar a su controlador una vez a menos que haya cambiado sus configuraciones internas:
+RemoteSLDump.tif
+
+*Antes* de pulsar el botón Dump, consulte la documentación del fabricante para asegurarse de que su controlador está preparado para recibir volcados de preset SysEx. El volcado cambiará algunas configuraciones dentro del controlador; Si usted ha personalizado estas configuraciones anteriormente, asegúrese de realizar una copia de seguridad de estos antes de pulsar el botón Dump.
+
+Con esto habrá configurado el Mapeado instantáneo para su controlador MIDI. Con un paso más, podemos activar el uso adicional de mapeados manuales.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Activación de Mapeados manuales
+$TargetName Enabling Manual Mappings
+
+Los mapeados manuales entre $0 y sus superficies de control se configuran en la mitad inferior de la pestaña MIDI/Sincro. Todos los puertos MIDI que están disponibles en su ordenador aparecen aquí en una lista. Cada entrada lleva tres interruptores On/Off: /Track, Sync,/ y /Remote./
+
+Active el interruptor Remote para cada puerto /Input/ en esta lista que tenga una superficie de control conectada a él. Si no había soporte nativo disponible para su superficie de control en la página anterior, probablemente debería activar también el interruptor Remote para sus puertos /Output/ (para que $0 pueda enviar realimentación al controlador si fuera posible):
+MidiInputRemoteButton.tif
+
+Si se activa el interruptor Remote de un puerto de entrada se le está indicando a $0 que debería estar a la espera de que le lleguen mensajes de control MIDI desde ese puerto. Las otras dos columnas activan este dispositivo para una sincronización MIDI y para entrada a las pistas MIDI de $0. Para más información acerca de estos usos de MIDI en $0, por favor consulte el comienzo de esta lección y léase los capítulos "Sincronización y ReWire" y "Encaminamiento y E/S" del Manual de referencia.
+
+¡Ahora ya tiene la configuración para un control remoto! Ya puede cerrar la ventana Preferencias. Seguidamente, vamos a verificar sus conexiones, y luego mostrarle una técnica muy útil para fijar controladores con soporte nativo.
+
+
+Divider.tif
+*Consejo:* Si ha anulado Mapeado Instantáneo con mapeado manual, puede volver atrás fácilmente a Mapeado Instantáneo desactivando el interruptor Remote del puerto de entrada respectivo. Activando el interruptor de nuevo se restablecerán sus mapeados manuales.
+Divider.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Verificación de la configuración de control remoto
+$TargetName Verifying Remote Control Setup
+
+Siempre podrá verificar que su controlador MIDI se está comunicando con $0 manipulando cualquiera de sus knobs, deslizadores o teclas. Mientras hace esto, $0 reconocerá que está recibiendo mensajes MIDI haciendo parpadear el indicador /MIDI Track In/ en la esquina superior derecha de la ventana de la aplicación:
+MidiInputIndicator.tif
+
+Si un knob, deslizador o tecla está controlando de forma remota un parámetro en $0, el indicador /Key/MIDI In/ parpadeará cuando reciba mensajes desde ese control:
+MidiIndicator.tif
+
+El indicador que está justo debajo de este parpadea siempre que $0 envía realimentación a un controlador MIDI. Esto se usa para mantener los datos de los deslizadores motorizados y los LEDs de estado actualizados.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Asegurar superfícies de control a dispositivos
+$TargetName Locking Control Surfaces to Devices
+
+La mayoría de las superficies de control nativas se centrarán en el dispositivo seleccionado en ese momento de la pista seleccionada. Si una o más de estas superficies de control están activas, verá un pequeño icono en la barra de título del dispositivo seleccionado. Este icono se desplaza con la selección:
+OperatorHand.tif
+
+Si, no obstante, quisiera controlar un dispositivo específico con su superficie de control sin tener en cuenta si está seleccionado o no, usted puede /asegurar/ su superficie de control a ese dispositivo. Para hacer esto, *$ContextMenu* sobre la barra de título del dispositivo y seleccione su superficie de control en la sección *Asegurar a superficie de control* del menú contextual:
+OperatorLockMenu.tif
+
+Algunas superficies de control no soportan el bloqueo o locking a dispositivos; sus entradas en el menú contextual del dispositivo aparecerán deshabilitadas.
+
+Para desbloquear la superficie de control del dispositivo, repita simplemente estos pasos. Si bloquea o asegura la misma superficie de control a un dispositivo diferente sin desbloquearla previamente, la superficie de control primero es desbloqueada del dispositivo al que previamente se aseguró.
+
+Algunas superficies de control utilizan un botón para asegurar/desbloquear el dispositivo seleccionado en ese momento. Si un dispositivo está asegurado/desbloqueado utilizando dicho botón, $0 confirmará la acción con un mensaje en la barra de estado tal y como aquí se muestra:
+RemoteLockingStatus.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Manteniendo el control
+$TargetName Staying in Control
+
+Live7LessonsNoText.tif
+
+Al configurar control remoto, comenzará a experimentar con una de las más potentes y ampliables formas de trabajar con $0. Le recomendamos que lea las siguientes dos lecciones, que le enseñarán ¡cómo *usar* sus nuevas habilidades!
+
+Acceda a la $Link referencia de superficies de control de $0 <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference> en cualquier momento para ver las funciones específicas de cada controlador con soporte nativo dentro de $0.
+
+Si usted ha activado mapeados manuales, seguramente querrá seguir la lección sobre $Link creación de mapeados manuales <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Creating Manual Mappings>.
+
+$Comment Status: Translate
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,250 @@
+$Page Configuración de su interfaz Line 6
+$TargetName Setting Up Your Line 6 Interface
+
+/¡Bienvenido/a a $0!/
+
+/Ableton Live Lite/ ofrece muchas de las funciones de Ableton Live, la solución de producción musical ganadora de multitud de premios. Esta corta lección le ayudará a configurar $0 para usarlo con su interfaz Line 6.
+
+Antes de comenzar:
+-> Lance la aplicación de Line 6 /POD Farm/; Si todavia no ha instalado POD Farm, por favor salga de $0 y hágalo ahora;
+-> Compruebe que su interfaz de audio Line 6 esté conectado a su ordenador y que esté encendido. (Nota para usuarios de Windows: En Windows, los dispositivos USB deben estar conectados y ser reconocidos por el sistema operativo /antes/ de lanzar $0.)
+-> Conecte su micrófono o instrumento a la entrada adecuada del interfaz de audio;
+-> Conecte la salida de audio del interfaz de audio a un par de auriculares o altavoces.
+
+A los documentos de $0 se les conoce como Live Sets. Esta lección viene acompañada de un Live Set con el que interactuará mientras sigue la lección. Cuando esté preparado $Link *por favor pulse aquí* <Set:/Sets/Guitar Tutorial.als> para cargar el Live Set.
+
+*Nota:* No todos los dispositivos Line 6 ofrecen soporte MIDI ni todas las características de entrada de audio descritas en este tutorial. Por favor, consulte la documentación de su producto para una información específica de su dispositivo.
+
+Por favor pulse el botón /Página siguiente/ en la parte inferior para continuar.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Un buen guía
+$TargetName Finding Guidance
+
+Vamos a comenzar presentando un par de recursos que serán de gran ayuda mientras conoce mejor $0. La primera es la /Vista Info:/
+OverviewInfoView.tif
+
+La vista Info se encuentra en la esquina inferior izquierda de la ventana de la aplicación de $0. Es un recurso muy práctico que le dará información de casi todo lo que apunte con el cursor. Cómo muchas otras vistas en $0, puede mostrarse u ocultarse según sea necesario simplemente pulsando sobre el /botón desplegar/ triangular cerca de su esquina inferior izquierda:
+InfoViewFoldButton.tif
+
+Para consultar discusiones más en profundidad sobre las características de Live, puede también acceder al Manual de Referencia completo mediante el enú Ayuda:
+HelpMenu.tif
+
+El menú Ayuda también le dirige a las /lecciones/ incluidas en $0, que de hecho está leyendo en este momento. También hay varias otras lecciones incluidas que le ayudarán a explorar las posibilidades de $0. ¡Asegúrese de echarles un vistazo!
+
+
+$Comment -----------------------------------------------------------------------
+$Page Configuración de E/S de Audio
+$TargetName Setting Up Audio I/O
+
+Para nuestro primer paso, configuraremos las E/S de audio de $0. Abra las /Preferencias/ de $0 seleccionándolas desde el menú Opciones (o el menú Live en Mac OS X), luego pulse sobre la pestaña /Audio:/
+AudioTab.tif
+
+En la parte superior de esta pestaña encontrará el selector /Tipo de controlador:/
+DriverTypeMac.tif
+
+-> Los usuarios de Mac ajustarán el tipo de controlador a *CoreAudio.*
+-> Los usuarios de PC preferirán ajustar el tipo de controlador a *ASIO.*
+
+Ahora que hemos definifo el tipo de controlador (driver) que usaremos, ya podemos seleccinar el controlador en sí. Seleccione el controlador para su interfaz Line 6 desde (Mac) tanto el selector /Audio Input Device/ como de /Audio Output Device/ o (PC) el selector /Audio Device:/
+TonePortAudioDeviceSansTonePort.tif
+
+Muchos de los interfaces de audio Line 6 son capaces de grabar múltiples fuentes a la vez, como voces y guitarra. Para activar todas estas entradas, haga clic sobre el botón /Input Config:/
+InputConfigButton.tif
+
+Ahora asegúrese de que ambos pares estéreo estén habilitados:
+ConfigInputChannels.tif
+
+Pulse *OK* para confirmar.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Control MIDI con los dispositivos Line 6
+$TargetName MIDI Control with Line 6 Devices
+
+Ahora cambiemos a la pestaña /MIDI/Sync,/ en donde podemos establecer comunicación MIDI entre $0 y el interfaz de audio:
+POD_Studio_MidiTab.tif
+
+En la mitad inferior de esta pestaña, encontrará la sección /MIDI Ports./ Su interfaz de audio Line 6 debería aparecer aquí en la lista tanto como una entrada y como una salida (quizá deba desplazar la persiana para ver todos los dispositivos disponibles):
+MidiPortsPOD_Studio.tif
+
+Para permitir que el interfaz de audio controle el interfaz de $0 de forma remota, activaremos el interruptor /Remote/ para la /Entrada/ del interfaz de audio:
+RemoteEnabledPOD_Studio.tif
+
+Ahora ya puede cerrar las Preferencias de $0.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Configuración de POD Farm
+$TargetName POD Farm Settings
+
+En nuestro siguiente paso, vamos a configurar el software de Line 6 POD Farm. Para más información, por favor consulte la documentación que venía con el dispositivo. En este momento, queremos seleccionar *Instrument* desde Tone 1 y *Mic* desde Tone 2 usando los menús /Source Select/ de POD Farm:
+InstMic.tif
+
+A continuación, abra las preferencias de POD Farm, y seleccione la pestaña /MIDI/Control./ Pulse sobre el botón con la etiqueta /Line 6 Audio-MIDI Devices:/
+GearBoxMidiPrefs.tif
+
+En la sección /Controller Mapping/ de la pestaña section of the /MIDI,/ seleccione el preset *Ableton Live:*
+GearBoxLivePreset.tif
+
+Ahora pulse el botón /Settings.../ para mostrar los mapeados de controlador del interfaz de audio:
+GearBoxSettingsWide.tif
+
+-> Si todas las entradas en la sección resaltada de arriba dicen *None,* será necesario introducir manualmente alguna información antes de continuar. $Link Por favor pulse aquí <Lesson:Builtin/BuiltinLessons/VendorSpecific/KB37 Controller Mappings>.
+-> Si ya hay MIDI CCs asignados a estas funciones, puede simplemente pulsar *Cancel,* cerrar las preferencias de POD Farm, y continuar con la lección.
+
+Su interfaz de audio Line 6 ahora debería estár ya configurado pra ejercer un control remoto sobre el interfaz de $0.
+
+Puede verificar que KB37 se está comunicando con $0 manejando cualquiera de sus knobs o botones. Mientras hace esto, $0 reconocerá que está recibiendo mensajes de control haciendo parpadear el indicador /MIDI In,/ en la esquina superior derecha de la ventana de la aplicación:
+MidiIndicator.tif
+
+*Nota:* UX2 y UX8 envían MIDI a través de los controladores de pie o pedaleeras.
+
+$Comment -----------------------------------------------------------------------
+$Page Configuración de monitorización
+$TargetName Setting up Monitoring
+
+Seguidamente, tenemos que configurar la monitorización de $0. Con muchos interfaces de audio, puede que experimente latencias - retardos no deseables que pueden experimentar las señales de audio en su ruta desde y hacia el ordenador. Afortunadamente, los interfaces de audio Line 6 con POD Farm ofrecen la exclusiva solución de monitorización ToneDirect monitoring, que virtualmente elimina la latencia.
+
+Vamos a desactivar /auto input monitoring/ de $0 para cada pista sobre la que vayamos a grabar, para no escuchar un sonido "doble."
+
+Primero, asegurémonos de que la sección /I/O/ del mezclador esté visible. Puede conmutarse la visión con un selector dedicado en la esquina inferior derecha del mezclador:
+IoSelector.tif
+
+Con la sección I/O visible, podemos desactivar la monitorización para pistas individuales seleccionando el interruptor /OFF./ Por favor haga esto ahora para la pista 1, *Lead Guitar,* sobre la que vamos a grabar en un momento:
+MonitoringOff.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Grabación de una toma
+$TargetName Recording a Take
+
+Hemos preparado algunas pistas de fondo en la Vista Arrangement de $0 para tener algo con lo que tocar:
+BackingTracks.tif
+
+Vamos a parar un momento para familiarizarnos con lo que tenemos aquí antes de grabar una toma. Pulse dos veces sobre el botón /Stop/ de la Barra de Control, para asegurarse de que la reproducción comenzará en el inicio del Live Set:
+TransportStopRec.tif
+
+Ahora pulse sobre el botón /Play/ de la barra de control (o pulse sobre la *barra espaciadora* en el teclado de su ordenador):
+TransportPlayRec.tif
+
+Cuando esté preparado/a, pulse de nuevo dos veces el botón Stop para resetear la posición de inicio a *1.1.1.* Seguidamente, pulse el botón adyacente /Global Record/ (Probablemente esto ya les es familiar a aquellos que hayan usado grabadoras de cinta multipistas: Se pueden armar pistas individuales para grabación, luego el botón Global Record habilita la grabación para esas pistas armadas.):
+GlobalRecordRec.tif
+
+Finalmente pulse el botón Play para iniciar la grabación:
+TransportPlayRec.tif
+
+¡Ya es hora de hacer algo de ruido!
+
+
+$Comment -----------------------------------------------------------------------
+$Page Grabación y Reproducción
+$TargetName Recording and Playback
+
+A medida que la grabación va progresando, verá como se va creando un nuevo /clip de audio/ en la pista.
+ArrangementClipRecording.tif
+
+Para detener la grabación, pulse sobre el botón Detener en la barra de control, o pulse de nuevo sobre la *barra espaciadora:*
+TransportStopRec.tif
+
+Ahora, pulse una vez más el botón Detener (reajustando así el Arrangement a *1.1.1*), y escuche su grabación pulsando sobre el botón Reproducir.
+
+Si no está satisfecho con lo que ha grabado, ¡tranquilícese! Una rápida pulsación de *$CommandMod + Z* es todo lo que necesita para deshacer una toma, y listo para probar de nuevo.
+
+Si grabó durante largo rato, puede que el Arrangement haya comenzado a desplazarse horizontalmente. Para desplazar la vista hacia atrás o hacia delante, o para acercar o alejar, agarre la regla beat-time en la parte superior del Arrangement con el ratón.
+-> Los movimientos verticales del ratón /alejan y acercan el zoom;/
+-> Los movimientos horizontales /desplazan/ a izquierda y derecha.
+TimeLineRec.tif
+
+La reproducción y la grabación pueden comenzar desde cualquier lugar de la canción. puede ajustar una /marca de inserción/ pulsando en cualquier parte de la Vista Arrangement (excepto en la barra de título de un clip), y la próxima vez la canción comenzará a reproducirse desde ese punto.
+InsertMarker.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Grabación de dos entradas
+$TargetName Recording Two Inputs
+
+Si su interfaz de audio Line 6 lleva múltiples entradas, podemos utilizar la función de grabación simultánea del interfaz de audio para grabar un micrófono y un instrumento a la vez. Vamos a configurar una segunda pista de audio para el canal del micro.
+
+Pulse sobre el botón /desplegar/ para la pista *6 Audio:*
+TrackUnfold.tif
+
+Primero, ponga la entrada de monitorización de la pista en *OFF* para que podamos usar la monitorización de ToneDirect. Luego en el selector de /Canal de Entrada/ arriba, seleccione las entradas de micrófono del interfaz de audio, *3/4:*
+SecondTrackMonitoring.tif
+
+Un botón /Arm/ de una pista la habilita para grabación, pero por defecto, sólo se puede armar una pista cada vez. Para activar la pista 6 además de la pista 1, mantenga pulsada la tecla *$CommandMod* mientras pulsa sobre el botón Armar de la pista 6:
+TwoTracksArmed.tif
+
+Ahora prepárelo para grabación activando el botón Global Record una vez más:
+GlobalRecordRec.tif
+
+Pulse Play para comenzar la grabación. ¡Su instrumento grabará en la pista 1 como antes, y su micrófono grabará en la pista 6!
+
+
+$Comment -----------------------------------------------------------------------
+$Page Manipulando sus sonidos de guitarra
+$TargetName Tweaking Your Guitar Sounds
+
+Aunque su interfaz de audio Line 6 lleva un excelente juego de efectos incluidos, a menudo es mejor aplicar efectos /después/ de haber grabado, de forma que no sean parte permanente de la grabación. $0 viene con una gran selección de efectos e instrumentos virtuales, que están disponibles en el /Navegador de dispositivos:/
+DeviceBrowserSelector.tif
+
+Pulse sobre la *barra espaciadora* para iniciar de nuevo la reproducción. Seguidamente, pulse sobre el nombre de un efecto desde el Navegador de Dispositivos, como el /Ping Pong Delay,/ y arrástrelo hasta la pista *Lead Guitar:*
+PingPong.tif
+
+Inmediatamente escuchará ecos superimpuestos a su reproducción. Pruebe a pulsar y arrastrar la rejilla /XY/ para cambiar el sonido.
+
+Para ese clásico sonido trippy, vamos a poner del revés al sonido del lead: Pulse dos veces sobre el clip que acaba de grabar. Se mostrarán sus propiedades en la parte inferior de la pantalla en la /Vista Clip/ de $0. Pulse sobre el botón /Reverse/ que se muestra aquí, y luego escuche el resultado:
+ReverseButton.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Modo MIDI Map
+$TargetName MIDI Map Mode
+
+Puede controlar casi cualquiera de las funciones de $0 de forma remota utilizando el teclado MIDI integrado que viene con el modelo Line 6 KB37. Vamos a personalizar algunos mapeados utilizando los knobs de su parte izquierda:
+KB37LeftKnobs.tif
+
+Las asignaciones de control remoto MIDI se definen en /MIDI Map Mode./ Pulse el interruptor /MIDI/ en la esquina superior derecha de la pantalla para entrar en el Modo MIDI Map:
+MidiMapSwitch.tif
+
+Fijese en que todos los parámetros que pueden controlarse de forma remota aparecen realzados siempre que se activa el Modo MIDI Map.
+
+Ahora podemos asignar knobs o teclas en el KB37 a controles en $0. Pulse /una vez/ para seleccionar uno de los parámetros de $0, luego gire un knob o pulse un botón en el KB37 para crear la asignación. Salga del modo MIDI Map, ¡y listo para continuar!
+
+Algunos controles en el KB37, como los /botones de transporte,/ han sido preasignados a parámetros en $0:
+TransportButtons.tif
+
+Estos botones funcionan de la siguiente forma, de izquierda a derecha:
+-> Conmutar el metrónomo On/Off
+-> Conmutar el Arrangement Loop On/Off
+-> Stop
+-> Play
+-> Conmutar el botón Global Record On/Off
+
+Los UX2 y KB37 también añaden control de pedalera con conmutadores a $0. *Footswitch 1* conmuta Play/Stop:
+PlayStop.tif
+
+*Footswitch 2* conmuta el botón Global Record On/Off:
+GlobalRecordRec.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page ¿Y ahora adonde me dirijo?
+$TargetName Where to Go from Here?
+
+Ya está todo configurado y listo con $0 y su interfaz de audio Line 6, pero hay muchas más posibilidades para los guitarristas que usen $0!
+
+-> Puede grabar la interpretación de otro guitarrista en $0, luego ralentizarlo muchísimo para facilitar el aprendizaje y la transcripción.
+-> Al ralentizar cambios complicados de acordes, puede construir sus propias rebanadas de jazz hasta que sus dedos aprendan. Para los instrumentistas de jazz avanzados, pruebe a tocar sobre cambios de acordes aleatorios creados por las /Follow Actions/ de clips.
+-> El comando *Exportar Audio* del menú Archivo puede exportar la salida Master de $0 como una nueva muestra. El archivo resultante puede usarse para tostar un CD de audio para escucharlo o un CD de datos, que puede servir como copia de seguridad de su trabajo.
+-> Aquellos que se decanten hacia la parte experimental del espectro pueden hacer un uso creativo de las capacidades de Warping y pitch shifting de $0.
+-> Para saber más acerca de la grabación en $0, consulte la lección $Link Grabación de Audio <Lesson:Builtin/1-Live Basics Category/2-Recording Audio>.
+
+Cualesquiera que sean sus gustos musicales, $0 puede ayudarle a disfrutar de su guitarra y a mejorar su música. Para trabajar con pistas ilimitadas, escenas, efectos y más, actualícese a la versión completa de Live $Link aquí <http://www.ableton.com/upgrade>.
+
+Para más información por favor visite $Link www.ableton.com <http://www.ableton.com>
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,55 @@
+$Page Willkommen in Live Lite 6!
+$TargetName Welcome to Live Lite 6!
+L6_lite_lesson.tif
+
+*Ableton Live Lite 6 Digidesign Edition* bringt Ihnen viel der Funktionalität von Ableton Live 6 – der revolutionären, mehrfach preisgekrönten Lösung zur Musikproduktion, die Ihnen das spontane Komponieren, Aufnehmen, Remixen, Improvisieren und Bearbeiten Ihrer musikalischen Ideen in einer nahtlosen Audio/MIDI-Umgebung erlaubt. Diese Version von Live Lite enthält:
+
+-> 4 Audio- und 4 MIDI-Spuren
+-> Aufnahmen mit 32 Bit Auflösung
+-> MIDI-Fernsteuerung
+-> Komplette ReWire-Unterstützung
+-> 2 Mono-Eingänge und -Ausgänge
+-> 4 Szenen für die Session-Ansicht
+-> ... und vieles mehr.
+
+Wenn Sie den Umgang mit Live erlernen möchten, folgen Sie am besten den mitgelieferten /Kursen./ Live's Kurse sind kurze, interaktive Tutoriale, die neuen Benutzern den Einstieg erleichtern und erfahrenen Live-Nutzern helfen, mehr aus Live herauszuholen. Sie können jederzeit durch die Wahl von "Inhaltsverzeichnis der Kurse" vom Hilfe-Menü aufgerufen werden. Der folgende Kurs hilft Ihnen beim Einstieg:
+
+-> $Link Audio aufnehmen <Lesson:Builtin/1-Live Basics Category/1-Recording Audio>
+-> $Link Das Spielen von Software-Instrumenten <Lesson:Builtin/1-Live Basics Category/2-Playing Software Instruments>
+-> $Link Improvisation mit Loops <Lesson:Builtin/1-Live Basics Category/3-Improvising with Loops>
+-> $Link Beats erzeugen <Lesson:Builtin/1-Live Basics Category/5-Creating Beats>
+
+Klicken Sie auf /Nächste Seite,/ um einen Vergleich zwischen dieser Version von Live Lite mit den professionellen Funktionen der Vollversion zu sehen.
+
+
+$Page Live Lite Funktionsvergleich
+$TargetName Live Lite Feature Comparison
+
+Funktionalität der /Live Lite 6 Digidesign Edition:/
+
+-> 8 Spuren (4 Audio- und 4 MIDI-Spuren)
+-> 2 Mono-Eingänge, 2 Mono-Ausgänge
+-> Aufnahmen mit 32 Bit Auflösung
+-> MIDI-Fernsteuerung
+-> MIDI-Ausgang zur Steuerung von Hardware-Synthesizern
+-> Komplette ReWire-Unterstützung
+-> 2 Audio- und 2 MIDI-Effekte pro Live-Set
+-> 1 VST-/AU-Instrument und 1 Effekt pro Live-Set
+-> 4 Szenen für die Session-Ansicht
+-> 2 Clip-Hüllkurven pro Live-Set
+
+Die /Vollversion von Live 6/ erweitert diese Funktionen durch:
+
+-> Eine unbegrenzte Anzahl an Spuren und Szenen
+-> Eine unbegrenzte Anzahl an Ein- und Ausgängen
+-> Eine unbegrenzte Anzahl an Effekten
+-> Komplette VST-Unterstützung
+-> Die Unterstützung von MP3, Ogg Vorbis und FLAC
+-> Das Erzeugen und Bearbeiten von Instrumenten- und Effekt-Racks
+-> ... und vieles mehr.
+
+
+Sie können die Vollversion von Live durch Aktivieren des $Link /Demo-Modus'/ <Lesson:Builtin/Demo Mode> ausprobieren oder mit einem Klick $Link hier <http://www.ableton.com/upgrade-live-lite> zur Vollversion upgraden.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

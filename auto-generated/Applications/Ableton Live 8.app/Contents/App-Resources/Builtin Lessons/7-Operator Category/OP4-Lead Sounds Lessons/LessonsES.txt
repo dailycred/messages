@@ -1,0 +1,154 @@
+$Page Creación de sonidos de Lead
+$TargetName Creating Lead Sounds
+$ListInTocForProduct 40
+
+Con cuatro osciladores, filtros resonantes multimodo y glide polifónico, Operator sobresale en la creación de gruesos /sonidos lead./ Está lección se centrará en el uso de Operator para crear complejos leads que convierten la frontera entre analógico y digital en algo indefinido.
+
+Divider.tif
+*Nota:* Esta lección viene acompañada de un Live Set con el que interactuará a medida que sigue la lección. Por favor pulse $Link aquí <Set:/Sets/OP-Default Set.als> para cargar el Live Set.*
+Divider.tif
+
+Al igual que con las otras lecciones de Operator, obtendrá una mejor visión del instrumento en la /vista Track,/ si pliega la /vista Info/ pulsando sobre el botón mostrar/ocultar en la parte inferior izquierda de la pantalla.
+HideInfoView.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Los algoritmos
+$TargetName The Algorithms
+
+Como ya se ha mencionado en otras lecciones, los once /algoritmos/ de Operator poseen características muy diferentes. En algunos, los osciladores de Operator se modulan entre sí en complejas formas. Cada algoritmo es útil para un tipo de sonido diferente.
+
+Para acceder a los algoritmos, seleccione la sección global del panel de forma que quede resaltada, así:
+GlobalSection.tif
+Los algoritmos aparecerán en la parte superior de la pantalla de Operator.
+
+Repasemos nuestras opciones: Si lo que desea es un buen sonido FM, los ocho primeros algoritmos son una excelente elección. Para patches híbridos o de estilo analógico substractivo, pruebe los algoritmos del 9 al 11.
+
+El algoritmo 9 es un punto de partida flexible para esos patches híbridos con un fuerte carácter analógico, así que comencemos seleccionándolo:
+Algorithms.tif
+
+En este algoritmo, tiene tres osciladores en paralelo (A, B, C), todos modulados vía FM por el oscilador D.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page El clásico lead de diente de sierra
+$TargetName The Classic Sawtooth Lead
+
+El primer sonido que vamos a construir es un lead clásico analógico de diente de sierra, popular en el trance y techno. Este patch sólo requiere dos osciladores, A y B, por lo que es muy simple de configurar.
+
+Primero, seleccione el oscilador A desde el panel...
+OscA.tif
+... y cambie su parámetro /Wave/ a Sw64 (Saw 64), así:
+Saw64.tif
+
+Esta el la más brillante de las formas de onda de diente de sierra disponibles puesto que incluye el mayor número de armónicos. La envolvente por defecto es apropiada para este tipo de lead, así que déjela tal y como está, pero cambien la cantidad de /Vel/ en la sección Level a 80% para darle más dinamismo al patch.
+Velocity80.tif
+
+Ahora duplique estos ajustes para el Oscillator B. La forma más sencilla de hacer esto es copiarlos usando el comando disponible cuando $ContextMenuing sobre la pantalla de Oscillator B:
+CopyOscillator.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Ajustando la afinación
+$TargetName Adjusting Tuning
+
+Ahora vamos a realizar algunos ajustes de afinación sobre el oscilador A.
+
+Deje el knob de afinación /Coarse/ ajustado a 1 y aumente el parámetro de afinación /Fine/ a 10:
+CoarseFine.tif
+
+Vamos también a bajar el valor /Level/ a -6.0 dB para darle al sonido un cierto techo:
+Level-6.tif
+
+/Sugerencia:/ Puede que encuentre más rápido y cómodo pulsar sobre los controles de Operator e introducir directamente los valores en vez de usar el ratón para realizar los ajustes.
+
+$Comment --------------------------------------------------------------------------------
+$Page Ajuste del Oscillator B
+$TargetName Adjusting Oscillator B
+
+Ahora debería escuchar un patch de diente de sierra brillante con un toque de suave desafinación, no muy diferente a un efecto de chorus. Vamos a incrementar la desafinación para darle al sonido un filo más cortante.
+
+Primero, baje la afinación /Coarse/ de Oscillator B hasta 0.5. Esto transpone el oscilador B una octava hacia abajo, aunque ese no es nuestro objetivo en este punto. Al aumentar su afinación /Fine/ hasta 990, estamos efectivamente desafinando el oscilador B hacia abajo en 10 Hz, creando una diferencia total de 20 Hz entre los dos osciladores (recuerde que en oscilador A ajustamos /Coarse/ a 1 y /Fine/ a 10). Cuando haya terminado de ajustar el oscilador B, los parámetros en su panel deberían parecerse a los que le mostramos aquí:
+OscBSettings.tif
+
+Ahora cuando reproduzca algunas notas, escuchará un grueso lead de diente de sierra que resaltará elegantemente en una mezcla.
+
+$Comment --------------------------------------------------------------------------------
+$Page El lead de los 70s
+$TargetName The 1970s Lead
+
+Todavía no hemos terminado; usando esta configuración de dos osciladores como punto de partida, ahora podemos crear ese sonido lead tan peculiar de la era del rock progresivo de los 70s.
+
+Primero, cambie el tipo de /Wave/ de ambos osciladores a Sq64 (Square 64). Esto nos dará un par de ondas cuadradas desafinadas y cambiará el carácter del sonido de forma dramática, haciendo que suene más "hueco," pero manteniendo la "garra."
+Square64.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Utilización del Glide
+$TargetName Using Glide
+
+Bueno, ahora para obtener ese efecto de marca de los leads de rock progresivo, vamos a añadir algo de /glide,/ que a veces se denomina "portamento." La función glide de Operator hace que el tono de cada nota se deslice hasta la siguiente. Este deslizamiento puede hacerse de forma rápida o lenta, no muy diferente al sonido de un trombón o de un Theremin, dependiendo del ajuste de /Time./
+
+El parámetro /Glide/ se encuentra en la sección de la envolvente de tono, que aparecerá en el display cuando lo seleccione desde el panel, así:
+PitchSection.tif
+
+Ahora, haga clic sobre la "G" debajo de la palabra "Glide" en la pantalla.
+GIcon.tif
+
+Esto activa el efecto al valor por defecto de 300 ms, que es un ajuste excelente para este patch.
+GlideTime.tif
+
+Toque algunas notas en la parte de graves de su teclado seguidas por unas pocas notas más en las octavas superiores. Si está familiarizado con los clásicos sonidos Moog, pronto reconocerá lo afortunado que es. Experimente con diferentes tiempos de glide hasta que encuentre un ajuste que le guste.
+
+$Comment --------------------------------------------------------------------------------
+$Page Añadimos el oscilador C>
+$TargetName Bringing in Oscillator C
+
+Vamos a llevar nuestro sonido en una nueva dirección. Puesto que sólo estamos usando dos de los cuatro osciladores disponibles, vamos a añadir una onda senoidal tres octavas por encima de los otros dos osciladores. Esto añadirá un agudo sonido de tipo Theremin que acompañará al patch original.
+
+Ajuste la afinación /Coarse/ del oscilador C a 8 y configure su /Level/ a 0.0 dB:
+OscCSettings.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Añadiendo ese filo Digital
+$TargetName Adding a Digital Edge
+
+Ahora vamos a darle a este sonido un fuerte carácter digital añadiéndole algo de FM del oscilador D, que modula a los otros tres osciladores por igual. Para conseguirlo, mantenga pulsada una tecla y aumente lentamente el potenciómetro /Level/ del oscilador D desde -inf hasta -2.5 dB:
+OscDSettings.tif
+El sonido se volverá progresivamente más áspero y casi distorsionado a medida que aumente el valor.
+
+Si es un fan de la música industrial o de ciertos tipos de techno, probablemente podría encontrarle algunos usos a esta textura tal como está. Otros usuarios preferirán hacer este sonido más percusivo. Podemos conseguirlo utilizando la envolvente del oscilador D para cambiar la cantidad de FM en la línea temporal.
+
+Vamos a comenzar ajustando el nivel /Sustain/ a -inf (off):
+SustainOff.tif
+
+Ahora, ajuste el tiempo de /Decay/ a su gusto:
+DecayToTaste.tif
+
+Para obtener un sonido percusivo, como el de un oscilador analógico con hard sync, pruebe con un ajuste de 3.11 segundos.
+
+$Comment --------------------------------------------------------------------------------
+$Page El toque final
+$TargetName The Finishing Touches
+
+Con los cuatro osciladores funcionando y con la adición de la FM, puede que note que el patch comienza a recortar. Si este es el caso, pruebe a reducir el nivel de salida mediante el potenciómetro /Volume:/
+VolumeDown.tif
+Por último, para añadir ese toque final, vamos a dominar algunas de esas bruscas frecuencias agudas mediante un filtro paso-bajo.
+
+Active el módulo del filtro desde el panel con el botón cuadrado a su izquierda.
+FilterOnLead.tif
+
+Ahora configure la frecuencia del corte /(Freq)/ a 2 kHz. Esto ayudará a dominar el sonido y permitir que encaje mejor en ciertos tipos de mezclas.
+FilterCutoff.tif
+
+Hemos dejado el filtro ajustado a /Low 12dB,/ pero también puede experimentar con los otros tipos de filtro seleccionándolos en el selector.
+FilterChooser.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ... y finalmente
+$TargetName ... and Finally
+
+Aquí lo tiene: los conceptos esenciales en la creación de sonidos lead híbridos analog-FM usando los cuatro osciladores de Operator, opciones de modulación, filtros multimodo y funciones extra del tipo glide. Si quiere seguir experimentando, pruebe a cambiar el ajuste de /Coarse/ del oscilador D o utilizar el algoritmo once, que elimina la FM, dándole cuatro osciladores en paralelo para obtener esas tremendas texturas analógicas. Ya comentaremos con más profundidad los usos del algoritmo once en la próxima lección sobre generación de sonidos de colchones (disponible a través del menú /Ayuda/ ).
+
+Recuerde que la vista Info es un excelente recurso que puede proporcionarle una breve descripción de cualquier parámetro en Operator. Siempre podrá mostrarlo u ocultarlo pulsando sobre el botón triangular en la esquina inferior izquierda de la pantalla.
+LeadInfoView.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

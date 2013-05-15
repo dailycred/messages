@@ -1,0 +1,18 @@
+$Page Impacchettamento dei Progetti
+$TargetName Packing Projects
+
+Puoi archiviare la cartella di un Progetto creando un /Live Pack./ Questo copia i contenuti della cartella del tuo Progetto in un singolo file compresso che può essere salvato o condiviso facilmente.
+PackingSection.tif
+
+Poiché il Live Pack duplica semplicemente i contenuti della cartella del tuo Progetto, non comprenderà i file esterni ai quali il tuo Progetto fa riferimento. Se devi creare un archivio completo di un Progetto, prima di procedere usa la sezione /File Esterni/ del File Manager per raccogliere questi file nella cartella del Progetto.
+
+I Live Pack utilizzano una compressione lossless (senza perdita di dati) per ridurre al minimo le proprie dimensioni. A seconda dei file utilizzati (campioni, etc.), la dimensione totale del file può essere ridotta fino al 50 per cento senza mai alterare il tuo materiale.
+
+Puoi scompattare i Live Pack con un doppio clic, trascinandoli dentro a Live o utilizzando il comando *Installa Live Pack* del menu File.
+
+
+Divider.tif
+*Nota:* se vuoi eliminare un Progetto dopo averlo impacchettato, usa il Browser dei File di Live.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

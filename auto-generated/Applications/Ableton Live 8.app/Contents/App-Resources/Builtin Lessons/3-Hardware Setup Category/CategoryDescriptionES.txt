@@ -1,0 +1,1 @@
+*Configuración del Hardware* - Asegúrese de que $0 funciona perfectamente con su hardware.

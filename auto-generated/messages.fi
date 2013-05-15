@@ -1,0 +1,86 @@
+Application.NoSuchClient=Ei asiakkaan olemassa id% s.
+Application.NoSuchApp=Ei app olemassa id% s.
+Application.NoClientProvided=Ole hyvä ja anna asiakkaalle ID kanssa pyynnöstä.
+Application.NoRedirectProvided=Anna uudelleenohjaus kanssa OAuth pyynnöstä. <br/> <b>Kehittäjät:</b> anna soittopyynnön uri-parametrin avulla <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> tai asettamalla oletuksena takaisinsoiton <a href="https://www.dailycred.com/admin/setup">tilin asetukset</a> .
+Application.EnterEmailOrUsername=Kirjoita sähköpostiosoite tai käyttäjätunnus.
+Application.EnterEmail=Kirjoita sähköpostiosoite.
+Application.EnterUsername=Syötä käyttäjätunnuksesi.
+Application.EnterPassword=Kirjoita salasana.
+Application.AtNotAllowed=Symboli &quot;@&quot; ei voida käyttää käyttäjätunnuksesi.
+Application.WrongPasswordOrUsername=Tarkista käyttäjätunnus ja salasana ja yritä uudelleen. <a href="%s">Voit nollata salasanasi, klikkaa tästä.</a>
+Application.BadDomain=Domain &quot;% s&quot; ei kelpaa.
+Application.BadEmail=Tarkista, että sähköpostiosoitteesi on kirjoitettu oikein ja yritä uudelleen.
+Application.BadNewEmail=Ole hyvä ja tarkista, että uudet sähköpostiviestit on kirjoitettu oikein ja yritä uudelleen.
+Application.PasswordTooShort=Kirjoita salasana vähintään% d merkkiä.
+Application.NoCallbackUri=% S ei ole asettanut soittopyynnön URI vielä. Yritä myöhemmin uudelleen.
+Application.EmailTaken=Tämä sähköpostiosoite on jo käytössä.
+Application.UsernameTaken=Tämä käyttäjätunnus on jo varattu. Käytä eri käyttäjätunnus.
+Application.EmailSent=Sähköposti on lähetetty. Tarkista sähköpostisi lisäohjeita.
+Application.EmailSentGmail=Sähköposti on lähetetty. <a href="http://mail.google.com/">Tarkista Gmail lisäohjeita.</a>
+Application.GoToGmail=Mene Gmailin postilaatikkoon
+Application.EmailSentYahoo=Sähköposti on lähetetty. <a href="http://mail.yahoo.com/">tarkista Yahoo! Sähköposti lisäohjeita.</a>
+Application.GoToYahoo=Mene Yahoo postilaatikkoon
+Application.EmailSentHotmail=Sähköposti on lähetetty. <a href="http://www.hotmail.com/">Tarkista hotmail lisäohjeita.</a>
+Application.GoToHotmail=Mene Hotmail Inbox
+Application.EmailSentICloud=Sähköposti on lähetetty. <a href="https://www.icloud.com/#mail">Tarkista iCloud Mail lisäohjeita.</a>
+Application.GoToICloud=Mene iCloud postilaatikkoon
+Application.NoSuchEmail=Ei käyttäjälle on olemassa sähköpostin% s.
+Application.NoSuchUser=Ei käyttäjän olemassa id% s.
+Application.NoSuchUserFriendly=Emme löytäneet käyttäjätili tämän sähköpostin tai käyttäjätunnus. Ole hyvä ja yritä uudelleen.
+Application.NoSuchToken=Oli virhe Allekirjoittamalla tilillesi. Yritä hetken kuluttua uudelleen.
+Application.PasswordResetInvalid=Tämä salasanan pyyntö on virheellinen tai sitä ei löydy. Yritä salasanan vaihtoa uudelleen.
+Application.PasswordUpdated=Salasanasi on päivitetty.
+Application.APIWrongPassword=Tarkista salasana ja yritä uudelleen.
+Application.APIError=Odottamaton virhe. Ole hyvä ja yritä uudelleen.
+Application.APIBadToken=Virheellinen OAuth.
+Application.APINoToken=Aktiivinen käyttöoikeustunnukseksi on käyttää kyselyn tietoja nykyisen käyttäjän.
+Application.APIBadCode=Virheellinen OAuth koodi.
+Application.TimeOut=Tämä tuntuu kestävän liian kauan. Yritä hetken kuluttua uudelleen.
+Application.BadURL=Tämä ei ole kelvollinen URL-osoite. Tämä kenttä on täynnä, ei-suhteellinen URL, kuten https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Tämä kenttä enimmäispituus on 200 merkkiä. Käytä jotain lyhyempi.
+Application.NoStripeKey=Ei raita API Key löytyi. Ole hyvä ja aseta raita API avain teidän <a href="https://dailycred.com/admin/setup">asetukset</a> -sivulla.
+Application.OAuthCallBackNotInDomain=Edellyttäen redirect_uri ei hyväksynyt tämän asiakkaan tilin asetuksista.
+Application.CNameNotValidDomain=Edellyttäen cname ei näytä olevan kelvollinen verkkotunnus.
+Application.Required=Tämä on pakollinen kenttä.
+Application.LogoFileTooLarge=Koko ylittää kokorajoitus.
+Application.LogoFileIsNotImage=Tiedostotyyppi ei ole voimassa. Vain PNG, JPG ja GIF ovat sallittuja.
+Application.NoClientSecret=Sinun on määritettävä client_secret parametri sisältää oman Dailycred salainen avain.
+Application.InvalidClientSecret=Tämä on virheellinen Dailycred salainen avain.
+Application.MissingRequiredFields=Näyttää siltä, ​​olet puuttuu muutama pakolliset kentät. Ole hyvä ja mene <a href="/admin/setup">setup</a> sivun päästä perustamaan.
+Application.CouldNotUnsubscribe=Pahoittelemme, koska teknisen virheen emme voineet tilauksesi suoraan tästä linkistä. Yritä uudelleen tai <a href="mailto:support@dailycred.com">ota yhteyttä suoraan</a> poistetaan.
+Application.Unsubscribed=Olet ollut unsubscribe. Olemme pahoillamme, että menet!
+Application.Subscribed=Sinut on merkitty. Kiitos!
+Application.CouldNotSubscribe=Pahoittelemme, koska teknisen virheen emme voi tilata suoraan tästä linkistä. Yritä uudelleen tai <a href="mailto:support@dailycred.com">ota yhteyttä suoraan</a> lisätään.
+Application.AdminsCantUnsubscribe=Myöntää, ei voi peruuttaa omaan lukuunsa.
+Application.EmailIsSame=Uusi sähköposti on sama kuin nykyinen sähköpostiosoitteen.
+Application.EmailOnlyUserNotAllowed=Tämä sovellus ei tue ainoastaan ​​sähköpostitse käyttäjille.
+Application.EmailChangeSuccess=Sähköpostiviesti on muutettu% s. Hyvä etsiä sähköpostitse ja vahvista uusi osoite.
+Application.EmailVerifySuccess=Email% s on varmistettu.
+Application.PostOnly=Tämä pyyntö on esitettävä käyttäen <b>HTTP POST pyynnön.</b> <br/><br/> Jos olet vain tsekata API, kannattaa käyttää kiharaa tai <a target="_blank" href="http://hurl.it/">heittää</a> .
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">Käyttäjä</a> on oikeudenkäynti, joka on päättymässä. Tämä sähköpostiosoite johtui Raita webhook.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">Käyttäjä</a> onnistuneesti ladattu. Tämä sähköpostiosoite johtui Raita webhook.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">Käyttäjä</a> on tuloksetta hintaan. Tämä sähköpostiosoite johtui Raita webhook.
+Application.BillingError=Jotain meni pieleen, kun yrittää asettaa laskutustiedot. Ole hyvä ja yritä uudelleen hetkellisesti.
+Application.TrialWillEnd=Ilmainen kokeiluversio kanssa Dailycred on päättymässä% s. Käy oman <a href="https://www.dailycred.com/admin/settings/billing">laskutussivulle</a> estää tilisi on poistettu käytöstä.
+Application.TrialWillEndLong=Ilmainen kokeiluversio kanssa DailyCred päättyy pian% s. <br><br> Jotta tilisi pysyisi aktiivisena, käy <a href="https://www.dailycred.com/admin/settings/billing">laskutussivulle</a> tarkistaa <a href="https://www.dailycred.com/pricing">edullisia suunnitelmia</a> ja anna maksutiedot tänään.
+Application.CannotRemoveActiveCard=Et voi poistaa aktiivista laskutustavaksesi. Jos haluat peruuttaa tilisi sähköpostilla support@dailycred.com kanssa tilinumero.
+Application.StateCheckFailed=Pyynnöstä puuttuu tilaparametri. Ole hyvä ja yritä uudelleen.
+Application.UnexpectedError=Anteeksi, odottamaton virhe. Ole hyvä ja yritä uudelleen.
+Application.UserAnotherIdentityProvider=Et ilmeisesti ole tiliä käyttäen% s. <a href="%s">Klikkaa tästä yhteyden käyttäen% s</a> tai <a href="%s">klikkaa tästä asettaa salasanan</a> .
+Application.APIKeyNotFound=API avain ei. Aseta API avain tämän identiteetin tarjoaja teidän <a href="https://www.dailycred.com/admin/settings">asetukset-sivulla</a> .
+Application.ForeignIDAlreadyRegistered=Emme voisi liittää tämän tilin, koska foreignID% s tarjoaja% s on jo liitetty käyttäjän% s.
+Application.TwitterCallbackURLIncorrect=Tarkista <a href="https://dev.twitter.com/apps">Twitter sovelluksen asetuksista</a> . Sinun App n soittopyynnön URL ei voi olla tyhjä. (Se voi olla mitä tahansa URL.)
+Application.ThankYouForSigningUp=Kiitos rekisteröitymisestä% s!
+Application.ThankYouForSigningUpNoClient=Kiitos rekisteröitymisestä!
+Application.CannotDeleteLastApp=Ei voi poistaa: tilisi on oltava vähintään yksi App.
+Application.CouldNotSendEmail=Olemme pahoillamme, oli ongelma lähettämällä että sähköposti. Yritä hetken kuluttua uudelleen.
+Application.EmailVerificationRequiredSignUp=Sinun on vahvistettava sähköpostiosoitteesi ennen kirjautumista. Tarkista sähköpostisi lisäohjeita.
+Application.EmailVerificationRequiredSignIn=Sinun on vahvistettava sähköpostiosoitteesi ennen kirjautumista Tarkista sähköpostisi lisäohjeita.
+Application.Blocked=Olemme pahoillamme, sinulla on estänyt ylläpitäjä.
+
+=
+template.authorize.passwordStrength.0=Erittäin heikko
+template.authorize.passwordStrength.1=Heikko
+template.authorize.passwordStrength.2=Niin ja näin
+template.authorize.passwordStrength.3=Hyvä
+template.authorize.passwordStrength.4=Hienoa!

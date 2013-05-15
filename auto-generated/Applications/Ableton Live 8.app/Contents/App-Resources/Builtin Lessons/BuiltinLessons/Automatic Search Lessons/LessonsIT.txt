@@ -1,0 +1,55 @@
+$Page Localizzazione dei File Mancanti
+$TargetName Locating Missing Samples
+
+Il File Manager di Live ti aiuta a localizzare i file mancanti nei Live Set.
+MissingFilesSection.tif
+
+
+Ci sono due metodi che puoi utilizzare:
+
+-> $Link Riparazione Manuale tramite trascinamento e rilascio <GotoPage:Manual Repair>
+-> $Link Riparazione Automatica <GotoPage:Automatic Search>
+
+
+$Comment -----------------------------------------------------------------------
+$Page Riparazione Manuale
+$TargetName Manual Repair
+
+Per correggere manualmente un riferimento interrotto ad un file, individua il file mancante nel Browser dei File:
+MissingSampleInBrowser.tif
+
+Trascina il file dal Browser dei File e rilascialo sulla voce corrispondente nell'elenco dei file mancanti del File Manager:
+LocatedMissingSample.tif
+
+Tieni presente che puoi aggiornare il riferimento al file utilizzando qualsiasi file tu desideri: non deve necessariamente trattarsi dello stesso file che risultava mancante.
+
+
+Clicca sul pulsante /Pagina succ./ qui sotto per informazioni sulla Ricerca Automatica nel File Manager.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Ricerca Automatica
+$TargetName Automatic Search
+
+La funzione di Ricerca Automatica del File Manager è spesso il modo più facile per riparare i riferimenti interrotti ai file:
+AutomaticSearchSection.tif
+
+Puoi cliccare sul pulsante /Vai/ per avviare immediatamente la ricerca oppure cliccare sul pulsante triangolare posto a sinistra per rivelare le opzioni di ricerca:
+
+-> *Cerca Cartella* include nella ricerca una cartella definita dall'utente;
+-> *Cerca Progetto* include la cartella di Progetto del Set corrente;
+-> *Cerca Libreria* include la Libreria di Live;
+-> *Cerca vicino ai file già trovati* include le cartelle dei campioni individuati precedentemente;
+-> *Richiedi corrispondenze esatte* restituisce solo i risultati che corrispondono esattamente ai file mancanti;
+-> *Riscansiona completamente le cartelle* ricostruisce completamente l'indice di ricerca di Live, trovando i file eventualmente aggiunti o spostati da altre applicazioni.
+
+
+Per ciascun file mancante, la Ricerca Automatica può trovare un numero qualsiasi di /candidati,/ cioè di possibili corrispondenze:
+
+-> Se non viene trovano alcun candidato, puoi riavviare la ricerca utilizzando meno vincoli o individuare il file manualmente;
+-> Se viene trovato un (solo) candidato, Live accetta il candidato e ritiene risolto il problema;
+-> Se vengono trovati più candidati, clicca sul pulsante /Sostituzione Dinamica/ della voce interessata, come illustrato; i candidati saranno elencati nel Browser dei File:
+HotSwapMissingSample.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,104 @@
+$Page Driver Error Compensation 
+$TargetName Driver Error Compensation
+
+In this lesson, we'll configure $0 to compensate for latencies when recording audio from external sources. The term /latency/ refers to the unavoidable delay that all audio signals experience on their way to and from the computer.
+
+-> If you haven't already tuned Live's audio I/O by completing the $Link Setting up Audio I/O <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO> lesson, you'll need to do that /before/ beginning this lesson.
+
+-> You'll also need an /audio cable/ which can connect one output of your audio interface to one of its inputs. It doesn't matter if this is an analog or digital connection, but it must be a real /hardware/ connection.
+
+Divider.tif
+*This lesson is accompanied by a Live Set which you'll be interacting with as you follow the lesson. Whenever you're ready, please click $Link here <Set:/Sets/Driver Error Compensation.als> to load the Live Set.*
+Divider.tif
+
+
+Driver error compensation is only relevant in a /direct monitoring/ scenario, that is, when the musicians being recorded do not hear their own signals through the computer.
+
+It shouldn't be confused with /plug-in delay compensation (PDC)./ Driver error compensation addresses delays incurred by the audio interface and its drivers. PDC deals with delays caused by devices and plug-ins that need to look forward in time (dynamics tools or convolution reverbs, for example), and is explained in the Live Reference Manual.
+
+Please click the /Next Page/ button below to proceed.
+
+
+$Page Preparations 
+$TargetName Preparations
+
+This Live Set contains two tracks. The first track, *1 Audio,* contains a single drum sound which begins right at the start of the Set. The next track, *2 Audio,* is empty. We're going to use this track to re-record $0's output through an external connection:
+AdjustingLatencyLiveSet.tif
+
+Please make sure that the *Follow* option in the /Options/ menu is unchecked; we don't want or need the display to scroll:
+FollowOff.tif
+
+Please connect an audio cable from $0's output 1/2 directly to $0's input 1/2. It doesn't matter whether this is an analog or a digital connection; it is important, however, that you make a real hardware connection.
+
+Press the computer's *space bar* to play the Arrangement. The level meter of *1 Audio* will light momentarily as the drum sound from the beginning of the Arrangement is played. Press the *space bar* again to stop playback.
+
+Replay the Arrangement with the *space bar* and watch the level meter of *2 Audio:* If the external connection is working, you should see a signal here as well (even though the meter appears grey). If the signal is too strong or weak, adjust the /Master Volume/ (in the Master track) and try again until the signal is about equal to *1 Audio.*
+TrackTwoMeterAndMasterVolume.tif
+
+Remember to press the *space bar* again to stop playback when you're done.
+
+
+$Page Re-Recording 
+$TargetName Re-Recording
+
+We're ready to record the output of *1 Audio* into *2 Audio.* Prepare $0 for recording by engaging the Control Bar's /Global Record/ button:
+RecordButton.tif
+
+Begin recording by pressing the *space bar,* and end a moment later by pressing the *space bar* a second time. The recording will produce a new clip in *2 Audio:*
+NewClipInTrackTwo.tif
+
+Double-click the title bar of the new clip to display its contents in /Clip View./ In the /Sample Display,/ you should recognize the drum that we just recorded from *1 Audio:*
+NewClipInClipView.tif
+
+Please turn off the /Warp/ switch for the new clip. This allows us to adjust its timing in milliseconds instead of beat-time.
+WarpSwitchOff.tif
+
+If you look closely at the clip's waveform - zooming in if necessary - you might see that the drum sound starts somewhat later than the beginning of the sample (If not, all the better for you, as there's nothing left to do! But we suggest that you continue with the lesson just to be on the safe side.):
+KickHitLate.tif
+
+Ideally, there should be no delay here, since we started recording at the Arrangement's beginning, right where the drum hit in *1 Audio* is located. In the real world, however, there's always some amount of delay incurred when going in and out of the computer.
+
+
+$Page Adjusting Values 
+$TargetName Adjusting Values
+
+We're going to offset the clip's /start marker/ so that the clip starts at exactly the same point as its contents. Please click in the rightmost /Start/ field (which currently represents milliseconds), then press the *up* arrow key repeatedly to increase its value:
+StartMarkerField.tif
+
+As you do this, the clip's start marker moves right, and the waveform seen in *2 Audio* scrolls left. At some point, the waveform of the original drum sample in *1 Audio* and the waveform of the recorded copy in *2 Audio* will align:
+BothClipsAlign.tif
+
+Once the waveforms are aligned, take note of the value in the Start field, then open $0's Preferences via the /Options/ menu (PC) or /Live/ menu (Mac).
+
+Select the /Audio/ tab, then enter the value that you noted into the /Driver Error Compensation/ field. You can also drag here with your mouse, or use your computer keyboard's *up* and *down* arrow keys for finer control:
+ErrorCompensation.tif
+
+We've now determined how many milliseconds the audio interface's driver is "cheating" by, and have informed $0 so that it can compensate for the latency in our recordings from now on.
+
+
+$Page Verifying the Overall Latency 
+$TargetName Verifying the Overall Latency
+
+Let's verify our work. Select the clip in *2 Audio* by clicking on its title bar, then press the *Delete* key to remove the clip.
+
+Let's record another pass: Enable the Global Record button once again, then press the *space bar* twice. Voilà, the waveform of the new clip aligns with the original, without any manual adjustment:
+TheProof.tif
+
+Phew! Luckily, $0 will now take care of latencies, and you won't have to bother with them unless you change your audio hardware. What follows next is some dry theory which you're most welcome to skip!
+
+
+$Page Latency - Some Theory 
+$TargetName Latency - Some Theory
+
+*What does the Driver Error Compensation setting achieve, and why is it needed?*
+
+Imagine that you're recording a drummer into $0. The drummer plays along to $0's metronome or music from the Live Set. Monitoring is turned off on the tracks you are recording. The signal that $0 receives from the drummer is late with respect to $0's own time base due to the latency incurred by the audio hardware: the time it takes the metronome or music signal from $0 to reach the speakers (and thus the drummer's ears) plus the time it takes the drum signals from the microphones to reach $0.
+
+$0 compensates for these latencies by moving the recorded samples ahead in song time. To do this, it needs to have precise information about the actual input and output latencies in the system. The latency value reported to the software by the audio hardware drivers is not always completely accurate, however. The Driver Error Compensation setting is a way to tell $0 about any deviations from the reported values.
+
+
+*Why does this only matter when monitoring is off?*
+
+Suppose monitoring is on, and the drummer is wearing closed headphones through which he can now hear both $0's metronome and his own playing. The same latencies still apply, and the drummer is, in fact, hearing the result of his playing late. If latencies are low enough (a few milliseconds), then the drummer will compensate for the latencies by hitting the drums a bit earlier, and the recorded samples will be in time with $0's time base.
+
+$Comment Status: Translate

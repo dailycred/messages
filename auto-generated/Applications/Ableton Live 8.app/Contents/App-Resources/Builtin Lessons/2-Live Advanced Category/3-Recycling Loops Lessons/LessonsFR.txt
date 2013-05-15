@@ -1,0 +1,129 @@
+$Page Recyclage de boucles
+$TargetName Recycling Loops
+
+En plus de ses excellentes options de mixage, $0 offre une panoplie d'outils pour remixer et recycler du matériel musical. Dans cette leçon, nous explorerons les nombreuses possibilités offertes par les puissantes /enveloppes de clip/ de $0.
+
+Divider.tif
+*Veuillez cliquer $Link ici <Set:/Sets/Recycling Loops.als> pour charger le Set Live accompagnant cette leçon.*
+Divider.tif
+
+Lançons la première scène pour que nous ayons une idée de notre Set:
+SceneLaunch1.tif
+
+Nous pouvons mettre en /solo/ le clip "vox hits" à l'aide du /commutateur Solo/ de la piste "Hits":
+SoloRecycling.tif
+
+Imaginons que vous aimez le son vocal de cette boucle, mais que vous ne voulez pas employer le reste: c'est une tâche parfaite pour une enveloppe de clip. Cliquez ci-dessous sur /Page suivante/ pour continuer.
+
+$Comment -----------------------------------------------------------------------
+$Page Enveloppes de clip
+$TargetName Clip Envelopes
+
+Pour accéder aux enveloppes de clip, nous double-cliquons sur le clip "vox hits" lu afin de l'ouvrir en /fenêtre Clip./ Vous pouvez aussi gagner de l'espace à l'écran en cliquant sur le /bouton Affiche/Masque le panneau Sample/ situé dans le coin inférieur gauche de l'écran:
+ShowHideSampleBoxLoops.tif
+
+Le /panneau Envelopes/ dispose de boutons de sélection rapide pour afficher les paramètres de clip communément modulés. Nous pouvons sélectionner /l'enveloppe de volume/ du clip avec celui affiché ci-dessous:
+VolumeQuickChooser.tif
+
+A présent, nous voudrons sans doute faire un zoom arrière afin de voir la totalité de notre clip dans /l'éditeur d'enveloppe/ sur le côté droit de l'écran. Le zoom se fait avec la /règle temporelle/ en haut de l'affichage:
+BeatRulerRecycling.tif
+
+Cliquer dans la règle temporelle et tirer vers le haut ou le bas donnera un zoom avant ou arrière progressif. Cliquer dans la règle temporelle et tirer à gauche ou à droite fera défiler l'affichage à gauche ou à droite.
+
+$Comment -----------------------------------------------------------------------
+$Page Dessin d'enveloppes
+$TargetName Drawing Envelopes
+
+/Dessinons/ une courbe d'enveloppe de volume sur la forme d'onde de l'échantillon affiché en fenêtre Clip. Pour cela, nous activerons d'abord le /mode Dessin/ dans la barre de contrôle avec ce bouton:
+DrawSwitchMix.tif
+
+Maintenant, dessinez une courbe d'enveloppe de volume qui ne permet de jouer que les voix, comme ceci:
+VocalsOnlyEnvelope.tif
+
+Vous pouvez désactiver le solo sur cette piste pour retrouver le reste du mixage et entendre vos changements dans le contexte.
+
+$Comment -----------------------------------------------------------------------
+$Page Emploi d'effets
+$TargetName Using Effects
+
+Les enveloppes de clip peuvent servir à changer la hauteur, le panoramique ou n'importe quel paramètre d'effet, vous donnant un niveau de contrôle passionnant sur la forme et sur le caractère de votre son.
+
+Une enveloppe a été précédemment dessinée pour l'effet /Resonators/ sur cette piste. L'envelope a été dessinée sur le clip "vox hits" sous celui que nous utilisons actuellement, aussi pouvez-vous lancer ce clip maintenant:
+LaunchSecondVox.tif
+
+Veuillez double-cliquer sur la barre de titre de la piste "Hits" pour l'ouvrir dans la fenêtre Piste en bas de l'écran.
+Track2TitleBar.tif
+
+Maintenant, activez Resonators avec son bouton du coin supérieur gauche.
+ResonatorsActive.tif
+
+Vous pouvez aussi employer la touche N du clavier de votre ordinateur, qui a été antérieurement assignée à ce bouton, pour commuter l'effet on et off.
+
+$Comment -----------------------------------------------------------------------
+$Page Moduler les commandes d'effets
+$TargetName Modulating Effects Controls
+
+Afin de voir l'enveloppe qui a été dessinée pour la /commande Dry/Wet/ de l'effet, double-cliquez sur le clip "vox hits" lu pour qu'il s'affiche dans la fenêtre Clip du dessous. Puis, sélectionnez "Resonators" dans le sélecteur du haut du panneau Envelopes:
+ResonatorsInChooser.tif
+
+Si ce n'est pas déjà fait, mettez momentanément en solo cette piste afin d'entendre mieux l'effet de l'enveloppe de clip.
+
+Vous pouvez éditer l'enveloppe en dessinant dessus ou en /désactivant/ le mode Dessin pour travailler avec des /poignées,/ qui sont décrites plus en détail dans la leçon sur $Link l'automation <Lesson:Builtin/2-Live Advanced Category/2-Using Automation>.
+
+/Astuce:/ Presser $ShiftMod + Tab fera alterner les fenêtres Piste et Clip.
+
+$Comment -----------------------------------------------------------------------
+$Page Moduler les commandes de Mixer
+$TargetName Modulating Mixer Controls
+
+Regardons un exemple de /commande de mélangeur/ affectée par des enveloppes de clip. Sélectionnez "Mixer" dans le sélecteur du haut et "Track Panning" dans le sélecteur du bas, comme ceci:
+PanInChooser.tif
+
+Si vous regardez la /commande Pan/ de la piste dans le mélangeur, vous noterez qu'elle se déplace conjointement à l'enveloppe de clip de panoramique.
+PanGhost.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Dérangement des temps
+$TargetName Scrambling Beats
+
+Un autre emploi créatif des enveloppes de clip consiste à "déranger" les temps d'une mesure.
+
+Veuillez mettre la piste "Hip Hop" en solo, puis lancez le clip "hiphop 95" du bas pour entendre une enveloppe de clip "beat-scrambling" en action.
+HipHop95Low.tif
+
+Maintenant, double-cliquez sur le clip pour l'ouvrir dans la fenêtre Clip. Sélectionnez "Clip" dans le sélecteur d'enveloppe du haut pour voir l'enveloppe de clip représentée ci-dessous.
+BeatScrambler.tif
+
+Cet enveloppe module le /décalage d'échantillon (Sample Offset)/ de la boucle, déplaçant le point de départ et réinterprétant l'échantillon pendant que la boucle est lue.
+
+$Comment -----------------------------------------------------------------------
+$Page Création de longues variations
+$TargetName Creating Long Variations
+
+Pour entendre un dernier exemple d'enveloppes de clip, veuillez mettre en solo la piste "Synth".
+
+Lisez d'abord le clip "synth" du haut, puis comparez-le avec le clip "synth" du bas. Vous remarquerez que la boucle de synthé d'une mesure du premier clip a été retravaillée comme une variation dans le second, où elle se développe et change sur quatre mesures. Regardons cela de plus près en double-cliquant sur le clip "synth" du bas afin de l'ouvrir dans la fenêtre Clip.
+
+Notre variation de clip a deux éléments. D'abord, regardons les enveloppes de clip dans les deux sélecteurs. Sélectionnez "Clip" dans le sélecteur du haut pour voir l'enveloppe de transposition qui a été dessinée:
+TransposeEnvelope.tif
+
+Ensuite, l'enveloppe de transposition a été /dissociée (unlinked)/ de la /boucle d'une mesure,/ pour avoir une longueur indépendante de /quatre mesures./ Cela a été obtenu en activant le /bouton Dissocier l'enveloppe.../
+UnlinkEnvelope.tif
+
+... et en réglant la /longueur de l'enveloppe/ sur 4 mesures.
+FourBarEnvelope.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Essayez vous-même
+$TargetName Try It Yourself
+
+Pour résumer tout cela, disons juste qu'il n'existe pas de meilleure façon de ressentir la puissance des enveloppes de clip et le potentiel de mixage de $0 que d'essayer par vous-même. Mais ne prenez pas cela pour argent comptant, essayez-vous même et faites votre propre mixage!
+
+Quand vous éditez vos propres enveloppes de clip, il est parfois pratique de ne voir /que/ les paramètres de clip qui ont des enveloppes. Vous pouvez faire cela en choisissant /N'afficher que les paramètres modulés/ depuis n'importe lequel des sélecteurs d'enveloppe. Dans ce mode, les deux sélecteurs d'enveloppe se réuniront en un seul, qui n'affichera que les paramètres /modulés/ du clip. Pour désactiver ce mode spécial d'édition, sélectionnez /Afficher toutes les modulations/ dans le sélecteur.
+
+Les enveloppes de clip peuvent créer des variations infinies sur les boucles, les échantillons et même le MIDI, avec votre imagination pour seule limite. Les enveloppes de clip sont détaillées dans le chapitre "Enveloppes de clip" du $Link manuel de référence <Manual>, qui contient des informations sur la dissociation des enveloppes, la modulation des commandes de mélangeur et d'effets et même la création d'enveloppes de clip pour le MIDI. Le manuel de référence électronique est toujours disponible via le menu /Aide/ du programme.
+
+Rappelez-vous aussi que tout ce que vous faites pendant le mixage peut être enregistré et édité en tant qu'Arrangement. Pour des détails, veuillez lire "Enregistrement de sessions dans l'Arrangement" dans le $Link manuel de référence <Manual>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

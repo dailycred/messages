@@ -1,0 +1,155 @@
+$Page Creating a Bass Patch 
+$TargetName Creating a Bass Patch
+$ListInTocForProduct 40
+
+Now that you have a better understanding of Operator's sonic potential, let's create a customized bass sound. As you'll soon discover, Operator's hybrid approach to synthesis can deliver everything from booming analog-style sounds to more unusual metallic flavors.
+
+Divider.tif
+*Note:* This lesson is accompanied by a Live Set which you'll be interacting with as you follow the lesson. Please click $Link here <Set:/Sets/OP-Default Set.als> to load the Live Set.*
+Divider.tif
+
+As with the other Operator lessons, you will want to get a better view of the instrument in the /Track View./ Fold away the /Info View/ by clicking its Show/Hide button at the lower left corner of the screen.
+HideInfoBass.tif
+
+Divider.tif
+/Note:/ Since we'll be making bass sounds in this tutorial, you will want to play on the lower few octaves of your keyboard. On smaller devices, you may want to transpose the keyboard down an octave or two in order to get the right range of sounds.
+
+If you are using the computer keyboard, you can transpose it up and down using the Z and X keys. We recommend C2 - C3 for this lesson.
+Divider.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Choosing an Algorithm 
+$TargetName Choosing an Algorithm
+
+Operator uses /algorithms/ to configure the FM modulation routings of its four oscillators. Each algorithm has its own character and advantages. For example, the first eight algorithms are optimal for advanced FM textures, while the remaining three algorithms are better for hybrid and analog-style subtractive patches.
+
+To access the algorithms, select the global section of the shell so that it's highlighted, like this:
+GlobalSectionBass.tif
+The algorithms will appear at the top of Operator's display.
+
+The default algorithm for Operator is the first, which configures the oscillators so that D modulates C, C modulates B and B modulates A.
+Algorithms.tif
+With this setup, changing the /Level/ of Oscillator A controls the overall /volume,/ while changing the /Level/ of the other oscillators controls the amount of FM, adjusting the /timbre/ of the sound.
+
+$Comment --------------------------------------------------------------------------------
+$Page Tuning and Levels 
+$TargetName Tuning and Levels
+
+Since Oscillator B is modulating Oscillator A, slowly raise its /Level/ to -6 dB as you play to hear the effect of the modulation:
+OscBLevelBass.tif
+Notice how the tone changes as you increase the value. Higher levels add more harmonics to the sound.
+
+Now, adjust the /Coarse/ tuning of Oscillator B. Each tuning value for this control creates an entirely different set of harmonics, giving you a wide variety of tonal options. Higher settings can often impart a harder, brighter texture.
+
+After you've experimented a bit, set the /Coarse/ tuning value to 0.5 and /Level/ to -20 dB:
+OscBLevelAndCoarse.tif
+When playing at lower octaves, you will now hear a rich bass tone, reminiscent of an electric bass guitar.
+
+/Hint:/ You may find that it's fast and convenient to click on Operator controls and type in values instead of using the mouse to make settings.
+
+$Comment --------------------------------------------------------------------------------
+$Page Adding FM Modulation 
+$TargetName Adding FM Modulation
+
+Now, let's use the other oscillators to enhance this tone.
+
+Oscillator C adds FM modulation to Oscillator B, so try experimenting with various Oscillator C levels and tunings. Note again that higher /Coarse/ tuning values add high-frequency digital spice. (Remember that you'll need to increase the /Level/ of Oscillator C before you will be able to hear changes to its tuning.)
+
+Once you've explored your options, set the /Coarse/ value to 12 and the /Level/ to -30 dB:
+OscCLevelBass.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Using Envelopes 
+$TargetName Using Envelopes
+
+To give the sound some timbral animation, let's experiment with Oscillator C's /envelope,/ which will change the level of the oscillator's modulation of the sound over time as you hold each key.
+
+With Oscillator C is still selected in the shell, set the /Sustain/ level to -21 dB:
+Sustain-21.tif
+Shorter /Decay/ values add a bit of snap to the sound's attack. Longer decays allow the harmonics to fade slowly as notes are held. Experiment with the /Decay/ parameter to hear the difference.
+
+Let's try using a /Decay/ time of 397 ms:
+Decay397.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Using Velocity to Create Dynamics 
+$TargetName Using Velocity to Create Dynamics
+
+We can give our playing a more dynamic feeling by making the volume of the sound respond to note velocity.
+
+Please return to Oscillator A by clicking on it in the shell...
+OscABass2.tif
+... and then set its /Vel>Level/ parameter to 75%, like this:
+VelocityLevel.tif
+Now the sound will respond dynamically to your playing.
+
+$Comment --------------------------------------------------------------------------------
+$Page Adding Inharmonic Elements 
+$TargetName Adding Inharmonic Elements
+
+At this point, you have created a classic FM bass sound, suitable for a wide variety of musical genres. Now, let's morph this bass sound into something very different.
+
+Change the /Coarse/ tuning of Oscillator B to 1, and its /Fine/ tuning to 500. This will change the character of the sound so that it is more metallic, adding inharmonic elements.
+OscBCoarseFine.tif
+Now increase the /Level/ to -7 dB, so that you can better hear the oscillator:
+IncreaseLevel.tif
+You can experiment further by toggling Oscillator C on and off. This is done by clicking the "C" icon in the shell, like this:
+CIcon.tif
+Notice how the texture of the sound changes depending on whether or not Oscillator C is modulating Oscillator B.
+
+Clicking the icons labeled A, B and D will similarly deactivate (or reactivate) Operator's other oscillators.
+
+Make sure that all four oscillators are reactivated before continuing to the next page.
+
+$Comment --------------------------------------------------------------------------------
+$Page Volume and Envelope Control 
+$TargetName Volume and Envelope Control
+
+We can shape this metallic sound into something more percussive with Oscillator B's envelope.
+
+First, make sure that Oscillator B is selected in the shell:
+OscBBass.tif
+Let's adjust the /Decay/ to 1.44 s and the /Sustain/ to -inf dB:
+MetallicOscB.tif
+This patch may now easily distort when played, so please reduce the overall volume of the sound with the global /Volume/ control to around -20 dB:
+Volume20.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page The Filter Section 
+$TargetName The Filter Section
+
+Now that you've created a few bass sounds and have an understanding of how FM synthesis works, let's add a touch of filtering.
+
+We should begin by first activating the filter section. This is accomplished by clicking the box beneath the word "Filter," like this:
+FilterOnBass.tif
+
+Once the Filter is active, adjust its frequency /(Freq)/ knob, sweeping from the lowest setting to the highest, and then back to 500 Hz:
+AFreqyKnob.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Cutoff and Resonance 
+$TargetName Cutoff and Resonance
+
+You can further accent the behavior of the filter by adjusting the resonance /(Res)/ knob.
+
+Try playing and sweeping the /Res/ knob from its lowest to its highest setting, letting it rest at 7.0 when you're done:
+ResTo7.tif
+High resonance values emphasize the cutoff frequency, giving the sound a classic electronic character.
+
+Let's hear how this higher resonance setting affects different cutoff frequencies by sweeping the /Freq/ knob from left to right, and then setting it to 1.9 kHz:
+Cutoff19.tif
+We can quickly compare this to the sound without a filter by turning the filter section off:
+FilterOff.tif
+Turning the filter back on, we can add dynamics to its response by setting the /Freq<Vel/ parameter to 75% (you will need a velocity-sensitive keyboard to hear this effect):
+DynamicFilter.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ... and Finally 
+$TargetName ... and Finally
+
+By combining a system of flexible FM modulation routings with classic filters, Operator allows you to choose from a wide array of synthesis options for generating bass sounds (or any sounds, for that matter). In the next lesson, we'll explore Operator's capability for creating punchy analog drum machine sounds.
+
+Remember that the Info View is a great resource that can provide a brief description of any parameter in Operator. You can always show or hide it by pressing the triangular button at the lower left corner of the screen.
+BassInfoView.tif
+
+$Comment Status: Translate

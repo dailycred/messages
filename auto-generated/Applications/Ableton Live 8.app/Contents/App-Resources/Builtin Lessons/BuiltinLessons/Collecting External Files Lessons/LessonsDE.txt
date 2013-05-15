@@ -1,0 +1,27 @@
+$Page Sammlung Externer Samples
+$TargetName Collecting External Samples
+
+$0-Projekte entwickeln sich schnell bis zu einem Punkt, an dem sie Verweise auf Samples an vielen verschiedenen Orten auf Ihrem Rechner beinhalten. Das ist zwar an sich kein Problem, wird aber manchmal zu einem solchen, wenn die Samples unbeabsichteterweise bewegt, gelöscht oder durch andere Programme verändert werden.
+
+Der Datei-Manager von $0 kann sämtliche, externen Samples Ihres Projekts direkt in den Projekt-Ordner kopieren, um das Risiko sie zu verlieren zu verringern. Jegliche Samples, die sich nicht im Ordner des Projektes befinden, werden dabei als extern angesehen:
+
+-> Samples, die sich in $0s Library befinden;
+-> Samples, die in anderen Projekt-Ordnern liegen;
+-> Samples, die anderswo auf Ihrem Rechner liegen.
+
+Der Status dieser Samples wird im Abschnitt /Externe Samples/ des Datei-Managers angezeigt:
+ExternalSamplesSection.tif
+
+Sie können sämtliche Samples aus allen oben erwähnten Kategorien sammeln, indem Sie die jeweiligen /Ja-Schalter/ betätigen und dann unten im Datei-Manager auf /Sammeln und zum Projekt hinzufügen/ klicken:
+CollectSaveButton.tif
+
+Es gibt ein paar Dinge zu bedenken, bevor Sie die Samples des Projekts sammeln:
+
+-> Instrumente und Libraries, die Multisamples enthalten, sind oft sehr groß und können daher beim Kopieren Ihren Projekt-Ordner extrem vergrößern. Prüfen Sie bitte vorher die Dateigrößen für jede der aufgeführten Kategorien.
+-> Sollten Sie und Ihre Kollegen den gleichen Satz an Samples in Ihren Libraries installiert haben - zum Beispiel Abletons Essential Instrument Collection - müssen Sie diese Samples nicht im Projekt sammeln, um es untereinander austauschen zu können.
+-> Lizensierte Samples und Software-Instrumente - wie die EIC - können auf Rechnern ohne gültige Lizenz nicht geladen werden.
+
+Wenn Sie sich sicher sind, dass Sie sämtliche, externe Samples des Projektes sammeln möchten, können Sie auch den Befehl *Alles sammeln und sichern* im Datei-Menü nutzen.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

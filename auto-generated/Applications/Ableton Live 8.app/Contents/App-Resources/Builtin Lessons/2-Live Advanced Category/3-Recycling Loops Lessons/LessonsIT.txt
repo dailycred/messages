@@ -1,0 +1,129 @@
+$Page Riutilizzo dei Loop
+$TargetName Recycling Loops
+
+Oltre alle eccellenti opzioni di mixaggio, Live dispone di una gamma di strumenti per rimixare e riutilizzare il materiale musicale. In questa lezione esploreremo le molteplici possibilità offerte dai potenti /inviluppi di clip/ di Live.
+
+Divider.tif
+*Quando sei pronto, $Link clicca qui <Set:/Sets/Recycling Loops.als> per caricare il Live Set che accompagna questa lezione.*
+Divider.tif
+
+Lanciamo la prima scena, in modo da prendere confidenza con il nostro Set:
+SceneLaunch1.tif
+
+Possiamo /mettere in solo/ la clip "vox hits" usando /l'interruttore Solo/ della traccia "Hits":
+SoloRecycling.tif
+
+Supponiamo che ci piaccia il suono vocale di questo loop, ma che non vogliamo affatto utilizzare il resto: questo è un compito perfetto per l'inviluppo di clip. Clicca su /Pagina succ./ qui sotto per procedere.
+
+$Comment -----------------------------------------------------------------------
+$Page Inviluppi di Clip
+$TargetName Clip Envelopes
+
+Per accedere agli inviluppi di clip facciamo doppio clic sulla clip in esecuzione "vox hits", aprendola nella /Vista Clip./ Puoi anche creare più spazio sullo schermo cliccando sul /pulsante Mostra/Nascondi Box del Campione,/ posto nell'angolo inferiore sinistro dello schermo:
+ShowHideSampleBoxLoops.tif
+
+Il /Box degli Inviluppi/ dispone di alcuni pulsanti di selezione rapida per scegliere i parametri di clip più comunemente modulati. Con il pulsante mostrato qui sotto possiamo selezionare /l'inviluppo di volume/ della clip:
+VolumeQuickChooser.tif
+
+A questo punto, probabilmente vorremo ridurre lo zoom in modo da vedere l'intera clip nell' /Editor di Inviluppo,/ sulla destra dello schermo. Lo zoom si effettua con il /righello dei tempi di battuta,/ posto nella parte superiore del display:
+BeatRulerRecycling.tif
+
+Cliccando e trascinando su/giù nel righello dei tempi di battuta si riduce/aumenta gradualmente lo zoom. Cliccando e trascinando a destra/sinistra nel righello dei tempi di battuta si fa scorrere il display avanti/indietro.
+
+$Comment -----------------------------------------------------------------------
+$Page Disegno degli Inviluppi
+$TargetName Drawing Envelopes
+
+/Disegnamo/ una curva d'inviluppo di volume sulla forma d'onda del campione mostrata nella Vista Clip. Per farlo, innanzitutto attiviamo la /Modalità disegno/ tramite il relativo interruttore della Barra di Controllo:
+DrawSwitchMix.tif
+
+Quindi, disegnamo una curva d'inviluppo di volume che permetta solo alla voce di suonare non silenziata, tipo questa:
+VocalsOnlyEnvelope.tif
+
+Puoi disattivare il "solo" di questa traccia per ripristinare il resto del mix e ascoltare le tue modifiche nel contesto.
+
+$Comment -----------------------------------------------------------------------
+$Page Uso degli Effetti
+$TargetName Using Effects
+
+Gli inviluppi di clip possono essere usati per cambiare il pitch, il pan o qualsiasi parametro d'effetto, fornendoti un'entusiasmante profondità di controllo sulla forma e sul carattere del tuo suono.
+
+Un inviluppo è stato precedentemente disegnato per l'effetto /Resonators/ di questa traccia. L'inviluppo è stato disegnato sulla clip "vox hits" che si trova al di sotto di quella che stiamo attualmente utilizzando, perciò ora puoi lanciarla:
+LaunchSecondVox.tif
+
+Fai doppio clic sulla barra del titolo della traccia "Hits" per aprirla nella Vista Traccia, nella parte inferiore dello schermo.
+Track2TitleBar.tif
+
+Ora, attiva Resonators tramite il relativo interruttore nell'angolo superiore sinistro.
+ResonatorsActive.tif
+
+Puoi anche usare il tasto N della tastiera del computer, precedentemente assegnato a questo interruttore per attivare/disattivare l'effetto.
+
+$Comment -----------------------------------------------------------------------
+$Page Modulazione dei controlli degli Effetti
+$TargetName Modulating Effects Controls
+
+Per vedere l'inviluppo disegnato per il /controllo Dry/Wet/ dell'effetto fai doppio clic sulla clip "vox hits" che sta suonando, in modo che appaia nella Vista Clip sottostante. Poi seleziona "Resonators" tramite il selettore posto più in alto nel Box degli Inviluppi:
+ResonatorsInChooser.tif
+
+Se non l'hai già fatto, metti momentaneamente in  solo questa traccia per meglio ascoltare l'effetto dell'inviluppo di clip.
+
+Puoi modificare l'inviluppo disegnando su di esso o /disattivando/ la Modalità Disegno per lavorare con i /breakpoint,/ che trovi descritti in dettaglio nella lezione sulla $Link automazione <Lesson:Builtin/2-Live Advanced Category/2-Using Automation>.
+
+/Suggerimento:/ premendo $ShiftMod + Tab puoi passare rapidamente tra Vista Traccia e Vista Clip.
+
+$Comment -----------------------------------------------------------------------
+$Page Modulazione dei controlli del Mixer
+$TargetName Modulating Mixer Controls
+
+Vediamo un esempio di un /controllo del mixer/ influenzato dagli inviluppi di clip. Seleziona "Mixer" nel selettore superiore e "Track Panning" in quello inferiore, in questo modo:
+PanInChooser.tif
+
+Se guardi il /controllo Pan/ del mixer della traccia, noterai che si muove in conformità dell'inviluppo di clip del panning.
+PanGhost.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Rimescolamento dei Beat
+$TargetName Scrambling Beats
+
+Un ulteriore uso creativo degli inviluppi di clip consiste nell'usarli per rimescolare i beat.
+
+Metti in solo la traccia "Hip Hop"; poi lancia la clip "hiphop 95" posta più in basso per sentire in azione un'inviluppo di rimescolamento dei beat.
+HipHop95Low.tif
+
+Ora, fai doppio clic sulla clip per aprirla nella Vista Clip. Seleziona "Clip" nel selettore di inviluppo superiore per vedere lo stesso inviluppo di clip mostrato qui sotto.
+BeatScrambler.tif
+
+Questo inviluppo sta modulando il /sample offset/ (sfasamento del campione) del loop, spostando il punto di partenza e reinterpretando il campione durante l'esecuzione del loop.
+
+$Comment -----------------------------------------------------------------------
+$Page Creazione di variazioni lunghe
+$TargetName Creating Long Variations
+
+Per ascoltare un ultimo esempio di inviluppi di clip, metti in solo la traccia "Synth".
+
+Prima suona la clip "synth" più in alto, poi confrontala con la clip "synth" più in basso. Noterai che il loop di synth da una misura della prima clip è stato rielaborato come variazione nella seconda, dove si sviluppa e cambia lungo quattro misure. Diamo uno sguardo più ravvicinato facendo doppio clic sulla clip "synth" più in basso per aprirla nella Vista Clip.
+
+Ci sono due elementi da osservare nella nostra variazione di clip. In primo luogo, dai un'occhiata ai due selettori degli inviluppi di clip. Seleziona "Clip" nel selettore superiore per vedere l'inviluppo di trasposizione che è stato disegnato:
+TransposeEnvelope.tif
+
+In secondo luogo, nota come l'inviluppo di trasposizione sia stato /scollegato/ (unlinked) dal /loop da una misura,/ in modo da avere una lunghezza distinta di /quattro misure./ Ciò è stato ottenuto attivando l'interruttore /Unlinked/ ...
+UnlinkEnvelope.tif
+
+... e impostando la /lunghezza dell'inviluppo/ a 4 misure.
+FourBarEnvelope.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Prova da solo
+$TargetName Try It Yourself
+
+Per concludere, diciamo solo che non c'è modo migliore per sperimentare la potenza degli inviluppi di clip e del potenziale di mixaggio di Live che provare in prima persona. Non seguire noi, ma prova da solo e crea il tuo mix personalizzato!
+
+Quando editi i tuoi inviluppi di clip, spesso è più comodo visualizzare /solo/ quei parametri della clip che dispongono di inviluppi. Puoi farlo scegliendo /Mostra Solo Parametri Modulati/ in uno dei due selettori degli inviluppi. In questa modalità i due selettori degli inviluppi si uniscono in un unico selettore che mostra solo i parametri /modulati/ della clip. Per disattivare questa speciale modalità basta scegliere /Mostra tutte le Modulazioni/ nel selettore.
+
+Gli inviluppi di clip creano infinite variazioni sui loop, sui campioni e addirittura sul MIDI, avendo come unico limite la tua immaginazione. Gli inviluppi di clip sono trattati in dettaglio nel capitolo "Inviluppi di Clip" del $Link manuale di riferimento <Manual>, che include le informazioni sullo scollegamento degli inviluppi, sulla modulazione dei controlli del mixer e degli effetti e persino sulla creazione di inviluppi di clip per il MIDI. La versione elettronica del manuale di riferimento è sempre disponibile tramite il menu /Aiuto./
+
+Ricorda anche che tutto ciò che fai mentre stai mixando può essere registrato ed editato come Arrangiamento. Per maggiori dettagli, ved. "Registrazione delle Sessioni nell’Arrangiamento" nel $Link manuale di riferimento <Manual>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

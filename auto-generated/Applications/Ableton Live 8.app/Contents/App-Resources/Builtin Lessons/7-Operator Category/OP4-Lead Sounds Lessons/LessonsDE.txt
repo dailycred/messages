@@ -1,0 +1,154 @@
+$Page Lead-Sounds erstellen
+$TargetName Creating Lead Sounds
+$ListInTocForProduct 40
+
+Mit vier Oszillatoren, Multimode-Resonanzfiltern und polyphonem Glide, bietet sich Operator für fette /Lead-Sounds/ an. In diesem Kurs werden wir mit Operator komplexe Lead-Sounds erzeugen, die die Grenze zwischen "analog" und "digital" verwischen.
+
+Divider.tif
+*Hinweis:* Dieser Kurs wird von einem Live-Set begleitet, mit dem Sie dem Kurs interaktiv folgen können. Bitte klicken Sie $Link hier <Set:/Sets/OP-Default Set.als>, um dieses Live-Set zu laden.*
+Divider.tif
+
+Genau wie bei den anderen Operator-Kursen, werden Sie auch diesmal einen besseren Blick auf das Instrument in der /Spur-Ansicht/ erhalten wollen, indem Sie die /Info-Ansicht/ durch Anklicken des Zeigen/Verbergen-Schalters in der linken unteren Ecke des Fensters ausblenden.
+HideInfoView.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Die Algorithmen
+$TargetName The Algorithms
+
+Wie bereits in anderen Kursen erwähnt, besitzen die elf /Algorithmen/ von Operator sehr unterschiedliche Charaktere. In manchen modulieren sich Operators Oszillatoren auf komplexe Weise. Jeder Algorithmus eignet sich für einen anderen Klang-Typ.
+
+Um Zugriff auf die Algorithmen zu erhalten, wählen Sie den globalen Bereich der Shell aus, so dass dieser hervorgehoben dargestellt wird:
+GlobalSection.tif
+Die Algorithmen werden oben im Display von Operator angezeigt.
+
+Die Auswahl bietet folgende Optionen: Wenn Sie kernige FM-Sounds oder Klänge mit emulativem Charakter wünschen, stellen die ersten acht Algorithmen eine ausgezeichnete Wahl dar. Für hybride oder analog-typische subtraktive Sounds bieten sich die Algorithmen 9 bis 11 an.
+
+Algorithmus 9 ist eine flexible Ausgangsbasis für hybride Sounds mit kräftiger analoger Note, darum beginnen wir, indem wir diesen Algorithmus auswählen:
+Algorithms.tif
+
+In diesem Algorithmus gibt es drei parallele Oszillatoren (A, B, C), die alle durch Oszillator D frequenzmoduliert werden.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Der klassische Sägezahn-Lead
+$TargetName The Classic Sawtooth Lead
+
+Unser erster Sound wird ein klassischer analoger Sägezahn-Lead, der besonders bei Techno und Trance populär ist. Er benötigt lediglich zwei Oszillatoren, A und B, und ist daher recht einfach aufzubauen.
+
+Wählen Sie zuerst Oszillator A in der Shell an...
+OscA.tif
+... und stellen seinen /Wave-Parameter/ auf Sw64 (Saw 64):
+Saw64.tif
+
+Dies ist von den vorhandenen Wellenformen die am hellsten klingende Sägezahn-Wellenform mit der größten Anzahl an Obertönen. Die standardmäßige Hüllkurveneinstellung ist für diesen Lead-Sound bestens geeignet, sie wird darum beibehalten. Wir ändern jedoch den /Vel-Wert/ im Level-Bereich auf 80%, um den Klang dynamischer zu gestalten.
+Velocity80.tif
+
+Diese Einstellungen werden nun für Oszillator B dupliziert. Am einfachsten können Sie die Einstellungen kopieren, indem Sie den Befehl im Kontextmenü mit $ContextMenuing auf das Display von Oszillator B benutzen:
+CopyOscillator.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Die Stimmung justieren
+$TargetName Adjusting Tuning
+
+Nun werden wir die Stimmung von Oszillator A einstellen.
+
+Lassen Sie den Parameter /Coarse-Tuning/ auf 1 stehen und erhöhen /Fine-Tune/ auf 10:
+CoarseFine.tif
+
+Reduzieren Sie auch gleich den /Level/ auf -6.0 dB, um dem Sound etwas mehr Aussteuerungsreserve zu geben:
+Level-6.tif
+
+/Tipp:/ Sie werden es vielleicht angenehmer finden, auf Operators Bedienelemente zu klicken und die Werte dann einzutippen, statt sie mit der Maus einzustellen.
+
+$Comment --------------------------------------------------------------------------------
+$Page Oszillator B einstellen
+$TargetName Adjusting Oscillator B
+
+Sie sollten nun einen hellen Sägezahnklang mit einer leichten Schwebung hören, die einem Chorus-Effekt nicht unähnlich ist. Lassen Sie uns diese Schwebung nun verstärken, um den Klang noch etwas dicker zu machen.
+
+Stellen Sie zuerst die Grobstimmung, /Coarse,/ von Oszillator B auf 0.5. Dies transponiert Oszillator B um eine Oktave nach unten, was aber nicht der eigentliche Zweck der Aktion ist. Indem Sie die Feinstimmung /Fine,/ nun auf 990 stellen, verstimmen Sie Oszillator B effektiv um 10 Hz nach unten und erzeugen so eine Gesamtdifferenz von 20 Hz zwischen den beiden Oszillatoren (erinnern Sie sich daran, dass wir bei Oszillator A /Coarse/ auf 1 und /Fine/ auf 10 gestellt hatten). Wenn Sie mit dem Einstellen von Oszillator B fertig sind, sollten seine Shell-Parameter wie die hier gezeigten aussehen:
+OscBSettings.tif
+
+Wenn Sie nun spielen, werden Sie einen fetten Sägezahn-Lead hören, der sich in einem Mix gut durchsetzen sollte.
+
+$Comment --------------------------------------------------------------------------------
+$Page Der 1970er-Jahre-Lead
+$TargetName The 1970s Lead
+
+Wir sind noch nicht fertig: Ausgehend von dieser Basis aus zwei Oszillatoren kann man nun sehr unterschiedliche Lead-Sounds aus der Progressive-Rock-Ära der 70er-Jahre formen.
+
+Stellen Sie zuerst den /Wave-Parameter/ beider Oszillatoren auf Sq64 (Square 64). Wir erhalten ein Pärchen verstimmter Rechteckwellen und einen völlig anderen Klang, der zwar "hohler" klingt aber trotzdem ordentlich Schneid hat.
+Square64.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Glide verwenden
+$TargetName Using Glide
+
+Um nun den Klassiker unter den Rock-Lead-Effekten zu erhalten, werden wir etwas /Glide/ verwenden, das manchmal auch als "Portamento" bezeichnet wird. Operators Glide-Funktion lässt die Tonhöhe einer Note gleitend zur nächsten wechseln. Dieses Gleiten kann schnell oder langsam erfolgen und in Abhängigkeit der Einstellung von /Time/ dem Klang einer Posaune oder dem eines Theremins ähneln.
+
+Der Parameter /Glide/ findet sich bei der Pitch-Hüllkurve, die nach dem Selektieren in der Shell im Display angezeigt wird:
+PitchSection.tif
+
+Klicken Sie bitte nun auf "G" unter "Glide" in der Anzeige.
+GIcon.tif
+
+Hierdurch wird der Glide-Effekt mit dem Standardwert von 300 ms aktiviert, einem hervorragenden Ausgangspunkt für den gewünschten Klang.
+GlideTime.tif
+
+Spielen Sie nun ein paar Noten im unteren Tastaturbereich, gefolgt von höheren Noten in den oberen Oktaven. Wenn Sie sich mit typischen Moog-Sounds etwas auskennen, wird Ihnen der Sound vertraut vorkommen. Experimentieren Sie mit verschiedenen Glide-Werten, bis Sie eine optimale Einstellung finden.
+
+$Comment --------------------------------------------------------------------------------
+$Page Oszillator C aktivieren
+$TargetName Bringing in Oscillator C
+
+Lassen Sie uns den Klang nun in eine neue Richtung verbiegen. Da wir erst zwei unserer vier Oszillatoren verwenden, fügen wir eine Sinuswelle zum Klang hinzu, die drei Oktaven über den anderen beiden Oszillatoren liegt. So entsteht eine hochgestimmte Theremin-ähnliche Sound-Komponente, die dem originalen Klang folgt.
+
+Stellen Sie /Coarse/ bei Oszillator C auf 8 und /Level/ auf 0.0 dB:
+OscCSettings.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Eine digitale Note beisteuern
+$TargetName Adding a Digital Edge
+
+Nun wollen wir unserem Sound etwas digitalen Biss durch FM von Oszillator D geben, der die anderen drei Oszillatoren simultan moduliert. Um das zu tun, halten Sie bitte eine Taste gedrückt und erhöhen langsam den /Level/ von Oszillator D von -inf auf -2.5 dB:
+OscDSettings.tif
+Der Klang wird zunehmend harscher und fast schon verzerrt, während Sie den Wert erhöhen.
+
+Wenn Sie ein Fan von Industrial oder bestimmten Techno-Spielarten sind, könnten Sie diesen Klang wahrscheinlich hin und wieder bereits so verwenden, wie er gerade ist. Andere Anwender werden ihn vielleicht etwas perkussiver gestalten wollen. Wir können dies mit der Hüllkurve von Oszillator D tun, die die Intensität der FM im Zeitablauf steuert.
+
+Wir beginnen, indem wir den /Sustain-Level/ auf -inf (aus) stellen:
+SustainOff.tif
+
+Nun wird die /Decayzeit/ ganz nach Geschmack angepasst:
+DecayToTaste.tif
+
+Für einen perkussiv-gesweepten Klang im Stil von Hard-Sync-Sounds können Sie eine Einstellung von 3.11 Sekunden probieren.
+
+$Comment --------------------------------------------------------------------------------
+$Page Der letzte Schliff
+$TargetName The Finishing Touches
+
+Mit allen vier Oszillatoren und der zusätzlichen FM kann der Sound eventuell zu übersteuern beginnen. Falls das passiert, reduzieren Sie den Ausgangspegel mit dem Parameter /Volume:/
+VolumeDown.tif
+Für den letzten Schliff wollen wir die etwas harschen hohen Frequenzen mit dem Tiefpassfilter bändigen.
+
+Aktivieren Sie das Filter-Modul in der Shell mit dem quadratischen Schalter auf seiner linken Seite.
+FilterOnLead.tif
+
+Setzen Sie nun die Cutoff-Frequenz /(Freq)/ auf 2 kHz. Dies macht den Klang etwas dezenter und sorgt dafür, dass er sich besser in Mischungen einfügt.
+FilterCutoff.tif
+
+Wir haben die Einstellung des Filtertyps auf /Low 12dB/ gelassen. Sie können jedoch auch mit anderen Filtertypen experimentieren, indem Sie diese mit dem Wahlschalter auswählen.
+FilterChooser.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ... und schließlich
+$TargetName ... and Finally
+
+Nun kennen Sie es: das grundlegende Vorgehen beim Erzeugen von Analog-FM-hybriden Lead-Sounds mit Operators vier Oszillatoren, seinen Modulations-Optionen, dem Multimode-Filter und zusätzlichen Annehmlichkeiten wie der Glide-Funktion. Bei zusätzlichen Experimenten könnten Sie nun den /Coarse-Wert/ von Oszillator D variieren oder zu Algorithmus 11 wechseln, der die FM entfernt und Ihnen dafür vier parallele Oszillatoren für besonders massive Analog-Sounds bietet. Mit dem Einsatz von Algorithmus 11 beschäftigen wir uns im folgenden Kurs über das Erstellen von Pad-Sounds näher (den Sie über das /Hilfe-Menü/ aufrufen können).
+
+Bitte erinnern Sie sich daran, dass die Info-Ansicht eine sehr wertvolle Hilfe sein kann, da sie Ihnen eine kurze Erläuterung zu jedem Parameter von Operator anzeigt. Sie können diese Ansicht jederzeit mit dem dreieckigen Schalter in der linken unteren Ecke des Fensters ein- oder ausblenden.
+LeadInfoView.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

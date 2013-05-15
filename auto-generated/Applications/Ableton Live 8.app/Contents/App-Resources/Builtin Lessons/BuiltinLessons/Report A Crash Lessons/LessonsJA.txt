@@ -1,0 +1,27 @@
+$Page クラッシュをレポートする
+$TargetName Report a Crash
+BugReportingBanner.tif
+クラッシュレポートにご協力いただき誠にありがとうございます。皆様のご協力に心より感謝いたします。
+
+クラッシュレポートPackが作成されました。ご使用のコンピュータでこのファイルを開くには、下のリンクをクリックします。
+
+CRASH_REPORTING_PACKAGE_NAME
+
+このファイルを、 $Link crashes@ableton.com <mailto:crashes@ableton.com> までご送付ください。
+
+*注:* クラッシュレポート確認の自動返信メールがお客様宛に送信されます。サポートが必要な場合、 $Link サポートチーム <http://www.ableton.com/support> までお問い合わせください。
+
+Divider.tif
+
+このクラッシュレポートPackには、前回のLive実行時に生成された次の情報が含まれています。
+
+-> Liveの[Preferences]ファイルとオーソライズに関するファイル
+-> 前回のプログラム実行中のソフトウェア動作を記録したログファイル
+-> 前回のプログラム実行中に使用されたLiveセット、プリセット、Maxデバイスすべて(サンプルを除く)
+-> Liveにより作成された他のログファイル
+-> オペレーティングシステムによるクラッシュ情報
+
+上記以外の情報は送信されません。バグレポートに含まれるデータは、バグ修正のみの目的で使用されます。個人情報の使用について、詳しくは $Link プライバシーポリシー <http://www.ableton.com/privacy-policy> をご覧ください。
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

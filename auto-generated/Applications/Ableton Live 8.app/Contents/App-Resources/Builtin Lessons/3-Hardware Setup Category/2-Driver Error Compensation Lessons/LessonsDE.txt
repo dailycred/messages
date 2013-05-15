@@ -1,0 +1,105 @@
+$Page Kompensation des Treiberfehlers
+$TargetName Driver Error Compensation
+
+In diesem Kurs werden wir $0 so konfigurieren, dass es Latenzen, die bei der Aufnahme von externen Quellen entstehen, automatisch kompensiert. Der Ausdruck /Latenz/ bezeichnet die unvermeidlichen Verzögerungen, die jedes Audio-Signal auf seinem Weg aus dem Rechner heraus oder in diesen hinein erfährt.
+
+-> Sollten Sie den Kurs $Link Einrichten der Audio-Ein/Ausgabe <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO>, der Ihnen bei der Optimierung von $0s Audio Ein- und Ausgabe hilft, noch nicht durchgearbeitet haben, tun Sie es bitte jetzt - /vor/ dem Beginn dieses Kurses.
+
+-> Außerdem benötigen Sie ein /Audio-Kabel,/ um den Ausgang Ihrer Audio-Hardware mit einem ihrer Eingänge zu verbinden. Dabei ist es unerheblich, ob es sich um eine analoge oder eine digitale Verbindung handelt - solange es eine "echte" /Hardware-Verbindung/ ist.
+
+Divider.tif
+*Dieser Kurs wird von einem Live-Set begleitet, mit dem Sie im Verlauf dieses Kurses interagieren können. Klicken Sie $Link hier <Set:/Sets/Driver Error Compensation.als>, um das Live-Set zu laden.*
+Divider.tif
+
+
+Die Kompensation des Treiberfehlers ist nur für ein /Direct-Monitoring-Szenario/ relevant, in dem der Musiker sein eigenes Signal durch den Rechner abhört,
+
+Der Vorgang sollte auch nicht mit der /Kompensation von Plug-In-Verzögerungen/ verwechselt werden. Bei der Kompensation des Treiberfehlers geht es um Verzögerungen, die durch die Audio-Hardware und ihren Treiber verursacht werden. Bei Plug-In-Verzögerungen handelt es sich um Effekte, die durch Geräte und Plug-Ins entstehen, die vorrausschauend arbeiten (zum Beispiel Werkzeuge zur Bearbeitung von Dynamik oder zur Erzeugung von Faltungs-Hall). Näheres dazu finden Sie in $0s Referenz-Anleitung.
+
+Bitte klicken Sie unten auf /Nächste Seite,/ um fortzufahren.
+
+
+$Page Allgemeine Vorbereitung
+$TargetName Preparations
+
+Das Live-Set beinhaltet zwei Spuren. Die erste Spur - *1 Audio* - enthält einen einzelnen Schlagzeug-Klang, der direkt am Anfang des Sets liegt. Die nächste Spur - *2 Audio* - ist leer. Wir werden sie nutzen, um das Ausgangssignal von $0 über eine externe Verbindung wieder aufzunehmen:
+AdjustingLatencyLiveSet.tif
+
+Stellen Sie bitte sicher, dass die *Darstellung folgt der Song-Position* im /Optionen-Menü/ nicht angewählt ist; die Anzeige soll nicht mitlaufen:
+FollowOff.tif
+
+Verbinden Sie bitte mit einem geeigneten Audiokabel $0s Ausgänge 1/2 direkt mit $0s Eingängen 1/2. Es ist unerheblich, ob Sie eine analoge oder digitale Verbindung verwenden, es ist aber wichtig, dass Sie eine "echte" Hardware-Verbindung herstellen.
+
+Drücken Sie die *Leertaste* Ihres Rechners, um die Wiedergabe des Arrangements zu starten. Die Pegel-Anzeigen von *1 Audio* werden sich kurz bewegen, wenn der Schlagzeug-Klang vom Anfang der Spur wiedergegeben wird. Drücken Sie erneut die *Leertaste,* um die Wiedergabe anzuhalten.
+
+Spielen Sie das Arrangement erneut ab *(Leertaste)* und beobachten Sie die Pegel-Anzeige von *2 Audio:* Wenn die externe Verbindung funktioniert, sollten Sie hier auch ein Signal sehen (obwohl die Pegelanzeige grau eingefärbt ist). Wenn das Signal zu stark oder zu schwach ist, regeln Sie bitte in der Master-Spur die /Master-Lautstärke/ nach und versuchen es erneut, bis der Pegel ungefähr dem der Spur *1 Audio* entspricht.
+TrackTwoMeterAndMasterVolume.tif
+
+Vergessen Sie bitte nicht, erneut die *Leertaste* zu drücken, um die Wiedergabe anzuhalten.
+
+
+$Page Aufnehmen
+$TargetName Re-Recording
+
+Wir sind jetzt bereit, das Signal von *1 Audio* auf der Spur *2 Audio* aufzunehmen. Bereiten Sie $0 zur Aufnahme vor, indem Sie den /globalen Aufnahme-Schalter/ im Transportbereich aktivieren:
+RecordButton.tif
+
+Starten Sie die Aufnahme mit der *Leertaste* und beenden Sie sie gleich wieder, indem Sie erneut die *Leertaste* drücken. Die Aufnahme erzeugt einen neuen Clip auf *2 Audio:*
+NewClipInTrackTwo.tif
+
+Doppelklicken Sie die Titelzeile des neuen Clips, um seinen Inhalt in der /Clip-Ansicht/ zu sehen. Sie sollten jetzt den gerade von *1 Audio* aufgenommenen Schlagzeugklang in der /Sample-Anzeige/ erkennen:
+NewClipInClipView.tif
+
+Schalten Sie bitte den /Warp-Schalter/ des neuen Clips aus. Das erlaubt es uns, den Clip in Millisekunden anstatt in Schlägen und Takten zu verschieben.
+WarpSwitchOff.tif
+
+Wenn Sie sich die Wellenform des Clips nun genau anschauen - wenn nötig, zoomen Sie etwas hinein - werden Sie sehen, dass der Klang etwas nach dem Beginn des Samples anfängt (Wenn dies nicht der Fall ist, haben Sie Glück - es gibt dann nichts mehr zu tun! Wir schlagen allerdings vor, dass Sie diesem Kurs trotzdem bis zum Ende folgen):
+KickHitLate.tif
+
+Idealerweise sollten wir hier keinerlei Verzögerung sehen, da wir das Arrangement ja am Anfang gestartet haben - direkt dort, wo auch der Schlagzeugklang in *1 Audio* sitzt. In der realen Welt gibt es jedoch immer eine kleine Verzögerung, wenn Signale aus dem Rechner heraus oder in ihn hinein laufen.
+
+
+$Page Einstellung von Werten
+$TargetName Adjusting Values
+
+Wir werden nun den /Start-Marker/ des Clips so verschieben, dass der Clip genau am gleichen Punkt startet wie sein Inhalt. Klicken Sie bitte in das rechte /Start-Feld/ (welches gerade in Millisekunden skaliert ist) und drücken Sie dann mehrmals die Taste *Pfeil nach oben,* um den Wert zu erhöhen:
+StartMarkerField.tif
+
+Während Sie dies tun, bewegt sich der Start-Marker des Clips nach rechts und die Wellenform-Anzeige von *2 Audio* rollt nach links. An einem bestimmten Punkt wird sich die Wellenformanzeige des Original-Samples in *1 Audio* und die der aufgenommenen Kopie in *2 Audio* angleichen:
+BothClipsAlign.tif
+
+Wenn die Wellenform-Anzeigen sich decken, notieren Sie sich den Wert des Start-Feldes. Dann öffnen Sie $0s Voreinstellungen über das /Optionen-Menü/ (PC), bzw. das /Live-Menü/ (Mac).
+
+Wählen Sie die /Audio-Seite/ und tragen Sie dort den notierten Wert in das Feld Treiberfehler-Kompensation ein. Sie können den Wert auch durch ziehen mit der Maus oder - für feinere Kontrolle - mit den *Pfeiltasten* auf Ihrer Rechnertastatur ändern:
+ErrorCompensation.tif
+
+Wir haben nun festgestellt, um wieviel Millisekunden der Treiber des Audio-Interfaces "schwindelt" und $0 über diese Abweichung informiert, so dass das Programm diese Verzögerung bei der Aufnahme von jetzt an automatisch kompensieren kann.
+
+
+$Page Überprüfen der globalen Latenz
+$TargetName Verifying the Overall Latency
+
+Überprüfen wir nun unsere Arbeit. Selektieren Sie den Clip in *2 Audio* mit einem Klick in seine Titelzeile und drücken Sie dann die *Löschtaste* auf Ihrer Rechnertastatur, um den Clip zu löschen.
+
+Nehmen wir einen weiteren Durchgang auf: Aktivieren Sie erneut den globalen Aufnahme-Schalter und drücken zweimal auf die *Leertaste.* Voilà, die Wellenform-Anzeige des neuen Clips zeigt keinerlei Versatz mehr, und das ohne unser Eingreifen:
+TheProof.tif
+
+Glücklicherweise kümmert sich $0 also von jetzt an um die Latenzen und solange Sie Ihre Audio-Hardware nicht ändern, haben Sie damit nichts mehr zu tun. Im Folgenden kommt noch einiges an trockener Theorie, die Sie gerne überspringen dürfen.
+
+
+$Page Latenz - etwas Theorie
+$TargetName Latency - Some Theory
+
+*Was genau macht die Treiberfehler-Kompensation und wozu wird Sie benötigt?*
+
+Nehmen wir an, Sie nehmen in $0 einen Schlagzeuger auf. Dieser spielt zu $0s Metronom oder zu Musik aus dem Live-Set. Das Monitoring ist bei den Spuren deaktiviert, auf die aufgenommen wird. Das Signal, das $0 vom Schlagzeuger erhält, ist in Bezug auf $0s eigene Zeitbasis durch die Latenz der Audio-Hardware verzögert: um die Zeit, die das Metronom-Signal oder die Musik benötigt, um von $0 zu den Lautsprechern (und damit den Ohren des Schlagzeugers) zu gelangen sowie um die Zeit, die das Drum-Signal von den Mikrofonen braucht, um $0 zu erreichen.
+
+$0 kompensiert diese Latenzen, indem es das aufgenommene Signal auf der Zeitachse nach vorne schiebt. Um das tun zu können, benötigt es präzise Informationen über die aktuellen Eingangs- und Ausganslatenzen des Audio-Systems. Der Latenzwert, der vom Audio-Hardware-Treiber an die Software gemeldet wird, ist jedoch nicht immer ganz exakt. Die Treiberfehler-Kompensation dient dazu, $0 über solche Abweichungen von den gemeldeten Werten zu informieren.
+
+
+*Warum ist das alles nur relevant, wenn das Monitoring aus ist?*
+
+Nehmen wir an, das Monitoring ist aktiv und der Schlagzeuger trägt geschlossene Kopfhörer, durch die er sowohl $0s Metronom als auch sein eigenes Spiel hört. Es herrschen die gleiche Latenzen, und der Schlagzeuger wird sein Spiel deswegen etwas zu spät über die Kopfhörer hören. Wenn die Latenzen klein genug sind (ein paar Millisekunden), wird der Schlagzeuger die Latenz kompensieren, indem er etwas früher auf die Trommeln haut. Die aufgenommenen Samples stimmen dadurch wieder mit $0s Zeitbasis überein.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

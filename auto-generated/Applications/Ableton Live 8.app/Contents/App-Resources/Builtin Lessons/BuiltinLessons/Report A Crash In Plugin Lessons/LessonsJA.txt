@@ -1,0 +1,33 @@
+$Page プラグインのクラッシュをレポートする
+$TargetName Report a Crash in a Plug-In
+BugReportingBanner.tif
+クラッシュレポートにご協力いただき誠にありがとうございます。皆様のご協力に心より感謝いたします。
+
+システムから出されるこのクラッシュデータは、問題がこの CRASHED_PLUGIN_TYPE プラグインに関連するものであることを示唆しています。
+
+*CRASHED_PLUGIN_NAME (version CRASHED_PLUGIN_VERSION)*
+
+このプラグインが最新のものであるかどうかについて、プラグインのメーカーにお問い合わせください。 また、 $Link 最新バージョンのLive <http://www.ableton.com/latest-versions> を使用しているかどうかご確認ください。
+
+Divider.tif
+弊社にてさらに問題を分析できるよう、下のリンクをクリックし、ご使用のコンピュータにクラッシュレポートパックを表示させてください。
+
+CRASH_REPORTING_PACKAGE_NAME
+
+このファイルを、 $Link crashes@ableton.com <mailto:crashes@ableton.com> までご送付ください。
+Divider.tif
+
+このクラッシュレポートPackには、前回のLive実行時に生成された次の情報が含まれています。
+
+-> Liveの[Preferences]ファイルとオーソライズに関するファイル
+-> 前回のプログラム実行中のソフトウェア動作を記録したログファイル
+-> 前回のプログラム実行中に使用されたLiveセット、プリセット、Maxデバイスすべて(サンプルを除く)
+-> Liveにより作成された他のログファイル
+-> オペレーティングシステムによるクラッシュ情報
+
+上記以外の情報は送信されません。バグレポートに含まれるデータは、バグ修正のみの目的で使用されます。個人情報の使用について、詳しくは $Link プライバシーポリシー <http://www.ableton.com/privacy-policy> をご覧ください。
+
+*注:* クラッシュレポート確認の自動返信メールがお客様宛に送信されます。さらなるサポートが必要な場合、 $Link テクニカルサポート <http://www.ableton.com/support> までお問い合わせください。
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

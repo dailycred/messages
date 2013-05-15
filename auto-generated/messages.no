@@ -1,0 +1,86 @@
+Application.NoSuchClient=Ingen klient finnes for id% s.
+Application.NoSuchApp=Ingen app finnes for id% s.
+Application.NoClientProvided=Vennligst gi din klient ID med forespørselen din.
+Application.NoRedirectProvided=Vennligst gi en omdirigering med OAuth forespørsel. <br/> <b>Utviklere:</b> gi din tilbakeringing URI ved hjelp av parameter <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> eller ved å sette en standard tilbakeringing i <a href="https://www.dailycred.com/admin/setup">kontoinnstillingene</a> .
+Application.EnterEmailOrUsername=Skriv inn e-post eller brukernavn.
+Application.EnterEmail=Vennligst skriv inn e-postadressen.
+Application.EnterUsername=Vennligst skriv inn brukernavnet.
+Application.EnterPassword=Vennligst skriv inn passordet ditt.
+Application.AtNotAllowed=Symbolet &quot;@&quot; kan ikke brukes i ditt brukernavn.
+Application.WrongPasswordOrUsername=Vennligst sjekk ditt brukernavn og passord, og prøv igjen. <a href="%s">Hvis du vil tilbakestille passordet ditt klikk her.</a>
+Application.BadDomain=Domenet &quot;% s&quot; er ikke gyldig.
+Application.BadEmail=Vennligst sjekk at e-posten ble skrevet riktig og prøv igjen.
+Application.BadNewEmail=Vennligst sjekk at din nye e-posten ble skrevet inn riktig og prøv igjen.
+Application.PasswordTooShort=Angi et passord med minst% d tegn.
+Application.NoCallbackUri=% S har ikke satt en tilbakeringing URI ennå. Vennligst prøv igjen senere.
+Application.EmailTaken=Denne e-posten er allerede i bruk.
+Application.UsernameTaken=Dette brukernavnet er allerede tatt. Bruk et annet brukernavn.
+Application.EmailSent=En e-post har blitt sendt. Vennligst sjekk e-posten for videre instruksjoner.
+Application.EmailSentGmail=En e-post har blitt sendt. <a href="http://mail.google.com/">Vennligst sjekk din Gmail for videre instruksjoner.</a>
+Application.GoToGmail=Gå til din Gmail-innboksen
+Application.EmailSentYahoo=En e-post har blitt sendt. <a href="http://mail.yahoo.com/">Vennligst sjekk din Yahoo! e-post for ytterligere instruksjoner.</a>
+Application.GoToYahoo=Gå til din Yahoo innboksen
+Application.EmailSentHotmail=En e-post har blitt sendt. <a href="http://www.hotmail.com/">Vennligst sjekk din hotmail for videre instruksjoner.</a>
+Application.GoToHotmail=Gå til din Hotmail-innboksen
+Application.EmailSentICloud=En e-post har blitt sendt. <a href="https://www.icloud.com/#mail">Vennligst sjekk din iCloud Mail for videre instruksjoner.</a>
+Application.GoToICloud=Gå til din iCloud innboksen
+Application.NoSuchEmail=Det finnes ingen bruker for e% s.
+Application.NoSuchUser=Det finnes ingen bruker for id% s.
+Application.NoSuchUserFriendly=Vi kunne ikke finne en brukerkonto for denne e-posten eller brukernavn. Vennligst prøv igjen.
+Application.NoSuchToken=Det oppstod en feil logger deg på kontoen din. Vennligst prøv igjen om kort tid.
+Application.PasswordResetInvalid=Dette tilbakestilling av passord er ugyldig eller ikke funnet. Vennligst prøv å tilbakestille passordet igjen.
+Application.PasswordUpdated=Passordet ditt er oppdatert.
+Application.APIWrongPassword=Sjekk passordet ditt og prøv igjen.
+Application.APIError=En uventet feil oppsto. Vennligst prøv igjen.
+Application.APIBadToken=Ugyldig OAuth tilgangssymbolet.
+Application.APINoToken=En aktiv tilgangstoken må brukes til å søke informasjon om den aktuelle brukeren.
+Application.APIBadCode=Ugyldig OAuth koden.
+Application.TimeOut=Det synes å være å ta for lang tid. Vennligst prøv igjen om kort tid.
+Application.BadURL=Dette er ikke en gyldig URL. Dette feltet må være en full, ikke-relativ URL, som https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Dette feltet har en maksimal lengde på 200 tegn. Vennligst bruk noe kortere.
+Application.NoStripeKey=Ingen Stripe API-nøkkel ble funnet. Vennligst angi Stripe API-nøkkel i ditt <a href="https://dailycred.com/admin/setup">oppsett</a> siden.
+Application.OAuthCallBackNotInDomain=Den medfølgende redirect_uri ikke er godkjent av denne kunden kontoinnstillingene.
+Application.CNameNotValidDomain=Den medfølgende cname synes ikke å være et gyldig domene.
+Application.Required=Dette er et obligatorisk felt.
+Application.LogoFileTooLarge=Filen overskrider størrelsesbegrensningen.
+Application.LogoFileIsNotImage=Filtypen er ikke gyldig. Bare PNG, JPG og GIF er tillatt.
+Application.NoClientSecret=Du må angi en client_secret parameter som inneholder Dailycred hemmelig nøkkel.
+Application.InvalidClientSecret=Dette er en ugyldig Dailycred hemmelig nøkkel.
+Application.MissingRequiredFields=Det ser ut som du mangler noen obligatoriske felter. Vennligst gå til <a href="/admin/setup">oppsett</a> for å få satt opp.
+Application.CouldNotUnsubscribe=Vi beklager, på grunn av en teknisk feil vi kunne ikke melde deg direkte fra denne linken. Vennligst prøv igjen, eller <a href="mailto:support@dailycred.com">kontakt oss direkte</a> for å bli fjernet.
+Application.Unsubscribed=Du har vært avslutte abonnementet. Vi beklager å se deg gå!
+Application.Subscribed=Du har blitt tegnet. Takk!
+Application.CouldNotSubscribe=Vi beklager, på grunn av en teknisk feil vi ikke kunne abonnere deg direkte fra denne linken. Vennligst prøv igjen, eller <a href="mailto:support@dailycred.com">kontakt oss direkte</a> for å bli lagt til.
+Application.AdminsCantUnsubscribe=Innrømmer kan ikke melde fra sin egen konto.
+Application.EmailIsSame=Den nye e-posten er det samme som din nåværende e-post.
+Application.EmailOnlyUserNotAllowed=Dette programmet støtter ikke e-bare brukere.
+Application.EmailChangeSuccess=Din e-post har blitt endret til% s. Vennligst se etter e-postbekreftelse og verifisere din nye adresse.
+Application.EmailVerifySuccess=Den e% s har blitt bekreftet.
+Application.PostOnly=Denne anmodningen må gjøres ved hjelp av en <b>HTTP POST-forespørsel.</b> <br/><br/> Hvis du bare sjekke ut API, foreslår vi at du bruker krøllet eller <a target="_blank" href="http://hurl.it/">kaste</a> .
+Application.StripeTrialEnd=En <a href="https://www.dailycred.com/admin/user/%s">bruker</a> har en prøveversjon som er i ferd med å avslutte. Denne e-posten ble forårsaket av en Stripe webhook.
+Application.StripePaymentSucceeded=En <a href="https://www.dailycred.com/admin/user/%s">bruker</a> ble belastet med. Denne e-posten ble forårsaket av en Stripe webhook.
+Application.StripePaymentFailed=En <a href="https://www.dailycred.com/admin/user/%s">bruker</a> ble uten hell belastes. Denne e-posten ble forårsaket av en Stripe webhook.
+Application.BillingError=Noe gikk galt når du prøver å sette din betalingsinformasjon. Vennligst prøv igjen et øyeblikk.
+Application.TrialWillEnd=Din gratis prøveperiode med Dailycred er i ferd med å ende på% s. Vennligst besøk ditt <a href="https://www.dailycred.com/admin/settings/billing">fakturering side</a> å hindre kontoen din fra å bli deaktivert.
+Application.TrialWillEndLong=Din gratis prøveperiode med DailyCred slutter snart på% s. <br><br> For å holde kontoen aktiv, kan du gå til <a href="https://www.dailycred.com/admin/settings/billing">fakturering side</a> å gjennomgå <a href="https://www.dailycred.com/pricing">lavkost planer</a> og inn betalingsinformasjon i dag.
+Application.CannotRemoveActiveCard=Du kan ikke fjerne din aktive fakturering metoden. Hvis du ønsker å avslutte kontoen epost support@dailycred.com med kontonummeret ditt.
+Application.StateCheckFailed=Forespørselen mangler staten parameter. Vennligst prøv igjen.
+Application.UnexpectedError=Beklager, det oppstod en uventet feil. Vennligst prøv igjen.
+Application.UserAnotherIdentityProvider=Det ser ut til at du har en konto ved hjelp av% s. <a href="%s">Klikk her for å koble til ved hjelp% s</a> eller <a href="%s">klikk her for å sette et passord</a> .
+Application.APIKeyNotFound=API-nøkkel ikke funnet. Vennligst angi en API-nøkkel for denne identiteten leverandøren på <a href="https://www.dailycred.com/admin/settings">innstillingene siden</a> .
+Application.ForeignIDAlreadyRegistered=Vi kunne ikke knytte denne kontoen fordi foreignID% s for leverandør% s er allerede knyttet til bruker% s.
+Application.TwitterCallbackURLIncorrect=Sjekk din <a href="https://dev.twitter.com/apps">Twitter programmets innstillinger</a> . Din app tilbakeringingswebadresse kan ikke være tom. (Det kan være en gyldig URL.)
+Application.ThankYouForSigningUp=Takk for at du meldte deg på% s!
+Application.ThankYouForSigningUpNoClient=Takk for at du registrerer deg!
+Application.CannotDeleteLastApp=Kan ikke slette: kontoen må ha minst én App.
+Application.CouldNotSendEmail=Vi beklager, det var et problem å sende den e-posten. Vennligst prøv igjen om kort tid.
+Application.EmailVerificationRequiredSignUp=Du må bekrefte din e-post før du registrerer deg. Vennligst sjekk e-posten for videre instruksjoner.
+Application.EmailVerificationRequiredSignIn=Du må bekrefte din e-post før signering i. Vennligst sjekk e-posten for videre instruksjoner.
+Application.Blocked=Vi beklager, du har blitt blokkert av en administrator.
+
+=
+template.authorize.passwordStrength.0=Veldig svak
+template.authorize.passwordStrength.1=Svak
+template.authorize.passwordStrength.2=Ujevne
+template.authorize.passwordStrength.3=God
+template.authorize.passwordStrength.4=Flott!

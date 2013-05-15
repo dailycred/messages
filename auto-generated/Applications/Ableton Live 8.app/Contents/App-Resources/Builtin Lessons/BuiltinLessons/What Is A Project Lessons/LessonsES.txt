@@ -1,0 +1,14 @@
+$Page ¿Qué es un Proyecto?
+$TargetName What is a Project?
+
+Un Proyecto en Live es una carpeta que puede usarse para organizar cualquier número de Live Sets, Clips, presets u otros archivos relacionados entre sí.
+ProjectInBrowser.tif
+
+Considere, por ejemplo, que está trabajando en un proyecto musical: Comienza con un Live Set vacío; graba algo de audio y por consiguiente crea nuevos archivos de muestras; arrastra y suelta muestras de colecciones; guarda diferentes versiones del Live Set durante el proceso de forma que puede volver atrás y comparar.
+
+Todos los archivos relacionados con esta pieza musical se guardarán en la carpeta del proyecto - y el /Administrador de archivos/ de $0 proporcionará las herramientas que usted necesita para administrarlos.
+
+Los Live Sets se guardan siempre dentro de un Live Project, pero no tiene que preocuparse en la creación manual de carpetas de proyectos: Live las crea automáticamente si todavía no han sido creadas.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

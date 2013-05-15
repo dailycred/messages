@@ -1,0 +1,129 @@
+$Page Loops recyclen
+$TargetName Recycling Loops
+
+Zusätzlich zu seinen hervorragenden Mixing-Optionen bietet $0 eine Reihe von Funktionen für das Remixen und das Recyclen von Musikmaterial. In diesem Kurs werden wir die vielfältigen Möglichkeiten von $0s leistungsfähigen /Clip-Hüllkurven/ vorstellen.
+
+Divider.tif
+*Klicken Sie bitte $Link hier <Set:/Sets/Recycling Loops.als>, um das kursbegleitende Live-Set zu öffnen.*
+Divider.tif
+
+Starten wir die erste Szene, so dass wir ein Gefühl für unser Set bekommen:
+SceneLaunch1.tif
+
+Wir können den Clip "vox hits" /solo hören,/ indem wir den /Solo-Schalter/ der Spur "Hits" betätigen:
+SoloRecycling.tif
+
+Angenommen wir mögen zwar den Klang der Stimmen in diesem Loop, aber wir möchten den Rest nicht benutzen: Das ist die perfekte Aufgabe für eine Clip-Hüllurve. Klicken Sie auf /Nächste Seite,/ um fortzufahren.
+
+$Comment -----------------------------------------------------------------------
+$Page Clip-Hüllkurven
+$TargetName Clip Envelopes
+
+Um zu den Clip-Hüllkuren zu gelangen, doppelklicken wir den Clip "vox hits." Er wird in der Clip-Ansicht geöffnet. Sie können sich etwas mehr Platz verschaffen, indem Sie auf den /Wahlschalter für das Sample-Rähmchen/ in der unteren, linken Ecke des Bildschirms klicken:
+ShowHideSampleBoxLoops.tif
+
+Das /Hüllkurven-Rähmchen/ bietet Schnellwahlschalter, um oft modulierte Clip-Parameter zu wählen. Mit dem unten gezeigten, können wir die /Lautstärke-Hüllkurve/ des Clips wählen:
+VolumeQuickChooser.tif
+
+Jetzt werden wir etwas herauszoomen, so dass wir unseren Clip in Gänze im /Hüllkurven-Editor/ rechts auf dem Bildschirm sehen können. Gezoomt wird mit dem /Taktlineal/ ganz oben in der Ansicht:
+BeatRulerRecycling.tif
+
+Wenn Sie auf das Taktlineal klicken und dann nach oben oder unten ziehen, zoomen Sie stufenlos heraus oder hinein. Durch Klicken und nach rechts oder links ziehen wird die Anzeige nach links oder rechts gescrollt.
+
+$Comment -----------------------------------------------------------------------
+$Page Hüllkurven zeichnen
+$TargetName Drawing Envelopes
+
+Wir wollen nun eine Lautstärke-Hüllkurve auf die Wellenformdarstellung im Clip /zeichnen./ Dazu aktivieren wir zunächst den /Zeichen-Modus/ mit diesem Schalter im Transportbereich:
+DrawSwitchMix.tif
+
+Zeichnen Sie nun eine Lautstärke-Hüllkurve, die nur den Vokal-Part hörbar werden lässt:
+VocalsOnlyEnvelope.tif
+
+Sie können Solo für den Track deaktivieren, wenn Sie Ihre Änderungen im Zusammenhang mit dem Rest hören möchten.
+
+$Comment -----------------------------------------------------------------------
+$Page Effekte nutzen
+$TargetName Using Effects
+
+Mit Clip-Hüllkurven kann man auch die Tonhöhe, das Panning und beliebige Effekt-Parameter steuern, was sehr ergiebige Möglichkeiten zum Formen und Gestalten von Sounds bietet.
+
+Es wurde bereits eine Hüllkurve für den /Resonator-Effekt/ auf dieser Spur gezeichnet. Die Hüllkurve wurde auf dem Clip "vox hits" gezeichnet, der direkt unter dem liegt, den wir gerade nutzen. Starten Sie bitte jetzt diesen Clip:
+LaunchSecondVox.tif
+
+Doppelklicken Sie bitte die Titelzeile der Spur "Hits", um sie in der Spur-Ansicht unten auf dem Bildschirm anzuzeigen.
+Track2TitleBar.tif
+
+Aktivieren Sie nun den Resonator-Effekt mit dem Schalter in seiner linken oberen Ecke.
+ResonatorsActive.tif
+
+Sie können auch die Taste N Ihrer Rechnertastatur verwenden, die wir dem Schalter zugewiesen haben, um den Effekt an- oder auszuschalten.
+
+$Comment -----------------------------------------------------------------------
+$Page Modulation von Effekt-Parametern
+$TargetName Modulating Effects Controls
+
+Doppelklicken Sie den laufenden Clip "vox hits", so dass er in der Clip-Ansicht erscheint. Um die Hüllkurve für den /Dry/Wet-Parameter/ des Resonators zu sehen, wählen Sie "Resonators" vom oberen Wahlmenü im Hüllkurven-Rähmchen:
+ResonatorsInChooser.tif
+
+Wenn Sie es nicht sowieso schon getan haben: Schalten Sie die Spur kurz auf Solo, um sich den Effekt der Clip-Hüllkurve genauer anzuhören.
+
+Sie können die Hüllkurve durch Zeichnen bearbeiten, oder indem Sie den /Zeichen-Modus/ deaktivieren und mit /Breakpoints/ arbeiten - über die Sie mehr im Kurs über $Link Automation <Lesson:Builtin/2-Live Advanced Category/2-Using Automation> erfahren.
+
+/Tipp:/ Das Tastaturkommando $ShiftMod + Tab schaltet schnell zwischen der Spur- und der Clip-Ansicht hin und her.
+
+$Comment -----------------------------------------------------------------------
+$Page Modulation der Mixer-Bedienelemente
+$TargetName Modulating Mixer Controls
+
+Betrachten wir ein Beispiel für ein /Mixer-Bedienelement,/ das durch eine Clip-Hüllkurve beeinflusst wird. Wählen Sie "Mixer" aus dem oberen der beiden Menüs und "Track Panning" aus dem unteren:
+PanInChooser.tif
+
+Wenn Sie einen Blick auf den /Pan-Regler/ im Mixer werfen, werden Sie feststellen, dass dieser sich nach Maßgabe der Panning-Clip-Hüllkurve bewegt.
+PanGhost.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Beats verwürfeln
+$TargetName Scrambling Beats
+
+Eine andere kreative Verwendung der Clip-Hüllkurven besteht im "Verwürfeln" eines Beats.
+
+Schalten Sie bitte die Spur "Hip Hop" auf Solo und starten Sie dann den unteren Clip "hiphop 95", um eine Hüllkurve in Aktion zu hören, die den Beat verwürfelt.
+HipHop95Low.tif
+
+Dann doppelklicken Sie den Clip, um ihn in der Clip-Ansicht zu öffnen. Wählen Sie "Clip" im oberen Wahlmenü für die Hüllkurven und Sie sehen die unten dargestellte Hüllkurve.
+BeatScrambler.tif
+
+Diese Hüllkurve moduliert den /Sample-Offset/ des Loops, sie verschiebt also den Startpunkt und damit auch die aktuelle Position während der Loop-Wiedergabe.
+
+$Comment -----------------------------------------------------------------------
+$Page Lange Variationen erzeugen
+$TargetName Creating Long Variations
+
+Um ein letztes Beispiel für eine Clip-Hüllkurve zu hören, schalten Sie bitte die Spur "Synth" solo.
+
+Starten Sie zunächst den oberen Clip "synth" und vergleichen Sie ihn dann mit dem unteren "synth". Sie werden bemerken, dass der eintaktige Synthesizer-Loop des ersten Clips als Variation bearbeitet im zweiten erscheint, wo er sich dann über vier Takte verändert. Schauen wir uns das einmal mit einem Doppelklick auf den unteren Clip namens "synth" genauer an. Er wird in der Clip-Ansicht geöffnet.
+
+Die Variation des Clips setzt sich aus zwei Elementen zusammen. Werfen Sie einen Blick auf die Clip-Hüllkurven in den beiden Menüs. Wählen Sie "Clip" aus dem oberen Menü, um die gezeichnete Transpositions-Hüllkurve zu sehen:
+TransposeEnvelope.tif
+
+Die Transpositions-Hüllkurve wurde von dem /eintaktigen Loop/ entkoppelt, so dass sie eine eigene Länge von /vier Takten/ besitzt. Dies wurde durch Aktivieren des /Unlink-Schalters..../
+UnlinkEnvelope.tif
+
+... und das Ändern der /Hüllkurvenlänge/ auf vier Takte erreicht.
+FourBarEnvelope.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Versuchen Sie's selbst
+$TargetName Try It Yourself
+
+Es gibt keine bessere Möglichkeit als eigene Experimente, um das Potenzial von $0s Clip-Hüllkurven kennenzulernen – probieren Sie es aus und erstellen Sie Ihren eigenen Mix!
+
+Bei der Arbeit mit Ihren eigenen Clip-Hüllkurven ist es manchmal bequemer, wenn /nur die/ Clip-Parameter sichtbar sind, die auch wirklich eine Hüllkurve haben. Dies ist möglich, indem Sie von einem der beiden Wahlmenüs für die Hüllkurven den Eintrag /Zeige nur modulierte Parameter/ wählen. In diesem Modus werden die beiden Wahlmenüs für jeden Clip zu einem einzigen verschmolzen, das dann nur die /modulierten/ Clip-Parameter anzeigt. Um diesen, speziellen Modus wieder zu verlassen, wählen Sie /Zeige alle Modulationen/ vom Wahlmenü.
+
+Clip-Hüllkurven können unendlich viele Variationen von Loops, Samples und sogar MIDI-Daten erzeugen; nur Ihre Phantasie bestimmt hier die Grenzen. Im Kapitel "Clip-Hüllkurven" der $Link Referenzanleitung <Manual> werden die Möglichkeiten im Detail beschrieben. Dort finden Sie Informationen zum Entkoppeln von Hüllkurven, zum Modulieren von Mixer- und Effekt-Parametern und zum Erzeugen von Clip-Hüllkurven für MIDI-Clips. Die elektronische Version der Anleitung kann jederzeit über das /Hilfe-Menü/ aufgerufen werden.
+
+Behalten Sie bitte auch im Hinterkopf, dass Sie alles, was Sie während der Mischung tun, als Arrangement aufzeichnen können und die Aufzeichnung später detailliert bearbeiten können. Näheres dazu finden Sie im Abschnitt "Session in ein Arrangement aufzeichnen" in der $Link Referenzanleitung <Manual>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

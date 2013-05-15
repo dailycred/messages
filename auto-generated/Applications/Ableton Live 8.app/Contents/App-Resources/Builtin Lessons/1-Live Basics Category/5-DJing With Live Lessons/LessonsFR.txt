@@ -1,0 +1,224 @@
+$Page DJing avec Live
+$TargetName DJing with Live
+Ableton Live s'est imposé comme la plate-forme idéale pour créer, produire et jouer de la musique originale. Mais Live est aussi extrêmement populaire chez les DJ car il rend transparente et naturelle la transition entre DJing, remixage et production.
+
+Live permet aux DJ de :
+-> combiner plusieurs pistes simultanément
+-> remixer et éditer des pistes à la volée
+-> choisir parmi une large sélection d'effets audio et de Racks pré-établis
+-> enregistrer une prestation et éditer chaque paramètre après coup
+
+Dans cette leçon, vous apprendrez comment appliquer le /warp/ à toute une piste, comme fractionner une piste en clips séparés et comment travailler avec les effets audio de Live.
+
+Divider.tif
+*Les documents de $0 s'appellent des Sets Live. Cette leçon est accompagnée d'un Set Live avec lequel vous interagirez en suivant la leçon. Quand vous êtes prêt, veuillez cliquer $Link ici <Set:/Sets/DJing with Live.als> pour charger le Set Live.*
+Divider.tif
+
+
+Veuillez cliquer ci-dessous sur /Page suivante/ pour continuer.
+
+$Comment -----------------------------------------------------------------------
+$Page Que se passe-t-il dans ce Set?
+$TargetName What's Happening in This Set?
+
+Le Set contient trois pistes audio, et chaque piste contient un certain nombre de clips.
+
+Cliquez sur les /boutons de lancement de clip/ de n'importe lesquels de ces clips pour entendre leur reproduction.
+ClipLaunchButtons.tif
+
+Par défaut, tous les clips ne démarrent que sur le temps fort suivant leur déclenchement. Et bien que certains de ces clips soient à des tempos différent, Live les gardent tous synchronisés.
+
+Un seul clip peut être lu à la fois sur une même piste, mais les clips de différentes pistes peuvent être lus simultanément. Cela vous permet de facilement combiner boucles et sections de multiples morceaux.
+
+$Comment -----------------------------------------------------------------------
+$Page Bref aperçu de la fenêtre Clip
+$TargetName Clip View at a Glance
+
+Les clips de la première piste sont tous à 128 BPM, tandis que ceux de la seconde piste sont à 126 BPM. Live garde automatiquement tous les clips synchronisés, quels que soient leurs tempos d'origine.
+
+Double-cliquez sur n'importe quel clip pour l'ouvrir dans la /fenêtre Clip/ en bas de l'écran :
+ClipView.tif
+
+Le tempo d'origine du clip s'affiche dans le champ de la fenêtre Clip intitulé "Seg. BPM", représenté ci-dessous.
+OrigBpm.tif
+
+Divider.tif
+*La fenêtre Clip contient toutes les informations et tous les réglages d'un clip donné. Vous pouvez en apprendre plus dans le chapitre "Fenêtre Clip" du manuel de référence, qui peut être ouvert depuis le menu* /Aide./
+Divider.tif
+
+Maintenant, faisons un peu de place à la fenêtre Clip en masquant la fenêtre Info. Pour cela, veuillez presser le bouton triangulaire dans le coin inférieur gauche de l'écran.
+HideInfoView.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Changer le tempo et la hauteur
+$TargetName Changing Tempo and Re-Pitching
+
+Tous nos clips ont bénéficié du /warp/ pour une adaptation au tempo du projet, qui est de 126 BPM.
+
+Vous pouvez le voir en regardant la /commande Tempo/ dans le coin supérieur gauche de l'écran :
+Tempo.tif
+
+Cliquez sur la commande Tempo et tirez en haut et en bas pour changer le tempo du projet. Notez que tous les clips restent synchronisés avec vos changements.
+
+Quand vous changez le tempo, la hauteur des boucles ne change pas : /dans $0, la hauteur est contrôlée indépendamment du tempo,/ aussi pouvez-vous facilement faire correspondre les temps de divers styles de musique sans affecter la hauteur.
+
+A l'opposé, vous pouvez /vouloir/ changer la hauteur, pour que les boucles répondent plus comme un disque sur une platine. Essayez de faire passer le /mode Warp/ de n'importe quel clip sur Re-Pitch en fenêtre Clip, comme ceci :
+$If Product 20-3F, 03
+WarpModeRepitchLE.tif
+$Else
+WarpModeRepitch.tif
+$Endif
+
+Maintenant, quand vous changez le tempo du projet, $0 abaisse ou élève la hauteur du clip pour suivre vos changements, tout comme le feraient une platine ou un échantillonneur traditionnel.
+
+$Comment -----------------------------------------------------------------------
+$Page Les bases du warp
+$TargetName Warping Basics
+
+Afin que tout reste synchronisé, Live utilise des /marqueurs de warp/ pour définir le tempo de chaque clip.
+
+Les marqueurs de warp agissent comme des "épingles" qui fixent un point particulier dans la musique sur une position temporelle particulière.
+
+Les clips de ce Set ont déjà eu leurs marqueurs de warp réglés de la façon nécessaire. En fait, Live se charge généralement de cela de manière automatique quand vous chargez de nouvelles données audio.
+
+Parfois, néanmoins, Live peut se tromper quant au tempo d'un nouvel échantillon. Ou il peut commencer la lecture du clip ailleurs que là où vous l'attendez. Dans ces cas, vous pouvez régler vous-même les marqueurs de warp et les propriétés de lecture.
+
+Pour essayer cela, commencez par ouvrir $Link ce dossier <BrowseLibraryFiles:/Lessons/Samples/> dans le navigateur de Live et allez jusqu'au fichier nommé "jeff_samuel_template.aif".
+NewTrack.tif
+
+Déposez ce fichier dans la zone où il est dit "Déposez ici les clips et périphériques" ou sur la droite de la 3e piste audio. Quand vous survolez cette zone, vous voyez apparaître le contour d'un nouveau clip. Quand vous déposez le fichier, une nouvelle piste audio se crée, contenant le clip.
+NewClipInTrack.tif
+
+Pressez le bouton /Stop de tous les clips/ pour arrêter tous les clips en cours de lecture.
+StopClips.tif
+
+Pressez maintenant le bouton de déclenchement du nouveau clip.
+
+$Comment -----------------------------------------------------------------------
+$Page Warp d'une piste entière
+$TargetName Warping a Full Track
+
+Vous pouvez entendre que Live semble avoir correctement analysé le tempo du clip. Mais si vous activez maintenant le métronome, vous l'entendrez battre décalé d'un demi-temps.
+Metronome.tif
+
+Cela se produit généralement quand il y a du silence au début du clip ou si Live pense que le temps fort est à un endroit inhabituel.
+
+Pour vérifier cela, double-cliquez sur le clip pour l'afficher dans la fenêtre Clip. Amenez maintenant le pointeur de votre souris dans le coin supérieur gauche de l'affichage d'échantillon jusqu'à ce qu'il se transforme en loupe :
+Zoom.tif
+
+Maintenant, cliquez et tirez vers le bas jusqu'à ce que le zoom soit suffisant pour que vous voyiez clairement le début de l'échantillon :
+ZoomedClipStart.tif
+
+Comme vous pouvez le voir, Live commence la lecture de ce clip environ une croche avant que l'audio ne démarre vraiment. Pour corriger cela, placez le pointeur sur le /marqueur de transitoire/ gris au début de l'audio :
+FirstTransient.tif
+
+Ensuite, faites un $ContextMenu pour ouvrir le menu contextuel et sélectionnez *Placer 1.1.1 ici* pour faire démarrer la lecture de ce point. Puis ouvrez à nouveau le menu contextuel avec $ContextMenu et sélectionnez *Warp d'ici (régulier).* Les options "Warp d'ici..." du menu contextuel donnent chacune des résultats légèrement différents, mais celle-ci donne généralement les meilleurs résultats pour ce type de musique électronique.
+
+Enfin, relancez le clip. Vous entendrez qu'il est maintenant parfaitement calé sur les temps du métronome (et donc avec les autres clips du Set).
+
+(Pour plus d'informations sur le warp de Live, voir le chapitre "Commande de tempo et suivi rythmique" dans le $Link Manuel de référence Ableton <Manual>.)
+
+$Comment -----------------------------------------------------------------------
+$Page Organisation de votre Set DJ
+$TargetName Organizing Your DJ Set
+
+Afin d'effectuer un mixage intéressant, il est utile de pouvoir créer de nouvelles variations des morceaux de votre collection.
+
+Pour cela, nous avons dupliqué chaque clip quelques fois, chaque clip jouant une section différente. Cela nous permet de créer des boucles contenant des cassures, des passages ne contenant que la grosse caisse, etc.
+
+Essayez vous-même avec le nouveau clip que vous avez déposé. D'abord, sélectionnez-le. Puis utilisez quelques fois la commande *Dupliquer* du menu *Edition* pour créer trois ou quatre copies.
+FourDuplicates.tif
+
+Maintenant, sélectionnez une des copies, activez la boucle /Loop/ et choisissez une longueur de boucle courante comme 2, 4 ou 8 mesures :
+LoopSettings.tif
+
+Ensuite, essayez de régler les marqueurs de /début/ et de /fin de boucle/ pour trouver des boucles intéressantes dans le morceau :
+StartLoopPosition.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Le crossfader
+$TargetName The Crossfader
+
+Maintenant, voyons comment utiliser le /crossfader/ de $0 pour mélanger les pistes.
+
+Ce bouton affiche ou masque la section crossfader du mélangeur de $0 :
+CrossfaderShow.tif
+
+Si le crossfader n'est pas déjà à l'écran, veuillez presser une fois ce bouton pour le faire apparaître.
+
+Le crossfader de Live fonctionne un peu différemment du crossfader d'une table de mixage standard pour DJ. Les pistes sont assignées au crossfader à l'aide des boutons "A" et "B" juste sous leurs commandes de mixage :
+CrossfadeAssign.tif
+
+Si les boutons "A" ou "B" sont affectés à une piste, le volume de celle-ci sera piloté par le crossfader. L'absence d'affectation signifie que la piste jouera tout le temps.
+
+Il n'y a pas de limite au nombre de pistes que vous pouvez affecter, ce qui signifie que vous pouvez mélanger /autant de pistes que vous le désirez/ avec le crossfader.
+
+Notez que le crossfader est actuellement en position centrale :
+CrossfaderMiddle.tif
+
+Déplacez lentement le crossfader vers la droite pour entendre progressivement les pistes B prendre le dessus et les pistes A s'estomper. Notre nouvelle piste est actuellement non assignée, donc on l'entend quelle que soit la position du crossfader.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle manuel
+$TargetName Hands-On Control
+
+Comme quasiment toute fonction de $0 peut être associée à un contrôleur MIDI, il peut être plus amusant de piloter le crossfader de $0 depuis un appareil externe.
+
+Si vous n'avez pas pour le moment de contrôleur MIDI configuré dans $0, veuillez sauter cette étape.
+
+Si vous avez configuré un contrôleur MIDI, passez en /mode d'affectation MIDI/ en pressant le bouton "MIDI" dans le coin supérieur droit de l'écran.
+MidiMapButton.tif
+
+Cliquez vers le milieu du crossfader pour le sélectionner en vue de l'affecter, comme représenté ci-dessous.
+SelectedCrossfader.tif
+
+Maintenant, quand vous tournez une commande ou poussez un curseur sur votre appareil de contrôle, l'affectation s'affiche sur le crossfader. En mode d'affectation MIDI, vous pouvez faire autant d'affectations que vous le désirez pour diverses commandes de l'interface.
+
+Pressez à nouveau le bouton "MIDI" pour quitter le mode d'affectation MIDI et activer les affectations.
+
+Avant de poursuivre, ramenez le crossfader en position centrale pour que nous puissions entendre toutes nos pistes.
+
+Divider.tif
+*Vous pouvez configurer $0 dans les Préférences MIDI/Sync pour qu'il reconnaisse un appareil MIDI externe. Pour en savoir plus sur les appareils MIDI externes et $0, veuillez consulter la $Link leçon sur les surfaces de contrôle <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.*
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page EQ Three
+$TargetName EQ Three
+
+$0 est livré avec une sélection remarquable d'effets intégrés, dont l'un est l'effet de style DJ /EQ Three :/
+EQ3.tif
+
+Insérons un EQ Three dans la première piste de ce Set. D'abord, cliquez sur le bouton d'ouverture du /navigateur de périphériques/ de Live et naviguez jusqu'au dossier /Audio Effects :/
+DeviceBrowser.tif
+
+Déployez ce dossier, faites glisser le périphérique EQ Three et déposez-le n'importe où sur la première piste.
+
+Le périphérique apparaîtra en bas de l'écran dans la /fenêtre Piste./
+
+EQ Three dispose de commandes et de commutateurs de coupure ("kill") pour filtrer les bandes de fréquences basses (L), hautes (H) et moyennes (M) dans votre musique.
+
+Pour l'entendre en action, veillez à ce qu'un des clips de cette piste soit en lecture. Il peut être utile de mettre la piste en /solo :/
+Solo.tif
+
+Essayez maintenant les commutateurs de coupure...
+KillSwitches.tif
+
+... et les commandes de gain.
+GainKnobs.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Et à partir de là
+$TargetName Where to Go From Here
+
+Dans cette leçon, vous avez vu un exemple simple de la façon dont fonctionne Live comme une collection intégrée d'outils de DJ familiers. Vous pouvez partir de cet exemple dans de nombreuses directions nouvelles et créatives. Nous vous recommandons également de suivre le reste des leçons de Live.
+
+-> Cliquez $Link ici <Lesson:Internal/BuiltinAutoToc> pour accéder à toutes les leçons installées.
+
+-> /Emploi d'effets/ - En plus de l'EQ Three utilisé dans cette leçon, $0 offre un large éventail d'effets audio qui excellent dans la manipulation audio en temps réel. L'effet /Beat Repeat/ de $0, par exemple, traite les boucles de façons incroyables. Les effets et instruments de $0 sont décrits en détail dans le $Link Manuel de référence Ableton <Manual>.
+
+-> /Mixage de votre propre musique/ - Les mêmes processus de warp et de traitement que ceux utilisés dans cette leçon sur la musique peuvent bien sûr être employés sur des morceaux de votre propre collection. Live peut travailler avec des pistes à divers formats audio, dont mp3, FLAC et Ogg Vorbis.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

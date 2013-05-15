@@ -1,0 +1,27 @@
+$Page Informar de un cuelgue
+$TargetName Report a Crash
+BugReportingBanner.tif
+Le agradecemos que se tome algo de su tiempo para informar de los cuelgues que detecte del programa. ¡Gracias por su ayuda!
+
+Live ha creado un paquete para informar sobre cuelgues del programa. Por favor, haga clic sobre el enlace de abajo para que este archivo aparezca en su ordenador:
+
+CRASH_REPORTING_PACKAGE_NAME
+
+Por favor envíe este archivo a $Link crashes@ableton.com <mailto:crashes@ableton.com>.
+
+*Nota:* Recibirá una respuesta automática a su informe sobre cuelgues. Si necesita ayuda, por favor contacte con nuestro $Link equipo de soporte <http://www.ableton.com/support>.
+
+Divider.tif
+
+Este paquete de informes de cuelgues contiene información que se generó la última vez que trabajó con Live:
+
+-> Las Preferencias de Live y los archivos de autorización
+-> un registro de lo que hizo el software durante la última vez que estuvo en marcha
+-> todos los Live Sets, presets y dispositivos Max utilizados la última vez que el programa funcionó (todos sin muestras)
+-> un diverso número de otros archivos historiales creados por Live
+-> información creada por el sistema operativo acerca del cuelgue del ordenador
+
+No se envía ninguna otra información. Utilizaremos los datos en este informe de errores sólo para reparar estos mismos errores. Consulte nuestra $Link política de privacidad <http://www.ableton.com/privacy-policy> para saber cómo usamos su información.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

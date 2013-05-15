@@ -1,0 +1,33 @@
+$Page Informe de cuelgue de un Plug-In
+$TargetName Report a Crash in a Plug-In
+BugReportingBanner.tif
+Le agradecemos que se tome algo de su tiempo para informar de los cuelgues que detecte del programa. ¡Gracias por su ayuda!
+
+Los datos del sistema sobre el cuelgue sugieren que quizá el problema esté relacionado con este CRASHED_PLUGIN_TYPE plug-in:
+
+*CRASHED_PLUGIN_NAME (versión CRASHED_PLUGIN_VERSION)*
+
+Por favor contacte con el fabricante del plug-in para asegurarse de que este plug-in está actualizado. Además, por favor asegúrese de que está usando $Link la versión más reciente de Live <http://www.ableton.com/latest-versions>.
+
+Divider.tif
+Para que podamos analizar más a fondo el problema, por favor pulse en el enlace de abajo para mostrar el paquete del informe de cuelgue de su ordenador:
+
+CRASH_REPORTING_PACKAGE_NAME
+
+Por favor envíe este archivo a $Link crashes@ableton.com <mailto:crashes@ableton.com>.
+Divider.tif
+
+Este paquete de informes de cuelgues contiene información que se generó la última vez que trabajó con Live:
+
+-> Las Preferencias de Live y los archivos de autorización
+-> un registro de lo que hizo el software durante la última vez que estuvo en marcha
+-> todos los Live Sets, presets y dispositivos Max utilizados la última vez que el programa funcionó (todos sin muestras)
+-> un diverso número de otros archivos historiales creados por Live
+-> información creada por el sistema operativo acerca del cuelgue del ordenador
+
+No se envía ninguna otra información. Utilizaremos los datos en este informe de errores sólo para reparar estos mismos errores. Consulte nuestra $Link política de privacidad <http://www.ableton.com/privacy-policy> para saber cómo usamos su información.
+
+*Nota:* REcibirá una respuesta automática a su informe sobre cuelgues. Si necesita más ayuda, por favor contacte con nuestro $Link soporte técnico<http://www.ableton.com/support>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

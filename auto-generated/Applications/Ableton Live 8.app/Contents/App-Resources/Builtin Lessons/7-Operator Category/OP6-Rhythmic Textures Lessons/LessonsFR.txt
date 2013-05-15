@@ -1,0 +1,160 @@
+$Page Création de textures rythmiques
+$TargetName Creating Rhythmic Textures
+$ListInTocForProduct 40
+
+Pour terminer cette série de leçons, nous allons employer toutes les compétences que nous avons acquises jusqu'à présent, et quelques autres! Cette leçon se focalisera sur la capacité unique qu'a l'Operator de mettre en boucle ses enveloppes, afin de créer des textures rythmiques travaillées qui sont difficiles, sinon impossible, à créer sur d'autres synthés.
+
+SI vous n'avez pas encore fini les leçons précédentes, il est préférable de les revoir avant de continuer, afin de vous familiariser avec les concepts évoqués ici.
+
+Divider.tif
+*Note:* Cette leçon est accompagnée d'un Set Live avec lequel vous interagirez au cours de la leçon. Veuillez cliquer $Link ici <Set:/Sets/OP-Default Set.als> pour charger ce Set Live.*
+Divider.tif
+
+Comme dans les autres leçons sur l'Operator, vous aurez une meilleure vue de l'instrument en /Fenêtre Piste/ en masquant la /Fenêtre Info/ d'aide en ligne par un clic sur son bouton Afficher/Masquer dans le coin inférieur gauche de l'écran.
+HideInfoViewFx.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Réglage des oscillateurs
+$TargetName Setting up the Oscillators
+
+Configurons notre routage d'oscillateurs.
+
+Affichez la section globale de l'Operator en cliquant sur le champ correspondant.
+GlobalSection.tif
+Puis sélectionnez l'algorithme avec deux paires d'oscillateurs empilés, représenté ci-dessous.
+Algorithm.tif
+
+Cet algorithme nous permettra de tirer le meilleur parti à la fois de la synthèse FM et de la synthèse de style analogique.
+
+Réglez le niveau /Level/ de l'oscillateur A sur -3.5 dB, mais laissez ses paramètres d'accord sur leur valeur par défaut.
+OscALevel.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Enveloppes pour ajouter du rythme
+$TargetName Using Envelopes to Add Rhythm
+
+Maintenant, commençons à ajouter un peu de rythme au patch.
+
+Adoucissez légèrement l'attaque de l'enveloppe d'oscillateur A en réglant sur 0.38 ms son paramètre /Attack,/ puis augmentez le temps de chute ou /Decay/ à 9.90 secondes et abaissez le /Sustain/ à -inf dB:
+RhythmAtkDec.tif
+
+Dans la section Mode de l'enveloppe, faites passer le type de boucle /Loop/ sur Sync:
+RhythmEnvLoop.tif
+
+Ensuite, choisissez une valeur de répétition /Repeat/ de 1/4:
+RhythmRepeat.tif
+
+Cela donnera une pulsation de l'onde sinusoïdale de l'oscillateur A rythmée sur les noires.
+
+$Comment --------------------------------------------------------------------------------
+$Page Ajout de modulation FM
+$TargetName Adding FM Modulation
+
+Passez à l'oscillateur B, qui est configuré pour moduler l'oscillateur A en FM. Laissez ses commandes d'accord sur leur réglage par défaut, afin de créer un rapport d'accord de 1:1 entre les deux oscillateurs, ce qui donne un son FM de type dents de scie.
+
+Montez maintenant le niveau /Level/ à -20 dB.
+OscBLevel.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Oscillateur B + enveloppes bouclées
+$TargetName Oscillator B + Looped Envelopes
+
+Utilisons l'enveloppe de l'oscillateur B pour compliquer encore le rythme de l'oscillateur A.
+
+Réglez /Decay/ sur 452 ms et /Sustain/ sur -42 dB:
+OscBEnv.tif
+
+Puis réglez le Mode d'enveloppe sur Sync:
+RhythmEnvLoop2.tif
+
+Enfin réglez la fréquence de répétition /Repeat/ sur 1/8:
+RhythmRepeat2.tif
+
+Le rythme à la noire de l'oscillateur A intègre maintenant un subtile rythme à la croche.
+
+Félicitations, vous avez fait la moitié du travail en créant les composantes de synthèse FM de cette texture hybride! Essayez de faire varier l'accord grossier /Coarse/ de l'oscillateur B, et notez comment des réglages différents changent le timbre.
+
+$Comment --------------------------------------------------------------------------------
+$Page Oscillateur C + enveloppes bouclées
+$TargetName Oscillator C + Looped Envelopes
+
+Nous pouvons utiliser l'oscillateur C pour ajouter un mouvement répétitif doux cadencé à la blanche.
+
+Pour cela, montez d'abord le niveau /Level/ de l'oscillateur C à -3.5 dB, pour que nous puissions l'entendre dans le contexte:
+OscCRhythm.tif
+
+Dans l'écran, changez l'onde /Wave/ de l'oscillateur C en onde en dents de scie Saw 3 (Sw3) pour un peu plus de subtilité de timbre:
+OscCSaw.tif
+
+A présent, ramenez l'affichage sur Envelope. Réglez /Attack/ sur 306 ms, /Decay/ sur 2.11 secondes et /Sustain/ sur -inf dB pour des fondus légers d'entrée (fade-in) et de sortie (fade-out):
+OscCEnvelopes.tif
+
+Comme pour les autres oscillateurs, réglez la boucle d'enveloppe /Loop/ sur Sync, mais réglez la cadence de répétition /Repeat/ sur 1/2.
+RhythmRepeat3.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Oscillateur D + enveloppes bouclées
+$TargetName Oscillator D + Looped Envelopes
+
+Finissons les aspects FM de notre patch en ajoutant une pulsation brillante à la double-croche dans le mouvement cadencé à la blanche.
+
+Pour cela, nous réglerons d'abord le niveau /Level/ de l'oscillateur D sur -0.0 dB, afin qu'il module l'oscillateur C au maximum de son intensité:
+OscDLevel.tif
+
+Réduisez la chute /Decay/ de l'oscillateur D à 397 ms et son /Sustain/ à -inf dB pour un son plus percussif, puis réglez la section Mode sur Sync avec une valeur de 1/16:
+OscDEnvelopes.tif
+
+Maintenant, l'ondulation de l'oscillateur C contient des interventions brusques, staccato, à la double-croche, grâce à la composante rythmique FM.
+
+Si vous le désirez, vous pouvez essayer des réglages différents pour les paramètres /Coarse/ et /Level/ de l'oscillateur D, car ceux-ci changeront radicalement le caractère général de cette partie de notre son. Comme dans chacune des leçons, l'expérimentation est la clé de la maîtrise de l'Operator!
+
+$Comment --------------------------------------------------------------------------------
+$Page Filtrage du son
+$TargetName Filtering the Sound
+
+Avec nos composantes FM rythmiques en place, ajoutons un peu de filtrage passe-bas résonant pour donner de la chaleur au son.
+
+Activez la section filtre avec le bouton carré situé sur la gauche de son champ:
+FilterOnRhythm.tif
+
+Nous laisserons le type de filtre et la fréquence de filtrage /(Freq)/ sur leur valeur par défaut: "Low 12dB" et 500 Hz, et augmenterons la résonance /(Res)/ jusqu'à 3.70 pour donner une touche de style analogique:
+FilterSettings.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Bouclage de l'enveloppe de filtre
+$TargetName Looping the Filter Envelope
+
+Comme toute enveloppe de l'Operator peut être mise en boucle, nous allons créer un rythme d'enveloppe de filtre pour compliquer encore le son.
+
+Réglez /Decay/ sur 397 ms et /Sustain/ sur 12%:
+FilterEnvelopes.tif
+
+Ensuite, activez Sync et choisissez pour /Repeat/ une valeur de répétition de 1/4.
+FilterSync.tif
+
+De là, nous devons augmenter la valeur /Envelope/ pour que l'effet puisse être entendu. Essayez une valeur de 96%.
+EnvelopeAmount.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page La touche finale
+$TargetName The Finishing Touches
+
+Pour affiner le son, essayez différents réglages des paramètres /Attack,/ /Decay/ et /Repeat/ de l'enveloppe de filtre, afin de modifier la pulsation résonante du filtre.
+
+Sinon, vous pouvez régler les valeurs /Time/ et /Tone/ pour encore plus affiner le patch.
+TimeTone.tif
+
+Une fois vos réglages de filtre terminés, vous pouvez apporter la dernière main à ce son en le grossissant à l'aide de la commande de dispersion /Spread./ Poussez sa valeur à fond, mais rappelez-vous que cela consomme deux fois plus de voix, quelle que soit l'intensité demandée pour l'effet.
+SpreadRhythm.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ... et enfin
+$TargetName ... and Finally
+
+Si vous avez étudié toutes les leçons concernant l'Operator, vous êtes en passe de devenir un maître de la programmation de l'Operator. C'est maintenant à vous de personnaliser et commander basses, sons solo, nappes, batteries et textures rythmiques. Pour des informations supplémentaires sur l'éventail d'outils de synthèse disponibles dans cet instrument, veillez bien à lire le chapitre "Les instruments de Live" dans le $Link manuel de référence <Manual>.
+
+Rappelez-vous que la fenêtre Info d'aide en ligne est une ressource remarquable qui vous fournit une brève description de chaque paramètre de l'Operator. Vous pouvez toujours l'afficher ou la masquer en pressant le bouton triangulaire situé dans le coin inférieur gauche de l'écran.
+FxInfoView.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

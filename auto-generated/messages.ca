@@ -1,0 +1,86 @@
+Application.NoSuchClient=No hi ha un client per id% s.
+Application.NoSuchApp=No hi ha cap aplicació per id% s.
+Application.NoClientProvided=Proporcioneu us plau seva identificació de client amb la seva sol · licitud.
+Application.NoRedirectProvided=Posa un redireccionament amb la seva petició OAuth. <br/> <b>Desenvolupadors:</b> proporcionar la seva uri devolució de trucada amb el paràmetre <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> o establint una devolució de trucada predeterminat de <a href="https://www.dailycred.com/admin/setup">configuració del teu compte</a> .
+Application.EnterEmailOrUsername=Introduïu la vostra adreça de correu electrònic o nom d&#39;usuari.
+Application.EnterEmail=Introduïu la vostra adreça de correu electrònic.
+Application.EnterUsername=Introduïu el vostre nom d&#39;usuari.
+Application.EnterPassword=Si us plau, introduïu la contrasenya.
+Application.AtNotAllowed=El símbol &quot;@&quot; no es pot utilitzar en el seu nom d&#39;usuari.
+Application.WrongPasswordOrUsername=Si us plau, comproveu que el nom d&#39;usuari i contrasenya i torneu a intentar. <a href="%s">Per restablir la contrasenya, feu clic aquí.</a>
+Application.BadDomain=El domini &quot;% s&quot; no és vàlid.
+Application.BadEmail=Si us plau, comprova que la teva adreça de correu electrònic s&#39;ha introduït correctament i torna a intentar-ho.
+Application.BadNewEmail=Si us plau, comprova que el teu nou correu electrònic s&#39;ha introduït correctament i torna a intentar-ho.
+Application.PasswordTooShort=Introdueix una contrasenya amb almenys% d caràcters.
+Application.NoCallbackUri=% S no ha fixat un URI callback encara. Si us plau intenta-ho de nou més tard.
+Application.EmailTaken=Aquest correu electrònic ja està en ús.
+Application.UsernameTaken=Aquest nom d&#39;usuari ja està en ús. Utilitzeu un nom d&#39;usuari diferent.
+Application.EmailSent=Un correu electrònic ha estat enviat. Si us plau, comprova el teu email per rebre instruccions.
+Application.EmailSentGmail=Un correu electrònic ha estat enviat. <a href="http://mail.google.com/">us plau, comprovi la seva Gmail per obtenir més instruccions.</a>
+Application.GoToGmail=Aneu a la seva compte de Gmail
+Application.EmailSentYahoo=Un correu electrònic ha estat enviat. <a href="http://mail.yahoo.com/">Yahoo! plau revisi el seu correu electrònic per obtenir més instruccions.</a>
+Application.GoToYahoo=Aneu a la safata d&#39;entrada de Yahoo
+Application.EmailSentHotmail=Un correu electrònic ha estat enviat. <a href="http://www.hotmail.com/">us plau, comprovi la seva hotmail per obtenir més instruccions.</a>
+Application.GoToHotmail=Aneu a la safata d&#39;entrada de Hotmail
+Application.EmailSentICloud=Un correu electrònic ha estat enviat. <a href="https://www.icloud.com/#mail">us plau revisi el seu correu iCloud per obtenir més instruccions.</a>
+Application.GoToICloud=Aneu a la safata d&#39;entrada d&#39;iCloud
+Application.NoSuchEmail=No hi ha cap usuari de% s.
+Application.NoSuchUser=No hi ha cap usuari per Identificació% s.
+Application.NoSuchUserFriendly=No vam poder trobar un compte d&#39;usuari d&#39;aquest correu electrònic o nom d&#39;usuari. Torneu-ho de nou.
+Application.NoSuchToken=S&#39;ha produït un error d&#39;iniciar sessió en el seu compte. Si us plau intenta-ho de nou en breu.
+Application.PasswordResetInvalid=Aquesta sol · licitud de restabliment de contrasenya no és vàlid o no trobat. Si us plau, intenti restablir la contrasenya.
+Application.PasswordUpdated=La seva contrasenya ha estat actualitzada.
+Application.APIWrongPassword=Si us plau verifiqui la contrasenya i torneu a intentar-ho.
+Application.APIError=S&#39;ha produït un error inesperat. Torneu-ho de nou.
+Application.APIBadToken=Invalid token d&#39;accés OAuth.
+Application.APINoToken=Un token d&#39;accés actiu ha de ser utilitzat per consultar informació sobre l&#39;usuari actual.
+Application.APIBadCode=No vàlid Vàlid OAuth.
+Application.TimeOut=Això sembla estar prenent massa temps. Si us plau intenta-ho de nou en breu.
+Application.BadURL=Això no és un URL vàlid. Aquest camp ha de ser una URL completa, que no és parent, com https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Aquest camp té una longitud màxima de 200 caràcters. Empreu una mica més curt.
+Application.NoStripeKey=No s&#39;ha trobat ratlla API Key. Si us plau, configureu la vostra clau API ratlla el seu <a href="https://dailycred.com/admin/setup">configuració de</a> pàgina.
+Application.OAuthCallBackNotInDomain=El redirect_uri proporcionat no està aprovat per compte d&#39;aquest client.
+Application.CNameNotValidDomain=El nombrec proporcionada no sembla ser un domini vàlid.
+Application.Required=Aquest és un camp obligatori.
+Application.LogoFileTooLarge=L&#39;arxiu excedeix el límit de mida.
+Application.LogoFileIsNotImage=El tipus de fitxer no és vàlid. Només PNG, JPG i GIF admesos.
+Application.NoClientSecret=Heu d&#39;especificar un paràmetre client_secret conté la vostra clau secreta Dailycred.
+Application.InvalidClientSecret=Aquesta és una clau secreta Dailycred no vàlid.
+Application.MissingRequiredFields=Sembla que es troba a faltar alguns camps obligatoris. Si us plau, aneu a la <a href="/admin/setup">configuració de</a> la pàgina per posar-se en marxa.
+Application.CouldNotUnsubscribe=Lamentablement, a causa d&#39;un error tècnic, no es podia donar de baixa directament des d&#39;aquest enllaç. Si us plau intenta-ho de nou o <a href="mailto:support@dailycred.com">contacteu amb nosaltres directament</a> per a ser eliminat.
+Application.Unsubscribed=Vostè ha estat donar-se de baixa. Lamentem que marxis!
+Application.Subscribed=Vostè ha estat subscrit. Gràcies!
+Application.CouldNotSubscribe=Lamentablement, a causa d&#39;un error tècnic, no pot subscriure directament des d&#39;aquest enllaç. Si us plau intenta-ho de nou o <a href="mailto:support@dailycred.com">contacteu amb nosaltres directament</a> a afegir.
+Application.AdminsCantUnsubscribe=Admet que no pot donar-se de baixa del seu compte.
+Application.EmailIsSame=El nou correu electrònic és el mateix que la seva adreça de correu electrònic actual.
+Application.EmailOnlyUserNotAllowed=Aquesta aplicació no admet Correu Només usuaris.
+Application.EmailChangeSuccess=El teu email ha estat canviat a% s. Busqui us plau el e-mail de confirmació i verificar la seva nova direcció.
+Application.EmailVerifySuccess=El% s ha estat verificada.
+Application.PostOnly=Aquesta sol · licitud s&#39;ha de fer mitjançant una <b>sol · licitud HTTP POST.</b> <br/><br/> Si acaba de fer una ullada a l&#39;API, li suggerim utilitzar curl o <a target="_blank" href="http://hurl.it/">llançar</a> .
+Application.StripeTrialEnd=Un <a href="https://www.dailycred.com/admin/user/%s">usuari</a> té un judici que està a punt d&#39;acabar. Aquest correu electrònic va ser causat per un webhook ratlla.
+Application.StripePaymentSucceeded=Un <a href="https://www.dailycred.com/admin/user/%s">usuari</a> es va carregar amb èxit. Aquest correu electrònic va ser causat per un webhook ratlla.
+Application.StripePaymentFailed=Un <a href="https://www.dailycred.com/admin/user/%s">usuari</a> va ser acusat sense èxit. Aquest correu electrònic va ser causat per un webhook ratlla.
+Application.BillingError=Quelcom ha fallat en intentar establir la informació de facturació. Torneu-ho de nou momentàniament.
+Application.TrialWillEnd=La seva prova gratuïta Dailycred està a punt d&#39;acabar el% s. Visita la <a href="https://www.dailycred.com/admin/settings/billing">pàgina de facturació,</a> per evitar que el seu compte sigui desactivada.
+Application.TrialWillEndLong=La seva prova gratuïta DailyCred acaba aviat a% s. <br><br> Per mantenir el seu compte activa, si us plau visiti el seu <a href="https://www.dailycred.com/admin/settings/billing">pàgina de facturació</a> per revisar els <a href="https://www.dailycred.com/pricing">plans de baix cost</a> i introduir les dades de pagament en l&#39;actualitat.
+Application.CannotRemoveActiveCard=No es pot treure el mètode de pagament activa. Si voleu cancel · lar el seu compte de correu electrònic support@dailycred.com amb el seu número de compte.
+Application.StateCheckFailed=La petició no es troba el paràmetre d&#39;estat. Torneu-ho de nou.
+Application.UnexpectedError=Sentim, s&#39;ha produït un error inesperat. Torneu-ho de nou.
+Application.UserAnotherIdentityProvider=Sembla que tens un compte utilitzant% s. <a href="%s">Feu clic aquí per connectar-se a través de% s</a> , o <a href="%s">feu clic aquí per establir una contrasenya</a> .
+Application.APIKeyNotFound=Clau d&#39;API no trobat. Si us plau, configureu una clau d&#39;API per a aquest proveïdor d&#39;identitat en la seva <a href="https://www.dailycred.com/admin/settings">pàgina de configuració</a> .
+Application.ForeignIDAlreadyRegistered=No vam poder enllaçar aquest compte perquè per proveïdor de% s foreignID% s ja està associat amb l&#39;usuari% s.
+Application.TwitterCallbackURLIncorrect=Revisi el seu <a href="https://dev.twitter.com/apps">configuració de l&#39;aplicació Twitter</a> . Callback URL de la seva aplicació no pot estar buit. (Pot ser qualsevol URL vàlida).
+Application.ThankYouForSigningUp=Gràcies per registrar-se en% s vostè!
+Application.ThankYouForSigningUpNoClient=Gràcies per tu inscripció!
+Application.CannotDeleteLastApp=No es pot eliminar: el compte ha de tenir almenys una aplicació.
+Application.CouldNotSendEmail=Ho sentim, hi va haver un problema en enviar aquest correu electrònic. Si us plau intenta-ho de nou en breu.
+Application.EmailVerificationRequiredSignUp=Vostè ha de verificar el seu correu electrònic abans de inscriure. Si us plau, comprova el teu email per rebre instruccions.
+Application.EmailVerificationRequiredSignIn=Vostè ha de verificar el seu correu electrònic abans d&#39;iniciar sessió us plau revisi el seu correu electrònic per obtenir més instruccions.
+Application.Blocked=Ho sentim, vostè ha estat bloquejat per un administrador.
+
+=
+template.authorize.passwordStrength.0=Molt dèbil
+template.authorize.passwordStrength.1=Dèbil
+template.authorize.passwordStrength.2=Així així
+template.authorize.passwordStrength.3=Bé
+template.authorize.passwordStrength.4=Great!

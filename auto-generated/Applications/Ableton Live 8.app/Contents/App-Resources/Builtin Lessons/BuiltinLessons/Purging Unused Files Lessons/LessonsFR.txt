@@ -1,0 +1,14 @@
+$Page Purge des échantillons inutilisés
+$TargetName Purging Unused Samples
+
+Le gestionnaire de fichiers de $0 peut rechercher pour vous les échantillons d'un projet qui ne sont pas utilisés par celui-ci. Vous pouvez alors les passer en revue et éventuellement les supprimer, individuellement ou tout d'un coup.
+
+Lors de sa recherche d'échantillons "inutilisés", $0 inspecte chaque échantillon d'un dossier projet, vérifiant s'il est référencé par un quelconque des Sets Live, Clips Live ou presets de périphérique dans le projet. Si ce n'est pas le cas, l'échantillon est considéré comme inutilisé - /même si d'autres projets ou programmes l'utilisent toujours./
+
+Pour voir les échantillons inutilisés du projet actuel, utilisez les boutons /Afficher/ pour chacune des catégories d'échantillons:
+UnusedSamplesSection.tif
+
+$0 listera les échantillons inutilisés dans le navigateur de fichiers, où vous pourrez les écouter et les supprimer si vous le désirez.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

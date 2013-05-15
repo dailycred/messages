@@ -1,0 +1,180 @@
+$Page Utilisation de l'APC40
+$TargetName Using the APC40
+APC40.tif
+
+/L'APC40/ (Ableton Performance Controller) est un contrôleur dédié à Ableton Live, conçu par l'équipe d'ingénierie déjà responsable de l'emblématique gamme de produits MPC Akai. Cette leçon vous aidera à installer votre APC40 et vous présentera ses capacités.
+
+Cliquez $Link ici <Set:/Sets/APC40 Demo.als> pour lancer un Set Live avec lequel vous pouvez travailler tout en découvrant l'APC40. Puis cliquez sur le bouton /Page suivante/ en bas à droite de cette leçon pour poursuivre, ou utilisez les liens ci-dessous pour une consultation rapide:
+
+-> $Link Connexion de l'APC40 <GotoPage:Connecting the APC40>
+-> $Link Matrice de lancement des clips (Clip Launch) <GotoPage:Clip Launch Matrix>
+-> $Link Vue d'ensemble de Session (Session Overview) <GotoPage:Session Overview>
+-> $Link Section mélangeur <GotoPage:Mixer Section>
+-> $Link Contrôle de périphérique <GotoPage:Device Control>
+-> $Link Boutons généraux et de transport <GotoPage:Transport and Global Buttons>
+-> $Link Contrôle des pistes (Track Control) <GotoPage:Track Control>
+-> $Link Contrôle du tempo <GotoPage:Tempo Control>
+-> $Link Crossfader <GotoPage:Crossfader>
+-> $Link Personnalisation des commandes de l'APC40 <GotoPage:Customizing the APC40 Controls>
+
+Pour une introduction générale à l'emploi des surfaces de contrôle avec Live, ainsi qu'une liste des affectations des périphériques de Live sur les surfaces de contrôle, veuillez lire la leçon $Link Référence des surfaces de contrôle <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference>.
+
+$Comment -----------------------------------------------------------------------
+$Page Connexion de l'APC40
+$TargetName Connecting the APC40
+
+Une fois que vous avez débloqué Live, que l'APC40 a été mis sous tension et branché au port USB de votre ordinateur, vous devez sélectionner l'APC40 dans les /Préférences/ de Live.
+
+1) Ouvrez les Préférences de Live depuis le menu /Live/ sous OS X (ou le menu /Options/ sous Windows)
+
+2) Allez dans l'onglet /MIDI/Sync/
+
+3) Sélectionnez le Preset APC40 dans le sélecteur /Surface de contrôle./ Puis sélectionnez le port auquel est connecté l'APC40 dans les sélecteurs /Entrée/ et /Sortie:/
+MIDISyncSetup.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Matrice de lancement des clips (Clip Launch)
+$TargetName Clip Launch Matrix
+
+La matrice de boutons unique de l'APC40 vous donne un accès direct aux clips de votre écran Session. La matrice a 40 boutons tricolores organisés selon une grille de cinq scènes de haut par huit pistes de large. Le judicieux système de codage couleur vous permet de savoir exactement ce qui se passe dans chaque clip, et grâce à des commandes directionnelles simples, vous vous déplacez dans votre écran Session.
+LaunchMatrix.tif
+
+Presser un bouton de lancement de clip /Clip Launch/ déclenche le clip du slot correspondant dans Live. Si la piste est armée pour l'enregistrement, presser le bouton enregistre un nouveau clip.
+
+Les boutons de la matrice s'allument dans des couleurs différentes pour que vous sachiez ce qui se passe:
+
+-> Jaune: ce slot contient un clip
+-> Vert: ce clip est en lecture
+-> Rouge: ce clip est en enregistrement
+
+De nombreux aspects de l'interface de Live sont repris dans l'APC40. Vous pouvez stopper toute musique dans une piste avec son bouton /Clip Stop/ et déclencher des lignes horizontales de clips avec les boutons /Scene Launch./ /Stop All Clips,/ comme son nom l'indique, arrête tous les clips.
+
+Le contrôleur vous indique ce qui se passe dans le logiciel, mais ce qui est important, c'est que le logiciel reflète aussi ce qui se passe sur le contrôleur. Les slots de clip actuellement contrôlés par la matrice de boutons sont indiqués dans Live par un liseré rouge simple.
+RedBorder.tif
+
+Des commandes directionnelles simples et un bouton /Shift/ étendent la portée de la grille de huit par cinq:
+NavigateAndShift.tif
+
+-> Presser les touches flèches Haut ou Bas vous fait monter ou descendre d'une scène à la fois. Tenir enfoncé le bouton Shift pendant que vous faites cela vous déplace de cinq scènes à la fois.
+-> Les touches flèches Gauche et Droite vous font vous déplacer d'une piste à la fois à gauche ou à droite. Tenir enfoncé le bouton Shift pendant que vous faites cela vous déplace de huit pistes à la fois.
+
+$Comment -----------------------------------------------------------------------
+$Page Vue d'ensemble de Session (Session Overview)
+$TargetName Session Overview
+
+Le mode /Session Overview/ de l'APC40 vous permet de naviguer rapidement dans votre Set Live. Maintenez enfoncé le bouton Shift et la matrice effectue un zoom arrière pour dévoiler une vue d'ensemble de votre écran Session. En mode Session Overview, chaque bouton représente un bloc de clips de cinq scènes par huit pistes, soit une matrice de 125 scènes par 64 pistes. Frappez un bouton pour vous focaliser sur cette section de l'écran Session. Par exemple, presser le bouton Shift puis le bouton à l'intersection de la rangée trois et de la colonne un, appelle les scènes 11-15 et les pistes 1-8.
+SessionOverview.tif
+
+En mode Session Overview, le codage couleur est un peu différent:
+
+-> Jaune: indique le bloc de clips actuellement sélectionné, qui sera entouré d'un liseré rouge dans le logiciel.
+-> Vert: des clips sont en lecture dans ce bloc de clips (bien que cela puisse ne pas être le bloc de clips sélectionné).
+-> Rouge: aucun clip n'est en lecture dans cette plage.
+-> Pas de couleur: il n'y a pas de pistes ni de scènes dans cette plage.
+
+$Comment -----------------------------------------------------------------------
+$Page Section mélangeur
+$TargetName Mixer Section
+
+L'APC40 dispose de huit pistes, chacune avec ses propres /fader,/ boutons /solo/pré-écoute,/ /mute/ et /armement pour l'enregistrement./ Un fader /Master/ contrôle le volume master et un bouton rotatif /Cue Level/ le volume d'écoute, pour que vous puissiez pré-écouter un clip ou le métronome sans que votre public ne les entendent.
+MixerSection.tif
+
+Vous pouvez décaler ces huit pistes dans l'écran Session à l'aide des commandes directionnelles. Pressez les flèches droite ou gauche pour un déplacement incrémentiel, piste par piste. Maintenez le bouton Shift et pressez la flèche droite ou gauche pour sauter par blocs de huit pistes à la fois.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle de périphérique
+$TargetName Device Control
+
+L'APC40 apporte un moyen intuitif de contrôler les effets et les instruments virtuels. Huit /encodeurs sans fin/ et quatre /boutons de contrôle/ sont automatiquement affectés à vos périphériques pour plus de flexibilité et de rapidité sur scène ou en studio.
+DeviceControl.tif
+
+Les boutons de sélection de piste Track Selection dirigent les huit encodeurs sans fin vers le premier périphérique ou rack de périphériques de la piste concernée, les cercles de DEL vous indiquant automatiquement les niveaux du paramètre sélectionné.
+
+Quatre boutons situés sous les encodeurs vous apportent des options de contrôle supplémentaires. /Clip/Track/ vous permet d'alterner entre l'affichage des périphériques de la piste et les propriétés du clip actuellement lu sur cette piste. /Device On/Off/ active ou désactive le périphérique actuellement sélectionné. /Périphérique de gauche/ et /Périphérique de droite/ (indiqués par deux flèches) vous déplacent latéralement d'un pas dans la chaîne de périphériques d'une piste.
+
+Certains effets ou instruments virtuels ont plus de huit paramètres. Quand vous tenez enfoncé le bouton Shift, ces huit boutons vous permettent de sélectionner huit banques de huit commandes de paramètres de périphérique:
+DeviceParameterBanking.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Boutons généraux et de transport
+$TargetName Transport and Global Buttons
+
+Les boutons /Play/ (lecture), /Stop/ et /Rec/ (enregistrement global) de Live sont tous facilement accessibles, et quatre boutons généraux donnent accès aux fonctions de Live, épurant votre affichage d'écran sur scène et vous débarrassant de la souris en studio:
+TransportAndGlobalButtons.tif
+
+-> /Detail View/ ouvre et ferme la fenêtre Clip/Piste, pour que vous puissiez voir un plus grand nombre de vos clips.
+-> /Rec Quantization/ vous permet de faire alterner la quantification d'entrée (d'enregistrement) entre "Aucune" et le dernier réglage de quantification sélectionné.
+-> /MIDI Overdub/ vous permet de réenregistrer sur un clip MIDI.
+-> /Metronome/ active et désactive le métronome.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle des pistes (Track Control)
+$TargetName Track Control
+
+La section Track Control couvre les réglages de panoramique et les départs d'effets pour les huit pistes actuellement sélectionnées. Elle comporte huit /encodeurs sans fin/ avec des cercles de DEL et quatre boutons: /Pan,/ /Send A,/ /Send B/ et /Send C./
+TrackControl.tif
+
+Les boutons vous permettent de sélectionner ce que contrôlent les encodeurs, tandis que les encodeurs contrôlent le panoramique ou l'ampleur des départs d'effet.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle du tempo
+$TargetName Tempo Control
+
+Les boutons /Tap Tempo/ et /Nudge gauche/droit/ sont essentiels aux prestations "live", vous aidant à rester "synchro" par rapport à des platines tourne-disque, d'autres musiciens ou un groupe jouant en direct, ainsi qu'à corriger rapidement les problèmes de timing.
+TempoControl.tif
+
+Quand vous frappez le bouton Tap Tempo sur chaque temps, le tempo du Set Live suit votre battue.
+
+Vous pouvez aussi utiliser la battue pour le précompte: si vous travaillez avec une mesure en 4:4, il faut quatre frappes pour lancer la lecture du morceau au tempo battu.
+
+Sur scène et en studio, vous pouvez vous retrouver dans des situations où vous devez vous caler sur des sources non verrouillées sur un tempo, comme des musiciens jouant en direct ou des platines tourne-disque. Vous pouvez utiliser les boutons Nudge pour temporairement accélérer ou ralentir la lecture de Live en vue de la faire correspondre avec ce que vous entendez.
+
+$Comment -----------------------------------------------------------------------
+$Page Crossfader
+$TargetName Crossfader
+
+Le crossfader remplaçable de l'APC40 peut supporter un traitement assez brutal. C'est non seulement une commande essentielle de DJ, mais aussi un moyen pratique de contrôler des courbes d'effet, de volume et de modulation.
+Crossfader.tif
+
+Dans Live, vous pouvez choisir n'importe quelle piste comme destination A ou B, puis faire un fondu-enchaîné entre A et B avec le crossfader.
+CrossfadeAssignment.tif
+
+Un crossfader subit une usure et c'est normal. Le crossfader de l'APC40 est entièrement remplaçable par dessous l'appareil, pour que vous puissiez encore rallonger la vie de cette unité déjà résistante.
+
+$Comment -----------------------------------------------------------------------
+$Page Personnalisation des commandes de l'APC40
+$TargetName Customizing the APC40 Controls
+
+Vous pouvez changer l'assignation de tous les encodeurs, faders et boutons de l'APC40.
+
+Pour préparer l'APC40 à une assignation personnalisée, vous devrez retourner dans /l'onglet MIDI/Sync/ des Préférences de Live. Puis activez le commutateur Télécommande des ports /Entrée/ et /Sortie/ pour l'APC40:
+CustomMappingSettings.tif
+
+Activer le commutateur Télécommande d'un port d'entrée indique à $0 qu'il doit être à l'écoute des messages de commande MIDI arrivant par ce port, tandis que le commutateur Télécommande du port de sortie permet aux changements effectués dans Live d'être envoyés au contrôleur.
+
+Maintenant, en passant en /Mode d'affectation MIDI/ de Live, vous pouvez remplacer les fonctions pré-assignées de tous les encodeurs, faders et boutons de l'APC40. Contrôlez des paramètres comme le tempo en les assignant vous-même, et personnalisez-les totalement pour votre propre flux de production.
+
+Divider.tif
+*Astuce:* Si vous avez fait des affectations manuelles supplantant les affectations par défaut de l'APC40, vous pouvez facilement revenir à ces dernières en désactivant le commutateur Téléc. du port d'entrée de l'APC40. Activer à nouveau ce commutateur rétablira vos affectations manuelles.
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Connexion de plusieurs APC40
+$TargetName Connecting Multiple APC40s
+
+Vous pouvez utiliser simultanément jusqu'à six APC40. Chaque contrôleur assigné affichera un pourtour de couleur différente en écran Session de Live. Pour assigner plusieurs contrôleurs:
+
+1) Assurez-vous que tous les APC sont connectés et sous tension.
+
+2) Configurez le premier APC comme décrit $Link précédemment <GotoPage:Connecting the APC40>
+
+3) Pour configurer le contrôleur suivant, sélectionnez APC40 dans un des champs /Surface de contrôle/ encore non employés.
+SecondAPC.tif
+
+4) Sélectionnez le port approprié avec les sélecteurs /Entrée/ et /Sortie./ Sous OS X, il se nomme "Akai APC40 (Port 2)". Sous Windows, il se nomme "USB Audio Device (Port 2)".
+
+*Note:* vous pouvez utiliser n'importe lesquels des six emplacements Surface de contrôle pour vos APC40, mais si vous passez changez d'emplacement pour un autre, vous pouvez avoir à manuellement désassigner les sélecteurs Entrée et Sortie préalablement assignés afin que votre nouvelle sélection fonctionne.
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

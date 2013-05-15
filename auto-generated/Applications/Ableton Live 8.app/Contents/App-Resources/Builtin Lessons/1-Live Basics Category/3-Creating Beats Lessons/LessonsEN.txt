@@ -1,0 +1,154 @@
+$Page Creating Beats 
+$TargetName Creating Beats
+
+This lesson will show you how to record, draw and edit drum patterns with $0.
+
+This lesson has also been made into a movie. Click $Link here <http://www.ableton.com/_common/downloads/movies/creating_beats.mov> to launch the movie from the Ableton website.
+
+We're going to start from scratch, so press $CommandMod + N to create a new Live Set.
+
+We will be using $0's built-in /Impulse/ instrument. Impulse is found among the devices listed in the /Device Browser,/ which appears at the upper left of the screen.
+SessionFullBrowser.tif
+
+Please click on the Device Browser's /selector/ to bring it up. Now, double-click the selector to close all open folders so that we can get an overview of what's stored here.
+DeviceBrowserButton.tif
+
+Please press the /Next Page/ button below to continue.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Loading Impulse 
+$TargetName Loading Impulse
+
+Impulse resides in the /Instruments/ folder. If you open Impulse's folder, you'll find a selection of drum kit presets, saved as /Instrument Racks./ These Racks combine the Impulse instrument with a selection of Live's audio effects.
+
+Select a preset that you find interesting. ("Backbeat Room" works well in our case).
+ImpulsePresetBackbeatRoom.tif
+
+Click on the preset, and drag it to the right into the track labeled "2 MIDI." Notice the mouse's cursor will indicate that the instrument can be dropped here.
+MIDITrackHighlight.tif
+
+After releasing the mouse button, notice that the track name changes to "2 Backbeat Room." You'll also see the preset appear at the bottom of the screen:
+ImpulseTrackView.tif
+
+/Hint:/ You can also drop the Impulse preset into the "empty" space next to the tracks and have $0 create a new MIDI track for the instrument.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Playing Impulse 
+$TargetName Playing Impulse
+
+When we loaded the Impulse preset to the MIDI track, the track's /Arm button/ activated automatically. This allows incoming MIDI to arrive at the track:
+ArmButton.tif
+
+If you have a MIDI keyboard connected to the computer, the white notes played in the C3-C4 octave range should now arrive at Impulse.
+
+If you don't have a MIDI keyboard available, you can use the computer's keyboard instead. To do this, make sure the /Computer MIDI Keyboard switch/ is enabled at the upper right corner of the screen.
+ComputerMIDIKeyboard.tif
+
+The keys in the center row of the keyboard (ASDF...) are mapped by default to Impulse's drum slots. A slot will flash when it receives a note, and you will hear the corresponding sound.
+
+Divider.tif
+*Troubleshooting:* If you need help setting up your MIDI keyboard to work with Live, please follow the Lesson $Link Connecting MIDI Controllers <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+
+For more information about using the computer keyboard to send MIDI, see the section called "Playing MIDI With the Computer Keyboard" in the manual's "Routing and I/O" chapter.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Recording a Pattern 
+$TargetName Recording a Pattern
+
+Let's record a drum pattern. The new pattern will reside in its own new MIDI clip. Double-click any empty Session slot in the track that contains the Impulse instrument (be careful not to click any of the round record buttons at the clips' left-hand sides as you do this).
+EmptySessionSlot.tif
+
+We've just created an empty MIDI clip into which we can record. 
+
+You'll probably want to activate the /metronome/ until you have some of your own material to keep time with:
+MetronomeSwitch.tif
+
+You can also use the Edit menu's /Record Quantization/ options to automatically quantize your playing to a metrical value. If you prefer keeping your own time when recording, set this to "No Quantization." You can always quantize after the fact.
+
+Now, click the clip's play button to activate recording:
+ClipRecordButton.tif
+
+Play C3 on your MIDI keyboard, or hit the computer keyboard's "A" key. You will hear the corresponding drum sound immediately, and again once every bar. Every note that you play will be captured in the new pattern and played once every loop cycle.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Getting it Right 
+$TargetName Getting it Right
+
+If your first pattern doesn't exactly match your expectations, don't give up. Use Undo (press $CommandMod-Z) to get rid of all notes played in the pattern's last loop cycle. You can do this at any time, and in fact any number of times - until the pattern is empty. Watch as the Clip View's /Note Editor/ reflects your changes.
+NoteEditor.tif
+
+To rehearse while the existing pattern plays, without adding notes to it, deactivate the Control Bar's /Overdub/ switch. Turn overdubbing back on when you are ready to record again.
+OverdubSwitch.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Drawing and Editing Notes 
+$TargetName Drawing and Editing Notes
+
+Not only can you record patterns, you can also /draw/ them.
+
+Make sure /Draw Mode/ is engaged:
+DrawModeSwitch.tif
+
+In Draw Mode, clicking into an empty grid tile in the Note Editor creates a note there; clicking into an occupied tile clears the tile. Dragging across tiles fills them or deletes them all.
+DrawingAcrossGridTiles.tif
+
+You can change the grid density quickly using a context menu: *$ContextMenu* anywhere in the Note Editor where there are no notes, and choose your desired grid width from the "Fixed Grid" section of the menu.
+GridContextMenu.tif
+
+When Draw Mode is deactivated, you can select notes by clicking them, or multi-select notes by clicking and dragging a selection box around them. Groups of selected notes can then be edited together.
+
+The Edit menu's /Quantize Settings.../ command will bring up a window with options for shifting selected notes to the nearest specified metrical position:
+QuantizeWindow.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Drawing Velocities 
+$TargetName Drawing Velocities
+
+Drawing in the /Velocity Editor/ changes the velocities (intensities) of notes. The color of notes in the display corresponds to their velocities: darker notes will play louder.
+DrawingVelocities.tif
+
+To draw velocities for a single drum sound only, click the white piano key next to that sound's name, selecting only the notes that play that sound...
+SelectAllNotesInAKeytrack.tif
+
+... then, drag one of the notes' velocity markers to scale the velocities for all selected notes.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Multi-Bar Patterns 
+$TargetName Multi-Bar Patterns
+
+You can extend your pattern to a longer loop just by typing in the desired loop length. The leftmost /Length/ field in the /Notes/ box defines the number of bars in the pattern. Click in this field and type "2", for instance; then hit the Enter/Return key:
+SettingLoopLengthToTwoBars.tif
+
+You'll now hear a two-bar loop with an empty second bar. You can fill in new notes by playing, drawing, or copying and pasting.
+
+To copy a selection of notes, click and drag around the notes you want to copy.
+CopyNotes.tif
+
+Then, copy to the clipboard (via the Edit menu or the *$CommandMod + C* shortcut), click in the note editor to place the /insert marker/ where you want the copied notes to be pasted and paste (via the Edit menu or the *$CommandMod + V* shortcut.)
+Pasted.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Where to Go from Here? 
+$TargetName Where to Go from Here?
+
+-> We recommend going through the complete collection of Live Lessons. Click $Link here <Lesson:Internal/BuiltinAutoToc> to access all of the installed Lessons.
+
+-> Now that you're familiar with the art of creating patterns in $0, you'll probably want to create more! You can create any number of empty MIDI clips in the Session View and record into them. You can also duplicate existing clips and create variations from one pattern. Note that you can always overdub into an existing pattern.
+
+-> You should also explore the powerful sound-shaping controls that are built into Impulse. When doing this and working with your clips simultaneously, you'll no doubt find the $ShiftMod-Tab shortcut handy, as it toggles between the /Clip View/ (where the Note Editor lives) and the /Track View/ (which displays Impulse and its controls).
+
+-> You can build basslines, melodies and harmonies using the very same techniques that we just used for the drum pattern. For the fun of it, load a /Simpler/ preset from the Device Browser into the track containing our new clip, and see what happens. You can always go back using Undo.
+
+$If Product 00, 35, 39
+-> For even more creative potential, try using a /Drum Rack/ as your instrument. Drum Racks use an expanded version of Impulse's pad layout, but with many more editing and sound design possibilities. For more information, see the manual chapter "Instrument, Drum and Effect Racks."
+$Endif
+
+$Comment Status: Translate

@@ -1,0 +1,160 @@
+$Page Creación de texturas rítmicas
+$TargetName Creating Rhythmic Textures
+$ListInTocForProduct 40
+
+Para finalizar con esta serie de lecciones, vamos a usar todas las técnicas que hemos aprendido hasta el momento, ¡y algunas más! Esta lección se centra en la exclusiva función de Operator para realizar loops con sus envolventes, creando intrincadas texturas rítmicas muy difíciles, si no imposibles, de crear con otros sintes.
+
+Si todavía no ha completado las lecciones anteriores, no estaría de más revisarlas antes de continuar y familiarizarse así con los conceptos que aquí se manejan.
+
+Divider.tif
+*Nota:* Esta lección viene acompañada de un Live Set con el que interactuará a medida que sigue la lección. Por favor pulse $Link aquí <Set:/Sets/OP-Default Set.als> para cargar el Live Set.*
+Divider.tif
+
+Al igual que con las otras lecciones de Operator, obtendrá una mejor visión del instrumento en la /vista Track,/ si pliega la /vista Info/ pulsando sobre el botón mostrar/ocultar en la parte inferior izquierda de la pantalla.
+HideInfoViewFx.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Configuración de los osciladores
+$TargetName Setting up the Oscillators
+
+Vamos a configurar los encaminamientos de nuestros osciladores.
+
+Permita que la sección global de Operator esté disponible en el display pulsando sobre este en el panel:
+GlobalSection.tif
+Después seleccione el algoritmo con los dos pares de osciladores apilados, tal y como se muestra aquí abajo.
+Algorithm.tif
+
+Este algoritmo nos permitirá obtener lo mejor de ambas síntesis, FM y estilo analógico.
+
+Ajuste /Level/ del oscilador A en -3.5 dB, pero deje los parámetros de afinación en sus valores por defecto.
+OscALevel.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Utilización de envolventes para añadir ritmo
+$TargetName Using Envelopes to Add Rhythm
+
+Ahora, vamos a comenzar a añadir algo de ritmo al patch.
+
+Suavice el /Attack/ de la envolvente del oscilador A ligeramente cambiando su valor a 0.38 ms, y luego aumente su /Decay/ a 9.90 segundos y disminuya /Sustain/ a -inf dB:
+RhythmAtkDec.tif
+
+En la sección Mode de la envolvente, cambie el tipo de /Loop/ a Sync:
+RhythmEnvLoop.tif
+
+Ahora, ajuste /Repeat/ a un valor de 1/4:
+RhythmRepeat.tif
+
+Esto hará que el volumen de la onda senoidal de Oscillator A siga un pulso de negras.
+
+$Comment --------------------------------------------------------------------------------
+$Page Añadiendo modulación FM
+$TargetName Adding FM Modulation
+
+Cambie a Oscillator B, que está configurado para modular a Oscillator A vía FM. Deje sus controles de afinación a sus valores por defecto, creando un ratio de afinación 1:1 entre los dos osciladores, lo que ofrece como resultado un tono FM parecido al de una diente de sierra.
+
+Ahora aumente /Level/ a -20 dB.
+OscBLevel.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page El oscilador B + envolventes con loop
+$TargetName Oscillator B + Looped Envelopes
+
+Vamos a usar la envolvente del oscilador B para añadir más complejidad al ritmo del oscilador A.
+
+Ajuste /Decay/ a 452 ms y /Sustain/ a -42 dB:
+OscBEnv.tif
+
+Y seguidamente ajuste el parámetro Mode de la envolvente a Sync:
+RhythmEnvLoop2.tif
+
+Y la frecuencia en /Repeat/ a 1/8:
+RhythmRepeat2.tif
+
+El ritmo de negras del oscilador A ahora incorpora un sutil ritmo a corcheas.
+
+Felicidades, ¡ya está a mitad camino de crear los componentes de síntesis FM de esta textura híbrida! Pruebe a experimentar con la afinación /Coarse/ del oscilador B, y comprobará como los diferentes ajustes cambian el timbre.
+
+$Comment --------------------------------------------------------------------------------
+$Page El oscilador C + envolventes con loop
+$TargetName Oscillator C + Looped Envelopes
+
+Podemos usar el oscilador C para añadir una suave ondanada repetitiva con un ritmo de blancas.
+
+Para conseguirlo, primero aumente el /Level/ del oscilador C a -3.5 dB, para que podamos oírlo en el contexto:
+OscCRhythm.tif
+
+En el display, cambie /Wave/ del oscilador C a Saw 3 (Sw3) para añadir un poquito más de sutileza al timbre:
+OscCSaw.tif
+
+Ahora, cambie de nuevo la pantalla a Envelope. Ajuste /Attack/ a 306 ms, /Decay/ a 2.11 segundos y /Sustain/ a -inf dB para un leve fundido de entrada y salida:
+OscCEnvelopes.tif
+
+Al igual que con los otros osciladores, ajuste el parámetro /Loop/ de la envolvente a Sync, pero ajuste el tiempo de /Repeat/ a 1/2.
+RhythmRepeat3.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page El oscilador D + envolventes con loop
+$TargetName Oscillator D + Looped Envelopes
+
+Vamos a acabar los aspectos de la FM de nuestro patch añadiendo un brillante pulso a semicorcheas dentro del golpe de volumen a blancas.
+
+Para hacerlo, primero ajustaremos el /Level/ del oscilador D a -0.0 dB, para que module al oscilador C a toda intensidad:
+OscDLevel.tif
+
+Reduzca el /Decay/ del oscilador a 397 ms y su /Sustain/ a -inf dB para conseguir un sonido más percusivo, y luego ajuste la sección Mode a Sync con un valor de 1/16:
+OscDEnvelopes.tif
+
+Ahora la ondulación del oscilador C mostrará un filtrado cortante, en staccato, a semicorcheas, grácias al componente FM rítmico.
+
+Si quiere, puede probar con diferentes ajustes de /Coarse/ y /Level/ para el oscilador D, puesto que estos pueden cambiar sustancialmente el carácter general de esta parte de nuestro sonido. Al igual que con todas las demás lecciones, ¡la experimentación es la clave para conseguir dominar Operator!
+
+$Comment --------------------------------------------------------------------------------
+$Page Filtrado del sonido
+$TargetName Filtering the Sound
+
+Con nuestros componentes rítmicos FM en su lugar, vamos a añadir algo de filtrado resonante paso-bajo para animar el sonido.
+
+Active la sección del filtro mediante el botón cuadrado a su izquierda:
+FilterOnRhythm.tif
+
+Dejaremos el tipo de filtro y la frecuencia del filtro /(Freq)/ a sus valores por defecto: "Low 12dB" y 500 Hz, y aumentaremos la resonancia /(Res)/ a 3.70 para darle algo de vida estilo analógico:
+FilterSettings.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Aplicando loop a la envolvente del filtro
+$TargetName Looping the Filter Envelope
+
+Puesto que todas las envolventes en Operator pueden operar en modo loop, crearemos un ritmo de envolvente del filtro para aportar más complejidad al sonido.
+
+Ajuste /Decay/ a 397 ms y /Sustain/ a 12%:
+FilterEnvelopes.tif
+
+Ahora, active Sync y ajuste /Repeat/ a un valor de 1/4.
+FilterSync.tif
+
+Desde aquí, necesitamos aumentar el valor de /Envelope/ de forma que se pueda escuchar el efecto. Pruebe con un valor de 96%.
+EnvelopeAmount.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page El toque final
+$TargetName The Finishing Touches
+
+Para perfilar el sonido, pruebe a experimentar con diferentes valores para /Attack,/ /Decay/ y /Repeat/ en la envolvente del filtro, que modificarán el pulso resonante del filtro.
+
+O por el contrario, puede ajustar los valores de /Time/ y /Tone/ para refinar algo más el patch.
+TimeTone.tif
+
+Una vez haya acabado con los ajustes del filtro, puede acabar de pulir este sonido engrosándolo con el control /Spread./ Aumente su valor al máximo, pero recuerde que esto consumirá el doble de voces, sin tener en cuenta la cantidad de efecto que aplique.
+SpreadRhythm.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ... y finalmente
+$TargetName ... and Finally
+
+Si ha estudiado todas las demás lecciones de esta serie sobre Operator, va bien encaminado a convertirse en un maestro de la programación de Operator. Ahora ya puede personalizar y programar bajos, leads, colchones, baterías y texturas rítmicas. Para más información sobre toda la serie de herramientas de síntesis disponibles en este instrumento, por favor diríjase al capítulo "Manual de referencia de los instrumentos de Live" en el $Link manual de referencia <Manual>.
+
+Recuerde que la vista Info es un excelente recurso que puede proporcionarle una breve descripción de cualquier parámetro en Operator. Siempre podrá mostrarlo u ocultarlo pulsando sobre el botón triangular en la esquina inferior izquierda de la pantalla.
+FxInfoView.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

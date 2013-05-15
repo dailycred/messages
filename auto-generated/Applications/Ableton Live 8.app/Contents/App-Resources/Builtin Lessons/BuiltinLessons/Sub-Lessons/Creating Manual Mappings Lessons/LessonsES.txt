@@ -1,0 +1,225 @@
+$Page Creación manual de mapeados MIDI
+$TargetName Creating Manual MIDI Mappings
+
+En esta lección, aprenderemos cómo /los mapeados manuales/ permiten que las superficies estándar de control MIDI se interrelacionen con $0. Al mapear los knobs, teclas, deslizadores y pads a las diferentes partes del interfaz de $0 obtenemos la libertad y flexibilidad de un estudio tradicional basado en hardware.
+
+Los mapeados manuales son útiles incluso cuando utilizamos superficies de control con soporte nativo, puesto que estos pueden anular los /Mapeados Instantáneos/ utilizados por esos dispositivos.
+
+
+Antes de comenzar, por favor asegúrese de que su teclado MIDI o superficie de control externa esté conectada a su ordenador y encendida.
+
+*Nota para usuarios de Windows:* Los dispositivos USB deben estar conectados y ser reconocidos por el sistema operativo /antes/ de lanzar $0.
+
+
+Divider.tif
+*Esta lección viene acompañada de un Live Set con el que interactuará a medida que sigue la lección. Cuando esté preparado, por favor pulse $Link aquí <Set:/Sets/Creating Manual Mappings.als> para cargar el Live Set.*
+Divider.tif
+
+
+Por favor pulse el botón /Página siguiente/ en la parte inferior para continuar.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Modo MIDI Map
+$TargetName MIDI Map Mode
+
+Los mapeados manuales se crean y se editan en el /Modo MIDI Map./ Puede acceder a este modo en cualquier momento activando el interruptor /MIDI/ en la esquina superior derecha de la ventana de la aplicación:
+MidiMapSwitch.tif
+
+Siempre que el Modo MIDI Map esté activo en $0 se producen dos cambios:
+
+*1:* $0 resalta cualquier elemento de la interfaz que pueda ser controlado de forma remota. En este ejemplo, el color de realce es el azul:
+HighlightedElements.tif
+
+*2:* El /Navegador de mapeado/ de $0 está disponible:
+MappingBrowserOverview.tif
+
+Si su Navegador está plegado, puede desplegarlo usando el atajo de teclado *$CommandMod + $OptionMod + B.* También puede redimensionarse horizontalmente arrastrando su lado derecho a izquierda o derecha. Veremos el Navegador de mapeado en un momento, una vez hayamos realizado nuestros primeros mapeados MIDI.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Lanzando Clips
+$TargetName Launching Clips
+
+Para comenzar, vamos a crear algunos mapeados que nos permitirán lanzar clips directamente desde la superficie de control. Puede reproducir todo su Live Set sin siquiera tocar el ratón asignando teclas, pads o botones MIDI a los /clip slots./
+
+Por favor active el modo MIDI Map, si todavía no está activado:
+MidiMapSwitch.tif
+
+Pulse una vez en cualquier clip para seleccionarlo:
+SelectedClip.tif
+
+La /Barra de estado/ indicará que $0 está listo para realizar el mapeado MIDI de la ranura del clip:
+StatusBarAdvice.tif
+
+Pulse cualquier tecla, botón o pad con funciones MIDI de su superficie de control para asignarlo a la ranura de clip seleccionada.
+
+Los mapeados MIDI no funcionarán mientras se encuentre en el modo MIDI Map, por lo que antes de probar su asignación deberá desactivar el interruptor MIDI de la Barra de control.
+
+Tenga en cuenta que las asignaciones MIDI pertenecen a los /clip slots/ y no a los mismos clips. Esto quiere decir que puede escuchar varios clips diferentes en un slot o ranura sin tener que recrear sus mapeados cada vez.
+
+La misma tecla, botón o pad MIDI puede asignarse a múltiples clips siempre que todos ellos residan en /diferentes/ pistas; $0 le avisará si intenta asignar el mismo control a más de un clip en una única pista.
+
+
+Divider.tif
+*Nota:* Los números que aparecen solapados sobre los controles mapeados tienen relación con el MIDI: El primer número es el /canal MIDI/ al que se envían los mensajes de control remoto, y el segundo es el /número MIDI CC/ del knob, deslizador, tecla, etc... específico. Esta información se muestra de forma más completa en el Navegador de Mapeado.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page El Navegador de mapeado
+$TargetName The Mapping Browser
+
+A medida que vaya creando mapeados, verá que se añaden al Navegador de mapeado de $0 - un navegador especial que gestiona todos los mapeados manuales de su Set.
+
+Para cada entrada, indica el canal MIDI, la nota MIDI o el número CC, la ruta y el nombre del parámetro mapeado, y los valores mínimo y máximo de rango de mapeado:
+MappingBrowser.tif
+
+Los campos /Min/ y /Max/ le permiten afinar los rangos de cualquiera de sus mapeados en cualquier momento. Los mapeados o asignaciones pueden invertirse ajustando el valor de Min para que sea mayor que el de Max, o usando *$ContextMenu* para realizar un mapeado en el Navegador y eligiendo *Invertir Rango* en el menú contextual.
+
+Puede eliminar un mapeado seleccionándolo de la lista, y luego pulsando las teclas *Borrar* o *Retroceso.* También pueden seleccionarse y borrarse múltiples mapeados a la vez.
+
+Tenga en cuenta que el Navegador de mapeado sólo es accesible mientras estén activos los /Modos MIDI, Key/ o /Macro Map./
+
+
+Divider.tif
+*Consejo:* Haciendo doble clic sobre un mapeado que pertenezca a un parámetro de un dispositivo realzará dicho dispositivo en la Vista Pista de $0.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Asignación para reproducción cromática
+$TargetName Mapping for Chromatic Playing
+
+Ya vimos como una única tecla puede usasrse para lanzar un clip, pero $0 también puede asignar un /rango/ de teclas a un clip para producir una reproducción cromática, al estilo de un clásico sampler hardware.
+
+Vamos a probar esto con uno de los clips en la pista Chords, como por ejemplo "guitarchorus." Entre en el modo MIDI Map, y seleccone el clip pulsando sobre él.
+ClipRangeMapping.tif
+
+Pulse y /mantenga/ pulsada la tecla MIDI que debería reproducir el clip a su altura tonal sin transponer (la tecla /raíz/). /Mientras mantiene la pulsación/ de la tecla raíz, pulse una tecla por encima de esta para definir el límite superior del rango tonal, y una tecla por debajo para definir el límite inferior.
+
+El mapeado que se muestra para este clip es ligeramente diferente de lo que hemos visto hasta ahora: muestra una lista con el número de /canal MIDI,/ seguida de tres notas: el /límite inferior, raíz/ y /límite superior/ del rango de teclado que usted definió.
+TripartDisplay.tif
+
+Tras salir del modo MIDI Map, podrá reproducir el clip "guitarchorus" cromáticamente a lo largo de este rango de teclado.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Controlando el clip seleccionado
+$TargetName Controlling the Selected Clip
+
+Puede controlar las propiedades de reproducción de cada clip por separado asignando sus parámetros de la /Vista Clip./ La Vista Clip comparte la región inferior de la ventana de la aplicación con la /Vista Pista,/ en donde se muestran los efectos e instrumentos. *$ShiftMod + Tab* conmuta entre las dos vistas.
+
+En la parte inferior de la caja de la Vista /Clip/ encontrará dos botones /Nudge/ que pueden cambiar la posición de reproducción de un único clip relativa al resto de una escena:
+PlayPosNudgeMap.tif
+
+El /control Scrub,/ ubicado entre los botones Nudge, sólo está visible en el modo MIDI Map; asígnelo a un knob de giro infinito para activar la funcionalidad /scrub-wheel/ para un clip.
+
+Cualquier leve empujón, fregoteo o cambio de la posición de reproducción de un clip siempre ocurrirá en pasos del tamaño de la /cuantización global/ activa en ese momento, tal y como se indica en la Barra de control:
+QuantizationChooserHands.tif
+
+La caja /Sample/ (que puede mostrarse u ocultarse usando el selector de debajo de la caja Clip) ofrece controles asignables de /Transposición/ y /Volumen,/ marcadores de /Inicio/ y /Final/ de clip, y controles de /Posición de Loop/ y /Duración de Loop./ Cada uno de estos últimos cuatro controles presentan unos botones /Set/ para definir marcadores al vuelo durante la reproducción:
+SampleBoxMap.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Lanzando escenas
+$TargetName Launching Scenes
+
+Los botones /Lanzar Escena/ de la Vista Session tembién pueden mapearse a botones, teclas o pads externos. El proceso es idéntico al de los clips a excepción que en vez de seleccionar un clip para asignar, seleccionamos una escena de la pista Master, de esta forma:
+SceneAssign.tif
+
+Tenga en cuenta que no puede asignar un controlador MIDI a una escena si ya ha sido asignada a un clip.
+
+Continúe adelante y asigne más clips y escenas de este Set a su dispositivo externo, y luego tómese unos momentos para improvisar y explorar su nueva configuración.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Navegación relativa
+$TargetName Relative Navigation
+
+Al crear mapeados de navegación relativa, puede dirigir la selección de la Vista Session desde lejos, lanzando clips y escenas a medida que avanza.
+
+Con el modo MIDI Map activado, localice los controles de /navegación relativa/ en la pista Master, que aquí aparecen:
+RelativeScene.tif
+
+Asigne dos botones, almohadillas o teclas vecinas a los botones de flecha arriba y abajo, que desplazan la selección de escena arriba y abajo, respectivamente:
+UpDownScene.tif
+
+También puede asignar un encoder a la casilla de valor de la derecha para moverse por sus escenas:
+ValueBoxScene.tif
+
+Ahora asigne un botón, pad o tecla a este botón para lanzar la escena seleccionada en ese momento, cualquiera que sea:
+PlayScene.tif
+
+Use mapeados de /Lanzar Pista/ junto con mapeados de navegación de escena para lanzar clips individuales desde la escena seleccionada en ese momento:
+TrackLaunchButtons.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Controlando el mezclador
+$TargetName Controlling the Mixer
+
+Ahora veremos cómo podemos usar control remoto con el mezclador de $0.
+
+Vamos a mapear los deslizadores de /volumen de pista/ a nuestra superficie de control para una mezcla manual. En el modo MIDI Map, pulse sobre el deslizador de volumen de la pista *Rhodes* para seleccionarlo, tal y como se muestra abajo:
+MappingVolume.tif
+
+Ahora, elija un potenciómetro o fader en su dispositivo externo con el que controlar el volumen de esta pista. Mueva el potenciómetro o fader para asignarlo al control de volumen de la pista *Rhodes.*
+
+Repita el procedimiento de asignación para el potenciómetro de panoramización, usando un potenciómetro o deslizador adyacente en su dispositivo externo (agrupando así los controles por motivos prácticos).
+PanVolumeMapped.tif
+
+Puede continuar mapeando los controles de volumen y panoramización del resto de las pistas, incluyendo la pista Master. Puede incluso mapear el mismo control a varios deslizadores de volumen o potenciómetros de panoramización si quiere controlarlos simultáneamente.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Control de parámetros via Rangos de nota
+$TargetName Parameter Control via Note Ranges
+
+En vez de mapear potenciómetros o deslizadores al volumen y l apanoramización, también puede mapear un /rango de notas/ a estos parámetros. Ya pudimos probar esto antes cuando mapeamos clips cromáticamente, pero cuando se aplica a parámetros variables, las notas mapeadas se distribuyen equitativamente a lo largo del rango de valores del parámetro. Esto significa que si mapea un rango de notas a un deslizador de volumen, la nota más alta ajustará el deslizador a su extremo superior, mientras que la nota más grave llevará el deslizador totalmente hacia abajo.
+
+Para crear este tipo de mapeado, simplemente mantenga pulsadas las dos teclas que definen los límites superior e inferior del rango de teclado.
+PanVolumeMappedNoteRanges.tif
+
+Verá que los rangos de nota mapeados se muestran más claramente dentro del Navegador de mapeado:
+MappedRangesInBrowser.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Controlando intrumentos y efectos
+$TargetName Controlling Instruments and Effects
+
+Los efectos pueden aportar cambios animados y dinámicos a sus clips, pero los ratones simplemente no promueven la espontaneidad del hardware. Afortunadamente, es igual de simple el mapear instrumentos y efectos a superficies de control.
+
+Vamos a probar esto con el efecto /Auto Filter/ en la pista *Rhodes.* Primero asegúrese de que el modo MIDI Map esté desactivado. Luego haga doble clic sobre la barra de título de la pista *Rhodes* para mostrar el Auto Filter en la vista Pista:
+MappingTitleBar.tif
+
+Active el modo MIDI Map, y pruebe a asignar los parámetros /cutoff frequency/ y /Q/ de Auto Filter, que se muestran abajo, a potenciómetros o deslizadores en su controlador externo:
+AutoFltrFreq.tif
+
+Al igual que con volumen y panoramización, también puede controlar parámatros del dispositivo con rangos de notas.
+
+Salga ahora del modo MIDI Map y lance cualquier escena o clip de la pista Rhodes para escuchar como se filtra el sonido a medida que gira los potenciómetros en su dispositivo externo.
+
+
+Divider.tif
+*Consejo:* Las asignaciones para los plug-ins VST y Audio Units se crean tan fácilmente como las de los dispositivos incluidos en $0.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Consejos, trucos y recursos
+$TargetName Tips, Tricks and Resources
+
+Los /controles de transporte/ de $0 están ubicados en la Barra de Control en la parte superior de la ventana de la aplicación:
+MappingControlBar.tif
+
+Utilizando los controles de transporte, usted puede reproducir, detener y grabar en $0. Los controles de transporte mapeados a MIDI son especialmente convenientes durante la audición y la grabación.
+
+Es posible usar múltiples superficies de control simultáneamente. Podría usar un teclado USB para lanzar clips, por ejemplo, junto con una caja de potenciómetros para manipular los efectos.
+
+Si usa la misma superficie de control todo el tiempo y usualmente realiza el mismo conjunto de asignaciones de control remoto, se ahorrará tiempo creando una /plantilla de Set./ Una Plantilla de Set pasará a ser la estructura por defecto para todos los nuevos Live Sets, e incluirá toda la información de mapeado MIDI y de teclado. Para guardar el Set actual como una plantilla, use la sección correspondiente de las /Preferencias Archivo/Carpeta:/
+SaveSetAsTemplate.tif
+
+Encontrará mucha más información sobre superficies de control y mapeados - incluyendo /Mapeado instantáneo, mapeado de teclado/ y /Mapeado de Macros/ - en el capítulo "Control remoto MIDI y de teclado" del manual de referencia.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

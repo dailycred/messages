@@ -1,0 +1,11 @@
+$Page No Lessons Installed 
+$TargetName No Lessons Installed
+
+No lessons are installed in your current Library location.
+
+Click $Link here <Pref:packages> to go to the /Live Packs/ tab in $0's /Preferences./
+LivePacksTab.tif
+
+From here, you can search for available packages from $0's default content or directly from the Ableton website. Choose a lessons pack to install.
+
+$Comment Status: Translate

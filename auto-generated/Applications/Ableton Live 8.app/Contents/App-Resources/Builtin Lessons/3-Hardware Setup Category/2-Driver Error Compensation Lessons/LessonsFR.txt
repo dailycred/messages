@@ -1,0 +1,105 @@
+$Page Compensation d'erreur de pilote
+$TargetName Driver Error Compensation
+
+Dans cette leçon, nous configurerons $0 pour compenser la latence lors de l'enregistrement audio de sources externes. Le terme /latence/ se réfère au retard inévitable que tous les signaux audio prennent lors du trajet vers et depuis l'ordinateur.
+
+-> Si vous n'avez pas encore paramétré les entrées/sorties audio de Live en suivant la leçon $Link Réglage des E/S audio <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO>, vous devrez le faire /avant/ de commencer cette leçon.
+
+-> Il vous faudra aussi un /câble audio/ pour relier une sortie de votre interface audio à une de ses entrées. Peu importe qu'il s'agisse d'une connexion analogique ou numérique, mais il doit s'agir d'une véritable connexion /physique./
+
+Divider.tif
+*Cette leçon est accompagnée d'un Set Live avec lequel vous interagirez durant la leçon. Quand vous êtes prêt, veuillez cliquer $Link ici <Set:/Sets/Driver Error Compensation.als> pour charger le Set Live.*
+Divider.tif
+
+
+La compensation d'erreur du pilote ne concerne qu'un scénario à /monitoring direct,/ c'est-à-dire quand les musiciens enregistrés n'entendent pas leurs propres signaux au travers de l'ordinateur.
+
+Elle ne doit pas être confondue avec la /compensation de retard de plug-in (PDC)./ La compensation d'erreur du pilote traite les retards induits par l'interface audio et ses pilotes. La PDC traite les retards causés par les périphériques et plug-ins qui se projettent en avant (par exemple, les outils dynamiques ou les reverbs à convolution), et elle est expliquée dans le manuel de référence de Live.
+
+Veuillez cliquer ci-dessous sur le bouton /Page suivante/ pour continuer.
+
+
+$Page Préparation
+$TargetName Preparations
+
+Ce Set Live contient deux pistes. La première piste, *1 Audio,* contient un unique son de batterie qui commence au démarrage du Set. La piste suivante, *2 Audio,* est vide. Nous l'utiliserons pour réenregistrer la sortie de $0 via une connexion externe:
+AdjustingLatencyLiveSet.tif
+
+Veuillez vérifier que l'option *Suivi de lecture* est décochée dans le menu /Options;/ nous ne voulons pas et n'avons pas besoin que l'écran défile:
+FollowOff.tif
+
+Veuillez brancher un câble audio directement entre la sortie 1/2 de $0 et l'entrée 1/2 de $0. Peu importe qu'il s'agisse d'une connexion analogique ou numérique; il est toutefois important que vous fassiez une connexion physique réelle.
+
+Pressez la *barre d'espace* de l'ordinateur pour faire jouer l'Arrangement. L'indicateur de niveau de *1 Audio* s'allumera momentanément quand le son de batterie jouera au début de l'Arrangement. Pressez à nouveau la *barre d'espace* pour stopper la lecture.
+
+Refaites jouer l'Arrangement avec la *barre d'espace* et regardez l'indicateur de niveau de *2 Audio:* si la connexion externe fonctionne, vous devez voir un signal ici aussi (même si l'indicateur est grisé). Si le signal est trop fort ou trop faible, réglez le /volume Master/ (en piste Master) et réessayez jusqu'à ce que le signal soit approximativement égal à *1 Audio.*
+TrackTwoMeterAndMasterVolume.tif
+
+N'oubliez pas de presser à nouveau la *barre d'espace* pour stopper la lecture quand vous avez fini.
+
+
+$Page Réenregistrement
+$TargetName Re-Recording
+
+Nous sommes prêts à enregistrer la sortie de *1 Audio* dans *2 Audio.* Préparez $0 pour l'enregistrement en activant le bouton /Enregistrement global/ de la barre de contrôle:
+RecordButton.tif
+
+Commencez l'enregistrement en pressant la *barre d'espace,* et terminez-le un moment après en pressant une seconde fois la *barre d'espace.* L'enregistrement produira un nouveau clip dans *2 Audio:*
+NewClipInTrackTwo.tif
+
+Double-cliquez sur la barre de titre du nouveau clip pour afficher son contenu dans la /fenêtre Clip./ Dans l'affichage d'échantillon ou /panneau Sample,/ nous pouvons reconnaître la batterie que nous venons d'enregistrer depuis *1 Audio:*
+NewClipInClipView.tif
+
+Veuillez désactiver le /commutateur Warp/ pour le nouveau clip. Cela nous permet de régler son timing en millisecondes plutôt qu'en temps de mesure.
+WarpSwitchOff.tif
+
+Si vous regardez de près la forme d'onde du clip - en zoomant si nécessaire - vous pouvez voir que le son de batterie commence un peu plus tard que le début de l'échantillon (si ce n'est pas le cas, tout va pour le mieux, car il n'y a plus rien à faire! Mais nous vous suggérons quand même de suivre le reste de la leçon juste à titre préventif):
+KickHitLate.tif
+
+Idéalement, il ne devrait y avoir ici aucun retard car nous avons lancé l'enregistrement au début de l'Arrangement, juste là où est situé le coup de batterie dans *1 Audio.* Dans le monde réel, toutefois, il existe toujours un certain retard induit par l'entrée et la sortie de l'ordinateur.
+
+
+$Page Réglage des valeurs
+$TargetName Adjusting Values
+
+Nous allons décaler le /marqueur de début/ du clip pour que le clip démarre exactement au même endroit que son contenu. Veuillez cliquer dans la case la plus à droite du champ /Start/ (qui représente actuellement les millisecondes), puis pressez répétitivement la touche flèche *haut* pour augmenter sa valeur:
+StartMarkerField.tif
+
+Quand vous faites cela, le marqueur de début du clip se décale vers la droite, et la forme d'onde vue dans *2 Audio* glisse vers la gauche. A un moment, la forme d'onde de l'échantillon de batterie original de *1 Audio* et celle de la copie enregistrée dans *2 Audio* s'aligneront:
+BothClipsAlign.tif
+
+Une fois les formes d'onde alignées, notez la valeur du champ Start, puis ouvrez les Préférences de $0 via le menu /Options/ (PC) ou /Live/ (Mac).
+
+Choisissez l'onglet /Audio,/ puis saisissez la valeur que vous avez notée dans le champ /Compensation d'erreur du pilote./ Vous pouvez aussi tirer avec la souris ou employer les touches flèches *haut* et *bas* du clavier de votre ordinateur pour un contrôle plus précis:
+ErrorCompensation.tif
+
+Nous avons maintenant déterminé de combien de millisecondes le pilote de l'interface audio "triche" et en avons informé $0 pour qu'il puisse dorénavant compenser cette latence dans nos enregistrements.
+
+
+$Page Vérification de la latence générale
+$TargetName Verifying the Overall Latency
+
+Vérifions notre travail. Sélectionnez le clip de *2 Audio* en cliquant sur sa barre de titre, puis pressez la touche *Suppression* de votre ordinateur pour supprimer ce clip.
+
+Enregistrons une autre passe: activez à nouveau le bouton Enregistrement global, puis pressez deux fois la *barre d'espace.* Voilà, la forme d'onde du nouveau clip apparaît alignée avec l'original, sans aucune correction manuelle:
+TheProof.tif
+
+Pfff! Heureusement, $0 se chargera dorénavant des latences, et vous n'aurez plus à vous soucier d'elles tant que vous ne changez pas de matériel audio. Ce qui suit est un peu de théorie brute que vous pouvez sans problème sauter!
+
+
+$Page Latence - Un peu de théorie
+$TargetName Latency - Some Theory
+
+*Que fait le réglage Compensation d'erreur du pilote et pourquoi est-il nécessaire?*
+
+Imaginez que vous enregistrez un batteur dans $0. Le batteur joue en se basant sur le métronome de $0 ou sur la musique du Set Live. Le monitoring est désactivé sur les pistes où vous enregistrez. Le signal que $0 reçoit du batteur est en retard par rapport à la propre base temporelle de $0 en raison de la latence induite par l'interface audio: le temps nécessaire au métronome ou au signal musical de $0 pour atteindre les enceintes (et donc les oreilles du batteur) plus le temps nécessaire aux signaux de batterie des microphones pour atteindre $0.
+
+$0 compense ces latences en avançant les échantillons enregistrés dans le morceau. Pour faire cela, il doit avoir des informations précises sur les latences réelles du système en entrée et en sortie. La valeur de latence donnée par les pilotes de l'interface audio au logiciel n'est pas toujours totalement exacte. Le réglage Compensation d'erreur de pilote est un moyen d'indiquer à $0 toute déviation par rapport aux valeurs signalées.
+
+
+*Pourquoi tout cela n'a-t-il d'importance que si le monitoring est désactivé?*
+
+Supposons que le monitoring soit en service, et que le batteur porte des écouteurs fermés au travers desquels il peut maintenant entendre à la fois le métronome de $0 et son propre jeu. Les mêmes latences s'appliquent toujours, et le batteur entend, en fait, le résultat de son jeu en retard. Si les latences sont suffisamment faibles (quelques millisecondes), alors le batteur compensera les latences en frappant un peu plus tôt, et les échantillons enregistrés seront en place vis-à-vis de la base temporelle de $0.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

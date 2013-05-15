@@ -1,0 +1,153 @@
+$Page Emploi de l'automation
+$TargetName Using Automation
+
+Dans $0, tout mouvement de commande dans le mélangeur et dans les périphériques peut être /automatisé./ C'est un atout appréciable pour créer de la musique dynamique et intéressante. Cette leçon vous guidera tout au long du processus de création, d'enregistrement et d'édition d'une /automation./
+
+Divider.tif
+*Veuillez cliquer $Link ici <Set:/Sets/Using Automation.als> pour charger le Set Live accompagnant cette leçon.*
+Divider.tif
+
+Avant de commencer, faisons de la place pour l'écran Arrangement en réduisant le /Navigateur/ situé à gauche de l'écran, avec son /bouton Afficher/Masquer,/ représenté ci-dessous.
+ShowHideBrowser.tif
+
+Vous désirerez sans doute aussi utiliser les sélecteurs de la section mélangeur du côté droit de l'écran pour n'afficher que la section dont vous pouvez avoir besoin - la /section Mélangeur/ - et masquer les autres:
+MixerSectionShow2.tif
+
+Quand vous êtes prêt, cliquez ci-dessous sur /Page suivante/ pour continuer.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Automation
+$TargetName Automation
+
+Une /automation,/ c'est-à-dire le mouvement d'une commande, d'un bouton ou d'un fader pendant l'avancée chronologique du morceau, peut être enregistrée et éditée dans $0.
+
+Veuillez faire un zoom arrière sur la gauche de l'écran Arrangement en cliquant sur la /règle temporelle,/ en relief ci-dessous, et en tirant vers le haut.
+TimeRuler.tif
+
+En regardant la piste intitulée "Bass", nous pouvons voir un bon exemple d'automation enregistrée. Zoomez à nouveau sur la mesure 33 pour mieux voir.
+ExampleOfAutomation.tif
+
+L'automation s'affiche en écran Arrangement comme des /enveloppes/ superposées à la forme d'onde ou aux notes MIDI du clip. Cet exemple particulier d'automation concerne le panoramique de piste (Track Panning), comme indiqué dans les deux /sélecteurs d'automation/ situés juste sous le nom de piste.
+UnderTheName.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Dessin d'automation
+$TargetName Drawing Automation
+
+Les enveloppes de $0 peuvent être /dessinées/ si le /mode Dessin/ est activé par son commutateur en barre de contrôle:
+ThisSwitch.tif
+
+Avec le mode Dessin activé, vous pouvez dessiner des paliers comme ceux affichés directement sur la forme d'onde ou les notes MIDI de votre clip.
+StepsOnto.tif
+
+La taille de ces paliers est basée sur l'écartement de la grille d'édition, qui peut être changé dans le menu Options ou depuis le menu contextuel (accessible par $ContextMenu n'importe où dans la zone d'Arrangement sauf dans les barres de titre de clip):
+GridContextMenuArr.tif
+
+Désactivez la grille pour dessiner "à main levée", sans paliers.
+
+Divider.tif
+Vous pouvez toujours écouter les résultats de votre automation en cliquant sur la barre de titre de votre clip et en pressant la barre d'espace: la lecture commencera alors juste au début du clip. Presser à nouveau la barre d'espace stoppera la lecture.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Créer de nouvelles enveloppes
+$TargetName Creating New Envelopes
+
+Vous pouvez choisir /n'importe quel paramètre/ du mélangeur ou des périphériques de la piste avec les sélecteurs déjà mentionnés et dessiner une enveloppe pour chaque à partir de rien.
+UnderTheName.tif
+
+Cliquer simplement sur la plupart des commandes de mélangeur et de périphériques dans $0 appellera aussi leurs enveloppes d'automation pour édition. Essayez de double-cliquer sur la piste intitulée "Drums" pour afficher en bas de l'écran l'instrument Drum Rack (Rack de batterie) et l'effet Beat Repeat de la piste.
+
+Maintenant, cliquez sur une des commandes du Beat Repeat et regardez son enveloppe d'automation apparaître dans les sélecteurs et dans l'affichage de piste.
+NewEnvelope.tif
+
+
+Divider.tif
+Les chapitres "Référence des instruments Live", "Référence des effets audio Live" et "Référence des effets MIDI Live" du $Link manuel de référence <Manual> contiennent des informations détaillées sur les instruments et effets intégrés au programme, et peuvent être une source d'idées intéressantes quant aux commandes à automatiser.
+
+$Comment -----------------------------------------------------------------------
+$Page Edition d'automation
+$TargetName Editing Automation
+
+Avec le commutateur de mode Dessin /éteint,/ les enveloppes d'automation affichent des /points de jonction:/
+Breakpoint.tif
+
+En utilisant l'automation de la piste "Bass", essayez de cliquer sur un point de jonction et de le tirer jusqu'à une nouvelle position.
+
+Vous pouvez aussi créer ou supprimer des points de jonction en double-cliquant le long de l'enveloppe.
+
+Quand vous éditez une automation, il est parfois pratique de ne voir /que/ les paramètres qui sont automatisés dans cette piste. Vous pouvez faire cela en choisissant /N'afficher que les paramètres automatisés/ depuis n'importe lequel des sélecteurs d'automation:
+ShowAutomated.tif
+
+Dans ce mode, les deux sélecteurs d'automation se réuniront en un seul, qui n'affichera que les paramètres /automatisés/ de la piste.
+
+Pour désactiver ce mode spécial d'édition, sélectionnez /Afficher tous les paramètres/ dans le sélecteur.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Lignes d'automation
+$TargetName Automation Lanes
+
+Vous pouvez visualiser l'enveloppe du paramètre actuel dans sa propre /ligne d'automation/ en pressant le bouton "+" sous les sélecteurs d'automation:
+MakeNewLane.tif
+
+Vous pouvez alors choisir des paramètres supplémentaires dans les sélecteurs d'automation et, si désiré, créer des lignes également pour eux. Cela vous permet de visualiser et d'éditer plusieurs paramètres à la fois.
+MultipleLanes.tif
+
+Notez que, avec le mode Dessin désactivé, vous pouvez cliquer sur le fond d'une ou plusieurs lignes et tirer pour sélectionner une zone temporelle;
+SelectedEnvelope.tif
+
+à partir de là, n'importe quelle commande standard du menu /Edition,/ telle que /Dupliquer,/ n'affectera que les enveloppes, et non pas le contenu des clips.
+DuplicatedEnvelope.tif
+
+Divider.tif
+*Pour une explication des techniques de dessin d'enveloppe et en savoir plus sur les lignes d'automation, veuillez vous référer au chapitre "Automation et Enveloppes d'édition" du $Link manuel de référence <Manual>.
+
+$Comment -----------------------------------------------------------------------
+$Page Enregistrer l'automation
+$TargetName Recording Automation
+
+Une des applications les plus amusantes de l'automation est d'enregistrer en temps réel les mouvements de commandes de périphériques.
+
+L'assortiment d'effets et d'instruments de $0 se trouve dans le /navigateur de périphériques/ du côté gauche de l'écran, qui s'ouvre quand on clique sur son bouton sélecteur:
+SelectorClicked.tif
+
+Avec la barre de défilement située à gauche du navigateur de périphériques, descendez jusqu'à l'effet /Auto Filter/ que vous trouverez dans le dossier "Audio Effects".
+AutoFilter.tif
+
+Cliquez sur l'Auto Filter et tirez-le vers la droite, sur la piste "Bass", puis déposez l'effet. Il s'affichera en bas de l'écran dans la /fenêtre Piste./
+EffectInTrack.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Enregistrer l'automation (suite)
+$TargetName Recording Automation, Continued
+
+Maintenant, vous pouvez enregistrer tout changement apporté aux commandes d'Auto Filter, en faisant ainsi une partie de l'arrangement.
+
+Pour faire cela, ramenez d'abord l'Arrangement sur la position 1.1.1 en pressant deux fois le /bouton Stop/ de la barre de contrôle.
+StopButton2.tif
+
+Puis, pressez le bouton /Enregistrement/ de la barre de contrôle.
+RecordButton2.tif
+
+Ensuite, pressez le /bouton de lecture/ adjacent pour commencer l'enregistrement.
+PlayButton.tif
+
+Quand vous bougez une commande quelconque de l'Auto Filter (la commande de fréquence, par exemple) durant l'enregistrement, $0 enregistre un historique précis de tout changement.
+Frequency.tif
+
+Pressez la barre d'espace quand vous avez fini, et pressez-la à nouveau pour entendre les effets de votre enregistrement, en observant le "fantôme de la machine" qui déplace les commandes dans l'Auto Filter.
+
+Vos mouvements de commandes enregistrés apparaîtront comme des enveloppes à points de jonction dans la piste "Bass", prêtes pour l'édition:
+BassAutomation.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Plus de possibilités...
+$TargetName More Possibilities...
+
+Bouger les commandes et les faders à la souris est une chose, mais pour faire cela agréablement, il vous faut des commandes réelles, physiques. Vous pouvez utiliser la leçon sur les $Link surfaces de contrôle <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers> pour découvrir comment télécommander $0.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

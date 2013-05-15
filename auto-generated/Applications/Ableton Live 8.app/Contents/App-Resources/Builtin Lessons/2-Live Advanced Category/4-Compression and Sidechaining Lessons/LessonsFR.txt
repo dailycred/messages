@@ -1,0 +1,153 @@
+$Page Compression et sidechain
+$TargetName Compression and Sidechaining
+
+Un compresseur de haute qualité, comme le périphérique /Compressor/ intégré à Live est un des utilitaires les plus importants de votre boîte à outils de mixage. C'est aussi un de ceux qui est le plus facilement incompris. Dans cette leçon, vous apprendrez comment tirer le maximum du Compressor, ainsi que quelques techniques de compression sophistiquées comme l'emploi d'un circuit de déclenchement ou "sidechain". En cours, nous explorerons aussi comment la sidechain peut servir de puissant outil de conception sonore dans le périphérique /Auto Filter/ de Live.
+
+Divider.tif
+*Veuillez cliquer $Link ici <Set:/Sets/Compression and Sidechaining.als> pour charger le Set Live accompagnant cette leçon.*
+Divider.tif
+
+Cette leçon a aussi été réalisée en vidéo. Cliquez $Link ici <http://www.ableton.com/_common/downloads/movies/compression_and_sidechaining.mov> pour lancer la vidéo depuis le site internet Ableton.
+
+$Comment -----------------------------------------------------------------------
+$Page Prise en main de Compressor
+$TargetName Getting Started with Compressor
+
+Ce Set est constitué de trois pistes, avec des clips arrangés en scènes vous permettant de rapidement essayer quelques combinaisons d'éléments de batterie, basse et son de nappe (pad). Pour le moment, nous travaillerons seulement avec le clip "Drums". Déclenchez le bouton de lecture du clip pour le lancer.
+DrumsAlone.tif
+
+Pendant que le clip est reproduit, ajoutons un périphérique Compressor à la piste de batterie. Pour cela, ouvrez le /navigateur de périphériques/ de Live.
+OpenDeviceBrowser.tif
+
+Puis ouvrez le dossier Audio Effects et naviguez jusqu'au périphérique Compressor. Faites glisser et déposez le Compressor n'importe où sur la piste "Drums" pour l'y insérer. Il apparaîtra alors en fenêtre Piste après le Rack de batterie ou "Drum Rack".
+CompressorInTrack.tif
+
+Comme les réglages par défaut n'ont pas beaucoup d'effet sur ce signal, vous pouvez essayer quelques-uns des presets de Compressor fournis pour obtenir une présentation rapide des types de sons disponibles. Cliquez sur le bouton de /remplacement à chaud/ pour changer à chaud (sans interruption) de preset de Compressor.
+HotSwapButton.tif
+
+Cela déploiera les presets du Compressor dans le navigateur de périphériques. Vous pouvez maintenant parcourir la liste et double-cliquer sur les presets afin de rapidement remplacer les réglages actuels.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Bases de la compression
+$TargetName Compression Basics
+
+En termes techniques, un compresseur fait partie d'une catégorie d'effets connue sous le nom de processeurs de /plage dynamique./ La plage dynamique d'un signal est le rapport entre les portions les plus fortes et les plus faibles de ce signal. La tâche d'un compresseur est de réduire la plage dynamique d'un signal en baissant le volume des portions fortes.
+
+Voici une portion de forme d'onde audio non compressée, avec une grande plage dynamique:
+UncompressedWave.tif
+
+Le même signal audio après compression, avec une plage dynamique réduite:
+CompressedWave.tif
+
+Imaginez le compresseur comme étant un assistant de mixage automatique, dont le seul travail est de baisser le volume quand il dépasse un certain niveau. Ce niveau est appelé le seuil ou /threshold./ L'ampleur de la réduction de volume est déterminée par le rapport de compression ou /ratio,/ des ratios plus élevés donnant une plus grande réduction de volume (et donc une moindre plage dynamique). La vitesse à laquelle le compresseur entre en action une fois qu'un signal a dépassé le seuil est déterminée par sa durée d'attaque ou /attack,/ tandis que son rétablissement ou /release/ règle la vitesse à laquel le niveau retourne à la normale une fois le signal redescendu sous le seuil.
+
+Seuil, ratio, attaque et rétablissement sont les paramètres les plus importants pour mettre en forme la plage dynamique de votre signal, et on les trouve sur quasiment tous les types de compresseurs. Avant de poursuivre, essayez de les régler, ainsi que toute autre commande de Compressor.
+
+Divider.tif
+*Note:* Pour une présentation détaillée de tous les paramètres de Compressor, nous vous recommandons de lire la section sur le Compressor dans le chapitre "Référence des effets audio de Live" du $Link manuel <Manual>.
+Divider.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Présentation de la sidechain
+$TargetName Introducing Sidechaining
+
+Normalement, un compresseur baisse le niveau d'un signal quand le volume de celui-ci dépasse le seuil. Dans certains cas, cependant, vous pouvez vouloir baisser le volume d'un signal quand le niveau d'un /autre/ signal dépasse le seuil. Cette technique est connue sous le nom de /ducking,/ et s'obtient à l'aide d'une compression à circuit de déclenchement ou "sidechain".
+
+Par exemple, quand une ligne de basse et une grosse caisse ont un important chevauchement de fréquences, la ligne de basse peut souvent "étouffer" l'attaque de grosse caisse et la couvrir. Mais en utilisant le niveau de la grosse caisse comme déclencheur d'un compresseur appliqué à la ligne de basse, nous pouvons faire "plonger" le niveau de la ligne de basse à cet instant afin de faire de la place à la grosse caisse.
+
+Pour apprendre comment mettre cela en œuvre, commencez par déclencher la deuxième scène, nommée "Drums + Bass".
+DrumsBassScene.tif
+
+Comme vous pouvez l'entendre, il existe d'assez sérieux problèmes dans votre mixage. La ligne de basse est beaucoup trop forte par rapport à la batterie, et semble pomper l'énergie et se démarquer du mixage. Nous pouvons essayer de baisser le niveau de la voie de basse, mais celle-ci devient rapidement trop discrète. Quel est le problème?
+
+
+$Comment -----------------------------------------------------------------------
+$Page Interférence des fréquences
+$TargetName Frequency Interference
+
+Pour comprendre pourquoi notre mixage est si difficile, regardons le contenu réel en fréquences de notre matériel en cliquant sur la barre de titre de la piste Master pour la sélectionner:
+MasterTitleBar.tif
+
+Cela révèlera un périphérique /Spectrum/ en fenêtre Piste de la piste Master:
+Spectrum.tif
+
+Spectrum est un outil qui donne une vue en temps réel de la force des fréquences individuelles dans votre signal audio. Utilisez les boutons solo du mélangeur pour alterner entre la mise en solo des pistes Drums et Bass tout en regardant l'affichage de Spectrum. Cela doit vous permettre de voir pour chaque piste où se trouvent les fréquences dominantes.
+SoloButtons.tif
+
+Il est facile de voir que les deux pistes produisent un pic dans une zone de fréquences particulière. Si nous survolons ce pic avec la souris dans l'affichage de Spectrum, son amplitude, sa fréquence et le nom de note correspondant apparaissent dans un petit cadre dans le coin inférieur gauche.
+SpectrumPeaks.tif
+
+Nous savons maintenant où se situe le problème dans notre mixage - la grosse caisse et la ligne de basse ont toutes les deux une grande quantité d'énergie autour de 43 Hz, ce qui fait qu'elles interfèrent entre elles. Mais comment pouvons-nous résoudre cela?
+
+
+$Comment -----------------------------------------------------------------------
+$Page Abaisser automatiquement une ligne de basse
+$TargetName Ducking a Bassline
+
+Vous avez déjà essayé, avec un effet mitigé, de régler le volume de la piste Bass. Essayez à présent de lui ajouter un Compressor et de régler les paramètres de celui-ci pour voir si vous pouvez améliorer le mixage.
+
+Cela ne fonctionne pas vraiment non plus. Comme notre ligne de basse a un niveau très constant et pas de véritables transitoires, le compresseur n'a pas grand chose à faire. En réalité, il fonctionne juste comme une commande de volume supplémentaire.
+
+Un circuit de déclenchement ou "sidechain" offre une autre solution. Pour afficher les commandes de sidechain de Compressor, cliquez sur le triangle de déploiement dans sa barre de titre.
+SidechainToggle.tif
+
+Cliquez maintenant sur le bouton /Sidechain/ pour permettre une sidechain externe.
+SidechainButton.tif
+*Note:* La sidechain n'est pas utilisable si le commutateur /Model/ de Compressor est réglé sur /FB./
+
+Cela active les routeurs /Audio From/ du périphérique Compressor, qui nous permettent de sélectionner l'audio d'une autre piste comme /déclencheur/ du seuil de Compressor. Nous voulons que la grosse caisse soit notre déclencheur, aussi sélectionnez "Drums" dans le sélecteur du haut et "Drums | Kick | Post Mixer" dans le sélecteur du bas.
+
+Maintenant, le compresseur baisse le volume de la ligne de basse quand le niveau de la grosse caisse dépasse le seuil.
+
+*Astuce:* pour le fameux son de "pompage" associé en house music à la classique French touch, essayez les réglages ci-dessous (ou cliquez $Link ici <Set:/Sets/Compression and Sidechaining Pumping.als> pour charger notre version):
+-> Seuil (Threshold): très bas (-40 dB ou plus)
+-> Taux (Ratio): plus il est haut, mieux c'est
+-> Attaque (Attack): 2-8 ms
+-> Rétablissement (Release): 35-45 ms, selon les réglages de seuil et de taux de compression
+
+
+$Comment -----------------------------------------------------------------------
+$Page Autres applications d'une sidechain
+$TargetName Other Sidechaining Applications
+
+Bien que l'emploi d'une sidechain soit le plus fréquemment associé aux compresseurs, Live comprend aussi des options de sidechain dans les effets /Auto Filter/ et /Gate./ Examinons comment utiliser une sidechain dans l'Auto Filter pour ajouter un côté rythmique à un son de nappe statique. Pour commencer, lancez la scène "Drums + Bass + Pad".
+DrumBassPadScene.tif
+
+Comme vous pouvez l'entendre, la nouvelle couche de nappe est plutôt fade. Ajoutons à présent un effet Auto Filter en le faisant glisser à partir du dossier Audio Effects du navigateur de périphériques et en le déposant sur la piste Pad.
+FilterInBrowser.tif
+
+Comme vous l'avez fait avec Compressor, ouvrez les commandes de side chain d'Auto Filter via le triangle de déploiement dans sa barre de titre. Puis activez le bouton Sidechain et sélectionnez "Drums" dans le sélecteur de routage du haut. Nous utiliserons la charleston fermée (CH) pour contrôler le /suiveur d'enveloppe/ d'Auto Filter, aussi sélectionnez "Drums | CH | Pre FX" dans le sélecteur du bas.
+
+Montez maintenant la commande /Envelope/ d'Auto Filter pour mettre en service le suiveur d'enveloppe.
+EnvelopeKnob.tif
+
+Comme notre fréquence de coupure est déjà assez élevée, il est difficile d'entendre l'effet obtenu. Baissez progressivement la fréquence de coupure d'Auto Filter en tirant son curseur vers le bas.
+Cutoff.tif
+
+La fréquence de coupure du filtre monte et descend alors avec les transitoires de la charleston fermée. Pour un effet encore plus prononcé, essayez les réglages ci-dessous (ou cliquez $Link ici <Set:/Sets/Compression and Sidechaining Auto Filter.als> pour charger notre version):
+-> Gain: 24 dB
+-> Attaque (Attack): .10 ms
+-> Rétablissement (Release): 1-10 ms
+-> Fréquence de coupure: 450 Hz
+-> Q: 1-1.5
+
+$Comment -----------------------------------------------------------------------
+$Page Et maintenant, que faire?
+$TargetName Where to Go from Here?
+
+Vous en savez maintenant un peu plus sur la compression, en théorie et en pratique, et vous avez la possibilité de créer divers routages de sidechain pour des applications de mixage et de conception sonore créative.
+
+Voici quelques pistes d'expérimentation et d'apprentissage :
+
+-> Reprenez les exemples de la leçon et testez-les avec les autres paramètres des effets sélectionnés. Vous découvrirez que des changements subtils des paramètres d'attaque et de rétablissement, par exemple, peuvent avoir un effet spectaculaire sur la sortie.
+
+-> Dans les exemples de sidechain, essayez de changer le /Gain/ de la source externe de sidechain. Il est important de noter que cette commande n'affecte pas le gain du signal envoyé à vos enceintes mais le niveau du signal qui déclenche l'effet.
+
+-> Essayez avec différentes sources de déclenchement dans les sélecteurs de routage de sidechain. Passer d'un routage Pre FX à un routage Post FX, par exemple, peut entraîner une grande différence de comportement de la sidechain.
+
+-> Nous vous recommandons aussi de lire les sections idoines du $Link manuel <Manual> sur les effets Compressor, Auto Filter et Gate pour en apprendre plus sur la façon dont tous leurs paramètres interagissent.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

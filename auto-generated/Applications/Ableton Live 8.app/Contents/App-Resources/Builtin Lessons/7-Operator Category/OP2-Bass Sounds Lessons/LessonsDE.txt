@@ -1,0 +1,156 @@
+$Page Einen Bass-Sound erstellen
+$TargetName Creating a Bass Patch
+$ListInTocForProduct 40
+
+Nachdem Sie nun ein besseres Verständnis für Operators Klangpotenzial haben, wollen wir einen eigenen Bass-Sound erstellen. Wie Sie bald merken werden, kann Operators hybrider Syntheseansatz eine große klangliche Bandbreite von fülligen Bässen im Analog-Stil bis hin unüblicheren metallischen Sounds bieten.
+
+Divider.tif
+*Hinweis:* Dieser Kurs wird von einem Live-Set begleitet, mit dem Sie dem Kurs interaktiv folgen können. Bitte klicken Sie $Link hier <Set:/Sets/OP-Default Set.als>, um dieses Live-Set zu laden.*
+Divider.tif
+
+Genau wie bei den anderen Operator-Kursen, werden Sie auch diesmal einen besseren Blick auf das Instrument in der /Spur-Ansicht/ erhalten wollen. Blenden Sie bitte die /Info-Ansicht/ durch Anklicken des Zeigen/Verbergen-Schalters in der linken unteren Ecke des Fensters aus.
+HideInfoBass.tif
+
+Divider.tif
+/Anmerkung:/ Da wir in diesem Kurs Bass-Sounds erstellen, werden Sie auf dem unteren Bereich Ihrer Tastatur spielen wollen. Bei kurzen Tastaturen sollten Sie den Spielbereich gegebenenfalls um ein, zwei Oktaven nach unten transponieren, um in der richtigen Lage spielen zu können.
+
+Wenn Sie die Rechnertastatur verwenden, können Sie sie mit den Tasten Y und X transponieren. Wir empfehlen den Tastaturbereich von C2 bis C3 für diesen Kurs.
+Divider.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Einen Algorithmus auswählen
+$TargetName Choosing an Algorithm
+
+Operator verwendet /Algorithmen,/ um das FM-Modulations-Routing seiner vier Oszillatoren festzulegen. Jeder Algorithmus hat seinen eigenen Charakter und seine eigenen Vorteile. Die ersten acht Algorithmen eignen sich beispielsweise optimal für komplexere FM-Sounds, während die übrigen drei Algorithmen besser für hybride und analogtypische subtraktive Klänge geeignet sind.
+
+Um Zugriff auf die Algorithmen zu erhalten, wählen Sie den globalen Bereich der Shell aus, so dass dieser hervorgehoben dargestellt wird:
+GlobalSectionBass.tif
+Die Algorithmen werden oben im Display von Operator angezeigt.
+
+Der Standard-Algorithmus von Operator ist der erste, der die Oszillatoren so konfiguriert, dass D C moduliert, C B und B A.
+Algorithms.tif
+Bei dieser Konstellation bewirkt das Ändern des /Level/ von Oszillator A eine Änderung der gesamten /Lautstärke,/ während das Ändern der /Level/ bei den anderen Oszillatoren die FM-Intensität und damit die /Klangfarbe/ des Sounds bestimmt.
+
+$Comment --------------------------------------------------------------------------------
+$Page Stimmung und Levels
+$TargetName Tuning and Levels
+
+Da Oszillator B Oszillator A moduliert, erhöhen Sie nun bitte den /Level/ von Oszillator B auf -6 dB, während Sie ein paar Noten spielen, um den Effekt der Modulation zu hören.
+OscBLevelBass.tif
+Beachten Sie, wie sich die Klangfarbe ändert, während Sie den Wert erhöhen. Ein höherer Level führt zu mehr Obertönen im Klang.
+
+Verändern Sie nun die Stimmung von Oszillator B mit dem Parameter /Coarse./ Jeder Wert für diesen Parameter führt zu völlig anderen Obertönen, was Ihnen eine große Bandbreite an klanglichen Variationen bietet. Höhere Werte führen häufig zu härteren und strahlenderen Klangfarben.
+
+Nachdem Sie etwas experimentiert haben, stellen Sie bitte die Stimmung mit /Coarse/ auf 0.5 und den /Level/ auf -20 dB:
+OscBLevelAndCoarse.tif
+Wenn Sie nun in tieferen Oktaven spielen, werden Sie einen kräftigen Bassklang hören, der an eine elektrische Bassgitarre erinnert.
+
+/Tipp:/ Sie werden es vielleicht angenehmer finden, auf Operators Bedienelemente zu klicken und die Werte dann einzutippen, statt sie mit der Maus einzustellen.
+
+$Comment --------------------------------------------------------------------------------
+$Page FM-Modulation hinzufügen
+$TargetName Adding FM Modulation
+
+Lassen Sie uns diesen Klang nun mit den anderen Oszillatoren weiter verbessern.
+
+Oszillator C frequenzmoduliert Oszillator B, darum sollten Sie mit verschiedenen Levels und Stimmungen von Oszillator C experimentieren. Beachten Sie erneut, dass höhere Werte für /Coarse/ für eine hochfrequente digitale "Würze" in den Höhen sorgen. (Und bitte erinnern Sie sich daran, dass Sie gegebenenfalls erst den /Level/ von Oszillator C erhöhen müssen, bevor Sie Änderungen seiner Stimmung wahrnehmen können.)
+
+Nachdem Sie die Klangmöglichkeiten etwas erforscht haben, stellen Sie /Coarse/ auf 12 und den /Level/ auf -30 dB:
+OscCLevelBass.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Hüllkurven verwenden
+$TargetName Using Envelopes
+
+Um dem Klang etwas Bewegung zu geben, experimentieren wir nun mit der /Hüllkurve/ von Oszillator C, die den Level des Oszillators und damit seine Modulationsintensität im Zeitablauf ändert, wenn Sie eine Taste anschlagen und dann gedrückt halten.
+
+Stellen Sie den Wert für /Sustain/ auf -21 dB, während Oszillator C weiterhin in der Shell selektiert ist.
+Sustain-21.tif
+Kürzere /Decay-Werte/ geben dem Sound ein perkussiveres Einschwingen. Längere Decay-Einstellungen lassen die Obertöne bei gehaltenen Noten langsam ausklingen. Experimentieren Sie mit dem /Decay-Parameter,/ um die Unterschiede zu hören.
+
+Lassen Sie uns dann eine /Decay-Zeit/ von 397 ms wählen:
+Decay397.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Dynamik mit Velocity erzeugen
+$TargetName Using Velocity to Create Dynamics
+
+Wir können unserem Spiel mehr dynamischen Ausdruck verleihen, indem wir die Lautstärke des Klangs von der Anschlagsgeschwindigkeit abhängig machen.
+
+Kehren Sie zu Oszillator A zurück, indem Sie ihn in der Shell anklicken...
+OscABass2.tif
+... und stellen Sie seinen /Vel>Level-Parameter/ dann auf 75%, wie abgebildet:
+VelocityLevel.tif
+Nun wird der Klang dynamisch auf ihr Spiel reagieren.
+
+$Comment --------------------------------------------------------------------------------
+$Page Inharmonische Elemente hinzufügen
+$TargetName Adding Inharmonic Elements
+
+Sie haben jetzt einen klassischen FM-Bass-Sound erzeugt, der sich für eine ganze Reihe von Musikrichtungen eignet. Lassen Sie uns diesen Bass nun in etwas ganz anderes verformen.
+
+Ändern Sie den /Coarse-Wert/ von Oszillator B auf 1 und seinen /Fine-Wert/ auf 500. Dies wird den Charakter des Klangs ändern, indem es inharmonische Elemente hinzufügt und ihn metallischer klingen lässt.
+OscBCoarseFine.tif
+Erhöhen Sie nun /Level/ auf -7 dB, damit Sie den Oszillator besser hören können:
+IncreaseLevel.tif
+Sie können nun weiter experimentieren, indem Sie Oszillator C an- und ausschalten. Dies erfolgt durch Anklicken des "C"-Symbols in der Shell:
+CIcon.tif
+Beachten Sie, wie sich die Klangfarbe des Sounds in Abhängigkeit davon ändert, ob Oszillator C Oszillator B moduliert oder nicht.
+
+Das Anklicken der Symbole A, B und D wird entsprechend die anderen Oszillatoren von Operator deaktivieren (und wieder aktivieren).
+
+Vergewissern Sie sich, dass alle Oszillatoren wieder aktiviert sind, bevor Sie zur nächsten Seite wechseln.
+
+$Comment --------------------------------------------------------------------------------
+$Page Lautstärke und Hüllkurvensteuerung
+$TargetName Volume and Envelope Control
+
+Wir können diesem metallischen Klang nun mit der Hüllkurve von Oszillator B einen etwas perkussiveren Verlauf geben.
+
+Vergewissern Sie sich zuerst, dass Oszillator B in der Shell selektiert ist:
+OscBBass.tif
+Stellen Sie /Decay/ auf 1.44 S und /Sustain/ auf -inf dB:
+MetallicOscB.tif
+Dieser Klang kann beim Spielen leicht verzerren, reduzieren Sie deswegen die gesamte Lautstärke mit /Volume/ auf etwa -20 dB:
+Volume20.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Die Filterabteilung
+$TargetName The Filter Section
+
+Nachdem Sie nun einige Bass-Sounds erzeugt und ein Verständnis für die Arbeitsweise der FM-Synthese bekommen haben, wollen wir den Klang noch etwas filtern.
+
+Wir beginnen, indem wir die Filterabteilung aktivieren. Dies erfolgt durch Anklicken der kleinen Box unter dem Wort "Filter":
+FilterOnBass.tif
+
+Stellen Sie nach dem Aktivieren des Filters seine Frequenz mit dem /Freq-Regler/ ein; durchfahren Sie probehalber den Regelbereich vom niedrigsten bis zum höchsten Wert und stellen Sie dann wieder 500 Hz ein:
+AFreqyKnob.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Cutoff und Resonanz
+$TargetName Cutoff and Resonance
+
+Sie können das Verhalten des Filters ausserdem durch Einstellen der Resonanz mit dem /Res-Regler/ beeinflussen.
+
+Bewegen Sie den /Res-Regler/ probehalber von seinem Minimum zum Maximum und wählen Sie dann den Wert 7.0:
+ResTo7.tif
+Hohe Resonanzwerte betonen die eingestellte Frequenz und geben dem Klang einen klassischen elektronischen Charakter.
+
+Probieren Sie aus, wie sich die hohe Resonanz nun bei unterschiedlichen Frequenzen bemerkbar macht, indem Sie /Freq/ von links nach rechts bewegen. Stellen Sie dann den Wert 1.9 kHz ein:
+Cutoff19.tif
+Wir können das Ergebnis schnell mit dem ungefilterten Sound vergleichen, indem wir die Filterabteilung deaktivieren:
+FilterOff.tif
+Nachdem wir das Filter wieder eingeschaltet haben, können wir sein Verhalten dynamischer gestalten, indem wir den Parameter /Freq<Vel/ auf 75% stellen (Sie benötigen eine Tastatur mit Anschlagsdynamik, um diesen Effekt zu hören):
+DynamicFilter.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ... und schließlich
+$TargetName ... and Finally
+
+Durch das Kombinieren von flexiblen FM-Modulations-Routings mit klassischer Filterung ermöglicht Operator es Ihnen, eine große Bandbreite von Synthese-Optionen für das Erzeugen von Bass-Sounds (und natürlich auch anderen Klängen) zu nutzen. Im nächsten Kurs werden wir Operators Fähigkeit zum Erzeugen von Drum-Machine-Sounds mit knackigem analogem Charakter untersuchen.
+
+Bitte erinnern Sie sich daran, dass die Info-Ansicht eine sehr wertvolle Hilfe sein kann, da sie Ihnen eine kurze Erläuterung zu jedem Parameter von Operator anzeigt. Sie können diese Ansicht jederzeit mit dem dreieckigen Schalter in der linken unteren Ecke des Fensters ein- oder ausblenden.
+BassInfoView.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

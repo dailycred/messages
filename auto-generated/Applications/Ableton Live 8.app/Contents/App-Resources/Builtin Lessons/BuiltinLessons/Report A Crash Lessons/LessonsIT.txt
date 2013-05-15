@@ -1,0 +1,27 @@
+$Page Segnala un crash
+$TargetName Report a Crash
+BugReportingBanner.tif
+Apprezziamo che tu dedichi del tempo per segnalare un crash. Grazie per il tuo aiuto!
+
+Live ha creato un pacchetto per la segnalazione dei crash. Clicca sul link qui sotto per aprire questo file nel tuo computer:
+
+CRASH_REPORTING_PACKAGE_NAME
+
+Per cortesia, invia questo file a $Link crashes@ableton.com <mailto:crashes@ableton.com>.
+
+*Nota:* riceverai una risposta automatica alla tua segnalazione di crash. Qualora avessi bisogno di aiuto, sei pregato di contattare il nostro $Link team di supporto <http://www.ableton.com/support>.
+
+Divider.tif
+
+Questo pacchetto di segnalazione di crash contiene informazioni generate dall'ultima esecuzione di Live:
+
+-> i file delle preferenze e dell'autorizzazione di Live
+-> un registro di ciò che il software ha fatto durante l'ultima esecuzione del programma
+-> tutti i Live Set, i preset e i dispositivi di Max usati durante l'ultima esecuzione del programma (tutti senza campioni)
+-> vari altri file di registro (log) creati da Live
+-> informazioni di crash del sistema operativo
+
+Nessun'altra informazione viene inviata. Useremo i dati di questa segnalazione di malfunzionamenti solo per correggere i bug. Per sapere come utilizziamo i tuoi dati, leggi la nostra $Link politica sulla privacy <http://www.ableton.com/privacy-policy>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

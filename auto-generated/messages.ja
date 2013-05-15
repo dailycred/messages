@@ -1,0 +1,86 @@
+Application.NoSuchClient=いいえクライアントは、id％sは存在しません。
+Application.NoSuchApp=いいえアプリはID％sは存在しません。
+Application.NoClientProvided=あなたのリクエストであなたのクライアントIDを入力してください。
+Application.NoRedirectProvided=あなたのOAuthのリクエストをリダイレクトしてください。 <br/> <b>開発者：</b>パラメータ<span style="font-family:monospace">redirect_uri = http://website.com/callbackを</span>使用してコールバックURIを提供したり、デフォルトのコールバックを設定することによって、 <a href="https://www.dailycred.com/admin/setup">あなたのアカウントの設定</a> 。
+Application.EnterEmailOrUsername=あなたの電子メールまたはユーザー名を入力してください。
+Application.EnterEmail=メールアドレスを入力してください。
+Application.EnterUsername=あなたのユーザー名を入力してください。
+Application.EnterPassword=あなたのパスワードを入力してください。
+Application.AtNotAllowed=記号は &quot;@&quot;ユーザー名に使用することはできません。
+Application.WrongPasswordOrUsername=あなたのユーザ名とパスワードを確認してから、もう一度やり直してください。 <a href="%s">あなたのパスワードは、ここをクリックしてリセットする。</a>
+Application.BadDomain=ドメイン &quot;％s&quot;は有効ではありません。
+Application.BadEmail=あなたのメールアドレスが正しく入力されていることを確認してからもう一度お試しください。
+Application.BadNewEmail=新しいメールが正しく入力されていることを確認してからもう一度お試しください。
+Application.PasswordTooShort=少なくとも％d文字でパスワードを入力してください。
+Application.NoCallbackUri=％sはまだコールバックURIを設定していない。後ほどおかけ直しください。
+Application.EmailTaken=このメールは既に使用されています。
+Application.UsernameTaken=このユーザー名は既に使用されています。別のユーザー名を使用してください。
+Application.EmailSent=メールが送られてきた。詳細な手順については、メールを確認してください。
+Application.EmailSentGmail=Eメールが送信されました。 <a href="http://mail.google.com/">さらなる手順についてGmailのを確認してください。</a>
+Application.GoToGmail=Gmailの受信トレイに移動します
+Application.EmailSentYahoo=Eメールが送信されました。 <a href="http://mail.yahoo.com/">さらなる手順については、ヤフーのメールを確認してください。</a>
+Application.GoToYahoo=あなたのYahooの受信トレイに移動します
+Application.EmailSentHotmail=Eメールが送信されました。 <a href="http://www.hotmail.com/">さらなる手順についてはhotmailのを確認してください。</a>
+Application.GoToHotmail=あなたのHotmailの受信トレイに移動します
+Application.EmailSentICloud=Eメールが送信されました。 <a href="https://www.icloud.com/#mail">さらなる手順については、お使いのiCloudのメールを確認してください。</a>
+Application.GoToICloud=あなたのiCloudの受信トレイに移動します
+Application.NoSuchEmail=いいえユーザーは電子メールの％sは存在しません。
+Application.NoSuchUser=いいえユーザーがID％sに存在しません。
+Application.NoSuchUserFriendly=私たちは、このメールアドレスまたはユーザ名のユーザーアカウントを見つけることができませんでした。もう一度やり直してください。
+Application.NoSuchToken=あなたのアカウントにあなたの署名にエラーが発生しました。まもなくしてからもう一度お試しください。
+Application.PasswordResetInvalid=このパスワードのリセット要求が無効であるか、見つかりません。もう一度パスワードをリセットしてみてください。
+Application.PasswordUpdated=あなたのパスワードが更新されました。
+Application.APIWrongPassword=あなたのパスワードを確認してから、もう一度やり直してください。
+Application.APIError=予期しないエラーが発生しました。もう一度やり直してください。
+Application.APIBadToken=無効のOAuthアクセストークン。
+Application.APINoToken=アクティブなアクセストークンは、現在のユーザーに関する情報を照会するために使用しなければなりません。
+Application.APIBadCode=無効なOAuthのコード。
+Application.TimeOut=それは、時間がかかりすぎているように見える。まもなくしてからもう一度お試しください。
+Application.BadURL=これは有効なURLではありません。このフィールドはhttps://www.dailycred.com/callbackのように、完全な、非相対URLでなければなりません
+Application.FriendlyNameTooLong=このフィールドには、最大200文字の長さを有する。短いものを使用してください。
+Application.NoStripeKey=ストライプAPIキーが見つかりませんでした。あなたであなたのストライプAPIキーを設定してください<a href="https://dailycred.com/admin/setup">セットアップ</a>ページ。
+Application.OAuthCallBackNotInDomain=提供redirect_uriは、このクライアントのアカウント設定で承認されていません。
+Application.CNameNotValidDomain=CNAME提供する有効なドメインであることが表示されません。
+Application.Required=これは必須フィールドです。
+Application.LogoFileTooLarge=ファイルサイズの上限を超えています。
+Application.LogoFileIsNotImage=ファイルタイプが有効ではありません。唯一のPNG、JPGやGIFは許可されています。
+Application.NoClientSecret=あなたDailycred秘密鍵を含むclient_secretパラメータを指定する必要があります。
+Application.InvalidClientSecret=これは無効なDailycred秘密鍵である。
+Application.MissingRequiredFields=あなたはいくつかの必要なフィールドが欠けているように見えます。あなたにアクセスしてください<a href="/admin/setup">セットアップ</a>設定を取得するには、ページ。
+Application.CouldNotUnsubscribe=我々は、このリンクから直接あなたを退会できず、申し訳ありませんが技術的なエラーが発生したためだ。もう一度やり直して、またはしてください<a href="mailto:support@dailycred.com">私達に直接連絡</a>除去する。
+Application.Unsubscribed=あなたが退会している。私たちは、あなたが行く見て申し訳ございません！
+Application.Subscribed=あなたが購読してきた。ありがとう！
+Application.CouldNotSubscribe=我々は、このリンクから直接あなたを購読することができなかった技術的なエラーのため、申し訳ございません。もう一度やり直して、またはしてください<a href="mailto:support@dailycred.com">私達に直接連絡</a>追加する。
+Application.AdminsCantUnsubscribe=認めては、自分のアカウントから退会することはできません。
+Application.EmailIsSame=新しい電子メールは、現在のメールアドレスと同じです。
+Application.EmailOnlyUserNotAllowed=このアプリは、電子メールのユーザーのみをサポートしていません。
+Application.EmailChangeSuccess=あなたのメールアドレスは％sに変更されました。確認メールを探して、あなたの新しい住所を確認してください。
+Application.EmailVerifySuccess=電子メール％sが確認された。
+Application.PostOnly=このリクエストは<b>HTTP POSTリクエストを</b>使用して行われなければならない。 <br/><br/>あなただけのAPIをチェックアウトしている場合、我々はカールや使用することをお勧め<a target="_blank" href="http://hurl.it/">投げる</a> 。
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">ユーザーが</a>終了しようとしている裁判を持っています。このメールは、ストライプwebhookによって引き起こされた。
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">ユーザーが</a>正常に充填した。このメールは、ストライプwebhookによって引き起こされた。
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">ユーザが</a>失敗し仕込んだ。このメールは、ストライプwebhookによって引き起こされた。
+Application.BillingError=お支払い情報を設定しようとしたときに何かが間違っていた。一瞬、もう一度お試しください。
+Application.TrialWillEnd=Dailycredであなたの無料トライアルでは、％sにで終了しようとしています。ご訪問してください<a href="https://www.dailycred.com/admin/settings/billing">課金ページを</a>非アクティブにされてからアカウントを防ぐために。
+Application.TrialWillEndLong=DailyCredであなたの無料トライアルは％sの上ですぐに終了します。 <br><br>自分のアカウントをアクティブにしておくには、アクセスしてください<a href="https://www.dailycred.com/admin/settings/billing">支払いのページを</a>確認する<a href="https://www.dailycred.com/pricing">低コストの計画を</a> 、今日支払いの詳細を入力します。
+Application.CannotRemoveActiveCard=あなたのアクティブな課金方式を削除することはできません。あなたのアカウント番号を使用してアカウントのメールsupport@dailycred.comをキャンセルしたい場合。
+Application.StateCheckFailed=要求は、状態パラメータが不足しています。もう一度やり直してください。
+Application.UnexpectedError=申し訳ありませんが、予期しないエラーが発生しました。もう一度やり直してください。
+Application.UserAnotherIdentityProvider=それはあなたの％sを使用してアカウントを持って表示されます。 <a href="%s">％sを使用して接続するにはここをクリックし</a>たり、 <a href="%s">パスワードを設定するにはここをクリック</a> 。
+Application.APIKeyNotFound=APIキーが見つかりません。あなたの上にこのIDプロバイダのAPIキーを設定してください<a href="https://www.dailycred.com/admin/settings">設定ページを</a> 。
+Application.ForeignIDAlreadyRegistered=プロバイダ％sのforeignID％sはすでにユーザー％sに関連付けられているので、私たちは、このアカウントをリンクすることができませんでした。
+Application.TwitterCallbackURLIncorrect=あなたのチェック<a href="https://dev.twitter.com/apps">のTwitterアプリケーションの設定を</a> 。アプリのコールバックURLは、空にすることはできません。 （これは、任意の有効なURLにすることができます。）
+Application.ThankYouForSigningUp=％sのにサインアップしていただきありがとうございます！
+Application.ThankYouForSigningUpNoClient=サインアップしていただきありがとうございます！
+Application.CannotDeleteLastApp=削除することはできません：あなたのアカウントは、少なくとも一つのアプリケーションを持っている必要があります。
+Application.CouldNotSendEmail=大変申し訳ございませんが、その電子メールを送信する問題があった。まもなくしてからもう一度お試しください。
+Application.EmailVerificationRequiredSignUp=あなたがサインアップする前にあなたの電子メールを確認する必要があります。詳細な手順については、メールを確認してください。
+Application.EmailVerificationRequiredSignIn=あなたは、詳細な手順をあなたの電子メールを確認してくださいインチ署名する前にあなたの電子メールを確認する必要があります。
+Application.Blocked=大変申し訳ございませんが、あなたが管理者によってブロックされている。
+
+=
+template.authorize.passwordStrength.0=非常に弱い
+template.authorize.passwordStrength.1=弱い
+template.authorize.passwordStrength.2=まあまあで
+template.authorize.passwordStrength.3=グッド
+template.authorize.passwordStrength.4=すばらしい！

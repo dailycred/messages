@@ -1,0 +1,321 @@
+$Page What's New in Live 8?
+$TargetName What's New in Live 8?
+$ListInTocForProduct 00
+$If Product 00
+*Welcome to Live 8!*
+
+Live 8 contains powerful new features, devices and workflow enhancements. Click the /Next Page/ button at the bottom of this lesson to learn about all of the changes, or follow the individual links below.
+$Endif
+
+-> $Link New Warping Engine <GotoPage:New Warping Engine>
+
+-> $Link New Groove Functionality <GotoPage:New Groove Functionality>
+
+*Workflow Enhancements*
+-> $Link Crossfades in Arrangement View <GotoPage:Crossfades in Arrangement View>
+-> $Link MIDI Editor Enhancements <GotoPage:MIDI Editor Enhancements>
+-> $Link Group Tracks <GotoPage:Group Tracks>
+-> $Link Magnify Live's Interface <GotoPage:Magnify Live's Interface>
+-> $Link Browser Preview Tab <GotoPage:Browser Preview Tab>
+-> $Link Adjust Multiple Parameters Simultaneously <GotoPage:Multiple Parameter Adjustment>
+-> $Link Colored Tracks, Scenes and Macros <GotoPage:Colored Tracks, Scenes and Macros>
+
+*New and Improved Devices*
+-> $Link Operator <GotoPage:Operator>
+-> $Link Collision & Corpus <GotoPage:Collision & Corpus>
+-> $Link Looper <GotoPage:Looper>
+-> $Link Vocoder <GotoPage:Vocoder>
+-> $Link Limiter <GotoPage:Limiter>
+-> $Link Multiband Dynamics <GotoPage:Multiband Dynamics>
+-> $Link Overdrive <GotoPage:Overdrive>
+-> $Link Frequency Shifter <GotoPage:Frequency Shifter>
+-> $Link Enhanced Third-Party Plug-In Support <GotoPage:Enhanced Plug-In Support>
+
+-> $Link Additional Small Improvements <GotoPage:Additional Small Improvements>
+
+Divider.tif
+*This lesson is accompanied by a Live Set which makes extensive use of many of the new devices and features in Live 8.*
+
+*Click $Link here <Set:/Sets/New in Live 8 Demo.als> to load the demo Set.*
+$If Product 40
+
+*If you own Operator or Ableton Suite, you can also $Link load an all-MIDI version of the Set. <Set:/Sets/New in Live 8 Suite Demo.als> Please note that this Set is CPU-intensive, and will run best on a modern, multi-core machine.*
+$Endif
+Divider.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page New Warping Engine 
+$TargetName New Warping Engine
+
+Live's /warping/ functionality now uses improved transient analysis and a reworked interface. Most notably, the process of creating and manipulating Warp Markers is more intuitive. Warp Markers are now pinned to specific locations in the sample, and then dragged along a fixed timeline.
+WarpMarkers.tif
+
+When zoomed in, the transients are visible as small markers, and can be further edited.
+Transients.tif
+
+When mousing over a transient, a /pseudo Warp Marker/ appears. This can be double-clicked or dragged to create a real Warp Marker.
+PseudoWarpMarker.tif
+
+New /transient loop/ and /envelope/ controls in Beats Mode allow for higher quality warping, especially at slower tempos
+TransientsLoopAndEnvelope.tif
+
+Additionally, it is now possible to /quantize/ audio clips using the Edit Menu's Quantize command.
+QuantizeAudio.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page New Groove Functionality 
+$TargetName New Groove Functionality
+
+Live's new /groove engine/ provides dynamic, real-time control over subtle (or extreme) timing behavior on a per-clip basis. Grooves can be dragged from the provided groove library and dropped onto audio or MIDI clips in your Set.
+GrooveLibrary.tif
+
+Any grooves used in your Set appear in the /Groove Pool,/ where they can be further manipulated.
+GroovePool.tif
+
+Furthermore, you can /extract/ grooves from audio or MIDI clips via a context menu command, which is available when $ContextMenuing on the clip.
+ExtractGroove.tif
+
+You can view the contents of groove files by dragging them from the Browser or Groove Pool into your Set, where they will be converted to MIDI clips.
+
+$Comment --------------------------------------------------------------------------------
+$Page Crossfades in Arrangement View 
+$TargetName Crossfades in Arrangement View
+
+You can now create /crossfades/ between adjacent clips in the Arrangement View.
+Crossfades.tif
+
+Crossfades are viewed and edited in a track's /Fades Lane/ and have adjustable slopes.
+
+Additionally, 4 millisecond "de-clicking" fades can be automatically created at clip edges by enabling an option in the Record/Warp/Launch Preferences.
+FadesPreference.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page MIDI Editor Enhancements 
+$TargetName MIDI Editor Enhancements
+
+The MIDI Editor has been reworked, and editing MIDI is now similar to editing in the Arrangement.
+
+An /insert mark/ sets the precise location for clipboard operations, allowing notes or time to be copied, pasted, inserted and deleted anywhere in the clip.
+InsertMark.tif
+
+An enhanced set of keyboard commands also improves the editing workflow. For a complete list of these commands, see the "Editing MIDI Notes and Velocities" chapter in the reference manual.
+
+The insert mark also makes it possible to /step record/ MIDI notes.
+StepRecording.tif
+Simply arm the MIDI track, enable the clip's Preview switch and click in the MIDI Editor to place the insert mark at the position where you want recording to begin. Now any notes that are held down while you press the right arrow key will be added to the clip, and the insert mark will advance to the next grid location.
+
+$Comment --------------------------------------------------------------------------------
+$Page Group Tracks 
+$TargetName Group Tracks
+
+Audio and MIDI tracks can be grouped into a summing /Group Track./
+GroupTrackSession.tif
+
+Group Tracks can be folded or unfolded to help organize your workflow in both Session and Arrangement View.
+GroupTrackArrangement.tif
+
+Group Tracks cannot contain clips, but they are similar to audio tracks in that they have mixer controls and can host audio effects.
+
+Slots in Group Tracks show a shaded area to indicate that at least one of the contained tracks contains a clip in that scene. The color of the shading is the color of the left-most clip in the scene.
+GroupSlots.tif
+
+These group slots also contain launch buttons which will launch all of the group's clips. Group slots which have no corresponding clips contain stop buttons. Clicking in any group slot selects all of the clips it refers to.
+
+$Comment --------------------------------------------------------------------------------
+$Page Magnify Live's Interface 
+$TargetName Magnify Live's Interface
+
+The /Zoom Display/ slider in Live's /Look and Feel Preferences/ allows you to zoom Live's screen to any percentage between 50% and 200% of the standard interface size.
+ZoomDisplay.tif
+
+All graphics and controls remain crisp and easy to use at any magnification.
+
+$Comment --------------------------------------------------------------------------------
+$Page Browser Preview Tab 
+$TargetName Browser Preview Tab
+
+A /Preview Tab/ in the Browser provides a visualization of the file's contents, and allows you to scrub in the waveform display.
+BrowserPreviewTab.tif
+
+With the Raw button enabled, playback is unwarped and unlooped.
+
+$Comment --------------------------------------------------------------------------------
+$Page Multiple Parameter Adjustment 
+$TargetName Multiple Parameter Adjustment
+
+When multiple tracks are selected, adjusting one of their mixer or routing parameters will adjust the same parameter in the other selected tracks.
+TrackGroups.tif
+
+If the tracks in the multi-selection have differing values for any particular knob or slider parameter (volume, for example), this difference will be maintained as you adjust the parameter.
+
+Mixer parameters that can be simultaneously adjusted include:
+
+-> Volume
+-> Pan
+-> Sends
+-> the Track Activator, Solo and Arm buttons
+-> the In/Out section, including routing choosers and Monitor switch
+-> the automation choosers and track fold/unfold buttons in the Arrangement View
+
+Additionally, chain properties can be adjusted simultaneously when multiple chains are selected in the Session View mixer.
+
+$Comment --------------------------------------------------------------------------------
+$Page Colored Tracks, Scenes and Macros 
+$TargetName Colored Tracks, Scenes and Macros
+
+Tracks, scenes and Macro controls can now be given individual /colors./ You can choose from the same color palette used for clips, which can be accessed by $ContextMenuing on the selected objects.
+CustomColors.tif
+
+Rack chains can also be colored. The chain colors will be visible in both the Rack's chain list and in the Session View mixer when Racks are unfolded.
+
+$Comment --------------------------------------------------------------------------------
+$Page Operator 
+$TargetName Operator
+
+/Operator,/ Live's classic FM synthesizer, has been completely overhauled for this release. Numerous new modulation options, additional filter types, improved envelopes and user-definable waveforms are just some of the enhancements.
+
+Divider.tif
+*Oscillators:*
+A new /waveform editor/ allows you to draw your own waveforms by adjusting the amplitudes of each oscillator's harmonics.
+OperatorPartials.tif
+You can also edit the built-in waveforms in the same way. Edited waveforms can be exported to your Library as /.ams files,/ which can be loaded back into Operator or used as sample files in Simpler or Sampler.
+
+/Feedback/ is now available for all oscillators that are not being modulated by another oscillator.
+
+Divider.tif
+*Filters:*
+Operator now provides /14 filter types,/ including ladder modes and SVF filters that are capable of self-oscillation at high resonances.
+OperatorFilter.tif
+The filter display can now be toggled between the filter envelope and a /frequency response curve./ Additionally, the filter now has an integrated /waveshaper/ with an adjustable drive amount and four curve shapes.
+
+Divider.tif
+*Envelopes:*
+The filter and pitch envelopes now have /adjustable slopes,/ like those found in Sampler.
+OperatorSlopes.tif
+
+Divider.tif
+*New modulation possibilities:*
+The global display now has a comprehensive /MIDI modulation section,/ with multiple destination and amount settings for five MIDI control sources.
+OperatorModulation.tif
+
+The LFO and pitch envelope can now also modulate any of the available destinations. Additionally, the algorithm selector can be automated and MIDI mapped, adding another layer to Operator's sound design possibilities.
+
+$Comment --------------------------------------------------------------------------------
+$Page Collision & Corpus 
+$TargetName Collision & Corpus
+
+/Collision/ is a synthesizer that simulates the characteristics of mallet percussion instruments. Developed in collaboration with Applied Acoustics Systems (AAS), Collision uses physical modeling technology to model the various sound generating and resonant components of real (or imagined) objects.
+Collision.tif
+
+/Corpus/ is a separate effect that reproduces Collision's resonator section, allowing you to use these physical models to process any audio source. Corpus also features a unique MIDI sidechain functionality that allows you to tune the device's resonators via MIDI input.
+Corpus.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Looper 
+$TargetName Looper
+
+/Looper/ is an audio effect based on classic real-time looping devices. It allows you to record and loop audio, creating endless overdubs that are synced to your Set. If your Set isn't already playing, you can record into Looper and Live's tempo will change to match what you record.
+Looper.tif
+
+Looper's transport controls are optimized for hands-free performance with a MIDI foot pedal.
+LooperPedal.tif 
+
+Audio files can be imported to Looper, to create a bed for additional overdubs. You can also export your Looper recordings to a track or the Browser.
+
+$Comment --------------------------------------------------------------------------------
+$Page Vocoder 
+$TargetName Vocoder
+
+Live's powerful /Vocoder/ device allows for classic "singing synthesizer" effects and much more.
+Vocoder.tif
+
+-> You can select from a number of carrier sources including track routing points, an internal noise generator and a monophonic pitch tracking oscillator. Self-vocoding is also possible, by selecting the modulator as the carrier.
+-> A flexible filterbank display gives an easy graphical overview of Vocoder's behavior and offers additional sound-shaping parameters.
+-> A Formant knob allows the frequency range of the filterbank to be shifted up or down.
+-> An unvoiced detection algorithm enhances the clarity of vocal sources by replacing consonant sounds with an additional noise generator.
+
+$Comment --------------------------------------------------------------------------------
+$Page Limiter 
+$TargetName Limiter
+
+Live's /Limiter/ is a mastering-quality dynamic range processor that keeps audio levels below a specified threshold. This can be used as a safety device to prevent clipping or as a sound design tool.
+Limiter.tif
+
+The Ceiling slider sets the absolute maximum level that will be output by the device, while the Gain knob allows you to boost or attenuate the input signal prior to limiting.
+
+Manual or automatic release times adjust how quickly Limiter stops processing when the signal level falls below the ceiling.
+
+A Stereo switch allows you to limit peaks independently per channel or limit both channels when either exceeds the ceiling.
+
+$Comment --------------------------------------------------------------------------------
+$Page Multiband Dynamics 
+$TargetName Multiband Dynamics
+
+The /Multiband Dynamics/ device is a flexible mastering tool for modifying the dynamic range of audio material.
+MultibandDynamics.tif
+
+Multiband Dynamics allows for upward and downward compression and expansion of up to three independent frequency bands, with adjustable crossover points and envelope controls for each band. Each frequency range has both an upper and lower threshold, allowing for two types of dynamics processing to be used simultaneously per band.
+
+The intuitive display controls allow you to adjust volumes within specific dynamic ranges by simply dragging them up or down. Small yellow bars represent input levels, while large orange bars represent output.
+
+Applications include traditional multiband compression, as well as de-essing, noise reduction and even exotic mastering tasks such as uncompression.
+
+$Comment --------------------------------------------------------------------------------
+$Page Overdrive 
+$TargetName Overdrive
+
+/Overdrive/ is a powerful addition to Live's arsenal of distortion effects. It applies warm saturation based on the circuits found in classic guitar pedals.
+
+Overdrive.tif
+
+At low levels, Overdrive can be used as a gentle warming effect. But it is also capable of heavy distortion and tone shaping.
+
+A Dynamics slider allow you to control the amount of internal compression and make-up gain applied by the effect. 
+
+$Comment --------------------------------------------------------------------------------
+$Page Frequency Shifter 
+$TargetName Frequency Shifter
+
+The /Frequency Shifter/ effect provides classical frequency shifting and ring modulation effects in a single powerful device.
+FrequencyShifter.tif
+
+Frequency shifting adds or subtracts a user-defined frequency in Hertz to the incoming signal, while ring modulation adds and subtracts this offset simultaneously. Small changes can create subtle tremolo or phasing effects, while large shifts result in dissonant, metallic sounds.
+
+The frequency shift can also be modulated by an internal LFO.
+
+$Comment --------------------------------------------------------------------------------
+$Page Enhanced Plug-In Support 
+$TargetName Enhanced Plug-In Support
+
+Editing of third-party plug-ins is no longer limited to the first 128 parameters. Plug-ins in the Track View now have a /Configure Mode/ which allows the panel to be populated with any of a device's parameters, simply by clicking them in the plug-in's window.
+ConfigureMode.tif
+
+Once parameters have been created, they can be reordered, swapped and deleted as desired.
+
+Parameters can also be created in the panel by recording parameter changes in the plug-in's window as automation or by clicking on parameters while in MIDI, Key or Macro Map Mode.
+
+After exiting Configure Mode, parameters in the panel can be modified and mapped to MIDI controllers, Macros and the keyboard, just like any of Live's built-in devices.
+
+Plug-ins that have no edit window or which have fewer than 32 parameters will display all of their parameters in Live's panel, where they can still be moved and reordered.
+
+$Comment --------------------------------------------------------------------------------
+$Page Additional Small Improvements 
+$TargetName Additional Small Improvements
+
+Live 8 brings numerous additional small features and workflow enhancements, including:
+
+-> A Macro Control assigned to a single parameter will automatically adopt the parameter's name and units.
+-> It is now possible to slice an audio file based on its transients.
+-> Instruments and effects devices can now be copied, pasted and duplicated using standard clipboard commands.
+-> Non-contiguous tracks and scenes can be selected, copied and moved.
+-> The Flanger effect has an optional /Hi-Quality mode./
+-> The instrument in a MIDI track will automatically be locked to the control surface when the track is armed.
+-> Track and chain volumes can be typed to three decimal points of precision. The precise value is shown in the Status Bar.
+-> The File Manager now lists all clips and instruments in the current Live Set where each referenced sample is actually used.
+-> Ping Pong Delay and Simple Delay now offer three user-assignable /delay transition modes,/ which can be accessed by $ContextMenuing on the title bar of the device.
+-> Sampler's waveshaper has a fourth curve type: /4bit./
+-> Sampler has a new morphable SVF filter.
+-> Multiple /Live Packs/ can be uninstalled simultaneously.
+
+$Comment Status: Translate

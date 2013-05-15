@@ -1,0 +1,86 @@
+Application.NoSuchClient=ไม่มีลูกค้าที่มีอยู่สำหรับ id ของ% s
+Application.NoSuchApp=ปพลิเคชันที่มีอยู่สำหรับ id ของ% s
+Application.NoClientProvided=กรุณาแสดงบัตรประจำตัวลูกค้าของคุณกับคำขอของคุณ
+Application.NoRedirectProvided=โปรดให้เปลี่ยนเส้นทางที่มีการร้องขอ OAuth ของคุณ <br/> <b>นักพัฒนา:</b> uri ให้โทรกลับของคุณโดยใช้พารามิเตอร์ <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> หรือโดยการตั้งค่าการเรียกกลับเริ่มต้นใน <a href="https://www.dailycred.com/admin/setup">การตั้งค่าบัญชีของคุณ</a> .
+Application.EnterEmailOrUsername=กรุณากรอกอีเมล์หรือชื่อผู้ใช้ของคุณ
+Application.EnterEmail=กรุณากรอกอีเมลของคุณ
+Application.EnterUsername=กรุณากรอกชื่อผู้ใช้ของคุณ
+Application.EnterPassword=กรุณากรอกรหัสผ่านของคุณ
+Application.AtNotAllowed=สัญลักษณ์ &quot;@&quot; ไม่สามารถนำมาใช้ในชื่อผู้ใช้ของคุณ
+Application.WrongPasswordOrUsername=กรุณาตรวจสอบชื่อผู้ใช้และรหัสผ่านของคุณและพยายามอีกครั้ง <a href="%s">ในการรีเซ็ตรหัสผ่านของคุณคลิกที่นี่</a>
+Application.BadDomain=โดเมน &quot;% s&quot; ไม่ถูกต้อง
+Application.BadEmail=กรุณาตรวจสอบว่าอีเมลของคุณถูกป้อนอย่างถูกต้องและลองอีกครั้ง
+Application.BadNewEmail=กรุณาตรวจสอบว่าอีเมลใหม่ของคุณถูกป้อนอย่างถูกต้องและลองอีกครั้ง
+Application.PasswordTooShort=กรุณาใส่รหัสผ่านด้วย% d ตัวอักษรอย่างน้อย
+Application.NoCallbackUri=% s ไม่ได้ตั้ง URI โทรกลับยัง โปรดลองอีกครั้งในภายหลัง
+Application.EmailTaken=อีเมลนี้มีอยู่แล้วในการใช้งาน
+Application.UsernameTaken=ชื่อผู้ใช้นี้จะถ่ายแล้ว กรุณาใช้ชื่อผู้ใช้ที่แตกต่างกัน
+Application.EmailSent=อีเมล์ได้ถูกส่ง โปรดตรวจสอบอีเมลของคุณสำหรับคำแนะนำเพิ่มเติม
+Application.EmailSentGmail=อีเมล์ถูกส่งไปแล้ว <a href="http://mail.google.com/">กรุณาตรวจสอบ Gmail ของคุณสำหรับคำแนะนำเพิ่มเติม</a>
+Application.GoToGmail=ไปที่กล่องจดหมายของ Gmail ของคุณ
+Application.EmailSentYahoo=อีเมล์ถูกส่งไปแล้ว <a href="http://mail.yahoo.com/">กรุณาตรวจสอบอีเมล์ Yahoo! ของคุณสำหรับคำแนะนำเพิ่มเติม</a>
+Application.GoToYahoo=Go to Yahoo กล่องจดหมายของคุณ
+Application.EmailSentHotmail=อีเมล์ถูกส่งไปแล้ว <a href="http://www.hotmail.com/">กรุณาตรวจสอบ Hotmail ของคุณสำหรับคำแนะนำเพิ่มเติม</a>
+Application.GoToHotmail=ไปที่กล่องจดหมายของ Hotmail ของคุณ
+Application.EmailSentICloud=อีเมล์ถูกส่งไปแล้ว <a href="https://www.icloud.com/#mail">กรุณาตรวจสอบจดหมาย iCloud ของคุณสำหรับคำแนะนำเพิ่มเติม</a>
+Application.GoToICloud=ไปที่ iCloud กล่องจดหมายของคุณ
+Application.NoSuchEmail=ไม่มีผู้ใช้สำหรับอีเมล% s
+Application.NoSuchUser=ไม่มีผู้ใช้สำหรับหมายเลข% s
+Application.NoSuchUserFriendly=เราไม่สามารถหาบัญชีผู้ใช้สำหรับอีเมลหรือชื่อผู้ใช้ โปรดลองอีกครั้ง
+Application.NoSuchToken=มีข้อผิดพลาดที่คุณลงนามในบัญชีของคุณคือ โปรดลองอีกครั้งในไม่ช้า
+Application.PasswordResetInvalid=นี้ขอรีเซ็ตรหัสผ่านไม่ถูกต้องหรือไม่พบ กรุณาลองตั้งค่ารหัสผ่านของคุณอีกครั้ง
+Application.PasswordUpdated=รหัสผ่านของคุณได้รับการปรับปรุง
+Application.APIWrongPassword=กรุณาตรวจสอบรหัสผ่านของคุณและลองอีกครั้ง
+Application.APIError=ข้อผิดพลาดที่ไม่คาดคิดเกิดขึ้น โปรดลองอีกครั้ง
+Application.APIBadToken=ไม่ถูกต้อง token เข้าถึง OAuth
+Application.APINoToken=เค็นการเข้าถึงการใช้งานจะต้องใช้ในการค้นหาข้อมูลเกี่ยวกับผู้ใช้ปัจจุบัน
+Application.APIBadCode=ไม่ถูกต้องรหัส OAuth
+Application.TimeOut=ที่ดูเหมือนว่าจะใช้เวลานานเกินไป โปรดลองอีกครั้งในไม่ช้า
+Application.BadURL=นี้ไม่ได้เป็น URL ที่ถูกต้อง ฟิลด์นี้จะต้องเต็มรูปแบบ URL ที่ไม่ญาติเช่น https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=สนามนี้มีความยาวสูงสุด 200 ตัวอักษร กรุณาใช้สิ่งที่สั้น
+Application.NoStripeKey=ไม่มีลาย API Key พบ กรุณาชุดคีย์ API ของคุณลายที่คุณ <a href="https://dailycred.com/admin/setup">ติดตั้ง</a> หน้า
+Application.OAuthCallBackNotInDomain=redirect_uri ให้ไม่ได้รับการอนุมัติจากลูกค้านี้การตั้งค่าบัญชี
+Application.CNameNotValidDomain=ให้ CNAME ไม่ปรากฏเป็นโดเมนที่ถูกต้อง
+Application.Required=นี้เป็นเขตข้อมูลที่ต้องการ
+Application.LogoFileTooLarge=ไฟล์เกินขีด จำกัด ขนาด
+Application.LogoFileIsNotImage=ประเภทไฟล์ที่ไม่ถูกต้อง เฉพาะ PNG, JPG และ GIF ได้รับอนุญาต
+Application.NoClientSecret=คุณต้องระบุพารามิเตอร์ client_secret ที่มีคีย์ลับของคุณ Dailycred
+Application.InvalidClientSecret=นี่คือกุญแจลับที่ไม่ถูกต้อง Dailycred
+Application.MissingRequiredFields=ดูเหมือนว่าคุณจะหายไปฟิลด์ที่จำเป็นไม่กี่ กรุณาไปที่คุณ <a href="/admin/setup">ติดตั้ง</a> หน้ารับการตั้งค่า
+Application.CouldNotUnsubscribe=ขออภัยเนื่องจากข้อผิดพลาดทางเทคนิคที่เราไม่สามารถยกเลิกการเป็นสมาชิกคุณโดยตรงจากลิงก์นี้ กรุณาลองอีกครั้งหรือ <a href="mailto:support@dailycred.com">ติดต่อเราโดยตรง</a> จะถูกลบออก
+Application.Unsubscribed=คุณได้รับการยกเลิกการเป็นสมาชิก เราต้องขออภัยที่จะเห็นคุณไป!
+Application.Subscribed=คุณได้รับการจองซื้อ ขอบคุณ
+Application.CouldNotSubscribe=ขออภัยเนื่องจากข้อผิดพลาดทางเทคนิคเราไม่สามารถสมัครเป็นสมาชิกคุณโดยตรงจากลิงก์นี้ กรุณาลองอีกครั้งหรือ <a href="mailto:support@dailycred.com">ติดต่อเราโดยตรง</a> ที่จะเพิ่ม
+Application.AdminsCantUnsubscribe=ยอมรับว่าไม่สามารถยกเลิกการเป็นสมาชิกบัญชีของตัวเองของพวกเขา
+Application.EmailIsSame=อีเมลใหม่เป็นเช่นเดียวกับอีเมล์ของคุณในปัจจุบัน
+Application.EmailOnlyUserNotAllowed=app นี้ไม่สนับสนุนผู้ใช้อีเมล์
+Application.EmailChangeSuccess=อีเมล์ของคุณได้ถูกเปลี่ยนไปเป็น% s กรุณามองหาอีเมลยืนยันและยืนยันที่อยู่ใหม่ของคุณ
+Application.EmailVerifySuccess=% s อีเมล์ได้รับการยืนยัน
+Application.PostOnly=<b>คำขอนี้จะต้องทำโดยใช้คำขอ POST HTTP</b> <br/><br/> หากคุณเพียงการตรวจสอบออก API เราขอแนะนำให้ใช้ม้วนหรือ <a target="_blank" href="http://hurl.it/">โยน</a> .
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">ผู้ใช้</a> มีการพิจารณาคดีที่เป็นเรื่องเกี่ยวกับที่จะสิ้นสุด อีเมลนี้มีสาเหตุมาจากลาย webhook
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">ผู้</a> ถูกกล่าวหาว่าเป็นประสบความสำเร็จ อีเมลนี้มีสาเหตุมาจากลาย webhook
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">ผู้</a> ถูกกล่าวหาว่าไม่ประสบความสำเร็จ อีเมลนี้มีสาเหตุมาจากลาย webhook
+Application.BillingError=สิ่งที่ผิดพลาดเมื่อพยายามที่จะกำหนดข้อมูลการเรียกเก็บเงินของคุณ โปรดลองอีกครั้งในไม่ช้า
+Application.TrialWillEnd=ทดลองใช้ฟรีของคุณกับ Dailycred จะจบเมื่อ% s กรุณาเยี่ยมชมของคุณ <a href="https://www.dailycred.com/admin/settings/billing">หน้าการเรียกเก็บเงิน</a> เพื่อป้องกันบัญชีของคุณจากการถูกปิดการใช้งาน
+Application.TrialWillEndLong=ทดลองใช้ฟรีของคุณกับ DailyCred จบลงในไม่ช้าเมื่อ% s <br><br> เพื่อให้บัญชีของคุณโปรดเยี่ยมชมของคุณ <a href="https://www.dailycred.com/admin/settings/billing">หน้าการเรียกเก็บเงิน</a> ในการทบทวน <a href="https://www.dailycred.com/pricing">แผนค่าใช้จ่ายต่ำ</a> และป้อนรายละเอียดการชำระเงินในวันนี้
+Application.CannotRemoveActiveCard=คุณไม่สามารถลบวิธีการเรียกเก็บเงินของคุณที่ใช้งานอยู่ หากคุณต้องการที่จะยกเลิกการ support@dailycred.com บัญชีอีเมลของคุณที่มีจำนวนบัญชีของคุณ
+Application.StateCheckFailed=คำขอไม่มีพารามิเตอร์รัฐ โปรดลองอีกครั้ง
+Application.UnexpectedError=ขออภัยข้อผิดพลาดที่ไม่คาดคิดเกิดขึ้น โปรดลองอีกครั้ง
+Application.UserAnotherIdentityProvider=ดูเหมือนคุณมีบัญชีผู้ใช้% s <a href="%s">คลิกที่นี่เพื่อเชื่อมต่อโดยใช้% s</a> หรือ <a href="%s">คลิกที่นี่เพื่อตั้งค่ารหัสผ่าน</a> .
+Application.APIKeyNotFound=API ที่สำคัญไม่พบ โปรดตั้งสำคัญ API สำหรับการให้บริการบัตรประจำตัวนี้ของคุณ <a href="https://www.dailycred.com/admin/settings">หน้าการตั้งค่า</a> .
+Application.ForeignIDAlreadyRegistered=เราไม่สามารถเชื่อมโยงบัญชีนี้เพราะ% foreignID สำหรับ% s ให้เชื่อมโยงกับผู้ใช้% s
+Application.TwitterCallbackURLIncorrect=ตรวจสอบของคุณ <a href="https://dev.twitter.com/apps">ตั้งค่าโปรแกรมประยุกต์ของ Twitter</a> . URL โทรกลับ app ของคุณไม่สามารถว่างเปล่า (มันสามารถเป็น URL ที่ถูกต้องใด ๆ .)
+Application.ThankYouForSigningUp=ขอบคุณสำหรับการลงทะเบียนสำหรับ% s!
+Application.ThankYouForSigningUpNoClient=ขอบคุณสำหรับการสมัคร!
+Application.CannotDeleteLastApp=ไม่สามารถลบบัญชีของคุณจะต้องมีอย่างน้อยหนึ่ง App
+Application.CouldNotSendEmail=ขออภัยมีปัญหาในการส่งอีเมลที่ โปรดลองอีกครั้งในไม่ช้า
+Application.EmailVerificationRequiredSignUp=คุณต้องตรวจสอบอีเมลของคุณก่อนที่จะลงทะเบียน โปรดตรวจสอบอีเมลของคุณสำหรับคำแนะนำเพิ่มเติม
+Application.EmailVerificationRequiredSignIn=คุณต้องตรวจสอบอีเมลของคุณก่อนที่จะลงชื่อเข้าใช้โปรดตรวจสอบอีเมลของคุณสำหรับคำแนะนำเพิ่มเติม
+Application.Blocked=ขออภัยคุณได้รับบล็อกโดยผู้ดูแลระบบ
+
+=
+template.authorize.passwordStrength.0=อ่อนแอมาก
+template.authorize.passwordStrength.1=อ่อนแอ
+template.authorize.passwordStrength.2=พอดูได้
+template.authorize.passwordStrength.3=ดี
+template.authorize.passwordStrength.4=ที่ดี!

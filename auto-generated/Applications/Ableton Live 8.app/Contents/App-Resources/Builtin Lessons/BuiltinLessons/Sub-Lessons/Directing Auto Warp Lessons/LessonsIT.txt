@@ -1,0 +1,28 @@
+$Page Gestione dell'Auto-Warp
+$TargetName Directing Auto-Warp
+
+Se l'algoritmo di /Auto-Warp/ non fa ciò che desideri, puoi controllarne i risultati cliccando destro sui Marcatori della Griglia per accedere al loro menu di contesto.
+GridMarkerContextMenu.tif
+Il /comando Stabilisci qui 1.1.1/ riallinea la griglia in modo che il marcatore della griglia selezionato diventi 1.1.1. Ciò è utile quando l'algoritmo di /Auto-Warp/ individua il tempo giusto, ma imposta il downbeat sbagliato. Il menu di contesto è disponibile anche per il Marcatore di Inizio.
+
+I /comandi Warp da qui/ offrono delle opzioni per reimpostare i Marcatori Warp alla destra della posizione scelta. I Marcatori Warp alla sua sinistra rimangono inalterati:
+
+-> /Warp da qui/ esegue semplicemente l'algoritmo di /Auto-Warp./
+-> /Warp da qui (avvia a ... BPM)/ induce /l’Auto-Warp/ ad usare il tempo del Live Set corrente come punto di partenza per il tracciamento del tempo. Usandolo puoi: disattivare l’interruttore Warp della clip, in modo che suoni senza warping; utilizzare il pulsante Tap Tempo (batti tempo) della Barra di Controllo per scandire il tempo, impostando così il tempo del Live Set; attivare di nuovo il warping e usare questo comando per dire all’algoritmo di /Auto-Warp/ di usare il tempo scandito da te.
+-> /Warp da qui (diretto)/ dice all’algoritmo di /Auto-Warp/ che questa è una clip senza variazioni di tempo (ad es. una composizione prodotta elettronicamente). In questo caso, l’Auto-Warp imposta un singolo Marcatore Warp, derivato dalla sua interpretazione del tempo originale.
+-> /Warp ... BPM da qui/ forza l’algoritmo di /Auto-Warp/ ad interpretare la clip come esattamente combaciante con il tempo del Live Set. Ciò è utile nei casi in cui si conosca l’esatto valore di BPM di un lavoro prodotto elettronicamente.
+
+/Warp come Loop di ...-misure/ dice all'algoritmo di /Auto-Warp/ di assumere che la clip selezionata sia un loop perfettamente tagliato di 1, 2, 4, 8, etc. misure. Live proporrà la lunghezza di loop più sensata in funzione del tempo del Live Set corrente. Diminuendo il tempo del Live Set si può portare Live ad assumere che il loop sia, ad esempio, di 8 misure a 90 BPM anziché di 16 misure a 180 BPM.
+
+
+$Page Opzioni di Auto-Warp
+$TargetName Auto-Warp Options
+
+Puoi orientare le supposizioni di Live circa i nuovi campioni impostando le Preferenze di default. Se l'opzione /Auto-Warp dei Campioni Lunghi/ delle Preferenze Record/Warp/Launch è attivata, Live suppone che i campioni lunghi contengano musica da suonare in sync con il tempo del Live Set. Se invece preferisci che per default Live suoni i campioni lunghi così come sono, disattiva questa opzione.
+AutoWarpLongSamplesPref.tif
+
+Indipendentemente da come Live interpreti per default i nuovi campioni, puoi sempre ignorarne le interpretazioni per ogni singola clip, agendo sull' /interruttore Warp/ della Vista Clip.
+ClipViewWarpSwitch.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,133 @@
+$Page Réglage des E/S audio
+$TargetName Setting Up Audio I/O
+$Comment Mac Version
+
+Dans cette leçon, nous configurerons et optimiserons les /entrées/sorties audio/ de $0 (ses possibilités en /entrée/ (I) et /sortie/ (O) audio). Cela nous prendra environ dix minutes pour tout configurer, mais cette procédure ne doit être effectuée qu'une fois pour chaque interface audio que vous utilisez.
+
+Une fois cela terminé, nous aurons accompli les actions suivantes:
+
+-> Sélectionner un type de pilote;
+-> Choisir des périphériques d'entrée et de sortie;
+-> Configurer les entrées et sorties;
+-> Sélectionner la fréquence d'échantillonnage;
+-> Régler la taille de la mémoire tampon audio d'E/S.
+
+
+Veuillez cliquer ci-dessous sur le bouton /Page suivante/ pour continuer.
+
+
+$Page Ouverture des Préférences Audio
+$TargetName Opening the Audio Preferences
+
+Les réglages d'entrée/sortie (I/O) audio se trouvent dans les /Préférences audio/ de $0. Vous pouvez les atteindre en sélectionnant *Préférences...* dans le menu /Live,/ ou en utilisant le raccourci clavier *$CommandMod + ,* ($CommandMod + virgule).
+PrefsMenuMac.tif
+
+Une fois la fenêtre Préférences ouverte, sélectionnez l'onglet /Audio:/
+AudioTabFull_Mac.tif
+
+
+Divider.tif
+*Conseil:* Vous pouvez tirer la fenêtre Préférences en un autre endroit de votre écran pour qu'elle ne soit pas masquée derrière la fenêtre principale de $0 pendant que nous suivons la leçon. Si vous la perdez de vue, pressez simplement de nouveau le raccourci *$CommandMod + ,* pour la faire réapparaître.
+
+
+$Page Sélection du périphérique audio
+$TargetName Selecting the Audio Device
+
+Les réglages de /Périphérique audio/ se réfèrent aux interfaces audio physiques qui sont soit intégrées à votre ordinateur, soit connectées à celui-ci en externe. $0 communique avec les périphériques audio au travers d'un petit logiciel que l'on nomme /pilote/ ou "driver" en anglais. Lors de la première phase, nous utiliserons le sélecteur /Type de pilote/ pour indiquer à $0 quel pilote utiliser.
+
+Dans Mac OS X, les entrées/sorties I/O audio sont généralement traitées par un pilote /Core Audio./ Veuillez sélectionner cela à l'aide du sélecteur Type de pilote, à moins qu'un autre choix proposé ne corresponde mieux à votre configuration:
+DriverChooser_Mac.tif
+
+Une fois que vous avez sélectionné un type de pilote, vous pouvez spécifier les entrées et les sorties à l'aide des sélecteurs /Périphérique d'entrée audio/ et /Périphérique de sortie audio:/
+IODevicesChoosers_Mac.tif
+
+Les choix qui vous sont offerts ici dépendent de votre configuration matérielle et logicielle propre. Si vous ne voyez pas votre interface audio dans les listes de ces sélecteurs, c'est probablement qu'elle nécessite l'installation d'un pilote pour être reconnue; consultez la documentation de son fabricant pour des détails.
+
+
+Divider.tif
+*Note:* Bien que CoreAudio permette d'utiliser deux périphériques différents pour l'entrée et la sortie, nous vous recommandons de sélectionner le même périphérique pour les deux afin d'éviter des problèmes potentiels.
+
+
+$Page Configuration des entrées et sorties
+$TargetName Configuring Ins and Outs
+
+Les boutons /Config. d'entrée/ et /Config. de sortie/ déterminent quelles entrées et sorties de l'interface peuvent être utilisées par $0, et si elles sont accessibles individuellement (mono), comme paires stéréo, ou les deux:
+ChannelConfigButtons_Mac.tif
+
+$If Product 01
+Divider.tif
+*Veuillez noter que Live LE est limité à quatre entrées mono et quatre sorties mono.*
+Divider.tif
+$Endif
+
+Les boutons ouvrent une fenêtre avec une paire de commutateurs On/Off pour chaque paire de canaux d'entrée ou de sortie disponible:
+InputConfigWindow.tif
+
+La colonne de commutateurs de droite active les paires de canaux pour l'emploi stéréo, tandis que la colonne de gauche les active pour l'emploi comme deux canaux mono indépendants.
+
+Si les entrées 1 et 2 sont toujours connectées à une platine tourne-disque, par exemple, vous n'aurez besoin d'accéder aux canaux 1 et 2 qu'en stéréo. A l'opposé, si les entrées 1 et 2 sont toujours connectées à des microphones, vous n'aurez besoin d'activer que le commutateur mono.
+
+Vous pouvez aussi activer les deux commutateurs pour que vous soyez libre de choisir la configuration la plus appropriée à tout moment. C'est utile pour les connexions qui changent fréquemment. Quand vous travaillez par exemple avec l'interface stéréo matérielle intégrée à l'ordinateur, vous pouvez enregistrer en mono depuis un microphone, puis faire de nouvelles connexions quelques minutes plus tard pour enregistrer en stéréo depuis une platine tourne-disque.
+
+Désactivez les /deux/ commutateurs pour toute entrée ou sortie que vous n'utilisez pas: désactiver les canaux inutilisés optimise les performances du processeur.
+
+Cliquez sur le bouton /OK/ une fois que vous avez configuré vos canaux d'entrée/sortie pour revenir aux Préférences audio.
+
+
+$Page Fixer la fréquence d'échantillonnage
+$TargetName Selecting the Sample Rate
+
+Le réglage /Fréquence d'échantillonnage d'E/S/ détermine la fréquence d'échantillonnage à laquelle fonctionnent $0 et votre interface audio. Sur certains périphériques audio, cette fréquence est fixe (généralement à 44100 Hz).
+SampleRate.tif
+
+Des clips audio ayant différentes fréquences d'échantillonnage peuvent être utilisés ensemble dans $0, car $0 accomplit une conversion de fréquence d'échantillonnage en temps réel. Toutefois, $0 enregistrera tous les nouveaux clips audio à la fréquence d'échantillonnage choisie ici.
+
+
+Divider.tif
+*Informations générales:* Le terme "fréquence d'échantillonnage" se réfère au nombre d'échantillons utilisés par seconde pour représenter numériquement un son. Une représentation numérique d'un son est toujours plus précise à une fréquence d'échantillonnage plus élevée. Malheureusement, les fréquences d'échantillonnage élevées sollicitent plus le processeur, car elles demandent plus de calculs (il y a plus d'échantillons à traiter) par seconde d'audio. La fréquence d'échantillonnage est de 44100 échantillons par seconde pour de l'audio de qualité CD; c'est généralement un réglage convenable du paramètre Fréquence d'échantillonnage d'E/S.
+
+
+$Page Emploi de la tonalité de test
+$TargetName Using the Test Tone
+
+Tout l'audio passant au travers de votre ordinateur est momentanément stocké dans des mémoires tampons ou /buffers/ - de petits réservoirs de son qui préservent le flux audio quand votre processeur doit porter attention à d'autres tâches. De grands buffers assurent un flux audio ininterrompu au prix d'une réponse lente du logiciel. De petits buffers donnent une réponse plus vive, mais risquent plus de se trouver "à court de données", interrompant le son ou le rendant saccadé.
+
+Le réglage /Taille de mémoire tampon/ vous permet de définir l'équilibre optimal entre réactivité et stabilité. Afin de trouver la valeur correcte pour votre système, nous demanderons à $0 de simuler le genre de situation sollicitant beaucoup le processeur qui survient quand beaucoup de pistes, instruments virtuels et effets sont en service.
+
+Repérez le paramètre /Volume de la tonalité/ en section /Test/ des Préférences audio de $0, et baissez-le complètement jusqu'à *-48 dB:*
+ToneVolumeMin.tif
+
+Réglez /Simulateur d'usage du processeur/ sur la valeur maximale de *80%:*
+CPUUsageSim.tif
+
+
+$Page Réglage de mémoire tampon
+$TargetName Adjusting the Buffer Size
+
+Activez la /Tonalité de test/ en cliquant sur son commutateur:
+TestTone.tif
+
+A ce point, les choses peuvent commencer à ralentir, car la tonalité de test active aussi le simulateur d'usage du processeur.
+
+Montez lentement le volume de tonalité jusqu'à ce que vous entendiez clairement la tonalité de test. Puis, en section /Latence,/ réglez le paramètre /Taille de mémoire tampon/ sur sa valeur la plus basse:
+BufferSize.tif
+
+Vous entendrez probablement des clics et des saccades dans la tonalité de test produite. Augmentez lentement la taille de la mémoire tampon jusqu'à disparition des clics et des saccades. Trouvez une valeur juste assez haute pour que le signal passe sans perturbations. Notez que vous pouvez aussi utiliser les touches flèche de votre clavier pour régler le curseur après l'avoir sélectionné à la souris.
+
+Une fois que vous avez trouvé un réglage stable, vous pouvez désactiver la tonalité de test.
+
+
+Divider.tif
+/Note:/ L'activité du disque dur peut imposer des contraintes supplémentaires quant à la taille minimale de mémoire tampon. En cas de saccades lors de la lecture ou de l'enregistrement de multiples pistes audio, vous devrez probablement choisir une taille de mémoire tampon un peu plus élevée.
+
+
+$Page Facteurs liés
+$TargetName Related Factors
+
+Il reste encore un facteur à régler: la /compensation d'erreur du pilote./
+Latency.tif
+
+Ce réglage ne concerne que ceux d'entre vous qui enregistrent de l'audio dans $0. Nous vous recommandons de d'abord apprendre les bases en suivant la leçon $Link Enregistrement audio <Lesson:Builtin/1-Live Basics Category/2-Recording Audio>; puis, si nécessaire, vous pouvez suivre la leçon $Link Compensation d'erreur de pilote <Lesson:Builtin/3-Hardware Setup Category/2-Driver Error Compensation> pour faire précisément ce réglage.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

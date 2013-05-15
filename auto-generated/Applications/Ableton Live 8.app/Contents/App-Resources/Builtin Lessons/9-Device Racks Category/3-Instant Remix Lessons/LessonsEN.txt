@@ -1,0 +1,102 @@
+$Page Instant Remix
+$TargetName Instant Remix
+$ListInTocForProduct 00
+
+Our Racks lessons so far have discussed various types of playable Instrument Racks. In this lesson, you'll learn how Effects Racks process audio signals. Along the way, you'll also learn a bit more about the /Chain Selector/ and how to modulate it to quickly reroute audio within a track's device chain. This can be useful for drastic, on-the-fly sound manipulation.
+
+Divider.tif
+*This lesson is accompanied by a Live Set which you'll be interacting with as you follow the lesson. Whenever you're ready, please click $Link here <Set:/Sets/Instant Remix.als> to load the Live Set.*
+Divider.tif
+
+
+Once you've loaded the set, please click the /Next Page/ button below to continue.
+
+$Comment --------------------------------------------------------------------------------
+$Page What's in this Set?
+$TargetName What's in this Set?
+
+This set contains a track, called *Drums,* which contains a single clip. Press the *space bar* to launch this clip and listen for a while. As it's playing, we'll take a look at our devices to figure out what's happening in this track.
+
+First, let's trace the signal flow from left to right. The track contains a /Drum Rack/ which feeds into a /Compressor,/ then into an /Audio Effect Rack/ (which we've named *Beat Repeats),* and finally into another Compressor.
+
+If you toggle the /Device Activator/ to turn off the Beat Repeats Rack, the compressed Drum Rack signal simply passes through this Rack unprocessed and into the second Compressor.
+DrumsRackActivator.tif
+
+When you do this, you're left with a fairly simple, 2-bar loop. Clearly the interest in this collection of devices is in the *Beat Repeats* Rack. Let's look inside to see how it works...
+
+$Comment -------------------------------------------------------------------------------
+$Page Beat Repeats
+$TargetName Beat Repeats
+
+You can see from the /Chain List/ in the *Beat Repeats* Rack that we're dealing with five chains. Let's turn the Rack back on and solo each chain, one at a time, to hear how they contribute to the overall output.
+DrumsChainSolos.tif
+
+You can hear that each chain is performing a different kind of signal processing. Now click the Rack's /Show Devices/ button to see the contents of each chain.
+ShowDevices.tif
+
+You can see that each chain contains two devices - a /Beat Repeat,/ followed by one other effect that is unique to that chain. The Beat Repeat effects serve to repeat short, rhythmically-controlled portions of incoming audio, while the effects after them provide additional sound mangling.
+
+But in addition to providing unique processing, each chain is also only active at specific times. You probably heard this when you were soloing the chains, and you can also see it by looking at the chain input levels.
+DrumsChainInputLevels.tif
+
+These flicker on and off, showing the level that is present at the input of the chain /after/ it has been filtered by the /Chain Select Editor./ Click on the *Chain* button to open the editor so you can examine what's happening...
+DrumsChainSelectEditor.tif
+
+$Comment -------------------------------------------------------------------------------
+$Page More About the Chain Selector
+$TargetName More About the Chain Selector
+With the Chain Select Editor open, you can now see that the /Chain Selector/ is changing position as the clip plays, which causes chains to activate and deactivate depending on whether or not their zones overlap with the Chain Selector position at any moment. For an even more in-depth visual indicator of this behavior, you can click on the *Auto* button above the Chain List.
+DrumsChainAuto.tif
+
+With Auto enabled, any chain that can process signals becomes selected. This can be very helpful in diagnosing signal flow problems with complex chains.
+
+The motion of the Chain Selector is the result of an /automation envelope,/ which can be seen below the clip in the /Arrangement View./ This envelope represents the modulation of the Chain Selector over time. Because we're zoomed out so far, it's difficult to see the envelope's shape. Try zooming in by moving the mouse above the /Beat Time Ruler/ until the cursor becomes a magnifying glass:
+ZoomCursor.tif
+
+Then click and drag downward to zoom in. As you do so, you'll begin to see the individual breakpoints that make up the envelope.
+LaneZoom.tif
+
+As playback crosses these positions, the Chain Selector snaps to the locations defined by the breakpoints.
+
+Try dragging some of the breakpoints around to hear how this changes the sound of the playback. You can also draw your own envelope curve by pressing *$CommandMod-B* or clicking the *Draw Mode Switch.*
+DrawButton.tif
+
+*Note* -This envelope actually loops fairly regularly, but it does so at a rate different from that of the notes in the clip. In fact, the clip start and the envelope start only sync up once every 102 bars, which is the length of our Arrangement loop. Combining uneven loops like this is a way of generating large-scale variation with small-scale materials.
+
+$Comment -------------------------------------------------------------------------------
+$Page Overriding Automation
+$TargetName Overriding Automation
+
+Divider.tif
+For this part of the lesson, you will need to use a control surface with knobs and/or faders. Please see the $Link Connecting MIDI Controllers <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers> lesson for help with configuration.
+Divider.tif
+
+To enable more hands-on control of the chain selector, you can assign a MIDI controller to modulate it instead of the envelope. To do this, press *$CommandMod-M* or click the *MIDI Map Mode Switch* to enter MIDI Map Mode.
+MIDIMapButton.tif
+
+To enable the Chain Selector for MIDI mapping, click somewhere in the /chain select ruler./ The thin black borders at the corners indicate that it is now waiting for a MIDI controller assignment.
+ChainSelectRuler.tif
+
+Move a knob or fader on your MIDI controller to complete the mapping. Now exit MIDI Map Mode by pressing *$CommandMod-M* or clicking the MIDI Map Mode Switch again.
+
+As soon as you move the assigned MIDI controller, the automation envelope will be disabled and you will have manual control of the Chain Selector. Notice that the /Back to Arrangement/ button lights up to indicate that the playback state is no longer being controlled by the Arrangement.
+BackToArrangement.tif
+
+To return control to the Arrangement, simply click this button. This will re-enable the Chain Selector's envelope.
+
+$Comment -------------------------------------------------------------------------------
+$Page Where to Go From Here?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> You've now learned about using the Chain Selector to switch quickly between device chains in order to quickly reroute audio signals. You've also seen an example of automation, as well as MIDI controller assignment.
+
+-> Try assigning /Macro Controls/ to some of the parameters in the effects devices within the Beat Repeats chains. By modulating those as the Chain Selector switches chains, you can explore even deeper sound design possibilities.
+
+-> Instead of a knob or fader, try mapping the Chain Selector to a range of keys on your MIDI keyboard. This way, you can instantly switch between any two chains, rather than having to scroll through them in order.
+
+-> Try changing the length of the looped automation envelope, as well as the positions of the breakpoints themselves. Even small changes in the relationship between the clip and envelope lengths can have a dramatic effect on the overall sound.
+
+-> Try replacing the effects devices with others, or even adding additional effects chains. Applying the original envelope to completely different devices can have a radical effect on the output.
+
+$Comment Status: Translate

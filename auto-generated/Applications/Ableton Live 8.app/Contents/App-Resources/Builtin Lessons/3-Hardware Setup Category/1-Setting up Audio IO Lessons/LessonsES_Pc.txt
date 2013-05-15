@@ -1,0 +1,258 @@
+$Page Configuración de E/S de Audio
+$TargetName Setting Up Audio I/O
+$Comment Windows Version
+
+En esta lección, configuraremos y optimizaremos el /audio I/O/ de $0 (sus capacidades de /entrada/ y /salida/ de audio). Nos llevará unos diez minutos el configurarlo todo, pero este proceso sólo es necesario realizarlo una vez para cada interfaz de audio que utilice.
+
+Cuando acabemos, habremos conseguido lo siguiente:
+
+-> Seleccionar un tipo de controlador;
+-> Elegir dispositivos de entrada y salida;
+-> Configurar entradas y salidas;
+-> Seleccionar la frecuencia de muestreo;
+-> Ajustar el tamaño del búfer de E/S de audio.
+
+
+Por favor pulse el botón /Página siguiente/ en la parte inferior para proceder.
+
+$Comment --------------------------------------------------------------------------------
+$Page Abriendo las Preferencias de Audio
+$TargetName Opening the Audio Preferences
+
+Las configuraciones de entrada/salida de audio se encuentran en las /Preferencias de Audio/ de $0. Puede llegar a estas seleccionando la entrada *Preferencias...* desde el menú /Opciones,/ o usando el atajo de teclado *$CommandMod + ,* ($CommandMod + comma).
+PrefsMenuPC.tif
+
+Cuando se abra la ventana Preferencias, seleccione la /pestaña Audio./
+AudioTabFull_Mac.tif
+
+
+Divider.tif
+*Consejo:* Quizás sea mejor arrastrar la ventana Preferencias a otra ubicación en su pantalla para que no quede oculta por la ventana principal de $0 a medida que seguimos la lección. Si la pierde, simplemente pulse el atajo *$CommandMod + ,* de nuevo para traerla a primer plano.
+
+$Comment --------------------------------------------------------------------------------
+$Page Seleccionando el tipo de controlador
+$TargetName Selecting the Driver Type
+
+Las configuraciones del /dispositivo de Audio/ se refieren a los interfaces de audio físicos que o bien vienen ya instalados en su ordenador o están conectados a este externamente. $0 se comunica con los dispositivos de audio a través de un programa software denominado /controlador./ En nuestro primer paso, utilizaremos el selector /Tipo de controlador/ para indicarle a $0 qué controlador vamos a usar.
+DeviceTypeWindows.tif
+
+$0 soporta dos tipos de controladores de Windows:
+
+-> *ASIO:* Esta es la selección preferida para audio profesional. Si hay un controlador ASIO disponible en el selector Tipo de controlador, por favor selecciónelo (a menos que otra entrada se adecúe mejor a su configuración) y *sáltese* la discusión sobre MME/DirectX pulsando $Link aquí <GotoPage:Setting up Live for ASIO>. Si no hay un controlador ASIO disponible para el interfaz de audio que está usando (el interfaz de audio incorporado del portátil, por ejemplo), puede que le interese intentar instalar un /ASIO wrapper/ como $Link ASIO4ALL <http://www.asio4all.com/>.
+
+-> *MME/DirectX:* Este es el tipo de controlador por defecto. Tenga en cuenta que cuando esté usando MME/DirectX, sólo se puede acceder a una entrada y una salida estéreo de su interfaz de audio, incluso aunque el mismo interfaz tenga capacidades multicanal. Si necesita utilizar un controlador MME/DirectX, por favor pulse sobre el botón /Página siguiente/ de abajo para continuar.
+
+$Comment --------------------------------------------------------------------------------
+$Page Selección del dispositivo de audio
+$TargetName Selecting the Audio Device
+
+Una vez haya seleccionado un tipo de controlador, podrá especificar las entradas y salidas usando los selectores /Dispositivo de entrada de audio/ y /Dispositivo de salida de audio:/
+InAndOutAudioDeviceChoosersDirectXMme.tif
+
+Las posibles opciones aquí dependerán de su configuración de hardware y software específica. La mayoría de interfaces de audio tienen disponibles ambas opciones /DirectX/ y /MME,/ siendo usualmente DirectX la mejor elección.
+
+Si no ve su interfaz de audio en las listas de estos selectores, probablemente se requiera una instalación del controlador antes de que pueda ser reconocido; compruebe la documentación del fabricante para más detalles.
+
+
+Divider.tif
+*Nota:* Aunque $0 le permite seleccionar dos dispositivos diferentes de entrada y salida, le recomendamos que elija el mismo dispositivo para ambos y evitar así problemas.
+
+$Comment --------------------------------------------------------------------------------
+$Page Configuración de Entradas y Salidas
+$TargetName Configuring Ins and Outs
+
+Los botones /Input Config/ y /Output Config/ determinan cual de las entradas y salidas del interfaz puede usar $0, y si se puede acceder a estas individualmente (mono), como pares estéreo, o ambos:
+ChannelConfigButtons_Pc.tif
+
+$If Product 01
+Divider.tif
+*Por favor tenga en cuenta que hay un límite de cuatro entradas mono y cuatro salidas mono en Live LE.*
+Divider.tif
+$Endif
+
+Los botones abren una ventana con un par de conmutadores On/Off para cada par de canales de entrada o salida disponibles:
+InOutConfigurationExampleDirectXMme.tif
+
+La columna de conmutadores de la derecha activa los pares de canales para su uso en estéreo, mientras que la columna de la izquierda los activa para usarlos como dos canales mono independientes.
+
+Puesto que los controladores MME/DirectX sólo permiten el acceso a un par I/O, tiene sentido el dejar ambos interruptores activados de forma que usted tiene libertad para elegir la configuración más apropiada en cualquier momento.
+
+Pulse sobre el botón /OK/ una vez haya configurado sus canales de E/S para regresar a las Preferencias de Audio.
+
+$Comment --------------------------------------------------------------------------------
+$Page Selección de la frecuencia de muestreo
+$TargetName Selecting the Sample Rate
+
+La configuración de la /frecuencia de muestreo de E/S/ determina la frecuencia de muestreo en la que operarán tanto $0 como el interface de audio. Dependiendo del dispositivo de audio seleccionado, esta frecuencia puede ser fija (usualmente a 44,100 Hz).
+SampleRate.tif
+
+Los clips de Audio con diferentes frecuencias de muestreo pueden usarse juntos en $0, puesto que $0 realiza una conversión de la frecuencia de muestreo en tiempo real. No obstantes, $0 grabará todos los nuevos clips de audio a la frecuencia de muestreo que se elija aquí.
+
+
+Divider.tif
+*Información sobre el tema:* El término "sample rate" o frecuencia de muestreo se refiere al número de muestras por segundo que se usan para representar un sonido digitalmente. Una representación digital de un sonido siempre es más precisa cuanto mayor sea la frecuencia de muestreo. Por desgracia, las altas frecuencias de muestreo requieren un mayor uso de la CPU, puesto que requieren realizar más cálculos (hay más muestas para procesar) por segundo sobre el audio. La frecuencia de muestreo para una calidad de audio de CD es de 44,100 muestras por segundo; esta es usualmente una configuración de frecuencia de muestreo adecuada.
+
+$Comment --------------------------------------------------------------------------------
+$Page Uso del Tono de prueba
+$TargetName Using the Test Tone
+
+Todo el audio que pasa por su ordenador se almacena temporalmente en /búfers/ - pequeños contenedores de sonido que mantienen el flujo de audio cuando su CPU necesita poner atención en otras tareas. Los búfers grandes aseguran un flujo de audio ininterrumpido a costa de una respuesta "lenta" por parte del software. Los búfers pequeños proporcionan una respuesta más rápida, pero es más probable que se "queden secos," interrumpiendo o destruyendo su sonido.
+
+Las configuraciones de /tamaño de búfer/ le permiten definir el balance óptimo entre respuesta y estabilidad. Para encontrar el valor correcto para su sistema, haremos que $0 simule el tipo de situación intensiva sobre la CPU que surge cuando se usan muchas pistas, instrumentos y efectos virtuales a la vez.
+
+Localice el parámetro /volumen del tono/ en la sección /Test/ de las Preferencias de audio de $0, y bájelo a tope hasta *-48 dB:*
+ToneVolumeMin.tif
+
+Ajuste el /Simulador de uso de la CPU/ al valor máximo de *80%:*
+CPUUsageSim.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Ajuste del tamaño de búfer de salida
+$TargetName Adjusting the Output Buffer Size
+
+Active el /Tono de prueba/ pulsando sobre su interruptor:
+TestTone.tif
+
+En este punto, puede que las cosas comiencen a ralentizarse, ya que el Test Tone también activa el Simulador de uso de la CPU.
+
+Aumente lentamente el Tone Volume hasta que pueda oir claramente el tono de prueba. Luego, en la sección /Latencia,/ ajuste el control /Tamaño del bufer de salida/ a su valor menor valor:
+OutputBufferSizeControlDirectXMme.tif
+
+Probablemente escuchará clics o caídas del audio en la salida del Test Tone. Aumente lentamente el tamaño del búfer hasta que se paren los clics o las caidas de audio. Encuentre un valor lo bastante alto para que la señal pase sin ser alterada. Tenga en cuenta que puede también utilizar las teclas de cursor de su telado para ajustar el deslizador tras seleccionarlo con el ratón.
+
+Una vez haya encontrado un ajuste estable, puede desactivar de nuevo el interruptor de Tono de prueba.
+
+
+Divider.tif
+/Nota:/ La actividad del disco duro puede imponer restricciones adicionales sobre el tamaño mínimo del búfer. Si el sonido se corta mientras reproduce o graba múltiples pistas de audio, probablemente debería elegir un tamaño de búfer ligeramente superior.
+
+$Comment --------------------------------------------------------------------------------
+$Page Ajuste del tamaño de búfer de entrada I
+$TargetName Adjusting the Input Buffer Size I
+
+Nuestro próximo objetivo será ajustar el /tamaño de búfer de entrada./ Para esto, alimentaremos $0 con una señal externa y encontraremos una configuración de tamaño de búfer de entrada lo bastante alto para que la señal pase sin ser alterada.
+
+Por favor cree un nuevo Live Set seleccionando *Nuevo Live Set* desde e menú /Archivo./ Tenga en cuenta que no tiene que cerrar la ventana Preferencias para hacer esto, pero querrá tener un acceso claro a la pista *1 Audio:*
+TrackOneInSessionMixer.tif
+
+Ahora conecte una fuente de señal externa, como un micro, un reproductor de CDs, o un teclado a las entradas por defecto de su interfaz de audio (usualmente las entradas 1 y 2).
+
+$Comment --------------------------------------------------------------------------------
+$Page Ajuste del tamaño de búfer de entrada II
+$TargetName Adjusting the Input Buffer Size II
+
+Active el botón /Armar/ que se encuentra en la sección del mezclador de *1 Audio* (Si el mezclador de Session no está visible, puede activarlo en el menú /Vista./
+TrackOneArmOn.tif
+
+$0 ahora está dejando pasar la señal de entrada por la salida de esta pista. Introduzca una señal constante en $0; Debería poder oir cualquier señal que entrase en el interfaz de audio, y el medidor de nivel de la pista debería reflejar el nivel de esta señal.
+
+Mientras se monitoriza la señal de entrada, ajuste el Tamaño de búfer de entrada a su menor valor:
+InputBufferSizeControlDirectXMme.tif
+
+Probablemente escuchará clics y caidas en el flujo audio. Aumente lentamente el valor del tamaño de búfer de entrada hasta que la señal de entrada pase a través sin ser modificada en modo alguno.
+
+$0 está ahora configurado para usar el controlador MME/DirectX de su interfaz de audio. Las siguientes páginas cubren las configuraciones de ASIO que por ahora $Link puede saltarse <GotoPage:Related Settings>.
+
+$Comment --------------------------------------------------------------------------------
+$Page Configuración de Live para ASIO
+$TargetName Setting up Live for ASIO
+
+DriverTypeAsio.tif
+
+Ahora que ha seleccionado *ASIO* desde el selector tipo de controlador, podrá especificar su interfaz de audio en el selector /Dispositivo de Audio:/
+DeviceChooserAsio.tif
+
+Si no ve su interfaz de audio en la lista, probablemente necesite que se instale el controlador antes de que pueda ser reconocido; compruebe la documentación del fabricante para más detalles.
+
+$Comment --------------------------------------------------------------------------------
+$Page Configuración de Entradas y Salidas
+$TargetName Configuring Ins and Outs
+
+Los botones /Input Config/ y /Output Config/ determinan cual de las entradas y salidas del interfaz puede usar $0, y si se puede acceder a estas individualmente (mono), como pares estéreo, o ambos:
+InOutConfigurationButtons.tif
+
+Los botones abren una ventana con un par de conmutadores On/Off para cada par de canales de entrada o salida disponibles:
+InOutConfigurationExample.tif
+
+La columna de conmutadores de la derecha activa los pares de canales para su uso en estéreo, mientras que la columna de la izquierda los activa para usarlos como dos canales mono independientes.
+
+Si las entradas 1 y 2 están siempre conectadas a un giradiscos, por ejemplo, sólo necesitará acceder a los canales 1 y 2 en estéreo. Por otra parte, si las entradas 1 y 2 están siempre conectadas a micrófonos, sólo será necesario activar el conmutador mono.
+
+También puede activar ambos conmutadores de forma que puede elegir la configuración más apropiada para cualquier momento. Esto es útil para conexiones que cambian frecuentemente. Cuando trabaje con el interfaz hardware de audio estéreo incluido en el ordenador, por ejemplo, puede grabar desde un micro en mono, y unos minutos más tarde volver a conectar para grabar en estéreo desde un giradiscos.
+
+Desactive /ambos/ conmutadores para cualquier entrada o salida que no use: Al desactivar canales no utilizados se optimiza el rendimiento de la CPU.
+
+Pulse sobre el botón /OK/ una vez haya configurado sus canales de E/S para regresar a las Preferencias de Audio.
+
+$Comment --------------------------------------------------------------------------------
+$Page Configuración del hardware ASIO
+$TargetName ASIO Hardware Setup
+
+Pulsando sobre el botón /Configuración de Hardware/ se abrirá el /panel de control ASIO/ de su interfaz de audio:
+AsioHardwareSetup.tif
+
+El panel de control ASIO ha sido creado por el fabricante de su interfaz de audio, y por lo tanto será diferente en cada dispositivo. En la mayoría de los casos mostrará un parámetro denominado "Latency" o "Buffer Size," para el que ahora encontraremos valores apropiados.
+
+
+Divider.tif
+/Nota:/ Los paneles de control de algunos dispositivos ASIO no son accesibles desde el interior de $0. En vez de esto, puede que sólo sean accesibles mediante un icono en la barra de tareas o en otra aplicación. Para empeorar las cosas, algunos dispositivos no permitirán que $0 y el panel de control accedan al hardware de audio al mismo tiempo. Esto significa que para cambiar una configuración del hardware, deberá seleccionar temporalmente *No Device* desde el selector de dispositivo de Audio. Afortunadamente, no tendrá que realizar este proceso con frecuencia.
+NoAudioDevice.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Selección de la frecuencia de muestreo
+$TargetName Selecting the Sample Rate
+
+La configuración de la /frecuencia de muestreo de E/S/ determina la frecuencia de muestreo en la que operarán tanto $0 como el interface de audio. Dependiendo del dispositivo de audio seleccionado, esta frecuencia puede ser fija (usualmente a 44,100 Hz).
+SampleRate.tif
+
+Los clips de Audio con diferentes frecuencias de muestreo pueden usarse juntos en $0, puesto que $0 realiza una conversión de la frecuencia de muestreo en tiempo real. No obstantes, $0 grabará todos los nuevos clips de audio a la frecuencia de muestreo que se elija aquí.
+
+
+Divider.tif
+*Información sobre el tema:* El término "sample rate" o frecuencia de muestreo se refiere al número de muestras por segundo que se usan para representar un sonido digitalmente. Una representación digital de un sonido siempre es más precisa cuanto mayor sea la frecuencia de muestreo. Por desgracia, las altas frecuencias de muestreo requieren un mayor uso de la CPU, puesto que requieren realizar más cálculos (hay más muestas para procesar) por segundo sobre el audio. La frecuencia de muestreo para una calidad de audio de CD es de 44,100 muestras por segundo; esta es usualmente una configuración de frecuencia de muestreo adecuada.
+
+$Comment --------------------------------------------------------------------------------
+$Page Uso del Tono de prueba
+$TargetName Using the Test Tone
+
+Todo el audio que pasa por su ordenador se almacena temporalmente en /búfers/ - pequeños contenedores de sonido que mantienen el flujo de audio cuando su CPU necesita poner atención en otras tareas. Los búfers grandes aseguran un flujo de audio ininterrumpido a costa de una respuesta "lenta" por parte del software. Los búfers pequeños proporcionan una respuesta más rápida, pero es más probable que se "queden secos," interrumpiendo o destruyendo su sonido.
+
+Las configuraciones de /tamaño de búfer/ le permiten definir el balance óptimo entre respuesta y estabilidad. Para encontrar el valor correcto para su sistema, haremos que $0 simule el tipo de situación intensiva sobre la CPU que surge cuando se usan muchas pistas, instrumentos y efectos virtuales a la vez.
+
+Localice el parámetro /volumen del tono/ en la sección /Test/ de las Preferencias de audio de $0, y bájelo a tope hasta *-48 dB:*
+ToneVolumeMin.tif
+
+Ajuste el /Simulador de uso de la CPU/ al valor máximo de *80%:*
+CPUUsageSim.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Ajuste del tamaño del búfer
+$TargetName Adjusting the Buffer Size
+
+Active el /Tono de prueba/ pulsando sobre su interruptor:
+TestTone.tif
+
+En este punto, puede que las cosas comiencen a ralentizarse, puesto que el tono de prueba también activa el simulador de uso de la CPU. Aumente lentamente el volumen del tono hasta que pueda oir claramente el tonode prueba.
+
+En el panel de control ASIO de su interfaz, ajuste el parámetro "tamaño de búfer" o "Latencia" a su menor valor. Probablemente escuchará clics o cortes en la salida del tono de prueba.
+
+Aumente lentamente el tamaño del búfer hasta que paren los clics o los cortes. Encuentre un valor lo bastante alto para que la señal pase sin ser alterada, luego cierre el panel de control ASIO. $0 mostrará el valor del tamaño de búfer que eligió:
+AsioBufferSizeLatency.tif
+
+Ahora ya puede desactivar el tono de prueba.
+
+
+Divider.tif
+/Nota:/ La actividad del disco duro puede imponer restricciones adicionales sobre el tamaño mínimo del búfer. Si el sonido se corta mientras reproduce o graba múltiples pistas de audio, probablemente debería elegir un tamaño de búfer ligeramente superior.
+
+$Comment --------------------------------------------------------------------------------
+$Page Ajustes relacionados
+$TargetName Related Settings
+
+Todavía queda un factor por afinar: /compensación de error del controlador./
+Latency.tif
+
+Este ajuste sólo es relevante para los que graban audio externo en $0. Recomendamos que primero aprendan los conceptos básicos siguiendo la lección $Link Grabación de Audio <Lesson:Builtin/1-Live Basics Category/2-Recording Audio>; y luego, si fuera necesario, puede seguir la lección $Link Compensación de error del controlador <Lesson:Builtin/3-Hardware Setup Category/2-Driver Error Compensation> para ajustar este con precisión.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

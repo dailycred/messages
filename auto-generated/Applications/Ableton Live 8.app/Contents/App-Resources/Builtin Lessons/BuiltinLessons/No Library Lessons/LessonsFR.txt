@@ -1,0 +1,14 @@
+$Page Bibliothèque non trouvée
+$TargetName Library Not Found
+
+-> Votre Bibliothèque se trouve-t-elle sur un disque dur externe qui n'est pas branché?
+
+-> Avez-vous renommé, déplacé ou supprimé votre dossier bibliothèque (Library)?
+
+-> Avez-vous supprimé le fichier Preferences de Live?
+
+Dans n'importe lequel de ces cas, vous pouvez définir le chemin d'accès à votre Bibliothèque en cliquant $Link ici <Pref:FileFolder> afin d'ouvrir l'onglet File/Folder dans les Préférences de $0. Puis utilisez le sélecteur /Emplacement de la Bibliothèque/ ou le bouton /Cherch/ qui se trouve à côté pour définir le chemin d'accès ou créer une nouvelle Bibliothèque:
+LibraryLocation.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

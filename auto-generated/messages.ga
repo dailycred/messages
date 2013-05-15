@@ -1,0 +1,86 @@
+Application.NoSuchClient=Níl aon cliant le haghaidh id% s.
+Application.NoSuchApp=Níl aon app le haghaidh id% s.
+Application.NoClientProvided=Tabhair do ID cliant le d&#39;iarratas.
+Application.NoRedirectProvided=Tabhair atreorú le d&#39;iarratas OAuth. <br/> <b>Forbróirí:</b> a chur ar fáil do URI callback ag baint úsáide as an paraiméadar <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> nó ag leagan síos callback réamhshocraithe i <a href="https://www.dailycred.com/admin/setup">do socruithe chuntas</a> .
+Application.EnterEmailOrUsername=Cuir isteach do r-phost nó ainm úsáideora.
+Application.EnterEmail=Cuir isteach do r-phost.
+Application.EnterUsername=Cuir isteach do ainm úsáideora.
+Application.EnterPassword=Cuir isteach do phasfhocal.
+Application.AtNotAllowed=An tsiombail &quot;@&quot; ní féidir a úsáid i do ainm úsáideora.
+Application.WrongPasswordOrUsername=Déan seiceáil ar do ainm úsáideora agus do phasfhocal agus bain triail eile as. <a href="%s">Chun do phasfhocal a athshocrú cliceáil anseo.</a>
+Application.BadDomain=An bhfearann ​​&quot;% s&quot; nach bhfuil bailí.
+Application.BadEmail=Seiceáil le do thoil dheimhniú go ndearnadh do r-phost i gceart agus déan iarracht eile.
+Application.BadNewEmail=Seiceáil le do thoil dheimhniú go ndearnadh do r-phost nua i gceart agus déan iarracht eile.
+Application.PasswordTooShort=Cuir isteach focal faire le ar a laghad% d litreacha.
+Application.NoCallbackUri=Nach bhfuil% s shocrú le URI callback fóill. Déan iarracht arís ar ball.
+Application.EmailTaken=Is é seo an ríomhphost in úsáid cheana féin.
+Application.UsernameTaken=Tá an ainm úsáideora glactha cheana. Bain úsáid as a hainm úsáideora eile.
+Application.EmailSent=Tá r-phost a sheoladh. Déan seiceáil ar do r-phost le haghaidh treoracha breise.
+Application.EmailSentGmail=Tá r-phost a sheoladh. <a href="http://mail.google.com/">Déan seiceáil ar do Gmail le haghaidh treoracha breise.</a>
+Application.GoToGmail=Téigh go dtí do bhosca Gmail
+Application.EmailSentYahoo=Tá r-phost a sheoladh. <a href="http://mail.yahoo.com/">Déan seiceáil ar do Yahoo! Ríomhphost le haghaidh treoracha breise.</a>
+Application.GoToYahoo=Téigh go dtí do bhosca Yahoo
+Application.EmailSentHotmail=Tá r-phost a sheoladh. <a href="http://www.hotmail.com/">Déan seiceáil ar do Hotmail le haghaidh treoracha breise.</a>
+Application.GoToHotmail=Téigh go dtí do bhosca Hotmail
+Application.EmailSentICloud=Tá r-phost a sheoladh. <a href="https://www.icloud.com/#mail">Déan seiceáil ar do iCloud Mail le haghaidh treoracha breise.</a>
+Application.GoToICloud=Téigh go dtí do iCloud bhosca
+Application.NoSuchEmail=Níl aon úsáideoir le haghaidh% s ríomhphost.
+Application.NoSuchUser=Níl aon úsáideoir le haghaidh id% s.
+Application.NoSuchUserFriendly=Ní raibh muid ábalta teacht ar cuntas úsáideora do ríomhphost seo nó ainm úsáideora. Bain triail as arís.
+Application.NoSuchToken=Tharla earráid agus tú ag síniú i do chuntas. Bain triail eile as go luath.
+Application.PasswordResetInvalid=Is é an t-iarratas phasfhocal a athshocrú neamhbhailí nó gan aimsiú. Déan iarracht resetting d&#39;fhocal faire arís.
+Application.PasswordUpdated=Tá do phasfhocal tugtha cothrom le dáta.
+Application.APIWrongPassword=Déan seiceáil ar do phasfhocal agus bain triail eile as.
+Application.APIError=Tharla earráid gan choinne. Bain triail as arís.
+Application.APIBadToken=Neamhbhailí chomhartha rochtain OAuth.
+Application.APINoToken=Ní mór chomhartha rochtain ghníomhach a úsáidtear chun eolas an úsáideora reatha a cheistiú.
+Application.APIBadCode=Neamhbhailí cód OAuth.
+Application.TimeOut=Sin cosúil le bheith ag cur ró-fhada. Bain triail eile as go luath.
+Application.BadURL=Ní hé seo an URL bailí. Ní mór an réimse go lánaimseartha, URL neamh-coibhneasta, cosúil le https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Tá an réimse seo ar fad uasta de 200 carachtar. Bain úsáid as rud éigin níos giorra.
+Application.NoStripeKey=Níor aimsíodh Stripe API Key. Socraigh do eochair API Stripe ar do <a href="https://dailycred.com/admin/setup">thus</a> leathanach.
+Application.OAuthCallBackNotInDomain=Níl an redirect_uri fáil ceadaithe ag socruithe an chuntais seo chliaint.
+Application.CNameNotValidDomain=Ní dhéanann an cname fáil dealraitheach a bheith ina bhfearann ​​bailí.
+Application.Required=Is é seo an réimse riachtanach.
+Application.LogoFileTooLarge=Sáraíonn an comhad teorainn ar mhéid.
+Application.LogoFileIsNotImage=Níl an cineál comhaid bailí. Amháin PNG, JPG agus GIF a cheadaítear.
+Application.NoClientSecret=Ní mór duit a shonrú paraiméadar client_secret ina bhfuil do eochair rúnda Dailycred.
+Application.InvalidClientSecret=Is é seo an eochair rúnda neamhbhailí Dailycred.
+Application.MissingRequiredFields=Breathnaíonn sé cosúil go bhfuil tú ag iarraidh réimsí riachtanacha cúpla. Le do thoil téigh go dtí do <a href="/admin/setup">thus</a> leathanach a fháil ar bun.
+Application.CouldNotUnsubscribe=Tá brón orainn, mar gheall ar earráid theicniúil ní raibh muid ábalta dhíliostáil tú go díreach ó an nasc seo. Bain triail eile as, nó <a href="mailto:support@dailycred.com">déan teagmháil linn go díreach</a> chun a chur as oifig.
+Application.Unsubscribed=Bhí tú ag díliostáil. Tá brón orainn a fheiceáil a théann tú!
+Application.Subscribed=Tá tú suibscríofa. Go raibh maith agat!
+Application.CouldNotSubscribe=Tá brón orainn, mar gheall ar earráid theicniúil ní raibh muid ábalta síntiús a íoc leat go díreach ón nasc seo. Bain triail eile as, nó <a href="mailto:support@dailycred.com">déan teagmháil linn go díreach</a> a chur leis.
+Application.AdminsCantUnsubscribe=Ní féidir Admhaíonn díliostáil óna gcuntas féin.
+Application.EmailIsSame=Is é an r-phost nua mar an gcéanna do r-phost faoi láthair.
+Application.EmailOnlyUserNotAllowed=Ní chiallaíonn sé seo app tacú le húsáideoirí ríomhphost amháin.
+Application.EmailChangeSuccess=Tá do r-phost a athrú go% s. Cuir breathnú ar an ríomhphost deimhnithe agus a fhíorú do sheoladh nua.
+Application.EmailVerifySuccess=Tá an% s ríomhphost a fhíorú.
+Application.PostOnly=Ní mór an iarraidh sin a dhéanamh ag baint úsáide as <b>iarratas POST HTTP.</b> <br/><br/> Má tá tú ag seiceáil díreach amach an API, molaimid ag baint úsáide as curl nó <a target="_blank" href="http://hurl.it/">camán</a> .
+Application.StripeTrialEnd=A <a href="https://www.dailycred.com/admin/user/%s">úsáideoir</a> Tá triail go bhfuil ar tí deireadh. Ba chúis leis an ríomhphost seo trí webhook Stripe.
+Application.StripePaymentSucceeded=A <a href="https://www.dailycred.com/admin/user/%s">úsáideoir</a> Cúisíodh go rathúil. Ba chúis leis an ríomhphost seo trí webhook Stripe.
+Application.StripePaymentFailed=A <a href="https://www.dailycred.com/admin/user/%s">úsáideoir</a> Cúisíodh nár éirigh leis. Ba chúis leis an ríomhphost seo trí webhook Stripe.
+Application.BillingError=Tharlaigh botún éigin nuair a iarraidh a leagan amach do chuid faisnéise billeála. Bain triail eile as momentarily.
+Application.TrialWillEnd=Tá do triail saor in aisce leis Dailycred faoi go deireadh ar% s. Tabhair cuairt ar do <a href="https://www.dailycred.com/admin/settings/billing">leathanach billeála</a> chun cosc a chur ar do chuntas ó bheith deactivated.
+Application.TrialWillEndLong=Do triail saor in aisce leis DailyCred chríochnaíonn go luath ar% s. <br><br> Chun a choinneáil do chuntas gníomhach, tabhair cuairt ar do <a href="https://www.dailycred.com/admin/settings/billing">leathanach billeála</a> chun athbhreithniú a dhéanamh ar na <a href="https://www.dailycred.com/pricing">pleananna ar chostas íseal</a> agus cuir isteach sonraí íocaíochta lá atá inniu ann.
+Application.CannotRemoveActiveCard=Ní féidir leat a bhaint do modh billeála gníomhach. Más mian leat a chur ar ceal do support@dailycred.com r-phost san áireamh le d&#39;uimhir chuntais.
+Application.StateCheckFailed=Tá an achainí ar iarraidh an paraiméadar stáit. Bain triail as arís.
+Application.UnexpectedError=Tá brón orainn, tharla earráid gan choinne. Bain triail as arís.
+Application.UserAnotherIdentityProvider=Dealraíonn sé go bhfuil tú ag baint úsáide as cuntas% s. <a href="%s">Cliceáil anseo chun ceangal ag baint úsáide as% s</a> nó <a href="%s">cliceáil anseo pasfhocal a shocrú</a> .
+Application.APIKeyNotFound=API eochair gan aimsiú. Socraigh eochair API for an soláthraí aitheantais ar do <a href="https://www.dailycred.com/admin/settings">leathanach suímh</a> .
+Application.ForeignIDAlreadyRegistered=Ní fhéadfadh muid a nascadh an gcuntas seo toisc go bhfuil foreignID% s le haghaidh% s soláthraí bhaineann cheana féin le úsáideora% s.
+Application.TwitterCallbackURLIncorrect=Seiceáil do <a href="https://dev.twitter.com/apps">socruithe Twitter iarratais ar</a> . Ní féidir le do App URL callback a bheith folamh. (Is féidir é a bheith ar aon URL bailí.)
+Application.ThankYouForSigningUp=Go raibh maith agat as síniú suas le haghaidh% s!
+Application.ThankYouForSigningUpNoClient=Go raibh maith agat as síniú suas!
+Application.CannotDeleteLastApp=Ní féidir scriosadh: Ní mór do chuntas a bheith App amháin ar a laghad.
+Application.CouldNotSendEmail=Tá brón orainn, bhí fadhb a sheoladh go r-phost. Bain triail eile as go luath.
+Application.EmailVerificationRequiredSignUp=Ní mór duit a dheimhniú do r-phost roimh an síniú suas. Déan seiceáil ar do r-phost le haghaidh treoracha breise.
+Application.EmailVerificationRequiredSignIn=Ní mór duit a dheimhniú do r-phost roimh síniú isteach Déan seiceáil ar do r-phost le haghaidh treoracha breise.
+Application.Blocked=Táimid ag brón orainn, tá tú cosc ​​curtha ag riarthóir.
+
+=
+template.authorize.passwordStrength.0=An-lag
+template.authorize.passwordStrength.1=Lag
+template.authorize.passwordStrength.2=Mar sin-sin
+template.authorize.passwordStrength.3=Dea-
+template.authorize.passwordStrength.4=Great!

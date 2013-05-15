@@ -1,0 +1,26 @@
+$Page Max for Live
+$TargetName Max for Live
+Willkommen zu Max for Live.
+
+$If Product 70
+Max for Live ist auf diesem Rechner autorisiert, jedoch nicht korrekt installiert. Bitte gehen Sie die folgenden Schritte durch, um Max for Live zu installieren.
+
+-> Laden Sie bitte $Link die neuste Version von Max  <$MaxMSPDownloadUrl> von cycling74.com herunter und installieren diese. Eventuell werden Sie nach der Installation aufgefordert, den Rechner neu zu starten. Nachdem Sie Max erfolgreich installiert haben, starten Sie Live bitte neu.
+$Else
+Max for Live ist auf diesem Rechner entweder nicht autorisiert oder nicht richtig installiert. Bitte gehen Sie die folgenden Schritte durch, um Max for Live zu konfigurieren.
+
+-> Falls Sie es noch nicht gemacht haben, laden Sie bitte $Link die neuste Version von Max  <$MaxMSPDownloadUrl> von cycling74.com herunter und installieren diese. Eventuell werden Sie nach der Installation aufgefordert, den Rechner neu zu starten. Nachdem Sie Max erfolgreich installiert haben, starten Sie Live bitte neu.
+
+-> Aktualisieren Sie Ihre Live-Autorisierungen. Bitte öffnen Sie den $Link User Account/Licenses-Reiter in Lives Voreinstellungen <Pref:products>. Von hier aus können Sie online oder offline autorisieren.
+AuthorizationsTab.tif
+$Endif
+
+Sollten Sie Max unter einem anderen als dem Standardpfad installiert haben, müssen Sie auf die Max-Anwendung verweisen. Sie können dies mit dem $Link File/Folder-Reiter von Lives Voreinstellungen <Pref:FileFolder> machen.
+MaxFileFolderPref.tif
+
+-> Sobald Live auf Ihre Max-Installation hingewiesen wurde, sollten Sie eine Aufforderung erhalten, ein Live Pack mit Max-for-Live-Content zu installieren.
+
+-> Nachdem dieses Pack installiert wurde, folgen Sie bitte dem Live-Kurs $Link Erste Schritte mit Max for Live <Lesson:/8-MaxForLive Category/01-Getting Started with Max for Live>. Dieser Kurs führt Sie in das Grundkonzept von Max for Live ein und lässt Sie mit einigem Werks-Content und Kursen beginnen.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

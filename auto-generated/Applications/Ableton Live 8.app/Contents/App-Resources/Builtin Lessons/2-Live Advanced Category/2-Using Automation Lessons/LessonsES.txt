@@ -1,0 +1,153 @@
+$Page Uso de la Automatización
+$TargetName Using Automation
+
+En $0, cada movimiendo de control en el mezclador y los dispositivos puede ser /automatizado./  Ésto puede ser una ventaja muy valiosa para la creación de música dinámica e interesante. Esta lección le guiará por un proceso de /automatización/ de creación, grabación y edición.
+
+Divider.tif
+*Por favor pulse $Link aquí <Set:/Sets/Using Automation.als> para cargar el Live Set que acompaña a esta lección.*
+Divider.tif
+
+Antes de empezar vamos a hacer sitio en la vista Arrangement desplegando el /navegador/ a mano izquierda de la pantalla con el /botón Mostrar/Ocultar,/ que mostramos abajo.
+ShowHideBrowser.tif
+
+Probablemente también querrá usar los selectores de la sección del Mezclador a la derecha de la pantalla para mostrar la única sección que vamos a necesitar - la /sección del Mezclador/ - y ocultar las otras:
+MixerSectionShow2.tif
+
+Cuando esté listo, pulse /Página siguiente/ en la parte inferior para continuar.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Automatización
+$TargetName Automation
+
+La /automatización,/ es decir, el movimiento de un potenciómetro, interruptor o fader a lo largo de la línea del tiempo de la canción, puede ser grabada y editada en $0.
+
+Por favor, aléjese con el zoom en la vista Arrangement pulsando y arrastrando hacia arriba en la /regla de tiempos,/ que mostramos realzada en la siguiente imagen.
+TimeRuler.tif
+
+Si miramos la pista denominada "Bass," podemos ver un buen ejemplo de automatización grabada. Aléje el zoom hasta el compás 33 para tener una mejor vista.
+ExampleOfAutomation.tif
+
+Automatización muestra en la vista Arrangement las /envolventes/ superpuestas en la curva del clip o notas MIDI. Este particular caso de automatización es para el panorama de pista, tal y como muestran los dos /selectores de automatización/ justo debajo del nombre de la pista.
+UnderTheName.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Trazado de Automatización
+$TargetName Drawing Automation
+
+Las envolventes en $0 pueden ser /trazadas/ si el /modo Dibujar/ está activado, éste se activa con el botón Dibujar de la barra de control:
+ThisSwitch.tif
+
+Con el modo Dibujar activo podrá dibujar pasos como los que mostramos abajo, directamente sobre la curva o las notas MIDI de su clip.
+StepsOnto.tif
+
+El tamaño de estos pasos está basado en la anchura de la rejilla de edición, que puede cambiarse en el menú Opciones o desde el menú contextual (puede acceder al menú contextual con $ContextMenu en cualquier lugar del área del Arrangement a excepción de las barras de título de clip):
+GridContextMenuArr.tif
+
+Desactive la rejilla para dibujar "a mano alzada," sin los pasos.
+
+Divider.tif
+Siempre puede escuchar los resultados de su automatización pulsando sobre la barra de título de su clip y pulsando la barra espaciadora: la reproducción se iniciará justo al principio del clip. Volviendo a pulsar sobre la barra espaciadora se detendrá la reproducción.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Creación de nuevas envolventes
+$TargetName Creating New Envelopes
+
+Puede elegir /cualquier parámetro/ del mezclador de la pista o sus dispositivos de los selectores que le hemos mostrado anteriormente y dibujar una envolvente para éste.
+UnderTheName.tif
+
+Simplemente pulsando sobre la mayoría de los controles del mezclador y de los dispositivos en $0 también se llamará a sus envolventes de automatización para su edición. Pruebe a pulsar dos veces sobre al pista denominada "Drums" para visualizar el instrumento Drum Rack de la pista y el efecto Beat Repeat en la parte inferior de la pantalla.
+
+Ahora, pulse sobre uno de los controles de Beat Repeat y vea como aparece su envolvente de automatización en el display de los selectores y de pista.
+NewEnvelope.tif
+
+
+Divider.tif
+Los capítulos "Los Instrumentos de Live", "Los Efectos Audio de Live" y "Los Efectos MIDI de Live" del $Link manual de referencia <Manual>, contienen una amplia información sobre los instrumentos y los efectos incorporados en el programa, y podría ser una fuente interesante de ideas acerca de controles a automatizar.
+
+$Comment -----------------------------------------------------------------------
+$Page Edición de Automatización
+$TargetName Editing Automation
+
+Con el modo Dibujar /desactivado,/ las envolventes muestran /nodos:/
+Breakpoint.tif
+
+Use la automatización en la pista "Bass", y pruebe a pulsar y arrastar sobre cualquier nodo para desplazarlo a otra posición.
+
+También puede crear o eliminar nodos haciendo doble click a lo largo de la envolvente.
+
+Cuando esté editando la automatización, a veces es conveniente ver /sólo/ los parámetros de la pista que estén automatizados. Puede hacer esto seleccionando /Mostrar sólo parámetros automatizados/ desde cualquiera de los selectores de automatización:
+ShowAutomated.tif
+
+En este modo, los dos selectores de automatización de cada pista se unirán en uno, que sólo mostrará parámetros /automatizados/ de la pista.
+
+Para volver a desactivar este modo de edición especial, seleccione /Mostrar todos los parámetros/ desde el selector.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Carriles de automatización
+$TargetName Automation Lanes
+
+Puede ver la envolvente del parámetro activo en ese momento en su propio /carril de automatización/ pulsando sobre el botón "+" debajo de los selectores de automatización:
+MakeNewLane.tif
+
+Luego puede elegir parámetros adicionales desde los selectores de automatización y, si lo desea, crear carriles para estos también. Esto le permite ver y editar múltiples parámetros a la vez.
+MultipleLanes.tif
+
+Tenga en cuenta que, con el Modo Dibujar desactivado, puede pulsar y arrastrar en el fondo de uno o más carriles para seleccionar tiempo;
+SelectedEnvelope.tif
+
+luego, cualquier comando estandar del menú /Editar,/ como /Duplicar,/ afectará sólo a las envolventes, y no a los mismos contenidos de los mismos clips.
+DuplicatedEnvelope.tif
+
+Divider.tif
+*Para una profundización en las técnicas de trazado de envolvente y más información sobre los carriles de automatización, diríjase al capítulo "Automatización y Edición de Envolventes" del $Link manual de referencia <Manual>.
+
+$Comment -----------------------------------------------------------------------
+$Page Grabación de Automatización
+$TargetName Recording Automation
+
+Una de las aplicaciones más divertidas para la automatización es la grabación de cambios a tiempo real en los controles de los dispositivos.
+
+El surtido de efectos e instrumentos de $0 se encuentra en el /navegador de dispositivos/ a mano izquierda de la pantalla, que se abre si pulsa el botón selector:
+SelectorClicked.tif
+
+Use la barra de enrollar en el lado izquierdo del navegador de dispositivos para bajar hasta el efecto /Auto Filter/ que encontrará en la carpeta "Audio Effects".
+AutoFilter.tif
+
+Pulse y arrastre el Auto Filter hacia la derecha, sobre la pista "Bass," y suelte el efecto. Se mostrará en la parte inferior de la pantalla en la /Vista Pista./
+EffectInTrack.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Grabación de Automatización, continuación
+$TargetName Recording Automation, Continued
+
+Ahora usted podrá grabar cualquier cambio que haga en los controles de Auto Filter, convirtiéndolos de esta manera en parte del Arrangement.
+
+Para realizar esto, primero reajuste la posición del Arrangement a 1.1.1 pulsando dos veces sobre el /botón Detener/ de la barra de control.
+StopButton2.tif
+
+Después pulse el /botón Grabar/ en la barra de control.
+RecordButton2.tif
+
+Ahora pulse el /botón Play/ que está justo al lado para comenzar a grabar.
+PlayButton.tif
+
+Cuando desplace cualquiera de los controles en el Auto Filter (el control frecuencia, por ejemplo) durante la grabación, $0 grabará en el historial cada cambio realizado.
+Frequency.tif
+
+Pulse la barra espaciadora cuando esté listo y pulse ésta de nuevo para escuchar los efectos de su grabación, notará que el "fantasma en la máquina" mueve los controles en el Auto Filter.
+
+Los movimientos de control grabados aparecerán como nodos de envolventes en la pista "Bass", listos para seguir siendo editados:
+BassAutomation.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Más Posibilidades...
+$TargetName More Possibilities...
+
+El mover los potenciómetros y deslizadores con el ratón es una cosa, pero para divertirse de verdad, necesitará potenciómetros reales. Puede usar la lección sobre $Link superficies de control <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers> para averiguar cómo controlar de forma remota a $0.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,160 @@
+$Page Rhythmische Klänge erzeugen
+$TargetName Creating Rhythmic Textures
+$ListInTocForProduct 40
+
+Im letzten Kurs dieser Reihe werden wir alle bisher erworbenen Fähigkeiten gebündelt verwenden. Diesmal wollen wir Operators einzigartige Loop-Optionen für die Hüllkurven nutzen, um trickreiche rhythmische Texturen zu programmieren, die mit anderen Synthesizern nicht oder nur schwer zu verwirklichen sind.
+
+Falls Sie die vorangegangenen Kurse noch nicht durchgearbeitet haben, wäre es sinnvoll das zuerst nachzuholen, damit Ihnen die im Folgenden behandelten Dinge vertraut sind.
+
+Divider.tif
+*Hinweis:* Dieser Kurs wird von einem Live-Set begleitet, mit dem Sie dem Kurs interaktiv folgen können. Bitte klicken Sie $Link hier <Set:/Sets/OP-Default Set.als>, um dieses Live-Set zu laden.*
+Divider.tif
+
+Genau wie bei den anderen Operator-Kursen, werden Sie auch diesmal einen besseren Blick auf das Instrument in der /Spur-Ansicht/ erhalten wollen, indem Sie die /Info-Ansicht/ durch Anklicken des Zeigen/Verbergen-Schalters in der linken unteren Ecke des Fensters ausblenden.
+HideInfoViewFx.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Ozillatoren einstellen
+$TargetName Setting up the Oscillators
+
+Zuerst konfigurieren wir das Routing der Oszillatoren.
+
+Rufen Sie die globalen Parameter im Display auf, indem Sie auf den Global-Bereich in der Shell klicken.
+GlobalSection.tif
+Wählen Sie dann den unten abgebildeten Algorithmus mit den beiden gestapelten Oszillatorsträngen aus.
+Algorithm.tif
+
+Dieser Algorithmus ermöglicht uns eine gute Kombination von FM- und analog-typischer Synthese.
+
+Stellen Sie den /Level/ von Oszillator A auf -3.5 dB und belassen Sie die Tuning-Parameter auf ihren Ausgangswerten.
+OscALevel.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Rhythmus mit den Hüllkurven machen
+$TargetName Using Envelopes to Add Rhythm
+
+Nun wollen wir den Klang mit etwas Rhythmus versehen.
+
+Stellen Sie das /Attack/ der Hüllkurve von Oszillator A etwas weicher ein, indem Sie seinen Wert auf 0.38 ms erhöhen. Verlängern Sie das /Decay/ dann auf 9.90 Sekunden und senken Sie /Sustain/ auf -inf dB ab:
+RhythmAtkDec.tif
+
+Stellen Sie den /Loop/ im Mode-Bereich der Hüllkurve auf Sync:
+RhythmEnvLoop.tif
+
+Wählen Sie für /Repeat/ dann den Wert 1/4:
+RhythmRepeat.tif
+
+Die Sinus-Wellenform von Oszillator A pulsiert nun rhythmisch in Viertelnoten.
+
+$Comment --------------------------------------------------------------------------------
+$Page FM-Modulation hinzufügen
+$TargetName Adding FM Modulation
+
+Wechseln Sie zu Oszillator B, der Oszillator A über FM moduliert. Da wir die Standardwerte der Tuning-Parameter behalten, besitzen beide Oszillatoren ein Frequenzverhältnis von 1:1. Dies ergibt eine Sägezahn-ähnliche FM-Klangfarbe.
+
+Heben Sie nun den /Level/ auf -20 dB an.
+OscBLevel.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Oszillator B und die geloopten Hüllkurven
+$TargetName Oscillator B + Looped Envelopes
+
+Nun wollen wir mit der Hüllkurve von Oszillator B für mehr rhythmische Komplexität bei Oszillator A sorgen.
+
+Stellen Sie /Decay/ auf 452 ms und /Sustain/ auf -42 dB:
+OscBEnv.tif
+
+Stellen Sie den Hüllkurven-Modus dann auf Sync:
+RhythmEnvLoop2.tif
+
+Wählen Sie für /Repeat/ den Wert 1/8:
+RhythmRepeat2.tif
+
+Der Viertelnotenrhythmus von Oszillator A enthält nun auch einen subtilen Achtelnotenrhythmus.
+
+Glückwunsch, Sie haben die FM-Komponente dieses Hybrid-Sounds nun halb fertig! Experimentieren Sie noch etwas mit der Grobstimmung /Coarse,/ von Oszillator B und beobachten Sie, wie unterschiedliche Einstellungen den Klang beeinflussen.
+
+$Comment --------------------------------------------------------------------------------
+$Page Oszillator C und die geloopten Hüllkurven
+$TargetName Oscillator C + Looped Envelopes
+
+Wir können Oszillator C verwenden, um ein wiederholtes sanftes Anschwellen im Halbnotenrhythmus zu erzeugen.
+
+Stellen Sie /Level/ von Oszillator C dazu auf -3.5 dB, so dass wir ihn im Kontext hören können:
+OscCRhythm.tif
+
+Wählen Sie im Display für Oszillator C die /Wave/ Sägezahn 3 (Sw3), damit etwas klangliche Abwechslung entsteht:
+OscCSaw.tif
+
+Wechseln Sie wieder zurück zur Hüllkurven-Anzeige. Um einen leichten Fade-In und Fade-Out zu erzeugen, stellen Sie /Attack/ auf 306 ms, /Decay/ auf 2.11 Sekunden und /Sustain/ auf -inf dB:
+OscCEnvelopes.tif
+
+Stellen Sie /Loop/ wie bei den anderen Hüllkurven auf Sync, aber wählen Sie für /Repeat/ den Wert 1/2.
+RhythmRepeat3.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Oszillator D und die geloopten Hüllkurven
+$TargetName Oscillator D + Looped Envelopes
+
+Wir wollen die FM-Elemente unseres Sounds nun durch das Hinzufügen eines hellen Sechzehntelnoten-Pulses in das Halbnoten-Anschwellen abschließen.
+
+Zuerst stellen wir dazu /Level/ von Oszillator D auf -0.0 dB, so dass er Oszillator C bei voller Intensität moduliert:
+OscDLevel.tif
+
+Verkürzen Sie das /Decay/ von Oszillator D auf 397 ms und sein /Sustain/ auf -inf dB, um einen perkussiveren Klang zu erhalten. Stellen Sie den Loop-Modus dann auf Sync mit einem Wert von 1/16:
+OscDEnvelopes.tif
+
+Die langsame Bewegung von Oszillator C enthält nun dank der rhythmischen FM-Komponente zusätzlich eine scharfe, staccato-artige Sechzehntelnotenbewegung.
+
+Wenn Sie möchten, können Sie nun unterschiedliche Einstellungen für /Coarse/ und /Level/ bei Oszillator D ausprobieren, da Variationen hier den Charakter dieses Klangteils extrem verändern können. Wie in den anderen Kursen, ist auch hier der Schlüssel zum Verstehen und Beherrschen von Operator das Experimentieren!
+
+$Comment --------------------------------------------------------------------------------
+$Page Den Sound filtern
+$TargetName Filtering the Sound
+
+Nachdem die rhythmischen FM-Komponenten nun stehen, wollen wir den Klang mit etwas resonanter Tiefpassfilterung "aufwärmen".
+
+Aktivieren Sie die Filterabteilung mit dem quadratischen Schalter auf ihrer linken Seite:
+FilterOnRhythm.tif
+
+Wir belassen Filter-Typ und Filter-Frequenz /(Freq)/ auf den Standardwerten: "Low 12dB" und 500 Hz. Dann erhöhen wir die Resonanz /(Res)/ auf 3.70, um dem Klang einen analogen Charakter zu geben:
+FilterSettings.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Filterhüllkurve loopen
+$TargetName Looping the Filter Envelope
+
+Da jede Hüllkurve in Operator geloopt werden kann, erzeugen wir nun auch mit der Filterhüllkurve einen Rhythmus, um den Klang noch etwas komplexer zu machen.
+
+Stellen Sie /Decay/ auf 397 ms und /Sustain/ auf 12%:
+FilterEnvelopes.tif
+
+Aktivieren Sie dann Sync mit einem /Repeatwert/ von 1/4.
+FilterSync.tif
+
+Damit der Effekt hörbar wird, müssen wir nun noch den /Envelope/ anheben, um damit die Stärke der Hüllkurvenmodulation einzustellen. Probieren Sie einen Wert von 96% aus.
+EnvelopeAmount.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Der letzte Schliff
+$TargetName The Finishing Touches
+
+Um den Sound noch etwas zu verfeinern, können Sie bei der Filterhüllkurve mit unterschiedlichen Werten für /Attack,/ /Decay/ und /Repeat/ experimentieren und dadurch den resonanten Filter-Puls variieren.
+
+Probieren Sie auch mal die Parameter /Time/ und /Tone/ für Veränderungen des Klangs aus.
+TimeTone.tif
+
+Nachdem Sie mit der Modulation des Filters zufrieden sind, können Sie dem Sound mit /Spread/ den letzten Schliff geben. Drehen Sie den Wert ganz hoch, aber denken Sie daran, dass dadurch die doppelte Stimmenzahl verwendet wird, und zwar unabhängig davon, wie stark Sie den Effekt dosieren.
+SpreadRhythm.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ... und schließlich
+$TargetName ... and Finally
+
+Wenn Sie auch alle anderen Operator-Kurse durchgearbeitet haben, sind Sie auf dem besten Wege, ein Meister der Operator-Programmierung zu werden. Bässe, Leads, Flächen, Drums und rhythmische Klänge können Sie nun mühelos beherrschen und Ihren Wünschen anpassen. Um zusätzliche Informationen zu den Synthesemöglichkeiten von Operator zu erhalten, sollten Sie auf jeden Fall auch das Kapitel "Referenzteil zu Lives Instrumenten" in der $Link Referenzanleitung <Manual> lesen.
+
+Bitte erinnern Sie sich daran, dass die Info-Ansicht eine sehr wertvolle Hilfe sein kann, da sie Ihnen eine kurze Erläuterung zu jedem Parameter von Operator anzeigt. Sie können diese Ansicht jederzeit mit dem dreieckigen Schalter in der linken unteren Ecke des Fensters ein- oder ausblenden.
+FxInfoView.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

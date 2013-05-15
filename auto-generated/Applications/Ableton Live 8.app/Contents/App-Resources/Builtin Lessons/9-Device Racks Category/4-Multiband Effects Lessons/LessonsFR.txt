@@ -1,0 +1,91 @@
+$Page Effets multibandes
+$TargetName Multiband Effects
+$ListInTocForProduct 00
+
+Comprendre le principe du passage du signal dans les /chaînes de périphériques/ est une étape importante pour l'emploi créatif et efficace des Racks. Dans cette leçon, vous apprendrez comment construire des unités d'effets multibandes en utilisant des égaliseurs pour répartir dans des chaînes distinctes les fréquences composant un signal audio.
+
+Divider.tif
+*Cette leçon est accompagnée d'un Set Live avec lequel vous interagirez durant la leçon. Quand vous êtes prêt, veuillez cliquer $Link ici <Set:/Sets/Multiband Effects.als> pour charger le Set Live.*
+Divider.tif
+
+
+Une fois que vous avez chargé le Set, veuillez cliquer sur le bouton /Page suivante/ ci-dessous pour continuer.
+
+$Comment --------------------------------------------------------------------------------
+$Page Identification du problème
+$TargetName Identifying the Problem
+
+Ce Set contient un clip de batterie bouclé que nous utiliserons comme matériau source. Déclenchez le bouton de démarrage du clip pour le lancer.
+
+Comme c'est un mixage (et non des pistes d'instruments individuels), il est normalement très difficile d'isoler ses fréquences en vue d'un traitement individuel. Par exemple, n'ajouter de la reverb qu'aux aigus aurait été facile à faire si chaque fût ou instrument de la batterie était sur une piste séparée  - mais maintenant qu'ils sont tous mélangés, cela devient plus compliqué. C'est le type de situation que doivent affronter les ingénieurs de mastering; isoler et traiter indépendamment des autres certains composants d'un fichier audio mixé.
+
+Heureusement, les Racks de $0 nous permettent de résoudre facilement ce problème.
+
+$Comment --------------------------------------------------------------------------------
+$Page Construction de notre Rack
+$TargetName Building our Rack
+
+Pour commencer à bâtir notre Rack, ouvrez le /navigateur de périphériques/ de $0 en cliquant sur son bouton dans la zone Navigateur.
+DeviceBrowserButton.tif
+
+Ouvrez le dossier d'effets audio  /Audio Effects/ et insérez un Rack d'effets audio ou /Audio Effect Rack/ vide, soit en *double-cliquant* dessus, soit en le faisant glisser sur la piste.
+AudioEffectRack.tif
+
+Ajoutons maintenant notre chaîne de périphériques. Nous voulons une chaîne par bande de fréquences que nous aimerions pouvoir contrôler indépendamment. Pour cette leçon, travaillons avec trois bandes. D'abord, vous devrez visualiser la /liste des chaînes/ en cliquant sur son bouton dans le Rack.
+ChainList.tif
+
+Commencez par faire glisser un effet /EQ Three/ du navigateur dans la liste des chaînes pour créer notre première chaîne de périphériques.
+Chain1.tif
+
+Maintenant, faites glisser un autre EQ Three dans la liste des chaînes pour créer notre deuxième chaîne.
+Chain2.tif
+
+Notez que le volume devient immédiatement et significativement plus fort. C'est dû au fait que les chaînes traitent indépendamment l'audio entrant. Et comme nous n'avons pas encore réglé nos égaliseurs, aucun n'atténue le niveau de sortie général. Avant d'ajouter notre troisième chaîne, nous pouvons baisser un peu le volume, soit sur la piste soit en sortie master.
+
+Maintenant, faites glisser un troisième EQ Three dans la liste des chaînes pour créer notre dernière chaîne. Nous avons à présent un Rack qui ne fait rien sinon rendre notre signal trop fort. Pour le rendre utile, nous réglerons les paramètres du périphérique EQ de chaque chaîne pour que chacun ne laisse passer qu'une bande de fréquences spécifique.
+
+$Comment -------------------------------------------------------------------------------
+$Page Réglage des paramètres
+$TargetName Adjusting the Parameters
+
+Renommons nos chaînes pour que nous puissions mieux suivre notre travail. Pour cela, cliquez sur la ligne de chaque chaîne dans la liste des chaînes et pressez *$CommandMod-R.* Nous pouvons aussi les renommer via *$ContextMenu.* Nommez les chaînes *Low* (graves), *Mid* (médiums) et *High* (aigus).
+RenamedChains.tif
+
+Nous réglerons maintenant l'EQ dans chaque chaîne. Cliquez sur la chaîne *Low* pour la sélectionner, puis désactivez les bandes *M* et *H* de l'EQ, en ne laissant que la bande *L* activée.
+LowEQParameters.tif
+
+Répétez ce processus pour les deux autres chaînes, en n'activant que la bande *M* dans la chaîne *Mid* et que la bande *H* dans la chaîne *High.* Vous pouvez essayer de changer les commandes de filtre répartiteur *FreqLow* et *FreqHigh* dans chaque EQ, ainsi que le sélecteur *24 dB/48 dB* pour "ajuster" la réponse en fréquences de chaque chaîne.
+OtherParameters.tif
+
+Mettre les chaînes en solo peut vous aider à entendre les effets de vos réglages.
+SoloButtons.tif
+
+$Comment -------------------------------------------------------------------------------
+$Page Ajout d'autres effets
+$TargetName Adding more Effects
+Maintenant que chaque chaîne est chargée d'une seule bande de fréquences, vous pouvez ajouter des effets après les EQ pour apporter un traitement supplémentaire propre à la chaîne. Ajoutons un effet /Reverb/ à la chaîne *High.* D'abord, cliquez sur la chaîne pour la sélectionner dans la liste des chaînes, puis faites glisser l'effet Reverb du navigateur de périphériques sur la droite de l'égaliseur (EQ) et déposez-le.
+HiReverb.tif
+
+Veillez à ne pas déposer la Reverb à droite de la bordure matérialisant la fin du Rack. Tout effet placé là traiterait le mixage global du Rack, ce qui signifie que toutes les bandes de fréquences seraient traitées.
+
+Continuons en ajoutant un /Compressor/ à la chaîne *Low.*
+LowCompressor.tif
+
+Ajoutons maintenant un /Ping Pong Delay/ à la chaîne *Mid.*
+MidPingPong.tif
+
+Avec les effets ajoutés, il devient beaucoup plus facile d'entendre les fréquences isolées dans chaque chaîne.
+
+$Comment -------------------------------------------------------------------------------
+$Page Et maintenant, que faire?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Essayez d'ajouter différents effets à chaque chaîne, avec différents paramètres et réglages d'égalisation. Même des changements subtils des points de division des fréquences peuvent avoir un impact spectaculaire sur la façon dont chaque chaîne isole des fréquences particulières.
+
+-> Ajouter des égaliseurs supplémentaires dans de nouvelles chaînes peut vous permettre d'avoir un contrôle encore plus fin sur les bandes de fréquences. Essayez d'ajouter des chaînes supplémentaires, sans doute avec des égaliseurs /EQ Eight/ pour un contrôle encore plus fin.
+
+-> Ajoutez quelques effets après (ou avant) la totalité du Rack, pour traiter le son globalement.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

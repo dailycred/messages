@@ -1,0 +1,155 @@
+$Page Création de rythmes
+$TargetName Creating Beats
+
+Cette leçon vous montrera comment enregistrer, dessiner et éditer des patterns de batterie avec $0.
+
+Cette leçon a aussi été réalisée en vidéo. Cliquez $Link ici <http://www.ableton.com/_common/downloads/movies/creating_beats.mov> pour lancer la vidéo depuis le site internet Ableton.
+
+Nous ne partirons de rien, aussi pressez $CommandMod + N pour créer un Set $0 vide.
+
+Nous utiliserons l'instrument /Impulse/ intégré à $0. Impulse se trouve dans les périphériques du /navigateur de périphériques,/ qui s'affiche en haut à gauche de l'écran.
+SessionFullBrowser.tif
+
+Veuillez cliquer sur le /sélecteur/ du navigateur de périphériques pour l'afficher. Maintenant, double-cliquez sur le sélecteur pour fermer tous les dossiers ouverts afin que nous ayons une vue générale de ce qui est conservé ici.
+DeviceBrowserButton.tif
+
+Veuillez presser ci-dessous le bouton /Page suivante/ pour continuer.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Chargement d'Impulse
+$TargetName Loading Impulse
+
+Impulse réside dans le dossier /Instruments./ Si vous ouvrez le dossier Impulse, vous trouverez une sélection de presets de kits de batterie, sauvegardés comme /Racks d'instrument./ Ces Racks associent l'instrument Impulse et une sélection d'effets audio de Live.
+
+Sélectionnez un preset que vous trouvez intéressant ("Backbeat Room" fonctionne bien dans notre cas).
+ImpulsePresetBackbeatRoom.tif
+
+Cliquez sur le preset, et faites-le glisser sur la droite dans la piste intitulée "2 MIDI." Notez que le curseur de la souris indiquera que l'instrument peut être déposé ici.
+MIDITrackHighlight.tif
+
+Après avoir relâché le bouton de la souris, remarquez que le nom de la piste s'est changé en "2 Backbeat Room". Vous verrez aussi le preset apparaître en bas de l'écran:
+ImpulseTrackView.tif
+
+/Astuce:/ Vous pouvez aussi déposer le preset Impulse dans l'espace "vide" à côté des pistes et $0 créera une nouvelle piste MIDI pour l'instrument.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Jouer avec Impulse
+$TargetName Playing Impulse
+
+Quand nous avons chargé le preset Impulse dans la piste MIDI, le /bouton d'armement/ de la piste s'est automatiquement activé. Cela permet au MIDI reçu d'arriver à la piste:
+ArmButton.tif
+
+Si vous avez un clavier MIDI connecté à l'ordinateur, les touches blanches jouées dans la tessiture C3-C4 (do3-do4) doivent maintenant arriver à Impulse.
+
+Si vous n'avez pas de clavier MIDI sous la main, vous pouvez à la place employer le clavier de l'ordinateur. Pour cela, vérifiez que le bouton /Clavier MIDI d'ordinateur/ est activé en haut à droite de l'écran.
+ComputerMIDIKeyboard.tif
+
+Les lettres de la rangée centrale du clavier (QSDF...) sont par défaut affectées aux slots de batterie d'Impulse. Un slot clignote s'il reçoit une note, et vous entendez le son correspondant.
+
+Divider.tif
+*Guide de dépannage:* Si vous avez besoin d'aide pour configurer votre clavier MIDI afin qu'il fonctionne avec Live, veuillez suivre la leçon $Link Connexion de contrôleurs MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+
+Pour plus d'informations sur l'emploi du clavier de l'ordinateur pour envoyer du MIDI, voir la section intitulée "Jouer en MIDI avec le clavier de l'ordinateur" dans le chapitre "Routage et entrées/sorties" du manuel.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Enregistrer un Pattern
+$TargetName Recording a Pattern
+
+Passons directement à l'enregistrement d'un pattern rythmique. Le nouveau pattern résidera dans son propre nouveau clip MIDI. Double-cliquez sur n'importe quel slot de Session vide dans la piste contenant l'instrument Impulse (attention de ne pas cliquer sur un des boutons d'enregistrement ronds situés sur la gauche des clips quand vous faites cela).
+EmptySessionSlot.tif
+
+Nous venons de créer un clip MIDI vide dans lequel nous pouvons enregistrer.
+
+Vous voudrez probablement activer le /métronome/ tant que vous ne pouvez pas encore vous caler sur vos propres données:
+MetronomeSwitch.tif
+
+Vous pouvez aussi utiliser les options /Quantification d'enregistrement/ du menu Edition pour automatiquement quantifier votre interprétation sur une valeur métrique. Si vous préférez conserver votre mise en place personnelle lors de l'enregistrement, réglez cette commande sur "Pas de quantification". Vous pourrez toujours quantifier après coup.
+
+A présent, cliquez sur le bouton de lecture du clip pour activer l'enregistrement:
+ClipRecordButton.tif
+
+Jouez C3 sur votre clavier MIDI ou pressez la touche Q du clavier de l'ordinateur. Vous entendrez immédiatement le son de batterie correspondant, et à nouveau à chaque mesure. Chaque note jouée sera capturée dans le nouveau pattern et jouera à chaque cycle de la boucle.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Obtenir le bon résultat
+$TargetName Getting it Right
+
+Si votre premier pattern ne répond pas exactement à vos attentes, n'abandonnez pas. Utilisez Annuler (pressez $CommandMod-Z) pour vous débarrasser de toutes les notes jouées lors du dernier cycle de la boucle de pattern. Vous pouvez faire cela à tout moment, et autant de fois que désiré - jusqu'à ce que le pattern soit vide. Regardez comment /l'Editeur de notes/ de la fenêtre Clip reflète vos changements.
+NoteEditor.tif
+
+Pour vous entraîner pendant la lecture du pattern existant, sans pour autant lui ajouter de notes, désactivez le commutateur /Overdub/ de la barre de contrôle. Réactivez-le quand vous êtes de nouveau prêt à enregistrer.
+OverdubSwitch.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Dessiner et éditer des notes
+$TargetName Drawing and Editing Notes
+
+Vous pouvez non seulement enregistrer des patterns, mais aussi les /dessiner./
+
+Vérifiez que le /Mode Dessin/ est activé:
+DrawModeSwitch.tif
+
+En Mode Dessin, cliquer sur une case de grille vide dans l'Editeur de notes y crée une note; cliquer sur une case occupée la vide. Dessiner par dessus des cases les remplit ou les vide toutes.
+DrawingAcrossGridTiles.tif
+
+Vous pouvez rapidement changer les pas de grille à l'aide d'un menu contextuel: faites un *$ContextMenu* n'importe où dans l'Editeur de notes là où il n'y a pas de notes, et choisissez le pas de grille désiré en section "Grille Fixe" du menu.
+GridContextMenu.tif
+
+Quand le mode Dessin est désactivé, vous pouvez sélectionner une note en cliquant dessus, ou sélectionner plusieurs notes en cliquant et en étirant un cadre de sélection autour d'elles. Les groupes de notes sélectionnées peuvent alors être édités ensemble.
+
+La commande /Réglages de quantification.../ du menu Edition ouvrira une fenêtre avec des options pour recaler les notes sélectionnées sur la position métrique spécifiée la plus proche:
+QuantizeWindow.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Dessiner des dynamiques
+$TargetName Drawing Velocities
+
+Dessiner dans /l'Editeur de dynamique/ change la dynamique (l'intensité) des notes. La couleur des notes à l'écran correspond à leur dynamique: les notes plus foncées jouent plus fort.
+DrawingVelocities.tif
+
+Pour dessiner les valeurs de dynamique d'un seul son de batterie, cliquez sur la touche de piano blanche située face au nom de ce son, ce qui a pour effet de ne sélectionner que les notes faisant jouer ce son...
+SelectAllNotesInAKeytrack.tif
+
+... puis tirez sur le marqueur de dynamique d'une de ces notes pour changer proportionnellement les dynamiques de toutes les notes sélectionnées.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Patterns à multiples mesures
+$TargetName Multi-Bar Patterns
+
+Vous pouvez étendre votre pattern sur une boucle plus longue rien qu'en saisissant la longueur de boucle désirée. Le champ /Length/ le plus à gauche du panneau /Notes/ définit le nombre de mesures du pattern. Cliquez dans ce champ et saisissez "2", par exemple; puis appuyez sur la touche Entrée/Retour:
+SettingLoopLengthToTwoBars.tif
+
+Vous entendrez maintenant une boucle de deux mesures avec une seconde mesure vide. Vous pouvez programmer de nouvelles notes en jouant, dessinant ou par copier-coller.
+
+Pour copier une sélection de notes, cliquez et tirez afin d'encadrer les notes que vous voulez copier.
+CopyNotes.tif
+
+Puis copiez dans le presse-papiers (via le menu Edition ou le raccourci *$CommandMod + C* ), cliquez dans l'éditeur de notes pour placer le /marqueur d'insertion/ là où vous voulez coller les notes copiées et collez (via le menu Edition ou le raccourci *$CommandMod + V* ).
+Pasted.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Et maintenant, que faire?
+$TargetName Where to Go from Here?
+
+-> Nous vous recommandons de suivre toute la collection de leçons de Live. Cliquez $Link ici <Lesson:Internal/BuiltinAutoToc> pour accéder à toutes les leçons installées.
+
+-> Maintenant que vous êtes familiarisé avec l'art de créer des patterns dans $0, vous désirerez sans doute en créer d'autres. Vous pouvez créer n'importe quel nombre de clips MIDI vides en écran Session et enregistrer dedans. Vous pouvez aussi dupliquer des clips existants et créer des variations à partir d'un pattern. Notez que vous pouvez toujours enregistrer par dessus un pattern existant (overdub).
+
+-> Vous pouvez aussi explorer les puissantes commandes de façonnage sonore intégrées dans Impulse. Quand vous faites cela et que vous travaillez simultanément avec vos clips, vous trouverez sans aucun doute pratique le raccourci $ShiftMod-Tab qui fait alterner la /fenêtre Clip/ (où se trouve l'Editeur de notes) et la /fenêtre Piste/ (qui affiche Impulse et ses commandes).
+
+-> Vous pouvez construire des lignes de basse, mélodies et harmonies avec exactement la même technique que celle que nous venons d'employer pour un pattern de batterie. Pour le plaisir, chargez un preset de /Simpler/ depuis le navigateur de périphériques dans la piste contenant notre nouveau clip, et voyez ce qui se passe. Vous pouvez toujours revenir en arrière avec Annuler.
+
+$If Product 00, 35, 39
+-> Pour un potentiel créatif encore plus grand, essayez d'utiliser un Rack de batterie ou /Drum Rack/ comme instrument. Les Racks de batterie utilisent une version étendue de la configuration de pads d'Impulse, mais avec de nombreuses autres possibilités d'édition et de conception sonore. Pour plus d'informations, voir le chapitre "Racks d'instruments, de batterie et d'effets" du manuel.
+$Endif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

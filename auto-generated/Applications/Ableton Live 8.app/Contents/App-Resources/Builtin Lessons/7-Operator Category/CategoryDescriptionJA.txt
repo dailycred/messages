@@ -1,0 +1,1 @@
+「Operator」 - Operatorシンセサイザーを使ってサウンド制作を行う

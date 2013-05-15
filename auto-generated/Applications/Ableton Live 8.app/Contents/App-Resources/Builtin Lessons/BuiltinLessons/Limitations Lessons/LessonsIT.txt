@@ -1,0 +1,25 @@
+$Page Comprensione delle Limitazioni
+$TargetName Understanding Limitations
+
+Se stai vedendo questa lezione, probabilmente Live ti ha appena informato che non era possibile procedere in qualcosa che hai tentato di fare. Ci sono due ragioni comuni al riguardo:
+
+-> Stai usando una versione di Live con limitazioni delle funzionalità, come Live Lite o Live Intro.
+
+-> Stai cercando di aprire un Set che utilizza dei prodotti add-on Ableton che non possiedi.
+
+Ecco alcuni modi per ovviare a queste limitazioni:
+
+*Licenze di prova gratuita*
+Prova tutte le funzioni, salvataggio ed esportazione inclusi, per un tempo limitato. Accedi a $FreeTrialLink per iniziare.
+
+Divider.tif
+*Acquisto Istantaneo*
+Nella maggior parte dei casi, i prodotti acquistati su $Link www.ableton.com/shop <http://www.ableton.com/shop> possono essere utilizzati immediatamente. Gli strumenti software come Operator e Collision non richiedono nemmeno il download e possono essere utilizzati dopo aver ri-autorizzato la tua installazione esistente di Live.
+
+Divider.tif
+*Uso dei prodotti add-on con salvataggio ed esportazione disabilitati*
+Puoi passare dall'utilizzo del solo Live all'utilizzo di Live con tutte le estensioni disponibili. Per visualizzare le opzioni disponibili, accedi alla scheda Account/Licenses delle $Link Preferenze <Pref:null> e attiva "Mostra tutti i prodotti all'avvio".
+DemoOptionsButton.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

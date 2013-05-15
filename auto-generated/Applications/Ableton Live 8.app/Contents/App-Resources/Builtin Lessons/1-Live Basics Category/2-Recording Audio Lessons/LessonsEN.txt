@@ -1,0 +1,209 @@
+$Page Recording Audio 
+$TargetName Recording Audio
+
+In this lesson, we'll see how to use $0 for recording live instruments or voice. We'll learn about routing, monitoring and multitrack recording, and we may even figure out how to play incredibly fast guitar solos.
+
+This lesson has also been made into a movie. Click $Link here <http://www.ableton.com/_common/downloads/movies/recording_audio.mov> to launch the movie from the Ableton website.
+
+Divider.tif
+*$0's documents are known as Live Sets. This lesson is accompanied by a Live Set which you'll be interacting with as you follow the lesson. Whenever you're ready, please click $Link here <Set:/Sets/Recording Audio.als> to load the Live Set.*
+Divider.tif
+
+
+Before we begin, allow us to point out $0's /Info View:/
+OverviewInfoView.tif
+
+The Info View resides in the lower-left corner of the $0 application window. It's a very handy resource that will tell you about almost anything that you point your mouse over. Like many other views in $0, it can be shown or hidden as needed just by clicking the triangular /unfold button/ near its lower-left corner.
+InfoViewFoldButton.tif
+
+If you hover your mouse over the /Next Page/ button below, the Info View will explain how to continue with our recording lesson.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page The Arrangement 
+$TargetName The Arrangement
+
+In this lesson we'll be working in $0's /Arrangement View,/ which is currently shown in the upper-middle section of the application window.
+OverviewArrangement.tif
+
+The Arrangement can be used just like a tape recorder - sounds can be recorded into it freely. Your recordings can be played back at any time, starting from any point. When you're happy with something that you've created, it can be exported from $0 so that you can burn it onto a CD or DVD.
+
+Let's make some more room for the Arrangement by folding away the /Browser/ at the upper-left side of the screen. It also has an unfold button, just like the Info View.
+BrowserShowHideRec.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page The Arrangement Mixer 
+$TargetName The Arrangement Mixer
+
+This Live Set contains one empty audio track, which is currently titled "1 Audio." In a moment, we'll prepare this track for recording.
+ArrangementOneTrack.tif
+
+The right side of the Arrangement View belongs to $0's /mixer./
+ArrangementMixer.tif
+
+The mixer has many features which help you build and refine the sound of your Live Set. We don't usually need to access all of them at once, so the mixer is divided into sections which can be shown or hidden as needed. In this lesson, we're only interested in the /In/Out/ and /Mixer/ sections, so go ahead and click on the /Show/Hide selectors/ in the lower-right corner of the Arrangement View until only *IO* and *M* are enabled:
+InOutShowHideRec.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Input Routing 
+$TargetName Input Routing
+
+We use the In/Out section of $0's mixer to tell each track where to look for incoming audio signals (inputs), and where to send its audio signals to (outputs):
+ArrangementIOSection.tif
+
+The pair of /input/ choosers in the In/Out section show that our track is receiving audio from external channels 1 and 2. This is probably the computer's standard audio input (a built-in microphone or Line In jack).
+Input1And2Rec.tif
+
+The upper input chooser allows you to select from among various /input sources:/ external inputs ('Ext. In'), other tracks, or signals from ReWire applications.
+
+The lower input chooser is where you can select from different /input channels,/ which is common when working with multichannel audio interfaces.
+
+
+Divider.tif
+*Note:* Get the best performance out of your multichannel audio interface by following the lesson $Link Setting Up Audio I/O <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO>.
+
+$Comment --------------------------------------------------------------------------------
+$Page Arming an Audio Track 
+$TargetName Arming an Audio Track
+
+Before recording can begin, we have to /arm/ our audio track by clicking on its /Arm/ button, shown below. This prepares $0 for the recording process.
+
+*Note:* If you hear loud feedback when you arm the track, click the arm button once again to silence it, then read on to find out what's going on.
+Track1ArmedRec.tif
+
+Once the track is armed, you'll see that its /level meter/ shows the signal level of the track's input. This represents the volume of the sound which will be recorded.
+InputMeterRec.tif
+
+If no signal is indicated in the meter, first lower the volume of your speakers or headphones so that any sudden volume changes don't damage your ears or equipment. Then, verify that you've selected an input channel that has an instrument or microphone connected to it. Once you've identified and fixed the problem, remember to return the volume to a reasonable level.
+
+$Comment --------------------------------------------------------------------------------
+$Page Monitoring 
+$TargetName Monitoring
+
+We usually want to hear what we are recording, and /monitoring/ determines how we listen to the signals at our chosen track inputs.
+
+These three switches in the In/Out section allow you to set the monitoring behavior of each audio and MIDI track individually:
+MonitoringSectionRec.tif
+
+-> Choose *Off* if you are monitoring /directly,/ that is, through the audio interface or through an external mixing board - or through the open air.
+
+-> Choose *Auto* to monitor the input signal through $0. If you hear an echo or get feedback, you have a /direct monitoring/ setup. Either set the track's monitoring switch to *Off,* or deactivate your audio interface's direct monitoring option.
+
+When monitoring through any software, there will always be some amount of delay or /latency/ between your actions and the audible result. Learn how to minimize latency by following the lesson $Link Setting Up Audio I/O <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO>.
+
+$Comment --------------------------------------------------------------------------------
+$Page Preparing to Record 
+$TargetName Preparing to Record
+
+Now that audio signals are showing up in $0 and we have a way to monitor them, we're ready to record a take into the Arrangement. First, verify that the audio track is still armed:
+Track1ArmedRec.tif
+
+Now press the Control Bar's /Stop/ button twice. This resets the Arrangement to the beginning, at position 1.1.1.
+TransportStopRec.tif
+
+Next, press the adjacent /Global Record/ button. (This is probably familiar to those of you who have used multitrack tape machines: Individual tracks can be armed for recording, then the Global Record button enables recording for those armed tracks.)
+GlobalRecordRec.tif
+
+Finally, press the Control Bar's /Play/ button (or hit the *space bar* on your computer's keyboard) to begin recording.
+TransportPlayRec.tif
+
+Now's the time to make some noise!
+
+$Comment --------------------------------------------------------------------------------
+$Page Recording and Playback 
+$TargetName Recording and Playback
+
+As recording progresses, you'll see a new /audio clip/ being created in the track.
+ArrangementClipRecording.tif
+
+To stop recording, press the Stop button in the Control Bar, or hit the *space bar* again.
+TransportStopRec.tif
+
+Now, press the Stop button one more time (resetting the Arrangement to 1.1.1), and listen to your recording by pressing the Play button.
+
+$Comment --------------------------------------------------------------------------------
+$Page Navigating the Arrangement 
+$TargetName Navigating the Arrangement
+
+If you recorded for long enough, the Arrangement may have started to scroll horizontally. To scroll the view backward or forward, or to zoom in or out, grab the beat-time ruler along the top of the Arrangement with the mouse:
+-> Vertical mouse movements /zoom/ in and out;
+-> Horizontal movements /scroll/ left and right.
+TimeLineRec.tif
+
+Playback and recording can start from any point in the song. You can set an /insert mark/ by clicking anywhere in the Arrangement View (except on a clip's title bar), and the song will start playing from that point next time.
+InsertMarker.tif
+
+If you're not satisfied with what you've recorded, don't fret! A quick press of *$CommandMod + Z* is all that's needed to undo a take, and be ready to try again.
+
+$Comment --------------------------------------------------------------------------------
+$Page The Metronome 
+$TargetName The Metronome
+
+It's important to record in sync to ensure that everything will later play in sync.
+
+The easiest way to record in sync is to use $0's built-in /metronome,/ which is activated via its Control Bar switch. You'll find it in the upper-left corner of the application window:
+MetronomeSwitch.tif
+
+The metronome ticks at the current tempo while $0 is playing. Enable the metronome, then press the *space bar* to start playback. You can adjust the metronome's volume using the Master track's /Cue Volume/ control, shown below. Press the *space bar* again to stop.
+CueVolume.tif
+
+
+Divider.tif
+*Note:* If your recordings sound delayed with respect to the metronome, you probably need to set up /latency compensation./ Latency compensation is a trick that the program employs in a direct monitoring scenario to compensate for delays incurred by the audio interface and its drivers. To set this up, $0 has to run a little test that unfortunately requires your assistance. The $Link Driver Error Compensation <Lesson:Builtin/3-Hardware Setup Category/2-Driver Error Compensation> lesson will walk you through this procedure.
+
+$Comment --------------------------------------------------------------------------------
+$Page Tempo Tricks, Count-in and Tapping 
+$TargetName Tempo Tricks, Count-in and Tapping
+
+The tempo of your Live Set can be changed at any time: before, after and even during recording. You could, for instance, cheat a bit by lowering the tempo while you record a complicated guitar solo, then bring it up again when you're done.
+TempoField.tif
+
+Another helpful technique is the use of a /count-in/ when recording. This gives you a chance to prepare for a take before the recording actually begins. To set up this behavior, open the Preferences via the Options menu (PC) or $0 menu (Mac), and choose the /Record/Warp/Launch/ tab. When the Count-In preference is set to any value other than "None," $0 will not begin recording until the count-in is complete.
+CountInPref.tif
+
+Alternatively, you can have $0 follow your counting instead of the other way around. With a 4/4 time signature, it takes four clicks on the /TAP/ button before $0 starts playing (or recording).
+TapButton.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Multitrack Recording 
+$TargetName Multitrack Recording
+
+Press *$CommandMod + T* to create a new audio track for your next take. Unfold the new track by clicking the unfold button in its title bar:
+NewTrackArm.tif
+
+Remember to activate the new track's Arm button, otherwise you'll end up recording into track 1 again. By default, arming one track unarms all others. You can, however, independently arm and unarm tracks by *$CommandMod-clicking* their Arm buttons. This way you can set up any number of tracks to record simultaneously.
+MultiArm.tif
+
+Obviously, this wouldn't make much sense unless you had set the tracks up to receive different input signals (from each band member, for instance). In our example above, we've altered our input selections so that track 1 records input 1 as mono, and track 2 records input 2 as mono.
+
+Go ahead and record a new take, using the metronome as a tempo guide. Remember to press the Stop button or hit the *Space Bar* when you've finished.
+
+$Comment --------------------------------------------------------------------------------
+$Page Doing it Again (and Again...) 
+$TargetName Doing it Again (and Again...)
+
+If you'd like to redo only a certain part of a take, you can set up /punch points:/ Drag the left and right edges of the /loop brace/ to define the in and out points...
+PunchMarkers.tif
+
+... then activate the /Punch-In/ and /Punch-Out/ switches in the Control Bar.
+PunchSwitches.tif
+
+-> When the Punch-In switch is on, $0 will protect the material lying before the loop brace;
+-> When the Punch-Out switch is on, $0 will protect the material following the loop brace.
+
+The loop brace can also be used to define a section of the Arrangement to be looped: You can set up a loop, record as many takes as you like without interruption, and $0 will retain the audio recorded during each pass. You can later "unroll" the loop recording using the Undo function. The loop is engaged by using its Control Bar switch:
+LoopSwitch.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Where to Go from Here? 
+$TargetName Where to Go from Here?
+
+You've already started using $0 to create multitrack recordings, so where do you go from here? We highly recommend that you continue with the additional lessons to learn what else is possible with $0:
+
+-> Click $Link here <Lesson:Internal/BuiltinAutoToc> to access all of the installed Lessons.
+
+-> Learn how to $Link play and record software instruments <Lesson:Builtin/1-Live Basics Category/4-Playing Software Instruments>.
+
+-> Learn about MIDI clips by $Link creating drum patterns <Lesson:Builtin/1-Live Basics Category/3-Creating Beats>.
+
+$Comment Status: Translate

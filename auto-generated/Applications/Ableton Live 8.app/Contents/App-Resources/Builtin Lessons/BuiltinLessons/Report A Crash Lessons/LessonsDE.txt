@@ -1,0 +1,27 @@
+$Page Einen Absturz melden
+$TargetName Report a Crash
+BugReportingBanner.tif
+Vielen Dank, dass Sie sich die Zeit nehmen, uns den Absturz zu melden. Wir wissen Ihre Hilfe zu schätzen!
+
+Live hat ein Crash Report Pack erzeugt. Bitte klicken Sie auf den folgenden Link, um diese Datei auf Ihrem Rechner anzuzeigen:
+
+CRASH_REPORTING_PACKAGE_NAME
+
+Bitte senden Sie diese Datei nach $Link crashes@ableton.com  <mailto:crashes@ableton.com>.
+
+*Hinweis:* Sie erhalten auf Ihre Absturzmeldung eine automatische Antwort-Mail. Sollten Sie Hilfe benötigen, kontaktieren Sie bitte unser $Link Support-Team<http://www.ableton.com/support>.
+
+Divider.tif
+
+Das Crash Report Pack enthält Informationen, die erzeugt wurden, als Sie Live das letzte Mal laufen gelassen haben:
+
+-> Lives Voreinstellungen- und Autorisierungs-Dateien
+-> eine Log-Datei von dem, was die Software während des letzten Programmlaufs gemacht hat
+-> alle Live-Sets, Presets und Max-Geräte, die beim letzten Programmlauf verwendet wurden (alle ohne Samples)
+-> verschiedene andere von Live erzeugte Log-Dateien
+-> vom Betriebssystem erstellte Informationen über den Absturz
+
+Andere Informationen werden nicht gesendet. Wir verwenden die Daten der Fehlermeldung ausschließlich zum Beseitigen von Bugs. In unsere $Link Datenschutzerklärung <http://www.ableton.com/privacy-policy> erhalten Sie Auskunft darüber, wie wir Ihre Informationen verwenden.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

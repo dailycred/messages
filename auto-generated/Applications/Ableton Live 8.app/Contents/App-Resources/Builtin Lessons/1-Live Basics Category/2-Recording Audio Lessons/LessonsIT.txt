@@ -1,0 +1,210 @@
+$Page Registrazione Audio
+$TargetName Recording Audio
+
+In questa lezione vedremo come utilizzare Live per la registrazione dal vivo di strumenti o voce. Impareremo ad effettuare assegnazioni, monitoraggio e registrazioni multitraccia e potremo persino scoprire come suonare assolo di chitarra incredibilmente veloci.
+
+Questa lezione è disponibile anche in formato video. $Link Clicca qui <http://www.ableton.com/_common/downloads/movies/recording_audio.mov> per lanciare il video dal sito web Ableton.
+
+Divider.tif
+*I documenti di Live sono definiti Live Set. Questa lezione è accompagnata da un Live Set col quale interagirai procedendo. Quando sei pronto $Link clicca qui <Set:/Sets/Recording Audio.als> per caricare il Live Set.*
+Divider.tif
+
+
+Prima di iniziare, due parole sulla /Finestra Info/ di Live:
+OverviewInfoView.tif
+
+La Finestra Info è collocata nell'angolo in basso a sinistra della schermata di Live. E' una risorsa molto utile che descrive in pratica qualsiasi cosa si sorvoli col mouse. Come molte altre viste di Live, può essere mostrata o nascosta secondo necessità semplicemente cliccando sul /pulsante triangolare Mostra/Nascondi/ posto accanto al suo angolo inferiore sinistro.
+InfoViewFoldButton.tif
+
+Se passi col mouse sopra il pulsante /Pagina succ./ qui sotto, la Finestra Info ti indicherà come continuare con la nostra lezione sulla registrazione.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page L'Arrangiamento
+$TargetName The Arrangement
+
+In questa lezione lavoreremo nella /Vista Arrangiamento/ di Live, attualmente mostrata nella metà superiore della schermata dell'applicazione.
+OverviewArrangement.tif
+
+L'Arrangiamento può essere usato esattamente come un registratore a nastro - i suoni possono esservi registrati liberamente. Le tue registrazioni possono essere riprodotte in qualsiasi momento, a partire da qualsiasi punto. Quando sei soddisfatto di ciò che hai creato, puoi esportarlo da Live in modo da masterizzarlo su CD o DVD.
+
+Facciamo un po' più di spazio per l'Arrangiamento, compattando il /Browser/ nel lato superiore sinistro dello schermo. Come la Finestra Info, anch'esso dispone di un pulsante Mostra/Nascondi.
+BrowserShowHideRec.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Il Mixer dell'Arrangiamento
+$TargetName The Arrangement Mixer
+
+Questo Live Set contiene una traccia audio vuota, attualmente nominata "1 Audio". Tra un attimo predisporremo questa traccia per la registrazione.
+ArrangementOneTrack.tif
+
+Il lato destro della Vista Arrangiamento appartiene al /mixer/ di Live.
+ArrangementMixer.tif
+
+Il mixer ha molte funzioni che ti aiutano a costruire e perfezionare il suono del tuo Live Set. Di solito non è necessario accedere a tutte queste funzioni in una sola volta, pertanto il mixer è suddiviso in sezioni che possono essere visualizzate o nascoste in base alle esigenze. In questa lezione siamo interessati solo alle sezioni /Entrate/Uscite/ e /Mixer,/ perciò prosegui e clicca sui selettori /Mostra/Nascondi/ dell'angolo inferiore destro della Vista Arrangiamento fino a che siano abilitati solo *IO* e *M*:
+InOutShowHideRec.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Assegnazione degli Ingressi
+$TargetName Input Routing
+
+Usiamo la sezione Entrate/Uscite (o In/Out) di Live per dire ad ogni traccia dove cercare i segnali audio in ingresso (Entrate) e dove inviare i propri segnali audio (Uscite):
+ArrangementIOSection.tif
+
+La coppia di selettori di /entrata/ della sezione Entrate/Uscite mostra che la nostra traccia sta ricevendo l'audio dai canali esterni 1 e 2. Ciò corrisponde probabilmente all'ingresso audio standard del computer (un microfono incorporato o un jack d'ingresso di linea).
+Input1And2Rec.tif
+
+Il selettore d'entrata superiore ti consente di scegliere tra varie /sorgenti d'ingresso:/ ingressi esterni ('Ext. In'), altre tracce o segnali provenienti da applicazioni ReWire.
+
+Il selettore d'entrata inferiore ti consente di scegliere tra vari /canali d'ingresso,/ tipicamente disponibili nelle interfacce audio multicanale.
+
+
+Divider.tif
+*Nota:* per ottenere le migliori prestazioni dalla tua interfaccia audio multicanale segui la lezione $Link Impostazione di Entrate/Uscite Audio <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO>.
+
+$Comment --------------------------------------------------------------------------------
+$Page Armare una Traccia Audio
+$TargetName Arming an Audio Track
+
+Prima che la registrazione possa iniziare, dobbiamo /armare/ (predisporre alla registrazione) la nostra traccia audio, cliccando sul pulsante /Arma/ mostrato qui sotto. Questo prepara Live al processo di registrazione.
+
+*Nota:* se senti un forte feedback quando armi la traccia, clicca di nuovo sul pulsante Arma per silenziarla, quindi continua a leggere per scoprire cosa sta succedendo.
+Track1ArmedRec.tif
+
+Una volta armata la traccia, vedrai che il suo /misuratore di livello/ (o meter) mostra il livello del segnale d'ingresso. Questo rappresenta il volume del suono che verrà registrato.
+InputMeterRec.tif
+
+Se il meter non rileva alcun segnale, innanzitutto abbassa il volume degli altoparlanti o delle cuffie, in modo che eventuali sbalzi di volume non danneggino l'udito o le attrezzature. Quindi, verifica di aver selezionato un canale d'ingresso che abbia uno strumento o un microfono collegato ad esso. Dopo aver identificato e risolto il problema, ricorda di ripristinare il volume ad un livello appropriato.
+
+$Comment --------------------------------------------------------------------------------
+$Page Monitoraggio
+$TargetName Monitoring
+
+Di solito noi vogliamo sentire ciò che stiamo registrando; il /monitoraggio/ determina come ascoltiamo i segnali degli ingressi delle tracce selezionati.
+
+Questi tre interruttori della sezione Entrate/Uscite ti consentono di impostare il comportamento del monitoraggio di ogni singola traccia audio e MIDI:
+MonitoringSectionRec.tif
+
+-> Scegli *Off* se stai monitorando /direttamente,/ cioè tramite l'interfaccia audio o tramite un mixer esterno - oppure tramite l'ascolto diretto nell'ambiente.
+
+-> Scegli *Auto* per monitorare il segnale in ingresso attraverso Live. Se riscontri eco o feedback, hai una configurazione di /monitoraggio diretto./ Imposta il pulsante di monitoraggio della traccia su *Off* oppure disattiva l'opzione di monitoraggio diretto della tua interfaccia audio.
+
+Effettuando il monitoraggio attraverso un software ci sarà sempre una certa quantità di ritardo o /latenza/ tra l'azione e il risultato acustico. Per apprendere come minimizzare la latenza segui la lezione $Link Impostazione di Entrate/Uscite Audio <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO>.
+
+$Comment --------------------------------------------------------------------------------
+$Page Preparazione alla Registrazione
+$TargetName Preparing to Record
+
+Adesso che i segnali audio vengono visualizzati in Live e che abbiamo modo di monitorarli, siamo pronti per registrare una ripresa nell'Arrangiamento. Innanzitutto, verifica che la traccia audio sia ancora armata:
+Track1ArmedRec.tif
+
+Poi, clicca due volte sul pulsante /Stop/ della Barra di Controllo. Questo resetta l'Arrangiamento all'inizio, in posizione 1.1.1.
+TransportStopRec.tif
+
+Quindi, clicca sull'adiacente pulsante di /Registrazione Globale./ (Questo procedimento è probabilmente familiare a chi ha utilizzato macchine multitraccia a nastro: prima vengono armate per la registrazione le singole tracce, poi il pulsante di Registrazione Globale attiva la registrazione delle tracce armate).
+GlobalRecordRec.tif
+
+Infine, clicca sul pulsante /Play/ della Barra di Controllo (oppure premi la *barra spaziatrice* della tastiera del computer) per avviare la registrazione.
+TransportPlayRec.tif
+
+E' tempo di suonare!
+
+$Comment --------------------------------------------------------------------------------
+$Page Registrazione e Riproduzione
+$TargetName Recording and Playback
+
+Mano a mano che la registrazione procede, vedrai crearsi una nuova /clip audio/ nella traccia.
+ArrangementClipRecording.tif
+
+Per interrompere la registrazione clicca sul pulsante /Stop/ della Barra di Controllo oppure premi di nuovo la *barra spaziatrice.*
+TransportStopRec.tif
+
+Ora, clicca un'altra volta sul pulsante Stop (reimpostando l'Arrangiamento a 1.1.1) e ascolta la tua registrazione cliccando sul pulsante Play.
+
+$Comment --------------------------------------------------------------------------------
+$Page Navigazione dell'Arrangiamento
+$TargetName Navigating the Arrangement
+
+Se hai registrato abbastanza a lungo, l'Arrangiamento potrebbe aver iniziato a scorrere orizzontalmente. Per far scorrere la visualizzazione avanti/indietro o per aumentare/diminuire lo zoom afferra col mouse il righello dei tempi di battuta, lungo la parte superiore dell'Arrangiamento:
+-> I movimenti verticali aumentano/diminuiscono lo /zoom;/
+-> I movimenti orizzontali eseguono lo /scorrimento/ a sinistra/destra.
+TimeLineRec.tif
+
+La riproduzione e la registrazione possono iniziare da qualsiasi punto della song. Puoi impostare un /marcatore d'inserimento/ cliccando ovunque nella Vista Arrangiamento (tranne che nella barra del titolo di una clip): la volta successiva, la song inizierà a suonare da quel punto.
+InsertMarker.tif
+
+Se non sei soddisfatto di ciò che hai registrato, non preoccuparti! Una rapida pressione di *$CommandMod + Z* è tutto ciò che serve per annullare una ripresa ed essere pronti a provare di nuovo.
+
+$Comment --------------------------------------------------------------------------------
+$Page Il Metronomo
+$TargetName The Metronome
+
+E' importante registrare in sync per assicurarsi che poi tutto suoni in sync.
+
+Il modo più semplice per registrare in sync è quello di usare il /metronomo/ incorporato di Live, che si attiva attraverso il relativo interruttore della Barra di Controllo. Lo puoi trovare nell'angolo superiore sinistro della finestra dell'applicazione:
+MetronomeSwitch.tif
+
+Il metronomo ticchetta al tempo corrente mentre Live è in esecuzione. Attiva il metronomo, poi premi la *barra spaziatrice* per avviare la riproduzione. Puoi regolare il volume del metronomo usando il controllo /Volume di Anteprima/ della traccia Master, mostrato qui sotto. Premi di nuovo la *barra spaziatrice* per fermare la riproduzione.
+CueVolume.tif
+
+
+Divider.tif
+*Nota:* se le tue registrazioni suonano ritardate rispetto al metronomo, probabilmente è necessario impostare la /compensazione della latenza./ La compensazione della latenza è un trucco che il programma adotta nel monitoraggio diretto per compensare i ritardi dovuti all'interfaccia audio e ai relativi driver. Per impostarla, Live deve eseguire un piccolo test che, purtroppo, richiede la tua assistenza. La lezione $Link Compensazione degli Errori dei Driver <Lesson:Builtin/3-Hardware Setup Category/2-Driver Error Compensation> ti guiderà attraverso questa procedura.
+
+$Comment --------------------------------------------------------------------------------
+$Page Trucchi col Tempo, Pre-Conteggio e Batti-Tempo
+$TargetName Tempo Tricks, Count-in and Tapping
+
+Il tempo del tuo Live Set può essere cambiato in qualsiasi momento: prima, dopo e persino durante la registrazione. Potresti, ad esempio, "barare" un pochino, riducendo il tempo mentre registri un assolo di chitarra complicato, rialzandolo quando hai finito.
+TempoField.tif
+
+Un'altra tecnica utile per la registrazione è l'uso di un /pre-conteggio/ (o count-in). Questo ti dà la possibilità di prepararti per la ripresa prima che la registrazione inizi effettivamente. Per impostarne il comportamento, apri le Preferenze tramite il menu Opzioni (PC) o il menu Live (Mac) e scegli la scheda /Record/Warp/Launch./ Quando l’opzione Pre-conteggio è regolata su un qualsiasi valore diverso da "None" (nessuno), Live non comincia a registrare fino a quando il pre-conteggio non sia completato.
+CountInPref.tif
+
+In alternativa, puoi fare in modo che Live segua il tuo conteggio, anziché il contrario. Con una metrica in 4/4 ci vogliono quattro clic sul pulsante /TAP/ prima che Live inizi la riproduzione (o la registrazione).
+TapButton.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Registrazione Multitraccia
+$TargetName Multitrack Recording
+
+Premi *$CommandMod + T* per creare una nuova traccia audio per la tua prossima ripresa. Espandi la nuova traccia cliccandone il pulsante triangolare nella barra del titolo:
+NewTrackArm.tif
+
+Ricordati di attivare il pulsante Arma della nuova traccia, altrimenti finirai col registrare nuovamente nella traccia 1. Per default, armando una traccia si disarmano tutte le altre. Tuttavia, puoi armare e disarmare in modo indipendente le tracce usando la combinazione *$CommandMod+clic* sui rispettivi pulsanti Arma. In questo modo puoi impostare qualsiasi numero di tracce da registrare simultaneamente.
+MultiArm.tif
+
+Ovviamente ciò non avrebbe molto senso se non si impostassero le tracce in modo da ricevere segnali in ingresso differenti (ad es. da ciascun membro della band). Nell'esempio sopra illustrato abbiamo modificato la nostra selezione d'ingresso in modo che la traccia 1 registri l'ingresso 1 in mono e la traccia 2 registri l'ingresso 2 in mono.
+
+Vai avanti e registra una nuova ripresa usando il metronomo come guida temporale. Quando hai finito, ricordati di cliccare sul pulsante Stop o di premere la *barra spaziatrice*.
+
+$Comment --------------------------------------------------------------------------------
+$Page Fallo ancora (e ancora...)
+$TargetName Doing it Again (and Again...)
+
+Se desideri rifare solo una certa parte di una ripresa, puoi impostare i /punti di punch:/ trascina i bordi destro e sinistro del /ciclo di loop/ per definire i punti di immissione (Punch In) e di uscita (Punch Out)...
+PunchMarkers.tif
+
+...quindi attiva gli interruttori /Punch-In/ e /Punch-Out/ della Barra di Controllo.
+PunchSwitches.tif
+
+-> Quando l'interruttore Punch-In è acceso, Live protegge il materiale che si trova prima del ciclo di loop;
+-> Quando l'interruttore Punch-Out è acceso, Live protegge il materiale che si trova dopo il ciclo di loop;
+
+Il ciclo di loop può essere usato anche per definire una sezione dell'Arrangiamento da ripetere in modo ciclico: puoi impostare un loop e registrare senza interruzione quante riprese desideri; Live conserverà l'audio registrato durante ogni passaggio. In seguito puoi "srotolare" la registrazione effettuata in loop, utilizzando la funzione Annulla. Il /Loop/ si attiva tramite il relativo interruttore della Barra di Controllo:
+LoopSwitch.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Come continuare?
+$TargetName Where to Go from Here?
+
+Hai già iniziato a utilizzare Live per creare registrazioni multitraccia. Quindi, come continuare? Ti consigliamo vivamente di proseguire con le altre lezioni per apprendere cos'altro sia possibile con Live:
+
+-> $Link Clicca qui <Lesson:Internal/BuiltinAutoToc> per accedere a tutte le lezioni installate.
+
+-> Apprendi come $Link suonare e registrare strumenti software <Lesson:Builtin/1-Live Basics Category/4-Playing Software Instruments>.
+
+-> Apprendi di più sulle clip MIDI tramite la $Link creazione di pattern di batteria <Lesson:Builtin/1-Live Basics Category/3-Creating Beats>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

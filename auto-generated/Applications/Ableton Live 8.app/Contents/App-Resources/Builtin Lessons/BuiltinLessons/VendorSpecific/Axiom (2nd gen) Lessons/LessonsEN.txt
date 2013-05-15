@@ -1,0 +1,118 @@
+$Page M-Audio Axiom (2nd gen)
+$TargetName M-Audio Axiom (2nd gen) Control Surface
+
+$0 extends control surface support to the /Axiom (2nd gen)/ keyboard by M-Audio. This lesson will help you set up your Axiom (2nd gen), and introduce its capabilities.
+Axiommk2Controller.tif
+
+Please click the /Next Page/ button at the bottom right of this lesson to proceed, or use the following links for quick reference:
+
+-> $Link Setting up the Axiom (2nd gen) <GotoPage:Setting Up the Axiom (2nd gen)>
+-> $Link Axiom (2nd gen) Basics <GotoPage:Axiom (2nd gen) Basics>
+-> $Link Controlling Session and Arrangement <GotoPage:Controlling Session and Arrangement>
+-> $Link Controlling Live's Mixer <GotoPage:Controlling Live's Mixer>
+-> $Link Controlling Live's Devices <GotoPage:Controlling Live's Devices>
+-> $Link Axiom (2nd gen) Pads <GotoPage:Axiom (2nd gen) Pads>
+
+For a general introduction to using control surfaces with Live, as well as a list of how Live's devices are mapped across control surfaces, please see the $Link Control Surface Reference <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference> lesson.
+
+$Comment -----------------------------------------------------------------------
+$Page Setting Up the Axiom (2nd gen)
+$TargetName Setting Up the Axiom (2nd gen)
+
+First, please verify that your Axiom (2nd gen) is connected to your computer, and powered on. Windows users who haven't performed this step before launching $0 will need to restart $0 before the Axiom (2nd gen) can be recognized.
+
+Open $0's Preferences by selecting /Preferences/ from the $0 menu (MacOS) or the 'Options' menu (Windows). Then select the /MIDI/Sync/ tab.
+
+In the upper section, select Axiom (2nd gen) from the /Control Surface/ chooser, then define the MIDI Input and Output ports which it is connected to.
+
+Finally, close $0's Preferences.
+
+$Comment -----------------------------------------------------------------------
+$Page Axiom (2nd gen) Basics
+$TargetName Axiom (2nd gen) Basics
+
+DirectLink.tif
+
+Several important buttons are located below the LCD display, and work as follows:
+
+-> *Track <:* selects the previous track and record arms (if new track is a MIDI track).
+-> *Track >:* selects the next track and record arms (if new track is a MIDI track).
+-> *Mute:* Mutes the selected track.
+-> *Inst:* Maps the encoders to the instrument within the selected track.
+
+With Shift held, the buttons do the following;
+
+-> *Shift + Track <:* banks eight tracks to the left.
+-> *Shift + Track >:* banks eight tracks to the right.
+-> *Shift + Mute:* solos the selected track.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Controlling Session and Arrangement
+$TargetName Controlling Session and Arrangement
+
+mk2Transport.tif
+
+The Axiom (2nd gen)'s /transport buttons/ control the following functions in Session View:
+
+-> LOOP: triggers the scene playback
+-> REWIND: selects the previous scene
+-> FORWARD: selects the next scene
+-> STOP: stops Live's global transport
+-> PLAY: plays Live's global transport
+-> RECORD: starts Arrangement recording
+
+The transport buttons also control functions in Arrangement View. Using the Shift button expands some of the functionality of these buttons.
+
+-> LOOP: Toggles loop on/off
+-> REWIND: Goes back one bar (Shift + REW: Go to Start)
+-> FORWARD: Goes forward one bar (Shift + FWD: Go to End)
+-> STOP: Stops
+-> PLAY: Plays
+-> RECORD: Records
+
+$Comment -----------------------------------------------------------------------
+$Page Controlling Live's Mixer
+$TargetName Controlling Live's Mixer
+
+mk2Mixer.tif
+
+The Axiom (2nd gen)'s faders control the current eight tracks, plus the master track.
+
+The Fader buttons mute the current eight tracks. Holding F18 while pressing a fader button solos the track.
+
+Note that the Axiom (2nd gen) 25 has only one fader, which controls the volume of the currently selected track.
+
+$Comment -----------------------------------------------------------------------
+$Page Controlling Live's Devices
+$TargetName Controlling Live's Devices
+
+Axiommk2Patch.tif
+
+Axiommk2Encoders.tif
+
+Encoders and Patch buttons work together to give you control over your Live device parameters. If no device is present in a track, the encoders have no function. The target of the encoders is affected by the Patch buttons as follows:
+
+-> *Patch Up:* Next bank of parameters (Shift + Patch Up: Move to next device in track)
+-> *Patch Down:* Previous bank of parameters (Shift + Patch Down: Move to previous device in track)
+
+When selecting a track, the encoders will map to the previously selected device in that track. If the Inst button is active, however, the encoders will always map to the instrument in the track (if available).
+
+If a new device is created within a track, it will automatically be selected as the active device within that track.
+
+/Peek/
+If the Shift button is held down and an Encoder is turned on the Axiom (2nd gen), Live will not change the parameter's value, but will display the name and value of the parameter.
+
+Divider.tif
+Please $Link click here <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference#Device Parameter Mappings> for detailed information about Live's device parameter mappings.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Axiom (2nd gen) Pads
+$TargetName Axiom (2nd gen) Pads
+
+Axiommk2Pads.tif
+
+By default, the pads map to the eight pads of Impulse or the first eight pads of a Drum Rack. However, with the Shift button held down, the pads will trigger the clip within the selected scene, as is the case with the Axiom classic control surface. The pads map to the active bank, such that if the user has banked to tracks 9-16, pads P1-P8 trigger the clips on track 9-16 respectively.
+
+$Comment Status: Translate

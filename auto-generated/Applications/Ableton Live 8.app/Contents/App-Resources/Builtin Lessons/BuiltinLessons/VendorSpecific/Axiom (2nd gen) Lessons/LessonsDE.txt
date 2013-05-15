@@ -1,0 +1,119 @@
+$Page M-Audio Axiom (2nd gen)
+$TargetName M-Audio Axiom (2nd gen) Control Surface
+
+$0 erweitert die Unterstützung für das /Axiom (2nd gen) Keyboard/ von M-Audio. Dieser Kurs wird Ihnen beim Einrichten Ihres Axiom (2nd gen) helfen und in seine Möglichkeiten einführen.
+Axiommk2Controller.tif
+
+Bitte klicken Sie zum Fortfahren auf den Taster /Nächste Seite/ rechts unten in diesem Kurs oder verwenden Sie die folgenden Links zur gezielten Navigation:
+
+-> $Link Einrichten des Axiom (2nd gen) <GotoPage:Setting Up the Axiom (2nd gen)>
+-> $Link Axiom (2nd gen) Grundfunktionen <GotoPage:Axiom (2nd gen) Basics>
+-> $Link Steuern von Session und Arrangement <GotoPage:Controlling Session and Arrangement>
+-> $Link Steuerung von Lives Mixer <GotoPage:Controlling Live's Mixer>
+-> $Link Steuerung von Lives Geräten <GotoPage:Controlling Live's Devices>
+-> $Link Die Pads des Axiom (2nd gen) <GotoPage:Axiom (2nd gen) Pads>
+
+Eine allgemeine Einführung zum Verwenden von Hardware-Bedienoberflächen mit Live finden Sie im Kurs $Link Referenz zu den Bedienoberflächen <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference>. Dieser Kurs informiert Sie auch, wie Geräte von Live den Hardware-Bedienoberflächen zugewiesen werden.
+
+$Comment -----------------------------------------------------------------------
+$Page Einrichten des Axiom (2nd gen)
+$TargetName Setting Up the Axiom (2nd gen)
+
+Stellen Sie zunächst sicher, dass Ihr Axiom (2nd gen) an den Rechner angeschlossen und eingeschaltet ist. Windows-Anwender, die das vor dem Starten von $0 noch nicht getan haben, müssen $0 erneut starten, damit das Axiom (2nd gen) erkannt wird.
+
+Öffnen Sie $0s Voreinstellungen, indem Sie /Voreinstellungen/ aus dem $0-Menü (MacOS) oder dem Menü 'Optionen' (Windows) wählen. Öffnen Sie dann die Seite /MIDI/Sync./
+
+Wählen Sie im oberen Bereich des Menüs /Bedienoberfläche/ Axiom (2nd gen) und dann die MIDI-Eingangs- und -Ausgangs-Ports aus, an die es angeschlossen ist.
+
+Schließen Sie dann $0s Voreinstellungen.
+
+$Comment -----------------------------------------------------------------------
+$Page Axiom (2nd gen) Grundfunktionen
+$TargetName Axiom (2nd gen) Basics
+
+DirectLink.tif
+
+Einige wichtige Tasten befinden sich unter der LCD-Anzeige. Sie steuern folgende Funktionen:
+
+-> *Track <:* wählt die vorherige Spur und schaltet sie aufnahmebereit (falls die neue Spur eine MIDI-Spur ist)
+-> *Track >:* wählt die nächste Spur und schaltet sie aufnahmebereit (falls die neue Spur eine MIDI-Spur ist).
+-> *Mute:* schaltet die gewählte Spur stumm
+-> *Inst:* weist die Axiom-Drehregler dem Instrument der gewählten Spur zu.
+
+Wird Shift gehalten, funktionieren die Tasten folgendermaßen:
+
+-> *Shift + Track <:* Verschiebt die Auswahl bankweise um 8 Spuren nach links.
+-> *Shift + Track >:* Verschiebt die Auswahl bankweise um 8 Spuren nach rechts.
+-> *Shift + Mute:* schaltet die gewählte Spur solo.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Steuern von Session und Arrangement
+$TargetName Controlling Session and Arrangement
+
+mk2Transport.tif
+
+Die /Transport-Taster/ des Axiom (2nd gen) steuern in der Session-Ansicht folgende Funktionen:
+
+-> LOOP: startet die Wiedergabe der Szene
+-> REWIND: wählt die vorherige Szene
+-> FORWARD: wählt die nächste Szene
+-> STOP: stoppt Lives globalen Transport
+-> PLAY: startet Lives globalen Transport
+-> RECORD: startet die Aufnahme ins Arrangement
+
+Auch in der Arrangement-Ansicht steuern die Transport-Taster bestimmte Funktionen. Bei einigen Tasten sind mit der Shift-Taste noch zusätzliche Funktionen möglich.
+
+-> LOOP: Schaltet den Loop ein/aus
+-> REWIND: Geht einen Takt zurück (Shift + REW: Springt zum Arrangement-Anfang)
+-> FORWARD: Geht einen Takt vor (Shift + FWD: Springt zum Arrangement-Ende)
+-> STOP: Stoppt die Wiedergabe
+-> PLAY: Startet die Wiedergabe
+-> RECORD: Startet die Aufnahme
+
+$Comment -----------------------------------------------------------------------
+$Page Steuerung von Lives Mixer
+$TargetName Controlling Live's Mixer
+
+mk2Mixer.tif
+
+Die Fader des Axiom (2nd gen) steuern die acht zurzeit gewählten Spuren, dazu die Master-Spur.
+
+Die Tasten unter den Fadern schalten die zurzeit gewählten Spuren stumm. Wird F18 gehalten, während eine der Fader-Tasten gedrückt wird, schaltet die entsprechende Spur solo.
+
+Beachten Sie bitte, dass das Axiom (2nd gen) 25 nur einen Fader besitzt, der die Lautstärke der gerade ausgewählten Spur steuert.
+
+$Comment -----------------------------------------------------------------------
+$Page Steuerung von Lives Geräten
+$TargetName Controlling Live's Devices
+
+Axiommk2Patch.tif
+
+Axiommk2Encoders.tif
+
+Die Drehregler und Patch-Tasten ermöglichen gemeinsam die Parameter von Lives Geräten zu steuern. Ist in einer Spur kein Gerät vorhanden, besitzen die Drehregler keine Funktion. Die Zielparameter der Drehregler werden von den Patch-Tasten wie folgt beeinflusst:
+
+-> *Patch hoch:* Folgende Parameterbank wählen (Shift + Patch hoch: Zum nächsten Gerät in der Spur gehen)
+-> *Patch runter:* Vorherige Parameterbank wählen (Shift + Patch runter: Zum vorherigen Gerät in der Spur gehen)
+
+Bei Auswahl einer Spur werden die Drehregler des Axiom dem jeweils zuvor gewählten Gerät dieser Spur zugewiesen. Bei aktiver Inst-Taste hingegen werden die Drehregler immer dem Instrument in der Spur zugewiesen (falls vorhanden).
+
+Wird ein neues Gerät in einer Spur erzeugt, wird es automatisch als aktives Gerät in dieser Spur angewählt.
+
+/Peek/
+Wird die Shift-Taste beim Drehen eines Reglers auf dem Axiom (2nd gen) gehalten, ändert Live nicht den Parameterwert, sondern zeigt den Namen und den Wert des Parameters an.
+
+Divider.tif
+Um mehr über Lives Zuweisungen zu einzelnen Geräte-Parametern zu erfahren, klicken Sie bitte $Link hier <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference#Device Parameter Mappings>.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Die Pads des Axiom (2nd gen)
+$TargetName Axiom (2nd gen) Pads
+
+Axiommk2Pads.tif
+
+Die Pads sind standardmäßig den acht Pads von Impulse oder den ersten acht Pads eines Drum-Racks zugewiesen. Bei gehaltener Shift-Taste jedoch triggern die Pads den entsprechenden Clip in der ausgewählten Szene, genau wie bei den Axiom-Classic-Bedienoberflächen. Die Pads sind der jeweils aktiven Bank zugewiesen. Haben Sie z.B. die Bank mit den Spuren 9-16 gewählt, steuern die Pads P1-P8 entsprechend Clips der Spuren 9-16.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

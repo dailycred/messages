@@ -1,0 +1,26 @@
+$Page Max for Live
+$TargetName Max for Live
+Bienvenidos a Max for Live.
+
+$If Product 70
+Max for Live está autorizado en este equipo pero no se ha instalado correctamente. Por favor siga estos pasos para instalar Max for Live.
+
+-> Descargue $Link la versión más reciente de Max <$MaxMSPDownloadUrl> desde cycling74.com e instálela. Tal vez se le pida que reinicie tras la instalación. Una vez que haya instalado Max con éxito, reinicie Live.
+$Else
+Max for Live o bien no está autorizado en este equipo o no se ha instalado correctamente. Por favor siga estos pasos para configurar Max for Live.
+
+-> Si todavía no lo ha hecho, descargue $Link la versión más reciente de Max <$MaxMSPDownloadUrl> desde cycling74.com e instálela. Tal vez se le pida que reinicie tras la instalación. Una vez que haya instalado Max con éxito, reinicie Live.
+
+-> Actualice sus autorizaciones de Live. Deberá dirigirse a la $Link pestaña User Account/Licenses en las Preferencias de Live <Pref:products>. Desde aquí puede autorizar online u offline.
+AuthorizationsTab.tif
+$Endif
+
+Si ha instalado Max en algún lugar distinto al de la ubicación por defecto, deberá apuntar hacia la aplicación de Max desde la $Link pestaña File/Folder en las Preferencias de Live <Pref:FileFolder>.
+MaxFileFolderPref.tif
+
+-> Una vez que Live apunte hacia su instalación de Max, se le pedirá que instale un Live Pack que lleva contenido de Max for Live.
+
+-> Una vez que se instale este Pack, siga la lección de Live denominada $Link Iniciación a Max for Live <Lesson:/8-MaxForLive Category/01-Getting Started with Max for Live>. Esto le presentará la idea básica de Max for Live y le iniciará con algunos de los contenidos de fábrica y tutoriales.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

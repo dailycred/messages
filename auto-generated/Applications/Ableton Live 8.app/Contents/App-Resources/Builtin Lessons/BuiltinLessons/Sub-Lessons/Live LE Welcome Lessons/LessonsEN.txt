@@ -1,0 +1,113 @@
+$Page Welcome to $0 LE 
+$TargetName Welcome to $0 LE
+Live6LessonsImage.tif
+
+$0 LE is a powerful software package that provides a great first step into the world of computer-based music production. This lesson will introduce you to the fundamentals of $0 LE; what it can do, how it fits into the $0 family of products, and how to install and use the included content such as the demo songs, presets, additional lessons and instructional movies.
+
+The best way to learn $0 LE is by following the /lessons./ These short interactive tutorials are built into $0 itself - you're reading one right now. The lessons focus on specific features or areas within the program, and most of them include small demo songs that you can work with in $0 LE as you read along.
+
+You can access the lessons at any time by choosing /Lessons Table of Contents/ from the Help menu. For help with navigation, please click $Link here <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Lesson View>.
+
+Click the /Next Page/ button below to continue with the lesson.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page The $0 LE Interface 
+$TargetName The $0 LE Interface
+
+The basic building blocks of $0 are called /clips./  A clip is a piece of musical material: a melody, drum pattern, bass line or even a complete song.
+
+Most of your work in $0 will consist of creating, editing and combining clips in order to build larger musical structures. You can do this in two separate views, called the /Arrangement/ and the /Session./
+
+Clips in Session view appear like this:
+SessionClips.tif
+
+Clips in the Arrangement look like this:
+ArrangementClips.tif
+
+You can quickly alternate between the two views with your computer's *Tab* key or with the view selectors:
+ViewSelectors.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Opening the Browser and Library 
+$TargetName Opening the Browser and Library
+
+There are many ways to create or import data in $0, but the easiest way is to drag it in from the /Browser./ You can toggle the Browser's visibility with its selector button or via $ViewPanMod-B:
+BrowserSelector.tif
+
+You can use the Browser to navigate to any location on your drives, as well as to $0's /Library,/ which is where you can find $0's pre-installed content. To get to the Library, first open one of the three /File Browsers/ by using its selector:
+FileBrowserSelectors.tif
+
+Then select the Library /bookmark/ at the top of the Browser:
+LibraryBookmark.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Working With Clips 
+$TargetName Working With Clips
+
+The Library's /Clips/ folder contains pre-made clips that you can use in your projects right away. These combine MIDI data, instruments and effects into a single container. Let's load one now. First, switch to Session view if you're not already there:
+SessionView.tif
+
+Then navigate to the /Clips/ folder, select a clip, and drag it into an empty slot in the Session:
+ClipToSlot.tif
+
+You can also drag in raw audio files from the Library's /Samples/ folder to automatically create new clips. MIDI and audio clips work in much the same way, and can live side-by-side in your projects.
+
+Once you've loaded some clips, you can /launch/ them by pressing their play buttons:
+PlayButtons.tif
+
+Each clip has its own play button, which allows clips to be launched independently from one another. A row of clips is called a /scene./ Clips arranged in scenes can all be launched simultaneously by pressing the /Scene Launch/ button in the Master track:
+SceneLaunch.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Installing and Using $0 Content 
+$TargetName Installing and Using $0 Content
+
+$0 LE comes with a selection of pre-installed content that can help you get acquainted with the program as well as jump-start your own creative work. This includes:
+
+-> the /Simpler/ and /Impulse/ instruments;
+-> several /Live Packs,/ which provide the additional lessons as well as presets for the instruments and Live effects devices;
+-> a collection of /demo songs/ that you can listen to and analyze to learn more about $0 LE's capabilities.
+
+$0 LE also comes with additional content that is not automatically installed, but that you can install on your own. This includes:
+
+-> the /Essential Instruments Collection LE Edition./ This pack of high-quality multisampled instruments provides a wide variety of "bread-and-butter" Simpler instruments, ready to play;
+-> /Unnatural Selection,/ a collection of loops, beats and instrument presets by $Link Puremagnetik <http://www.puremagnetik.com/>.
+
+Live Packs can be installed in several ways, but the easiest is to use the *Install Live Pack* command from the *File Menu.* This will open a normal operating system window that will allow you to navigate to the additional Live Packs.
+
+In addition to this free content, $0 LE includes Live Packs that install presets for /Operator/ and /Sampler./ These are instruments that are not included with $0 LE, but are available for purchase separately from the $Link Ableton webshop <http://www.ableton.com/shop>. You can also try them right away by enabling $Link /Demo Mode./ <Lesson:Builtin/Demo Mode> Demo Mode allows you to explore an add-on product's functionality, but without the ability to save or export your work.
+
+If you'd like to sit back and relax while learning about $0, we've also created a number of /instructional movies/ that teach about specific aspects of $0's functionality. You can find these on your installation disk or at the $Link Ableton website <http://www.ableton.com/movies>.
+
+(Please note that some of these movies discuss features in the full version of $0 that may not be applicable to Live LE.)
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Upgrading to the Full Version of $0 
+$TargetName Upgrading to the Full Version of $0
+
+Although $0 LE comes with a powerful set of features, you may want to upgrade to the full version of $0 in order to unlock even more possibilities.
+
+Click $Link here <http://www.ableton.com/register> to register your product in order to be automatically notified when the upgrade is available. Registering also ensures that you'll receive notification about updates to $0 LE, as well as other interesting news about Ableton products.
+
+Divider.tif
+*Note: The upgrade to the full version of $0 will be available soon. Until then, you can explore the full version of Live by enabling $Link Demo Mode.* <Lesson:Builtin/Demo Mode>
+Divider.tif
+
+If you need further assistance with $0 LE, please email us at *customercare@ableton.com.*
+
+Have a lot of fun with Live LE!
+
+$Comment --------------------------------------------------------------------------------
+$Page Where to Go From Here? 
+$TargetName Where to Go From Here?
+Live6LessonsNotext.tif
+
+You've now learned the basics of $0 LE's interface, how to install and use its content and information about additional products in the $0 family. From here, we highly recommend that you continue with the lessons to learn more about what $0 LE can do.
+
+You can get to the lessons at any time by choosing /Lessons Table of Contents/ from the Help menu.
+
+
+$Comment Status: Translate

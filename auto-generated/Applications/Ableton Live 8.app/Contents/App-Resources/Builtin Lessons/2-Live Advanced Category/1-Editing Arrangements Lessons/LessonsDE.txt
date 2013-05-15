@@ -1,0 +1,262 @@
+$Page Arrangements bearbeiten
+$TargetName Editing Arrangements
+
+Am Ende der $Link Live-Tour <Lesson:Builtin/1-Live Basics Category/1-A Tour of Live> haben wir gesehen, wie musikalische Ideen und Skizzen in $0s /Arrangement-Ansicht/ als lineare Arrangements aufgezeichnet werden können. In diesem Kurs werden wir die leistungsfähigen Bearbeitungsfunktionen in der Arrangement-Ansicht betrachten.
+
+Divider.tif
+*Wenn Sie bereit sind, klicken Sie bitte $Link hier <Set:/Sets/Editing Arrangements.als>, um das Kurs-begleitende Live-Set zu laden.*
+Divider.tif
+
+Lassen Sie uns erst etwas mehr Platz für die Arrangement-Ansicht schaffen, indem wir den /Browser/ links im Fenster mit seinem unten gezeigten /Schalter für das Ein/Ausblenden/ ausblenden.
+ShowHideBrowser.tif
+
+Vielleicht möchten Sie auch die Schalter zur Auswahl der Mixer-Komponenten nutzen, die Sie rechts auf dem Bildschirm finden. Blenden Sie dort alles, /bis auf den Mixer selbst,/ aus:
+MixerSectionShow2.tif
+
+Wenn Sie fertig sind, klicken Sie /Nächste Seite,/ um fortzufahren.
+
+$Comment -----------------------------------------------------------------------
+$Page Arrangements wiedergeben
+$TargetName Playing Arrangements
+
+Sie können *jederzeit* durch Drücken der Leertaste auf Ihrer Rechnertastatur die Wiedergabe starten und stoppen. Indem Sie den /Stop-Taster/ im Transportbereich zweimal anklicken, können Sie die Wiedergabeposition auf 1.1.1 zurücksetzen.
+TransportStopButtonArr.tif
+
+Lassen Sie den Song eine Weile laufen und halten Sie ihn dann mit der Leertaste an. Klicken Sie dann irgendwo direkt unter dem "Bass B1" Clip. Dies setzt den blinkenden /Einfüge-Marker/ an diese Stelle im Arrangement:
+InsertMarker.tif
+
+Wenn Sie jetzt erneut die Leertaste drücken, startet die Wiedergabe genau an diesem Marker. Sollten Sie es vorziehen, von dem Punkt zu starten, an dem Sie angehalten haben, drücken Sie $ShiftMod zusammen mit der Leertaste.
+
+Stoppen Sie die Wiedergabe und klicken Sie auf das farbige Titelfeld des "Bass B1"-Clips, um diesen zu selektieren.
+SelectedClipArr.tif
+
+Bei einem so selektierten Clip beginnt die Wiedergabe an der linken Seite des Clips und wird im folgenden Arrangement fortgesetzt. Wenn Sie beim Start der Wiedergabe $CopyMod gedrückt halten, wird $0 am Ende des selektierten Bereichs (in diesem Fall am Ende des Clips) wieder anhalten.
+
+$Comment -----------------------------------------------------------------------
+$Page Taktlineal verwenden
+$TargetName Using the Beat Ruler
+
+Die Arrangement-Ansicht zeigt momentan nur einen Teil unseres Songs. Durch Heraus-Zoomen können wir uns einen besseren Überblick über das Geschehen verschaffen.
+
+Dem Zoomen in $0s Arrangement-Ansicht dient das /Taktlineal/ oben im Fenster:
+TimeRuler.tif
+
+Bewegen Sie den Cursor auf das Taktlineal und beachten Sie, dass er sich in ein Vergrößerungsglas verwandelt. Falls das Arrangement gerade spielt, drücken Sie bitte die Leertaste zum Stoppen. Klicken Sie dann auf das Taktlineal und ziehen Sie die Maus /langsam nach oben,/ um heraus zu zoomen und das ganze Arrangement zu sehen.
+
+Mit dem unten gezeigten /Schalter zum Ausklappen einer Spur,/ der neben dem Spur-Namen zu finden ist, kann man eine Spur ein-oder ausklappen, um den Inhalt ihrer Clips darzustellen.
+FoldingAllTracks.tif
+
+Verstecken Sie nun die Inhalte sämtlicher Clips auf /allen/ Spuren, indem Sie auf eben diesen Schalter /$OptionMod-Klicken./ Jetzt kann man das Arrangement in einer etwas kompakteren Form sehen:
+CompactArrangement.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Im Sample springen und scrubben
+$TargetName Jumping and Scrubbing
+
+Der Bereich über der obersten Spur ist der /Scrub-Bereich./ In ihm befindet sich die /Loop-Klammer,/ mit der wir uns gleich beschäftigen werden. Bewegen Sie die Maus aber zunächst mal in den Teil des Scrub-Bereichs, der über oder unter der Loop-Klammer liegt.
+ScrubAreaArr.tif
+
+Der Mauspfeil verwandelt sich standardmäßig in ein Lautsprechersymbol. Sie können dieses Werkzeug verwenden, um an einen beliebigen Punkt im Scrub-Bereich zu springen und die Wiedergabe von dort aus zu starten oder um von Punkt zu Punkt im Arrangement zu springen.
+
+Die Schrittweite und das Timing dieser Sprünge werden nach Maßgabe des /globalen Quantisierungswerts/ quantisiert:
+GlobalQuantizationArr.tif
+
+Hält man die Maustaste im Scrub-Bereich gedrückt, so wird ein Abschnitt des Arrangements mit der Länge des gewählten globalen Quantisierungswerts wiederholt abgespielt. Bei Wahl eines kleinen Quantisierungswerts oder eine Einstellung von /None/ erlaubt dies es Ihnen, durch Ihre Musik zu scrubben.
+
+*Tipp:* Um versehentliches Scrubbing bei einer Live-Performance zu vermeiden, können Sie den Scrub-Bereich auch deaktivieren, indem Sie "Scrub-Bereiche immer aktiv" in Lives $Link Look/Feel-Voreinstellungen  <Pref:LookFeel> ausschalten.
+PermanentScrubPref.tif
+
+Wenn die Option ausgeschaltet ist, dienen die Bereiche über und unter dem Taktlineal zum Zoomen. Das Scrubbing kann dann jederzeit vorübergehend aktiviert werden, indem $ShiftMod beim Ziehen im Scrub-Bereich gehalten wird.
+
+$Comment -----------------------------------------------------------------------
+$Page Lokatoren
+$TargetName Locators
+
+/Lokatoren/ sind hilfreich beim Editieren und Arrangieren, weil Sie bestimmte Punkte im Arrangement markieren. Klicken Sie auf den /Lokator-setzen-Taster,/ um einen Lokator zu setzen (siehe unten). Ihr neuer Lokator erscheint sofort im Scrub-Bereich.
+LocatorSetButtonArr.tif
+
+Wenn der Song läuft, können Lokatoren an der aktuellen Wiedergabeposition "fallengelassen" werden (quantisiert nach Maßgabe des globalen Quantisierungswerts). Ist der Song gestoppt, wird ein Lokator an der Einfügemarkierung oder am Beginn einer Selektion erzeugt.
+NewLocatorArr.tif
+
+Sie können einen Lokator durch Anklicken oder mit den /Vorheriger-/ und /Nächster-Lokator-Tastern/ neben dem Set-Taster aufrufen (zu ihm springen).
+PrevNextButtonArr.tif
+
+Das Aufrufen von Lokatoren unterliegt wiederum der globalen Quantisierung, genau wie das Klicken und Springen im Scrub-Bereich. Das Doppeklicken eines Lokators selektiert diesen und startet die Wiedergabe an der betreffenden Stelle. Lokatoren können durch Ziehen oder mit den Pfeiltasten Ihrer Rechnertastatur bewegt werden.
+
+Wenn Sie einem Lokator einen neuen Namen geben möchten, selektieren Sie ihn mit der Maus und wählen Sie /Umbenennen/ ($CommandMod + R) vom Edit-Menü. Um einen Lokator zu löschen, selektieren Sie ihn und drücken Sie dann die /Löschtaste/ auf der Tastatur Ihres Rechners.
+
+Außerdem können Sie mit einem $ContextMenu auf einen Lokator und anschließender Wahl des /Song-hier-starten-Befehls/ vom Kontextmenü diesen Lokator als Startpunkt für die Wiedergabe festlegen.
+
+$Comment -----------------------------------------------------------------------
+$Page Einen Loop setzen
+$TargetName Setting a Loop
+
+Nun möchten wir uns auf die Bearbeitung des Clips "Pad B2" konzentrieren:
+PadB2Clip.tif
+
+Wir wollen den Clip /loopen,/ sodass wir diesen Abschnitt wiederholt anhören können. Um das zu tun, müssen wir den Abschnitt mit der unten gezeigten /Loop-Klammer/ umschließen.
+LoopMarkers.tif
+
+Die Ecken der Loop-Klammer können an die gewünschte Position gezogen werden. Klicken Sie auf die linke Ecke und ziehen Sie diese, sodass sie am Beginn des Clips "Pad B2" (Takt 29) zu liegen kommt.
+PadBeginning.tif
+
+Als Nächstes klicken Sie bitte auf die rechte Ecke der Loop-Klammer und ziehen Sie sie nach rechts, bis Sie direkt mit dem Ende des Clips (Takt 33) abschließt.
+PadEnd.tif
+
+Divider.tif
+/Tipp:/ Sie können die Loop-Klammer sehr schnell exakt an die Grenzen eines Clips anpassen, indem Sie auf den Clip klicken um ihn auszuwählen und dann $CommandMod-L drücken. Auch wenn ein Loop nur teilweise zu sehen ist, müssen Sie nicht scrollen; Sie können den Start- oder Endpunkt jederzeit auch am Rande des Sichtbereichs "greifen".
+
+$Comment -----------------------------------------------------------------------
+$Page Den Loop aktivieren
+$TargetName Activating Looping
+
+Bevor wir den Loop hören können, müssen wir wie unten gezeigt den /Loop-Schalter/ in der Transportleiste aktivieren.
+ArrangementLoopSwitch.tif
+
+Drücken Sie nun die Leertaste, um den eingestellten Loop anzuhören, und stoppen Sie dann wieder.
+DesiredRegion.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Eine Auswahl zoomen
+$TargetName Zooming in on a Selection
+
+Nutzen wir jetzt einmal das Taktlineal und schauen uns die zu bearbeitenden Clips genauer an. Platzieren Sie den Cursor irgendwo in der Nähe von Takt 31, klicken Sie und /ziehen Sie die Maus langsam nach unten,/ um in den Teil des Songs hineinzuzoomen, der den Clip "Pad B2" enthält.
+PadClipTime.tif
+
+Da wir uns auf diesen gesamten Bereich konzentrieren wollen, müssen wir die Maus /zum Scrollen wahrscheinlich auch etwas nach links oder rechts bewegen/ und vielleicht noch etwas weiter hinein (oder heraus) zoomen, um alle Clips in der Arrangement-Ansicht sehen zu können.
+
+Divider.tif
+*Das Klicken und Ziehen nach oben/unten im Taktlineal zoomt weich heraus/hinein.*
+
+*Das Klicken und Ziehen nach links/rechts im Taktlineal scrollt die Darstellung nach links/rechts.*
+
+$Comment -----------------------------------------------------------------------
+$Page Loop-Klammer verwenden
+$TargetName Using the Loop Brace
+
+$0s Loop-Klammer vereinfacht eine ganze Reihe von Bearbeitungsaufgaben. Nehmen wir an, dass wir die Länge unseres Bereichs halbieren wollen.
+
+Um den entsprechenden Bereich zu selektieren, können wir einfach auf die Loop-Klammer klicken. Die Klammer wird schwarz dargestellt, wenn sie selektiert wurde:
+SelectedBrackets.tif
+
+Halten Sie $CommandMod und drücken Sie die "Nach-unten"-Pfeiltaste, um die Länge des Loops zu halbieren:
+HalvedLoop.tif
+
+Betätigen Sie nun (ohne gedrückte $CommandMod-Taste) die "Nach-oben"-Pfeiltaste, um den Loop um eine Loop-Länge nach rechts zu bewegen.
+MovedLoop.tif
+
+Sie haben wahrscheinlich bemerkt, dass Ihre bearbeitete Loop-Klammer nicht exakt an den Taktgrenzen endet. Dies ist deswegen so, weil der Clip "Pad B2" (und damit der ursprüngliche Loop) gleich zu Beginn eine seltsame Länge hatte, da er über einem /Taktartwechsel/ lag. In Fällen wie diesen müssen Sie die Länge der Loop-Klammer nach ihrem Verschieben manuell anpassen. Justieren Sie die Klammer erforderlichenfalls so, dass sie wie unten gezeigt von Takt 31 bis Takt 33 reicht:
+AdjustedLoop.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Clips bearbeiten
+$TargetName Editing Clips
+
+Der /selektierte/ Teil des Songs oder Arrangements kann mit Befehlen aus dem /Bearbeiten-Menü/ bearbeitet werden. Besonders einfach kann der gerade von der Loop-Klammer umschlossene Bereich bearbeitet werden.
+
+Stellen Sie einfach sicher, dass die Loop-Klammer noch selektiert (schwarz gefüllt) ist, was zugleich auch bedeutet, dass sämtliches Material innerhalb des Loops ebenfalls /selektiert/ ist. Rufen Sie jetzt einen Befehl vom /Edit-Menü/ auf, z.B. /Löschen./
+SelectedLoop.tif
+
+
+Divider.tif
+Die Befehle im Bearbeiten-Menü der Arrangement-Ansicht untergliedern sich in zwei Kategorien: In die eine gehören die gebräuchlichen Bearbeitungsbefehle für Clips und ihren Inhalt wie Ausschneiden, Duplizieren und Löschen. Zur Kategorie /Zeit .../ gehören dagegen solche Befehle, die sich auf Zeitabschnitte des Arrangements beziehen.
+
+$Comment -----------------------------------------------------------------------
+$Page Nicht-destruktive Bearbeitung
+$TargetName Nondestructive Editing
+
+$0 protokolliert alle Ihre Aktionen im Programm, so dass Sie jederzeit Ihre Meinung ändern und zu einem beliebigen früheren Zustand zurück kehren können.
+
+Nehmen wir an, dass Sie das Resultat von /Löschen/ aus irgendeinem Grund nicht schätzen. Sie können jederzeit $CommandMod+Z einmal drücken, um den letzten Schritt zu /widerrufen./ Sie könnten dann Ihre Meinung erneut ändern und den letzten Schritt /wiederholen./ Auf dem PC verwenden Sie dafür $CommandMod + Y, auf dem Mac $CommandMod + $ShiftMod + Z.
+DeletedLoop.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Clips bearbeiten, Fortsetzung
+$TargetName Editing Clips, Continued
+
+Die /Clip-Länge/ kann einfach durch Klicken und Ziehen der beiden /Clip-Seiten/ geändert werden. Beachten Sie, dass sich der Cursor in ein Klammersymbol verwandelt wenn er über einer der beiden Seiten ist, um anzuzeigen, dass die Länge geändert werden kann.
+
+Um den leeren Platz zu füllen, der durch das Löschen entstanden ist, wollen wir eine /Kopie/ des Clips "Drums B2" machen. Wir können das einfach dadurch tun, dass wir den Clip anklicken und per /$CopyMod-dragging/ dorthin ziehen, wo wir ihn haben wollen:
+DrumsPasted.tif
+
+Lassen Sie uns nun auch den Clip "Pad B2" etwas erweitern, indem wir seine Läge ändern.
+
+Klicken Sie auf die rechte Ecke von "Pad B2" und ziehen Sie diese wie unten gezeigt langsam nach rechts, bis der Clip den Beginn von Takt 33 erreicht.
+PadExtended.tif
+
+Beachten Sie, dass immer noch ein kleines Stückchen leerer Raum übrig ist, das vom Löschen des Taktartwechsels herrührt. Die Clips danach starten alle an einer Stelle, die der Beginn eines 4/4-Taktes war. Nun sind sie aber um einen Beat verschoben. Um dies zu korrigieren, wählen Sie den Abschnitt zwischen 33 und 33.2 in einer der Spuren aus:
+EmptySpace.tif
+
+Wählen Sie dann /Zeit löschen/ aus dem Bearbeiten-Menü.
+
+$Comment -----------------------------------------------------------------------
+$Page Das Raster verwenden
+$TargetName Using the Grid
+
+Während Sie Clips in der Arrangement-Ansicht bearbeiten, fällt Ihnen vielleicht auf, dass sowohl die Bewegung als auch die Längenänderung der Clips /am sichtbaren Raster einrasten./
+
+Sie können die Rasterweite über das Kontextmenü ändern, das Sie mit einem $ContextMenu irgendwo an einer Clip-freien Stelle des Arrangements aufrufen können.
+GridContextMenuArr.tif
+
+Das Raster hat zwei Modi, die bestimmen, wie es sich beim Zoomen verhält:
+-> /Adaptives Raster:/ Wenn Sie hinein oder heraus zoomen, erscheinen oder verschwinden Rasterlinien, so dass ihr Abstand immer gleich bleibt.
+-> /Fixiertes Raster:/ Die Rasterlinien haben unabhängig vom Zoom einen festen Abstand.
+
+Das Raster kann auch ausgeschaltet oder auf eine triolische Unterteilung umgeschaltet werden.
+
+Die aktuelle Weite des Rasters wird unten rechts in der Arrangement-Ansicht angezeigt, etwa so:
+GridWidthDisplayArr.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Clips konsolidieren
+$TargetName Consolidating Clips
+
+Nun können wir das Ergebnis unserer Änderung im Zusammenhang des ganzen Songs hören, indem wir den Stop-Taster im Transportbereich zweimal betätigen (und so die Wiedergabeposition auf 1.1.1 zurücksetzen), den Loop-Schalter deaktivieren und die Leertaste drücken.
+
+$0 bietet tiefgreifende Einstellmöglichkeiten für einzelne Clips. Wir werden diese im Rahmen unseres Tutorials zwar nicht behandeln, möchten Ihnen aber eine Option in der Arrangement-Ansicht vorstellen, mit der mehrere Clips in einem Track /konsolidiert/ werden können, so dass man solche Einstellungen für sie gemeinsam vornehmen kann.
+
+Kehren wir zu unserem 4-Takte-Loop zurück, um zu sehen, wie das Konsolidieren funktioniert. Halten Sie die Wiedergabe mit der Leertaste an und stellen Sie den Loop, beginnend bei Takt 29, auf 4 Takte ein. (Dazu müssen Sie vielleicht /heraus zoomen,/ um den kompletten Abschnitt sehen zu können.) Ihr Loop sollte jetzt ungefähr so aussehen:
+LikeThis.tif
+
+Klicken Sie auf die Loop-Klammer, so dass sie schwarz wird und das Material innerhalb des Loops für die Bearbeitung ausgewählt wird.
+
+Wählen Sie nun /Konsolidieren/ aus dem /Bearbeiten-Menü/ und beachten Sie, wie die Clips in jede Spur in einen Clip konsolidiert werden:
+IntoOne.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Clips teilen
+$TargetName Splitting Clips
+
+Lassen Sie uns alle Spuren ausklappen, indem wir einen der dreieckigen Ausklapp-Schalter mit gedrückter $OptionMod-Taste anklicken.
+
+So wie $0 das Konsolidieren mehrerer Clips in einen ermöglicht, ermöglicht es auch das /Teilen/ eines einzelnen Clips in mehrere. Wir wollen das mit dem Clip "Drums B2" ausprobieren, der sich gerade innerhalb unserer Loop-Klammer befindet. (Sie werden vielleicht mit dem Scrollbalken rechts in der Arrangement-Ansicht nach unten scrollen müssen.)
+
+Klicken Sie innerhalb der MIDI-Noten-Anzeige des Clips (nicht auf seine Titelzeile) auf Takt 30, wie im folgenden Bild gezeigt:
+BlinkingCursor.tif
+
+Der Einfüge-Marker zeigt Ihnen die Stelle an, an der der Clip geteilt werden wird.
+
+Sie können auch einen Abschnitt des Clips isolieren, indem Sie einen Teil daraus auswählen und den Clip dann teilen. Auf diese Weise wird der Clip an beiden Grenzen des ausgewählten Bereichs geteilt. Wählen Sie den Inhalt von Takt 30 aus, indem Sie innerhalb der Notenanzeige bis zum Beginn von Takt 31 ziehen:
+SplitRegion.tif
+
+Nun müssen Sie nur den Befehlen /Teilen/ aus dem Bearbeiten-Menü aufrufen.
+
+Sie können jetzt einen der beiden neuen Clips an jede beliebige Position im Arrangement ziehen. Dabei wird der alte Inhalt an dieser Stelle ersetzt:
+Replaced.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Mehr Möglichkeiten...
+$TargetName More Possibilities...
+
+-> Der $Link Kurs über Automation <Lesson:Builtin/2-Live Advanced Category/2-Using Automation> zeigt Ihnen, wie Sie diese wichtige Funktion in der Arrangement-Ansicht nutzen, um Ihre Kreationen zum Leben zu erwecken.
+-> Klassische, lineare Aufnahmen sind in der Arrangement-Ansicht ein Leichtes, wie Sie $Link hier <Lesson:Builtin/1-Live Basics Category/2-Recording Audio> lernen werden.
+-> Sie können in der Arrangement-Ansicht nicht nur mit Clips arbeiten, die Sie durch das Aufzeichnen in der Session-Ansicht erzeugt haben, sondern, genau wie in der Session-Ansicht, /neue Clips/ aus den /Datei-Browsern/ importieren. Die Browser werden durch Anklicken ihrer Wahlschalter sichtbar:
+AccessingStuff.tif
+
+-> Clips können zwischen der Session- und der Arrangement-Ansicht hin und her kopiert werden, indem man sie über die Wahlschalter oben rechts im Fenster zieht:
+SelectorButtons.tif
+
+-> Die Audio- und MIDI-Clips in der Arrangement-Ansicht können genau wie die Clips in der Session-Ansicht detailliert in der /Clip-Ansicht/ bearbeitet werden. Mehr darüber erfahren Sie im Kapitel "Die Clip-Ansicht" in der the $Link Referenzanleitung <Manual>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

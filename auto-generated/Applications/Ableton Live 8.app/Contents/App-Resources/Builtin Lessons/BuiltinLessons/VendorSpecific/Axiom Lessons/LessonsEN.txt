@@ -1,0 +1,109 @@
+$Page M-Audio Axiom Control Surfaces 
+$TargetName M-Audio Axiom Control Surfaces
+
+$0 extends control surface support to the /Axiom/ series of keyboards by M-Audio. This lesson will help you set up your Axiom, and introduce its capabilities.
+Axioms.tif
+
+
+Please click the /Next Page/ button at the bottom right of this lesson to proceed, or use the following links for quick reference:
+
+-> $Link Setting up the Axiom <GotoPage:Setting Up the Axiom>
+-> $Link Functions of the Axiom's Presets <GotoPage:Functions of the Axiom's Presets>
+-> $Link Controlling the Session and Arrangement <GotoPage:Controlling the Session and Arrangement>
+-> $Link Controlling $0's Devices <GotoPage:Controlling $0's Devices>
+
+For a general introduction to using control surfaces with Live, as well as a list of how Live's devices are mapped across control surfaces, please see the $Link Control Surface Reference <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference> lesson.
+
+$Comment -----------------------------------------------------------------------
+$Page Setting Up the Axiom 
+$TargetName Setting Up the Axiom
+
+First, please verify that your Axiom is connected to your computer, and powered on. Windows users who haven't performed this step before launching $0 will need to restart $0 before the Axiom can be recognized.
+
+Open $0's Preferences by selecting /Preferences/ from the $0 menu (MacOS) or the 'Options' menu (Windows). Then select the /MIDI/Sync/ tab.
+
+In the upper section, select your Axiom model from the /Control Surface/ chooser, then define the MIDI Input and Output ports which it is connected to.
+
+Clicking the /Dump/ button will erase the contents of the Presets 18, 19, and 20 on your Axiom, and set it up for use as a control surface in $0. $0 will warn you about this, and give you the option to cancel the preset dump before overwriting any data. If you want to proceed, then click "OK" in the warning dialogue.
+
+Afterwards, close $0's Preferences and select Preset 18, 19, or 20 on your Axiom. If the desired Preset is already selected, you will need to re-select it for the changes to take effect.
+
+$Comment -----------------------------------------------------------------------
+$Page Functions of the Axiom's Presets 
+$TargetName Functions of the Axiom's Presets
+
+The Axiom gives you control over the Session View, Arrangement View and all Effects devices available in $0. You can switch between controlling the Session/Arrangement View and $0's devices simply by changing the MIDI channel of your Axiom.  Presets 18-20 cater for some useful situations when using the control surface:
+
+*Preset 20:* In Preset 20, all of the Axiom's controls transmit on the Global Channel. Therefore, you should use Preset 20 to obtain general control over the entire control surface by altering the Global Channel setting of your Axiom. This is outlined in more detail in the following sections.
+
+*Preset 19:* In Preset 19, the encoders transmit on channel 16, which ties them to controlling whichever of $0's Devices may be in focus. The sliders and slider buttons (49 & 61 models only) transmit on Channel 1, meaning they will always control the Volume, Mute and Record Arm for tracks 1-8 in the Session/Arrangement View. With Preset 19 selected, the controls are tied to their function in the control surface and the Global Channel setting of your Axiom therefore has no effect on the control surface. Use this preset if you are controlling a MIDI track on a certain MIDI channel and wish to alter the parameters of $0's devices at the same time.
+
+*Preset 18:* In Preset 18, the pads are predefined with the MIDI notes required to trigger the 8 pads of Impulse. The sliders, slider buttons (49 & 61 only) and encoders are tied to Channel 1, meaning they control Volume, Pan, Mute and Record Arm of tracks 1-8. As with Preset 19, the Global Channel setting of your Axiom has no affect on the control surface. You should use this preset to play the Impulse on any required MIDI channel using the pads of your Axiom.
+
+
+Divider.tif
+/Hint:/ You can set up the '+' and '-' buttons on your Axiom to alter the MIDI channel on the fly.  To do this, press the 'Glob Chan' button.  You can then use the '+' and '-' buttons to quickly change between controlling a device in $0, and controlling the Session View.
+
+$Comment -----------------------------------------------------------------------
+$Page Controlling the Session and Arrangement 
+$TargetName Controlling the Session and Arrangement
+
+The following sections describe the functions of the Axiom. The control of the Session View and Arrangement View are very similar.
+
+Divider.tif
+
+/Transport/
+
+-> LOOP: Trigger Scene playback (Session View) | Engage Loop mode (Arrangement View).
+-> REWIND: Select previous Scene (Session View) | Skip back a bar (Arrangement View).
+-> FORWARD: Select next Scene (Session View) | Skip Forward a bar (Arrangement View).
+-> STOP: Stop
+-> PLAY: Play
+-> RECORD: Record
+
+/Note:/ Transport Controls must transmit on MIDI Channel 16. This is their pre-defined channel in Preset 18, 19 and 20.
+
+Divider.tif
+
+/Channel-based controls/
+
+Some controls have different functions based on the selected MIDI channel. The first 8 sliders, the first 8 slider buttons and the encoders, for example, form a channel strip for the first 8 tracks on channel 1. It is possible to select further tracks for control by changing the MIDI Channel as follows:
+
+Channel 1:  Tracks 1-8
+Channel 2:  Tracks 9-16
+Channel 3:  Tracks 17-24
+Channel 4:  Tracks 25-32
+
+This means you can quickly skip between groups of 8 tracks using the '+' and '-' buttons.
+
+-> Slider 9: Master Volume
+-> Slider Button 9: This button is a modifier.  When pressed, the slider buttons arm the selected tracks for recording.  When released, the slider buttons mute the selected tracks.
+-> Sliders 1-8: Volume of the selected eight tracks.
+-> Slider Buttons 1-8: Mute/Record Arm the selected eight tracks.
+-> Encoders 1-8: Pan of the selected eight tracks.
+-> Pads 1-8: Trigger clips on the selected eight tracks in the selected scene (Session View) | Jump to marker 1-8, 9-16, etc. (Arrangement View).
+
+
+Divider.tif
+/Axiom 25 Note:/ The Axiom 25 does not have sliders.  Therefore the encoders control the volumes of tracks 1-8 by default.  However, if you connect a pedal to the Expression port on your Axiom 25, this pedal will act as a modifier for the encoders' function.  We suggest you use a switch-type pedal for this purpose. OFF or value 0 will cause the encoders to control the volume of $0's tracks.  ON, or anything other than 0 will cause the encoders to control the pan of $0's tracks. 
+
+/Axiom 49/61 Note:/  Slider 9 will always control the Master Volume regardless of the channel it transmits on.
+
+/Hint:/  Press 'Ctrl Mute' to align a slider to a volume fader in $0 without the parameter jumping.
+
+$Comment -----------------------------------------------------------------------
+$Page Controlling $0's Devices 
+$TargetName Controlling $0's Devices
+
+In order to control the devices in $0, you need to set the Axiom to MIDI Channel 16.  This can be done quickly on the fly using the '+' and '-' buttons.  If you have Channel 1 selected, and you press '-' Channel 16 becomes selected.  Therefore the '+' and '-' buttons are effectively switching between control of $0's devices and the Session/Arrangement View.
+
+The Axiom will control the device which was last selected, or is currently active.
+
+The parameters of every device map to the encoders on the Axiom. In the case of the Axiom 49 and Axiom 61, the sliders and slider buttons have no operation when transmitting on Channel 16.  This means you can use them for MIDI Learn if you wish.
+
+*Note:*  Slider 9 is an exception since it will always control the Master Volume regardless of the channel it transmits on.
+
+Some of $0's devices have more than 8 parameters to control.  In this case, the parameters are divided into banks.  A bank is selected by hitting one of the pads.  Pad 1 for Bank 1, Pad 2 for Bank 2 etc.  
+
+
+$Comment Status: Translate

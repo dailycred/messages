@@ -1,0 +1,110 @@
+$Page Surfaces de contrôle Axiom M-Audio
+$TargetName M-Audio Axiom Control Surfaces
+
+$0 étend sa prise en charge des surfaces de contrôle à la gamme de claviers /Axiom/ de M-Audio. Cette leçon vous aidera à configurer votre Axiom, et vous présentera ses possibilités.
+Axioms.tif
+
+
+Veuillez cliquer sur le bouton /Page suivante/ en bas à droite de cette leçon pour continuer, ou utilisez les liens suivants pour un accès rapide:
+
+-> $Link Configuration de l'Axiom <GotoPage:Setting Up the Axiom>
+-> $Link Fonctions des Presets de l'Axiom <GotoPage:Functions of the Axiom's Presets>
+-> $Link Contrôle de la Session et de l'Arrangement <GotoPage:Controlling the Session and Arrangement>
+-> $Link Contrôle des périphériques de $0 <GotoPage:Controlling $0's Devices>
+
+Pour une introduction générale à l'emploi des surfaces de contrôle avec Live, ainsi qu'une liste des affectations des périphériques de Live sur les surfaces de contrôle, veuillez lire la leçon $Link Référence des surfaces de contrôle <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference>.
+
+$Comment -----------------------------------------------------------------------
+$Page Configuration de l'Axiom
+$TargetName Setting Up the Axiom
+
+D'abord, veuillez vérifier que votre Axiom est branché à votre ordinateur et mis sous tension. Les utilisateurs de Windows qui ne l'ont pas fait avant de lancer $0 devront faire redémarrer $0 avant que l'Axiom puisse être reconnu.
+
+Ouvrez les Préférences de $0 en sélectionnant /Préférences/ dans le menu $0 (MacOS) ou dans le menu "Options" (Windows). Puis sélectionnez l'onglet /MIDI/Sync./
+
+Dans la section du haut, sélectionnez votre modèle Axiom avec le sélecteur /Surface de contrôle,/ puis définissez les ports d'entrée et de sortie MIDI auxquels il est branché.
+
+Cliquer sur le bouton /Dump/ effacera le contenu des Presets 18, 19 et 20 de votre Axiom, et le configurera pour l'emploi comme surface de contrôle dans $0. $0 vous en avertira, et vous donnera l'option d'annuler le transfert de preset avant de remplacer toute donnée. Si vous voulez poursuivre, alors cliquez sur "OK" dans le dialogue d'avertissement.
+
+Ensuite, fermez les Préférences de $0 et sélectionnez le Preset 18, 19 ou 20 sur votre Axiom. Si le Preset désiré est déjà sélectionné, vous devrez le re-sélectionner pour que les changements entrent en vigueur.
+
+$Comment -----------------------------------------------------------------------
+$Page Fonctions des Presets de l'Axiom
+$TargetName Functions of the Axiom's Presets
+
+L'Axiom vous donne le contrôle de l'écran Session, de l'écran Arrangement et de tous les périphériques d'effets disponibles dans $0. Vous pouvez faire basculer le contrôle entre écran Session/Arrangement et périphériques de $0 en changeant simplement le canal MIDI de votre Axiom. Les Presets 18-20 répondent à quelques situations utiles lors de l'emploi de la surface de contrôle:
+
+*Preset 20:* Dans le Preset 20, toutes les commandes de l'Axiom transmettent sur le canal Global. Par conséquent, vous devez utiliser le Preset 20 pour obtenir un contrôle général sur la totalité de la surface de contrôle en changeant le réglage du canal Global de votre Axiom. C'est expliqué plus en détail dans les sections suivantes.
+
+*Preset 19:* Dans le Preset 19, les encodeurs transmettent sur le canal 16, ce qui les oblige à contrôler le périphérique de $0 actuellement sélectionné, quel qu'il soit. Les curseurs et touches de curseur (modèles 49 & 61 uniquement) transmettent sur le canal 1, ce qui signifie qu'ils contrôleront toujours le volume, la coupure du son (mute) et l'armement d'enregistrement des pistes 1-8 en écran Session/Arrangement. Avec le Preset 19 sélectionné, les commandes sont liées à leur fonction dans la surface de contrôle et le réglage du canal Global de votre Axiom n'a donc pas d'effet sur la surface de contrôle. Utilisez ce preset si vous contrôlez une piste MIDI sur un certain canal MIDI et désirez modifier en même temps les paramètres des périphériques de $0.
+
+*Preset 18:* Dans le Preset 18, les pads sont pré-affectés aux notes MIDI requises pour déclencher les 8 pads d'Impulse. Les curseurs, touches de curseur (49 & 61 uniquement) et encodeurs sont liés au canal 1, ce qui signifie qu'ils contrôlent le volume, la coupure du son (mute) et l'armement d'enregistrement des pistes 1-8. Comme avec le Preset 19, le réglage du canal Global de votre Axiom n'a pas d'effet sur la surface de contrôle. Vous devez utiliser ce preset pour faire jouer Impulse sur n'importe quel canal MIDI requis à l'aide des pads de votre Axiom.
+
+
+Divider.tif
+/Astuce:/ Vous pouvez configurer les touches "+" et "-" de votre Axiom pour changer de canal MIDI à la volée. Pour cela, pressez la touche "Glob Chan". Vous pouvez alors utiliser les touches "+" et "-" pour rapidement alterner entre le contrôle d'un périphérique dans $0 et le contrôle de l'écran Session.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle de la Session et de l'Arrangement
+$TargetName Controlling the Session and Arrangement
+
+Les sections suivantes décrivent les fonctions de l'Axiom. Le contrôle de l'écran Session et celui de l'écran Arrangement sont très similaires.
+
+Divider.tif
+
+/Transport/
+
+-> BOUCLE: Déclenche la lecture de Scène (écran Session) | Active le mode boucle (écran Arrangement).
+-> RETOUR RAPIDE: Sélectionne la Scène précédente (écran Session) | Recule d'une mesure (écran Arrangement).
+-> AVANCE RAPIDE: Sélectionne la Scène suivante (écran Session) | Avance d'une mesure (écran Arrangement).
+-> STOP: Stop
+-> LECTURE: Lecture
+-> ENREGISTREMENT: Enregistrement
+
+/Note:/ Les commandes de transport doivent transmettre sur le canal MIDI 16. C'est leur canal prédéfini dans les Presets 18, 19 et 20.
+
+Divider.tif
+
+/Commandes basées sur le canal/
+
+Certaines commandes ont des fonctions différentes en fonction du canal MIDI sélectionné. Les 8 premiers curseurs, les 8 premières touches de curseur et les encodeurs, par exemple, forment une voie ou "tranche" pour les 8 premières pistes sur le canal 1. Il est possible de sélectionner d'autres pistes à contrôler en changeant comme suit le canal MIDI:
+
+Canal 1: Pistes 1-8
+Canal 2: Pistes 9-16
+Canal 3: Pistes 17-24
+Canal 4: Pistes 25-32
+
+Cela signifie que vous pouvez rapidement passer d'un groupe de 8 pistes à l'autre à l'aide des touches "+" et "-".
+
+-> Curseur 9: Volume général (Master)
+-> Touche de curseur 9: Cette touche est un modificateur. Quand elle est pressée, les touches de curseur arment les pistes sélectionnées pour l'enregistrement. Quand elle est relâchée, les touches de curseur coupent les pistes sélectionnées.
+-> Curseurs 1-8: Volume des huit pistes sélectionnées.
+-> Touches de curseur 1-8: Coupent/arment pour l'enregistrement les huit pistes sélectionnées.
+-> Encodeurs 1-8: Panoramique des huit pistes sélectionnées.
+-> Pads 1-8: Déclenchent les clips sur les huit pistes sélectionnées dans la scène sélectionnée (écran Session) | Font sauter au marqueur 1-8, 9-16, etc. (écran Arrangement).
+
+
+Divider.tif
+/Note sur l'Axiom 25:/ L'Axiom 25 n'a pas de curseurs. Par défaut, les encodeurs contrôlent donc les volumes des pistes 1-8. Toutefois, si vous branchez une pédale à la prise Expression de votre Axiom 25, cette pédale agira comme un modificateur de fonction des encodeurs. Nous vous suggérons d'utiliser une pédale de type commutateur dans ce but. Avec une valeur OFF ou 0, les encodeurs contrôleront le volume des pistes de $0. Avec ON ou toute autre valeur que 0, les encodeurs contrôleront le panoramique des pistes de $0.
+
+/Note sur l'Axiom 49/61:/  Le curseur 9 contrôlera toujours le volume général (Master) quel que soit le canal sur lequel il émet.
+
+/Astuce:/  Pressez "Ctrl Mute" pour aligner un curseur sur un fader de volume de $0 sans occasionner de saut de valeur de paramètre.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle des périphériques de $0
+$TargetName Controlling $0's Devices
+
+Afin de contrôler les périphériques dans $0, vous devez régler l'Axiom sur le canal MIDI 16. Cela peut se faire rapidement à la volée à l'aide des touches "+" et "-". Si le canal 1 est sélectionné et si vous pressez "-", le canal 16 sera sélectionné. Dès lors, les touches "+" et "-" font efficacement alterner le contrôle entre les périphériques de $0 et l'écran Session/Arrangement.
+
+L'Axiom contrôlera le dernier périphérique sélectionné, ou celui actuellement actif.
+
+Les paramètres de chaque périphérique sont affectés aux encodeurs de l'Axiom. Dans le cas des Axiom 49 et Axiom 61, les curseurs et les touches de curseur n'ont pas d'action si la transmission se fait sur le canal 16. Cela signifie que vous pouvez si vous le désirez les employer pour la fonction d'apprentissage MIDI.
+
+*Note:*  Le curseur 9 est une exception puisqu'il contrôlera toujours le volume général (Master) quel que soit le canal sur lequel il transmet.
+
+Certains périphériques de $0 ont plus de 8 paramètres à contrôler. Dans ce cas, les paramètres sont divisés en deux banques. Une banque se sélectionne en frappant un des pads. Pad 1 pour la banque 1, Pad 2 pour la banque 2 etc.
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,16 @@
+$Page La liste des fichiers
+$TargetName The File List
+
+La liste de fichiers affiche tous les échantillons utilisés par le Set Live que vous inspectez:
+FileList.tif
+
+Vous pouvez remplacer n'importe quel échantillon de la liste en déposant dessus un nouvel échantillon. Les clips audio conserveront leurs marqueurs Warp si la longueur du nouvel échantillon est supérieure ou égale à celle de l'ancien. Vous pouvez aussi utiliser le bouton /Remplacement à chaud/ pour remplacer un échantillon en parcourant le disque.
+
+Cliquez sur le bouton /Edit/ d'un échantillon pour ouvrir ce dernier dans un éditeur audio externe. L'échantillon restera hors ligne tant que le bouton Edit est activé. Les clips audio ne conserveront leurs marqueurs Warp /que/ si la longueur de l'échantillon reste inchangée.
+
+La colonne /Emplacement/ indique si les échantillons se situent dans la bibliothèque de $0, dans un dossier projet, ou dans un autre dossier externe. Les échantillons manquants sont aussi indiqués ici.
+
+Si $0 a recherché les fichiers manquants, les fichiers potentiellement correspondants sont listés dans la colonne /Candidats./
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,140 @@
+$Page Flächen-Sounds erstellen
+$TargetName Creating Pad Sounds
+$ListInTocForProduct 40
+
+In den vorangegangenen Kursen haben wir uns mit Operators hybriden Synthesemöglichkeiten beschäftigt. In diesem Kurs werden wir die vier Oszillatoren und die Filter-Optionen von Operator zum Erstellen verschiedener Flächenklänge verwenden.
+
+Divider.tif
+*Hinweis:* Dieser Kurs wird von einem Live-Set begleitet, mit dem Sie dem Kurs interaktiv folgen können. Bitte klicken Sie $Link hier <Set:/Sets/OP-Default Set.als>, um dieses Live-Set zu laden.*
+Divider.tif
+
+Genau wie bei den anderen Operator-Kursen, werden Sie auch diesmal einen besseren Blick auf das Instrument in der /Spur-Ansicht/ erhalten wollen, indem Sie die /Info-Ansicht/ durch Anklicken des Zeigen/Verbergen-Schalters in der linken unteren Ecke des Fensters ausblenden.
+HideInfoViewPad.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Einstellen des ersten Oszillators
+$TargetName Adjusting the First Oscillator
+
+Holen Sie Operators globale Parameter ins Display, indem Sie auf den Global-Bereich der Shell klicken:
+GlobalSectionPad.tif
+
+Wählen Sie den letzten Algorithmus aus, der vier parallele Oszillatoren besitzt:
+LastAlgorithm.tif
+
+Wir beginnen mit unseren Einstellungen bei Oszillator A: Stellen Sie seinen /Level/ auf -3.5 dB, belassen Sie die Grobstimmung /Coarse/ auf 1 und erhöhen Sie den Wert für die Feinstimmung mit /Fine/ auf 6.
+OscASettings.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Hüllkurve und Wellenform
+$TargetName The Envelope and Waveform
+
+Nun verändern wir die Hüllkurve des Oszillators, um den Klang sanft ein- und ausschwingen zu lassen.
+
+Vergewissern Sie sich, dass Oszillator A immer noch selektiert ist, und verlängern Sie die /Attackzeit/ auf 29.4 ms und die /Releasezeit/ auf 759 ms (erinnern Sie sich daran, dass Sie die Felder anklicken und die Werte eintippen können):
+OscAEnvelope.tif
+
+Spielen Sie ein paar Akkorde und passen Sie Attack und Release nach Ihrem Geschmack an.
+
+Beachten Sie, dass eine längere Release-Zeit bei Akkordwechseln zu einem Hall-ähnlichen Ausklingen führt (das allerdings wegen der benötigten höheren Polyphonie zusätzliche Rechenleistung kostet).
+
+Schalten Sie nun /Wave/ auf Saw 16 (Sw16). Diese Wellenform ähnelt der Saw 64 aus dem vorherigen Kurs, sie besitzt jedoch weniger Obertöne als diese und klingt etwas dunkler:
+OscASw16.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Der zweite Oszillator
+$TargetName The Second Oscillator
+
+Sobald Sie für Oszillator A die Hüllkurve eingestellt und die Wellenfom gewählt haben, müssen die Hüllkurven und die Wellenform für Oszillator B identisch eingestellt werden. Am einfachsten ist es, auf die Hüllkurven-Anzeige von Oszillator B umzuschalten und dann die Einstellungen mit dem Befehl aus dem Kontextmenü mit $ContextMenuing auf die Anzeige zu kopieren:
+CopyOscillator.tif
+
+Setzen Sie dann die Grobstimmung /Coarse/ von Oszillator B auf 0.5 herab und heben den Wert für die Feinstimmung /Fine/ auf 994 an:
+OscBTuning.tif
+
+Diese Stimmung gibt dem Sound eine subtile Chorus-artige Schwebung.
+
+Spielen Sie einige weitere Akkorde und Sie werden hören, dass wir nun einen einfachen Pad-Sound erstellt haben, der durch die Charakteristik der verwendeten Wellenform eine leichte Resonanz besitzt.
+
+Probieren Sie bei dieser Gelegenheit doch mal einige andere Wellenformen für Oszillator A und B aus. Wählen Sie danach wieder für beide Sw16.
+
+$Comment --------------------------------------------------------------------------------
+$Page Den Spread-Parameter verwenden
+$TargetName Using the Spread Parameter
+
+Operator besitzt einen wunderbaren Chorus-ähnlichen Effekt namens /Spread./ Diese Funktion verwendet den eingestellten Sound doppelt, verstimmt die beiden Instanzen leicht und verteilt sie im Stereofeld. Im Ergebnis wird der Klang verbreitert, was sich sehr gut für Flächenklänge (und viele andere Sounds) eignet.
+
+Um ein deutliches Gefühl für die Auswirkungen dieser Funktion zu bekommen, stellen Sie den Wert auf 100%, und hören sich das Ergebnis an:
+Spread.tif
+
+/Anmerkung:/ Da die Spread-Funktion den Klang mit einer verstimmten Kopie doppelt, verwendet sie die doppelte Polyphonie und damit auch die doppelte Rechenleistung. Nutzen Sie die Funktion auf langsameren Rechnern daher mit Bedacht oder nehmen Sie den so erzeugten Part einfach als neuen Audio-Clip auf. (Mehr dazu erfahren Sie im Kapitel "Neue Clips aufnehmen" in der $Link Referenzanleitung <Manual>.)
+
+$Comment --------------------------------------------------------------------------------
+$Page Mehr Tiefe für den Klang
+$TargetName Deepening the Sound
+
+Um den Flächenklang voller und tiefer zu machen, erzeugen wir mit Oszillator C eine zusätzliche Sinuswelle, die eine Oktave unter den Oszillatoren A und B liegt.
+
+Wir stellen /Coarse/ bei Oszillator C auf 0.5 und senken seinen /Level/ auf -16 dB ab, damit die tiefe Frequenz die Subtilitäten unseres Klangs nicht überdeckt:
+OscCSettings.tif
+
+Wir könnten nun die Hüllkurven-Einstellungen von Oscillator C so lassen, um die Durchsetzungsfähigkeit des Klangs zu erhalten oder aber für den Oszillator langsamere Attack- und Release-Werte einstellen, um die Lautstärke beim Halten der Akkorde sanft ansteigen zu lassen. Probieren Sie zum Beispiel einen /Attack/ von 1.38 Sekunden und einen /Release/ von 882 ms:
+OscCEnvelope.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Filterung aktivieren
+$TargetName Adding Filtering
+
+Nun wollen wir einen von Operators klassischen /Tiefpassfiltern/ verwenden, um die Höhen zu bedämpfen und unseren Pad-Sound dadurch sanfter und weicher zu machen.
+
+Aktivieren Sie zuerst den Filter-Bereich, indem Sie auf das Kästchen ganz links im Filter-Shell-Bereich klicken und dann den Filtertyp /Low Ladder/ mit dem Wahlschalter einstellen.
+FilterChooser.tif
+
+Stellen Sie nun die Frequenz /(Freq)/ auf 764 Hz und belassen Sie die Resonanz auf 1.00:
+FilterCutoff.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Phaser-Effekte erzeugen
+$TargetName Producing Phaser Effects
+
+Operator ist in der Lage, noch deutlich bewegtere Klänge zu erzeugen. Wir wollen nun das Multimode-Filter verwenden, um klassische Phaser-Effekte zu erzeugen.
+
+Schalten Sie zuerst den Filter-Modus auf /Notch 12dB./
+NotchFilter.tif
+
+... und senken Sie dann die Cutoff-Frequenz /(Freq)/ auf 176 Hz ab.
+NotchCutoff.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Hüllkurven loopen
+$TargetName Looping Envelopes
+
+Nun wollen wir Operators /Hüllkurven-Loop-Funktion/ verwenden, um die Filterhüllkurve in ein LFO-ähnliches Animationswerkzeug für die Filterfrequenz zu verwandeln und damit das typische "Whuuuush" eines Phaser-Pedals zu erzeugen.
+
+Um sicherzustellen, dass Sie auch wirklich die Filterhüllkurve im Display in der Mitte des Instruments angezeigt bekommen, wählen Sie bitte erst den Filter-Bereich in der Shell aus und danach die Hüllkurven-Parameter im Display:
+FilterEnvSwitch.tif
+
+Stellen Sie dann /Attack/ auf großzügige 12.1 Sekunden, /Decay/ auf 24.4 Sekunden und /Release/ auf 11.7 Sekunden. Dies wird einen langsamen, wellenförmigen Filter-Sweep erzeugen.
+FilterEnvSettings.tif
+
+Aktivieren Sie die Loop-Funktion der Hüllkurve, indem Sie die Option /Loop/ im Mode-Bereich auswählen...
+EnvLoop.tif
+
+... und stellen Sie die Intensität der Hüllkurve mit /Envelope/ auf 100%.
+EnvelopeAmount.tif
+
+Halten Sie einen Akkord etwa eine Minute lang und hören Sie sich den Filter-Sweep an. Sie können Geschwindigkeit und Form des Verlaufs durch Verändern der Werte von /Attack/ und /Release/ beeinflussen.
+
+$Comment --------------------------------------------------------------------------------
+$Page ... und schließlich
+$TargetName ... and Finally
+
+Wie Sie sehen, ist Operator ein sehr flexibler Flächenklang-Lieferant.
+
+Falls Sie auch die vorangegangenen Kurse durchgearbeitet haben, dürften Sie nun ein gutes Gefühl dafür haben, wie sich die verschiedenen Oszillator- und FM-Funktionen von Operator verhalten. Da wir in diesem Klang noch einen Oszillator frei haben, können Sie nun noch mit unterschiedlichen Hüllkurven-, Wellenform- und Stimmungs-Varianten bei Oszillator D experimentieren.
+
+Alternativ könnten Sie zu einem anderen Algorithmus umschalten und komplexere FM-Synthesetechniken ausprobieren. Operator lernt man, wie jedes Sound-Design-Werkzeug, am besten durch Drehen an den Parametern und Ausprobieren der Funktionen kennen.
+
+Bitte erinnern Sie sich daran, dass die Info-Ansicht eine sehr wertvolle Hilfe sein kann, da sie Ihnen eine kurze Erläuterung zu jedem Parameter von Operator anzeigt. Sie können diese Ansicht jederzeit mit dem dreieckigen Schalter in der linken unteren Ecke des Fensters ein- oder ausblenden.
+PadInfoView.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

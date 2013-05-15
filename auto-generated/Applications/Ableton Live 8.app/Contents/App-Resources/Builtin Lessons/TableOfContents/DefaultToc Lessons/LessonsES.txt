@@ -1,0 +1,85 @@
+$Page Ayuda
+$TargetName Help
+*Qué novedades trae esta versión de Live:*
+
+-> $Link Release Notes <http://www.ableton.com/releasenotes-lesson> (se abrirá su navegador)
+
+Setup.tif
+Personalice el esquema de color y el tamaño de la pantalla de Live en las $Link Preferencias Look/Feel <Pref:LookFeel>.
+
+Aprenda cómo configurar su $Link hardware de audio <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO>.
+
+Aprenda cómo configurar su $Link hardware MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+
+Lessons.tif
+Las Lecciones son una excelente forma de aprender a usar Live. Le recomendamos que comience por los conceptos básicos:
+
+$If Product 2B, 34
+-> $Link Configuración de su interfaz Line 6 <Lesson:Builtin/BuiltinLessons/VendorSpecific/TonePort>
+$Endif
+$If Product 00
+-> $Link ¿Qué novedades trae Live 8? <Lesson:Builtin/0-New in Live Eight Category/1-New in 8>
+$Endif
+-> $Link Un paseo por Live <Lesson:Builtin/1-Live Basics Category/1-A Tour of Live>
+-> $Link Grabación <Lesson:Builtin/1-Live Basics Category/2-Recording Audio>
+-> $Link Creación de ritmos <Lesson:Builtin/1-Live Basics Category/3-Creating Beats>
+-> $Link Reproducción de instrumentos software <Lesson:Builtin/1-Live Basics Category/4-Playing Software Instruments>
+-> $Link DJing <Lesson:Builtin/1-Live Basics Category/5-DJing With Live>
+$If MaxProduct
+-> $Link Iniciación a Max for Live <Lesson:/8-MaxForLive Category/01-Getting Started with Max for Live>
+$Endif
+
+-> $Link Mostrar todas las Lecciones incorporadas <Lesson:Internal/BuiltinAutoToc>
+-> $Link Mostrar todas las lecciones sobre add-ons <Lesson:Internal/AutoToc> (Max for Live, contenido de empresas asociadas, etc.)
+
+Sounds.tif
+Use estos enlaces para acceder de forma rápida a varias carpetas en la Librería de Live.
+
+-> $Link Instrumentos <BrowseLibraryPresets:/Instruments/Instrument Rack>
+-> $Link Kits de batería <BrowseLibraryPresets:/Instruments/Drum Rack/Kit>
+-> $Link Efectos de Audio <BrowseLibraryPresets:/Audio Effects/Audio Effect Rack>
+$If Product 00, 03
+-> $Link Clips/Loops <BrowseLibraryFiles:/Clips>
+-> $Link Kits de construcción <BrowseLibraryFiles:/Clips/Construction Kits>
+-> $Link Plantillas <BrowseLibraryFiles:/Templates>
+$Endif
+$If Product 80, 85, 86, 87
+$Else
+
+Consiga más sonidos en $Link www.ableton.com/livepacks <http://www.ableton.com/livepacks>
+$Endif
+
+$If Product 80
+/Essential Instruments Collection/
+-> $Link Instrumentos <SearchLibraryPresets:/Instruments/Instrument Rack#. Product:"Essential Instrument Collection 2">
+-> $Link Kits de batería <SearchLibraryPresets:/Instruments/Drum Rack/Kit#. Product:"Essential Instrument Collection 2">
+
+$Endif
+$If Product 85
+/Drum Machines/
+-> $Link Kits <SearchLibraryPresets:/Instruments/Drum Rack/Kit#. Product:"Drum Machines">
+-> $Link Clips <BrowseLibraryFiles:/Clips/Drums/Electronic>
+
+$Endif
+$If Product 86
+/Session Drums/
+-> $Link Kits <SearchLibraryPresets:/Instruments/Drum Rack/Kit#. Product:"Session Drums">
+-> $Link Clips <BrowseLibraryFiles:/Clips/Drums/Session Drums MIDI Grooves>
+(Nota: Si estos enlaces no funcionan, por favor asegúrese de que tiene instalada la $Link más reciente actualización del pack Session Drums <http://downloads.ableton.com/packs/80/session_drums_update_v8.1.zip>)
+
+$Endif
+$If Product 87
+/Latin Percussion/
+-> $Link Kits <BrowseLibraryPresets:/Instruments/Drum Rack/Latin Percussion>
+-> $Link Clips <BrowseLibraryFiles:/Clips/Latin Percussion>
+
+$Endif
+Reference.tif
+Para saber incluso más acerca de Live, consulte el $Link Manual de Referencia de Ableton <Manual>.
+
+Visite la $Link página web de soporte <http://www.ableton.com/support>.
+
+Obtenga información detallada sobre superficies de control soportadas de forma nativa por Live en la $Link Lección Referencia de superfícies de control <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

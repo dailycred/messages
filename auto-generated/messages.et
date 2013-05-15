@@ -1,0 +1,86 @@
+Application.NoSuchClient=No klient on olemas ID% s.
+Application.NoSuchApp=No app olemas ID% s.
+Application.NoClientProvided=Esitage oma kliendi ID teie piirkonnas.
+Application.NoRedirectProvided=Palun suunata oma OAuth taotluse. <br/> <b>Arendajad:</b> pakkuda oma tagasihelistamise URI parameetri <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> või seades vaikimisi tagasihelistamise on <a href="https://www.dailycred.com/admin/setup">oma konto seadeid</a> .
+Application.EnterEmailOrUsername=Palun sisestage oma e-posti või kasutajanimi.
+Application.EnterEmail=Palun sisestage oma e-posti.
+Application.EnterUsername=Palun sisestage oma kasutajanimi.
+Application.EnterPassword=Palun sisestage oma parool.
+Application.AtNotAllowed=Sümbol &quot;@&quot; ei saa kasutada oma kasutajanimi.
+Application.WrongPasswordOrUsername=Palun kontrolli oma kasutajanime ja parooli ja proovige uuesti. <a href="%s">Et taastada oma parooli siit.</a>
+Application.BadDomain=Domeen &quot;% s&quot; ei ole kehtiv.
+Application.BadEmail=Palun kontrollige oma e-posti õigesti sisestatud ja proovi uuesti.
+Application.BadNewEmail=Palun kontrollige, et teie uus e-posti õigesti sisestatud ja proovi uuesti.
+Application.PasswordTooShort=Palun sisestage parool, millel on vähemalt% d tähemärki.
+Application.NoCallbackUri=% S ei seatud tagasihelistamise URI veel. Palun proovi hiljem uuesti.
+Application.EmailTaken=See email on juba kasutusel.
+Application.UsernameTaken=See kasutajanimi on juba kasutusel. Palun kasutage teist kasutajanime.
+Application.EmailSent=E-kiri on saadetud. Palun kontrollige oma e-posti edasisi juhiseid.
+Application.EmailSentGmail=E-kiri on saadetud. <a href="http://mail.google.com/">Palun kontrollige oma Gmaili edasisi juhiseid.</a>
+Application.GoToGmail=Mine oma Gmaili postkasti
+Application.EmailSentYahoo=E-kiri on saadetud. <a href="http://mail.yahoo.com/">Palun kontrollige oma Yahoo! E edasisi juhiseid.</a>
+Application.GoToYahoo=Mine oma Yahoo postkasti
+Application.EmailSentHotmail=E-kiri on saadetud. <a href="http://www.hotmail.com/">Palun kontrollige oma hotmail edasisi juhiseid.</a>
+Application.GoToHotmail=Mine oma Hotmaili postkasti
+Application.EmailSentICloud=E-kiri on saadetud. <a href="https://www.icloud.com/#mail">Palun kontrollige oma iCloud Mail edasisi juhiseid.</a>
+Application.GoToICloud=Mine oma iCloud postkasti
+Application.NoSuchEmail=Kasutaja puudub e-posti% s.
+Application.NoSuchUser=Kasutaja puudub ID% s.
+Application.NoSuchUserFriendly=Me ei suutnud leida kasutajakonto see e-posti või kasutajanimi. Palun proovige uuesti.
+Application.NoSuchToken=Seal oli viga allkirjastamisel te oma kontole. Palun proovige natukese aja pärast uuesti.
+Application.PasswordResetInvalid=See taotlus lähtestada parool on vigane või ei leitud. Palun proovige oma parooli uuesti lähtestada.
+Application.PasswordUpdated=Teie parool on uuendatud.
+Application.APIWrongPassword=Palun kontrollige oma parool ja proovige uuesti.
+Application.APIError=Ootamatu tõrge. Palun proovige uuesti.
+Application.APIBadToken=Vigane OAuth juurepääsutõend.
+Application.APINoToken=Aktiivne juurepääsutõend tuleb kasutada päringu teavet praeguse kasutaja.
+Application.APIBadCode=Vigane OAuth kood.
+Application.TimeOut=See tundub olevat liiga kaua. Palun proovige natukese aja pärast uuesti.
+Application.BadURL=See ei ole kehtiv URL. See väli peab olema täielik, mitte-suhteline URL, nagu https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=See väli on maksimaalne pikkus 200 tähemärki. Palun kasutage midagi lühem.
+Application.NoStripeKey=No Stripe API võti on leitud. Palun seadke Stripe API võti oma <a href="https://dailycred.com/admin/setup">setup</a> lehel.
+Application.OAuthCallBackNotInDomain=Tingimusel redirect_uri ei kinnitata käesoleva kliendi konto seaded.
+Application.CNameNotValidDomain=Tingimusel cname ei näi olevat kehtiv domeen.
+Application.Required=See on kohustuslik väli.
+Application.LogoFileTooLarge=Fail ületab suuruse piirang.
+Application.LogoFileIsNotImage=Failitüüp ei kehti. Ainult PNG, JPG ja GIF on lubatud.
+Application.NoClientSecret=Peate määrama client_secret parameeter sisaldab teie Dailycred salajane võti.
+Application.InvalidClientSecret=See on kehtetu Dailycred salajane võti.
+Application.MissingRequiredFields=Tundub, et teil on puudu mõned kohustuslikud väljad. Palun minge oma <a href="/admin/setup">setup</a> lehele saada loodud.
+Application.CouldNotUnsubscribe=Kahjuks tänu tehniline viga ei saanud me tellimuse sa otse seda linki. Palun proovige uuesti või <a href="mailto:support@dailycred.com">võtke meiega otse</a> eemaldada.
+Application.Unsubscribed=Olete olnud unsubscribe. Vabandame näha lähete!
+Application.Subscribed=Sa oled kirjutanud. Aitäh!
+Application.CouldNotSubscribe=Kahjuks tänu tehniline viga ei saanud me tellima teile otse selle link. Palun proovige uuesti või <a href="mailto:support@dailycred.com">võtke meiega otse</a> lisada.
+Application.AdminsCantUnsubscribe=Tunnistab saa lahkuda omal kulul.
+Application.EmailIsSame=Uus e-posti on sama oma praeguse e-posti.
+Application.EmailOnlyUserNotAllowed=See rakendus ei toeta e-posti ainult kasutajatele.
+Application.EmailChangeSuccess=Sinu e-posti on muudetud% s. Palun otsida kinnituse e ja kontrollida oma uue aadressi.
+Application.EmailVerifySuccess=Kirjuta% s on kontrollitud.
+Application.PostOnly=See taotlus tuleb esitada kasutades <b>HTTP POST taotluse.</b> <br/><br/> Kui sa oled lihtsalt kontrollida läbi API, soovitame kasutada cURLi või <a target="_blank" href="http://hurl.it/">loopima</a> .
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">Kasutaja</a> on kohtuprotsess, mis on umbes lõppema. See e-posti põhjustas Stripe webhook.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">Kasutaja</a> on edukalt laetud. See e-posti põhjustas Stripe webhook.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">Kasutaja</a> on edutult laetud. See e-posti põhjustas Stripe webhook.
+Application.BillingError=Midagi läks valesti panemisel oma arvelduse andmed. Palun proovige uuesti korraks.
+Application.TrialWillEnd=Sinu tasuta prooviperiood koos Dailycred hakkab lõppema% s. Palun külastage oma <a href="https://www.dailycred.com/admin/settings/billing">arvelduse lehele</a> , et takistada oma konto on deaktiveeritud.
+Application.TrialWillEndLong=Sinu tasuta prooviperiood koos DailyCred lõpeb varsti% s. <br><br> Et teie konto aktiivne, külasta oma <a href="https://www.dailycred.com/admin/settings/billing">arvelduse lehele</a> vaadata <a href="https://www.dailycred.com/pricing">odava plaanide</a> ja sisestage makse üksikasjad täna.
+Application.CannotRemoveActiveCard=Sa ei saa kustutada oma aktiivse arvelduse meetod. Kui soovid oma konto e-posti support@dailycred.com oma konto number.
+Application.StateCheckFailed=Taotlusel puudub riigi parameeter. Palun proovige uuesti.
+Application.UnexpectedError=Vabandust, ilmnes ootamatu tõrge. Palun proovige uuesti.
+Application.UserAnotherIdentityProvider=Tundub, et teil on konto, kasutades% s. <a href="%s">Vajuta siia, et ühendada, kasutades% s</a> või <a href="%s">kliki siin määrata parooli</a> .
+Application.APIKeyNotFound=API võti ei leitud. Palun määrata API võti selle identiteedi pakkuja oma <a href="https://www.dailycred.com/admin/settings">seadete lehel</a> .
+Application.ForeignIDAlreadyRegistered=Me ei saanud selle konto linkida, sest foreignID% s jaoks pakkuja% s on juba seostatud kasutaja% s.
+Application.TwitterCallbackURLIncorrect=Kontrolli oma <a href="https://dev.twitter.com/apps">Twitter rakenduse seaded</a> . Teie avaldaja kutse URL ei saa olla tühi. (See võib olla ükskõik kehtiv URL.)
+Application.ThankYouForSigningUp=Täname sisselogimisel% s!
+Application.ThankYouForSigningUpNoClient=Täname registreerumist!
+Application.CannotDeleteLastApp=Ei saa kustutada: teie konto peab olema vähemalt üks App.
+Application.CouldNotSendEmail=Kahjuks oli probleem saates selle e-posti. Palun proovige natukese aja pärast uuesti.
+Application.EmailVerificationRequiredSignUp=Te peate kinnitama oma e-posti enne registreerumist. Palun kontrollige oma e-posti edasisi juhiseid.
+Application.EmailVerificationRequiredSignIn=Te peate kinnitama oma e-posti enne sisselogimist Palun kontrollige oma e-posti edasisi juhiseid.
+Application.Blocked=Vabandust, teil on blokeeritud administraatori poolt.
+
+=
+template.authorize.passwordStrength.0=Väga nõrk
+template.authorize.passwordStrength.1=Nõrk
+template.authorize.passwordStrength.2=Pole viga
+template.authorize.passwordStrength.3=Hea
+template.authorize.passwordStrength.4=Suurepärane!

@@ -1,0 +1,31 @@
+$Page Uso della Finestra Aiuto
+$TargetName Using the Help View
+
+Questa è la /Finestra Aiuto/ di Live./ Puoi raggiungerla in qualsiasi momento selezionando *Finestra Aiuto* nel menu Aiuto.
+
+Qui puoi trovare un grande numero di esercitazioni pratiche che illustrano le esclusive caratteristiche e il flusso di lavoro di Live. Questa pagina ti spiegherà come orientarti nella Finestra Aiuto.
+
+MetaView.tif
+
+La barra del titolo nella parte superiore della Finestra Aiuto mostra, da sinistra verso destra: un pulsante per chiudere la Finestra Aiuto; il nome della pagina corrente; i pulsanti Indietro, Avanti e Home (torna alla pagina iniziale).
+
+/Indietro/ e /Avanti/ consentono di passare tra intere lezioni, per esempio dopo aver seguito un /collegamento ipertestuale/ da una lezione all'altra. Puoi riconoscere i collegamenti ipertestuali dal loro uso esclusivo di $Link testo sottolineato <>.
+
+Nella maggior parte dei casi, navigherai attraverso le lezioni usando i pulsanti che trovi ai piedi della Finestra Aiuto. In questo momento hanno il nome di *Ritorna* e *Pagina succ.*
+
+Una barra di scorrimento verticale sul lato destro completa il set di funzionalità della Finestra Aiuto, consentendoti di visionare le pagine più lunghe.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Trovare Ulteriore Aiuto
+$TargetName Finding More Help
+
+Per ottenere un aiuto sensibile al contesto mentre lavori con Live, tieni aperta la /Finestra Info:/
+OverviewInfoView.tif
+
+E' una risorsa molto utile che ti fornirà informazioni su quasi tutto ciò che puoi sorvolare col mouse. Come molte altre viste di Live, può essere mostrata o nascosta secondo necessità semplicemente cliccando sul pulsante triangolare /Mostra/Nascondi Finestra Info,/ posto nell'angolo inferiore sinistro dello schermo.
+
+Puoi trovare una documentazione più dettagliata sulle funzionalità e sui concetti di Live nel $Link Manuale di Riferimento <Manual>, sempre accessibile selezionando *Leggi il manuale di Live...* nel menu Aiuto.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

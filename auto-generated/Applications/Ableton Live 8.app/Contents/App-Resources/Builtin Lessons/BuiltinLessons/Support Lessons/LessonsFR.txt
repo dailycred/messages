@@ -1,0 +1,21 @@
+$Page Obtenir une assistance technique
+$TargetName Getting Technical Help
+SupportLogo.tif
+
+Afin d'aider l'équipe d'assistance, veuillez inclure le fichier suivant quand vous la contactez:
+
+BUG_REPORTING_PACKAGE_NAME
+
+Ce Pack de rapport d'état contient des informations qui ont été générées durant cette exécution de Live:
+
+-> les fichiers de préférences et d'autorisation de Live
+-> un journal de ce qu'a fait le logiciel durant l'exécution actuelle du programme
+-> tous les Sets Live, presets et périphériques Max utilisés durant l'exécution actuelle du programme (tous sans échantillons)
+-> divers autres fichiers-journaux créés par Live
+
+Aucune autre information n'est envoyée. Nous n'utiliserons les données contenues dans ce rapport que pour corriger les bogues. Voir notre $Link politique de confidentialité <http://www.ableton.com/privacy-policy> pour découvrir comment nous utilisons vos informations.
+
+Veuillez visiter la $Link page web d'assistance <http://www.ableton.com/support> pour en savoir plus sur la façon de contacter l'assistance.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

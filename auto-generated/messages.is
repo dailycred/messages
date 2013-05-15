@@ -1,0 +1,86 @@
+Application.NoSuchClient=Engin viðskiptavinur er til fyrir ID% s.
+Application.NoSuchApp=Engin app er til fyrir ID% s.
+Application.NoClientProvided=Gefðu viðskiptavinur kenni með beiðni þína.
+Application.NoRedirectProvided=Vinsamlegast veita beina með OAuth beiðni þína. <br/> <b>Verktaki:</b> veita svarhringingu URI using the breytu <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> eða með því að setja sjálfgefið svarhringingu í <a href="https://www.dailycred.com/admin/setup">stillingum reikningsins</a> .
+Application.EnterEmailOrUsername=Vinsamlegast sláðu netfangið þitt eða notandanafn.
+Application.EnterEmail=Vinsamlegast sláðu netfangið þitt.
+Application.EnterUsername=Sláðu inn notandanafn.
+Application.EnterPassword=Vinsamlega sláðu inn lykilorðið þitt.
+Application.AtNotAllowed=Táknið &quot;@&quot; Ekki er hægt að nota í notandanafni þínu.
+Application.WrongPasswordOrUsername=Vinsamlegast athugaðu notendanafn og lykilorð og reyndu aftur. <a href="%s">að endurstilla lykilorðið þitt smelltu hér.</a>
+Application.BadDomain=Lénið &quot;% s&quot; er ógilt.
+Application.BadEmail=Vinsamlegast athugaðu að netfangið þitt var slegið rétt og reyndu aftur.
+Application.BadNewEmail=Vinsamlegast athugaðu að nýja netfangið þitt var slegið rétt og reyndu aftur.
+Application.PasswordTooShort=Vinsamlegast sláðu inn lykilorð með d stafi amk%.
+Application.NoCallbackUri=% S hefur ekki sett svarhringingu URI enn. Vinsamlegast reyndu aftur síðar.
+Application.EmailTaken=Þetta netfang er þegar í notkun.
+Application.UsernameTaken=Þetta notendanafn er þegar í notkun. Vinsamlegast notaðu annað notandanafn.
+Application.EmailSent=Tölvupóstur hefur verið sendur. Vinsamlegast athugaðu tölvupóstinn þinn fyrir frekari leiðbeiningar.
+Application.EmailSentGmail=Tölvupóstur hefur verið sendur. <a href="http://mail.google.com/">Vinsamlegast athugaðu Gmail fyrir frekari leiðbeiningar.</a>
+Application.GoToGmail=Fara á Gmail pósthólfið
+Application.EmailSentYahoo=Tölvupóstur hefur verið sendur. <a href="http://mail.yahoo.com/">Vinsamlegast athugaðu Yahoo! Email fyrir frekari leiðbeiningar.</a>
+Application.GoToYahoo=Fara á Yahoo pósthólfinu
+Application.EmailSentHotmail=Tölvupóstur hefur verið sendur. <a href="http://www.hotmail.com/">Vinsamlegast athugaðu Hotmail fyrir frekari leiðbeiningar.</a>
+Application.GoToHotmail=Fara á Hotmail pósthólfið
+Application.EmailSentICloud=Tölvupóstur hefur verið sendur. <a href="https://www.icloud.com/#mail">Vinsamlegast athugaðu iCloud póstinn þinn fyrir frekari leiðbeiningar.</a>
+Application.GoToICloud=Fara á iCloud pósthólfið
+Application.NoSuchEmail=Enginn notandi er til fyrir email% s.
+Application.NoSuchUser=Enginn notandi er til fyrir ID% s.
+Application.NoSuchUserFriendly=Við gátum ekki fundið notanda fyrir þessu bréfi eða notandanafn. Vinsamlegast reyndu aftur.
+Application.NoSuchToken=Það var villa skráir þig inn á reikninginn þinn. Vinsamlegast reyndu aftur fljótlega.
+Application.PasswordResetInvalid=Þetta endurstilla lykilorð beiðni er ógilt eða finnst ekki. Vinsamlegast reyndu að endurstilla aðgangsorðið aftur.
+Application.PasswordUpdated=Lykilorð þitt hefur verið uppfært.
+Application.APIWrongPassword=Vinsamlegast athugaðu lykilorðið þitt og reyndu aftur.
+Application.APIError=Óvænt villa kom upp. Vinsamlegast reyndu aftur.
+Application.APIBadToken=Ógilt OAuth aðgang skapi.
+Application.APINoToken=Virk aðgangur auðkenni verður að nota til að fyrirspurn um valda notanda.
+Application.APIBadCode=Ógildur OAuth númer.
+Application.TimeOut=Það virðist vera að taka of langan tíma. Vinsamlegast reyndu aftur fljótlega.
+Application.BadURL=Þetta er ekki gild vefslóð. Þessi reitur verður að vera fullur, ekki ættingi URL, eins https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Þessi reitur hefur hámarkslengd 200 stafi. Vinsamlegast nota eitthvað styttri.
+Application.NoStripeKey=Engin Stripe API Key fannst. Vinsamlegast setja rönd API lykill á þinn <a href="https://dailycred.com/admin/setup">skipulag</a> síðu.
+Application.OAuthCallBackNotInDomain=Gefnar redirect_uri eru ekki samþykktar af stillingum til þessa viðskiptavinar.
+Application.CNameNotValidDomain=Gefnar CNAME virðist ekki vera gilt ríki.
+Application.Required=Þetta er krafist.
+Application.LogoFileTooLarge=Skráin yfir stærð takmörk.
+Application.LogoFileIsNotImage=Þessi tegund skráar er ekki gild. Aðeins PNG, JPG og GIF eru leyfðar.
+Application.NoClientSecret=Þú verður að tilgreina client_secret breytu inniheldur Dailycred leyndarmál lykill.
+Application.InvalidClientSecret=Þetta er ógildur Dailycred leyndarmál takkann.
+Application.MissingRequiredFields=Það lítur út eins og þú ert að vantar nokkra nauðsynlega reiti. Vinsamlega farðu til þinn <a href="/admin/setup">skipulag</a> síðu til að fá sett upp.
+Application.CouldNotUnsubscribe=Því miður, vegna þess að tæknileg villa við gátum ekki sagt upp áskrift að beint frá þennan tengil. Vinsamlegast reyndu aftur, eða <a href="mailto:support@dailycred.com">hafðu samband við okkur beint</a> til að fjarlægja.
+Application.Unsubscribed=Þú hefur verið afskrá. Okkur þykir leitt að sjá þig fara!
+Application.Subscribed=Þú hefur verið skráð. Takk!
+Application.CouldNotSubscribe=Því miður, vegna þess að tæknileg villa við gátum ekki gerast áskrifandi þig beint frá þennan tengil. Vinsamlegast reyndu aftur, eða <a href="mailto:support@dailycred.com">hafðu samband við okkur beint</a> til að bæta við.
+Application.AdminsCantUnsubscribe=Viðurkennir ekki afskrá sig af eigin reikning.
+Application.EmailIsSame=Hin nýja email er það sama og núverandi netfangið þitt.
+Application.EmailOnlyUserNotAllowed=Þetta app styður ekki tölvupóst aðeins notendur.
+Application.EmailChangeSuccess=Netfangið þitt hefur verið breytt í% s. Vinsamlegast líta á staðfestingu í tölvupósti og staðfesta nýja netfangið þitt.
+Application.EmailVerifySuccess=Netfangið% s hefur verið staðfest.
+Application.PostOnly=Þessi beiðni verður að gera með því að nota <b>HTTP POST beiðni.</b> <br/><br/> Ef þú ert bara að skoða API, mælum við með krulla eða <a target="_blank" href="http://hurl.it/">hurl</a> .
+Application.StripeTrialEnd=A <a href="https://www.dailycred.com/admin/user/%s">notandi</a> hefur rannsókn sem er um það bil að enda. Þetta email stafaði af rönd webhook.
+Application.StripePaymentSucceeded=A <a href="https://www.dailycred.com/admin/user/%s">notandi</a> tókst innheimt. Þetta email stafaði af rönd webhook.
+Application.StripePaymentFailed=A <a href="https://www.dailycred.com/admin/user/%s">notandi</a> var árangurslaust innheimt. Þetta email stafaði af rönd webhook.
+Application.BillingError=Eitthvað fór úrskeiðis þegar reynt var að setja greiðsluupplýsingar. Vinsamlegast reyndu aftur eftir augnablik.
+Application.TrialWillEnd=Ókeypis prufa þinn með Dailycred er um að enda á% s. Vinsamlegast farðu á <a href="https://www.dailycred.com/admin/settings/billing">innheimtu síðu</a> til að hindra aðgang sé óvirkur.
+Application.TrialWillEndLong=Ókeypis prufa þinn með DailyCred endar fljótlega á% s. <br><br> Til að halda reikningnum þínum virkur skaltu fara á <a href="https://www.dailycred.com/admin/settings/billing">innheimtu síðu</a> til að endurskoða <a href="https://www.dailycred.com/pricing">tengiflug áætlanir</a> og slá greiðsluupplýsingar dag.
+Application.CannotRemoveActiveCard=Þú getur ekki fjarlægt virka innheimtu aðferð. Ef þú vilt hætta netfangið support@dailycred.com með reikningi þínum.
+Application.StateCheckFailed=Beiðnin vantar ríkið breytu. Vinsamlegast reyndu aftur.
+Application.UnexpectedError=Því miður kom upp óvænt villa kom upp. Vinsamlegast reyndu aftur.
+Application.UserAnotherIdentityProvider=Það virðist sem þú ert með reikning með% s. <a href="%s">Smelltu hér til að tengjast með% s</a> eða <a href="%s">smelltu hér til að setja inn lykilorð</a> .
+Application.APIKeyNotFound=API lykill fannst ekki. Vinsamlegast setja API lykil fyrir þetta auðkenni hendi á þínu <a href="https://www.dailycred.com/admin/settings">stillingar síðunni</a> .
+Application.ForeignIDAlreadyRegistered=Við gátum ekki tengt þennan reikning vegna þess foreignID% s fyrir hendi% s er nú þegar tengt notandann% s.
+Application.TwitterCallbackURLIncorrect=Athuga <a href="https://dev.twitter.com/apps">stillingar Twitter forritsins</a> . Svarhringingu URL App þíns má ekki vera tómur. (Það getur verið hvaða gild vefslóð.)
+Application.ThankYouForSigningUp=Þakka þér fyrir að skrá þig fyrir% s!
+Application.ThankYouForSigningUpNoClient=Þakka þér fyrir að skrá þig!
+Application.CannotDeleteLastApp=Get ekki eytt: reikningur þinn verður að hafa að minnsta kosti einn App.
+Application.CouldNotSendEmail=Því miður, það var vandamál að senda þessi bréf. Vinsamlegast reyndu aftur fljótlega.
+Application.EmailVerificationRequiredSignUp=Þú verður að staðfesta netfangið þitt áður en þú skráir þig. Vinsamlegast athugaðu tölvupóstinn þinn fyrir frekari leiðbeiningar.
+Application.EmailVerificationRequiredSignIn=Þú verður að staðfesta netfangið þitt áður en þú skráir inn Vinsamlegast athugaðu tölvupóstinn þinn fyrir frekari leiðbeiningar.
+Application.Blocked=Því miður, þú hefur verið læst af stjórnanda.
+
+=
+template.authorize.passwordStrength.0=Mjög veikt
+template.authorize.passwordStrength.1=Veik
+template.authorize.passwordStrength.2=Svo-svo
+template.authorize.passwordStrength.3=Good
+template.authorize.passwordStrength.4=Great!

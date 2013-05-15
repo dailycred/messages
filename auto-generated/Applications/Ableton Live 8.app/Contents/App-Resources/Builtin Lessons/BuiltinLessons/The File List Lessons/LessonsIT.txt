@@ -1,0 +1,16 @@
+$Page L'Elenco dei File
+$TargetName The File List
+
+L'elenco dei file visualizza ogni file utilizzato dal Live Set che stai ispezionando:
+FileList.tif
+
+Puoi sostituire ciascun file (ad es. campioni) dell'elenco trascinando e rilasciando un nuovo file su di esso. Le clip audio manterranno i propri Marcatori Warp se la lunghezza del nuovo file è uguale o superiore al vecchio file. Puoi anche utilizzare il pulsante di /Sostituzione Dinamica/ per rimpiazzare un file navigando nel disco.
+
+Clicca sul pulsante /Edita/ di un campione per aprirlo in un editor di campioni esterno. Il campione rimarrà off-line fino a quando l'opzione di Editing resterà attivata. Le clip audio manterranno i propri Marcatori Warp /solo/ se la lunghezza del campione rimarrà immutata.
+
+La colonna /Locazione/ indica se i file siano collocati nella Libreria di Live, nella cartella di un Progetto o in un'altra cartella esterna. Qui vengono indicati anche i file mancanti.
+
+Se Live ha effettuato una ricerca dei file mancanti, il numero di potenziali corrispondenze viene indicato nella colonna /Candidati./
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

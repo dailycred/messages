@@ -1,0 +1,210 @@
+$Page Grabación de audio
+$TargetName Recording Audio
+
+En esta lección, veremos cómo usar $0 para grabar instrumentos o voces de directo. Aprenderemos nociones sobre encaminamientos, monitorización y grabación multipistas, y puede que averigüemos como tocar solos de guitarra increiblemente rápidos.
+
+Esta lección también se ha plasmado en formato de película. Pulse $Link aquí <http://www.ableton.com/_common/downloads/movies/recording_audio.mov> para iniciar la película desde la página web de Ableton.
+
+Divider.tif
+*A los documentos de $0 se les conoce como Live Sets. Esta lección viene acompañada de un Live Set con el que interactuará mientras sigue la lección. Cuando esté preparado por favor pulse $Link aquí <Set:/Sets/Recording Audio.als> para cargar el Live Set.*
+Divider.tif
+
+
+Antes de comenzar, déjenos que le mostremos la /Vista Info/ de $0:
+OverviewInfoView.tif
+
+La vista Info se encuentra en la esquina inferior izquierda de la ventana de la aplicación de $0. Es un recurso muy práctico que le dará información de casi todo lo que apunte con el cursor. Cómo muchas otras vistas en $0, puede mostrarse u ocultarse según sea necesario simplemente pulsando sobre el /botón desplegar/ triangular cerca de su esquina inferior izquierda.
+InfoViewFoldButton.tif
+
+Si coloca el cursor sobre el botón /Siguiente página/ de abajo, la vista le explicará cómo continuar con nuestra lección sobre grabación.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page El Arreglo
+$TargetName The Arrangement
+
+En esta lección trabajaremos en la /vista Arrangement/ de $0 que se muestra en este momento en la sección central superior de la ventana de la aplicación.
+OverviewArrangement.tif
+
+El Arrangement puede usarse como una grabadora de cinta - los sonidos pueden grabarse libremente sobre éste. Sus grabaciones pueden reproducirse en cualquier momento, comenzando desde cualquier punto. Cuando esté contento con algo que haya creado, puede exportarlo desde $0 de forma que pueda tostarlo en un CD o DVD.
+
+Vamos a hacer un poco de espacio para el Arrangement ocultando el /Navegador/ de la esquina superior izquierda de la pantalla. También tiene un botón desplegar, al igual que la vista Info.
+BrowserShowHideRec.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page El mezclador del Arrangement
+$TargetName The Arrangement Mixer
+
+Este Live Set contiene una pista de audio vacía, con la etiqueta de "1 Audio." En un momento prepararemos esta pista para grabación.
+ArrangementOneTrack.tif
+
+La parte derecha de la vista Arrangement pertenece al /mezclador/ de $0.
+ArrangementMixer.tif
+
+El mezclador tiene muchas opciones que le ayudan a construir y refinar el sonido de su Live Set. Normalmente no necesitamos acceder a todas ellas a la vez, por lo que el mezclador se ha dividido en secciones que pueden mostrarse u ocultarse según sea necesario. En esta lección, sólo nos interesan las secciones /In/Out/ y /Mixer,/ por lo tanto adelante y pulse sobre los /selectores Mostrar/Ocultar/ en la esquina inferior derecha de la vista Arrangement hasta que sólo queden activados *IO* y *M*:
+InOutShowHideRec.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Encaminamiento de entradas
+$TargetName Input Routing
+
+Usamos la sección In/Out del mezclador de $0 para indicarle a cada pista de donde proceden las señales de audio entrantes (inputs), y hacia donde enviar sus señales de audio (outputs):
+ArrangementIOSection.tif
+
+El par de selectores /input/ en la sección In/Out muestran que nuestra pista está recibiendo audio desde los canales externos 1 y 2. Probablemente esta sea la entrada estándar de audio del ordenador (un micrófono incorporado o un jack de Line In o entrada de línea).
+Input1And2Rec.tif
+
+El selector de entrada superior le permite seleccionar de entre varias /fuentes de entrada:/ entradas externas ('Ext. In'), otras pistas, o señales de aplicaciones ReWire.
+
+El selector de entrada inferior es desde donde puede seleccionar de entre diferentes /canales de entrada,/ lo cual es común cuando se trabaja con interfaces de audio multicanal.
+
+
+Divider.tif
+*Nota:* Obtenga el mejor rendimiento de su interfaz de audio multicanal siguiendo la lección $Link Configuración de E/S de Audio <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO>.
+
+$Comment --------------------------------------------------------------------------------
+$Page Armando una pista de audio
+$TargetName Arming an Audio Track
+
+Antes de que se pueda iniciar la grabación, tenemos que /armar/ nuestra pista de audio pulsando sobre su botón /Arm,/ que aparece debajo. Esto prepara $0 para el proceso de grabación.
+
+*Nota:* Si escucha un fuerte sonido de retroalimentación cuando arme la pista, pulse de nuevo sobre el botón de armar para silenciarlo, luego siga leyendo para averiguar que es lo que está pasando.
+Track1ArmedRec.tif
+
+Una vez se ha armado la pista, verá que su /medidor de nivel/ muestra el nivel de señal de la entrada de la pista. Esto representa el volumen del sonido que se grabará.
+InputMeterRec.tif
+
+Si no se indica ninguna señal en el medidor, primero disminuya el volumen de sus altavoces o auriculares para que ningún repentino cambio de volumen dañe sus oidos o equipo. Luego, verifique si ha seleccionado un canal de entrada que tiene un instrumento o micrófono conectado a este. Una vez haya indentificado y solucionado el problema, recuerde volver a colocar el volumen a un nivel razonable.
+
+$Comment --------------------------------------------------------------------------------
+$Page Monitorización
+$TargetName Monitoring
+
+Normalmente queremos escuchar lo que estamos grabando, y la /monitorización/ determina la forma de cómo escuchamos las señales de las entradas de nuestras pistas elegidas.
+
+Estos tres conmutadores en la sección In/Out le permiten configurar la forma de monitorización de cada pista de audio y MIDI por separado:
+MonitoringSectionRec.tif
+
+-> Elija *Off* si está monitorizando /directamente,/ esto es, a través del interface de audio o a través de una mesa de mezclas externa - o por el aire.
+
+-> Elija *Auto* para monitorizar la señal de entrada a través de $0. Si escucha un eco o retroalimentación, tiene una configuración de /monitorización directa./ O bien ajuste el interruptor de monitorización de la pista a *Off,* o desactive l aopción de monitorización directa de su interfaz de audio.
+
+Cuando esté monitorizando a través de cualquier software, siempre habrá algo de retardo o /latencia/ entre sus acciones y el resultado audible. Aprenda cómo minimizar la latencia siguiendo la lección $Link Configuración de E/S de Audio <Lesson:Builtin/3-Hardware Setup Category/1-Setting up Audio IO>.
+
+$Comment --------------------------------------------------------------------------------
+$Page Preparación para la grabación
+$TargetName Preparing to Record
+
+Ahora que las señales de audio se muestran en $0 y tenemos una manera de monitorizarlas, estamos preparados para grabar una toma en el Arrangement. Primero, verifique que la pista de audio está todavía armada:
+Track1ArmedRec.tif
+
+Ahora pulse dos veces el botón /Stop/ de la barra de control. Esto reajusta el Arrangement al inicio, a la posición 1.1.1.
+TransportStopRec.tif
+
+Luego, pulse el /botón Grabación Global/ adyacente. (Esto le es probablemente familiar para los que hayan usado las grabadoras multipistas: Las pistas individuales pueden armarse para la grabación, y el botón Grabación Global activa la grabación para las pistas armadas.)
+GlobalRecordRec.tif
+
+Finalmente, pulse sobre el botón /Play/ de la barra de control (o pulse sobre la *barra espaciadora* en el teclado de su ordenador) para iniciar la grabación.
+TransportPlayRec.tif
+
+¡Ya es hora de hacer algo de ruido!
+
+$Comment --------------------------------------------------------------------------------
+$Page Grabación y Reproducción
+$TargetName Recording and Playback
+
+A medida que la grabación va progresando, verá como se va creando un nuevo /clip de audio/ en la pista.
+ArrangementClipRecording.tif
+
+Para detener la grabación, pulse sobre el botón Detener en la barra de control, o pulse de nuevo sobre la *barra espaciadora.*
+TransportStopRec.tif
+
+Ahora, pulse una vez más el botón Detener (reajustando así el Arrangement a 1.1.1), y escuche su grabación pulsando sobre el botón Reproducir.
+
+$Comment --------------------------------------------------------------------------------
+$Page Navegando en el Arrangement
+$TargetName Navigating the Arrangement
+
+Si grabó durante largo rato, puede que el Arrangement haya comenzado a desplazarse horizontalmente. Para desplazar la vista hacia atrás o hacia delante, o para acercar o alejar, agarre la regla beat-time en la parte superior del Arrangement con el ratón.
+-> Los movimientos verticales del ratón /alejan y acercan el zoom;/
+-> Los movimientos horizontales /desplazan/ a izquierda y derecha.
+TimeLineRec.tif
+
+La reproducción y la grabación pueden comenzar desde cualquier lugar de la canción. puede ajustar una /marca de inserción/ pulsando en cualquier parte de la Vista Arrangement (excepto en la barra de título de un clip), y la próxima vez la canción comenzará a reproducirse desde ese punto.
+InsertMarker.tif
+
+Si no está satisfecho con lo que ha grabado, ¡tranquilícese! Una rápida pulsación de *$CommandMod + Z* es todo lo que necesita para deshacer una toma, y listo para probar de nuevo.
+
+$Comment --------------------------------------------------------------------------------
+$Page El Metrónomo
+$TargetName The Metronome
+
+Es importante grabar sincronizado para asegurarse de que todo se reproducirá más tarde en sincronía.
+
+La manera más fácil de grabar sincronizado es usar el /metrónomo/ incluido en $0, que se activa mediante su interruptor en la barra de control. Lo encontrará en la esquina superior izquierda de la ventana de la aplicación:
+MetronomeSwitch.tif
+
+El metrónomo hace tic tac al tempo actual mientras $0 reproduce. Active el metrónomo, luego pulse la *barra espaciadora* para inicar la reproducción. Puede ajustar el volumen del metrónomo usando el control /Cue Volume/ de la pista Master, que se muestra abajo. Pulse de nuevo la *barra espaciadora* para detnerlo.
+CueVolume.tif
+
+
+Divider.tif
+*Nota:* Si sus grabaciones suenan con retardo con respecto al metrónomo, probablemente necesita ajustar la /compensación de latencia./ La compensación de latencia es un truco que emplea el programa en un escenario de monitorización directa para compensar los retardos ocasionados por el interfaz de audio y sus controladores. Para configurar esto, $0 debe realizar un pequeño test que desgraciadamente requiere de su asistencia. La lección $Link Compensación del error del controlador <Lesson:Builtin/3-Hardware Setup Category/2-Driver Error Compensation> le mostrará los pasos de este procedimiento.
+
+$Comment --------------------------------------------------------------------------------
+$Page Trucos de Tempo, cuenta de entrada y Tapping
+$TargetName Tempo Tricks, Count-in and Tapping
+
+El tempo de su Live Set puede cambiarse en cualquier momento: antes, después e incluso durante la grabación. Por ejemplo, podría hacer un poco de trampa bajando el tempo mientras graba un complicado solo de guitarra, y luego subirlo de nuevo cuando hubiera acabado.
+TempoField.tif
+
+Otra técnica útil es el uso de un /count-in/ o cuenta atrás de entrada en la grabación. Esto le da la oportunidad de prepararse para una toma antes de que se inicie de hecho la grabación. Para configurar este comportamiento, abra las Preferencias a través del menú Opciones (PC) o $0 menu (Mac), y elija la pestaña /Record/Warp/Launch./ Cuando la preferencia cuenta de entrada está ajustada a cualquier valor distinto de "None," $0 no comenzará a grabar hasta que se complete la cuenta de entrada.
+CountInPref.tif
+
+Opcionalmente, puede hacer que $0 siga su cuenta en vez de al contrario. Con un tiempo de 4/4, se necesitan cuatro clics sobre el botón /TAP/ antes de que $0 comience a reproducir (o grabar).
+TapButton.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Grabación multipista
+$TargetName Multitrack Recording
+
+Pulse *$CommandMod + T* para crear una nueva pista de audio para su nueva toma. Despliegue la nueva pista pulsando sobre el botón desplegar en su barra de título:
+NewTrackArm.tif
+
+Acuerdese de activar el botón Armar de la nueva pista, o de lo contrario acabará grabando de nuevo en la pista 1. Por defecto, al armar una pista se desarman todas las demás. No obstante, puede armar y desarmar pistas de forma independiente haciendo *$CommandMod-clicking* sobre sus botones Armar. De esta forma puede configurar cualquier número de pistas para grabar simultáneamente.
+MultiArm.tif
+
+Obviamente, esto no tendría mucho sentido a menos que hubiera configurado las pistas para recibir diferentes señales de entrada (de cada miembro de la banda, por ejemplo). En nuestro ejemplo de arriba, hemos alterado nuestras selecciones de entradas de forma que la pista 1 graba la entrada 1 en mono, y la pista 2 graba la entrada 2 en mono.
+
+Adelante, grabe una nueva toma, usando el metrónomo como una guía del tempo. Recuerde pulsar el botón Detener o la *barra espaciadora* cuando haya acabado.
+
+$Comment --------------------------------------------------------------------------------
+$Page Grabando otra vez (y otra vez...)
+$TargetName Doing it Again (and Again...)
+
+Si quisiera volver a repetir sólo una cierta parte de la toma, puede configurar /puntos de pinchazo:/ Arrastre los extremos izquierdo y derecho de la abrazadera de loop para definir los puntos de entrada y salida...
+PunchMarkers.tif
+
+... luego active los conmutadores /Punch-In/ y /Punch-Out/ en la barra de control.
+PunchSwitches.tif
+
+-> Cuando el botón Inicio de pinchazo está activado, $0 protegerá el material existente antes de la abrazadera de loop;
+-> Cuando el botón Fin de pinchazo está activado, $0 protegerá el material existente después de la abrazadera de loop.
+
+La abrazadera de loop también puede usarse para definir una sección del Arrangement que se quiera reproducir en un loop: Puede configurar un loop, grabar cuantas tomas quiera sin interrupción, y $0 retendrá el audio grabado durante cada pase. Posteriormente puede "desenrollar" la grabación del loop usando la función Deshacer. El loop se activa usando su botón correspondiente en la Barra de Control.
+LoopSwitch.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ¿Y ahora adonde me dirijo?
+$TargetName Where to Go from Here?
+
+Ya ha comenzado a usar $0 para crear grabaciones multipista, así que ¿y ahora hacia donde puede ir? Le recomendamos encarecidamente que continue con las lecciones adicionales para aprender que más se puede hacer con $0:
+
+-> Pulse $Link aquí <Lesson:Internal/BuiltinAutoToc> para acceder a todas las lecciones instaladas.
+
+-> Aprenda cómo $Link tocar y grabar instrumentos software <Lesson:Builtin/1-Live Basics Category/4-Playing Software Instruments>.
+
+-> Aprenda nociones sobre clips MIDI con $Link creación de patrones de batería <Lesson:Builtin/1-Live Basics Category/3-Creating Beats>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

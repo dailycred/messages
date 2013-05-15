@@ -1,0 +1,262 @@
+$Page Edición de Arreglos
+$TargetName Editing Arrangements
+
+Al final del $Link Paseo por Live <Lesson:Builtin/1-Live Basics Category/1-A Tour of Live>, vimos cómo los bosquejos e ideas musicales pueden grabarse en la /Vista Arrangement/ de $0 en forma de arreglos lineales. En esta lección, veremos las poderosas herramientas de edición de la Vista Arrangement.
+
+Divider.tif
+*Cuando esté listo, por favor pulse $Link aquí <Set:/Sets/Editing Arrangements.als> para cargar el Live Set que acompaña a esta lección.*
+Divider.tif
+
+Antes de empezar vamos a hacer sitio en la vista Arrangement desplegando el /navegador/ a mano izquierda de la pantalla con el /botón Mostrar/Ocultar,/ que mostramos abajo.
+ShowHideBrowser.tif
+
+Probablemente también querrá usar los selectores de la sección del Mezclador a la derecha de la pantalla para mostrar la única sección que necesitaremos - la /sección del Mezclador/ - y ocultar las otras:
+MixerSectionShow2.tif
+
+Cuando esté listo, pulse /Página siguiente/ en la parte inferior para continuar.
+
+$Comment -----------------------------------------------------------------------
+$Page Reproducción de arreglos
+$TargetName Playing Arrangements
+
+*Siempre* puede comenzar y detener la reproducción pulsando sobre la barra espaciadora en el teclado de su ordenador. Reajustar la posición de reproducción a 1.1.1 pulsando dos veces sobre el /botón Detener/ en la Barra de Control.
+TransportStopButtonArr.tif
+
+Deje que la canción suene un poquito, y luego deténgala con la barra espaciadora. Pulse en algún lugar justo debajo del clip "Bass B1," lo que desplazará el /marcador de inserción/ parpadeante:
+InsertMarker.tif
+
+Cuando vuelva a pulsar la barra espaciadora, la reproducción comenzará desde este marcador. Si prefiere reiniciar desde el punto en que la detuvo, mantega pulsada $ShiftMod mientras pulsa la barra espaciadora.
+
+Detenga la reproducción, y haga clic en la barra de título coloreada del clip "Bass B1" para seleccionarlo.
+SelectedClipArr.tif
+
+Cuando se selecciona el clip de esta forma, la reproducción comenzará en el extremo izquierdo del clip y continuará hasta el resto del Arrangement. Si mantiene pulsada $CopyMod mientras inicia la reproducción, se detendrá al final del área seleccionada (en este caso, al final del clip).
+
+$Comment -----------------------------------------------------------------------
+$Page Uso de la Regla de Tiempos
+$TargetName Using the Beat Ruler
+
+Normalmente la vista Arrangement sólo muestra parte de nuestra canción en cualquier tiempo, pero nos podemos hacer una idea más clara de lo que está pasando alejándonos con el zoom.
+
+La tecla para usar el zoom en la vista Arrangement de $0 está en la /regla de tiempos,/ ubicada en la parte superior de la vista Arrangement:
+TimeRuler.tif
+
+Pase con el cursor por encima de la regla de tiempos y verá que éste se convierte en una lupa. Si el arreglo está reproduciendose apriete la barra espaciadora para detenerlo. Ahora pulse y /arrastre lentamente hacia arriba/ para alejarnos y ver el arreglo completo.
+
+El /botón Desplegar pista,/ que mostramos más abajo y se encuentra al lado del nombre de la pista, pliega o despliega una pista, mostrando u ocultando los contenidos de sus clips.
+FoldingAllTracks.tif
+
+Pliegue y guarde los contenidos de los clips en /todas/ las pistas /$OptionMod-pulsando/ en este botón. Ahora podemos ver nuestro Arrangement de una manera más compacta:
+CompactArrangement.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Saltando y Scrubbing
+$TargetName Jumping and Scrubbing
+
+El área encima de la pista situada en la parte más arriba de todas se denomina /área de scrub./ Está parcialmente cubierta por la /abrazadera de loop,/ a la que inspeccionaremos en un momento. No obstante, primero pruebe a mover el ratón sobre las partes del área de scrub por encima o por debajo de la abrazadera de loop.
+ScrubAreaArr.tif
+
+Por defecto, el cursor se transforma en un icono de un altavoz. Puede usar esta herramienta para hacer clic en el área de scrub en cualquier punto y comenzar la reproducción desde allí, o saltar de punto a punto en el Arrangement.
+
+El tamaño y temporalización de estos saltos se cuantiza según la configuración del selector de /Cuantización Global:/
+GlobalQuantizationArr.tif
+
+Mientras el ratón se mantiene pulsado sobre el área de scrub, una porción del Arrangement del tamaño de la configuración de cuantización elegida se reproducirá repetidamente. Con ajustes de cuantización pequeños, o con un ajuste de /None,/ le permitirá barrer y escuchar su música.
+
+*Consejo:* Si está preocupado por si accidentalmente hiciera un "scrubbing" durante una actuación, puede desactivar este área de scrub desactivando "Áreas de Scrub permanentes" en $Link Look/Feel en las Preferencias <Pref:LookFeel> de Live.
+PermanentScrubPref.tif
+
+Cuando esté desactivado, las regiones encima y debajo de la regla de tiempos sufren las dos un zoom, aunque todavía puede conmutar de forma temporal el scrubbing manteniendo pulsada $ShiftMod mientras arrastra en el área de scrub.
+
+$Comment -----------------------------------------------------------------------
+$Page Localizadores
+$TargetName Locators
+
+Los /Localizadores/ ayudan en la edición y arreglos marcando ciertos puntos en el Arrangement. Para ajustar un localizador, pulse sobre el /botón Ajustar Localizador,/ que mostramos abajo. Su nnuevo localizador aparecerá en el área de scrub.
+LocatorSetButtonArr.tif
+
+Mientras la canción está sonando, los localizadores pueden "soltarse" en la posición de reproducción en ese momento  (cuantizada según el ajuste de cuantización global). Mientras la canción está detenida, los localizadores se crean en el marcador de inserción o selección de inicio.
+NewLocatorArr.tif
+
+Puede rellamar (saltar hasta) los localizadores pulsando sobre éstos, o con los /botones Anterior/ y /Siguiente Localizador/ a ambos lados del botón Del.
+PrevNextButtonArr.tif
+
+La remallada a un localizador está sujeta a cuantización, al igual que cualquier clic en el área de scrub. Pulsando dos veces sobre un localizador lo seleccionará y comenzará la reproducción del Arrangement desde ese punto. Los localizadores pueden arrastrarse con el ratón o moverse con las teclas de cursor del teclado de su ordenador.
+
+Para darle nombre a un localizador, seleccionelo con el ratón, y elija /Renombrar/ desde el menú Editar ($CommandMod + R). Para borrar un localizador, selecciónelo y pulse sobre la tecla retroceso/borrar de su teclado.
+
+Puede $ContextMenu sobre un localizador y seleccionar /Ajustar tiempo de inicio de canción aquí/ desde el menú contextual para configurar ese localizador como el punto de inicio de reproducción.
+
+$Comment -----------------------------------------------------------------------
+$Page Configuración de un Loop
+$TargetName Setting a Loop
+
+Digamos que queremos centrarnos en editar el clip "Pad B2":
+PadB2Clip.tif
+
+Probablemente querremos /hacer una reproducción cíclica/ del clip de manera que podamos escucharlo repetidamente. Para hacer esto necesitamos incluirlo en la /abrazadera de loop,/ que mostramos abajo.
+LoopMarkers.tif
+
+Los extremos de la abrazadera de loop pueden ser arrastrados en posición. Pulse y arrastre el extremo izquierdo de manera que éste se alinee con el comienzo del clip "Pad B2" (Compás 29).
+PadBeginning.tif
+
+Seguidamente, pulse y arrastre el lado derecho de forma que se alinee con el final del clip (Compás 33).
+PadEnd.tif
+
+Divider.tif
+/Consejo:/ Usted puede ajustar la abrazadera de loop rápidamente al tamaño exacto de un clip pulsando sobre el clip para seleccionarlo y pulsando $CommandMod-L. Además, siempre que el loop esté sólo parcialmente visible y quiere mover el final que está fuera del rango de visión, no tiene por que desplazar el clip. Siempre puede tomar el punto de inicio o de final desde el borde da la vista.
+
+$Comment -----------------------------------------------------------------------
+$Page Activación de Looping
+$TargetName Activating Looping
+
+Antes de que podamos escuchar nuestro loop, debemos asegurarnos de que el /interruptor Loop/ de la Barra de Control esté activado, tal y como se muesta abajo.
+ArrangementLoopSwitch.tif
+
+Ahora pulse la barra espaciadora para escuchar el loop que acaba de crear, y vuelva a detenerlo cuando haya acabado.
+DesiredRegion.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Ampliar una selección
+$TargetName Zooming in on a Selection
+
+Vamos a usar la regla de tiempos para tener una vista más cercana de los clips que queremos editar. Coloque el cursor en algún lugar cerca del compás 31, luego pulse y /arrastre lentamente hacia abajo/ para hacer un zoom de acercamiento a la sección de la canción que contiene el clip "Pad B2."
+PadClipTime.tif
+
+Como lo que estamos intentando enfocar es esta sección entera, probablemente tendremos que /arrastrar a la izquierda y a la derecha,/ así como ampliar (o alejarnos), de manera que podamos ver todo el clip en la vista Arrangement.
+
+Divider.tif
+*Pulse y arrastre hacia arriba o hacia abajo en la regla de tiempos para alejarnos o acercarnos suavemente.*
+
+*Pulse y arrastre hacia la izquierda o la derecha en la regla de tiempos para desplazar la pantalla de izquierda a derecha.*
+
+$Comment -----------------------------------------------------------------------
+$Page Utilización de la abrazadera de Loop
+$TargetName Using the Loop Brace
+
+La abrazadera de loop de $0 simplifica bastante la edición de procesos. Imaginemos que queremos partir por la mitad la longitud de nuestra región.
+
+Para seleccionar la región en cuestión, sólo tenemos que pulsar sobre la abrazadera de loop. La abrazadera se volverá de un negro sólida cuando se seleccione:
+SelectedBrackets.tif
+
+Mantenga pulsado $CommandMod, mientras pulsa la tecla del cursor arriba, para partir por la mitad la longitud del loop:
+HalvedLoop.tif
+
+Ahora (sin apretar $CommandMod) presione la tecla del cursor arriba para desplazar el loop a la derecha en pasos equivalentes a su longitud.
+MovedLoop.tif
+
+Probablemente se habrá dado cuenta de que la abrazadera del loop que ha editado no se alinea uniformemente  con las líneas de compás. Esto se debe a que el clip "Pad B2" (y por o tanto nuestro loop original) tenía una duración estraña para empezar, por el hecho de que cruzaba un /cambio de compás./ En casos como este, puede que tenga que ajustar manualmente la longitud de la abrazadera después de moverla. Si fuera necesario, ajuste la abrazadera de loop de manera que se estire desde el compás 31 al 33, tal y como se muestra abajo:
+AdjustedLoop.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Edición de Clips
+$TargetName Editing Clips
+
+Cualquier parte de la canción o del arreglo que esté /seleccionada/ puede ser /editada/ con comandos del menú /Edición./ La región actual limitada por la abrazadera de loop, por ejemplo, pueden ser editados facilmente:
+
+Simplemente nos aseguramos que la abrazadera de loop está todavía seleccionada (negro sólido), lo que simultáneamente /selecciona/ el material incluído dentro; luego elegimos un comando desde el menú /Edición,/ /Eliminar,/ por ejemplo.
+SelectedLoop.tif
+
+
+Divider.tif
+En términos generales, los comandos del menú Edición de la Vista Arrangement son de dos tipos: los comandos de edición comunes como Cortar, Duplicar y Borrar se aplican a los clips y a sus contenidos, mientras que los comandos /...Time/ se aplican a periodos de tiempo en el Arrangement.
+
+$Comment -----------------------------------------------------------------------
+$Page Edición No-destructiva
+$TargetName Nondestructive Editing
+
+$0 guarda un esbozo de todas sus acciones en el programa, de manera que siempre podrá cambiar su opinión y deshacer eventos en el tiempo en cualquier punto de la edición.
+
+Vamos a imaginar que por cualquier razón no le ha gustado el efecto del comando /Eliminar./ Siempre podrá pulsar $CommandMod + Z una vez para /deshacer/ su último paso de edición. Entonces, usted puede cambiar de opinión una vez más y /rehacer/ el último paso. En un PC, use $CommandMod + Y para esta función; en un Mac $CommandMod + $ShiftMod + Z.
+DeletedLoop.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Edición de Clips, continuación
+$TargetName Editing Clips, Continued
+
+La /longitud de Clip/ puede ser facilmente modificada si pulsa y arrastra sobre los dos /extremos del clip./ Advierta que el cursor girará dentro del corchete cuando pasa sobre ambos extremos de un clip, haciéndole saber que la longitud ha sido cambiada.
+
+Para rellenar el espacio vacío creado por nuestro borrado, creamos una /copia/ del clip "Drums B2." Podemos hacer esto simplemente pulsando y /$CopyMod-arrastrando/ el clip a donde queremos:
+DrumsPasted.tif
+
+Vamos también a ampliar el clip "Pad B2" un poco cambiando su longitud.
+
+Pulse sobre el borde derecho de "Pad B2" y arrástrelo lentamente hacia la derecha, de forma que se extiende hasta el inicio del compás 33, tal y como se muestra abajo.
+PadExtended.tif
+
+Fíjese en que todavía nos queda un pequeño trozo de espacio vacío desde donde borramos nuestro cambio de compás. Todos los clips que van a continuación de esto comienzan todos en lo que solía ser el inicio de un tiempo de 4/4. Pero ahora están desplazados por un tiempo. Para arreglar esto, seleccione el espacio vacío entre 33 y 33.2 en una de las pistas:
+EmptySpace.tif
+
+Luego elija /Borrar tiempo/ desde el menú Editar.
+
+$Comment -----------------------------------------------------------------------
+$Page Uso de la Rejilla
+$TargetName Using the Grid
+
+Cuando ha editado clips en la vista Arrangement, habrá notado que ambos movimientos del clip y los cambios de longitud /se vuelven líneas visibles de rejilla./
+
+Puede cambiar la densidad de la rejilla utilizando el menú contextual: simplemente $ContextMenu en cualquier lugar en la Vista Arrangement en donde no haya ningún clip.
+GridContextMenuArr.tif
+
+La rejilla tiene dos modos que dictan su comportamiento durante la función de zoom:
+-> /Rejilla Adaptable:/ Cuando acerca o aleja el zoom, las líneas de la rejilla aparecen o desaparecen de forma que permanecen equidistantes.
+-> /Rejilla Fija:/ Las líneas de la rejilla tienen un espaciado fijo, independiente del factor del zoom.
+
+La rejilla también puede desactivarse o ajustarse a un espaciado de tresillos.
+
+El ancho actual de la rejilla se muestra en la parte inferior derecha de la vista Arrangement, así:
+GridWidthDisplayArr.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Consolidación de Clips
+$TargetName Consolidating Clips
+
+Ahora puede escuchar los efectos de nuestra edición en toda la canción pulsando dos veces sobre el botón Detener en la Barra de Control (reajustando al posición de reproducción a 1.1.1), desactivando el interruptor del Loop y pulsando la barra espaciadora.
+
+$0 ofrece la edición detallada de las propiedades individuales de clip, y como ésto no vamos a tratarlo en esta lección, vamos a aprender cómo la vista Arrangement ofrece una opción para /consolidar/ multiples clips en la misma pista, de manera que sus propiedades puedan ajustarse al unísono.
+
+Para ver cómo funciona la propiedad de consolidación, volvamos a nuestro loop de 4 compases. Detenga la reproducción con la barra espaciadora y configure la duración de loop en 4 compases, comenzando desde el compás 29. (Puede que tenga que /alejar la vista/ para ver el rango entero a la vez.) Su loop debería parecerse a este:
+LikeThis.tif
+
+Pulse en la abrazadera del loop, volviéndose de color negro y seleccionando el material en su interior para editar.
+
+Ahora seleccione /Consolidar/ del menú /Edición,/ y observe como cada clip de la pista está consolidado en uno:
+IntoOne.tif
+
+$Comment -----------------------------------------------------------------------
+$Page División de Clips
+$TargetName Splitting Clips
+
+Vamos a desplegar todas las pistas apretando el botón triangular Despliegue Pista con la tecla $OptionMod pulsada.
+
+En el momento que $0 permite consolidar multiples clips, éste también permite /dividir/ un clip en más de uno. Vamos a intentar dividir el clip "Drums B2" que esta actualmente en nuestra abrazadera de loop. (Debe desplazarse usando la barra para desplazarse a mano derecha de la Vista Arrangement.)
+
+Pulse dentro del visor de notas MIDI del clip (no en su barra de título) en el compás 30, como aquí se muestra:
+BlinkingCursor.tif
+
+El marcador de inserción le mostrará el punto en donde se dividirá el clip.
+
+También puede aislar una porción de un clip seleccionando un pedazo de su tiempo y dividiéndolo. Esto crea una división a ambos lados de la selección. Seleccione los contenidos del compás 30 arrastrándo dentro del display de notas hacia el inicio del compás 31:
+SplitRegion.tif
+
+Todo lo que falta es seleccionar el comando /Dividir/ del menú Editar.
+
+Ahora, puede pulsar y arrastrar uno de los dos nuevos clips a cualquier posición en la pista, reemplazando lo que estuviera ya allí:
+Replaced.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Más Posibilidades...
+$TargetName More Possibilities...
+
+-> La $Link lección sobre automatización <Lesson:Builtin/2-Live Advanced Category/2-Using Automation> demostrará cómo puede usar esta importante función En la vista Arrangement para hacer que sus creaciones tomen vida.
+-> La clásica grabación linear puede realizarse fácilmente en la Vista Arrangement, como puede aprender $Link aquí <Lesson:Builtin/1-Live Basics Category/2-Recording Audio>.
+-> Además de trabajar con los clips de la vista Arrangement (que hemos creado grabando en la Session), también puede arrastrar /nuevos clips/ de uno de los /navegadores de Archivos,/ igual que haría en la vista Session. Los navegadores de archivos se abren cuando el botón selector está pulsado:
+AccessingStuff.tif
+
+-> Los clips pueden ser arrastrados hacia delante y hacia atrás entre las vistas Session y Arrangement simplemente arrastrándolos sobre los botones de selector en la parte superior derecha de la pantalla.
+SelectorButtons.tif
+
+-> Los clips audio y MIDI de la vista Arrangement pueden ser editados detalladamente, igual que los clips de la vista Session, en la /vista Clip./ Para más información diríjase al capítulo "Vista Clip" del $Link manual de referencia <Manual>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

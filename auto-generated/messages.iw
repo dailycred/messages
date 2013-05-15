@@ -1,0 +1,86 @@
+Application.NoSuchClient=אין לקוח קיים ל% של id.
+Application.NoSuchApp=לא קיימת אפליקציה ל% של id.
+Application.NoClientProvided=אנא ספק זיהוי הלקוח שלך עם בקשתך.
+Application.NoRedirectProvided=אנא ספק להפנות לבקשת OAuth שלך. <br/> <b>מפתחים:</b> לספק אורי ההתקשרות שלך באמצעות פרמטר <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> או על ידי הגדרת התקשרות ברירת מחדל <a href="https://www.dailycred.com/admin/setup">בהגדרות החשבון שלך.</a>
+Application.EnterEmailOrUsername=אנא הכנס את שם המשתמש שלך או דוא&quot;ל.
+Application.EnterEmail=אנא הכנס את הדוא&quot;ל שלך.
+Application.EnterUsername=הזן את שם המשתמש שלך.
+Application.EnterPassword=אנא הכנס את הסיסמה שלך.
+Application.AtNotAllowed=הסמל &quot;@&quot; לא ניתן להשתמש בשם המשתמש שלך.
+Application.WrongPasswordOrUsername=אנא בדוק את שם המשתמש והסיסמה שלך ונסה שוב. <a href="%s">כדי לאפס את סיסמתך לחץ כאן.</a>
+Application.BadDomain=תחום &quot;% s&quot; אינו חוקי.
+Application.BadEmail=אנא בדוק שכתובת הדוא&quot;ל שלך הוזנה כראוי ונסה שוב.
+Application.BadNewEmail=אנא בדוק שכתובת הדוא&quot;ל החדש שלך היה נכנס בצורה נכונה ונסה שוב.
+Application.PasswordTooShort=אנא הכנס את הסיסמה עם d תווי% לפחות.
+Application.NoCallbackUri=% S לא קבעה URI התקשרות עדיין. אנא נסה שוב מאוחר יותר.
+Application.EmailTaken=דוא&quot;ל זה כבר נמצא בשימוש.
+Application.UsernameTaken=שם משתמש זה כבר תפוס. נא להשתמש בשם משתמש שונה.
+Application.EmailSent=דוא&quot;ל נשלח. אנא בדוק את הדוא&quot;ל שלך לקבלת הוראות נוספות.
+Application.EmailSentGmail=דוא&quot;ל נשלח. <a href="http://mail.google.com/">אנא Gmail שלך לקבלת הוראות נוספות.</a>
+Application.GoToGmail=עבור לתיבת הדואר הנכנס שלך ב-Gmail
+Application.EmailSentYahoo=דוא&quot;ל נשלח. <a href="http://mail.yahoo.com/">בדוק את הדוא&quot;ל של יאהו! לקבלת הוראות נוספות.</a>
+Application.GoToYahoo=עבור לתיבת הדואר הנכנס שלך יאהו
+Application.EmailSentHotmail=דוא&quot;ל נשלח. <a href="http://www.hotmail.com/">אנא Hotmail שלך לקבלת הוראות נוספות.</a>
+Application.GoToHotmail=עבור לתיבת הדואר הנכנסת של Hotmail שלך
+Application.EmailSentICloud=דוא&quot;ל נשלח. <a href="https://www.icloud.com/#mail">בבקשה לבדוק את הדואר שלך iCloud לקבלת הוראות נוספות.</a>
+Application.GoToICloud=עבור לתיבת הדואר הנכנס שלך iCloud
+Application.NoSuchEmail=לא קיים משתמש עבור% s דואר אלקטרוני.
+Application.NoSuchUser=לא קיים משתמש עבור% s id.
+Application.NoSuchUserFriendly=לא הצליח למצוא לחשבון משתמש של דוא&quot;ל זה או שם משתמש. אנא נסה שוב.
+Application.NoSuchToken=הייתה שגיאה בהחתימה לחשבון שלך. אנא נסה שוב בקרוב.
+Application.PasswordResetInvalid=בקשה לאיפוס סיסמא זה אינה תקף או לא נמצא. אנא נסה לאפס את הסיסמה שוב.
+Application.PasswordUpdated=הסיסמה שלך עודכנה.
+Application.APIWrongPassword=אנא בדוק את הסיסמה שלך ונסה שוב.
+Application.APIError=אירעה שגיאה לא צפויה. אנא נסה שוב.
+Application.APIBadToken=אסימון גישה לא חוקי OAuth.
+Application.APINoToken=אסימון גישה פעיל חייב להיות בשימוש לשאילתא מידע על המשתמש הנוכחי.
+Application.APIBadCode=קוד לא חוקי OAuth.
+Application.TimeOut=שנראה כי זה לוקח יותר מדי זמן. אנא נסה שוב בקרוב.
+Application.BadURL=זה לא כתובת אתר חוקית. שדה זה חייב להיות כתובת אתר מלאה, שאינם יחסי, כמו https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=יש תחום זה אורך מרבי של 200 תווים. נא להשתמש במשהו קצר יותר.
+Application.NoStripeKey=אין פסים מפתח API נמצא. אנא להגדיר מפתח API הפסים שלך בבית שלך <a href="https://dailycred.com/admin/setup">הגדרת</a> הדף.
+Application.OAuthCallBackNotInDomain=Redirect_uri סיפק לא אושר על ידי הגדרות החשבון של לקוח זה.
+Application.CNameNotValidDomain=מופיע CNAME סיפק לא להיות תחום חוקי.
+Application.Required=מדובר בתחום הנדרש.
+Application.LogoFileTooLarge=הקובץ חורג ממגבלת גודל.
+Application.LogoFileIsNotImage=סוג הקובץ אינו חוקי. רק PNG, JPG ו-GIF מותר.
+Application.NoClientSecret=עליך לציין פרמטר client_secret המכיל המפתח הסודי Dailycred שלך.
+Application.InvalidClientSecret=זה הוא מפתח סודי Dailycred חוקי.
+Application.MissingRequiredFields=זה נראה כאילו חסר לך כמה שדות דרושים. בבקשה ללכת <a href="/admin/setup">הגדרת</a> עמוד כדי לקבל להגדיר.
+Application.CouldNotUnsubscribe=אנחנו מצטערים, עקב טעות טכנית שאנחנו לא יכולים לבטל את המנוי ישירות מהקישור הזה. אנא נסה שוב, או <a href="mailto:support@dailycred.com">פנה אלינו ישירות</a> כדי להסירו.
+Application.Unsubscribed=היית לבטל את המנוי. אנחנו מצטערים לראות שאתה הולך!
+Application.Subscribed=אתה כבר רשום. תודה!
+Application.CouldNotSubscribe=אנחנו מצטערים, עקב טעות טכנית שאנחנו לא יכולים להירשם אותך ישירות מהקישור הזה. אנא נסה שוב, או <a href="mailto:support@dailycred.com">פנה אלינו ישירות</a> שיש להוסיף.
+Application.AdminsCantUnsubscribe=מודה לא יכולה לבטל את המנוי מהחשבון שלהם.
+Application.EmailIsSame=דוא&quot;ל החדש הוא אותו הדבר כמו הדוא&quot;ל הנוכחי שלך.
+Application.EmailOnlyUserNotAllowed=יישום זה אינו תומך רק משתמשי דואר אלקטרוני.
+Application.EmailChangeSuccess=הדואר האלקטרוני שלך השתנה ל% s. אנא חפש את הודעת האישור בדוא&quot;ל ולוודא את הכתובת החדשה שלך.
+Application.EmailVerifySuccess=% S דוא&quot;ל אומתה.
+Application.PostOnly=בקשה זו חייבת להתבצע באמצעות <b>בקשת HTTP POST.</b> <br/><br/> אם אתה רק בודק את ה-API, אנו מציעים להשתמש להתכרבל או <a target="_blank" href="http://hurl.it/">להשליך.</a>
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">משתמש</a> יש משפט שעומד להסתיים. דוא&quot;ל זה נגרם על ידי webhook פסים.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">משתמש</a> היה בהצלחה עמלה. דוא&quot;ל זה נגרם על ידי webhook פסים.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">משתמש</a> ללא הצלחה היה טעון. דוא&quot;ל זה נגרם על ידי webhook פסים.
+Application.BillingError=משהו השתבש בעת ניסיון להגדיר את פרטי החיוב שלך. אנא נסה שוב לרגע.
+Application.TrialWillEnd=הניסיון ללא תשלום שלך עם Dailycred עומד להסתיים ב% s. אנא בקר בך <a href="https://www.dailycred.com/admin/settings/billing">דף חיוב</a> החשבון שלך, כדי למנוע מלהיות מבוטל.
+Application.TrialWillEndLong=הניסיון ללא תשלום שלך עם DailyCred מסתיים ב% s בקרוב. <br><br> כדי לשמור על פעילות החשבון שלך, בקר בכתובת שלך <a href="https://www.dailycred.com/admin/settings/billing">בדף החיוב</a> לסקור את <a href="https://www.dailycred.com/pricing">התוכניות בעלות נמוכה</a> והזן את פרטי תשלום של היום.
+Application.CannotRemoveActiveCard=אתה לא יכול להסיר את שיטת החיוב הפעילה שלך. אם ברצונך לבטל support@dailycred.com דוא&quot;ל החשבון שלך עם מספר החשבון שלך.
+Application.StateCheckFailed=הבקשה חסרה פרמטר המדינה. אנא נסה שוב.
+Application.UnexpectedError=מצטער, אירעה שגיאה בלתי צפויה. אנא נסה שוב.
+Application.UserAnotherIdentityProvider=נראה שיש לך חשבון באמצעות% s. <a href="%s">לחץ כאן כדי להתחבר באמצעות% s</a> או <a href="%s">לחץ כאן לשינוי סיסמא.</a>
+Application.APIKeyNotFound=API מפתח לא נמצא. אנא להגדיר מפתח API עבור ספק זהות זו עליך <a href="https://www.dailycred.com/admin/settings">דף ההגדרות.</a>
+Application.ForeignIDAlreadyRegistered=אנחנו לא יכולים לקשר את החשבון הזה, כי% s foreignID ל% של ספק כבר משויכים ל% של משתמש.
+Application.TwitterCallbackURLIncorrect=בדקו את <a href="https://dev.twitter.com/apps">ההגדרות של יישומי טוויטר.</a> כתובת ההתקשרות של האפליקציה שלך לא יכולה להיות ריקה. (זה יכול להיות כל כתובת אתר חוקית.)
+Application.ThankYouForSigningUp=תודה לך על שנרשמת ל% s!
+Application.ThankYouForSigningUpNoClient=תודה לך על שנרשמת!
+Application.CannotDeleteLastApp=לא יכול למחוק: החשבון שלך חייב להיות אפליקציה אחת לפחות.
+Application.CouldNotSendEmail=אנחנו מצטערים, היה בעיה בשליחה דוא&quot;ל זה. אנא נסה שוב בקרוב.
+Application.EmailVerificationRequiredSignUp=עליך לאמת את כתובת הדוא&quot;ל שלך לפני שנרשם. אנא בדוק את הדוא&quot;ל שלך לקבלת הוראות נוספות.
+Application.EmailVerificationRequiredSignIn=עליך לאמת את כתובת הדוא&quot;ל שלך לפני החתימה פנימה אנא בדוק את הדוא&quot;ל שלך לקבלת הוראות נוספות.
+Application.Blocked=אנחנו מצטערים, יש לך כבר נחסמו על ידי מנהל מערכת.
+
+=
+template.authorize.passwordStrength.0=חלש מאוד
+template.authorize.passwordStrength.1=חלש
+template.authorize.passwordStrength.2=כל כך כל כך
+template.authorize.passwordStrength.3=טוב
+template.authorize.passwordStrength.4=גדול!

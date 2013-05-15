@@ -1,0 +1,178 @@
+$Page Allen & Heath Xone:3D 
+$TargetName Allen & Heath Xone:3D
+
+Xone.tif
+
+/Ableton Live Lite 6/ delivers much of the functionality of Ableton Live 6, the multi-award-winning music production solution. This short lesson will help you configure $0 for use with your Allen & Heath /Xone:3D./
+
+Before we begin:
+-> You'll need to have installed the drivers that came with your Xone:3D;
+-> Once the Xone:3D's drivers are installed, please verify that it is connected to your computer and powered on. (Windows users note: On Windows, USB devices must be connected and recognized by the operating system /before/ launching $0.)
+-> Connect the audio output of the Xone:3D to a pair of headphones or speakers.
+
+
+$0's documents are known as Live Sets. This lesson is accompanied by a Live Set which you'll be interacting with as you follow the lesson. Whenever you're ready, $Link *please click here* <Set:XONE Lessons/XONE Demo.als> to load the Live Set.
+
+
+Please press the /Next Page/ button below to continue.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Finding Guidance 
+$TargetName Finding Guidance
+
+Let's start by introducing a couple of resources which will be helpful as you get to know $0. The first is the /Info View:/
+OverviewInfoView.tif
+
+The Info View resides in the lower-left corner of the $0 application window. It's a very handy resource that will tell you about almost anything that you point your mouse over. Like many other views in $0, it can be shown or hidden as needed just by clicking the triangular /unfold/ button near its lower-left corner:
+InfoViewFoldButton.tif
+
+For more in-depth discussions of Live's features, you can also access the complete Reference Manual via the Help menu:
+HelpMenu.tif
+
+The Help menu also leads to $0's built-in /lessons,/ which you're reading from right now. There are several other lessons included which will help you explore $0's possibilities. Be sure to check them out!
+
+
+$Comment -----------------------------------------------------------------------
+$Page Setting Up Audio I/O 
+$TargetName Setting Up Audio I/O
+
+For our first step, we'll configure $0's audio I/O. Open $0's /Preferences/ by selecting them from the Options menu (or the Live menu in Mac OS X), then click on the /Audio/ tab:
+AudioTab.tif
+
+At the top of this tab you'll find the /Driver Type/ chooser:
+DriverTypeMac.tif
+
+-> Mac users will set the Driver Type to *CoreAudio.*
+-> PC users will want to set the Driver Type to *ASIO.*
+
+Now that we've defined the type of driver which we'll use, we can select the driver itself. Select the Xone:3D driver from both the /Audio Input Device/ and /Audio Output Device/ choosers now:
+AudioDeviceMac.tif
+
+Next, switch over to the Preferences' /Record/Warp/Launch/ tab. In the Record section, make sure that /Exclusive Arm/ and /Exclusive Solo/ are both disabled:
+ExclusiveDisabled.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Setting Up MIDI 
+$TargetName Setting Up MIDI
+
+Now let's switch to the /MIDI/Sync/ tab, where we can establish MIDI communication between $0 and the Xone:3D:
+MidiSyncTab.tif
+
+In the lower half of this tab, you should see the /MIDI Ports/ section. The Xone:3D should be listed here as both an input and an output (You may have to scroll to see all available devices):
+MidiPorts.tif
+
+To allow the Xone:3D to control $0's interface remotely, we'll enable the /Remote/ switch for the Xone:3D's /Input:/
+XoneRemoteInput.tif
+
+You can verify that the Xone:3D is communicating with $0 by touching any of the knobs, faders, or keys in the Xone:3D's MIDI section. As you do this, $0 will acknowledge that MIDI messages are being received by flashing its /MIDI In/ indicator, located in the upper-right corner of the application window:
+MidiIndicator.tif
+
+Setup is now complete, and $0's Preferences can be closed. The next few pages will introduce the basics of remote control using the Xone:3D.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Using the Standard Mapping 
+$TargetName Using the Standard Mapping
+
+$0's standard MIDI template is already configured to work with the Xone:3D. Try moving the Xone:3D's first volume fader up and down:
+XoneFader.tif
+
+The volume slider of the track *1 Audio* reflects the gestures that you make with the Xone:3D:
+TrackOneFader.tif
+
+
+Divider.tif
+*Troubleshooting:* If $0's volume sliders aren't responding, please make sure that your Xone:3D is set to MIDI channel *16.* For more information, refer to the Xone:3D manual.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Launching Clips 
+$TargetName Launching Clips
+
+Let's play the *house 123* clip that's sitting there in the track *1 Audio:*
+HouseClip.tif
+
+Press the first track's /Clip Launch/ button on your Xone:3D. The clip will launch, and you'll hear a standard house loop:
+ClipLaunch.tif
+
+Now, with the house loop still playing, let's launch the second clip, *hiphop 95,* using the Xone:3D's next Clip Launch button:
+HipClip.tif
+
+Notice that $0 has automatically synchronized the two loops, even though their original tempos weren't the same: The hip hop loop's original tempo was 95 BPM, and the house loop was originally at 123 BPM.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Stop It 
+$TargetName Stop It
+
+To stop the clips, press the /Clip Stop/ buttons corresponding to each track:
+ClipStop.tif
+
+Double-click either clip to view it in $0's /Clip View:/
+ClipViewHipHouse.tif
+
+The clip's original tempo is shown in the /Seg. BPM/ field:
+SegBpm.tif
+
+
+Divider.tif
+*Note:* The Clip View contains all of the information and settings for any given clip. You can learn much more about it in the "Clip View" chapter of $0's Reference Manual.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Effects in Action 
+$TargetName Effects in Action
+
+You can also control $0's built-in effects from the Xone:3D. We've taken the liberty of mapping one of them to get you started. Double-click the title bar of the track *1 Audio:*
+TrackHeader.tif
+
+This brings forth $0's /Track View,/ where effects are placed. Here you can see the /Auto Filter/ device which has been added to this track:
+AutoFilterDeactivated.tif
+
+Launch the clip in *1 Audio* again. Activate Auto Filter by /pressing/ the first track's push encoder (in the top left corner of the Xone:3D), then play with the other knobs nearby to hear Auto Filter in action:
+AutoFilterControls.tif
+
+
+Divider.tif
+*Tip:* A whole array of high-quality built-in effects can be found in $0's /Device Browser./
+
+
+$Comment -----------------------------------------------------------------------
+$Page Custom MIDI-Mapping 
+$TargetName Custom MIDI-Mapping
+
+You can create your own MIDI-mappings on the fly by activating /MIDI Map Mode./ To try this, press the /MIDI/ switch in the upper right corner of the application window:
+MidiMapSwitch.tif
+
+When MIDI Map Mode is active, $0 highlights all parameters which are capable of remote control. The associated numbers indicate existing mappings:
+MapMode.tif
+
+To assign knobs, faders, or buttons on your Xone:3D to controls in $0, follow these simple steps:
+
+-> Select any highlighted control by clicking on it;
+-> Move the fader/knob/button on the Xone:3D that you want to control the parameter with;
+-> Repeat for each parameter that you wish to map. When you're done, exit MIDI Map Mode.
+
+For more in-depth information, please refer to the Reference Manual's "MIDI and Key Remote Control" chapter.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Where to Go from Here? 
+$TargetName Where to Go from Here?
+
+Xone.tif
+
+There are many more places you can go with $0 and your Xone:3D. If you're new to $0, we recommend that you check out all of the $Link Live Basics <Lesson:TOC> lessons.
+
+-> If you want to further optimize your audio I/O, be sure to follow the $Link Setting up Audio I/O <Lesson:Builtin/3-Hardware Setup Category/1-Setting Up Audio IO> lesson.
+
+-> With the full version of Live, you get unlimited tracks, unlimited scenes, and many other professional features. Click $Link here <Lesson:Builtin/Product_00> to learn about trying these features in Demo Mode.
+
+-> If you're interested in upgrading, visit $Link http://www.ableton.com/lite-version-upgrade <http://www.ableton.com/lite-version-upgrade>
+
+Create. Produce. Perform.
+It's all possible with Live Lite 6.
+
+$Comment Status: No translation

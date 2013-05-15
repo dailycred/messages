@@ -1,0 +1,153 @@
+$Page Creating Lead Sounds 
+$TargetName Creating Lead Sounds
+$ListInTocForProduct 40
+
+With four oscillators, multimode resonant filters and polyphonic glide, Operator excels at creating fat /lead sounds./ This lesson will focus on using Operator to create complex leads that blur the line between analog and digital.
+
+Divider.tif
+*Note:* This lesson is accompanied by a Live Set which you'll be interacting with as you follow the lesson. Please click $Link here <Set:/Sets/OP-Default Set.als> to load the Live Set.*
+Divider.tif
+
+As with the other Operator lessons, you will want to get a better view of the instrument in the /Track View,/ folding away the /Info View/ by clicking its Show/Hide button at the lower left corner of the screen.
+HideInfoView.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page The Algorithms 
+$TargetName The Algorithms
+
+As mentioned in other lessons, Operator's eleven /algorithms/ have very different characteristics. In some, Operator's oscillators modulate each other in complex ways. Each algorithm is useful for a different type of sound.
+
+To access the algorithms, select the global section of the shell so that it's highlighted, like this:
+GlobalSection.tif
+The algorithms will appear at the top of Operator's display.
+
+Let's review our options: If you want a strong FM or emulative character, the first eight algorithms are excellent choices. For hybrid or analog-style subtractive patches, check out algorithms 9 through 11.
+
+Algorithm 9 is a flexible starting point for hybrid patches with a strong analog flavor, so let's begin by selecting it:
+Algorithms.tif
+
+In this algorithm, you have three parallel oscillators (A, B, C), all modulated via FM from Oscillator D.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page The Classic Sawtooth Lead 
+$TargetName The Classic Sawtooth Lead
+
+The first sound we'll make is a classic analog sawtooth lead, popular in trance and techno. This patch only requires two oscillators, A and B, so it's quite simple to set up.
+
+First, select Oscillator A from the shell...
+OscA.tif
+... and change its /Wave/ parameter to Sw64 (Saw 64), like this:
+Saw64.tif
+
+This is the brightest of the available sawtooth waveforms because it includes the greatest number of harmonics. The default envelope is appropriate for this type of lead, so leave that as it is, but change the /Vel/ amount in the Level section to 80% to give the patch more dynamics.
+Velocity80.tif
+
+Now duplicate these settings for Oscillator B. The easiest way to do this is to copy them using the command available when $ContextMenuing on Oscillator B's display:
+CopyOscillator.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Adjusting Tuning 
+$TargetName Adjusting Tuning
+
+Now we'll make some tuning adjustments to Oscillator A.
+
+Leave the /Coarse/ tuning knob set to 1 and raise the /Fine/ tune parameter to 10:
+CoarseFine.tif
+
+Let's also lower the /Level/ value to -6.0 dB to give the sound a bit more headroom:
+Level-6.tif
+
+/Hint:/ You may find that it's fast and convenient to click on Operator controls and type in values instead of using the mouse to make settings.
+
+$Comment --------------------------------------------------------------------------------
+$Page Adjusting Oscillator B 
+$TargetName Adjusting Oscillator B
+
+You should now hear a bright sawtooth patch with a touch of gentle detuning, not unlike a chorus effect. Let's increase that detuning to give the sound a harder edge.
+
+First, lower Oscillator B's /Coarse/ tuning to 0.5. This transposes Oscillator B down one octave, but that's not the objective at this point. By raising its /Fine/ tuning to 990, we effectively detune Oscillator B down by 10 Hz, creating a total difference of 20 Hz between the two oscillators (remember that we set Oscillator A /Coarse/ to 1 and /Fine/ to 10). When you're finished adjusting Oscillator B, its shell parameters should look like those shown here:
+OscBSettings.tif
+
+Now when you play, you'll hear a fat sawtooth lead that will cut through a mix nicely.
+
+$Comment --------------------------------------------------------------------------------
+$Page The 1970s Lead 
+$TargetName The 1970s Lead
+
+We're not done yet; using this two-oscillator setup as a starting point, we can now create the very different lead sound of the progressive rock era of the 70s.
+
+First, switch the /Wave/ type of both oscillators to Sq64 (Square 64). This gives us a pair of detuned square waves and changes the character of the sound dramatically, making it more "hollow-sounding," but keeping the "edge."
+Square64.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Using Glide 
+$TargetName Using Glide
+
+Now, to get that signature progressive rock lead effect, let's add some /glide,/ which is sometimes called "portamento." Operator's glide function causes the pitch of each note to slur into the next. This sliding can occur quickly or slowly, not unlike the sound of a trombone or Theremin, depending on its /Time/ setting.
+
+The /Glide/ parameter is in the pitch envelope section, which will appear in the display when selected from the shell, like this:
+PitchSection.tif
+
+Now, click on the "G" below the word "Glide" in the display.
+GIcon.tif
+
+This activates the effect at the default value of 300 ms, which is an excellent setting for this patch.
+GlideTime.tif
+
+Play a few notes at the bottom of your keyboard followed by a few more notes in the upper octaves. If you're familiar with classic Moog sounds, you'll quickly recognize what a lucky person you are. Experiment with different glide times until you find a setting you like.
+
+$Comment --------------------------------------------------------------------------------
+$Page Bringing in Oscillator C 
+$TargetName Bringing in Oscillator C
+
+Let's take the sound in a new direction. Since we're only using two of our four available oscillators, let's add a sine wave tone three octaves higher than the other two oscillators. This will add a high-pitched Theremin-like sound that tracks the original patch.
+
+Adjust the /Coarse/ tuning of Oscillator C to 8 and give it a /Level/ setting 0.0 dB:
+OscCSettings.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Adding a Digital Edge 
+$TargetName Adding a Digital Edge
+
+Now, let's give this sound a hard digital edge by adding some FM from Oscillator D, which modulates the other three oscillators equally. To accomplish this, hold down a key and slowly raise the /Level/ knob of Oscillator D from -inf to -2.5 dB:
+OscDSettings.tif
+The sound will get progressively harsher and almost distorted as you increase the value.
+
+If you're a fan of industrial music or certain types of techno, you could probably find a few uses for this texture as it is. Other users may want to make this sound more percussive. We can accomplish this by using Oscillator D's envelope to change the amount of FM over time.
+
+Let's start by setting the /Sustain/ level to -inf (off):
+SustainOff.tif
+
+Now, adjust the /Decay/ time to taste:
+DecayToTaste.tif
+
+For a percussive, swept sound, like an analog oscillator hard sync, try a setting of 3.11 seconds.
+
+$Comment --------------------------------------------------------------------------------
+$Page The Finishing Touches 
+$TargetName The Finishing Touches
+
+With all four oscillators running and the addition of FM, you may find that the patch is beginning to clip. If this is the case, try reducing the output level with the /Volume/ knob:
+VolumeDown.tif
+Now, for the finishing touches, let's tame some of the harsh high-end frequencies with a lowpass filter.
+
+Turn the filter module on from the shell with the square button on its left-hand side.
+FilterOnLead.tif
+
+Now set the cutoff frequency /(Freq)/ to 2 kHz. This will help tame the sound and enable it to sit better in certain types of mixes.
+FilterCutoff.tif
+
+We've left the filter set to /Low 12dB,/ but you can also experiment with the other filter types by selecting them in the chooser.
+FilterChooser.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ... and Finally 
+$TargetName ... and Finally
+
+There you have it: the essential concepts behind creating analog-FM hybrid lead sounds using Operator's four oscillators, modulation options, multimode filters and extra amenities such as glide. For additional experiments, try changing the /Coarse/ setting of Oscillator D or switching to algorithm eleven, which removes the FM, giving you four parallel oscillators for really massive analog textures. We'll discuss the uses of algorithm eleven in more depth in the following lesson on generating pad sounds (available via the program's /Help/ menu).
+
+Remember that the Info View is a great resource that can provide a brief description of any parameter in Operator. You can always show or hide it by pressing the triangular button at the lower left corner of the screen.
+LeadInfoView.tif
+
+$Comment Status: Translate

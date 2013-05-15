@@ -1,0 +1,31 @@
+$Page Benutzen der Hilfe-Ansicht
+$TargetName Using the Help View
+
+Dies ist $0s /Hilfe-Ansicht./ Sie ist jederzeit über den Eintrag *Hilfe-Ansicht* aus dem Hilfe-Menü zu erreichen.
+
+Hier finden Sie eine große Anzahl praktischer Tutoriale, die $0s einzigartigen Funktionsumfang und Arbeitsfluss demonstrieren. Auf dieser Seite erfahren Sie, wie Sie sich in der Hilfe-Ansicht zurechtfinden.
+
+MetaView.tif
+
+Die Titelzeile der Hilfe-Ansicht zeigt von links nach rechts: Den Schalter zum Schließen der Hilfe-Ansicht, den Namen der aktuellen Seite und die Zurück-, Vorwärts- und Home-Schalter.
+
+/Zurück/ und /Vorwärts/ schalten zwischen kompletten Kursen um, wenn Sie zum Beispiel einem /Hyperlink/ von einem Kurs in einen anderen gefolgt sind. Hyperlinks erkennen Sie daran, dass sie $Link unterstrichen <> sind.
+
+Meistens navigieren Sie durch die Kurse mit den Schaltern ganz unten in der Hilfe-Ansicht. Im Moment heißen Sie *Vorheriger Kurs* und *Nächste Seite.*
+
+Ein vertikaler Rollbalken auf der rechten Seite rundet die Funktionalität der Hilfe-Ansicht ab und hilft Ihnen dabei, auf längeren Seiten zu navigieren.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Mehr Hilfe finden
+$TargetName Finding More Help
+
+Um während Ihrer Arbeit kontext-abhängige Hilfe zu bekommen, klappen Sie die /Info-Ansicht/ auf:
+OverviewInfoView.tif
+
+Sie ist eine äußerst praktische Angelegenheit und erklärt Ihnen fast alles, über dem Sie Ihren Mauspfeil schweben lassen. Wie viele andere Ansichten in $0 kann diese Ansicht mit dem dreieckigen Schalter in ihrer linken Ecke ein- oder ausgeblendet werden.
+
+Die jedoch umfangreichste Dokumentation zu $0s Konzept und allen Funktionen können Sie in der $Link Referenzanleitung <Manual> finden, die jederzeit mit dem Eintrag *Die Live-Anleitung lesen...* im Hilfe-Menü aufgerufen werden kann.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

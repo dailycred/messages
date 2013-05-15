@@ -1,0 +1,162 @@
+$Page Utilización de Macro Controls
+$TargetName Using Macro Controls
+$ListInTocForProduct 00
+
+Una de las características más potentes de los Racks de $0 es el ajuste de /Macro Controls./ Cada Rack incluye ocho knobs totalmente definibles por el usuario; cada knob puede controlar cualquier número de parámetros de cualquiera de los dispositivos dentro del Rack - simultáneamente. Además, cada una de estas asignaciones puede tener su propio rango y polaridad. Y por supuesto, cada knob Macro puede ser controlado además por un controlador MIDI hardware, para añadir mayor flexibilidad durante la interpretación.
+
+En esta lección, aprenderá cómo crear y modificar estas asignaciones de Macro Control, y también cómo controlarlos con MIDI.
+
+Divider.tif
+*Esta lección viene acompañada de un Live Set con el que interactuará a medida que sigue la lección. Cuando esté preparado, por favor pulse $Link aquí <Set:/Sets/Using Macro Controls.als> para cargar el Live Set.*
+Divider.tif
+
+
+Una vez haya cargado el set, por favor pulse sobre el botón /Siguiente página/ en la parte inferior para continuar.
+
+$Comment --------------------------------------------------------------------------------
+$Page Visualización de los Macro Controls
+$TargetName Viewing the Macro Controls
+
+Este set contiene una pista, denominada *Synth,* que contiene un Rack bastante sencillo de dos cadenas. Si todavía no ha seguido la lección $Link Construcción de instrumentos en capas <Lesson:Builtin/9-Device Racks Category/1-Building Layered Instruments>, le sugerimos que comience allí para familiarizarse con los conceptos básicos de la creación y utilización de Racks.
+
+Divider.tif
+Si necesita ayuda para configurar su teclado MIDI, por favor consulte la lección $Link Conexión de controladores MIDI  <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers> lesson.
+Divider.tif
+
+Para comenzar a trabajar con Macro Controls, abra su vista pulsando sobre el botón /Mostrar Macro Controls./
+ShowMacros.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Modo Map
+$TargetName Map Mode
+
+Con la ventana de los Macro Controls abierta, puede ver nuestros ocho botones.
+MacroKnobs.tif
+
+En este momento no están asignados, por lo tanto aunque los puede girar como cualquier otro knob en $0, todavía no afectarán a nada. Para configurarlos, pulse sobre el botón /Map Mode./
+MacroMapButton.tif
+
+Cuando entra en el modo Map, ocurren varias cosas:
+-> Si el Navegador está abierto, se convierte en el /Navegador de Mapeado./ Una vez definidas algunas asignaciones Macro, las puede editar aquí.
+MacroBrowser.tif
+
+-> Todos los parámetros del Rack que se puedan asignar a un Macro Control se realzarán. Esto incluye a casi todos los parámetros de cualquier dispositivo en el Rack, así como los controles /Chain Volume,/ /Pan/ y /Activator/ tanto en la /Lista de Cadena/ como en el Mezclador de Session.
+-> El área por debajo de cada knob Macro se convierte en un botón denominado /Map./
+MapButtons.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Asignación de Macro Controls
+$TargetName Assigning Macro Controls
+
+Para asignar un parámetro a un knob Macro, primero debe asegurarse de que está contemplando la cadena de dispositivos correcta. Hágalo ahora pulsando primero sobre la cadena "Air" para seleccionarla.
+AirChain.tif
+
+Luego pulse sobre el knob /Freq/ en el instrumento /Simpler/ de la cadena para preparar su Frecuencia de Corte del Filtro para la asignación.
+FreqKnob.tif
+
+Fíjese en que los botones Map se habilitan tan pronto como pulsa sobre un parámetro. Para finalizar el mapeado, pulse sobre el botón Map debajo del knob con la etiqueta /Macro 1./
+
+Una vez ha realizado ya una asignación, ocurren varias cosas más:
+-> Ahora podemos ver (y editar) los detalles del mapeado en el Navegador de Mapeado.
+MappingEntry.tif
+
+-> El parámetro asignado aparece con un cuadrado coloreado en su esquina superior izquierda, así como un campo de texto que muestra el nombre del Macro control al que ha sido mapeado.
+AssignedKnob.tif
+
+-> El Macro mapeado ahora ha tomado el nombre del parámetro mapeado, así como sus unidades.
+MacroNameUnits.tif
+
+-> El botón de debajo del Macro Filter Freq ahora dice /Unmap./ Podría pulsar sobre este para borrar la asignación del corte del filtro. También puede borrar asignaciones por medio de sus entradas en el Navegador de Mapeado, o asignar/borrar asignaciones directamente desde el parámetro mediante *$ContextMenu.*
+MappingContext.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Asignaciones múltiples de Macro
+$TargetName Multiple Macro Assignments
+
+Vamos a asignar la resonancia del filtro al mismo Macro control. Para esto, pulse sobre el knob /Res/ para seleccionarlo, y luego sobre el botón Map del primer Macro para completar la asignación.
+ResKnob.tif
+
+Puesto que ha asignado el mismo Macro a múltiples parámetros, el nombre del knob vuelve al nombre genérico de "Macro 1." Vamos a darle un nuevo nombre que sea más memorable - como "Filter". Para renombrar un Macro control, haga *$ContextMenu* o *$CommandMod-R* para llamar al comando Renombrar. Fíjese en que el nombre se actualiza inmediatamente en el campo de texto tanto de nuestros parámetros asignados como en el Navegador de Mapeado. Esto facilita el seguimiento de qué hemos asignado a qué cosas.
+
+Hasta el momento, ha asignado dos parámetros del mismo dispositivo a un Macro control. Pero los Macro controles pueden asignarse también a múltiples dispositivos, siempre y cuando estén contenidos dentro del mismo Rack. Para asignar los parámetros del filtro del dispositivo en la cadena "Wood", simplemente pulse sobre su entrada en la lista de la cadena para seleccionarla:
+WoodChain.tif
+
+Luego mapee sus knobs Freq y Res al Macro Filter, de igual forma que hizo en Simpler en la cadena "Air".
+
+Cuando haya terminado, debería tener cuatro entradas en el Navegador de Mapeado.
+FourAssignments.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page El Navegador de mapeado
+$TargetName The Mapping Browser
+
+El Navegador de Mapeado le permite ver todas las configuraciones de sus asignaciones de mapeado en una sola ubicación, y ajustar sus rangos si fuera necesario. Por defecto, el navegador muestra las siguientes columnas:
+
+-> *Macro* - el nombre de cada knob Macro asignado
+-> *Path* - el nombre de la cadena, seguido del nombre del dispositivo asignado en esa cadena
+-> *Name* - el nombre del parámetro asignado
+-> *Min* - el valor del parámetro cuando el Macro esté girado completamente a la izquierda
+-> *Max* - el valor del parámetro cuando el Macro esté girado completamente a la derecha
+
+Si hacemos *$ContextMenu* en el área de la cabecera del Navegador, puede mostrar o ocultar cualquiera de estas columnas.
+BrowserContext.tif
+
+Cuando se manejan grandes números de mapeados, puede que sea más útil centrarse sólo en ciertos criterios - e.g., todos los parámetros asignados a Macro 1, o todos los parámetros en un dispositivo en particular. Para ayudar en esto, puede ordenar en el Navegador de Mapeado por Macro, Path, o Name pulsando sobre el área de la cabecera.
+SortingTriangle.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Edición de Mapeados Macro
+$TargetName Editing Macro Mappings
+
+La edición en los campos Min y Max en el Navegador de Mapeado le ayuda a delimitar (o incluso invertir) el rango de valores que se pasarán a cualquier parámetro mapeado desde los knobs Macro. Por ejemplo, para limitar el valor mínimo del corte del filtro en "Air" a 150 Hz, simplemente tiene que seleccionar su entrada en el navegador de mapeado:
+AirFilterSelect.tif
+
+luego pulsar sobre su campo Min y teclear *150.*
+TypedMinValue.tif
+
+Al igual que con todos los demás campos numéricos en $0, estas áreas de texto también son deslizadores; puede arrastar con el ratón también para ajustar los valores.
+
+Ahora cuando gire el knob Macro, puede ver que ha modificado sólo este único valor; los otros parámetros asignados no han sido afectados.
+
+Vamos a delimitar también el valor Max del control Res de este filtro a *4,* para limitar los picos discordantes causados por los ajustes extremadamente altos de la resonancia. Los campos de su filtro "Air" ahora deberían ser así:
+AirFilterSettings.tif
+
+Puesto que los campos Min y Max en el Navegador de Mapeado pueden ajustarse independientemente a lo largo de todo el rango completo de los posibles valores de un parámetro, creando asignaciones de mapeado /invertidas/ es fácil; simplemente ajuste el valor Min /más alto/ que el correspondiente valor Max. Un método incluso más fácil es usar el comando *Invert Range,* invocado mediante *$ContextMenu* sobre una entrada del Navegador de Mapeado. Esto intercambia inmediatamente los valores Min y Max. Vamos a probar ahora esto con la asignación de la Filter Freq de "Air."
+InvertRange.tif
+
+Ahora, girando el Macro Filter hacia la derecha se disminuirá el corte del filtro a la vez que se aumenta la resonancia.
+
+$Comment --------------------------------------------------------------------------------
+$Page Control MIDI de las Macros
+$TargetName MIDI Control of Macros
+
+Divider.tif
+Si su teclado MIDI no incluye knobs y/o deslizadores, tendrá que configurar otra superficie de control para esta parte de la lección. Por favor consulte la lección $Link Conexión de controladores MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers> para tener una ayuda con respecto a la configuración de ésta.
+Divider.tif
+
+Para tener incluso una mayor flexibilidad, puede asignar knobs y deslizadore MIDI para controlar los Macro. La creación de estas asignaciones MIDI funciona de la misma manera que todos las demás asignaciones MIDI en $0. Primero, pulse sobre el *interruptor MIDI Map Mode* (o pulse *$CommandMod-M).*
+MIDIMapButton.tif
+
+Luego pulse sobre el Macro Filter para seleccionarlo para el mapeado MIDI.
+MIDIKnob.tif
+
+Luego mueva el knob/deslizador hardware que quiera asignar. Salga del modo de mapeado MIDI para usar su nueva asignación de  controlador.
+
+*Nota* - Cuando esté en el modo de mapeado MIDI, el Navegador de Mapeado muestra las asignaciones de mapeado MIDI (a diferencia de las asignaciones Macro). Los Navegadores MIDI y Macro comparten muchas formas de funcionar, incluyendo la habilidad de delimitar e invertir los rangos de asignación Min y Max. Si se invierte una asignación MIDI se tiene el mismo comportamientoque invirtiendo una asignación Macro.
+
+Pero si invierte una asignación MIDI de un Macro que /ya/ tiene un mapeado invertido a un parámetro particular, el control MIDI de ese parámetro se comportará como si no se hubiera invertido. Este tipo de escenario conlleva un alto riesgo de producir dolores de cabeza. La moraleja de la historia es que es muy fácil el perder la pista de sus asignaciones de mapeado; con una gran potencia se tiene una gran responsabilidad.
+
+$Comment --------------------------------------------------------------------------------
+$Page ¿Y ahora adonde me dirijo?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Ahora ya sabe cómo asignar controles Macro a uno o más parámetros dentro de un Rack. Configurando cuidadosamente sus controles Macro cuando diseñe sus Racks, puede ocultar una compleja estructura de instrumento o efecto detrás de un interfaz de control fáil de modificar. Experimente añadiendo y modificando asignaciones Macro adicionales para tener más  práctica con el flujo de trabajo.
+
+-> Pruebe a asignar un Macro control a los deslizadores del /Volumen de la cadena./ Al invertir una de las asignaciones, puede crear un fundido cruzado de cadena.
+
+-> Para experimentos radicales de diseño de sonido, Pruebe a asignar Macro controles a parámetros sin ninguna relación dentro de un único dispositivo. Por ejemplo, un Macro controlando la frecuencia del LFO, tipo de filtro y Transposición puede provocar el caos en su patch - especialmente cuando comienza a manipular los valores Min y Max.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

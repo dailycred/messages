@@ -1,0 +1,170 @@
+$Page Costruzione di Strumenti Stratificati
+$TargetName Building Layered Instruments
+$ListInTocForProduct 00
+
+I Rack rendono facile costruire il tipo di strumenti complessi e multi-strato normalmente associati a costosi campionatori software di terze parti - usando nient'altro che i dispositivi incorporati di Live.
+
+In questa lezione apprenderai ad utilizzare i Rack per creare configurazioni di tastiere sovrapposte e divise in parti, patch di smistamento in base alla velocity e ai tasti, e strati di rilascio.
+
+Divider.tif
+*Questa lezione è accompagnata da un Live Set col quale interagirai procedendo. Quando sei pronto $Link clicca qui <Set:/Sets/Building Layered Instruments.als> per caricare il Live Set.*
+Divider.tif
+
+
+Una volta caricato il Set, clicca sul pulsante /Pagina succ./ qui sotto per continuare.
+
+$Comment --------------------------------------------------------------------------------
+$Page Controlli Base dei Rack
+$TargetName Basic Rack Controls
+
+Come puoi vedere, questo Set contiene una traccia chiamata "Synth". E' armata per la registrazione, perciò se hai già una tastiera MIDI collegata puoi suonare subito. Provaci adesso.
+
+(Se hai bisogno di aiuto per configurare la tua tastiera MIDI, segui la lezione $Link Collegamento dei Controller MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>).
+
+I suoni che senti sono prodotti da un singolo strumento /Simpler/ nella /catena dei dispositivi/ della traccia. Al fine di costruire uno strumento multi-strato con più di una sorgente sonora, ci accingiamo ad includere Simpler in un contenitore speciale, definito /Rack di Strumenti./
+
+Per iniziare, collochiamo il nostro strumento Simpler in un Rack di Strumenti. Per farlo, semplicemente clicca destro nella barra del titolo di Simpler e seleziona /Raggruppa/ (o premi *$CommandMod-G).*
+
+A prima vista non è cambiato molto. Il tuo strumento ora presenta una sottile barra del titolo verticale alla sua sinistra (la barra del titolo del Rack)
+RackTitleBar.tif
+
+La staffa a destra mostra dove finisce il Rack.
+RackEndBracket.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Aggiunta di altre Catene
+$TargetName Adding Another Chain
+
+Fin qui non hai aggiunto altri dispositivi o catene: hai semplicemente collocato la nostra catena di dispositivi originale in un Rack. Ma ora puoi aggiungere altre catene di dispositivi. Vediamo come si fa, iniziando col cliccare sul pulsante /Mostra/Nascondi Elenco Catene/ nella barra del titolo del Rack:
+ChainListToggle.tif
+
+L'Elenco delle Catene fornisce una rapida panoramica delle catene di dispositivi di un Rack. Funge anche da mixer per queste catene: ogni catena dell'elenco ha i propri controlli di Volume, Pan, Attivazione, Solo e Sostituzione Dinamica.
+ChainList.tif
+
+Puoi aggiungere un'altra catena al Rack aprendo il /Browser dei Dispositivi/ e trascinando un preset dal Browser al Rack. Apri il Browser dei Dispositivi cliccandone l'icona:
+DeviceBrowserButton.tif
+
+Quindi naviga fino al preset "Keys-Acoustic Piano" nella cartella Instruments > Simpler > Piano and Keys:
+HighlightedPreset.tif
+
+Trascina e rilascia questo preset nella /area di trascinamento./
+NewChain.tif
+
+Verrà automaticamente creata una nuova catena. Ora, quando suoni la tua tastiera MIDI, suoni contemporaneamente due distinti Strumenti Simpler. Congratulazioni: hai creato un strato sovrapposto.
+
+$Comment --------------------------------------------------------------------------------
+$Page Mixaggio delle Catene dei Rack
+$TargetName Mixing Rack Chains
+
+Mentre suoni, puoi regolare i controlli del mixer nell'elenco delle catene per trovare le impostazioni di volume e di pan che ti soddisfano.
+ChainMixer.tif
+
+Puoi mixare le catene di Rack, assieme alle tracce, anche nel mixer della Sessione. Avrai forse notato che, quando hai creato questo Rack, la traccia che lo contiene ha guadagnato un pulsante vicino al proprio nome:
+InlineToggle.tif
+
+Clicca su questo pulsante per attivare/disattivare la visualizzazione della catena nel mixer:
+InlineRackView.tif
+
+Qualsiasi modifica apportata ai controlli del mixer del Rack in una delle due viste verrà immediatamente aggiornata nell'altra vista.
+
+$Comment --------------------------------------------------------------------------------
+$Page Split della Tastiera
+$TargetName Splitting the Keyboard
+
+In alcuni casi, potresti voler creare uno /split/ (divisione) della tastiera - ad esempio per suonare una catena con la metà inferiore della tastiera e l'altra catena con la metà superiore. Per impostare questa funzione, apri /l'Editor delle Zone di Tasti/ cliccando sul pulsante /Key./
+KeyZoneButton.tif
+
+Una /zona/ è un filtro di dati che stabilisce se un determinato valore d'ingresso possa passare o meno attraverso la catena di dispositivi. Questo editor mostra le Zone di Tasti, che sono filtri per intervalli di tasti MIDI. Per default, tutte le catene hanno abilitata l'intera gamma di tasti. Per modificare questa impostazione trascina il bordo destro e/o sinistro di una delle zone.
+DraggingZoneEdge.tif
+
+Durante la regolazione, fai caso a come il valore della nota sia visibile subito sotto la zona, aiutando così la messa a punto fine. Se la zona è più piccola rispetto all'intera gamma, puoi anche spostarla per intero, cliccandola nel mezzo e trascinandola in una nuova posizione. Ciò ne mantiene la dimensione relativa e consente di vederne i valori di nota superiore e inferiore durante il trascinamento.
+DraggingZoneRange.tif
+
+Per aumentare o ridurre l'area di visualizzazione delle zone, *clicca destro* nell'editor delle zone e scegli fra i tre ingrandimenti disponibili.
+ZoneSizingContext.tif
+
+Nota che, a seconda dell'ingrandimento scelto e della dimensione dello schermo, potrebbe essere necessario far scorrere il /Selettore della Vista Traccia/ per vedere tutti gli intervalli di tasti.
+TrackViewSelector.tif
+
+Spesso vorrai che la tastiera sia divisa equamente tra ciascuna catena. Per farlo rapidamente, *clicca destro* nell'editor delle zone e scegli *Distribuisci Intervalli Uniformemente.*
+DistributeRangesEqually.tif
+
+Mentre suoni con la tua tastiera, sperimenta zone con differenti intervalli di tasti per trovare un'impostazione di tuo gradimento. Quando hai finito, riporta entrambe le zone al valore di default (full-range, cioè l'intera gamma di tasti) prima di passare alla pagina successiva.
+
+$Comment --------------------------------------------------------------------------------
+$Page Smistamento in base alla Velocity
+$TargetName Velocity Switching
+
+Puoi passare tra le catene anche usando come filtro la /velocity/ delle note in arrivo, anziché il loro intervallo - ad esempio, facendo suonare una catena alle velocity basse e l'altra catena alle velocity alte. (Nota: questo esempio funziona solo se la tastiera supporta la Velocity delle Note MIDI). Per impostare questa funzione, apri /l'Editor delle Zone di Velocity/ cliccando sul pulsante /Vel./
+VelZoneButton.tif
+
+Questo editor appare abbastanza simile all'Editor delle Zone di Tasti. Ma, anziché rappresentare valori di note MIDI, le zone rappresentano la velocity MIDI, con un intervallo di *1-127.* Come per le zone di tasti, il valore di default è l'intera gamma (full-range), cioè ciascuna catena verrà attivata a tutte le velocity. Per creare una patch di smistamento in base alla velocity è sufficiente modificare le dimensioni delle zone di velocity, analogamente a come abbiamo fatto nel caso precedente:
+DraggingVelEdge.tif
+
+Sperimenta differenti intervalli di velocity per trovare i valori che ti soddisfino.
+
+Mentre suoni durante l'editing della velocity, probabilmente noterai che i dispositivi delle catene rispondono alla velocity in modi diversi. In particolare, lo strumento "Keys-Acoustic Piano" suona più forte ai valori di velocity più elevati, mentre lo strumento "Synth" suona sempre allo stesso livello, indipendentemente dalla velocity.
+
+Questo conduce ad un punto assai importante circa l'editor della velocity: /non/ c'è alcun rapporto tra le zone di velocity e il controllo della velocity di qualsiasi parametro di un dispositivo. Gli editor delle zone semplicemente determinano quali intervalli di segnali in entrata possano passare e verso quali catene. Cosa accada a tali segnali una volta che abbiano superato gli editor (cioè i filtri) dipende dalla programmazione dei dispositivi che si trovano all'interno delle catene stesse.
+
+Quando hai finito di sperimentare, riporta entrambe le zone al valore di default (full-range, cioè l'intera gamma di velocity) prima di passare alla pagina successiva.
+
+$Comment --------------------------------------------------------------------------------
+$Page Commutazione tramite Tasti
+$TargetName Key Switching
+Durante le performance dal vivo, usare alcuni tasti della tastiera per passare tra gli strati di campioni può rappresentare un'alternativa veloce ai cambi di patch. Con Live puoi costruire delle patch di commutazione tramite tasti, assegnando i tasti al /Selettore di Catena/ del Rack, che funziona in modo simile alle zone di Tasti e di Velocity, ma agisce come filtro aggiuntivo per le catene che non sono legate ad alcun particolare parametro MIDI.
+
+Prima di tutto, cambiamo le zone di tasti delle nostre catene, in modo che i tasti che useremo per la "commutazione tramite tasti" non producano anche dei suoni. Per farlo, apri l'Editor delle Zone di Tasti e trascina il bordo sinistro di entrambe le zone fino a *D-2* (Re-2).
+DSharpZones.tif
+
+Poi, apri /l'Editor di Selezione di Catena/ cliccando sul pulsante /Chain:/
+ChainSelectButton.tif
+
+Nota la sottile linea verticale nel righello di Selezione di Catena. Questo è un indicatore trascinabile, definito /Selettore di Catena./ Laddove le Zone di Tasti e di Velocity si confrontano con dei valori in entrata, le Zone di Selezione di Catena fanno riferimento solo al valore del Selettore di Catena: le Catene le cui zone non si sovrappongano alla sua posizione corrente non riceveranno alcunché.
+ChainSelector.tif
+
+Per default, il Selettore di Catena è impostato a 0 e così entrambe le zone. Estendi entrambe le zone all'intera gamma completa. Poi *clicca destro* nell'editor delle zone e scegli *Distribuisci Intervalli Uniformemente.*
+
+Suonando la tastiera, adesso sentirai che sta suonando solo la catena "Synth". Questo perché la Zona di Selezione di Catena della catena "Keys-Acoustic Piano" non include più 0, che è l'attuale posizione del Selettore di Catena. Per modificare la posizione del Selettore di Catena, lo assegneremo ad un intervallo di tasti MIDI. Accedi alla Modalità Mappatura MIDI premendo *$CommandMod-M* o cliccando sull' *interruttore Modalità Mappatura MIDI.*
+MIDIMapButton.tif
+
+Clicca sul *Righello di Selezione di Catena,* selezionandolo così per l'assegnazione MIDI.
+ChainSelectRuler.tif
+
+Assegnerai tre tasti *(C-2..D-2)* come tuoi tasti di commutazione. Tieni premuto il tasto *C-2,* poi premi *D-2* e infine rilascia entrambi i tasti. Ora esci dalla modalità di mappatura con *$CommandMod-M* o cliccando nuovamente sull' *interruttore Modalità Mappatura MIDI.*
+
+Il tuo intervallo di tasti (di tre note) è ora mappato lungo l'intera gamma del Selettore di Catena. Premendo C-2 questo si sposta a 0 (abilitando così solo la catena "Synth"). Premendo D-2 si sposta a 127 (abilitando così solo la catena "Keys-Acoustic Piano"). Premendo C#-2 si sposta a 64, che attualmente abilita solo una catena. Poiché vogliamo che questa nota sia il nostro commutatore di "livelli stratificati", dovremo modificare le zone delle catene in modo che entrambe sovrappongano 64. Possiamo farlo estendendo verso destra la zona di "Synth".
+OverlappingZones.tif
+
+Ora, mentre suoni note più alte, prova a premere le note C-2..D-2 per sentire come funzioni la Selezione di Catena. Fai caso a come le note che stanno già suonando non vengano influenzate dal processo di Selezione di Catena: se tieni un accordo di "Synth" mentre passi alla zona di "Keys-Acoustic Piano", solo le note che suonerai successivamente giungeranno alla catena "Keys-Acoustic Piano". A differenza dei tradizionali cambi di patch, i cambi effettuati con la "commutazione tramite tasti" non causeranno mai clic o interruzioni nel suono.
+
+Quando hai finito di fare esperimenti con l'Editor di Selezione di Catena, riporta entrambe le zone ai valori di default (0), trascina il Selettore di Catena a 0 e chiudi l'editor cliccando sul pulsante /Nascondi/ prima di passare alla pagina successiva.
+
+$Comment --------------------------------------------------------------------------------
+$Page Innesco al Rilascio
+$TargetName Release Triggering
+
+Un tipo di programmazione che si trova comunemente nelle librerie di campioni di alto livello è l'uso dei "release layers" (livelli di rilascio). Si tratta di gruppi di campioni che suonano solo quando i tasti vengono rilasciati, anziché quando vengono premuti. Questa tecnica può essere usata per creare simulazioni realistiche di strumenti acustici - dei clavicembali, per esempio. I Rack consentono di applicarla facilmente attraverso l'uso dell'effetto MIDI /Note Length,/ introdotto con Live 6.
+
+Per impostare un innesco al rilascio (release trigger), apri di nuovo il Browser dei Dispositivi e naviga fino a MIDI Effects > Note Length.
+NoteLength.tif
+
+Trascina questo dispositivo sopra la catena "Keys-Acoustic Piano" nell'elenco delle catene e rilasciavelo. Questo inserisce l'effetto Note Length nella catena, prima dello strumento.
+
+Per innescare questa catena con i messaggi di note-off, clicca sul pulsante /Trigger/ del dispositivo Note Length, cambiandone il comportamento da *Note On* a *Note Off.*
+NoteOff.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Come continuare?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Ora che hai familiarità con alcuni principi base sulla costruzione di Rack, potresti sperimentare l'uso di differenti strumenti, dispositivi MIDI, effetti audio, etc.
+
+-> Se non lo hai già fatto, ti consigliamo vivamente di leggere il capitolo "Rack di Strumenti, Drum ed Effetti" del $Link manuale di riferimento <Manual>. I Rack sono stati disegnati per essere quanto più intuitivi possibile. Ma sono molto potenti ed estremamente flessibili e per ottenerne veramente il massimo è richiesta una conoscenza approfondita di tutte le loro funzioni.
+
+-> Una volta che ti senti a tuo agio con i principi base dei Rack, seguine il resto delle lezioni...
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

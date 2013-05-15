@@ -1,0 +1,153 @@
+$Page Automation nutzen
+$TargetName Using Automation
+
+In $0 können Veränderungen aller Mixer- und Geräte-Parameter /automatisiert/ werden. Dies kann beim Erzeugen interessanter und dynamischer Musik sehr nützlich sein. Dieses Tutorial stellt die Vorgehensweise beim Erzeugen, Aufnehmen und Bearbeiten von /Automationen/ vor.
+
+Divider.tif
+*Klicken Sie bitte $Link hier <Set:/Sets/Using Automation.als>, um das kursbegleitende Live-Set zu öffnen.*
+Divider.tif
+
+Lassen Sie uns erst etwas mehr Platz für die Arrangement-Ansicht schaffen, indem wir den /Browser/ links im Fenster mit seinem unten gezeigten /Schalter für das Ein/Ausblenden/ ausblenden.
+ShowHideBrowser.tif
+
+Vielleicht möchten Sie auch die Schalter zur Auswahl der Mixer-Komponenten nutzen, die Sie ganz rechts in der Arrangement-Ansicht finden. Blenden Sie dort alles, /bis auf den Mixer selbst,/ aus:
+MixerSectionShow2.tif
+
+Wenn Sie fertig sind, klicken Sie /Nächste Seite,/ um fortzufahren.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Automation
+$TargetName Automation
+
+Eine /Automation,/ das Verändern eines Reglers, Schalters oder Faders im Zeitablauf, kann in $0 aufgezeichnet und bearbeitet werden.
+
+Bitte zoomen Sie links in der Arrangement-Ansicht heraus, indem Sie in das /Taktlineal/ (in der Abbildung unten hervorgehoben) klicken und die Maus nach oben ziehen.
+TimeRuler.tif
+
+In der Spur "Bass" ist ein gutes Beispiel für eine aufgezeichnete Automation zu sehen. Zoomen Sie auf Takt 33, um das besser sehen zu können.
+ExampleOfAutomation.tif
+
+Eine Automation ist in der Arrangement-Ansicht als /Hüllkurve/ sichtbar, die der Wellenform oder den MIDI-Noten eines Clips überlagert ist. Die im Beispiel betrachtete Automation steuert das Stereopanorama der Spur, wie aus den beiden /Automationsmenüs/ unterhalb des Spur-Namens ersichtlich ist.
+UnderTheName.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Automation zeichnen
+$TargetName Drawing Automation
+
+Automationen können in $0 /gezeichnet/ werden, falls der /Zeichen-Modus/ mit diesem Schalter im Transportbereich aktiviert ist:
+ThisSwitch.tif
+
+Mit aktiviertem Zeichen-Modus können Sie Schritte wie die unten abgebildeten direkt auf die Wellenform oder MIDI-Noten des Clips zeichnen.
+StepsOnto.tif
+
+Die Größe der Schritte hängt dabei vom Bearbeitungsraster ab, das im Optionen-Menü oder im Kontextmenü verändert werden kann (das Kontextmenü erreichen Sie mit $ContextMenu auf einen Bereich im Arrangement, mit Ausnahme der Titelzeilen der Clips):
+GridContextMenuArr.tif
+
+Schalten Sie das Raster aus, um "freihändig" ohne Schritte zu zeichnen.
+
+Divider.tif
+Sie können sich das Ergebnis Ihrer Automation immer durch einen Klick auf die Titelzeile des Clips und nachfolgende Betätigung der Leertaste anhören. Die Wiedergabe startet dann genau am Anfang des Clips. Ein weiterer Druck auf die Leertaste hält die Wiedergabe an.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Neue Hüllkurven erzeugen
+$TargetName Creating New Envelopes
+
+Sie können /jeden beliebigen Parameter/ des Mixers und seiner Geräte aus den weiter oben erwähnten Automationsmenüs auswählen und "von Grund auf" eine neue Automations-Hüllkurve für ihn zeichnen.
+UnderTheName.tif
+
+Das Anklicken der meisten Mixer- und Geräte-Bedienelemente in $0 wird gleichzeitig ihre Automations-Hüllkurven anzeigen und für die Bearbeitung zugänglich machen. Doppelklicken Sie doch mal die Spur "Drums", um ihr Drum-Rack-Instrument und den Effekt Beat Repeat unten im Fenster anzuzeigen.
+
+Klicken Sie nun ein Bedienelement von Beat Repeat an und beachten Sie, wie seine Automations-Hüllkurve in den Auswahlmenüs und der Darstellung der Spur erscheint.
+NewEnvelope.tif
+
+
+Divider.tif
+Die Kapitel "Referenzteil zu $0s Instrumenten", "Referenzteil zu $0s Audio-Effekten" und "Referenzteil zu $0s MIDI-Effekten" in der $Link Anleitung <Manual> enthalten ausführliche Informationen zu den integrierten Geräten und dürften eine interessante Inspirationsquelle für die Modulation von Parametern sein.
+
+$Comment -----------------------------------------------------------------------
+$Page Automationen bearbeiten
+$TargetName Editing Automation
+
+Ist der Zeichen-Modus /deaktiviert,/ sind /Knotenpunkte/ auf den Hüllkurven zu sehen:
+Breakpoint.tif
+
+Probieren Sie bei der Automation in der Spur "Bass" einen der Punkte anzuklicken und an eine neue Position zu schieben.
+
+Sie können Punkte durch Doppelklicken auf die Kurve erzeugen oder löschen.
+
+Bei der Bearbeitung von Automationen ist es manchmal hilfreich, wenn man /nur/ jene Spur-Parameter sieht, die automatisiert sind. Sie können dies durch die Wahl von /Zeige nur automatisierte Parameter/ von einem der beiden Automationsmenüs veranlassen:
+ShowAutomated.tif
+
+Dieser Modus führt dazu, dass die beiden Automationsmenüs einer jeden Spur zu einem Menü verschmelzen, welches nur /automatisierte/ Spur-Parameter anzeigt.
+
+Um diesen, speziellen Bearbeitungs-Modus wieder zu deaktivieren, wählen Sie bitte /Zeige alle Parameter/ vom Automationsmenü.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Automations-Ansichten
+$TargetName Automation Lanes
+
+Sie können die Automations-Hüllkurve des aktuellen Parameters in ihrer eigenen /Automations-Ansicht/ anzeigen lassen, indem Sie den Taster "+" unter dem Auswahlmenü für die Automation anklicken:
+MakeNewLane.tif
+
+Sie können dann weitere Parameter aus dem Automations-Menü auswählen und auf Wunsch auch für diese eigene Automations-Ansichten erzeugen. Dies erlaubt es Ihnen, mehrere Parameter gleichzeitig zu sehen und zu bearbeiten.
+MultipleLanes.tif
+
+Beachten Sie, dass Sie bei deaktiviertem Zeichen-Modus über den Hintergrund einer oder mehrerer Automations-Ansichen klicken und ziehen können, um Zeit auszuwählen.
+SelectedEnvelope.tif
+
+Danach können Sie aus dem /Bearbeiten-Menü/ jeden Standardbefehl, etwa Duplizieren, aufrufen, um damit nur die Automations-Hüllkurven und nicht die Inhalte der Clips selbst zu bearbeiten.
+DuplicatedEnvelope.tif
+
+Divider.tif
+*Ausführliche Informationen zum Zeichnen von Hüllkurven und mehr zum Thema Automation und Automations-Ansichten finden Sie im Kapitel "Automation und das Bearbeiten der Automations-Hüllkurven" der $Link Referenzanleitung <Manual>.*
+
+$Comment -----------------------------------------------------------------------
+$Page Automation aufnehmen
+$TargetName Recording Automation
+
+Eine der lohnendsten Anwendungen der Automation ist das Aufnehmen von Parameteränderungen in Echtzeit.
+
+$0s Effekte und Instrumente finden sich im /Geräte-Browser/ links im Fenster, der durch Anklicken seines Schalters sichtbar gemacht wird:
+SelectorClicked.tif
+
+Verwenden Sie den Scrollbalken rechts im Browser, um hinunter zum Effekt /Auto Filter/ zu scrollen, den Sie im Ordner "Audio Effects" finden.
+AutoFilter.tif
+
+Ziehen Sie Auto Filter nach rechts auf die Spur "Bass" und lassen Sie ihn dort los. Er erscheint unten im Fenster in der /Spur-Ansicht./
+EffectInTrack.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Automation aufnehmen, Fortsetzung
+$TargetName Recording Automation, Continued
+
+Sie können nun beliebige Änderungen an den Parametern von Auto Filter aufnehmen und so zu einem Teil des Arrangements machen.
+
+Dazu setzen Sie zunächst die Position im Arrangement auf 1.1.1 zurück, indem Sie zwei Mal auf den /Stop-Taster/ im Transportbereich klicken.
+StopButton2.tif
+
+Aktivieren Sie dann den /Aufnahme-Schalter/ im Transportbereich.
+RecordButton2.tif
+
+Klicken Sie dann auf den /Play-Taster,/ um die Aufnahme zu starten.
+PlayButton.tif
+
+Wenn Sie irgendein Bedienelement von Auto Filter (zum Beispiel den Frequenz-Parameter) während der Aufnahme verändern, wird $0 ein präzises Protokoll aller Änderungen aufzeichnen.
+Frequency.tif
+
+Drücken Sie die Leertaste wenn Sie fertig sind und drücken Sie sie erneut, um das Resultat Ihrer Aufzeichnung zu hören und dem "Geist in der Maschine" dabei zuzusehen, wie er die Bedienelemente in Auto Filter bewegt.
+
+Ihre aufgezeichneten Parameteränderungen werden als Hüllkurven in der "Bass"-Spur erscheinen und sind bereit für die weitere Bearbeitung:
+BassAutomation.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Mehr Möglichkeiten...
+$TargetName More Possibilities...
+
+An Reglern und Fadern mit der Maus herumzudrehen ist das Eine, für echten Spaß braucht man aber auch echte Drehknöpfe. Lesen Sie den Kurs über $Link MIDI-Bedienoberflächen <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>, um mehr über die Fernsteuerung von $0 mittels Hardware zu erfahren.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

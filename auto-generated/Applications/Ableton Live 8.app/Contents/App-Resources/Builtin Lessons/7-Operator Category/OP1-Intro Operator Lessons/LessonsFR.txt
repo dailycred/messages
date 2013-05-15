@@ -1,0 +1,212 @@
+$Page Présentation de l'Operator
+$TargetName Introducing Operator
+$ListInTocForProduct 40
+
+OperatorLogo.tif
+
+/Bienvenue dans l'Operator!/
+
+L'Operator est un instrument puissant qui apporte aux utilisateurs d'Ableton $0 un spectre éclectique de possibilités sonores et d'inspirations musicales. Fidèle à la philosophie d'Ableton, l'Operator invite à la créativité par un mélange de compétences et de convivialité qui permet de créer rapidement même les sons les plus complexes.
+
+Des basses percutantes, des sons solo planants, des effets rythmiques, des nappes sirupeuses et même des effets de percussions analogiques classiques se retrouvent dans la palette de textures de l'Operator. Par dessus tout, l'Operator est totalement intégré à l'environnement $0, aussi chacun de ses paramètres peut-il être automatisé ou modifié en temps réel via la grande variété d'options de contrôle de $0.
+
+Dans cette leçon, nous ferons le tour de l'interface conviviale et des puissances fonctionnalités créatrices de l'Operator, nous passerons en revue quelques préprogrammations musicales de l'Operator, et nous plongerons dans certaines techniques rapides d'édition. Dans les leçons suivantes sur l'Operator, nous apprendrons comment créer une grande variété de sons sans partir de rien.
+
+
+Divider.tif
+*Note:* Cette leçon est accompagnée d'un Set Live avec lequel vous interagirez au cours de la leçon. Veuillez cliquer $Link ici <Set:/Sets/OP1-Intro Operator.als> pour charger ce Set Live.*
+Divider.tif
+
+
+Veuillez cliquer ci-dessous sur le bouton /Page suivante/ pour continuer.
+
+$Comment --------------------------------------------------------------------------------
+$Page Topographie: champs
+$TargetName Instrument Geography: The Shell
+
+L'Operator combine la synthèse /FM/ (modulation de fréquence) avec la synthèse soustractive classique, le filtrage multimode et des capacités étendues de modulation, tout cela dans une interface intuitive, simple d'emploi. L'interface est conçue pour vous donner un accès immédiat aux paramètres les plus essentiels dans les huit /champs/ sur les côtés droit et gauche de l'instrument:
+TheShell.tif
+
+Les champs gauches de l'Operator servent à sélectionner et contrôler chacun des quatre oscillateurs de l'Operator:
+OscSection.tif
+
+Chaque oscillateur offre une large variété de formes d'onde préréglées dont plusieurs formes sinusoïdales, en dents de scie, carrées, triangulaire et du bruit. Elles peuvent être modifiées grâce à un mode d'édition de forme d'onde qui vous permet de régler les amplitudes des partiels de la forme d'onde, amenant la palette sonore de l'Operator au-delà des limitations habituelles de la synthèse FM. Les oscillateurs de l'Operator peuvent être employés en parallèle, autorisant ainsi la création de sons de synthétiseurs analogiques classiques, ou configurés via une variété d'algorithmes de modulation pour de puissants effets de synthèse FM.
+
+$Comment --------------------------------------------------------------------------------
+$Page Champs LFO, Filtre, Hauteur, Global
+$TargetName LFO, Filter, Pitch and Global Sections
+
+Les champs droits contiennent les commandes destinées à sculpter encore plus votre son:
+OtherSections.tif
+
+Le LFO contient un certain nombre de formes d'onde et peut même fonctionner à des fréquences audibles, ce qui lui permet de servir de cinquième oscillateur. Il peut moduler les oscillateurs et le filtre, ainsi qu'une seconde destination. Le filtre résonant multimode rend simple le façonnage de votre son et comprend 14 types de filtre différents. L'enveloppe de hauteur peut moduler chaque oscillateur et le LFO, et peut comme le LFO moduler une seconde destination. Les commandes globales /Time/ et /Tone/ sont particulières à l'Operator, et nous les explorerons en profondeur plus loin dans cette leçon.
+
+Divider.tif
+/Note:/ Si vous n'avez pas assez de place en fenêtre Piste pour visualiser la totalité du périphérique, vous pouvez cliquer sur le bouton triangulaire qui se trouve dans le coin inférieur gauche pour masquer la fenêtre Info (aide en ligne):
+HideInfoIntro.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Topographie de l'instrument: l'écran
+$TargetName Instrument Geography: The Display
+
+Pour parfaire le son, nous pouvons accéder à des paramètres avancés pour chaque section dans /l'écran/ central.
+Display.tif
+
+Si vous changez un paramètre dans un champ, l'écran affiche automatiquement les détails concernant le champ (ou section) actuellement actif. L'écran affiche des paramètres comme la forme d'onde de l'oscillateur, les enveloppes d'oscillateur, de LFO, de filtre et de hauteur, les réglages avancés de modulation, et dans le cas du champ global, les très importants /algorithmes de routage des oscillateurs./
+LotsOfSections.tif
+
+Poursuivez et cliquez sur les huit sections individuelles de l'Operator pour voir comment fonctionne l'affichage.
+
+$Comment --------------------------------------------------------------------------------
+$Page Pour commencer
+$TargetName Getting Started
+
+Pour que vous puissiez commencer, l'Operator est livré avec un large éventail de sons préprogrammés ou /presets,/ créés par des concepteurs sonores de renommée mondiale. Vous pouvez accéder aux presets en cliquant sur le bouton /Remplacement de preset à chaud/ dans le coin supérieur droit de l'instrument.
+HotSwap.tif
+
+Ce bouton associera l'Operator à ses presets dans le navigateur de périphériques, vous permettant de rapidement les parcourir et les écouter. Vous pouvez charger des presets en double-cliquant dessus, ou en pressant la touche *Entrée/Retour* pour charger le preset actuellement sélectionné. Chaque preset peut être édité et personnalisé pour convenir à votre style de jeu et à vos goûts musicaux.
+HotSwapPresets.tif
+
+Divider.tif
+*Faire jouer l'Operator:* Vous pouvez jouer avec l'Operator depuis un clavier MIDI connecté ou le clavier de l'ordinateur. Si vous employez le clavier de l'ordinateur, vous pouvez changer l'octave avec les touches *W* et *X,* et la dynamique avec les touches *C* et *V.* Pour tirer avantage des presets expressifs de l'Operator, nous vous recommandons l'emploi d'un vrai clavier MIDI.
+
+Vous trouverez des instructions pour régler votre clavier en vue de l'emploi avec $0 dans la leçon $Link Connexion de contrôleurs MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+
+Plus d'informations sur la façon dont les instruments et le MIDI fonctionnent dans $0 sont disponibles dans la leçon $Link Jouer d'instruments virtuels <Lesson:Builtin/1-Live Basics Category/4-Playing Software Instruments>.
+
+$Comment --------------------------------------------------------------------------------
+$Page A propos des presets
+$TargetName About the Presets
+
+Pour avoir une idée de la variété de sons que vous pouvez créer avec l'Operator, essayons quelques presets:
+
+-> *Keys-Road Well Travelled* est un piano électrique FM classique.
+KeysRoadsWellTravelled.tif
+
+-> *Lead-Minor 7th* utilise les quatre oscillateurs en parallèle pour créer un accord analogique sur un doigt qui glisse en continu d'une note à la suivante.
+
+-> *Strings-Saw Strings* est un classique son de cordes de style analogique, avec un chorus généré par le léger désaccord des oscillateurs. Notez qu'aucun effet supplémentaire n'est ajouté. Tous les aspects du son sont générés grâce à l'architecture de synthèse flexible de l'Operator.
+
+-> *Rhythmic-Sync To Slave* est un patch de synthé diffusant qui démontre la flexibilité des enveloppes de l'Operator pour créer des rythmes percutants et timbrés synchronisés sur le tempo.
+SyncToSlave.tif
+
+-> *Smack Kick* est un preset qui exploite les enveloppes de hauteur et de filtre de l'Operator pour créer un son de percussion électronique ayant du punch.
+
+Ce n'est qu'un petit échantillon de la souplesse d'Operator pour créer de nombreux types de textures. Du numérique à l'analogique en passant par les émulations électro-mécaniques, ce synthétiseur recèle un vaste assortiment de sons.
+
+$Comment --------------------------------------------------------------------------------
+$Page Edition des sons: Time et Tone
+$TargetName Editing Sounds: Time and Tone
+
+Creusons un peu plus les puissantes fonctionnalités de l'Operator. Vous pouvez rapidement modifier et personnaliser les presets d'usine avec les paramètres /Time/ et /Tone/ de l'Operator, ainsi qu'avec des fonctions de synthèse plus familières comme le filtrage.
+
+D'abord, explorons la commande Time (située dans le panneau inférieur droit), qui allonge ou raccourcit les segments d'enveloppe de l'Operator, vous permettant de transformer un son percutant en son coulant, ou vice versa. La commande Time est unique car elle place les sept enveloppes de l'Operator sous le contrôle d'une seule commande.
+
+Commencez par sélectionner le preset *Pad-PPG Bell* dans le $Link dossier *Synth Pad* <BrowseLibraryPresets:/Instruments/Operator/Synth Pad> de l'Operator:
+PPGBell.tif
+
+Ce son a des caractéristiques de carillon numérique avec une riche couleur de style analogique.
+
+Ensuite, augmentez le paramètre Time à *77%* et jouez quelques notes:
+TimeParameter.tif
+
+Cela changera le caractère du son de plusieurs façons: l'attaque sera adoucie, la chute allongée et la durée de fermeture étendue pour que le son disparaisse en un temps plus long.
+
+Abaissons maintenant le paramètre Time à *-100%:*
+TimeMinus100.tif
+
+Cela donne un son plus percutant, convenant aux mélodies et sons solo.
+
+$Comment --------------------------------------------------------------------------------
+$Page Plus d'infos sur le paramètre Time
+$TargetName More on the Time Parameter
+
+Le paramètre Time peut parfois créer des bouleversements spectaculaires de la texture générale d'un son. Par exemple, sélectionnez le preset *Bass-Dangerously Deep* dans le $Link dossier *Synth Bass* <BrowseLibraryPresets:/Instruments/Operator/Synth Bass> de l'Operator et jouez quelques notes:
+BassDangerouslyDeep.tif
+
+Ensuite, raccourcissez le temps Time à *-100%* et jouez à nouveau de ce son:
+TimeMinus100.tif
+
+En réduisant les durées d'enveloppe, nous avons donné plus d'impact à ce son de basse. En fait, en jouant dans les graves, il peut quasiment fonctionner comme une grosse caisse.
+
+Essayez le réglage opposé: montez le paramètre Time à *100%:*
+TimePlus100.tif
+
+Quand vous maintenez la note, remarquez la longue chute au caractère beaucoup plus brillant. La commande Time peut complètement modifier le timbre d'un son!
+
+$Comment --------------------------------------------------------------------------------
+$Page Transformer les sons avec Tone I
+$TargetName Transforming Sounds with Tone
+
+L'Operator dispose aussi d'une commande globale innovante nommée /Tone./ Tone permet des transformations spectaculaires du caractère ou timbre d'un son. La commande Tone est un autre moyen efficace et rapide de modifier un patch.
+
+Sélectionnez le preset *Mallets-Real Luxury Vibes* dans le $Link dossier *Mallets* <BrowseLibraryPresets:/Instruments/Operator/Mallets> de l'Operator et jouez quelques notes:
+MalletsRealLuxuryVibes.tif
+
+Ensuite, ramenez Tone à *0.0%* et jouez les mêmes notes ou une variation dans la même tessiture:
+ToneControl.tif
+
+Notez que le son est bien plus étouffé, bien que toujours assez percutant.
+
+Monter Tone à *100%* accentue les aspects FM "type cloche" caractéristiques de ce preset:
+TonePlus100.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Transformer les sons avec Tone II
+$TargetName Transforming Sounds with Tone, Part 2
+
+Essayons de balayer la plage de réglage de Tone avec un autre preset de l'Operator: Sélectionnez *Ambient-Magenta Synth* dans le $Link dossier *Ambient and Evolving* <BrowseLibraryPresets:/Instruments/Operator/Ambient and Evolving> de l'Operator et imprégnez-vous du caractère général de ce patch en jouant quelques notes:
+AmbientMagentaSynth.tif
+
+Augmentez la valeur de Tone et écoutez comme le son est devenu rêche et intense:
+TonePlus100.tif
+
+Ramenez la valeur de Tone à *0.0%* et le son devient beaucoup plus mélodieux:
+ToneControl.tif
+
+Il est important de noter que le paramètre Tone a un effet plus prononcé sur les patches à forte composante FM. Sur certains patches, la commande Tone n'aura que peu d'effet, voire pas du tout.
+
+Essayez avec différents presets pour voir quels patches répondent le plus spectaculairement à la commande Tone.
+
+$Comment --------------------------------------------------------------------------------
+$Page Edition des sons: les filtres
+$TargetName Editing Operator Sounds: The Filters
+
+L'Operator propose aussi des options étendues de /filtrage/ multimode pour modifier les patches d'une façon similaire à celle de la synthèse analogique traditionnelle.
+
+Commençons par étudier les filtres en sélectionnant le preset *Pad-Soft Jupiter* dans le $Link dossier *Synth Pad* <BrowseLibraryPresets:/Instruments/Operator/Synth Pad> de l'Operator. Ce patch est caractérisé par des timbres chauds et étouffés:
+PadSoftJupiter.tif
+
+Le caractère adouci de ce patch est créé à l'aide d'un filtre passe-bas avec une basse fréquence de coupure et une résonance modérée.
+
+En augmentant la fréquence de coupure du filtre, le timbre devient plus brillant. Essayez et notez comment cela confère de la présence au signal en laissant passer plus de hautes fréquences:
+FilterCutoff.tif
+
+De là, nous pouvons légèrement abaisser la fréquence de coupure et augmenter la résonance. Cela donnera au son une couleur légèrement plus électronique en accentuant les fréquences proches de la fréquence de coupure:
+FilterCutoffAndQ.tif
+
+Pour rapidement visualiser et régler à la fois la fréquence de coupure et la résonance, faites basculer la zone d'affichage du filtre sur la représentation de ces paramètres en cliquant sur le bouton /Filter:/
+FilterDisplay.tif
+
+Les paramètres que nous avons couverts jusqu'à présent représentent des moyens remarquables de rapidement personnaliser un son.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Et maintenant...
+$TargetName And Now...
+
+Nous allons couvrir la plupart des fonctionnalités de l'Operator au cours de cette série de leçons. Néanmoins, pour satisfaire votre curiosité, l'Operator exploite totalement la fenêtre Info de $0, vous permettant de découvrir la fonction de chaque commande, bouton ou paramètre survolé par votre souris. Essayez cela sur quelques fonctions si vous ne l'avez pas encore fait.
+IntroInfoView.tif
+
+Notez que si vous avez masqué la fenêtre Info au début de la leçon, vous pouvez la réafficher à l'aide du même bouton:
+HideInfoIntro.tif
+
+Maintenant que vous avez compris les bases, vous êtes prêt à étudier plus en profondeur les outils de programmation de l'Operator. Les leçons suivantes vous guideront pas à pas dans le processus de création de sons de basse, batterie, solo, nappe et texture rythmique, pour que vous puissiez bientôt créer vos propres sons sans partir de rien.
+
+Dans la prochaine leçon sur l'Operator, $Link Création d'un patch de basse <Lesson:Builtin/7-Operator Category/OP2-Bass Sounds>, vous créerez votre premier son avec l'Operator!
+
+Pendant que vous explorez les possibilités, il peut être intéressant de consulter dans le $Link manuel de référence <Manual> de Live le chapitre "Référence des instruments de $0", qui contient une section détaillée sur l'Operator. Le manuel peut toujours être ouvert via le menu /Aide/ du programme.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

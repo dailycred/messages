@@ -1,0 +1,57 @@
+$Page Amp
+$TargetName Amp
+$ListInTocForProduct 64
+amp_logo.tif
+
+/Bienvenue dans Amp!/
+
+*Amp* est un effet audio Ableton audio qui apporte chaleur et saturation sans complications. Développé en collaboration avec Softube, Amp reproduit fidèlement le son et la simplicité d'amplificateurs et baffles légendaires.
+
+Amp est livré avec *Cabinet,* un effet à part qui procure une sélection de baffles classiques pour guitare, avec des micros et positionnements de micro optimisés. Nous avons aussi inclus un large éventail de sons qui transforment les instruments et effets Ableton selon le nouveau caractère sonore d'Amp. Ceux-ci comprennent des Racks d'instrument et d'effet, des Clips Live et plus de 400 presets.
+
+Utilisez ce lien pour rapidement accéder aux presets d'effets guitare utilisant Amp:
+
+-> $Link Presets d'effet audio *Guitar Amp Clean*<BrowseLibraryPresets:/Audio Effects/Audio Effect Rack/Guitar Amp Clean/>
+-> $Link Presets d'effet audio *Guitar Amp Distortion*<BrowseLibraryPresets:/Audio Effects/Audio Effect Rack/Guitar Amp Distortion/>
+-> $Link Presets d'effet audio *Guitar Processing*<BrowseLibraryPresets:/Audio Effects/Audio Effect Rack/Guitar Processing/>
+-> $Link Presets d'effet audio *Bass Amp*<BrowseLibraryPresets:/Audio Effects/Audio Effect Rack/Bass Amp/>
+
+Il existe aussi un certain nombre de Racks d'effet audio et d'instrument supplémentaires qui utilisent les périphériques Amp et Cabinet.
+
+Kits de contruction Amp:
+
+-> $Link *Blue Berlin(Cmin)-175bpm.als* <Set:/../Clips/Construction Kits/Blue Berlin(Cmin)-175bpm.als>
+-> $Link *Cubed(Emin)-120bpm.als* <Set:/../Clips/Construction Kits/Cubed(Emin)-120bpm.als>
+-> $Link *Jump 2 Jump(Emin)-99bpm.als* <Set:/../Clips/Construction Kits/Jump 2 Jump(Emin)-99bpm.als>
+
+Veuillez cliquer sur le bouton /Page suivante/ ci-dessous pour en apprendre plus sur les modèles utilisés dans Amp.
+
+$Comment --------------------------------------------------------------------------------
+$Page À la rencontre des modèles
+$TargetName Meet the Models
+
+Utilisez ces liens pour charger des Sets Live faisant la démonstration des divers modèles d'ampli et de baffle à l'aide de batteries, guitares et synthétiseurs.
+
+-> $Link *Exemples Amp-Batterie* <Set:/Sets/Amp-Drum Examples.als>
+-> $Link *Exemples Amp-Guitare* <Set:/Sets/Amp-Guitar Examples.als>
+-> $Link *Exemples Amp-Synthé* <Set:/Sets/Amp-Synth Examples.als>
+-> $Link *Exemples Amp-Cabinet* <Set:/Sets/Amp-Cabinet Examples.als>
+
+Vous pouvez choisir parmi sept modèles d'ampli:
+
+-> *Clean* est basé sur le canal "Brilliant" d'un ampli classique des années 60. Cet ampli a été largement utilisé par les guitaristes de la British Invasion.
+
+-> *Boost* est basé sur le canal "Tremolo" du même ampli, et excelle dans les riffs rock nerveux.
+
+-> *Blues* est basé sur un ampli guitare des années 70 au caractère brillant. Cet ampli classique est apprécié des guitaristes country, rock et blues.
+
+-> *Rock* est modélisé d'après un classique ampli 45 watts des années 60. C'est sans doute l'ampli rock le plus célèbre de tous les temps.
+
+-> *Lead* est basé sur le canal "Modern" d'un ampli à haut gain en vogue chez les guitaristes de metal.
+
+-> *Heavy* est basé sur le canal "Vintage" du même ampli et est aussi idéal pour les sons metal et grunge.
+
+-> *Bass* est modélisé d'après un préampli rare des années 70 qui est devenu populaire chez les bassistes en raison de ses graves solides et de son côté "soyeux" à haut volume.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

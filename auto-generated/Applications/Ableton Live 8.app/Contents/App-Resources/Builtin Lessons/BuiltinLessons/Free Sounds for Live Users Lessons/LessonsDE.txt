@@ -1,0 +1,29 @@
+$Page Kostenlose Sounds für Live-User
+$TargetName Free Sounds for Live Users
+
+Vielen Dank für den Download von Live 8.2.
+
+Diese Version enthält neue Sounds, die mit Amp, dem neusten optionalen Audio-Effekt von Ableton, erstellt wurden.
+
+-> $Link Guitar-Amp-Racks <BrowseLibraryPresets:/Effects/Audio Effect Rack/Guitar Amp>
+
+Zusätzlich haben wir mehrere Instrumenten-Racks beigefügt, die diesen Effekt verwenden. Die entsprechenden Presets sind mit  "(Amped)" im Namen gekennzeichnet und in den folgenden Library-Ordnern zu finden:
+
+-> $Link Ambient and Evolving <BrowseLibraryPresets:/Instruments/Instrument Rack/Ambient and Evolving/>
+-> $Link Guitars and Plucked/Acoustic Guitars <BrowseLibraryPresets:/Instruments/Instrument Rack/Guitars and Plucked/Acoustic Guitars/>
+-> $Link Guitars and Plucked/Electric Guitars <BrowseLibraryPresets:/Instruments/Instrument Rack/Guitars and Plucked/Electric Guitars/>
+-> $Link Guitars and Plucked/Lead Guitar <BrowseLibraryPresets:/Instruments/Instrument Rack/Guitars and Plucked/Lead Guitar/>
+-> $Link Guitars and Plucked/Synthetic <BrowseLibraryPresets:/Instruments/Instrument Rack/Guitars and Plucked/Synthetic/>
+-> $Link Piano and Keys/Clavi <BrowseLibraryPresets:/Instruments/Instrument Rack/Piano and Keys/Clavi/>
+-> $Link Piano and Keys/Custom Electric Pianos <BrowseLibraryPresets:/Instruments/Instrument Rack/Piano and Keys/Custom Electric Pianos/>
+-> $Link Piano and Keys/MK <BrowseLibraryPresets:/Instruments/Instrument Rack/Piano and Keys/MK/>
+-> $Link Piano and Keys/Organ <BrowseLibraryPresets:/Instruments/Instrument Rack/Piano and Keys/Organ/>
+-> $Link Special-FX/Distorted <BrowseLibraryPresets:/Instruments/Instrument Rack/Special-FX/Distorted/>
+-> $Link String Bass <BrowseLibraryPresets:/Instruments/Instrument Rack/String Bass/>
+-> $Link Synth Bass <BrowseLibraryPresets:/Instruments/Instrument Rack/Synth Bass/>
+-> $Link Synth Lead <BrowseLibraryPresets:/Instruments/Instrument Rack/Synth Lead/>
+-> $Link Synth Pad <BrowseLibraryPresets:/Instruments/Instrument Rack/Synth Pad/>
+-> $Link Synth Rhythmic <BrowseLibraryPresets:/Instruments/Instrument Rack/Synth Rhythmic/>
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

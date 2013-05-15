@@ -1,0 +1,114 @@
+$Page Benvenuto a Live LE
+$TargetName Welcome to $0 LE
+Live6LessonsImage.tif
+
+Live LE è un potente pacchetto software che fornisce un primo grande passo nel mondo della produzione musicale basata su computer. Questa lezione ti introdurrà ai fondamenti di Live LE: cosa può fare, come si inserisce nella famiglia di prodotti Live e come installare e utilizzare i contenuti che include, quali song demo, preset, lezioni supplementari e video didattici.
+
+Il modo migliore per imparare ad usare Live LE è quello di seguire le /lezioni./ Queste brevi esercitazioni interattive sono costruite dentro a Live: ne stai leggendo una proprio adesso. Le lezioni sono focalizzate su funzioni o aree specifiche del programma e, nella maggior parte dei casi, includono piccole demo song con le quali puoi lavorare durante la lettura.
+
+Puoi accedere alle lezioni in qualsiasi momento scegliendo /Sommario delle Lezioni/ nel menu Aiuto. Per un aiuto nella navigazione delle lezioni $Link clicca qui <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Lesson View>.
+
+Clicca sul pulsante /Pagina succ./ qui sotto per continuare con la lezione.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page L'Interfaccia di Live LE
+$TargetName The $0 LE Interface
+
+I mattoncini musicali di base di Live sono denominati /Clip./ Una clip è un pezzo di materiale musicale: una melodia, un pattern di percussioni, una linea di basso o una composizione completa.
+
+La maggior parte del tuo lavoro con Live consisterà nel creare, modificare e combinare clip per costruire strutture musicali più grandi. Puoi fare tutto ciò in due viste separate, chiamate /Arrangiamento/ e /Sessione./
+
+Nella Vista Sessione le clip appariranno così:
+SessionClips.tif
+
+Nella Vista Arrangiamento le clip appariranno così:
+ArrangementClips.tif
+
+Puoi alternare rapidamente tra le due viste usando il tasto *Tab* del tuo computer o i selettori delle viste:
+ViewSelectors.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Apertura del Browser e della Libreria
+$TargetName Opening the Browser and Library
+
+Ci sono molti modi per creare o importare i dati in Live, ma il modo più semplice è quello di trascinarli dal /Browser./ Puoi attivare o disattivare la visibilità del Browser tramite il relativo pulsante o premendo $ViewPanMod + B:
+BrowserSelector.tif
+
+Puoi usare il Browser per navigare in qualsiasi locazione del computer, così come nella /Libreria/ di Live, ovvero il contenitore nel quale puoi trovare i contenuti pre-installati di Live. Per arrivare alla Libreria, innanzitutto apri uno dei tre /Browser dei File/ utilizzandone il selettore...
+FileBrowserSelectors.tif
+
+...poi seleziona il /segnalibro/ Libreria nella parte superiore del Browser:
+LibraryBookmark.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Lavorare con le Clip
+$TargetName Working With Clips
+
+La cartella /Clip/ della Libreria contiene delle clip pre-confezionate che puoi utilizzare subito nei tuoi Progetti. Queste clip combinano dati MIDI, strumenti ed effetti in un unico contenitore. Proviamo ora a caricarne una. In primo luogo passa alla Vista Sessione, se già non ci sei:
+SessionView.tif
+
+Quindi naviga fino alla cartella /Clips,/ seleziona un clip e trascinala in uno slot vuoto della Sessione:
+ClipToSlot.tif
+
+Puoi trascinare anche file audio "grezzi" dalla cartella /Samples/ (Campioni) della Libreria per creare automaticamente nuove clip. Le clip MIDI e audio lavorano più o meno nello stesso modo e possono convivere fianco a fianco nei tuoi Progetti.
+
+Una volta caricate alcune clip, puoi /lanciarle/ cliccandone i rispettivi pulsanti di esecuzione:
+PlayButtons.tif
+
+Ogni clip ha il proprio pulsante di lancio, che consente di mettere la clip in esecuzione in modo indipendente rispetto alle altre. Una riga orizzontale di clip si chiama /Scena./ Le clip organizzate in scene possono essere lanciate contemporaneamente premendo il pulsante di /Lancio della Scena/ nella traccia Master:
+SceneLaunch.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Installazione e Uso dei Contenuti di Live
+$TargetName Installing and Using $0 Content
+
+Live LE viene fornito con una selezione di contenuti pre-installati, che ti consentono di familiarizzare con il programma e di dare il via al tuo lavoro creativo. Sono inclusi:
+
+-> gli strumenti /Simpler/ e /Impulse;/
+-> diversi /Live Pack/ che forniscono lezioni aggiuntive, nonché preset per gli strumenti e dispositivi di effetto di Live;
+-> una raccolta di /demo song/ che puoi ascoltare e analizzare per saperne di più riguardo le capacità di Live LE.
+
+Live LE viene fornito anche con contenuti aggiuntivi che non vengono installati automaticamente, ma che puoi installare per conto tuo. Sono inclusi:
+
+-> la /Essential Instruments Collection LE Edition./ Questo pacchetto di strumenti multicampionati di alta qualità offre una vasta varietà di strumenti "da uso quotidiano" di Simpler, pronti all'uso;
+-> /Unnatural Selection,/ una raccolta di loop, ritmi e preset di strumenti by $Link Puremagnetik <http://www.puremagnetik.com/>.
+
+I Live Pack possono essere installati in vari modi, ma quello più semplice consiste nell'usare il comando *Installa Live Pack* del *menu File.* Questo aprirà una normale finestra del sistema operativo che ti permetterà di navigare fino al Live Pack aggiuntivo.
+
+Oltre a questi contenuti gratuiti, Live LE include anche dei Live Pack che installano dei preset per /Operator/ e /Sampler./ Questi sono strumenti che non sono inclusi con Live LE, ma sono disponibili separatamente per l'acquisto presso il $Link webshop Ableton <http://www.ableton.com/shop>. Puoi anche provarli subito attivandone la $Link /Modalità Demo,/ <Lesson:Builtin/Demo Mode> che ti permette di esplorare le funzionalità di prodotto add-on, ma senza la possibilità di salvare o esportare il tuo lavoro.
+
+Se desideri sederti e rilassarti mentre apprendi di più riguardo Live, abbiamo creato anche una serie di /video didattici/ che trattano aspetti specifici delle sue funzionalità. Puoi trovarli sul tuo disco di installazione o sul $Link sito web Ableton <http://www.ableton.com/movies>.
+
+(Nota: alcuni di questi video trattano funzionalità della versione completa di Live che possono non essere applicabili a Live LE).
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Upgrade alla Versione Completa di Live
+$TargetName Upgrading to the Full Version of $0
+
+Sebbene Live LE venga fornito con un potente set di funzionalità, potresti voler effettuare l'upgrade alla versione completa di Live per sbloccare ancor più possibilità.
+
+$Link Clicca qui <http://www.ableton.com/register> per registrare il tuo prodotto in modo da essere avvisato automaticamente quando è disponibile l'upgrade. La registrazione inoltre ti assicura di ricevere le notifiche sugli aggiornamenti di Live LE, nonché su altre interessanti novità sui prodotti Ableton.
+
+Divider.tif
+*Nota: l'upgrade alla versione completa di Live sarà presto disponibile. Fino ad allora puoi esplorare la versione completa di Live attivando la $Link Modalità Demo.* <Lesson:Builtin/Demo Mode>
+Divider.tif
+
+Se hai bisogno di ulteriore assistenza circa Live LE, inviaci una e-mail all'indirizzo *customercare@ableton.com.*
+
+Buon divertimento con Live LE!
+
+$Comment --------------------------------------------------------------------------------
+$Page Come continuare?
+$TargetName Where to Go From Here?
+Live6LessonsNotext.tif
+
+Ora hai appreso le basi sull'interfaccia di Live LE, sai come installare e utilizzare i suoi contenuti e hai acquisito delle informazioni sui prodotti aggiuntivi della famiglia Live. Ti consigliamo vivamente di continuare con le lezioni per saperne di più su ciò che Live LE è in grado di fare.
+
+Puoi accedere alle lezioni in qualsiasi momento scegliendo /Sommario delle Lezioni/ nel menu Aiuto.
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

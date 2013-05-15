@@ -1,0 +1,86 @@
+Application.NoSuchClient=Geen kliënt bestaan ​​vir die id% s.
+Application.NoSuchApp=Geen program bestaan ​​vir die id% s.
+Application.NoClientProvided=Verskaf asseblief jou kliënt-ID met jou versoek.
+Application.NoRedirectProvided=Verskaf asseblief &#39;n aanstuur met OAuth versoek. <br/> <b>Ontwikkelaars:</b> bied jou terugbel uri met behulp van die parameter <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> of deur die oprigting van &#39;n wanbetaling terugbel in <a href="https://www.dailycred.com/admin/setup">jou rekening instellings</a> .
+Application.EnterEmailOrUsername=Gee jou e-pos of gebruikersnaam.
+Application.EnterEmail=Gee jou e-pos.
+Application.EnterUsername=Voer jou gebruikersnaam.
+Application.EnterPassword=Gee jou wagwoord.
+Application.AtNotAllowed=Die simbool &quot;@&quot; kan nie gebruik word in die rekening.
+Application.WrongPasswordOrUsername=Gaan asseblief jou gebruikersnaam en wagwoord en probeer weer. <a href="%s">Om weer jou wagwoord klik hier.</a>
+Application.BadDomain=Die domein &quot;% s&quot; is nie geldig nie.
+Application.BadEmail=Maak seker dat jou e-pos is korrek en probeer weer.
+Application.BadNewEmail=Maak seker dat jou nuwe e-pos is korrek en probeer weer.
+Application.PasswordTooShort=Tik &#39;n wagwoord met ten minste% d karakters.
+Application.NoCallbackUri=% S is nie vasgestel &#39;n terugbel URI nie. Probeer asseblief weer later.
+Application.EmailTaken=Hierdie e-pos is reeds in gebruik.
+Application.UsernameTaken=Hierdie gebruikersnaam is reeds geneem. Gebruik asseblief &#39;n ander gebruikersnaam.
+Application.EmailSent=&#39;N e-pos gestuur is. Gaan asseblief u e-pos vir verdere instruksies.
+Application.EmailSentGmail=&#39;N e-pos gestuur is. <a href="http://mail.google.com/">asseblief jou Gmail vir verdere instruksies.</a>
+Application.GoToGmail=Gaan na jou Gmail posbus
+Application.EmailSentYahoo=&#39;N e-pos gestuur is. <a href="http://mail.yahoo.com/">asseblief jou Yahoo! E-pos vir verdere instruksies.</a>
+Application.GoToYahoo=Gaan na jou yahoo posbus
+Application.EmailSentHotmail=&#39;N e-pos gestuur is. <a href="http://www.hotmail.com/">asseblief jou hotmail vir verdere instruksies.</a>
+Application.GoToHotmail=Gaan na jou Hotmail inbox
+Application.EmailSentICloud=&#39;N e-pos gestuur is. <a href="https://www.icloud.com/#mail">asseblief jou iCloud Mail vir verdere instruksies.</a>
+Application.GoToICloud=Gaan na jou iCloud posbus
+Application.NoSuchEmail=Geen gebruiker bestaan ​​vir e-pos% s.
+Application.NoSuchUser=Geen gebruiker bestaan ​​vir die id% s.
+Application.NoSuchUserFriendly=Ons kon nie &#39;n rekening vir hierdie e-pos of gebruikersnaam. Probeer asseblief weer.
+Application.NoSuchToken=Daar was &#39;n fout met die ondertekening jy in jou rekening. Probeer asseblief binnekort weer.
+Application.PasswordResetInvalid=Hierdie wagwoord herstel versoek is ongeldig of nie gevind nie. Probeer asseblief jou wagwoord weer.
+Application.PasswordUpdated=Jou wagwoord is verander.
+Application.APIWrongPassword=Maak seker jou wagwoord en probeer weer.
+Application.APIError=&#39;N onverwagte fout. Probeer asseblief weer.
+Application.APIBadToken=Ongeldig OAuth toegang teken.
+Application.APINoToken=&#39;N aktiewe Toegangstoken moet gebruik word om inligting oor die huidige gebruiker te bevraagteken.
+Application.APIBadCode=Ongeldig OAuth-kode.
+Application.TimeOut=Dit blyk te wees te lank neem. Probeer asseblief binnekort weer.
+Application.BadURL=Dit is nie &#39;n geldige URL. Hierdie veld moet &#39;n volle, nie-relatiewe URL wees, soos https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Hierdie veld het &#39;n maksimum lengte van 200 karakters. Gebruik asseblief iets korter.
+Application.NoStripeKey=Geen Stripe API sleutel is gevind. Hou asseblief jou Stripe API-sleutel op jou <a href="https://dailycred.com/admin/setup">setup</a> bladsy.
+Application.OAuthCallBackNotInDomain=Die voorwaarde redirect_uri is nie goedgekeur is deur die kliënt se rekening instellings.
+Application.CNameNotValidDomain=Die voorwaarde CNAME lyk nie na &#39;n geldige domein.
+Application.Required=Dit is &#39;n vereiste veld.
+Application.LogoFileTooLarge=Die lêer oorskry beperking op grootte.
+Application.LogoFileIsNotImage=Die lêer tipe is nie geldig nie. Slegs PNG, JPG en GIF word toegelaat nie.
+Application.NoClientSecret=Jy moet &#39;n client_secret parameter met jou Dailycred geheime sleutel.
+Application.InvalidClientSecret=Dit is &#39;n ongeldig Dailycred geheime sleutel.
+Application.MissingRequiredFields=Dit lyk soos jy is weg &#39;n paar vereiste velde. Gaan jy na die <a href="/admin/setup">opstel</a> bladsy om te stel.
+Application.CouldNotUnsubscribe=Ons is jammer, te danke aan &#39;n tegniese fout wat ons nie kan inteken jy direk van hierdie skakel. Probeer weer, of <a href="mailto:support@dailycred.com">kontak ons direk</a> verwyder moet word.
+Application.Unsubscribed=Jy is unsubscribe. Ons is jammer om te sien jy gaan!
+Application.Subscribed=Jy is ingeskryf. Dankie!
+Application.CouldNotSubscribe=Ons is jammer, te danke aan &#39;n tegniese fout wat ons nie kon jy skryf direk vanaf hierdie skakel. Probeer weer, of <a href="mailto:support@dailycred.com">kontak ons direk</a> te word bygevoeg.
+Application.AdminsCantUnsubscribe=Erken kan nie inteken nie uit hul eie rekening.
+Application.EmailIsSame=Die nuwe e-pos is dieselfde as jou huidige e-pos.
+Application.EmailOnlyUserNotAllowed=Hierdie inligting ondersteun nie net e-pos gebruikers.
+Application.EmailChangeSuccess=Jou e-pos is na% s. Kyk vir die bevestiging e-pos en bevestig jou nuwe adres.
+Application.EmailVerifySuccess=Die e-% s is geverifieer.
+Application.PostOnly=Hierdie versoek moet gemaak word met behulp van &#39;n <b>HTTP POST versoek.</b> <br/><br/> As jy net uitcheck die API, stel ons voor dat die gebruik van krul of <a target="_blank" href="http://hurl.it/">gooi</a> .
+Application.StripeTrialEnd=&#39;N <a href="https://www.dailycred.com/admin/user/%s">gebruiker</a> het &#39;n verhoor wat oor te beëindig. Hierdie e-pos is wat veroorsaak word deur &#39;n Streep webhook.
+Application.StripePaymentSucceeded=&#39;N <a href="https://www.dailycred.com/admin/user/%s">gebruiker</a> is suksesvol gelaai. Hierdie e-pos is wat veroorsaak word deur &#39;n Streep webhook.
+Application.StripePaymentFailed=&#39;N <a href="https://www.dailycred.com/admin/user/%s">gebruiker</a> is onsuksesvol aangekla. Hierdie e-pos is wat veroorsaak word deur &#39;n Streep webhook.
+Application.BillingError=Iets wat verkeerd geloop het toe probeer om jou faktuur inligting te stel. Probeer asseblief weer &#39;n oomblik.
+Application.TrialWillEnd=Die proef met Dailycred is om te eindig op% s. Besoek gerus jou <a href="https://www.dailycred.com/admin/settings/billing">faktuur bladsy</a> jou rekening om te verhoed dat gedeaktiveer.
+Application.TrialWillEndLong=Die proef met DailyCred eindig gou op% s. <br><br> Om te verseker dat jou rekening aktief is, besoek jou <a href="https://www.dailycred.com/admin/settings/billing">faktuur bladsy</a> te hersien <a href="https://www.dailycred.com/pricing">lae-koste planne</a> en betaling besonderhede tree vandag.
+Application.CannotRemoveActiveCard=Jy kan nie verwyder jou aktiewe faktuur metode. As jy jou rekening e-pos support@dailycred.com te kanselleer met jou rekening nommer.
+Application.StateCheckFailed=Die versoek ontbreek die staat parameter. Probeer asseblief weer.
+Application.UnexpectedError=Jammer, &#39;n onverwagte fout. Probeer asseblief weer.
+Application.UserAnotherIdentityProvider=Dit blyk dat u &#39;n rekening met behulp van% s. <a href="%s">Klik hier om aan te sluit met behulp van% s</a> of <a href="%s">kliek hier om &#39;n wagwoord in te stel</a> .
+Application.APIKeyNotFound=API sleutel nie gevind nie. Asseblief &#39;n API sleutel vir hierdie identiteit verskaffer op jou <a href="https://www.dailycred.com/admin/settings">verstellings bladsy</a> .
+Application.ForeignIDAlreadyRegistered=Ons kan nie hierdie rekening koppel omdat foreignID% s vir% s verskaffer is reeds geassosieer met die gebruiker% s.
+Application.TwitterCallbackURLIncorrect=Gaan jou <a href="https://dev.twitter.com/apps">Twitter aansoek se instellings</a> . Jou jeug se verifikasie-URL kan nie leeg wees. (Dit kan enige geldige URL wees.)
+Application.ThankYouForSigningUp=Dankie vir die aanteken vir% s!
+Application.ThankYouForSigningUpNoClient=Dankie vir jou inskrywing!
+Application.CannotDeleteLastApp=Kan nie verwyder nie: jou rekening moet ten minste een App het.
+Application.CouldNotSendEmail=Ons is jammer, daar was &#39;n probleem met die stuur die e-pos. Probeer asseblief binnekort weer.
+Application.EmailVerificationRequiredSignUp=Jy moet jou e-pos te verifieer voordat jy inteken. Gaan asseblief u e-pos vir verdere instruksies.
+Application.EmailVerificationRequiredSignIn=Jy moet jou e-pos te verifieer voordat die ondertekening in asseblief check jou e-pos vir verdere instruksies.
+Application.Blocked=Ons is jammer, jy is geblokkeer deur &#39;n administrateur.
+
+=
+template.authorize.passwordStrength.0=Baie swak
+template.authorize.passwordStrength.1=Swak
+template.authorize.passwordStrength.2=So-so
+template.authorize.passwordStrength.3=Goeie
+template.authorize.passwordStrength.4=Groot!

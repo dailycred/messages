@@ -1,0 +1,2112 @@
+$Page Référence des surfaces de contrôle
+$TargetName Control Surface Reference
+
+Cette référence détaille toutes les surfaces de contrôle MIDI /prises en charge de façon native/ par $0, et les /affectations instantanées/ qu'utilise $0 pour communiquer avec elles. Si vous êtes novice en matière de surfaces de contrôle, vous devriez commencer par lire $Link cette courte présentation <GotoPage:Instant Mappings>.
+
+Si vous vous êtes déjà familiarisé avec les affectations instantanées de $0, vous pouvez directement sauter aux pages spécifiques des contrôleurs à l'aide des liens ci-dessous.
+
+Si votre surface de contrôle n'est pas incluse dans cette liste, vous devrez apprendre comment créer des $Link /affectations manuelles <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Creating Manual Mappings>./ Les affectations manuelles sont utiles même avec des surfaces de contrôles prises nativement en charge car elles peuvent supplanter les affectations instantanées utilisées par ces périphériques.
+
+Cette référence se termine par une $Link liste détaillée <GotoPage:Instrument Mappings> de la répartition des paramètres de chaque périphérique dans les banques de surface de contrôle.
+
+*Surfaces de contrôle prises en charge de façon native:*
+
+-> $Link APC20 <GotoPage:Akai APC20> (Akai)
+-> $Link APC40 <GotoPage:Akai APC40> (Akai)
+-> $Link Gamme Axiom <GotoPage:M-Audio Axiom Series> (M-Audio)
+-> $Link Axiom (2nd gen) <GotoPage:Axiom (2nd gen)> (M-Audio)
+-> $Link Gamme Axiom Pro <GotoPage:M-Audio Axiom Pro Series> (M-Audio)
+-> $Link BCF2000 <GotoPage:Behringer BCR2000 and BCF2000> et $Link BCR2000 <GotoPage:Behringer BCR2000 and BCF2000> (Behringer)
+-> $Link DBeat <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link Faderfox (1ère génération) <GotoPage:Faderfox (1st Generation)> (Faderfox)
+-> $Link Faderfox (2ème génération) <GotoPage:Faderfox (2nd Generation)> (Faderfox)
+-> $Link FireOne <GotoPage:Tascam FireOne> (Tascam)
+-> $Link Impulse <GotoPage:Novation Impulse> (Novation)
+-> $Link Keystation Pro 88 <GotoPage:M-Audio Keystation Pro 88> (M-Audio)
+-> $Link KONTROL 49 <GotoPage:Korg KONTROL 49 and microKONTROL> et $Link microKontrol <GotoPage:Korg KONTROL 49 and microKONTROL> (Korg)
+-> $Link Launchpad <GotoPage:Novation Launchpad> (Novation)
+-> $Link LPD8 <GotoPage:Akai LPD8> (Akai)
+-> $Link Mackie Control <GotoPage:Mackie Control and M-Audio ProjectMix IO> et $Link Mackie Control XT <GotoPage:Mackie Control and M-Audio ProjectMix IO> (Mackie)
+-> $Link MidAir 25 <GotoPage:M-Audio Oxygen Series and MidAir 25> (M-Audio)
+-> $Link MiKo <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link MPD18 <GotoPage:Akai MPD18> (Akai)
+-> $Link MPD24 <GotoPage:Akai MPD24> (Akai)
+-> $Link MPD32 <GotoPage:Akai MPD32> (Akai)
+-> $Link MPK25 <GotoPage:Akai MPK25> (Akai)
+-> $Link MPK49, 61 et 88 <GotoPage:Akai MPK49, 61 and 88> (Akai)
+-> $Link NeKo <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link O2 <GotoPage:M-Audio O2, Ozone, and Ozonic> (M-Audio)
+-> $Link Gamme Oxygen <GotoPage:M-Audio Oxygen Series and MidAir 25> (M-Audio)
+-> $Link Oxygen 3e génération <GotoPage:M-Audio Oxygen 3rd Gen Series> series (M-Audio)
+-> $Link Ozone <GotoPage:M-Audio O2, Ozone, and Ozonic> et $Link Ozonic <GotoPage:M-Audio O2, Ozone, and Ozonic> (M-Audio)
+-> $Link PadKONTROL <GotoPage:Korg padKONTROL> (Korg)
+-> $Link Photon 25 <GotoPage:Alesis Photon 25 and Photon X 25> et $Link Photon X 25 <GotoPage:Alesis Photon 25 and Photon X 25> (Alesis)
+-> $Link ProjectMix IO <GotoPage:Mackie Control and M-Audio ProjectMix IO> (M-Audio)
+-> $Link Gamme Remote SL <GotoPage:Novation Remote SL Series> (Novation)
+-> $Link Tranzport <GotoPage:Frontier Design Group Tranzport> (Frontier Design Group)
+-> $Link Trigger Finger <GotoPage:M-Audio Trigger Finger> (M-Audio)
+-> $Link UC 33e <GotoPage:Evolution UC 33e> (Evolution)
+-> $Link VCM-600 <GotoPage:Vestax VCM-600> (Vestax)
+-> $Link ZERO8 <GotoPage:Korg ZERO8> (Korg)
+
+
+Divider.tif
+*Note:* Avant de pouvoir utiliser vos surfaces de contrôle, vous devrez vous assurer qu'elles sont correctement connectées et configurées. Veuillez lire la leçon $Link Connexion de contrôleurs MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers> pour de l'aide concernant la configuration.
+
+$Comment -----------------------------------------------------------------------
+$Page Affectations instantanées
+$TargetName Instant Mappings
+
+Des affectations instantanées sont disponibles pour de nombreux contrôleurs MIDI. Ces contrôleurs pris en charge de façon native ont en commun l'approche de l'interfaçage, même quand les caractéristiques prises en charge varient en raison des limitations matérielles.
+
+-> $Link *Contrôle de périphérique* <GotoPage:Device Control>*:* Les paramètres d'instruments et d'effets peuvent être contrôlés via votre contrôleur MIDI. Cette fonctionnalité vous évite le cauchemar du réglage de chaque paramètre à la souris.
+
+-> $Link *Contrôle du mélangeur* <GotoPage:Mixer Control>*:* Les contrôleurs ayant une configuration appropriée de faders, commandes rotatives et boutons peuvent gérer le mélangeur de $0.
+
+-> $Link *Contrôle du transport* <GotoPage:Transport Control>*:* Certaines surfaces de contrôle peuvent piloter les fonctions de transport de $0.
+
+-> $Link *Contrôle des pads* <GotoPage:Pad Control>*:*  Certaines surfaces de contrôle ayant des pads peuvent automatiquement s'actualiser pour contrôler le jeu de pads visible dans le Rack de batterie ou /Drum Rack/ de Live.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle de périphérique
+$TargetName Device Control
+
+Le contrôle du son d'un instrument ou d'un effet peut être primordial pour votre travail. Toutefois, affiner des paramètres à la souris peut être fastidieux. A titre d'antidote, Ableton a développé les affectations instantanées qui donnent un accès facile aux paramètres de périphériques grâce à des surfaces de contrôle.
+
+La plupart des surfaces de contrôle prises en charge de façon native disposent d'au moins un jeu de huit commandes rotatives ou encodeurs. Ces commandes sont instantanément associées aux paramètres du périphérique actuellement sélectionné, quel qu'il soit.
+Encoders.tif
+
+Divider.tif
+*Conseil:* Si vous voulez contrôler un périphérique spécifique indépendamment de la sélection, vous pouvez $Link /verrouiller/ <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers#Locking Control Surfaces to Devices> votre surface de contrôle sur ce périphérique.
+Divider.tif
+
+Pour permettre un accès à plus de huit paramètres, nous avons divisé les paramètres de chaque périphérique en banques, les paramètres liés étant regroupés dans la même banque (par ex. les paramètres de filtre). Comme de nombreux contrôleurs actuels ne disposent pas d'afficheurs graphiques indiquant les paramètres affectés, ceci aide à améliorer votre flux de production.
+
+Le changement de banque se fait à l'aide de deux boutons (banque précédente/suivante) ou de huit (un par banque), selon la configuration matérielle du contrôleur. Quand vous changez de banque, la barre de statut de $0 liste la surface de contrôle, le périphérique et la banque, comme représenté ci-dessous:
+StatusBarBankChange.tif
+
+Certains contrôleurs n'ont pas assez de boutons pour le changement de banque. Dans ce cas, nous avons prévu un florilège ou banque "Best-of" pour chaque instrument et effet.
+
+
+Divider.tif
+*Note:* Vous pouvez trouver $Link ici <GotoPage:Instrument Mappings> une présentation des banques pour tous les instruments et effets de $0.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle du mélangeur
+$TargetName Mixer Control
+
+Réaliser un mixage propre est essentiel en production musicale, mais là encore, la souris est un outil inadéquat pour gérer dynamiquement les signaux des pistes. Les affectations instantanées disponibles pour le mélangeur de $0 améliorent grandement la situation.
+
+Les contrôleurs MIDI ayant des faders appropriés peuvent régler les niveaux de multiples pistes audio et MIDI simultanément.
+Sliders.tif
+
+Si un contrôleur dispose d'un fader supplémentaire dédié, il sera affecté au /volume Master/ du mélangeur.
+
+Les contrôleurs MIDI ayant un jeu de boutons supplémentaire les utiliseront pour armer les pistes en vue d'enregistrement. Presser un bouton d'armement sélectionnera aussi sa piste et tout instrument qu'elle contient.
+
+Tout jeu supplémentaire de commandes rotatives, d'encodeurs ou de curseurs est affecté aux /valeurs de départ (Send)/ de piste.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle du transport
+$TargetName Transport Control
+
+Si vous aimez jouer conjointement à vos morceaux ou enregistrer de nouvelles pistes durant la lecture, vous avez probablement constaté qu'il n'est pas très pratique de devoir utiliser la souris pour lancer et arrêter l'enregistrement et la lecture. Certains contrôleurs sont équipés de boutons de transport qui résolvent ce problème:
+Transport.tif
+
+Les affectations instantanées pour les boutons de transport couvrent les fonctions suivantes:
+
+-> *Lecture:* Lance ou relance la lecture.
+-> *Stop:* Stoppe la lecture ou ramène au début du morceau si la lecture est déjà stoppée.
+-> *Avance rapide:* Fait avancer la position dans le morceau d'une mesure (et continue ainsi si le bouton est gardé enfoncé).
+-> *Retour rapide:* Fait reculer la position dans le morceau d'une mesure (et continue ainsi si le bouton est gardé enfoncé).
+-> *Enregistrement:* Commute le bouton /Enregistrement global/ de $0.
+-> *Boucle:* Commute le bouton /Boucle/ de $0.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle des pads
+$TargetName Pad Control
+
+Certains périphériques à pads s'actualiseront automatiquement pour contrôler le jeu de pads visible d'un Rack de batterie ou /Drum Rack./
+DrumPads.tif
+
+Si votre contrôleur est pris en charge, sélectionnez-le simplement comme surface de contrôle dans l'onglet MIDI/Sync des Préférences de Live. Dès lors, tant que vous avez un Rack de batterie sur une piste recevant du MIDI, votre contrôleur à pads s'actualisera automatiquement lorsque vous ferez défiler les pads dans l'affichage de pads du Rack de batterie.
+
+Les contrôleurs suivants prennent en charge cette fonctionnalité:
+
+-> $Link Gamme Axiom <GotoPage:M-Audio Axiom Series> (M-Audio)
+-> $Link Axiom (2nd gen) <GotoPage:Axiom (2nd gen)> (M-Audio)
+-> $Link Gamme Axiom Pro <GotoPage:M-Audio Axiom Pro Series> (M-Audio)
+-> $Link DBeat <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link Launchpad <GotoPage:Novation Launchpad> (Novation)
+-> $Link LPD8 <GotoPage:Akai LPD8> (Akai)
+-> $Link MiKo <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link MPD18 <GotoPage:Akai MPD18> (Akai)
+-> $Link MPD24 <GotoPage:Akai MPD24> (Akai)
+-> $Link MPD32 <GotoPage:Akai MPD32> (Akai)
+-> $Link MPK25 <GotoPage:Akai MPK25> (Akai)
+-> $Link MPK49, 61 et 88 <GotoPage:Akai MPK49, 61 and 88> (Akai)
+-> $Link NeKo <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link PadKONTROL <GotoPage:Korg padKONTROL> (Korg)
+-> $Link Gamme Remote SL <GotoPage:Novation Remote SL Series> (Novation)
+-> $Link Trigger Finger <GotoPage:M-Audio Trigger Finger> (M-Audio)
+
+Divider.tif
+*Note:* Pour plus d'informations sur les Racks de batterie, voir le chapitre "Racks d'instruments, de batterie et d'effets" dans le manuel de référence.
+
+$Comment -----------------------------------------------------------------------
+$Page Gamme Axiom M-Audio
+$TargetName M-Audio Axiom Series
+
+AxiomSliders.tif
+1: Volume des pistes
+2: Volume Master
+3: Armement des pistes
+4: Commutation du verrouillage
+
+AxiomControls.tif
+5: Paramètres de périphérique
+6: Transport
+
+Divider.tif
+*Notes:* L'Axiom 25 n'est pas équipé de la section curseurs représentée dans la première illustration.
+
+Nous avons aussi prévu la prise en charge classique de l'Axiom qui a été introduite pour la première fois dans $0 5.2.2.
+
+Pour des informations plus détaillées sur la configuration et l'utilisation d'une surface de contrôle /Axiom,/ veuillez suivre $Link cette leçon <Lesson:Builtin/BuiltinLessons/VendorSpecific/Axiom>.
+
+$Comment -----------------------------------------------------------------------
+$Page Gamme M-Audio Axiom Pro
+$TargetName M-Audio Axiom Pro Series
+AxiomPro.tif
+
+Pour des informations plus détaillées sur la configuration et l'utilisation d'une surface de contrôle /Axiom Pro,/ veuillez suivre $Link cette leçon <Lesson:Builtin/BuiltinLessons/VendorSpecific/Axiom Pro>.
+
+$Comment -----------------------------------------------------------------------
+$Page Axiom (2nd gen) M-Audio
+$TargetName Axiom (2nd gen)
+Axiommk2Controller.tif
+
+Pour des informations plus détaillées sur la configuration et l'utilisation d'une surface de contrôle /Axiom (2nd gen),/ veuillez suivre $Link cette leçon <Lesson:Builtin/BuiltinLessons/VendorSpecific/Axiom (2nd gen)>.
+
+$Comment -----------------------------------------------------------------------
+$Page BCR2000 et BCF2000 Behringer
+$TargetName Behringer BCR2000 and BCF2000
+
+BcrBcfUpperSection.tif
+1: Paramètres de périphérique
+2: Sélection des banques 1-8
+3: Armement des pistes
+
+BcfMiddleSection.tif
+4: Volume des pistes
+
+BcrBcfSideSection.tif
+5: Stop
+6: Lecture
+7: Enregistrement
+8: Commutateur de boucle
+
+$Comment -----------------------------------------------------------------------
+$Page Keystation Pro 88 M-Audio
+$TargetName M-Audio Keystation Pro 88
+
+KeystationEncoders.tif
+1: Paramètres de périphérique
+
+KeystationSliders.tif
+2: Volume des pistes
+3: Volume Master
+
+$Comment -----------------------------------------------------------------------
+$Page KONTROL 49/microKONTROL Korg
+$TargetName Korg KONTROL 49 and microKONTROL
+
+KONTROLPads.tif
+1: Sélection des banques 1-8
+
+KONTROLEncodersSliders.tif
+2: Paramètres de périphérique
+3: Volume des pistes
+
+$Comment -----------------------------------------------------------------------
+$Page Gamme Oxygen/MidAir 25 M-Audio
+$TargetName M-Audio Oxygen Series and MidAir 25
+
+OxygenEncoders.tif
+1: Paramètres de périphérique
+2: Transport
+
+$Comment -----------------------------------------------------------------------
+$Page O2, Ozone et Ozonic M-Audio
+$TargetName M-Audio O2, Ozone, and Ozonic
+
+OzonicKnobs.tif
+1: Paramètres de périphérique
+
+OzonicSliders.tif
+2: Volume des pistes
+3: Volume Master
+
+$Comment -----------------------------------------------------------------------
+$Page Photon 25 et Photon X 25 Alesis
+$TargetName Alesis Photon 25 and Photon X 25
+
+PhotonEncoders.tif
+1: Paramètres de périphérique
+
+$Comment -----------------------------------------------------------------------
+$Page Gamme Remote SL Novation
+$TargetName Novation Remote SL Series
+
+La gamme Remote SL de Novation a été prise en charge pour la première dans $0 5. Donc, certaines fonctionnalités ont été ajoutées.
+
+RemoteSLDeviceSection.tif
+1: Banque suivante de paramètres de périphérique
+2: Banque précédente de paramètres de périphérique
+3: Commutateur de verrouillage
+4: Sélection de la scène précédente
+5: Sélection de la scène suivante
+6: Lancement de la scène sélectionnée
+7: Arrêt de tous les clips
+8: Retour au réglage par défaut
+9: Paramètres de périphérique
+
+RemoteSLTrackSection.tif
+10: Volume des pistes | panoramique | Valeurs de départ (Send) A
+11: Coupure du son des pistes
+12: Armement des pistes
+13: 8 pistes suivantes (y compris les départs (Sends) et le Master)
+14: 8 pistes précédentes (y compris les départs (Sends) et le Master)
+15: Mode curseur: Volume
+16: Mode curseur: Panoramique
+17: Mode curseur: Valeur de départ (Send) A
+18: Transport
+
+$Comment -----------------------------------------------------------------------
+$Page Tranzport Frontier Design Group
+$TargetName Frontier Design Group Tranzport
+
+Tranzport.tif
+Le Tranzport de Frontier Design Group est un contrôleur spécialisé dans la télécommande de logiciels séquenceurs. Pour cette raison, $0 dispose d'une prise en charge spéciale de ce périphérique. Pour en savoir plus sur le contrôle de $0 avec votre Tranzport, veuillez consulter le $Link site web <http://www.frontierdesign.com/Products/TranzPort/Apps/Live> de Frontier Design Group.
+
+$Comment -----------------------------------------------------------------------
+$Page Trigger Finger M-Audio
+$TargetName M-Audio Trigger Finger
+
+TriggerFingerEncoders.tif
+1: Paramètres de périphérique
+
+TriggerFingerSliders.tif
+2: Volume Master
+
+$Comment -----------------------------------------------------------------------
+$Page UC 33e Evolution
+$TargetName Evolution UC 33e
+
+UC33Encoders.tif
+1: Paramètres de périphérique
+2: Volume des pistes
+3: Volume Master
+
+$Comment -----------------------------------------------------------------------
+$Page Mackie Ctrl/ProjectMix IO M-Audio
+$TargetName Mackie Control and M-Audio ProjectMix IO
+
+$0 offre aussi une prise en charge dédiée des surfaces de contrôle se conformant à la norme Mackie Control, permettant un contrôle complet du programme sans recours à la souris. Grâce à la connexion bi-directionnelle entre $0 et la Mackie Control, tout changement effectué dans le programme se reflète dans la surface de contrôle et vice versa.
+MackieControlHands.tif
+
+$Comment -----------------------------------------------------------------------
+$Page FireOne Tascam
+$TargetName Tascam FireOne
+
+TascamFireOne.tif
+1: Touche Shift - la maintenir enfoncée apporte des fonctionnalités supplémentaires aux autres commandes
+2: Commute l'armement (sans Shift) ou la coupure "Mute" (avec Shift) des pistes 1-8
+3: Transport. Shift-Play poursuit la lecture. FF/Rwd (sans Shift) fait sauter d'une mesure. FF/Rwd (avec Shift) fait sauter d'un temps.
+
+4: La molette jog a des fonctions différentes en écran Session et en écran Arrangement:
+
+-> Session: Sélectionne la scène (sans Shift) ou la piste (avec Shift)
+-> Arrangement: Règle la position de lecture (sans Shift) ou le tempo (avec Shift)
+
+$Comment -----------------------------------------------------------------------
+$Page MPK49, 61 et 88 Akai
+$TargetName Akai MPK49, 61 and 88
+
+AkaiMpk49.tif
+1: Paramètres de périphérique
+2: Volume des pistes
+3: Armement des pistes
+
+AkaiMpk49Transport.tif
+4: Transport
+
+$Comment -----------------------------------------------------------------------
+$Page padKONTROL Korg
+$TargetName Korg padKONTROL
+
+KorgPadKontrol.tif
+1: Volume Master
+
+$Comment -----------------------------------------------------------------------
+$Page Faderfox (1ère génération)
+$TargetName Faderfox (1st Generation)
+
+FaderfoxesG1.tif
+Pour utiliser les contrôleurs LV1 et LX1 via le support natif dans Live, veuillez tenir compte des réglages qui se trouvent au chapitre "Réglages en mode système" des modes d'emploi des contrôleurs. Le choix correct de la configuration interne est particulièrement important - le LV1 utilise la configuration 2.
+
+Il n'est plus nécessaire d'utiliser les Sets Live fournis contenant les différentes affectations MIDI; le support natif dans Live fournira automatiquement des affectations instantanées.
+
+De plus, un seul câble est nécessaire entre le port de sortie du contrôleur et le port d'entrée de votre interface MIDI pour établir la connexion; une connexion de retour vers le contrôleur n'est pas nécessaire.
+
+Voici une liste des fonctions de contrôleur qui diffèrent des descriptions du mode d'emploi des contrôleurs ou qui s'y ajoutent:
+
+-> Fonctions de lancement de scène et de clip automatiquement assignées pour les 8 premières scènes et les 8 premiers clips de chaque piste. Note: le lancement de clip n'est disponible qu'en mode de déclenchement (Trigger).
+
+-> Contrôle de la banque "Best-of" de paramètres pour le périphérique sélectionné via les encodeurs dans les groupes de potentiomètres "FX3" et "FX4".
+
+-> Vous pouvez contrôler les paramètres du dernier périphérique EQ-Eight dans la piste sélectionnée via le groupe de piste alternatif en pressing Shift et les boutons Pot. Le périphérique n'a pas besoin d'être sélectionné.
+
+-> Le joystick contrôle les paramètres X/Y du périphérique sélectionné dans les groupes Pot "FX1" et "FX2".
+
+-> Changez de fenêtre (c-à-d Arrangement/Session ou Piste/Clip) avec les deux boutons blancs du LV1 en maintenant le bouton Shift.
+
+Vous pouvez bien sûr changer toutes les assignations en mode d'apprentissage MIDI de Live.
+
+$Comment -----------------------------------------------------------------------
+$Page Faderfox (2ème génération)
+$TargetName Faderfox (2nd Generation)
+
+FaderfoxesG2.tif
+Pour utiliser les contrôleurs LV2, LX2, LC2 et LD2 via le support natif dans Live, veuillez tenir compte des réglages qui se trouvent au chapitre "Réglages en mode système" des modes d'emploi des contrôleurs. Le choix correct de la configuration interne est particulièrement important - les LV2, LC2 et LD2 utilisent la configuration 2, tandis que le LX2 utilise la configuration 1.
+
+Il n'est plus nécessaire d'utiliser les Sets Live fournis contenant les différentes affectations MIDI; le support natif dans Live fournira automatiquement des affectations instantanées.
+
+Voici une liste des fonctions de contrôleur qui diffèrent des descriptions du mode d'emploi des contrôleurs ou qui s'y ajoutent:
+
+-> Fonctions de lancement de scène et de clip pour les 12 premières scènes et les 12 premiers clips de chaque piste automatiquement assignées aux boutons colorés dans les modes "Slot launch" (lancement de slot) et "Scene launch" (lancement de scène). Note: le lancement de clip n'est disponible qu'en mode de déclenchement (Trigger).
+
+-> Contrôle de la banque "Best-of" de paramètres pour le périphérique sélectionné via les encodeurs dans les groupes de potentiomètres "FX3" et "FX4" sur le LV2 et le LC2, dans le groupe de potentiomètres "FXA" sur le LD2.
+
+-> Vous pouvez contrôler les paramètres du dernier périphérique EQ-Eight dans la piste sélectionnée via le groupe EQ. Le périphérique n'a pas besoin d'être sélectionné.
+
+-> Le joystick contrôle les paramètres X/Y du périphérique sélectionné respectivement dans les groupes Pot "FX1" et "FX".
+
+-> Changez de fenêtre (c-à-d Arrangement/Session ou Piste/Clip) avec les deux boutons Pot-ctrl du LV2 ou du LC2, ou avec les boutons encodeurs des encodeurs 2 et 3 du LD2 en maintenant pressé le bouton Shift. 1-Track-Control doit être sélectionné.
+
+-> Le bouton encodeur C du LV2 et du LC2 dans le groupe principal peut servir à afficher/masquer la fenêtre Piste/Clip. La même fonction est accessible sur le LD2 en pressant le bouton encodeur de l'encodeur 4 tout en maintenant pressé le bouton Shift.
+
+-> Pour le moment, le contrôle des clips est limité au paramètre de transposition. Veuillez assigner manuellement d'autres fonctions si vous en avez besoin.
+
+Vous pouvez bien sûr changer toutes les assignations en mode d'apprentissage MIDI de Live.
+
+$Comment -----------------------------------------------------------------------
+$Page Korg ZERO8
+$TargetName Korg ZERO8
+
+KorgZERO8A.tif
+Le fader et la commande de panoramique de chaque voie contrôlent ces paramètres de piste, tandis que les commandes Ext1 et Ext2 contrôlent les départs (Send) A et B.
+
+KorgZERO8B.tif
+Quand la banque A est sélectionnée, les huit encodeurs sont affectés aux paramètres du périphérique sélectionné. Presser un encodeur commute sur ce numéro de banque, ce sont donc huit banques qui sont disponibles.
+
+$Comment -----------------------------------------------------------------------
+$Page Akai MPD32
+$TargetName Akai MPD32
+
+AkaiMpd32.tif
+Les curseurs et boutons contrôlent le volume et l'armement des pistes pour les huit premières pistes.
+
+AkaiMpd32Knobs.tif
+Les contrôleurs rotatifs règlent les paramètres de périphérique de la banque "Best-of".
+
+AkaiMpd32Transport.tif
+Commandes de transport.
+
+*Note:* La banque de contrôle A et la banque de pads A doivent être sélectionnées pour utiliser ces fonctions.
+AkaiMpd32BankA.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Akai MPD24
+$TargetName Akai MPD24
+
+AkaiMpd24Sliders.tif
+1: Volumes des pistes
+
+AkaiMpd24Encoders.tif
+2: Paramètres de périphérique
+
+$Comment -----------------------------------------------------------------------
+$Page Vestax VCM-600
+$TargetName Vestax VCM-600
+VestaxChannelUpper.tif
+Commandes par piste
+1: Commandes d'égaliseur (pour EQ Eight ou EQ Three) et commutateurs "kill" (EQ Three uniquement)
+2: Boutons d'activation de piste et de solo; Pan
+3: Départs (Send) A et B
+4: Fréquence et résonance du filtre (pour Auto Filter ou les instruments Live à filtre, comme Operator ou Analog)
+5: Bascule d'assignation de crossfade A/B, sélection de fenêtre Clip/Piste
+6: Arrêt du clip en cours de lecture, lancement du clip sélectionné
+7: Volume de piste
+
+VestaxMacros.tif
+Les commandes rotatives contrôlent les paramètres de périphérique, les boutons sélectionnent les banques.
+
+VestaxReturnsMaster.tif
+1: Pistes de retour (Return) A et B
+2: Piste Master; les boutons contrôlent globalement la lecture et l'enregistrement.
+3: Crossfader
+
+VestaxGlobals.tif
+1: Commutateur de banque de pistes (fait alterner entre les pistes 1-6 et 7-12)
+2: Punch In/Out, commutation de bouclage
+3: Décalage du tempo
+4: Contrôle fin/grossier du tempo
+5: Sélection de scène (pressez pour lancer la scène sélectionnée)
+
+$Comment -----------------------------------------------------------------------
+$Page APC40 Akai
+$TargetName Akai APC40
+APC40.tif
+
+/L'APC40/ (Ableton Performance Controller) est un contrôleur dédié à Ableton Live, conçu par l'équipe d'ingénierie déjà responsable de l'emblématique gamme de produits MPC Akai.
+
+L'APC40 dispose de commandes de haute qualité pour le mixage en temps réel, le remixage et la production. 109 boutons, 16 encodeurs sans fin avec cercles de DEL, neuf faders de 45 mm et un crossfader remplaçable donnent aux musiciens et aux producteurs un contrôle complet de l'écran Session de Live, des périphériques d'effets et des instruments virtuels.
+
+Divider.tif
+Ce contrôleur a tant de possibilités de contrôle que nous avons rédigé une $Link leçon personnalisée <Lesson:Builtin/BuiltinLessons/VendorSpecific/APC40> pour vous aider à en savoir plus sur la configuration et l'utilisation de l'APC40.
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Akai LPD8
+$TargetName Akai LPD8
+AkaiLDP8Pads.tif
+Contrôle de Rack de batterie
+
+AkaiLPD8Encoders.tif
+Paramètres de périphérique
+
+$Comment -----------------------------------------------------------------------
+$Page MPK25 Akai
+$TargetName Akai MPK25
+MPK25.tif
+
+1: Paramètres de périphérique (Banque A)
+2: Volumes de piste (Banque A : pistes 1-4; Banque B : pistes 5-8)
+3: Armement de pistes (Banque A : pistes 1-4; Banque B : pistes 5-8)
+4: Transport
+5: Sélection de banque
+
+$Comment -----------------------------------------------------------------------
+$Page MPD18 Akai
+$TargetName Akai MPD18
+MPD18.tif
+
+1: Contrôle de Rack de batterie
+2: Volume général (Master)
+
+$Comment -----------------------------------------------------------------------
+$Page Launchpad Novation
+$TargetName Novation Launchpad
+Launchpad.tif
+
+Le /Launchpad/ est un contrôleur dédié à Ableton Live, conçu en commun par Ableton et Novation. Le Launchpad a 64 pads carrés et 16 boutons ronds, tous préconfigurés pour s'intégrer perfaitement dans Live.
+
+Divider.tif
+Ce contrôleur a tant de possibilités de commande que nous lui avons dédié un chapitre du $Link Manuel de référence Ableton <Manual> pour vous aider à en savoir plus sur sa configuration et sur le travail avec lui.
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page MiKo, NeKo et DBeat Open Labs
+$TargetName Open Labs MiKo, NeKo and DBeat
+OpenLabsMixer.tif
+1: Volume, panoramique et activateurs de piste
+2: Volume général (Master)
+3: Paramètres de périphériqu
+4: Banque de pistes précédente/suivante
+
+OpenLabsTransport.tif
+5: Commandes de transport
+6: Annuler
+7: Rétablir
+
+OpenLabsCrossfader.tif
+8: Volume des 7 premières pistes de retour
+9: Crossfader
+
+$Comment -----------------------------------------------------------------------
+$Page Gamme Oxygen 3e génération M-Audio
+$TargetName M-Audio Oxygen 3rd Gen Series
+Oxygen3rdGenEncoders.tif
+1: Paramètres de périphérique
+2: Transport
+(En écran Session, le bouton de bouclage lance la scène sélectionnée. Les boutons de retour rapide/avance rapide sélectionnent la scène précédente/suivante.)
+
+Oxygen3rdGenTracks.tif
+3: Piste (Track) précédente/suivante (banque de pistes précédente/suivante quand le bouton C26 est pressé)
+
+Oxygen3rdGenFaders.tif
+4: Volume pour la banque des 8 pistes sélectionnées et le Master (modèles 49 et 61 touches uniquement)
+5: Coupure du son pour la banque des 8 pistes sélectionnées. C26 = Solo (modèles 49 et 61 touches uniquement). Presser le bouton C26 associe aux boutons Précédent/Suivant un décalage de banques de pistes
+
+Oxygen3rdGenMaster.tif
+6: Volume de la piste sélectionnée (modèle 25 touches uniquement)
+
+$Comment -----------------------------------------------------------------------
+$Page APC20 Akai
+$TargetName Akai APC20
+APC20.tif
+
+/L'APC20/ (Ableton Performance Controller) est un contrôleur dédié à Ableton Live, conçu par l'équipe d'ingénierie déjà responsable de l'emblématique gamme de produits MPC Akai.
+
+L'APC20 dispose de commandes de haute qualité pour le mixage en temps réel, le remixage et la production, et il donne aux musiciens et producteurs le contrôle de l'écran Session de Live.
+
+Divider.tif
+Ce contrôleur a tant de possibilités de contrôle que nous avons rédigé une $Link leçon personnalisée <Lesson:Builtin/BuiltinLessons/VendorSpecific/APC20> pour vous aider à en savoir plus sur la configuration et l'utilisation de l'APC20.
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Impulse Novation
+$TargetName Novation Impulse
+NovationImpulseFaders.tif
+1: Volumes des pistes (le modèle à 25 touches n'a qu'un seul fader qui contrôle le volume de la piste sélectionnée)
+2: Solos/activateurs de piste
+3: Sélection de banque (avec Shift pressée)
+
+NovationImpulseEncoders.tif
+4: Paramètres de périphérique (en mode /Plugin/ ) ou panoramiques (en mode /Mixer/ ). En mode Mixer, presser Shift plus les touches de banque change les encodeurs en départs (Sends) A-D (le modèle à 25 touches a une banque Volume en plus des départs A-D).
+5: Commandes de transport. En écran Session, l'avance rapide et le retour rapide sélectionnent respectivement les scènes suivante et précédente. La touche de bouclage lance la scène sélectionnée.
+
+NovationImpulsePads.tif
+6: Pads de batterie. En mode /Clip Launch,/ ils lancent les clips de la scène actuellement sélectionnée. Les pads s'allument en fonction du statut du clip:
+-> Éteint: pas de clip présent
+-> Jaune: clip preset
+-> Vert: clip en lecture/prêt à jouer
+-> Rouge: clip en enregistrement/armé
+-> Clignotant: attente du début de la mesure suivante avant réaction à la dernière commande
+
+NovationImpulseTranspose.tif
+7: Piste supérieure/inférieure (avec Shift pressée). Si une piste MIDI est sélectionnée, elle est automatiquement armée pour l'enregistrement (à moins qu'une autre piste n'enregistre déjà).
+
+
+$Comment -----------------------------------------------------------------------
+$Page Affect. paramètres de périphérique
+$TargetName Device Parameter Mappings
+
+Dans les pages suivantes, vous trouverez une présentation des banques de paramètres pour chacun des périphériques de $0. Les périphériques ayant plus d'une banque disposent aussi d'une banque florilège ou "Best-of" pour les surfaces de contrôle qui n'acceptent pas le changement de banque. Les périphériques de cette section sont regroupés en trois catégories:
+
+-> $Link Instruments <GotoPage:Instrument Mappings>
+
+-> $Link Effets MIDI <GotoPage:MIDI Effect Mappings>
+
+-> $Link Effets audio <GotoPage:Audio Effect Mappings>
+
+
+$Comment -----------------------------------------------------------------------
+$Page Affectations d'instrument
+$TargetName Instrument Mappings
+
+/Analog/
+
+*Banque 1: Oscillateurs*
+Encodeur 1: OSC 1 - Niveau
+Encodeur 2: OSC 1 - Octave
+Encodeur 3: OSC 1 - Demi-tons
+Encodeur 4: OSC 1 - Forme d'onde
+Encodeur 5: OSC 2 - Niveau
+Encodeur 6: OSC 2 - Octave
+Encodeur 7: OSC 2 - Demi-tons
+Encodeur 8: OSC 2 - Forme d'onde
+
+*Banque 2: Filtres*
+Encodeur 1: Balance F1/F2 pour OSC 1
+Encodeur 2: F1 - Fréquence de coupure
+Encodeur 3: F1 - Résonance (Q)
+Encodeur 4: F1 - Type
+Encodeur 5: Balance F1/F2 pour OSC 2
+Encodeur 6: F2 - Fréquence de coupure
+Encodeur 7: F2 - Résonance (Q)
+Encodeur 8: F2 - Type
+
+*Banque 3: Enveloppe de filtre*
+Encodeur 1: F1 - Attaque
+Encodeur 2: F1 - Déclin
+Encodeur 3: F1 - Maintien
+Encodeur 4: F1 - Relâchement
+Encodeur 5: F2 - Attaque
+Encodeur 6: F2 - Déclin
+Encodeur 7: F2 - Maintien
+Encodeur 8: F2 - Relâchement
+
+*Banque 4: Modulation de filtre*
+Encodeur 1: F1 On/Off
+Encodeur 2: F1 - Fréquence de coupure < LFO1
+Encodeur 3: F1 - Fréquence de coupure < Env
+Encodeur 4: F1 - Résonance (Q) < LFO1
+Encodeur 5: F2 On/Off
+Encodeur 6: F2 - Fréquence de coupure < LFO2
+Encodeur 7: F2 - Fréquence de coupure < Env
+Encodeur 8: F2 - Résonance (Q) < LFO2
+
+*Banque 5: Enveloppes de volume*
+Encodeur 1: AMP1 - Attaque
+Encodeur 2: AMP1 - Déclin
+Encodeur 3: AMP1 - Maintien
+Encodeur 4: AMP1 - Relâchement
+Encodeur 5: AMP2 - Attaque
+Encodeur 6: AMP2 - Déclin
+Encodeur 7: AMP2 - Maintien
+Encodeur 8: AMP2 - Relâchement
+
+*Banque 6: Mixage*
+Encodeur 1: AMP1 - Niveau
+Encodeur 2: AMP1 - Pan
+Encodeur 4: LFO1 - Forme d'onde
+Encodeur 5: LFO1 - Cadence
+Encodeur 5: AMP2 - Niveau
+Encodeur 6: AMP2 - Pan
+Encodeur 7: LFO2 - Niveau
+Encodeur 8: LFO2 - Cadence
+
+*Banque 7: Sortie*
+Encodeur 1: Volume
+Encodeur 2: Bruit On/Off
+Encodeur 3: Niveau du bruit
+Encodeur 4: Couleur du bruit
+Encodeur 5: Unisson On/Off
+Encodeur 6: Unisson - Désaccord
+Encodeur 7: Vibrato On/Off
+Encodeur 8: Vibrato - Amplitude
+
+*Banque Best-of*
+Encodeur 1: Fréquence du filtre
+Encodeur 2: Résonance du filtre
+Encodeur 3: OSC1 - Octave
+Encodeur 4: Vibrato On/Off
+Encodeur 5: AMP1 - Attaque
+Encodeur 6: AMP1 - Relâchement
+Encodeur 7: Unisson On/Off
+Encodeur 8: Volume
+
+
+Divider.tif
+
+/Collision/
+
+*Banque 1: Mailloche*
+Encodeur 1: Mailloche On/Off
+Encodeur 2: Volume de la mailloche
+Encodeur 3: Volume de bruit de mailloche
+Encodeur 4: Dureté de la mailloche
+Encodeur 5: Couleur de bruit de mailloche
+
+*Banque 2: Bruit*
+Encodeur 1: Volume du bruit
+Encodeur 2: Type de filtre de bruit
+Encodeur 3: Fréquence du filtre de bruit
+Encodeur 4: Q du filtre de bruit
+Encodeur 5: Attaque du bruit
+Encodeur 6: Déclin du bruit
+Encodeur 7: Maintien du bruit
+Encodeur 8: Relâchement du bruit
+
+*Banque 3: Résonateur 1, Jeu A*
+Encodeur 1: Déclin de Rés. 1
+Encodeur 2: Matériau de Rés. 1
+Encodeur 3: Type de Rés. 1
+Encodeur 4: Qualité de Rés. 1
+Encodeur 5: Accordage de Rés. 1
+Encodeur 6: Accordage fin de Rés. 1
+Encodeur 7: Env. de hauteur de Rés. 1
+Encodeur 8: Durée d'env. de hauteur de Rés. 1
+
+*Banque 4: Résonateur 1, Jeu B*
+Encodeur 1: Point d'écoute gauche de Rés. 1
+Encodeur 2: Point d'écoute droit de Rés. 1
+Encodeur 3: Position de frappe de Rés. 1
+Encodeur 4: Brillance de Rés. 1
+Encodeur 5: Inharmoniques de Rés. 1
+Encodeur 6: Rayon de Rés. 1
+Encodeur 7: Ouverture de Rés. 1
+Encodeur 8: Rapport de Rés. 1
+
+*Banque 5: Résonateur 2, Jeu A*
+Encodeur 1: Déclin de Rés. 2
+Encodeur 2: Matériau de Rés. 2
+Encodeur 3: Type de Rés. 2
+Encodeur 4: Qualité de Rés. 2
+Encodeur 5: Accordage de Rés. 2
+Encodeur 6: Accordage fin de Rés. 2
+Encodeur 7: Env. de hauteur de Rés. 2
+Encodeur 8: Durée d'env. de hauteur de Rés. 2
+
+*Banque 6: Résonateur 2, Jeu B*
+Encodeur 1: Point d'écoute gauche de Rés. 2
+Encodeur 2: Point d'écoute droit de Rés. 2
+Encodeur 3: Position de frappe de Rés. 2
+Encodeur 4: Brillance de Rés. 2
+Encodeur 5: Inharmoniques de Rés. 2
+Encodeur 6: Rayon de Rés. 2
+Encodeur 7: Ouverture de Rés. 2
+Encodeur 8: Rapport de Rés. 2
+
+*Banque Best-of*
+Encodeur 1: Déclin de Rés. 1
+Encodeur 2: Matériau de Rés. 1
+Encodeur 3: Brillance de Rés. 1
+Encodeur 4: Inharmoniques de Rés. 1
+Encodeur 5: Type de Rés. 1
+Encodeur 6: Accordage de Rés. 1
+Encodeur 7: Dureté de mailloche
+Encodeur 8: Volume
+
+Divider.tif
+
+/Electric/
+
+*Banque 1: Marteau et tine*
+Encodeur 1: Dureté du marteau
+Encodeur 2: Force du marteau
+Encodeur 3: Hauteur du bruit
+Encodeur 4: Déclin du bruit
+Encodeur 5: Niveau du bruit
+Encodeur 6: Couleur de la tine de diapason
+Encodeur 7: Déclin de la tine de diapason
+Encodeur 8: Niveau de la tine de diapason
+
+*Banque 2: Résonateur (tone bar) et étouffoir*
+Encodeur 1: Déclin de la tone bar de diapason
+Encodeur 2: Niveau de la tone bar de diapason
+Encodeur 3: Temps de déclin du diapason
+Encodeur 4: Tonalité des étouffoirs
+Encodeur 5: Balance Att./Rel. d'étouffoir
+Encodeur 6: Niveau d'étouffoir
+
+*Banque 3: Micro*
+Encodeur 1: Symétrie du micro
+Encodeur 2: Distance du micro
+Encodeur 3: Entrée du micro
+Encodeur 4: Sortie du micro
+Encodeur 5: Type de micro
+
+*Banque 4: Modulation*
+Encodeur 1: Dureté du marteau < Dynamique
+Encodeur 2: Dureté du marteau < Hauteur de note
+Encodeur 3: Force du marteau < Dynamique
+Encodeur 4: Force du marteau < Hauteur de note
+Encodeur 5: Bruit < Hauteur de note
+Encodeur 6: Niveau de tine < Hauteur de note
+Encodeur 7: Sortie du micro < Hauteur de note
+
+*Banque 5: Global*
+Encodeur 1: Volume
+Encodeur 2: Polyphonie
+Encodeur 3: Transposition par demi-tons
+Encodeur 4: Désaccord
+Encodeur 5: Accordage élargi (Stretch)
+Encodeur 6: Plage de Pitch Bend
+
+*Banque Best-of*
+Encodeur 1: Dureté du marteau
+Encodeur 2: Force du marteau
+Encodeur 3: Niveau du bruit
+Encodeur 4: Niveau de la tine de diapason
+Encodeur 5: Niveau de la tone bar de diapason
+Encodeur 6: Temps de déclin du diapason
+Encodeur 7: Niveau d'étouffoir
+Encodeur 8: Volume
+
+
+Divider.tif
+
+/Impulse/
+
+*Banques 1-8: Pads 1-8*
+Encodeur 1: Start
+Encodeur 2: Transp (Transposition)
+Encodeur 3: Stretch
+Encodeur 4: Drive
+Encodeur 5: Freq (Fréquence de coupure du filtre)
+Encodeur 6: Res (Résonance du filtre)
+Encodeur 7: Pan
+Encodeur 8: Volume de pad
+
+*Banque Best-of*
+Encodeur 1: Time (réglage global)
+Encodeur 2: Transp (Transposition) globale
+Encodeur 3: Transposition du Pad 1
+Encodeur 4: Transposition du Pad 2
+Encodeur 5: Transposition du Pad 3
+Encodeur 6: Transposition du Pad 4
+Encodeur 7: Transposition du Pad 5
+Encodeur 8: Transposition du Pad 6
+
+
+Divider.tif
+
+/Operator/
+
+*Banques 1-4: Oscillateurs 1-4*
+Encodeur 1: Attack
+Encodeur 2: Decay
+Encodeur 3: Sustain
+Encodeur 4: Release
+Encodeur 5: Coarse
+Encodeur 6: Fine
+Encodeur 7: Level<Vel
+Encodeur 8: Level
+
+*Banque 5: LFO*
+Encodeur 1: Attack
+Encodeur 2: Decay
+Encodeur 3: Sustain
+Encodeur 4: Release
+Encodeur 5: Rate
+Encodeur 6: Mod (Intensité de modulation)
+Encodeur 7: Forme d'onde
+Encodeur 8: Rate<Key
+
+*Banque 6: Filtre*
+Encodeur 1: Attack
+Encodeur 2: Decay
+Encodeur 3: Sustain
+Encodeur 4: Release
+Encodeur 5: Freq (Fréquence de coupure du filtre)
+Encodeur 6: Res (Résonance du filtre)
+Encodeur 7: Freq<Vel
+Encodeur 8: Envelope
+
+*Banque 7: Modulation de hauteur*
+Encodeur 1: Attack
+Encodeur 2: Decay
+Encodeur 3: Sustain
+Encodeur 4: Release
+Encodeur 5: Initial
+Encodeur 6: Time (Durée de Glide)
+Encodeur 7: Pitch Env (Action de l'enveloppe de hauteur)
+Encodeur 8: Spread
+
+*Banque 8: Routage*
+Encodeur 1: Time<Key
+Encodeur 2: Pan
+Encodeur 3: Key (Key<Pan)
+Encodeur 4: Rnd (Rnd<Pan)
+Encodeur 5: Algorithme
+Encodeur 6: Time
+Encodeur 7: Tone
+Encodeur 8: Volume
+
+*Banque Best-of*
+Encodeur 1: Coarse Osc A
+Encodeur 2: Level Osc B
+Encodeur 3: Coarse Osc B
+Encodeur 4: Fine Osc B
+Encodeur 5: Filter Freq (Fréquence de coupure du filtre)
+Encodeur 6: Filter Res (Résonance du filtre)
+Encodeur 7: Time
+Encodeur 8: Tone
+
+
+Divider.tif
+
+/Simpler/
+
+*Banque 1: Enveloppe de volume | Boucle*
+Encodeur 1: Attack
+Encodeur 2: Decay
+Encodeur 3: Sustain
+Encodeur 4: Release
+Encodeur 5: Start (Début d'échantillon)
+Encodeur 6: Loop (Longueur de boucle)
+Encodeur 7: Length (Partie d'échantillon lue)
+Encodeur 8: Fade (Durée du fondu de boucle)
+
+*Banque 2: Filtre*
+Encodeur 1: Attack
+Encodeur 2: Decay
+Encodeur 3: Sustain
+Encodeur 4: Release
+Encodeur 5: Freq (Fréquence de coupure du filtre)
+Encodeur 6: Res (Résonance du filtre)
+Encodeur 7: Vel (Fréquence de coupure < Dynamique)
+Encodeur 8: Env (Action de l'enveloppe de filtre)
+
+*Banque 3: LFO*
+Encodeur 1: Attack (Durée d'attaque du LFO)
+Encodeur 2: Rate
+Encodeur 3: Key (Vitesse du LFO < Note)
+Encodeur 4: Type
+Encodeur 5: Volume < LFO
+Encodeur 6: Fréquence de coupure du filtre < LFO
+Encodeur 7: Hauteur < LFO
+Encodeur 8: Pan < LFO
+
+*Banque 4: Enveloppe de hauteur | Global*
+Encodeur 1: Attack
+Encodeur 2: Decay
+Encodeur 3: Sustain
+Encodeur 4: Release
+Encodeur 5: Glide (Durée de glissement)
+Encodeur 6: Dispersion
+Encodeur 7: Pan
+Encodeur 8: Volume
+
+*Banque Best-of*
+Encodeur 1: Start (Début d'échantillon)
+Encodeur 2: Loop (Longueur de boucle)
+Encodeur 3: Length (Partie d'échantillon lue)
+Encodeur 4: Attaque d'enveloppe de volume
+Encodeur 5: Decay d'enveloppe de volume
+Encodeur 6: Release d'enveloppe de volume
+Encodeur 7: Filter Freq (Fréquence de coupure du filtre)
+Encodeur 8: Filter Res (Résonance du filtre)
+
+
+Divider.tif
+
+/Sampler/
+
+*Banque 1: Volume*
+Encodeur 1: Volume
+$Comment Translation mark Sampler
+Encodeur 2: Attack
+$Comment Translation mark Sampler
+Encodeur 3: Decay
+$Comment Translation mark Sampler
+Encodeur 4: Sustain
+$Comment Translation mark Sampler
+Encodeur 5: Release
+Encodeur 6: Volume<Vel
+Encodeur 7: Time<Vel global
+Encodeur 8: Time global
+
+*Banque 2: Filtre*
+Encodeur 1: Filter - Type
+Encodeur 2: Filter - Morph
+Encodeur 3: Filter - Freq
+Encodeur 4: Filter - Res
+Encodeur 5: Filter - Vel
+Encodeur 6: Filter - Key
+Encodeur 7: F. Env
+Encodeur 8: Shaper - Amount
+
+*Banque 3: Enveloppe de filtre*
+Encodeur 1: F.Env - Attack
+Encodeur 2: F.Env - Decay
+Encodeur 3: F.Env - Sustain
+Encodeur 4: F.Env - Release
+Encodeur 5: F.Env - End
+Encodeur 6: F.Env - Loop
+Encodeur 7: F.Env - Loop - Time
+Encodeur 8: F.Env - Loop - Repeat
+
+*Banque 4: LFO 1*
+Encodeur 1: LFO 1 - Type
+Encodeur 2: LFO 1 - Sync
+Encodeur 3: LFO 1 - Rate
+Encodeur 4: LFO 1 - Freq
+Encodeur 5: Vol < LFO 1
+Encodeur 6: Filter < LFO 1
+Encodeur 7: Pan < LFO 1
+Encodeur 8: Pitch < LFO 1
+
+*Banque 5: LFO 2*
+Encodeur 1: LFO 2 - Type
+Encodeur 2: LFO 2 - Sync
+Encodeur 3: LFO 2 - Rate
+Encodeur 4: LFO 2 - Freq
+Encodeur 5: LFO 2 < Key
+Encodeur 6: LFO 2 - Mode stéréo
+Encodeur 7: LFO 2 - Spin
+Encodeur 8: LFO 2 - Phase
+
+*Banque 6: LFO 3*
+Encodeur 1: LFO 3 - Type
+Encodeur 2: LFO 3 - Sync
+Encodeur 3: LFO 3 - Rate
+Encodeur 4: LFO 3 - Freq
+Encodeur 5: LFO 3 < Key
+Encodeur 6: LFO 3 - Mode stéréo
+Encodeur 7: LFO 3 - Spin
+Encodeur 8: LFO 3 - Phase
+
+*Banque 7: Oscillateur*
+Encodeur 1: OSC - Mode
+Encodeur 2: OSC - Volume
+Encodeur 3: OSC - Coarse
+Encodeur 4: OSC - Fine
+Encodeur 5: OSC - Attack
+Encodeur 6: OSC - Decay
+Encodeur 7: OSC - Sustain
+Encodeur 8: OSC - Release
+
+*Banque 8: Hauteur*
+Encodeur 1: Transp global
+Encodeur 2: Spread global
+Encodeur 3: P.Env - Amount
+Encodeur 4: P.Env - Attack
+Encodeur 5: P.Env - Peak
+Encodeur 6: P.Env - Decay
+Encodeur 7: P.Env - Sustain
+Encodeur 8: P.Env - Release
+
+*Banque Best-of*
+Encodeur 1: Volume - Attack
+Encodeur 2: Volume - Decay
+Encodeur 3: Volume - Release
+Encodeur 4: Filter - Freq
+Encodeur 5: Filter - Res
+Encodeur 6: Filter - Morph
+Encodeur 7: OSC - Volume
+Encodeur 8: OSC - Coarse
+
+
+Divider.tif
+
+/Tension/
+
+*Banque 1: Excitateur et corde*
+Encodeur 1: Type d'excitateur
+Encodeur 2: Temps de déclin de corde
+Encodeur 3: Inharmonie de la corde
+Encodeur 4: Amortissement de la corde
+Encodeur 5: Masse/Protrusion/Force
+Encodeur 6: Friction/dureté
+Encodeur 7: Dynamique de l'excitateur
+Encodeur 8: Position de l'excitateur
+
+*Banque 2: Etouffoir*
+Encodeur 1: Etouffoir On/Off
+Encodeur 2: Masse de l'étouffoir
+Encodeur 3: Dureté de l'étouffoir
+Encodeur 4: Vitesse de l'étouffoir
+Encodeur 5: Position de l'étouffoir
+Encodeur 6: Etouffement
+Encodeur 7: Position de l'étouffoir < Dynamique
+Encodeur 8: Position fixe On/Off
+
+*Banque 3: Terminaison et micro*
+Encodeur 1: Terminaison On/Off
+Encodeur 2: Masse
+Encodeur 3: Dureté du doigt
+Encodeur 4: Dureté de frette
+Encodeur 5: Micro On/Off
+Encodeur 6: Position du micro
+Encodeur 7: Masse du doigt < Dynamique
+Encodeur 8: Masse du doigt < Hauteur de note
+
+*Banque 4: Corps*
+Encodeur 1: Corps On/Off
+Encodeur 2: Type de corps
+Encodeur 3: Taille du corps
+Encodeur 4: Déclin du corps
+Encodeur 5: Coupe-bas du corps
+Encodeur 6: Coupe-haut du corps
+Encodeur 7: Balance corde/corps
+Encodeur 8: Volume général
+
+*Banque 5: Vibrato*
+Encodeur 1: Vibrato On/Off
+Encodeur 2: Retard du vibrato
+Encodeur 3: Attaque du vibrato
+Encodeur 4: Vitesse du vibrato
+Encodeur 5: Amplitude du vibrato
+Encodeur 6: Vibrato < Molette de modulation
+Encodeur 7: Erreur de vibrato
+Encodeur 8: Volume général
+
+*Banque 6: Filtre*
+Encodeur 1: Filtre On/Off
+Encodeur 2: Type de filtre
+Encodeur 3: Fréquence de coupure
+Encodeur 4: Résonance (Q)
+Encodeur 5: Fréquence de coupure < Enveloppe
+Encodeur 6: Fréquence de coupure < LFO
+Encodeur 7: Résonance (Q) < Enveloppe
+Encodeur 8: Résonance (Q) < LFO
+
+*Banque 7: Enveloppe et LFO*
+Encodeur 1: Enveloppe On/Off
+$Comment Translation mark Tension
+Encodeur 2: Attaque
+$Comment Translation mark Tension
+Encodeur 3: Déclin
+$Comment Translation mark Tension
+Encodeur 4: Maintien
+$Comment Translation mark Tension
+Encodeur 5: Fermeture
+Encodeur 6: LFO On/Off
+Encodeur 7: Type de LFO
+Encodeur 8: Cadence du LFO
+
+*Banque 8: Global*
+Encodeur 1: Unisson On/Off
+Encodeur 2: Accordage fin (Detune)
+Encodeur 3: Portamento On/Off
+Encodeur 4: Temps de portamento
+Encodeur 5: Voix (polyphonie)
+Encodeur 6: Octave du clavier
+Encodeur 7: Demi-ton du clavier
+Encodeur 8: Volume
+
+*Banque Best-of*
+Encodeur 1: Type d'excitateur
+Encodeur 2: Position de l'excitateur
+Encodeur 3: Temps de déclin de corde
+Encodeur 4: Amortissement de la corde
+Encodeur 5: Amplitude du vibrato
+Encodeur 6: Fréquence de coupure du filtre
+Encodeur 7: Résonance (Q) du filtre
+Encodeur 8: Volume
+
+$Comment -----------------------------------------------------------------------
+$Page Affectations des effets MIDI
+$TargetName MIDI Effect Mappings
+
+/Arpeggiator/
+
+*Banque 1: Style*
+Encodeur 1: Style
+Encodeur 2: Groove
+Encodeur 3: Offset
+Encodeur 4: Rate
+Encodeur 5: Retrigger - Source
+Encodeur 6: Retrigger - Valeur
+Encodeur 7: Repeats
+Encodeur 8: Gate
+
+*Banque 2: Hauteur/Dynamique*
+Encodeur 1: Transpose
+Encodeur 2: Key
+Encodeur 3: Steps
+Encodeur 4: Distance
+Encodeur 5: Velocity - Decay
+Encodeur 6: Velocity - Target
+Encodeur 7: Velocity - On/Off
+Encodeur 8: Velocity - Retrigger
+
+*Banque Best-of*
+Encodeur 1: Sync Rate
+Encodeur 2: Free Rate
+Encodeur 3: Steps
+Encodeur 4: Distance
+Encodeur 5: Gate
+Encodeur 6: Key
+Encodeur 7: Decay
+Encodeur 8: Target
+
+
+Divider.tif
+
+/Chord/
+
+*Banque 1: Shift*
+Encodeur 1: Shift 1
+Encodeur 2: Shift 2
+Encodeur 3: Shift 3
+Encodeur 4: Shift 4
+Encodeur 5: Shift 5
+Encodeur 6: Shift 6
+Encodeur 7: non affecté
+Encodeur 8: non affecté
+
+*Banque 2: Dynamique %*
+Encodeur 1: Dynamique % 1
+Encodeur 2: Dynamique % 2
+Encodeur 3: Dynamique % 3
+Encodeur 4: Dynamique % 4
+Encodeur 5: Dynamique % 5
+Encodeur 6: Dynamique % 6
+Encodeur 7: non affecté
+Encodeur 8: non affecté
+
+*Banque Best-of*
+Encodeur 1: Shift 1
+Encodeur 2: Shift 2
+Encodeur 3: Shift 3
+Encodeur 4: Shift 4
+Encodeur 5: Shift 5
+Encodeur 6: Dynamique 5
+Encodeur 7: Shift 6
+Encodeur 8: Dynamique 6
+
+
+Divider.tif
+
+/Note Length/
+
+Encodeur 1: Mode
+Encodeur 2: Length (Mode Time)
+Encodeur 3: Length (Mode Sync)
+Encodeur 4: Gate
+Encodeur 5: Decay Time
+Encodeur 6: Balance Note On/Off
+Encodeur 7: Key Scale
+Encodeur 8: non affecté
+
+
+Divider.tif
+
+/Pitch/
+
+Encodeur 1: Pitch
+Encodeur 2: Range
+Encodeur 3: Lowest
+Encodeur 4: non affecté
+Encodeur 5: non affecté
+Encodeur 6: non affecté
+Encodeur 7: non affecté
+Encodeur 8: non affecté
+
+
+Divider.tif
+
+/Random/
+
+Encodeur 1: Chance
+Encodeur 2: Choices
+Encodeur 3: Scale
+Encodeur 4: Sign
+Encodeur 5: non affecté
+Encodeur 6: non affecté
+Encodeur 7: non affecté
+Encodeur 8: non affecté
+
+
+Divider.tif
+
+/Scale/
+
+Encodeur 1: Base
+Encodeur 2: Transpose
+Encodeur 3: Range
+Encodeur 4: Lowest
+Encodeur 5: non affecté
+Encodeur 6: non affecté
+Encodeur 7: non affecté
+Encodeur 8: non affecté
+
+
+Divider.tif
+
+/Velocity/
+
+Encodeur 1: Drive
+Encodeur 2: Comp. (Compand)
+Encodeur 3: Random
+Encodeur 4: Mode
+Encodeur 5: Out Hi
+Encodeur 6: Out Low
+Encodeur 7: Range
+Encodeur 8: Lowest
+
+$Comment -----------------------------------------------------------------------
+$Page Affectations des effets audio
+$TargetName Audio Effect Mappings
+
+/Amp/
+
+*Banque 1:*
+Encodeur 1: Gain
+Encodeur 2: Bass
+Encodeur 3: Middle
+Encodeur 4: Treble
+Encodeur 5: Presence
+Encodeur 6: Volume
+Encodeur 7: Dry/Wet
+Encodeur 8: Type d'ampli
+
+*Banque 2:*
+Encodeur 1: Dual/Mono
+
+*Banque Best-of*
+Encodeur 1: Gain
+Encodeur 2: Bass
+Encodeur 3: Middle
+Encodeur 4: Treble
+Encodeur 5: Presence
+Encodeur 6: Volume
+Encodeur 7: Dry/Wet
+Encodeur 8: Type d'ampli
+
+
+Divider.tif
+
+/Auto Filter/
+
+Encodeur 1: Fréquence
+Encodeur 2: Q
+Encodeur 3: Attack
+Encodeur 4: Release
+$Comment Translation mark Auto Filter
+Encodeur 5: Envelope Amount
+Encodeur 6: LFO Amount
+Encodeur 7: Rate
+Encodeur 8: Phase
+
+
+Divider.tif
+
+/Auto Pan/
+
+Encodeur 1: Amount
+Encodeur 2: Rate (Hz)
+Encodeur 3: Phase
+Encodeur 4: Shape
+Encodeur 5: Sélecteur de forme
+Encodeur 6: Rate (Valeur de battement)
+Encodeur 7: Offset
+Encodeur 8: Width
+
+
+Divider.tif
+
+/Beat Repeat/
+
+*Banque 1: Vitesse de répétition*
+Encodeur 1: Interval
+Encodeur 2: Offset
+Encodeur 3: Grid
+Encodeur 4: Variation
+Encodeur 5: Fréquence du filtre
+Encodeur 6: Résonance du filtre
+Encodeur 7: Volume
+Encodeur 8: Decay
+
+*Banque 2: Gate/Hauteur*
+Encodeur 1: Chance
+Encodeur 2: Gate
+Encodeur 3: Pitch
+Encodeur 4: Pitch Decay
+Encodeur 5: Fréquence du filtre
+Encodeur 6: Résonance du filtre
+Encodeur 7: Volume
+Encodeur 8: Decay
+
+*Banque Best-of*
+Encodeur 1: Interval
+Encodeur 2: Offset
+Encodeur 3: Gate
+Encodeur 4: Chance
+Encodeur 5: Grid
+Encodeur 6: Variation
+Encodeur 7: Pitch
+Encodeur 8: Fréquence du filtre
+
+
+Divider.tif
+
+/Cabinet/
+
+Encodeur 1: Type de baffle
+Encodeur 2: Position du micro
+Encodeur 3: Type de micro
+Encodeur 4: Dual/Mono
+Encodeur 5: Mixage avec/sans effet
+
+
+Divider.tif
+
+/Chorus/
+
+Encodeur 1: Delay 1 - Temps de retard
+Encodeur 2: Delay 2 - Temps de retard
+Encodeur 3: Modulation - Amount
+Encodeur 4: Dry/Wet
+Encodeur 5: Delay 1 - Highpass
+Encodeur 6: Delay 2 - Mode
+Encodeur 7: Modulation - Rate
+Encodeur 8: Feedback
+
+
+Divider.tif
+
+/Compressor/
+
+*Banque 1: Compression*
+Encodeur 1. Seuil
+Encodeur 2. Taux
+Encodeur 3. Temps d'attaque
+Encodeur 4. Temps de rétablissement
+Encodeur 5. Articulation
+Encodeur 6. Mode de suivi d'enveloppe (EF)
+Encodeur 7. Anticipation
+Encodeur 8. Modèle
+
+*Banque 2: Side chain*
+Encodeur 1. Entrée externe On/Off
+Encodeur 2. Gain d'entrée externe
+Encodeur 3. Mixage d'entrée externe
+Encodeur 4. Ecoute de side chain
+Encodeur 5. Commutateur de correcteur (EQ)
+Encodeur 6. Fréquence de correcteur (EQ)
+Encodeur 7. Q de correcteur (EQ)
+Encodeur 8. Mode de correcteur (EQ)
+
+*Banque 3: Sortie*
+Encodeur 1. Gain de correcteur (EQ)
+Encodeur 2. Gain de compensation
+Encodeur 3. Gain de sortie
+
+*Banque Best-of*
+Encodeur 1. Seuil
+Encodeur 2. Taux
+Encodeur 3. Temps d'attaque
+Encodeur 4. Temps de rétablissement
+Encodeur 5. Gain d'entrée externe
+Encodeur 6. Mixage d'entrée externe
+Encodeur 7. Fréquence de correcteur (EQ)
+Encodeur 8. Gain de sortie
+
+
+Divider.tif
+
+/Corpus/
+
+*Banque 1: *
+Encodeur 1: Decay
+Encodeur 2: Matériau
+Encodeur 3: Fréquence centrale
+Encodeur 4: Width
+Encodeur 5: Passage de signal non traité
+Encodeur 6: Largeur
+Encodeur 7: Gain
+Encodeur 8: Mixage avec/sans effet
+
+*Banque 2:*
+Encodeur 1: Point d'écoute gauche
+Encodeur 2: Point d'écoute droit
+Encodeur 3: Position de frappe
+Encodeur 4: Brillance
+Encodeur 5: Inharmoniques
+Encodeur 6: Rayon
+Encodeur 7: Ouverture
+Encodeur 8: Rapport
+
+*Banque 3:*
+Encodeur 1: Type de résonance
+Encodeur 2: Accordage
+Encodeur 3: Transposition
+Encodeur 4: Accordage fin
+Encodeur 5: Désaccord des résonateurs
+Encodeur 6: Qualité de résonateur
+Encodeur 7: Note Off
+Encodeur 8: Déclin par Note Off
+
+*Banque Best-of*
+Encodeur 1: Decay
+Encodeur 2: Matériau
+Encodeur 3: Brillance
+Encodeur 4: Inharmoniques
+Encodeur 5: Type de résonance
+Encodeur 6: Accordage
+Encodeur 7: Gain
+Encodeur 8: Mixage avec/sans effet
+
+Divider.tif
+
+/Dynamic Tube/
+
+Encodeur 1: Drive
+Encodeur 2: Bias
+Encodeur 3: Tone
+Encodeur 4: Envelope
+Encodeur 5: Attack
+Encodeur 6: Release
+Encodeur 7: Dry/Wet
+Encodeur 8: Output
+
+
+Divider.tif
+
+/EQ Eight/
+
+*Banque 1: Bande On/Off*
+Encodeur 1: EQ 1 On/Off
+Encodeur 2: EQ 2 On/Off
+Encodeur 3: EQ 3 On/Off
+Encodeur 4: EQ 4 On/Off
+Encodeur 5: EQ 5 On/Off
+Encodeur 6: EQ 6 On/Off
+Encodeur 7: EQ 7 On/Off
+Encodeur 8: EQ 8 On/Off
+
+*Banque 2: Fréquence*
+Encodeur 1: Freq EQ 1
+Encodeur 2: Freq EQ 2
+Encodeur 3: Freq EQ 3
+Encodeur 4: Freq EQ 4
+Encodeur 5: Freq EQ 5
+Encodeur 6: Freq EQ 6
+Encodeur 7: Freq EQ 7
+Encodeur 8: Freq EQ 8
+
+*Banque 3: Gain*
+Encodeur 1: Gain EQ 1
+Encodeur 2: Gain EQ 2
+Encodeur 3: Gain EQ 3
+Encodeur 4: Gain EQ 4
+Encodeur 5: Gain EQ 5
+Encodeur 6: Gain EQ 6
+Encodeur 7: Gain EQ 7
+Encodeur 8: Gain EQ 8
+
+*Banque 4: Q ou résonance*
+Encodeur 1: Q EQ 1
+Encodeur 2: Q EQ 2
+Encodeur 3: Q EQ 3
+Encodeur 4: Q EQ 4
+Encodeur 5: Q EQ 5
+Encodeur 6: Q EQ 6
+Encodeur 7: Q EQ 7
+Encodeur 8: Q EQ 8
+
+*Banque 5: Type de filtre*
+Encodeur 1: Type de filtre EQ 1
+Encodeur 2: Type de filtre EQ 2
+Encodeur 3: Type de filtre EQ 3
+Encodeur 4: Type de filtre EQ 4
+Encodeur 5: Type de filtre EQ 5
+Encodeur 6: Type de filtre EQ 6
+Encodeur 7: Type de filtre EQ 7
+Encodeur 8: Type de filtre EQ 8
+
+*Banque 6: Généraux*
+Encodeur 1: Gain de sortie
+Encodeur 2: Scale
+Encodeur 3: non affecté
+Encodeur 4: non affecté
+Encodeur 5: non affecté
+Encodeur 6: non affecté
+Encodeur 7: non affecté
+Encodeur 8: non affecté
+
+*Banque 7: EQ 1-3*
+Encodeur 1: Gain EQ 1
+Encodeur 2: Freq EQ 1
+Encodeur 3: Q EQ 1
+Encodeur 4: Gain EQ 2
+Encodeur 5: Freq EQ 2
+Encodeur 6: Q EQ 2
+Encodeur 7: Gain EQ 3
+Encodeur 8: Freq EQ 3
+
+*Banque Best-of*
+Encodeur 1: Freq EQ 1
+Encodeur 2: Gain EQ 1
+Encodeur 3: Freq EQ 2
+Encodeur 4: Gain EQ 2
+Encodeur 5: Freq EQ 3
+Encodeur 6: Gain EQ 3
+Encodeur 7: Freq EQ 4
+Encodeur 8: Gain EQ 4
+
+
+Divider.tif
+
+/EQ Three/
+
+Encodeur 1: Gain Low
+Encodeur 2: Gain Mid
+Encodeur 3: Gain High
+Encodeur 4: non affecté
+Encodeur 5: FreqLow
+Encodeur 6: FreqHi
+Encodeur 7: Pente
+Encodeur 8: non affecté
+
+
+Divider.tif
+
+/Erosion/
+
+Encodeur 1: Freq
+Encodeur 2: Width
+Encodeur 3: Amount
+Encodeur 4: Noise | Wide Noise | Sine
+Encodeur 5: non affecté
+Encodeur 6: non affecté
+Encodeur 7: non affecté
+Encodeur 8: non affecté
+
+
+Divider.tif
+
+/Filter Delay/
+
+*Banque 1: Filtre de l'entrée gauche (L)*
+Encodeur 1: Fréquence
+Encodeur 2: Résonance
+Encodeur 3: Delay Time
+Encodeur 4: Sync %
+Encodeur 5: Feedback
+Encodeur 6: Pan
+Encodeur 7: Volume
+Encodeur 8: Général
+
+*Banque 2: Filtre des entrées L+R*
+Encodeur 1: Fréquence
+Encodeur 2: Résonance
+Encodeur 3: Delay Time
+Encodeur 4: Sync %
+Encodeur 5: Feedback
+Encodeur 6: Pan
+Encodeur 7: Volume
+Encodeur 8: Général
+
+*Banque 3: Filtre de l'entrée droite (R)*
+Encodeur 1: Fréquence
+Encodeur 2: Résonance
+Encodeur 3: Delay Time
+Encodeur 4: Sync %
+Encodeur 5: Feedback
+Encodeur 6: Pan
+Encodeur 7: Volume
+Encodeur 8: Général
+
+*Banque Best-of*
+Encodeur 1: Fréquence L
+Encodeur 2: Beat Delay L
+Encodeur 3: Feedback L
+Encodeur 4: Volume L
+Encodeur 5: Fréquence R
+Encodeur 6: Beat Delay R
+Encodeur 7: Feedback R
+Encodeur 8: Volume R
+
+
+Divider.tif
+
+/Flanger/
+
+*Banque 1: Commandes de fréquence*
+Encodeur 1: High Pass
+Encodeur 2: Dry/Wet
+Encodeur 3: Delay Time
+Encodeur 4: Feedback
+Encodeur 5: Envelope
+Encodeur 6: Attack
+Encodeur 7: Release
+Encodeur 8: non affecté
+
+*Banque 2: LFO/S&H*
+Encodeur 1: Amount
+Encodeur 2: Rate
+Encodeur 3: Phase
+Encodeur 4: Hz/Valeur de battement
+Encodeur 5: Offset
+Encodeur 6: Rate (Note)
+Encodeur 7: Width
+Encodeur 8: Shape
+
+*Banque Best-of*
+Encodeur 1: High Pass
+Encodeur 2: Delay Time
+Encodeur 3: Feedback
+Encodeur 4: LFO Amount
+Encodeur 5: LFO Rate (Hz)
+Encodeur 6: LFO (Valeur de battement)
+Encodeur 7: Envelope
+Encodeur 8: Mixage avec/sans effet
+
+
+Divider.tif
+
+/Frequency Shifter/
+
+Encodeur 1: Fréquence (réglage grossier)
+Encodeur 2: Fréquence (réglage fin)
+Encodeur 3: Mode
+Encodeur 4: Fréquence du mod. en anneau
+Encodeur 5: Saturation On/Off
+Encodeur 6: Saturation
+Encodeur 7: Largeur du signal
+Encodeur 8: Mixage avec/sans effet
+
+
+Divider.tif
+
+/Gate/
+
+Encodeur 1: Thresh
+Encodeur 2: Gain
+Encodeur 3: non affecté
+Encodeur 4: non affecté
+Encodeur 5: Attack
+Encodeur 6: Hold
+Encodeur 7: Release
+Encodeur 8: non affecté
+
+
+Divider.tif
+
+/Grain Delay/
+
+Encodeur 1: Spray
+Encodeur 2: Frequency
+Encodeur 3: Pitch
+Encodeur 4: Rand Pitch
+Encodeur 5: Feedback
+Encodeur 6: Dry/Wet
+Encodeur 7: Sync %
+Encodeur 8: Temps
+
+
+Divider.tif
+
+/Looper/
+
+Encodeur 1: Etat
+Encodeur 2: Vitesse
+Encodeur 3: Inversion
+Encodeur 4: Quantification
+Encodeur 5: Monitor
+Encodeur 6: Contrôle du morceau
+Encodeur 7: Contrôle du tempo
+Encodeur 8: Feedback
+
+
+Divider.tif
+
+/Multiband Dynamics/
+
+*Banque 1: Commandes globales*
+Encodeur 1: Gain de sortie
+Encodeur 2: Ampleur
+Encodeur 3: Proportionnalité temporelle
+Encodeur 4: Soft Knee
+Encodeur 5: RMS/Peak
+Encodeur 6: Activateur de bande haute
+Encodeur 7: Activateur de bande moyenne
+Encodeur 8: Activateur de bande basse
+
+*Banque 2: Bande basse*
+Encodeur 1: Pré-gain de bande basse
+Encodeur 2: Seuil bas de bande basse
+Encodeur 3: Taux bas de bande basse
+Encodeur 4: Seuil haut de bande basse
+Encodeur 5: Taux haut de bande basse
+Encodeur 6: Attaque de bande basse
+Encodeur 7: Relâchement de bande basse
+Encodeur 8: Post-gain de bande basse
+
+*Banque 3: Bande moyenne*
+Encodeur 1: Pré-gain de bande moyenne
+Encodeur 2: Seuil bas de bande moyenne
+Encodeur 3: Taux bas de bande moyenne
+Encodeur 4: Seuil haut de bande moyenne
+Encodeur 5: Taux haut de bande moyenne
+Encodeur 6: Attaque de bande moyenne
+Encodeur 7: Relâchement de bande moyenne
+Encodeur 8: Post-gain de bande moyenne
+
+*Banque 4: Bande haute*
+Encodeur 1: Pré-gain de bande haute
+Encodeur 2: Seuil bas de bande haute
+Encodeur 3: Taux bas de bande haute
+Encodeur 4: Seuil haut de bande haute
+Encodeur 5: Taux haut de bande haute
+Encodeur 6: Attaque de bande haute
+Encodeur 7: Relâchement de bande haute
+Encodeur 8: Post-gain de bande haute
+
+*Banque 5: Fréquences de séparation*
+Encodeur 1: Fréq. de séparation graves/médiums
+Encodeur 2: Fréq. de séparation médiums/aigus
+Encodeur 4: non affecté
+Encodeur 5: non affecté
+Encodeur 6: non affecté
+Encodeur 7: non affecté
+Encodeur 8: non affecté
+
+*Banque Best-of*
+Encodeur 1: Seuil bas de bande basse
+Encodeur 2: Taux bas de bande basse
+Encodeur 3: Seuil bas de bande moyenne
+Encodeur 4: Taux bas de bande moyenne
+Encodeur 5: Seuil bas de bande haute
+Encodeur 6: Taux bas de bande haute
+Encodeur 7: Gain de sortie
+Encodeur 8: Ampleur
+
+Divider.tif
+
+/Overdrive/
+
+Encodeur 1: Fréquence du filtre
+Encodeur 2: Largeur du filtre
+Encodeur 3: Saturation
+Encodeur 4: Tonalité
+Encodeur 5: Mixage avec/sans effet
+Encodeur 6: Préservation de la dynamique
+
+
+Divider.tif
+
+/Phaser/
+
+*Banque 1: Commandes de fréquence*
+Encodeur 1: Poles
+Encodeur 2: Color
+Encodeur 3: Dry/Wet
+Encodeur 4: Frequency
+Encodeur 5: Envelope
+Encodeur 6: Attack
+Encodeur 7: Release
+Encodeur 8: Feedback
+
+*Banque 2: LFO/S&H*
+Encodeur 1: Amount
+Encodeur 2: Rate (Hz)
+Encodeur 3: Phase
+Encodeur 4: Hz/Valeur de battement
+Encodeur 5: Offset
+Encodeur 6: Rate (Valeur de battement)
+Encodeur 7: Spin
+Encodeur 8: Shape
+
+*Banque Best-of*
+Encodeur 1: Poles
+Encodeur 2: Color
+$Comment Translation mark Phaser
+Encodeur 3: Frequency
+Encodeur 4: Feedback
+Encodeur 5: LFO - Amount
+Encodeur 6: LFO - Rate
+Encodeur 7: Envelope
+Encodeur 8: Mixage avec/sans effet
+
+
+Divider.tif
+
+/Ping Pong Delay/
+
+Encodeur 1: Fréquence
+$Comment Translation mark Ping Pong Delay
+Encodeur 2: Largeur
+Encodeur 3: Temps (ms)
+Encodeur 4: temps de retard synchronisé (1-16)
+Encodeur 5: Swing
+Encodeur 6: Mode (Sync/Time)
+Encodeur 7: Feedback
+Encodeur 8: Mixage avec/sans effet
+
+
+Divider.tif
+
+/Redux/
+
+Encodeur 1: Bit Reduction
+Encodeur 2: Hard/Soft
+Encodeur 3: Downsample Hard
+Encodeur 4: Downsample Soft
+Encodeur 5: Bit Reduction On
+Encodeur 6: non affecté
+Encodeur 7: non affecté
+Encodeur 8: non affecté
+
+
+Divider.tif
+
+/Saturator/
+
+*Banque 1: Commandes générales*
+Encodeur 1: Drive
+Encodeur 2: Base
+Encodeur 3: Freq
+Encodeur 4: Width
+Encodeur 5: Depth
+Encodeur 6: Output
+Encodeur 7: Dry/Wet
+Encodeur 8: Sélecteur de courbe
+
+*Banque 2: Commandes du Waveshaper*
+Encodeur 1: Waveshaper - Drive
+Encodeur 2: Waveshaper - Lin
+Encodeur 3: Waveshaper - Curve
+Encodeur 4: Waveshaper - Damp
+Encodeur 5: Waveshaper - Depth
+Encodeur 6: Waveshaper - Period
+Encodeur 7: Dry/Wet
+Encodeur 8: non affecté
+
+*Banque Best-of*
+Encodeur 1: Drive
+Encodeur 2: Base
+Encodeur 3: Freq
+Encodeur 4: Depth
+Encodeur 5: Waveshaper - Curve
+Encodeur 6: Waveshaper - Depth
+Encodeur 7: Waveshaper - Period
+Encodeur 8: Waveshaper - Damp
+
+
+Divider.tif
+
+/Resonators/
+
+*Banque 1: Général/Mode I*
+$Comment Translation mark Resonators
+Encodeur 1: Filter - Frequency
+Encodeur 2: Width
+Encodeur 3: Gain global
+Encodeur 4: Dry/Wet
+Encodeur 5: Decay
+Encodeur 6: Note
+Encodeur 7: Color
+Encodeur 8: Gain I
+
+*Banque 2: Mode II - V*
+Encodeur 1: Gain II
+Encodeur 2: Gain III
+Encodeur 3: Gain IV
+Encodeur 4: Gain V
+Encodeur 5: Pitch II
+Encodeur 6: Pitch III
+Encodeur 7: Pitch IV
+Encodeur 8: Pitch V
+
+*Banque Best-of*
+Encodeur 1: Decay
+Encodeur 2: Note
+Encodeur 3: Pitch II
+Encodeur 4: Pitch III
+Encodeur 5: Pitch IV
+Encodeur 6: Pitch V
+Encodeur 7: Gain global
+Encodeur 8: Mixage avec/sans effet
+
+
+Divider.tif
+
+/Simple Delay/
+
+Encodeur 1: Delay Time L
+Encodeur 2: Sync % L
+Encodeur 3: Temps (ms) L
+Encodeur 4: Dry/Wet
+Encodeur 5: Delay Time R
+Encodeur 6: Sync % R
+Encodeur 7: Temps (ms) R
+Encodeur 8: Feedback
+
+
+Divider.tif
+
+/Utility/
+
+Encodeur 1: Width
+Encodeur 2: Panorama
+Encodeur 3: Mute
+Encodeur 4: DC
+Encodeur 5: Mode
+Encodeur 6: Gain
+Encodeur 7: Phz-L
+Encodeur 8: Phz-R
+
+
+Divider.tif
+
+/Reverb/
+
+*Banque 1: Réflexions*
+Encodeur 1: Fréquence du filtre
+Encodeur 2: Résonance du filtre
+Encodeur 3: Predelay
+Encodeur 4: Spin
+Encodeur 5: Early ref. - Fréquence
+Encodeur 6: Early ref. - Résonance
+Encodeur 7: Early ref. - Shape
+Encodeur 8: Diffusion Network - Decay
+
+*Banque 2: Diffusion Network*
+Encodeur 1: Fréquence haute (High)
+Encodeur 2: Fréquence basse (Low)
+Encodeur 3: Fréquence de Chorus
+Encodeur 4: Density
+Encodeur 5: Résonance haute (High)
+Encodeur 6: Résonance basse (Low)
+Encodeur 7: Niveau de Chorus
+Encodeur 8: Scale
+
+*Banque 3: Global*
+Encodeur 1: Decay Time
+Encodeur 2: Freeze
+Encodeur 3: Size
+Encodeur 4: Stereo
+Encodeur 5: Reflect Level
+Encodeur 6: Diffuse Level
+Encodeur 7: Dry/Wet
+Encodeur 8: Sélecteur de qualité
+
+*Banque Best-of*
+Encodeur 1: Decay Time
+Encodeur 2: Size
+Encodeur 3: Niveau de Chorus
+Encodeur 4: Fréquence d'entrée
+Encodeur 5: Fréquence haute (High)
+Encodeur 6: Gain haut (High)
+Encodeur 7: Stereo
+Encodeur 8: Mixage avec/sans effet
+
+
+Divider.tif
+
+/Vinyl Distortion/
+
+Encodeur 1: Tracing Model - Freq
+Encodeur 2: Tracing Model - B
+Encodeur 3: Tracing Model - Niveau
+Encodeur 4: Crackle - Density
+Encodeur 5: Pinch - Freq
+Encodeur 6: Pinch - B
+Encodeur 7: Pinch - Niveau
+Encodeur 8: Crackle - Volume
+
+
+Divider.tif
+
+/Vocoder/
+
+*Banque 1: Commandes globales*
+Encodeur 1: Décalage de formant
+Encodeur 2: Attaque
+Encodeur 3: Rétablissement
+Encodeur 4: Mono/Stéréo
+Encodeur 5: Gain de sortie
+Encodeur 6: Seuil de Gate
+Encodeur 7: Profondeur d'enveloppe
+Encodeur 8: Mixage avec/sans effet
+
+*Banque 2: Filtres/Harmonisation*
+Encodeur 1: Largeur de bande
+Encodeur 2: Plus haute bande
+Encodeur 3: Plus basse bande
+Encodeur 4: Retro
+Encodeur 5: Niveau Unvoiced
+Encodeur 6: Sensibilité Unvoiced
+Encodeur 7: Vitesse de bascule Unvoiced
+Encodeur 8: Réhausser la porteuse
+
+*Banque 3: Paramètres de porteuse*
+Encodeur 1: Fréq. d'échantillonnage du bruit
+Encodeur 2: Densité du bruit
+Encodeur 3: Plus grande hauteur détectée
+Encodeur 4: Plus faible hauteur détectée
+Encodeur 5: Hauteur de l'oscillateur
+Encodeur 6: Forme d'onde d'oscillateur
+Encodeur 7: Gain d'entrée externe
+Encodeur 8: non affecté
+
+*Banque Best-of*
+Encodeur 1: Décalage de formant
+Encodeur 2: Attaque
+Encodeur 3: Rétablissement
+Encodeur 4: Niveau Unvoiced
+Encodeur 5: Seuil de Gate
+Encodeur 6: Largeur de bande
+Encodeur 7: Profondeur d'enveloppe
+Encodeur 8: Mixage avec/sans effet
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

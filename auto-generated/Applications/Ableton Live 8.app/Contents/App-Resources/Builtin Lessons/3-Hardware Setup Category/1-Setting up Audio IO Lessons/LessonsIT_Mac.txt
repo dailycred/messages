@@ -1,0 +1,133 @@
+$Page Impostazione di Entrate/Uscite Audio
+$TargetName Setting Up Audio I/O
+$Comment Mac Version
+
+In questa lezione configureremo e ottimizzeremo il cosiddetto /I/O audio/ di Live (cioè la sua gestione delle /Entrate/ e delle /Uscite/ audio). Ci vorranno circa dieci minuti per configurare tutto, ma questo processo deve essere svolto una sola volta per ogni interfaccia audio che utilizzi.
+
+Al termine avremo realizzato le seguenti cose:
+
+-> Selezione di un tipo di driver;
+-> Scelta dei dispositivi di entrata e di uscita;
+-> Configurazione delle entrate e delle uscite;
+-> Scelta della frequenza di campionamento;
+-> Regolazione della dimensione del buffer di I/O audio.
+
+
+Clicca sul sottostante pulsante /Pagina succ./ per procedere.
+
+
+$Page Apertura delle Preferenze Audio
+$TargetName Opening the Audio Preferences
+
+Le impostazioni delle Entrate/Uscite audio si trovano nelle /Preferenze Audio/ di Live. Puoi accedervi selezionando la voce *Preferenze...* nel menu /Live/ oppure usando la scorciatoia da tastiera *$CommandMod + ,* ($CommandMod + virgola).
+PrefsMenuMac.tif
+
+Quando si apre la finestra delle Preferenze seleziona la scheda /Audio./
+AudioTabFull_Mac.tif
+
+
+Divider.tif
+*Suggerimento:* potresti voler trascinare la finestra delle preferenze in un'altra posizione dello schermo, in modo che non venga nascosta dietro la finestra Principale di Live mentre segui la lezione. Se si perde, usa nuovamente la scorciatoia *$CommandMod + ,* per ripristinarla.
+
+
+$Page Scelta del Dispositivo Audio
+$TargetName Selecting the Audio Device
+
+Le impostazioni /Dispositivo Audio/ fanno riferimento alle interfacce audio fisiche incorporate nel computer o collegate ad esso esternamente. Live comunica con i dispositivi audio tramite un componente software noto come /driver./ Nel nostro primo passo useremo il selettore /Tipo di Driver/ per dire a Live quale driver utilizzare.
+
+In Mac OS X, le Entrate/Uscite audio sono di solito gestite da un driver /Core Audio./ Sceglilo nel selettore Tipo di Driver, a meno che un'altra voce non sia più adatta alla tua configurazione:
+DriverChooser_Mac.tif
+
+Dopo aver selezionato un tipo di driver, sarai in grado di specificare le entrate e le uscite tramite i selettori /Dispositivo Audio di Entrata/ e /Dispositivo Audio di Uscita:/
+IODevicesChoosers_Mac.tif
+
+Le scelte disponibili dipenderanno dalla tua specifica configurazione hardware e software. Se non la vedi elencata in questi selettori, probabilmente la tua interfaccia audio richiede l'installazione di un driver prima di poter essere riconosciuta; consulta la documentazione del produttore per i dettagli.
+
+
+Divider.tif
+*Nota:* sebbene Core Audio consenta di selezionare due diversi dispositivi per ingresso e uscita, consigliamo di selezionare lo stesso dispositivo per entrambi, al fine di evitare potenziali problemi.
+
+
+$Page Configurazione di Entrate e Uscite
+$TargetName Configuring Ins and Outs
+
+I pulsanti /Config. Entrate/ e /Config. Uscite/ determinano quali entrate e uscite dell'interfaccia possano essere usate da Live e se queste siano accessibili singolarmente (mono) o come coppie stereo oppure in ambedue le modalità:
+ChannelConfigButtons_Mac.tif
+
+$If Product 01
+Divider.tif
+*Si prega di notare che in Live LE c'è un limite di quattro ingressi mono e quattro uscite mono.*
+Divider.tif
+$Endif
+
+I pulsanti aprono una finestra con un paio di interruttori per ogni coppia di canali di entrata o di uscita disponibile:
+InputConfigWindow.tif
+
+La colonna destra di interruttori abilita le coppie di canali all'uso in stereo, mentre la colonna sinistra ne abilita l'uso come due canali mono indipendenti.
+
+Se gli ingressi 1 e 2 sono sempre collegati ad un giradischi, per esempio, avrai bisogno di accedere ai canali 1 e 2 solo in stereo. D'altra parte, se gli ingressi 1 e 2 sono sempre collegati a microfoni, avrai bisogno che l'interruttore mono sia abilitato.
+
+Puoi anche attivare entrambe le opzioni, così da essere libero di scegliere la configurazione più appropriata per ogni momento. Ciò è utile per collegamenti che cambiano frequentemente. Ad esempio, lavorando con l'interfaccia hardware stereo incorporata del computer, potresti registrare in mono da un microfono, poi collegare un giradischi dopo pochi minuti per registrare in stereo.
+
+Disattiva /entrambi/ gli interruttori delle entrate o uscite che non utilizzi: disabilitando i canali inutilizzati si ottimizzano le prestazioni della CPU.
+
+Una volta configurati i tuoi canali di Entrata/Uscita, clicca sul pulsante /OK/ per tornare alle Preferenze Audio.
+
+
+$Page Scelta della Freq. di Campionamento
+$TargetName Selecting the Sample Rate
+
+L'impostazione /Frequenza di Campionamento In/Out/ determina la frequenza di campionamento alla quale operano Live e la tua interfaccia audio. In alcuni dispositivi audio questa frequenza può essere fissa (di solito a 44.100 Hz).
+SampleRate.tif
+
+Clip audio con frequenze di campionamento differenti possono essere utilizzate insieme perché Live esegue la conversione della frequenza di campionamento in tempo reale. In ogni caso, Live registrerà tutte le nuove clip audio alla frequenza di campionamento scelta qui.
+
+
+Divider.tif
+*Informazioni generali:* il termine "frequenza di campionamento" (sample rate) si riferisce al numero di campioni per secondo utilizzati per rappresentare un suono digitale. La rappresentazione digitale di un suono è sempre più precisa ad una frequenza di campionamento più elevata. Purtroppo, le frequenze di campionamento elevate richiedono più risorse di CPU, in quanto comportano più calcoli (più campioni da processare) per ogni secondo di audio. La frequenza di campionamento per l'audio di qualità CD è 44.100 campioni al secondo; di solito questa è una frequenza di campionamento adeguata.
+
+
+$Page Uso del Segnale di Test
+$TargetName Using the Test Tone
+
+Tutto l'audio che passa attraverso il tuo computer viene temporaneamente collocato nei /buffer/ - piccoli serbatoi per il suono che mantengono costante il flusso audio quando la CPU è impegnata in altri compiti. Buffer di grandi dimensioni assicurano un flusso audio ininterrotto, a scapito di una risposta "lenta" del software. Buffer di piccole dimensioni forniscono una risposta rapida, ma è più probabile che rimangano "a secco", interrompendo o spezzando il suono.
+
+Le impostazioni relative alla /Dimensione del Buffer/ permettono di definire il bilanciamento ottimale tra reattività e stabilità. Per trovare il giusto valore per il tuo sistema dovremo far simulare a Live la situazione di uso intensivo della CPU che si verifica durante l'uso di un numero elevato di tracce e di strumenti ed effetti virtuali.
+
+Individua il parametro /Volume del Segnale/ nella sezione /Test/ delle Preferenze Audio di Live e abbassalo fino a *-48 dB:*
+ToneVolumeMin.tif
+
+Imposta l'opzione /Simulatore di carico della CPU/ al valore massimo, cioè *80%:*
+CPUUsageSim.tif
+
+
+$Page Dimensione del Buffer
+$TargetName Adjusting the Buffer Size
+
+Attiva il /Segnale di Test/ cliccandone l'interruttore:
+TestTone.tif
+
+A questo punto le azioni potrebbero iniziare a rallentare perché il Segnale di Test attiva anche il Simulatore di Carico della CPU.
+
+Alza lentamente il Volume del Segnale fino a sentire il Segnale di Test in modo chiaro. Quindi, nella sezione /Latenza,/ imposta il controllo /Dimensione Buffer di Uscita/ al suo valore più basso:
+BufferSize.tif
+
+Probabilmente sentirai clic o interruzioni sull'uscita del Segnale di Test. Aumenta lentamente la dimensione del buffer, fino a quando clic o interruzioni non cessino. Trova un valore grande quanto basta a far passare il segnale senza disturbi. Puoi usare anche i tasti freccia della tastiera per regolare il cursore dopo averlo selezionato col mouse.
+
+Una volta trovata un'impostazione stabile, puoi disattivare il Segnale di Test.
+
+
+Divider.tif
+/Nota:/ l'attività dell'hard disk può imporre ulteriori vincoli alla dimensione minima del buffer. Se il suono si interrompe durante la riproduzione o la registrazione di diverse tracce audio, probabilmente dovrai impostare una dimensione di buffer un po' più grande.
+
+
+$Page Fattori correlati
+$TargetName Related Factors
+
+Rimane ancora un fattore da mettere a punto: la /Compensazione d'errore del Driver./
+Latency.tif
+
+Questa impostazione è rilevante solo se intendi registrare l'audio con Live. Ti consigliamo di apprendere innanzitutto le basi, seguendo la lezione $Link Registrazione Audio <Lesson:Builtin/1-Live Basics Category/2-Recording Audio>; poi, se necessario, potrai seguire la lezione $Link Compensazione d'Errore del Driver <Lesson:Builtin/3-Hardware Setup Category/2-Driver Error Compensation> per impostare questo fattore correttamente.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

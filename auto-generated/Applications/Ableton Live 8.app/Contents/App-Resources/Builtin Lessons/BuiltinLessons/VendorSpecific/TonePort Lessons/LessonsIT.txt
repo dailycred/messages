@@ -1,0 +1,250 @@
+$Page Configurazione della tua Interfaccia Line 6
+$TargetName Setting Up Your Line 6 Interface
+
+/Benvenuto a Live!/
+
+/Ableton Live Lite/ offre molte delle funzionalità di Ableton Live, la multi-premiata soluzione per la produzione musicale. Questa breve lezione ti aiuterà a configurare Live per l'uso con la tua interfaccia audio Line 6.
+
+Prima di iniziare:
+-> Lancia l'applicazione /POD Farm/ di Line 6; se non hai ancora installato POD Farm, chiudi Live e fallo adesso;
+-> Accertati che la tua interfaccia audio Line 6 sia collegata al computer e accesa. (Nota per utenti Windows: i dispositivi USB devono essere collegati e riconosciuti dal sistema operativo /prima/ di lanciare Live).
+-> Collega il tuo microfono o il tuo strumento al relativo ingresso dell'interfaccia audio;
+-> Collega l'uscita audio dell'interfaccia audio ad un paio di cuffie o di casse acustiche.
+
+I documenti di Live sono definiti Live Set. Questa lezione è accompagnata da un Live Set col quale interagirai procedendo. Quando sei pronto $Link *clicca qui* <Set:/Sets/Guitar Tutorial.als> per caricare il Live Set.
+
+*Nota:* non tutti i dispositivi Line 6 forniscono il supporto MIDI o tutte le funzionalità di ingresso audio descritte in questo tutorial. Consulta la documentazione del tuo modello per informazioni specifiche.
+
+Clicca sul pulsante /Pagina succ./ qui sotto per continuare.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Orientamento
+$TargetName Finding Guidance
+
+Cominciamo introducendo un paio di risorse che si riveleranno utili per acquisire la conoscenza di Live. La prima è la /Finestra Info:/
+OverviewInfoView.tif
+
+La Finestra Info è collocata nell'angolo in basso a sinistra della schermata di Live. E' una risorsa molto utile che descrive in pratica qualsiasi cosa si sorvoli col mouse. Come molte altre viste di Live, può essere mostrata o nascosta secondo necessità semplicemente cliccando sul /pulsante triangolare Mostra/Nascondi/ posto accanto al suo angolo inferiore sinistro.
+InfoViewFoldButton.tif
+
+Per un trattamento più approfondito delle caratteristiche di Live, puoi anche accedere al Manuale di Riferimento completo attraverso il menu Aiuto:
+HelpMenu.tif
+
+Il menu Aiuto consente di accedere anche alle /lezioni/ incorporate di Live, una delle quali è quella stai leggendo in questo momento. Ci sono diverse altre lezioni, che ti aiuteranno ad esplorare le possibilità di Live. Seguile!
+
+
+$Comment -----------------------------------------------------------------------
+$Page Impostazione di Entrate/Uscite Audio
+$TargetName Setting Up Audio I/O
+
+Come nostro primo passo configureremo le Entrate/Uscite audio di Live. Apri le /Preferenze/ di Live tramite il menu 'Live' (Mac OS X) o 'Opzioni' (Windows), quindi accedi alla scheda /Audio:/
+AudioTab.tif
+
+Nella parte superiore di questa scheda trovi il selettore /Tipo di Driver:/
+DriverTypeMac.tif
+
+-> Gli utenti Mac devono impostare il Tipo di Driver su *CoreAudio.*
+-> Gli utenti PC devono impostare il Tipo di Driver su *ASIO.*
+
+Ora che abbiamo definito il tipo di driver che useremo, possiamo selezionare il driver stesso. Seleziona il driver per tua interfaccia Line 6: (Mac OS X) tramite i selettori /Dispositivo Audio di Entrata/ e /Dispositivo Audio di Uscita;/ oppure (PC) tramite il selettore Il dispositivo /Dispositivo Audio:/
+TonePortAudioDeviceSansTonePort.tif
+
+Diverse interfacce audio Line 6 sono in grado di registrare più sorgenti contemporaneamente, ad es. voce e chitarra. Per abilitarne tutti gli ingressi clicca sul pulsante /Config. Entrate:/
+InputConfigButton.tif
+
+Quindi, accertati che entrambe le coppie stereo siano attivate:
+ConfigInputChannels.tif
+
+Clicca su *OK* per tornare alla scheda Audio.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Controllo MIDI con i Dispositivi Line 6
+$TargetName MIDI Control with Line 6 Devices
+
+Passiamo ora alla scheda /MIDI/Sync,/ dove possiamo stabilire la comunicazione MIDI tra Live e l'interfaccia audio:
+POD_Studio_MidiTab.tif
+
+Nella metà inferiore di questa scheda trovi la sezione /MIDI Ports./ La tua interfaccia audio Line 6 dovrebbe essere elencata qui, sia come Entrata che come Uscita (potrebbe essere necessario scorrere l'elenco per visualizzare tutti i dispositivi disponibili):
+MidiPortsPOD_Studio.tif
+
+Per consentire all'interfaccia audio di controllare remotamente l'interfaccia di Live, abilita l'interruttore /Remoto/ della /Entrata/ (Input) dell'interfaccia audio:
+RemoteEnabledPOD_Studio.tif
+
+Dopodiché puoi chiudere le Preferenze di Live.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Impostazioni della POD Farm
+$TargetName POD Farm Settings
+
+Nel nostro prossimo passo configureremo il software POD Farm della Line 6. Per ulteriori informazioni, consultane la documentazione fornita. Per ora ci limiteremo a selezionare *Instrument* da Tone 1 e *Mic* da Tone 2 utilizzando il menu /Source Select/ di POD Farm:
+InstMic.tif
+
+Poi apri le preferenze di POD Farm e seleziona la scheda /MIDI/Control./ Clicca sul pulsante etichettato /Line 6 Audio-MIDI Devices:/
+GearBoxMidiPrefs.tif
+
+Nella sezione /Controller Mapping/ della scheda /MIDI/ seleziona il preset *Ableton Live:*
+GearBoxLivePreset.tif
+
+Quindi clicca sul pulsante /Settings.../ per visualizzare le mappature del controller dell'interfaccia audio:
+GearBoxSettingsWide.tif
+
+-> Se tutte le voci della sezione sopra evidenziate indicano *None,* prima di continuare dovremo inserire manualmente alcune informazioni. $Link Clicca qui <Lesson:Builtin/BuiltinLessons/VendorSpecific/KB37 Controller Mappings>.
+-> Se ci sono già dei MIDI CC assegnati a queste funzioni, puoi semplicemente cliccare su *Cancel* (Annulla), chiudere le preferenze POD Farm e continuare la lezione.
+
+A questo punto la tua interfaccia audio Line 6 dovrebbe essere impostata per il controllo remoto dell'interfaccia di Live.
+
+Puoi verificare se la KB37 stia comunicando con Live agendo sulle sue manopole e i suoi pulsanti. Mentre lo fai, Live indicherà la ricezione dei messaggi di controllo facendo lampeggiare la propria /spia di ricezione MIDI,/ posta nell'angolo superiore destro della finestra dell'applicazione:
+MidiIndicator.tif
+
+*Nota:* UX2 e UX8 inviano il MIDI tramite dei controller a pedale.
+
+$Comment -----------------------------------------------------------------------
+$Page Impostazione del Monitoraggio
+$TargetName Setting up Monitoring
+
+Come prossimo passo dobbiamo impostare il monitoraggio di Live. Con molte interfacce audio puoi riscontrare della latenza - ritardi indesiderati che i segnali audio possono subire lungo il loro percorso da e verso il computer. Fortunatamente, le interfacce audio Line 6 con POD Farm offrono l'esclusiva soluzione di monitoraggio ToneDirect, che elimina virtualmente la latenza.
+
+Ci accingiamo a disattivare il /monitoraggio automatico d'ingresso/ di tutte le tracce nelle quali potremmo registrare, in modo da non sentire un suono "raddoppiato".
+
+Per prima cosa, accertati che la sezione /Entrate/Uscite/ (o I/O) del mixer sia visibile. Può essere mostrata e nascosta tramite il selettore dedicato, posto nell'angolo inferiore destro del mixer:
+IoSelector.tif
+
+Con la sezione Entrate/Uscite visibile, possiamo disattivare il monitoraggio delle singole tracce selezionandone l'interruttore /Off./ Fallo ora per la traccia 1, *Lead Guitar,* sulla quale registreremo tra poco:
+MonitoringOff.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Registrazione di una Ripresa
+$TargetName Recording a Take
+
+Nella Vista Arrangiamento abbiamo preparato alcune tracce da usare come base musicale, in modo da avere qualcosa su sui suonare:
+BackingTracks.tif
+
+Prima di registrare una ripresa, prendiamoci un attimo per familiarizzare col materiale presente. Clicca due volte sul pulsante /Stop/ della Barra di Controllo per assicurarti che la riproduzione cominci all'inizio del Live Set:
+TransportStopRec.tif
+
+Quindi clicca sul pulsante /Play/ della Barra di Controllo (oppure premi la *barra spaziatrice* della tastiera del computer):
+TransportPlayRec.tif
+
+Quando ti senti pronto, clicca nuovamente due volte sul pulsante Stop per reimpostare la posizione di inizio a *1.1.1.* Quindi clicca sull'adiacente pulsante della /Registrazione Globale./ (Se hai utilizzato registratori multitraccia a nastro, il processo ti sarà probabilmente familiare: prima le singole tracce possono essere armate per la registrazione, poi il pulsante della Registrazione Globale attiva la registrazione delle tracce armate):
+GlobalRecordRec.tif
+
+Infine, clicca sul pulsante Play (oppure premi la *barra spaziatrice* della tastiera del computer) per avviare la registrazione:
+TransportPlayRec.tif
+
+E' tempo di suonare!
+
+
+$Comment -----------------------------------------------------------------------
+$Page Registrazione e Riproduzione
+$TargetName Recording and Playback
+
+Mano a mano che la registrazione procede, vedrai crearsi una nuova /clip audio/ nella traccia.
+ArrangementClipRecording.tif
+
+Per interrompere la registrazione clicca sul pulsante /Stop/ della Barra di Controllo oppure premi di nuovo la *barra spaziatrice.*
+TransportStopRec.tif
+
+Ora, clicca un'altra volta sul pulsante Stop (reimpostando l'Arrangiamento a 1.1.1) e ascolta la tua registrazione cliccando sul pulsante Play.
+
+Se non sei soddisfatto di ciò che hai registrato, non preoccuparti! Una rapida pressione di *$CommandMod + Z* è tutto ciò che serve per annullare una ripresa ed essere pronti a provare di nuovo.
+
+Se hai registrato abbastanza a lungo, l'Arrangiamento potrebbe aver iniziato a scorrere orizzontalmente. Per far scorrere la visualizzazione avanti/indietro o per aumentare/diminuire lo zoom afferra col mouse il righello dei tempi di battuta, lungo la parte superiore dell'Arrangiamento:
+-> I movimenti verticali aumentano/diminuiscono lo /zoom;/
+-> I movimenti orizzontali eseguono lo /scorrimento/ a sinistra/destra.
+TimeLineRec.tif
+
+La riproduzione e la registrazione possono iniziare da qualsiasi punto della song. Puoi impostare un /marcatore d'inserimento/ cliccando ovunque nella Vista Arrangiamento (tranne che nella barra del titolo di una clip): la volta successiva, la song inizierà a suonare da quel punto.
+InsertMarker.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Registrazione di Due Ingressi
+$TargetName Recording Two Inputs
+
+Se la tua interfaccia audio Line 6 dispone di più ingressi, puoi utilizzarne la capacità di registrazione simultanea per registrare contemporaneamente un microfono e uno strumento. Impostiamo dunque la seconda traccia audio per il canale del microfono.
+
+Clicca sul pulsante /espandi traccia/ della traccia *6 Audio:*
+TrackUnfold.tif
+
+Innanzitutto, imposta il monitoraggio della traccia su *Off,* in modo da poter utilizzare il monitoraggio ToneDirect. Poi, nel soprastante selettore /Canale di Entrata,/ seleziona gli ingressi del microfono dell'interfaccia audio, cioè *3/4:*
+SecondTrackMonitoring.tif
+
+Il pulsante /Arma/ di una traccia la abilita per la registrazione, ma per default può essere armata solo una traccia alla volta. Per abilitare la traccia 6 oltre alla traccia 1, tieni premuto il tasto *$CommandMod* mentre clicchi sul pulsante Arma della traccia 6:
+TwoTracksArmed.tif
+
+Quindi predisponi la registrazione attivando di nuovo il pulsante della Registrazione Globale:
+GlobalRecordRec.tif
+
+Clicca sul pulsante Play per iniziare la registrazione. Il tuo strumento registrerà nella traccia 1, come prima, e il tuo microfono registrerà nella traccia 6!
+
+
+$Comment -----------------------------------------------------------------------
+$Page Arricchimento del Suono della Tua Chitarra
+$TargetName Tweaking Your Guitar Sounds
+
+Se da un lato la tua interfaccia audio Line 6 è dotata di un ottimo set di effetti, dall'altro è spesso opportuno applicare gli effetti /dopo/ avete registrato, in modo che essi non siano una parte permanente della registrazione. Live viene fornito con una grande selezione di effetti e di strumenti virtuali, disponibili nel /Browser dei Dispositivi: /
+DeviceBrowserSelector.tif
+
+Premi la *barra spaziatrice* per avviare nuovamente la riproduzione. Poi clicca sul nome di un effetto nel Browser dei Dispositivi, ad es. /Ping Pong Delay,/ e trascinalo nella traccia *Lead Guitar:*
+PingPong.tif
+
+Sentirai immediatamente gli effetti eco applicati alla tua esecuzione. Prova a cliccare e trascinare nella griglia /X/Y/ per modificare il suono.
+
+Per ottenere il classico "sound psichedelico", invertiamo la direzione: fai doppio clic sulla clip che hai appena registrato. Le sue proprietà verranno visualizzate nella /Vista Clip/ di Live, nella parte inferiore dello schermo. Clicca sul pulsante /Inverti/ (Rev), illustrato qui sotto, e ascolta il risultato:
+ReverseButton.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Modalità Mappatura MIDI
+$TargetName MIDI Map Mode
+
+Puoi controllare remotamente quasi tutte le funzioni di Live utilizzando la tastiera MIDI integrata che trovi nella Line 6 KB37. Personalizzeremo alcune mappature usando le manopole poste sul suo lato sinistro:
+KB37LeftKnobs.tif
+
+Le assegnazioni per il controllo remoto via MIDI vengono definite nella /Modalità Mappatura MIDI./ Per accedervi, clicca sull'interruttore /MIDI/ in alto a destra dello schermo:
+MidiMapSwitch.tif
+
+Nota come tutti i parametri che possono essere mappati per il controllo remoto appaiano evidenziati ogniqualvolta si attivi la Modalità Mappatura MIDI.
+
+Ora possiamo assegnare le manopole o i tasti della KB37 ai controlli di Live. Clicca /una volta/ uno dei parametri di Live per selezionarlo, quindi ruota una manopola o premi un pulsante della KB37 per creare l'assegnazione. Esci dalla Modalità Mappatura MIDI: sei già pronto per agire!
+
+Alcuni controlli della KB37, ad esempio i /pulsanti del trasporto,/ sono stati pre-mappati sui parametri di Live:
+TransportButtons.tif
+
+Questi pulsanti, da sinistra verso destra, funzionano come segue:
+-> Attivazione/disattivazione del metronomo
+-> Attivazione/disattivazione del Loop dell'Arrangiamento
+-> Stop
+-> Play
+-> Attivazione/disattivazione del pulsante di Registrazione Globale
+
+UX2, UX8 e KB37 aggiungono a Live anche il controllo a pedale. *Footswitch 1* alterna Play/Stop:
+PlayStop.tif
+
+*Footswitch 2* attiva/disattiva il pulsante di Registrazione Globale
+GlobalRecordRec.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Come continuare?
+$TargetName Where to Go from Here?
+
+A questo punto sei pronto ad utilizzare Live e la tua interfaccia audio Line 6, ma ci sono molte altre possibilità d'uso di Live per i chitarristi!
+
+-> Puoi registrare con Live le performance di un altro chitarrista e poi rallentare la registrazione drasticamente per rendere più facile l'apprendimento e la trascrizione.
+-> Rallentando i cambiamenti di accordo difficili, puoi costruire i tuoi riff jazz fino a dove sono in grado di arrivare le tue dita. I jazzisti più avanzati possono provare a suonare su cambi di accordo casuali, generati tramite le /Follow Action/ (Azioni Seguenti) delle clip.
+-> Il comando *Esporta Audio* del menu File può esportare l'uscita Master di Live sotto forma di nuovo campione. Il file risultante può essere utilizzato per masterizzare un CD audio da ascoltare o un CD di dati che può servire come copia di backup del tuo lavoro.
+-> Se desideri spingerti verso ambiti sperimentali puoi fare un uso creativo delle capacità di warping (deformazione temporale) e di pitch shifting (spostamento di frequenza) di Live.
+-> Per approfondimenti sulla registrazione tramite Live, segui la lezione sulla $Link Registrazione Audio <Lesson:Builtin/1-Live Basics Category/2-Recording Audio>.
+
+Qualunque sia il tuo gusto musicale, Live può aiutarti a trarre il massimo dalla tua chitarra e a migliorare la tua musica. Per lavorare con un numero illimitato di tracce, scene, effetti e altro ancora, esegui l'upgrade alla versione completa di Live $Link cliccando qui <http://www.ableton.com/upgrade>.
+
+Per ulteriori informazioni visita il sito $Link www.ableton.com <http://www.ableton.com>
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

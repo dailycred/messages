@@ -1,0 +1,170 @@
+$Page Construcción de instrumentos en capas
+$TargetName Building Layered Instruments
+$ListInTocForProduct 00
+
+Los Racks permiten fácilmente la construcción del tipo de complejos instrumentos dispuestos en múltiples capas normalmente asociados a caros softsamplers de terceras partes - utilizando nada más que los dispositivos incluidos en $0.
+
+En esta lección, aprenderá a utilizar los Racks para crear configuraciones de teclados apilados y divisiones de estos, cambios de patches por velocidad o tecla, y capas de liberación o desvanecimiento.
+
+Divider.tif
+*Esta lección viene acompañada de un Live Set con el que interactuará a medida que sigue la lección. Cuando esté preparado, por favor pulse $Link aquí <Set:/Sets/Building Layered Instruments.als> para cargar el Live Set.*
+Divider.tif
+
+
+Una vez haya cargado el set, por favor pulse sobre el botón /Siguiente página/ en la parte inferior para continuar.
+
+$Comment --------------------------------------------------------------------------------
+$Page Controles básicos del Rack
+$TargetName Basic Rack Controls
+
+Como puede ver, este set contiene una sola pista llamada "Synth." Está armada para grabar, por lo que si ya tiene conectado un teclado MIDI, puede ponerse a tocar de inmediato. Pruebe esto ahora.
+
+(Si necesita ayuda para configurar su teclado MIDI, por favor consulte la lección $Link Conexión de controladores MIDI  <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>).
+
+Los sonidos que escucha los produce un único instrumento /Simpler/ en la /cadena de dispositivos/ de la pista. Para construir un instrumento con múltiples capas con más de una fuente de sonido, vamos a envolver el Simpler con un contenedor especial conocido como Rack de instrumento.
+
+Para comenzar, vamos a poner nuestro instrumento Simpler dentro de un Rack de Instrumento. Para hacer esto, simplemente  *$ContextMenu* en la barra de título de Simpler y seleccone /Agrupar/ (o pule *$CommandMod-G).*
+
+A primera vista, no parece que haya cambiado mucho. Su instrumento ahora tiene una delgada barra de título vertical a su izquierda (la barra de título del Rack).
+RackTitleBar.tif
+
+El corchete a la derecha muestra el final del Rack.
+RackEndBracket.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Añadir otra cadena
+$TargetName Adding Another Chain
+
+Hasta el momento, no ha añadido ni dispositivos ni cadenas adicionales - simplemente a colocado nuestra cadena original dentro de un Rack. Pero ahora puede añadir cadenas de dispositivos adicionales. Veamos cómo funciona esto pulsando sobre el botón /Lista de Cadena/ en la barra de título del Rack:
+ChainListToggle.tif
+
+La Lista de Cadena proporciona una rápida vista general de las cadenas de dispositivos dentro de un Rack. También actúa como un mezclador para estas cadenas - cada cadena en la lista posee sus propios controles de Volumen, Pan, Activator, Solo y  Hotswap.
+ChainList.tif
+
+Puede añadir otra cadena al Rack abriendo el /Navegador de dispositivos/ de $0 y arrastrando un preset desde el Navegador hasta el Rack. Abra el Navegador de dispositivos pulsando sobre su icono:
+DeviceBrowserButton.tif
+
+A continuación navegue hasta el preset "Keys-Acoustic Piano" en la carpeta Instruments > Simpler > Piano and Keys:
+HighlightedPreset.tif
+
+Arrastre este preset hasta el chain list's /área de liberación/ de la lista de cadena y suéltelo.
+NewChain.tif
+
+Se creará una nueva cadena automáticamente. Ahora cuando toque su teclado MIDI, está tocando dos instrumentos Simpler distintos al mismo tiempo. Felicidades - ya ha crado una pila o columna.
+
+$Comment --------------------------------------------------------------------------------
+$Page Mezcla de cadenas de Rack
+$TargetName Mixing Rack Chains
+
+Mientras toca, puede que quiera ajustar los controles de mezcla en la lista de cadena hasta que encuentre los ajustes de volumen y panoramización que le satisfagan.
+ChainMixer.tif
+
+También puede mezclar cadenas de Rack junto con las pistas en el mismo mezclador de Session. Puede que se haya dado cuenta de que cuando creó este Rack, la pista que lo contiene añadió un botón cerca de su nombre:
+InlineToggle.tif
+
+Pulse este botón para conmutar la vista de la cadena en el mezclador:
+InlineRackView.tif
+
+Cualquier cambio que realice sobre los controles del mezclador del Rack en cualquiera de las vistas actualizará inmediatamente la otra vista.
+
+$Comment --------------------------------------------------------------------------------
+$Page División del teclado
+$TargetName Splitting the Keyboard
+
+En algunos casos, puede que quiera crear una /división/ de teclado - por ejemplo, la mitad inferior del teclado tocando una cadena, y la mitad superior tocando la otra. Para configurar esto, abra el /Editor de Zona de Teclado./
+KeyZoneButton.tif
+
+Una /zona/ es un filtro de datos que determina si un valor de entrada particular puede o no pasar hacia la cadena del dispositivo. Este editor muestra las Zonas de Teclado (Key Zones), que son filtros para rangos de teclado MIDI. Por defecto, todas las cadenas tienen su rangos de teclado completos activados. Para cambiar esto, arrastre o bien el lado izquierdo o derecho de una de las zonas.
+DraggingZoneEdge.tif
+
+Tenga en cuenta que el valor de la nota es visible debajo de la zona mientras lo ajusta, para ayudar a afinar mejor. Además, si la zona es más pequeña que el rango completo, puede mover toda la zona pulsando en su mitad y arrastrándola hasta la nueva ubicación. Esto mantiene su tamaño relativo, y puede ver tanto su valor de nota superior e inferior a medida que arrastra.
+DraggingZoneRange.tif
+
+Para aumentar o disminuir la vista de zona, *$ContextMenu* en el editor de zona y elija entre los tres tamaños de vista.
+ZoneSizingContext.tif
+
+Tenga en cuenta que puede que necesite desplazar el /Selector de la Vista Pista/ para ver todo el rango de teclado, dependiendo del tamaño que haya elegido y del tamaño de su pantalla.
+TrackViewSelector.tif
+
+A menudo, querrá dividir su teclado equitativamente entre cada cadena. Para hacer esto rápidamente, *$ContextMenu* en el editor de zona y elija *Distribuir Rangos Equitativamente.*
+DistributeRangesEqually.tif
+
+Mientras toca con su teclado, experimente con diferentes rangos de zona de teclado para encontrar una configuración que le guste. Cuando haya terminado, vuelva a colocar ambas zonas en sus valores (rango completo) por defecto antes de pasar a la siguente página.
+
+$Comment --------------------------------------------------------------------------------
+$Page Cambio por velocidad
+$TargetName Velocity Switching
+
+También puede cambiar entre cadenas basándose en la /velocidad/ de las notas entrantes como filtro, en vez de los rangos de notas - por ejemplo, velocidades bajas tocando una cadena y velocidades altas tocando la otra. (Tenga en cuenta que este ejemplo sólo funcionará si su teclado soporta Velocidad de nota MIDI.) Para configurar esto, abra el /Editor de zona de velocidad./
+VelZoneButton.tif
+
+Este Editor se parece bastante al editor de zona de teclado. Pero en vez de representar los valores de notas MIDI, las zonas aquí representan velocidades MIDI, con un rango de *1-127.* Al igual que con las zonas de teclado, aquí el valor por defecto es de rango completo; cada cadena se disparará a todas las velocidades. Para crear un patch con cambio de velocidad, cambie simplemente el tamaño de las zonas de velocidad como lo hizo antes:
+DraggingVelEdge.tif
+
+Experimente con diferentes rangos de velocidad para encontrar los valores que le gusten.
+
+Cuando esté tocando con edición de velocidad, probablemente notará que los dispositivos en las cadenas responden a la velocidad de formas diferentes. En concreto, el instrumento "Xylophone Attack" suena más alto a mayores velocidades mientras que el instrumento "Synth" simepre toca al mismo nivel sin tener en cuenta la velocidad.
+
+Esto saca a relucir un punto imortante del editor de velocidad - /no/ hay ninguna relación entre zonas de velocidad y control de velocidad de cualquier parámetro en particular en un dispositivo. Los editores de zona simplemente funcionan para determinar qué rango de señales de entrada pueden pasar a qué cadenas. Lo que les suceda a esas señales una vez que hayan pasdo los editores depende de la programación de los dispositivos dentro de las mismas cadenas.
+
+Cuando haya terminado de experimentar con el editor de velocidad, devuelva ambas zonas a sus valores (rango completo) por defecto antes de pasar a la siguiente página.
+
+$Comment --------------------------------------------------------------------------------
+$Page Cambio por teclado
+$TargetName Key Switching
+Durante una interpretación, el uso de ciertas teclas del teclado para cambiar entre capas de muestras puede ser una rápida alternativa para cambiar de patch. Puede construir cambio de patches por tecla (key-switching patches) en $0 asignando teclas al /Selector de cadena/ del Rack, que funciona de forma similar a las zonas de Velocidad y Teclado pero que actúa como filtro adicional para cadenas y que no está sujeto a ningún parámetro MIDI en particular.
+
+Primero, vamos a cambiar las zonas de teclado de nuestras cadenas de forma que las teclas que utilizará para el cambio por tecla no porducirán también sonido. Para esto, abra el Editor de zona de teclado y arrastre el borde izquierdo de ambas zonas hasta *D-2.*
+DSharpZones.tif
+
+Ahora abra el /Editor de selección de cadena/ pulsando sobre el botón /Chain:/
+ChainSelectButton.tif
+
+Fíjese en la fina línea vertical en la regla Chain Select. Se trata de un indicador que puede arrastrarse conocido como el /Chain Selector/ o selector de cadena. Mientras que las zonas de teclado y velocidad se comparan con algunos valores de entrada, las zonas de selección de cadena sólo están relacionadas con el valor del Selector de Cadena: Las cadenas cuyas zonas no solapan su posición actual no recibirán ninguna entrada.
+ChainSelector.tif
+
+Por defecto, el Selector de Cadena está ajustado a 0 y lo mismo están ambas zonas. Ahora, estire ambas zonas todo el rango completo. Luego *$ContextMenu* en el editor de zona y elija *Distribuir Rangos Equitativamente.*
+
+Ahora, cuando toque su teclado escuchará que sólo está sonando la cadena "Synth". Esto se debe a que la zona de Selección de Cadena para la cadena "Keys-Acoustic Piano" ya no incluye 0, que es la posición del Selector de Cadena. Para cambiar la posición del Selector de Cadena, lo asignaremos a un rango de teclas MIDI. Entre en el modo MIDI Mapping pulsando *$CommandMod-M* o pulsando el *interruptor MIDI Map Mode*
+MIDIMapButton.tif
+
+Pulse sobre la *Regla de la Selección de Cadena* para seleccionarla para asignación MIDI.
+ChainSelectRuler.tif
+
+Asignará tres teclas *(C2-D2)* como interruptores de teclado. Pulse y mantenga la pulsación sobre *C2,* luego pulse *D2,* y finalmente libere ambas teclas. Ahora salga del modo de mapeo por medio de *$CommandMod-M* o pulsando de nuevo el *interruptor MIDI Map Mode.*
+
+Su rango de tecla de tres notas ahora está mapeado a lo largo del rango completo del Selector de Cadena. Pulsando C2 lo mueve al 0 (activando así sólo la cadena "Synth"). Pulsando D2 lo mueve a 127 (activando así sólo la cadena "Keys-Acoustic Piano"). Pulsando C#2 lo mueve al 64, lo que en nuestro caso sólo activa una cadena. Puesto que queremos que esta nota sea nuestro interruptor de "apilación," será necesario que cambiemos las zonas de cadena de forma que ambas se solapen en el 64. Podemos hacer esto extendiendo la zona de "Synth" hacia la derecha.
+OverlappingZones.tif
+
+Ahora, pruebe a pulsar las notas C2-D2 al tiempo que toca en las notas superiores para escuchar cómo funciona la selección de cadena. Tenga en cuenta que las notas que se estén tocando en ese momento no está afectadas por el proceso de selección de cadena - si se está manteniendo un acorde en "Synth" mientras cambia a la zona "Keys-Acoustic Piano," sólo las nuevas notas que toque desde ese momento dispararán la cadena "Keys-Acoustic Piano." A diferencia de los cambios tradicionales de patch, los cambios por interruptor de tecla nunca causarán clics o cortes en el sonido.
+
+Cuando haya terminado de experimentar con el editor de selección de cadena, devuelva ambas zonas a sus valores por defecto (0), arrastre el Selector de Cadena de nuevo hasta 0, y cierre el editor pulsando sobre el botón /Ocultar/ antes de continuar con la página siguiente.
+
+$Comment --------------------------------------------------------------------------------
+$Page Disparo a la liberación
+$TargetName Release Triggering
+
+Un tipo de programación que encontramos comúnmente en las librerias de muestras de calidad es el uso de "release layers" o capas de liberación. Estas son grupos de muestras que sólo se reproducen cuando se liberan las teclas, en vez de cuando se pulsan. Esta técnica puede usarse para crear simulaciones realistas de instrumentos acústicos - de harpsichords, por ejemplo. Los Racks le permiten hacer esto fácilmente, mediante el uso del efecto MIDI /Note Length/ que fue introducido en $0 6.
+
+Para configurar un disparo a la liberación, abramos de nuevo el navegador de dispositivos y desplacémonoso hasta los efectos MIDI - Note Length.
+NoteLength.tif
+
+Arrastre este dispositivo sobre la cadena "Keys-Acoustic Piano" en la lista de cadena y suéltelo. Esto inserta el efecto Note Length en la cadena, delante del instrumento.
+
+Para disparar esta cadena con mensajes note-off, pulse sobre el botón /Trigger/ en la herramienta Note Length para cambiar su comportamiento de *Note On* a *Note Off.*
+NoteOff.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page ¿Y ahora adonde me dirijo?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Ahora que ya está familiarizado con algunos principios básicos de la construcción de Racks, querrá experimentar con la utilización de diferentes instrumentos, dispositivos MIDI, efectos de audio, etc.
+
+-> Si todavía no lo ha hecho, le sugerimos encarecidamente que lea el capítulo "Racks de Instrumentos, Batería y Efectos" en el $Link manual de referencia. <Manual> Los Racks se han diseñado para ser lo más intuitivos posible. Pero son muy potentes y extremadamente flexibles, y para sacarles el máximo se requiere una completísima comprensión de todas sus funciones.
+
+-> Una vez esté cómodo con lo aprendido sobre principios básicos de los Racks, pruebe con el resto de las lecciones sobre los Racks...
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

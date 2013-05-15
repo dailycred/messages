@@ -1,0 +1,152 @@
+$Page Using Automation 
+$TargetName Using Automation
+
+In $0, every control movement in the mixer and devices can be /automated./ This can be a valuable asset for creating music that is dynamic and interesting. This lesson will guide you through the process of creating, recording and editing /automation./
+
+Divider.tif
+*Please click $Link here <Set:/Sets/Using Automation.als> to load the Live Set that accompanies this lesson.*
+Divider.tif
+
+Before we start, let's make more room for the Arrangement View by folding away the /Browser/ on the left-hand side of the screen with its /Show/Hide button,/ shown below.
+ShowHideBrowser.tif
+
+You'll probably also want to use the Mixer Section selectors on the right-hand side of the screen to show the only section we'll be needing - the /Mixer section/ - and hide the others:
+MixerSectionShow2.tif
+
+When you're ready, click /Next Page/ below to proceed.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Automation 
+$TargetName Automation
+
+/Automation,/ the movement of a knob, switch or fader across the song timeline, can be recorded and edited in $0.
+
+Please zoom out in the Arrangement View at left by clicking and dragging upwards in the /beat ruler,/ which is highlighted in the picture below.
+TimeRuler.tif
+
+Looking at the track called "Bass," we can see a good example of recorded automation. Zoom back to bar 33 to get a better look.
+ExampleOfAutomation.tif
+
+Automation shows up in the Arrangement View as /envelopes/ superimposed on a clip's waveform or MIDI notes. This particular instance of automation is for track panning, as indicated by the two /automation choosers/ immediately below the track's name.
+UnderTheName.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Drawing Automation 
+$TargetName Drawing Automation
+
+Envelopes in $0 can be /drawn/ when /Draw Mode/ is turned on with this Control Bar switch:
+ThisSwitch.tif
+
+With Draw Mode enabled, you can draw steps like those shown below directly onto the waveform or MIDI notes of your clip.
+StepsOnto.tif
+
+The size of these steps is based on the width of the editing grid, which can be changed in the Options menu or from the context menu (access the context menu with a $ContextMenu anywhere in the area of the Arrangement except the clip title bars):
+GridContextMenuArr.tif
+
+Turn the grid off to draw "freehand," without steps.
+
+Divider.tif
+You can always listen to the results of your automation by clicking on your clip's title bar and pressing the space bar: playback will then begin right at the start of the clip. Pressing the space bar again will stop playback.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Creating New Envelopes 
+$TargetName Creating New Envelopes
+
+You can choose /any parameter/ of the track's mixer or its devices from the choosers pointed out earlier and draw an envelope for it from scratch.
+UnderTheName.tif
+
+Simply clicking on most mixer and device controls in $0 will also call up their automation envelopes for editing. Try double-clicking the track called "Drums" to bring up the track's Drum Rack instrument and Beat Repeat effect at the bottom of the screen.
+
+Now, click on one of the Beat Repeat's controls and watch as its automation envelope appears in the choosers and track display.
+NewEnvelope.tif
+
+
+Divider.tif
+The $Link reference manual's <Manual> "Live Instrument Reference," "Live Audio Effect Reference" and "Live MIDI Effect Reference" chapters contain extensive information about the program's built-in instruments and effects, and would be an interesting source for ideas on controls to automate.
+
+$Comment -----------------------------------------------------------------------
+$Page Editing Automation 
+$TargetName Editing Automation
+
+With the Draw Mode switch turned /off,/ automation envelopes display /breakpoints:/
+Breakpoint.tif
+
+Using the automation in the "Bass" track, try clicking and dragging on any breakpoint to move it to a new position.
+
+You can also create or delete breakpoints by double-clicking along the envelope.
+
+When editing automation, it is sometimes convenient to view /only/ those track parameters which are automated. You can do this by choosing /Show Automated Parameters Only/ from either of the automation choosers:
+ShowAutomated.tif
+
+In this mode, each track's two automation choosers will unite into one, which will show only /automated/ track parameters.
+
+To again deactivate this special editing mode, select /Show All Parameters/ from the chooser.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Automation Lanes 
+$TargetName Automation Lanes
+
+You can view the current parameter envelope in its own /automation lane/ by pressing the "+" button below the automation choosers:
+MakeNewLane.tif
+
+You can then choose additional parameters from the automation choosers and, if desired, create lanes for them as well. This allows you to view and edit multiple parameters at once.
+MultipleLanes.tif
+
+Notice that, with Draw Mode turned off, you can click and drag in the background of one or more lanes to select time;
+SelectedEnvelope.tif
+
+then, any standard /Edit/ menu commands, such as /Duplicate,/ will affect only the envelopes, and not the contents of the clips themselves.
+DuplicatedEnvelope.tif
+
+Divider.tif
+*For a discussion of envelope-drawing techniques and more on automation lanes, please refer to the "Automation and Editing Envelopes" chapter of the $Link reference manual <Manual>.
+
+$Comment -----------------------------------------------------------------------
+$Page Recording Automation 
+$TargetName Recording Automation
+
+One of the most fun applications for automation is recording real-time changes to device controls.
+
+$0's assortment of effects and instruments is stored in the /Device Browser/ at the left-hand side of the screen, which opens when its selector button is clicked:
+SelectorClicked.tif
+
+Use the scroll bar on the left-hand side of the Device Browser to scroll down to the /Auto Filter/ effect you will find in the "Audio Effects" folder.
+AutoFilter.tif
+
+Click and drag the Auto Filter to the right, over the "Bass" track, and drop the effect. It will show up at the bottom of the screen in the /Track View./
+EffectInTrack.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Recording Automation, Continued 
+$TargetName Recording Automation, Continued
+
+Now, you can record any changes to the Auto Filter's controls, making them part of the Arrangement.
+
+To do this, first reset the Arrangement position to 1.1.1 by pressing the Control Bar's /Stop button/ twice.
+StopButton2.tif
+
+Then, press the Control Bar's /Record button./
+RecordButton2.tif
+
+Now, press the adjacent /Play button/ to begin recording.
+PlayButton.tif
+
+When you move any of the controls on the Auto Filter (the frequency control, for instance) during recording, $0 will record a precise log of every change.
+Frequency.tif
+
+Press the space bar when you are done, and press it again to listen to the effects of your recording, noting the "ghost in the machine" that moves the controls in the Auto Filter.
+
+Your recorded control movements will appear as breakpoint envelopes in the "Bass" track, ready for further editing:
+BassAutomation.tif
+
+$Comment -----------------------------------------------------------------------
+$Page More Possibilities... 
+$TargetName More Possibilities...
+
+Tweaking knobs and faders with the mouse is one thing, but for the real fun, you'll need real knobs. You can use the lesson on $Link control surfaces <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers> to find out how to remote-control $0.
+
+$Comment Status: Translate

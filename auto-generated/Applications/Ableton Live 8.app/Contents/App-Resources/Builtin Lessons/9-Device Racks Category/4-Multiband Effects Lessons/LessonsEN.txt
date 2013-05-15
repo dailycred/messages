@@ -1,0 +1,90 @@
+$Page Multiband Effects 
+$TargetName Multiband Effects
+$ListInTocForProduct 00
+
+Understanding the principle of signal flow within /device chains/ is an important step towards using Racks creatively and effectively. In this lesson, you'll learn how to build multiband effects devices by using EQs to divide frequency components of an audio signal into their own chains.
+
+Divider.tif
+*This lesson is accompanied by a Live Set which you'll be interacting with as you follow the lesson. Whenever you're ready, please click $Link here <Set:/Sets/Multiband Effects.als> to load the Live Set.*
+Divider.tif
+
+
+Once you've loaded the set, please click the /Next Page/ button below to continue.
+
+$Comment --------------------------------------------------------------------------------
+$Page Identifying the Problem 
+$TargetName Identifying the Problem
+
+This set contains a looped drum clip, which we'll be using as our source material. Trigger the clip's play button to start it.
+
+Because this is a mixdown (as opposed to individual instrument tracks) it would normally be very difficult to isolate individual frequencies within it for processing. For example, adding reverb to the highs alone would have been easy to do if each drum was on a separate track - but now that they're mixed together it becomes more complicated. This is the type of situation that mastering engineers must deal with; isolating and processing some components of a mixed audio file independently of the others.
+
+Fortunately, $0's Racks allow us to solve this problem easily.
+
+$Comment --------------------------------------------------------------------------------
+$Page Building our Rack 
+$TargetName Building our Rack
+
+To start building our Rack, open $0's /Device Browser/ by clicking its button in the Browser area.
+DeviceBrowserButton.tif
+
+Open the /Audio Effects/ folder and insert an empty /Audio Effect Rack,/ either by *double-clicking* or by dragging it to the track.
+AudioEffectRack.tif
+
+Now let's add our device chains. We'll want one chain for each frequency band that we'd like to be able to independently control. For this lesson, let's work with three bands. First, you'll need to view the /Chain List/ by clicking its button in the Rack.
+ChainList.tif
+
+Start by dragging an /EQ Three/ effect from the Browser into the chain list to create our first device chain.
+Chain1.tif
+
+Now, drag another EQ Three to the chain list to create our second chain.
+Chain2.tif
+
+Notice that the volume immediately became significantly louder. That's because both chains are independently processing the incoming audio. And since we haven't yet made any adjustments to our EQs, neither is attenuating the overall output level. Before adding our third chain, you might want to turn down the volume a bit, either at the track or at the master output.
+
+Now, drag a third EQ Three to the chain list to create our final chain. We now have a Rack that's doing nothing but making our signal too loud. In order to make it useful, we'll adjust the parameters of each chain's EQ device so that each one is only passing a specific frequency range.
+
+$Comment -------------------------------------------------------------------------------
+$Page Adjusting the Parameters 
+$TargetName Adjusting the Parameters
+
+Let's rename our chains so that we can keep track of our work. To do this, click each chain's entry in the chain list and press *$CommandMod-R.* We can also rename via *$ContextMenu.* Name the chains *Low,* *Mid,* and *High.*
+RenamedChains.tif
+
+We'll now adjust the EQs for each chain. Click in the *Low* chain to select it, then turn off the *M* and *H* bands in the EQ, leaving only *L* enabled.
+LowEQParameters.tif
+
+Repeat this process for the other two chains, enabling only the *M* band in the *Mid* chain, and only the *H* band in the *High* chain. You may want to experiment with the *FreqLow* and *FreqHigh* crossover controls in each EQ, as well as with the *24 dB/48 dB* switch in order to "tune" each chain's frequency response.
+OtherParameters.tif
+
+Soloing the chains may help you to hear the effects of your adjustments.
+SoloButtons.tif
+
+$Comment -------------------------------------------------------------------------------
+$Page Adding more Effects 
+$TargetName Adding more Effects
+Now that each chain is responsible for only one frequency component, you can add effects after the EQs to add additional, chain-specific processing. Let's add a /Reverb/ effect to the *High* chain. First, click the chain in the chain list to select it, then drag the Reverb effect from the Device Browser to the right of the EQ and drop it.
+HiReverb.tif
+
+Be careful not to drop the Reverb to the right of the bracket that indicates the end of the Rack. Any effects placed here will process the overall mix of the Rack, which means that all frequency bands will be processed.
+
+Let's continue by adding a /Compressor/ to the *Low* chain.
+LowCompressor.tif
+
+Now add a /Ping Pong Delay/ to the *Mid* chain.
+MidPingPong.tif
+
+With added effects, it becomes much easier to hear the frequency isolation in each chain.
+
+$Comment -------------------------------------------------------------------------------
+$Page Where to Go From Here? 
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Try experimenting with adding different effects to each chain, and with different parameters and EQ settings. Even subtle changes in the crossover positions can have a dramatic effect on how each chain isolates particular frequencies.
+
+-> Adding additional EQs to new chains can allow you to have even finer control over frequency bands. Try adding some additional chains, perhaps with /EQ Eights/ for even finer control.
+
+-> Add some effects after (or before) the entire Rack, in order to process the overall output.
+
+$Comment Status: Translate

@@ -1,0 +1,55 @@
+$Page Repérage d'échantillons manquants
+$TargetName Locating Missing Samples
+
+Le gestionnaire de fichiers de $0 peut vous aider à trouver tout échantillon manquant dans vos Sets Live.
+MissingFilesSection.tif
+
+
+Vous pouvez utiliser deux méthodes:
+
+-> $Link Réparation manuelle par glisser-déposer <GotoPage:Manual Repair>
+-> $Link Recherche automatique <GotoPage:Automatic Search>
+
+
+$Comment -----------------------------------------------------------------------
+$Page Réparation manuelle
+$TargetName Manual Repair
+
+Pour rétablir manuellement une liaison rompue avec un échantillon, repérez l'échantillon manquant dans le navigateur de fichiers:
+MissingSampleInBrowser.tif
+
+Faites glisser le fichier depuis le navigateur de fichiers, et déposez-le sur la ligne lui correspondant dans la liste des fichiers manquants du gestionnaire de fichiers:
+LocatedMissingSample.tif
+
+Notez que vous pouvez prendre n'importe quel fichier de votre choix comme nouvelle référence; cela ne doit pas nécessairement être le fichier manquant.
+
+
+Veuillez cliquer sur le bouton /Page suivante/ ci-dessous pour apprendre la recherche automatique avec le gestionnaire de fichiers.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Recherche automatique
+$TargetName Automatic Search
+
+La fonction de recherche automatique du gestionnaire de fichiers est souvent le moyen le plus simple de réparer des liens rompus vers des échantillons:
+AutomaticSearchSection.tif
+
+Vous pouvez cliquer sur le bouton /Cherch/ pour commencer immédiatement la recherche, ou faire apparaître des options de recherche à l'aide du triangle se trouvant sur la gauche:
+
+-> *Examiner dossier* inclut dans la recherche un dossier défini par l'utilisateur;
+-> *Examiner projet* inclut le dossier projet du Set actuel;
+-> *Examiner bibliothèque* inclut la Bbibliothèque de $0;
+-> *Chercher près des échantillons déjà trouvés* inclut les dossiers de tous les échantillons déjà retrouvés;
+-> *Correspondance exacte* ne donne comme résultats que les échantillons correspondant exactement aux échantillons manquants;
+-> *Réexamen des dossiers* reconstruit complètement l'index de recherche de $0, détectant tous les échantillons qui ont été ajoutés ou supprimés par d'autres applications.
+
+
+Pour chaque échantillon manquant, la recherche automatique peut trouver n'importe quel nombre de /candidats/ ou correspondances possibles:
+
+-> Si aucun candidat n'est trouvé, vous pouvez soit relancer la recherche avec des critères moins restreints soit rechercher manuellement l'échantillon;
+-> Quand un seul candidat est trouvé, $0 l'accepte et considère que le problème est résolu;
+-> Si plusieurs candidats sont trouvés, cliquez sur le bouton /Remplacement à chaud/ de la ligne, représenté ci-dessous; les candidats seront listés dans le navigateur de fichiers:
+HotSwapMissingSample.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,13 @@
+$Page What is a Project? 
+$TargetName What is a Project?
+
+A Live Project is a folder which can be used to organize any related Live Sets, Clips, presets or other files.
+ProjectInBrowser.tif
+
+Consider, for example, working on a piece of music: You begin with an empty Live Set; you record audio and thereby create new sample files; you drag in samples from collections; you save different versions of the Live Set along the way so that you can go back and compare.
+
+All the files related to this piece of music will be stored in the project folder - and $0's /File Manager/ will provide the tools you need to manage them.
+
+Live Sets are always saved within a Live Project, but you don't have to worry about creating project folders manually: Live creates them automatically if they don't already exist.
+
+$Comment Status: Translate

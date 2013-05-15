@@ -1,0 +1,26 @@
+$Page Collecting External Samples 
+$TargetName Collecting External Samples
+
+As Live Projects develop, they often end up referencing samples from many different locations on your computer. While this isn't a problem in itself, problems will arise if these samples are inadvertently moved, deleted, or altered by other applications.
+
+To reduce the likelihood of losing files, $0's File Manager can copy all of your Project's external samples directly into the project folder. $0 considers any samples which are outside of the project folder to be external:
+
+-> Samples located in Live's Library;
+-> Samples located in other project folders;
+-> Samples located elsewhere on your computer.
+
+The status of these samples is shown in the File Manager's /External Samples/ section:
+ExternalSamplesSection.tif
+
+You can collect all of the samples from any of the above categories by enabling their respective /Yes/ switches, then clicking the /Collect and Save/ button at the bottom of the File Manager:
+CollectSaveButton.tif
+
+There are a few things you should keep in mind before collecting samples:
+
+-> Multisampled instruments and libraries are often extremely large, and copying them will greatly increase the size of your project folder. Check the file size listed for each sample category before collecting.
+-> If you and your colleagues all have the same set of samples installed in your Libraries - Ableton's Essential Instrument Collection, for example - you won't need to collect these samples in order to share your Projects.
+-> Licensed samples and software instruments, such as the EIC, will not load on computers which don't have valid licenses to use them.
+
+The File menu's *Collect All and Save* command can also be used whenever you know that you want to collect every external sample referenced by the current Live Set.
+
+$Comment Status: Translate

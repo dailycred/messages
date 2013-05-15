@@ -1,0 +1,107 @@
+$Page KB37 コントローラマッピング
+$TargetName KB37 Controller Mappings
+$ListInTocForProduct 2B
+
+以下は、Ableton Liveコントローラマッピング・プリセットのデフォルト設定です。 設定が変更されている場合、参考としてご使用ください。 TonePortレッスンへ戻るには、下の[戻る]ボタンをクリックします。
+
+
+Divider.tif
+/モジュレーションホイール/
+To MIDI Out: *MIDI CC (14 bit)*
+MIDI CC/Action: *001/033 - Mod Wheel*
+
+/Sound Select Prev/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *097 - Data Decrement*
+スイッチモード: *Single*
+
+/Sound Select Next/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *096 - Data Increment*
+スイッチモード: *Single*
+
+Divider.tif
+/ノブ1/
+To MIDI Out: *MIDI CC (14 bit)*
+MIDI CC/Action: *016/048 - General Control 1*
+
+/ノブ2/
+To MIDI Out: *MIDI CC (14 bit)*
+MIDI CC/Action: *017/049 - General Control 2*
+
+/ノブ3/
+To MIDI Out: *MIDI CC (14 bit)*
+MIDI CC/Action: *018/050 - General Control 3*
+
+/ノブ4/
+To MIDI Out: *MIDI CC (14 bit)*
+MIDI CC/Action: *019/051 - General Control 4*
+
+Divider.tif
+/ボタン1/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *080 - General Control 5*
+スイッチモード: *Toggle*
+
+/ボタン2/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *081 - General Control 6*
+スイッチモード: *Toggle*
+
+/ボタン3/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *082 - General Control 7*
+スイッチモード: *Toggle*
+
+/ボタン4/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *083 - General Control 8*
+スイッチモード: *Toggle*
+
+Divider.tif
+/Transport Rew/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *027 - CC 27*
+スイッチモード: *Toggle*
+
+/Transport Fwd/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *059 - CC 59*
+スイッチモード: *Toggle*
+
+/Transport Stop/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *003 - CC 3*
+スイッチモード: *Single*
+
+/Transport Play/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *002 - Breath Control*
+スイッチモード: *Single*
+
+/Transport Rec/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *006 - Data Entry*
+スイッチモード: *Single*
+
+Divider.tif
+/エクスプレッション・ペダル/
+（マッピングなし）
+
+/フットスイッチ1/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *Custom*
+スイッチモード: *Toggle*
+Toggle 1/Dn CC: *2*
+Toggle1/Dn Val: *127*
+Toggle2/Up CC: *3*
+Toggle2/Up Val: *127*
+
+/フットスイッチ2/
+To MIDI Out: *MIDI CC*
+MIDI CC/Action: *006 - Data Entry*
+スイッチモード: *Momentary*
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

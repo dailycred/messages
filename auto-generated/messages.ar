@@ -1,0 +1,86 @@
+Application.NoSuchClient=لا يوجد عميل لمعرف٪ ق.
+Application.NoSuchApp=لا يوجد التطبيق موجود لمعرف٪ ق.
+Application.NoClientProvided=يرجى تقديم رقم العميل الخاص بك مع طلبك.
+Application.NoRedirectProvided=يرجى تقديم طلب إعادة توجيه مع أوث الخاص بك. <br/> <b>المطورون:</b> توفير أوري رد الاتصال الخاصة بك باستخدام المعلمة <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> أو عن طريق وضع رد الاتصال الافتراضية في <a href="https://www.dailycred.com/admin/setup">إعدادات حسابك</a> .
+Application.EnterEmailOrUsername=من فضلك ادخل بريدك الإلكتروني أو اسم المستخدم.
+Application.EnterEmail=من فضلك ادخل بريدك الإلكتروني.
+Application.EnterUsername=الرجاء إدخال اسم المستخدم الخاص بك.
+Application.EnterPassword=الرجاء إدخال كلمة المرور.
+Application.AtNotAllowed=رمز &quot;@&quot; لا يمكن استخدامها في اسم المستخدم الخاص بك.
+Application.WrongPasswordOrUsername=يرجى التحقق من اسم المستخدم وكلمة المرور الخاصة بك وحاول مرة أخرى. <a href="%s">لإعادة ضبط كلمة السر الخاصة بك إضغط هنا.</a>
+Application.BadDomain=المجال &quot;٪ S&quot; غير صالح.
+Application.BadEmail=يرجى التحقق التي تم إدخالها البريد الإلكتروني الخاص بك بشكل صحيح وحاول مرة أخرى.
+Application.BadNewEmail=يرجى التحقق التي تم إدخالها البريد الإلكتروني الجديد الخاص بك بشكل صحيح وحاول مرة أخرى.
+Application.PasswordTooShort=الرجاء إدخال كلمة المرور مع ما لا يقل عن٪ حرفا د.
+Application.NoCallbackUri=لم يتم تغيير٪ S على URI رد حتى الآن. يرجى المحاولة مرة أخرى في وقت لاحق.
+Application.EmailTaken=هذا البريد الإلكتروني قيد الاستخدام بالفعل.
+Application.UsernameTaken=واتخذت بالفعل هذا المستخدم. الرجاء استخدام اسم مستخدم مختلف.
+Application.EmailSent=تم إرسال رسالة إلكترونية. يرجى التحقق من بريدك الالكتروني لمزيد من التعليمات.
+Application.EmailSentGmail=تم إرسال رسالة إلكترونية. <a href="http://mail.google.com/">يرجى التحقق من Gmail الخاص بك لمزيد من التعليمات.</a>
+Application.GoToGmail=الذهاب إلى صندوق البريد الوارد في Gmail
+Application.EmailSentYahoo=تم إرسال رسالة إلكترونية. <a href="http://mail.yahoo.com/">يرجى التحقق من البريد الإلكتروني ياهو لمزيد من التعليمات.</a>
+Application.GoToYahoo=الذهاب إلى Yahoo علبة الوارد الخاصة بك
+Application.EmailSentHotmail=تم إرسال رسالة إلكترونية. <a href="http://www.hotmail.com/">يرجى التحقق من Hotmail الخاص بك لمزيد من التعليمات.</a>
+Application.GoToHotmail=الذهاب إلى صندوق البريد الوارد Hotmail الخاص بك
+Application.EmailSentICloud=تم إرسال رسالة إلكترونية. <a href="https://www.icloud.com/#mail">يرجى مراجعة البريد iCloud الخاصة بك لمزيد من التعليمات.</a>
+Application.GoToICloud=الذهاب إلى iCloud علبة الوارد الخاصة بك
+Application.NoSuchEmail=لا يوجد مستخدم للبريد الإلكتروني٪ ق.
+Application.NoSuchUser=لا توجد قوائم لمعرف٪ ق.
+Application.NoSuchUserFriendly=لم نتمكن من العثور على الحساب المستخدم لهذا البريد الإلكتروني أو اسم المستخدم. يرجى المحاولة مرة أخرى.
+Application.NoSuchToken=كان هناك خطأ توقيع لك الدخول إلى حسابك. يرجى المحاولة مرة أخرى في وقت قريب.
+Application.PasswordResetInvalid=هذا طلب إعادة تعيين كلمة المرور غير صالحة أو غير موجود. يرجى محاولة إعادة تعيين كلمة السر الخاصة بك مرة أخرى.
+Application.PasswordUpdated=تم تحديث كلمة السر الخاصة بك.
+Application.APIWrongPassword=يرجى التحقق من كلمة المرور الخاصة بك وحاول مرة أخرى.
+Application.APIError=حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى.
+Application.APIBadToken=غير صالحة الوصول رمزية أوث.
+Application.APINoToken=يجب استخدام رمز وصول بالموقع الاستعلام عن معلومات حول المستخدم الحالي.
+Application.APIBadCode=غير صالح رمز أوث.
+Application.TimeOut=الذي يبدو أنه أخذ وقتا طويلا. يرجى المحاولة مرة أخرى في وقت قريب.
+Application.BadURL=هذا ليس عنوان URL صالحا. يجب أن يكون هذا الحقل URL الكامل، غير نسبي، مثل https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=يحتوي هذا الحقل على طول أقصى 200 حرفا. الرجاء استخدام شيء أقصر.
+Application.NoStripeKey=ولم يتم العثور على الشريط API مفتاح. يرجى تعيين مفتاح API الخاص بك في الشريط الخاص <a href="https://dailycred.com/admin/setup">إعداد</a> الصفحة.
+Application.OAuthCallBackNotInDomain=لم تتم الموافقة على redirect_uri التي تقدمها إعدادات حساب هذا العميل.
+Application.CNameNotValidDomain=وقدمت CNAME لا يبدو أن هناك مجال صالح.
+Application.Required=هذا هو حقل مطلوب.
+Application.LogoFileTooLarge=تجاوز الحد الأقصى لحجم الملف.
+Application.LogoFileIsNotImage=نوع الملف غير صالح. فقط يسمح PNG، JPG و GIF.
+Application.NoClientSecret=يجب تحديد معلمة client_secret تحتوي على مفتاح السر الخاصة بك Dailycred.
+Application.InvalidClientSecret=هذا هو المفتاح السري Dailycred غير صالحة.
+Application.MissingRequiredFields=يبدو أنك في عداد المفقودين بضعة الحقول المطلوبة. يرجى الدخول إلى حسابك في <a href="/admin/setup">إعداد</a> الصفحة للحصول على اقامة.
+Application.CouldNotUnsubscribe=نحن آسفون، وذلك بسبب خطأ فني لم نتمكن من إلغاء اشتراكك مباشرة من هذا الرابط. يرجى المحاولة مرة أخرى، أو <a href="mailto:support@dailycred.com">الاتصال بنا مباشرة</a> إلى إزالتها.
+Application.Unsubscribed=لقد كان إلغاء الاشتراك. نحن آسفون لرؤية تذهب!
+Application.Subscribed=كنت قد تم الاكتتاب. شكرا!
+Application.CouldNotSubscribe=نحن آسفون، وذلك بسبب خطأ فني لم نتمكن من الاشتراك بك مباشرة من هذا الرابط. يرجى المحاولة مرة أخرى، أو <a href="mailto:support@dailycred.com">الاتصال بنا مباشرة</a> لتتم إضافته.
+Application.AdminsCantUnsubscribe=يعترف لا يمكن إلغاء الاشتراك من حسابها الخاص.
+Application.EmailIsSame=رسالة البريد الإلكتروني الجديدة هو نفس البريد الإلكتروني الخاص بك الحالي.
+Application.EmailOnlyUserNotAllowed=هذا التطبيق لا يدعم البريد الإلكتروني فقط للمستخدمين.
+Application.EmailChangeSuccess=تم تغيير البريد الإلكتروني الخاص بك إلى٪ s. الرجاء البحث عن رسالة التأكيد والتحقق من عنوانك الجديد.
+Application.EmailVerifySuccess=وقد تم التحقق من٪ S البريد الإلكتروني.
+Application.PostOnly=يجب أن يتم هذا الطلب باستخدام <b>طلب HTTP POST.</b> <br/><br/> إذا كنت مجرد التحقق من API، نقترح استخدام حليقة أو <a target="_blank" href="http://hurl.it/">القاء</a> .
+Application.StripeTrialEnd=A <a href="https://www.dailycred.com/admin/user/%s">المستخدم</a> لديه المحاكمة التي على وشك الانتهاء. وكان سبب هذا البريد الإلكتروني من قبل webhook الشريط.
+Application.StripePaymentSucceeded=A <a href="https://www.dailycred.com/admin/user/%s">المستخدم</a> اتهم بنجاح. وكان سبب هذا البريد الإلكتروني من قبل webhook الشريط.
+Application.StripePaymentFailed=A <a href="https://www.dailycred.com/admin/user/%s">المستخدم</a> واتهم دون جدوى. وكان سبب هذا البريد الإلكتروني من قبل webhook الشريط.
+Application.BillingError=ما حدث من خطأ عند محاولة تعيين معلومات الفواتير الخاصة بك. يرجى المحاولة مرة أخرى للحظات.
+Application.TrialWillEnd=التجربة المجانية الخاصة بك مع Dailycred هو على وشك الانتهاء على٪ s. يرجى زيارة الخاص بك <a href="https://www.dailycred.com/admin/settings/billing">صفحة الفوترة</a> لمنع حسابك من يجري إبطال مفعولها.
+Application.TrialWillEndLong=التجربة المجانية الخاصة بك مع DailyCred ينتهي قريبا على٪ s. <br><br> للحفاظ على حسابك بالموقع، يرجى زيارة الخاص بك <a href="https://www.dailycred.com/admin/settings/billing">صفحة الفوترة</a> لاستعراض <a href="https://www.dailycred.com/pricing">خطط منخفضة التكلفة</a> وأدخل تفاصيل الدفع اليوم.
+Application.CannotRemoveActiveCard=لا يمكنك إزالة طريقة الفواتير بالموقع. إذا كنت ترغب في إلغاء البريد الإلكتروني support@dailycred.com حسابك مع رقم الحساب الخاص بك.
+Application.StateCheckFailed=طلب مفقود المعلمة الدولة. يرجى المحاولة مرة أخرى.
+Application.UnexpectedError=عذرا، حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى.
+Application.UserAnotherIdentityProvider=ويبدو أن يكون لديك حساب باستخدام٪ S. <a href="%s">اضغط هنا للاتصال باستخدام٪ S</a> أو <a href="%s">انقر هنا لتعيين كلمة مرور</a> .
+Application.APIKeyNotFound=لم يتم العثور على مفتاح API. الرجاء تعيين مفتاح API لهذا المزود من الهوية الخاصة بك على <a href="https://www.dailycred.com/admin/settings">صفحة إعدادات</a> .
+Application.ForeignIDAlreadyRegistered=ونحن لا يمكن ربط هذا الحساب بسبب ق foreignID لموفر٪ S٪ ويرتبط بالفعل مع المستخدم٪ S.
+Application.TwitterCallbackURLIncorrect=تحقق من بريدك <a href="https://dev.twitter.com/apps">إعدادات التطبيق التغريد</a> . URL رد التطبيق الخاص بك لا يمكن أن تكون فارغة. (يمكن أن يكون أي URL صالحة.)
+Application.ThankYouForSigningUp=أشكركم على الاشتراك ل٪ s!
+Application.ThankYouForSigningUpNoClient=شكرا لكم على التوقيع!
+Application.CannotDeleteLastApp=لا يمكن حذف: يجب أن يكون حسابك التطبيق واحد على الأقل.
+Application.CouldNotSendEmail=نحن آسفون، كان هناك مشكلة في إرسال هذا البريد. يرجى المحاولة مرة أخرى في وقت قريب.
+Application.EmailVerificationRequiredSignUp=يجب عليك التحقق من البريد الإلكتروني الخاص بك قبل التوقيع. يرجى التحقق من بريدك الالكتروني لمزيد من التعليمات.
+Application.EmailVerificationRequiredSignIn=يجب عليك التحقق من البريد الإلكتروني الخاص بك قبل التوقيع. الرجاء التحقق من بريدك الالكتروني لمزيد من التعليمات.
+Application.Blocked=عذرا، لقد تم حظره من قبل مسؤول.
+
+=
+template.authorize.passwordStrength.0=ضعيف جدا
+template.authorize.passwordStrength.1=ضعيف
+template.authorize.passwordStrength.2=مش بطال
+template.authorize.passwordStrength.3=جيد
+template.authorize.passwordStrength.4=عظيم!

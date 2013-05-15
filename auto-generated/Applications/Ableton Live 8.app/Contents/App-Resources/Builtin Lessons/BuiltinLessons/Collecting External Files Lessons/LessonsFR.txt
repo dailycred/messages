@@ -1,0 +1,27 @@
+$Page Réunir les échantillons externes
+$TargetName Collecting External Samples
+
+Quand les projets Live se développent, ils finissent souvent par se référer à des échantillons situés en de nombreux emplacements différents de votre ordinateur. Si ce n'est pas un problème en soi, cela peut le devenir si des échantillons sont par inadvertance déplacés, supprimés, ou modifiés par d'autres applications.
+
+Pour réduire les risques de perdre des fichiers, le gestionnaire de fichiers de $0 peut copier tous les échantillons externes de votre projet directement dans le dossier de ce projet. $0 considète tout échantillon situé hors du dossier projet comme externe:
+
+-> Echantillons situés dans la Bibliothèque de Live;
+-> Echantillons situés dans d'autres dossiers de projet;
+-> Echantillons situés ailleurs dans votre ordinateur.
+
+Le statut de ces échantillons est affiché en section /Echantillons externes/ du gestionnaire de fichiers:
+ExternalSamplesSection.tif
+
+Vous pouvez réunir tous les échantillons des catégories ci-dessus en activant leurs boutons /Oui/ respectifs, puis en cliquant sur le bouton /Réunir & Sauvegarder/ en bas du gestionnaire de fichiers:
+CollectSaveButton.tif
+
+Vous devez garder à l'esprit quelques points importants avant de réunir les échantillons:
+
+-> Les instruments et bibliothèques multiéchantillonnés sont souvent extrêmement conséquents, et les copier augementera grandement la taille de votre dossier projet. Contrôlez la taille de fichier indiquée pour chaque catégorie d'échantillons avant de les réunir.
+-> Si vous et vos collègues avez tous le même ensemble d'échantillons installé dans vos Bibliothèques - l'Essential Instrument Collection d'Ableton, par exemple - vous n'aurez pas à réunir ces échantillons pour partager vos projets.
+-> Les échantillons et instruments virtuels soumis à licence, comme l'EIC, ne se chargeront pas sur des ordinateurs ne disposant pas d'une licence valable pour les exploiter.
+
+La commande *Réunir et sauvegarder* du menu Fichier peut aussi être utilisée quand vous êtes sûr de vouloir réunir tous les échantillons externes référencés par le Set Live actuel.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

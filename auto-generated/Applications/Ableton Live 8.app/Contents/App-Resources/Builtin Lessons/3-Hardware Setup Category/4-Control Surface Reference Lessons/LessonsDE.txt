@@ -1,0 +1,2112 @@
+$Page Referenz zu den Bedienoberflächen
+$TargetName Control Surface Reference
+
+Diese Referenz geht detailliert auf die von $0 /direkt unterstützten/ MIDI-Bedienoberflächen und die /automatischen Zuweisungen/ ein, über die Live mit ihnen kommuniziert. Wenn Ihnen Bedienoberflächen neu sind, lesen Sie bitte zunächst $Link diese kurze Einführung <GotoPage:Instant Mappings>.
+
+Sollten Sie bereits mit $0s automatischen Mappings vertraut sein, können Sie mit den Links unten direkt zu den Controller-spezifischen Seiten springen.
+
+Wenn Ihre Bedienoberfläche nicht in der Liste auftaucht, möchten Sie vielleicht erfahren, wie man $Link /manuelle Zuweisungen/ <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Creating Manual Mappings> erzeugt. Manuelle Zuweisungen können auch für die direkt unterstützten Geräte nützlich sein, weil man sich damit über die automatischen Zuweisungen hinwegsetzen kann.
+
+Diese Referenz endet mit einer $Link detaillierten Liste <GotoPage:Instrument Mappings> der Verteilung sämtlicher Geräte-Parameter auf die Bänke der Bedienoberflächen.
+
+*Direkt unterstützte Bedienoberflächen:*
+
+-> $Link APC20 <GotoPage:Akai APC20> (Akai)
+-> $Link APC40 <GotoPage:Akai APC40> (Akai)
+-> $Link Axiom-Serie <GotoPage:M-Audio Axiom Series> (M-Audio)
+-> $Link Axiom (2nd gen) <GotoPage:Axiom (2nd gen)> (M-Audio)
+-> $Link Axiom-Pro-Serie <GotoPage:M-Audio Axiom Pro Series> (M-Audio)
+-> $Link BCF2000 <GotoPage:Behringer BCR2000 and BCF2000> und $Link BCR2000 <GotoPage:Behringer BCR2000 and BCF2000> (Behringer)
+-> $Link DBeat <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link Faderfox (erste Generation) <GotoPage:Faderfox (1st Generation)> (Faderfox)
+-> $Link Faderfox (zweite Generation) <GotoPage:Faderfox (2nd Generation)> (Faderfox)
+-> $Link FireOne <GotoPage:Tascam FireOne> (Tascam)
+-> $Link Impulse <GotoPage:Novation Impulse> (Novation)
+-> $Link Keystation Pro 88 <GotoPage:M-Audio Keystation Pro 88> (M-Audio)
+-> $Link KONTROL 49 <GotoPage:Korg KONTROL 49 and microKONTROL> und $Link microKontrol <GotoPage:Korg KONTROL 49 and microKONTROL> (Korg)
+-> $Link Launchpad <GotoPage:Novation Launchpad> (Novation)
+-> $Link LPD8 <GotoPage:Akai LPD8> (Akai)
+-> $Link Mackie Control <GotoPage:Mackie Control and M-Audio ProjectMix IO> und $Link Mackie Control XT <GotoPage:Mackie Control and M-Audio ProjectMix IO> (Mackie)
+-> $Link MidAir 25 <GotoPage:M-Audio Oxygen Series and MidAir 25> (M-Audio)
+-> $Link MiKo <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link MPD18 <GotoPage:Akai MPD18> (Akai)
+-> $Link MPD24 <GotoPage:Akai MPD24> (Akai)
+-> $Link MPD32 <GotoPage:Akai MPD32> (Akai)
+-> $Link MPK25 <GotoPage:Akai MPK25> (Akai)
+-> $Link MPK49, 61 and 88 <GotoPage:Akai MPK49, 61 and 88> (Akai)
+-> $Link NeKo <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link O2 <GotoPage:M-Audio O2, Ozone, and Ozonic> (M-Audio)
+-> $Link Oxygen-Serie <GotoPage:M-Audio Oxygen Series and MidAir 25> (M-Audio)
+-> $Link Oxygen (3rd Gen.) <GotoPage:M-Audio Oxygen 3rd Gen Series> series (M-Audio)
+-> $Link Ozone <GotoPage:M-Audio O2, Ozone, and Ozonic> und $Link Ozonic <GotoPage:M-Audio O2, Ozone, and Ozonic> (M-Audio)
+-> $Link padKONTROL <GotoPage:Korg padKONTROL> (Korg)
+-> $Link Photon 25 <GotoPage:Alesis Photon 25 and Photon X 25> und $Link Photon X 25 <GotoPage:Alesis Photon 25 and Photon X 25> (Alesis)
+-> $Link ProjectMix IO <GotoPage:Mackie Control and M-Audio ProjectMix IO> (M-Audio)
+-> $Link Remote SL Serie <GotoPage:Novation Remote SL Series> (Novation)
+-> $Link Tranzport <GotoPage:Frontier Design Group Tranzport> (Frontier Design Group)
+-> $Link Trigger Finger <GotoPage:M-Audio Trigger Finger> (M-Audio)
+-> $Link UC 33e <GotoPage:Evolution UC 33e> (Evolution)
+-> $Link VCM-600 <GotoPage:Vestax VCM-600> (Vestax)
+-> $Link ZERO8 <GotoPage:Korg ZERO8> (Korg)
+
+
+Divider.tif
+*Anmerkung:* Bevor Sie Ihre Bedienoberfläche nutzen können, sollten Sie sicherstellen, dass sie richtig angeschlossen und eingestellt ist. Lesen Sie dazu bitte auch den Kurs $Link Anschließen von MIDI-Hardware <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+
+$Comment -----------------------------------------------------------------------
+$Page Automatische Zuweisungen
+$TargetName Instant Mappings
+
+Automatische Zuweisungen sind für verschiedene MIDI-Bedienoberflächen verfügbar. Diese direkt unterstützten Geräte bieten - was ihre Oberfläche angeht - eine gemeinsame Herangehensweise, auch wenn die unterstützten Funktionen je nach Hardware unterschiedlich sein können.
+
+-> $Link *Geräte-Steuerung* <GotoPage:Device Control>*:* Sie können die Parameter von Instrumenten und Effekten mit Ihrer MIDI-Bedienoberfläche steuern. Das erspart Ihnen die mühsame Mausarbeit bei der Einstellung von Parametern.
+
+-> $Link *Mixer-Steuerung* <GotoPage:Mixer Control>*:* Bedienoberflächen mit der richtigen Zusammenstellung an Schiebereglern, Drehreglern und Schaltern eignen sich gut zur Steuerung von $0s Mixer.
+
+-> $Link *Transport-Steuerung* <GotoPage:Transport Control>*:* Manche Bedienoberflächen können auch $0s Transportbereich steuern.
+
+-> $Link *Pad Control* <GotoPage:Pad Control>*:* Manche Bedienoberflächen mit Pads können sich automatisch dem gerade sichtbaren Satz an Pads in $0s /Drum Rack/ anpassen, um diesen anzusteuern.
+
+$Comment -----------------------------------------------------------------------
+$Page Steuerung von Geräten in Live
+$TargetName Device Control
+
+Die präzise Steuerung des Klangs eines Instruments oder Effekts kann für Ihre Arbeit äußerst wichtig sein. Die Einstellung der Parameter mit der Maus ist manchmal jedoch eher mühsam. Als Gegenmittel hat Ableton automatische Mappings (Zuweisungen) entwickelt, die einen einfachen Zugang zu den Geräteparametern über Bedienoberflächen ermöglichen.
+
+Die meisten direkt unterstützten Bedienoberflächen verfügen zumindest über einen Satz von acht Drehreglern. Diese Bedienelemente werden automatisch den Parametern des gerade angewählten Geräts zugewiesen.
+Encoders.tif
+
+Divider.tif
+*Tipp:* Wenn Sie ein bestimmtes Gerät unabhängig von der aktuellen Auswahl steuern möchten, können Sie Ihre Bedienoberfläche auch fest an dieses Gerät $Link /binden/ <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers#Locking Control Surfaces to Devices>.
+Divider.tif
+
+Um Zugriff auf mehr als acht Parameter zu haben, haben wir die Parameter jedes Geräts in Bänke eingeteilt und verwandte Parameter jeweils in die gleiche Bank gruppiert (z.B. Filter-Parameter). Da viele Bedienoberflächen keine grafischen Displays zur Anzeige der zugewiesenen Parameter bieten, ist das eine große Arbeitshilfe.
+
+Je nach Konfiguration der jeweiligen Bedienoberfläche, funktioniert die Umschaltung der Bänke entweder über zwei (vorherige/nächste Bank) oder acht Taster (ein Taster pro Bank):
+StatusBarBankChange.tif
+
+Manche Bedienoberflächen bieten nicht genug Taster zur Bank-Umschaltung. In diesen Fällen bieten wir eine "Best-Of"-Bank für jedes Instrument und jeden Effekt.
+
+
+Divider.tif
+*Anmerkung:* Eine Übersicht über die Bänke aller Instrumente und Effekte in $0 finden Sie $Link hier <GotoPage:Instrument Mappings>.
+
+$Comment -----------------------------------------------------------------------
+$Page Mixer-Steuerung
+$TargetName Mixer Control
+
+Eine gelungene Mischung ist der Schlüssel zur Produktion guter Musik. Für die dynamische Steuerung von Signal-Lautstärken ist die Maus als Werkzeug eher ungeeignet. Die automatische Zuweisung von $0s Mixer-Parametern zu den Bedienelementen von MIDI-Hardware schafft auch hier Abhilfe.
+
+MIDI-Bedienoberflächen mit Schiebereglern eignen sich sehr gut, um die Pegel mehrerer Audio- und MIDI-Spuren gleichzeitig zu steuern.
+Sliders.tif
+
+Wenn eine Bedienoberfläche einen zusätzlichen, separaten Schieberegler besitzt, wird dieser der /Master-Lautstärke/ von $0s Mixer zugewiesen.
+
+Bei Bedienoberflächen mit einem ergänzenden Satz an Tastern, werden diese zum Scharfschalten der Spuren für die Aufnahme genutzt. Ein Druck auf einen dieser Taster wählt auch die entsprechende Spur und das zugehörige Instrument an.
+
+Etwaige zusätzliche Drehregler, Endlosregler oder Schieberegler werden den /Send-Pegeln/ der Spuren zugewiesen.
+
+$Comment -----------------------------------------------------------------------
+$Page Transport-Steuerung
+$TargetName Transport Control
+
+Wenn Sie gerne parallel zur Wiedergabe Ihrer Stücke spielen oder während der Wiedergabe neue Spuren aufnehmen, ist Ihnen bestimmt schon aufgefallen, dass Start und Stop mit der Maus eher unbequem ist. Manche MIDI-Bedienoberflächen verfügen über spezielle Transporttasten, die dieses Problem beheben:
+Transport.tif
+
+Die automatischen Zuweisungen für den Transportbereich umfassen die folgenden Funktionen:
+
+-> *Wiedergabe:* Starten oder erneutes Starten der Wiedergabe.
+-> *Stop:* Anhalten der Wiedergabe bzw. Rückkehr zum Beginn des Songs, wenn die Wiedergabe schon angehalten ist.
+-> *Schnelles Vorspulen:* Taktweise im Song vorwärts gehen (kontinuierlich, wenn der Taster gehalten wird)
+-> *Zurückspulen:* Die Position im Song um einen Takt zurücksetzten (kontinuierlich bei gehaltenem Taster)
+-> *Aufnahme:* $0s /globalen Schalter für die Aufnahme/ umschalten.
+-> *Loop:* $0s /Loop-Schalter/ umschalten.
+
+$Comment -----------------------------------------------------------------------
+$Page Pad-Steuerung
+$TargetName Pad Control
+
+Manche MIDI-Geräte mit Drum-Pads können sich automatisch dem gerade sichtbaren Satz an Pads in $0s /Drum Rack/ anpassen, um diesen anzusteuern.
+DrumPads.tif
+
+Wenn Ihre MIDI-Hardware unterstützt wird, wählen Sie diese einfach auf dem Reiter MIDI/Sync von $0s Voreinstellungen als Bedienoberfläche aus. Wann immer Sie dann ein Drum-Rack auf der Spur haben, das MIDI-Daten empfängt, wird Ihre Pad-Hardware automatisch die korrekten Pads ansteuern, wenn Sie in der Pad-Übersicht zu einem anderen Satz Pads blättern.
+
+Die Pad-Steuerung wird von folgenden Bedienoberflächen unterstützt:
+
+-> $Link Axiom-Serie <GotoPage:M-Audio Axiom Series> (M-Audio)
+-> $Link Axiom (2nd gen) <GotoPage:Axiom (2nd gen)> (M-Audio)
+-> $Link Axiom-Pro-Serie <GotoPage:M-Audio Axiom Pro Series> (M-Audio)
+-> $Link DBeat <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link Launchpad <GotoPage:Novation Launchpad> (Novation)
+-> $Link LPD8 <GotoPage:Akai LPD8> (Akai)
+-> $Link MiKo <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link MPD18 <GotoPage:Akai MPD18> (Akai)
+-> $Link MPD24 <GotoPage:Akai MPD24> (Akai)
+-> $Link MPD32 <GotoPage:Akai MPD32> (Akai)
+-> $Link MPK25 <GotoPage:Akai MPK25> (Akai)
+-> $Link MPK49, 61 and 88 <GotoPage:Akai MPK49, 61 and 88> (Akai)
+-> $Link NeKo <GotoPage:Open Labs MiKo, NeKo and DBeat> (Open Labs)
+-> $Link padKONTROL <GotoPage:Korg padKONTROL> (Korg)
+-> $Link Remote SL Serie <GotoPage:Novation Remote SL Series> (Novation)
+-> $Link Trigger Finger <GotoPage:M-Audio Trigger Finger> (M-Audio)
+
+Divider.tif
+*Anmerkung:* Bitte lesen Sie das Kapitel "Instrumenten-, Drum- und Effekt-Racks" in der Live-Anleitung, um mehr über Drum-Racks zu erfahren.
+
+$Comment -----------------------------------------------------------------------
+$Page M-Audio Axiom-Serie
+$TargetName M-Audio Axiom Series
+
+AxiomSliders.tif
+1: Spur-Lautstärken
+2: Master-Lautstärke
+3: Spuren scharfschalten
+4: Verriegelung umschalten
+
+AxiomControls.tif
+5: Geräte-Parameter
+6: Transport
+
+Divider.tif
+*Anmerkung:* Das Axiom 25 ist nicht mit den im ersten Bild gezeigten Schiebereglern ausgestattet.
+
+Wir bieten Ihnen ebenfalls die klassische Axiom-Unterstützung, die in $0 5.2.2 eingeführt wurde.
+
+Nähere Informationen zum Einrichten und Arbeiten mit einer /Axiom-Bedienoberfläche/ finden Sie $Link in diesem Kurs <Lesson:Builtin/BuiltinLessons/VendorSpecific/Axiom>.
+
+$Comment -----------------------------------------------------------------------
+$Page M-Audio Axiom Pro-Serie
+$TargetName M-Audio Axiom Pro Series
+AxiomPro.tif
+
+Genaue Informationen zum Einrichten und Arbeiten mit einer /Axiom-Pro-Bedienoberfläche/ finden Sie $Link in diesem Kurs <Lesson:Builtin/BuiltinLessons/VendorSpecific/Axiom Pro>.
+
+$Comment -----------------------------------------------------------------------
+$Page M-Audio Axiom (2nd gen)
+$TargetName Axiom (2nd gen)
+Axiommk2Controller.tif
+
+Genaue Informationen zum Einrichten und Arbeiten mit einer /Axiom (2nd gen)/ Bedienoberfläche finden Sie $Link in diesem Kurs <Lesson:Builtin/BuiltinLessons/VendorSpecific/Axiom (2nd gen)>.
+
+$Comment -----------------------------------------------------------------------
+$Page Behringer BCR2000 und BCF2000
+$TargetName Behringer BCR2000 and BCF2000
+
+BcrBcfUpperSection.tif
+1: Geräte-Parameter
+2: Bänke 1-8 wählen
+3: Spuren scharfschalten
+
+BcfMiddleSection.tif
+4: Spur-Lautstärken
+
+BcrBcfSideSection.tif
+5: Stop
+6: Wiedergabe
+7: Aufnahme
+8: Loop umschalten
+
+$Comment -----------------------------------------------------------------------
+$Page M-Audio Keystation Pro 88
+$TargetName M-Audio Keystation Pro 88
+
+KeystationEncoders.tif
+1: Geräte-Parameter
+
+KeystationSliders.tif
+2: Spur-Lautstärken
+3: Master-Lautstärke
+
+$Comment -----------------------------------------------------------------------
+$Page Korg KONTROL 49 und microKONTROL
+$TargetName Korg KONTROL 49 and microKONTROL
+
+KONTROLPads.tif
+1: Bänke 1-8 wählen
+
+KONTROLEncodersSliders.tif
+2: Geräte-Parameter
+3: Spur-Lautstärken
+
+$Comment -----------------------------------------------------------------------
+$Page M-Audio Oxygen Serie und MidAir 25
+$TargetName M-Audio Oxygen Series and MidAir 25
+
+OxygenEncoders.tif
+1: Geräte-Parameter
+2: Transport
+
+$Comment -----------------------------------------------------------------------
+$Page M-Audio O2, Ozone und Ozonic
+$TargetName M-Audio O2, Ozone, and Ozonic
+
+OzonicKnobs.tif
+1: Geräte-Parameter
+
+OzonicSliders.tif
+2: Spur-Lautstärken
+3: Master-Lautstärke
+
+$Comment -----------------------------------------------------------------------
+$Page Alesis Photon 25 und Photon X 25
+$TargetName Alesis Photon 25 and Photon X 25
+
+PhotonEncoders.tif
+1: Geräte-Parameter
+
+$Comment -----------------------------------------------------------------------
+$Page Novation Remote SL Serie
+$TargetName Novation Remote SL Series
+
+Die Unterstützung von Novations Remote SL Serie wurde erst in $0 5 eingeführt. Sie bietet daher einiges an Zusatz-Funktionalität.
+
+RemoteSLDeviceSection.tif
+1: Nächste Bank mit Geräte-Parametern
+2: Vorherige Bank mit Geräte-Parametern
+3: Verriegelung umschalten
+4: Wähle vorherige Szene
+5: Wähle nächste Szene
+6: Starte gewählte Szene
+7: Stoppe sämtliche Clips
+8: Auf die Grundeinstellungen zurücksetzen
+9: Geräte-Parameter
+
+RemoteSLTrackSection.tif
+10: Spur-Lautstärken | Panning | Pegel von Send A
+11: Spuren stummschalten
+12: Spuren scharfschalten
+13: Die nächsten 8 Spuren wählen (inklusive Sends und Master)
+14: Die vorherigen 8 Spuren wählen (inklusive Sends und Master)
+15: Schieberegler-Modus: Lautstärke
+16: Schieberegler-Modus: Panning
+17: Schieberegler-Modus: Pegel Send A
+18: Transport
+
+$Comment -----------------------------------------------------------------------
+$Page Frontier Design Group Tranzport
+$TargetName Frontier Design Group Tranzport
+
+Tranzport.tif
+Der Tranzport von der Frontier Design Group ist eine spezielle Bedienoberfläche zur Steuerung von Sequencer-Software. Daher bietet $0 auch eine besondere Unterstützung für dieses Gerät. Um mehr über die Steuerung von $0 mit Ihrem Tranzport zu erfahren, schauen Sie bitte auf der $Link Website <http://www.frontierdesign.com/Products/TranzPort/Apps/Live> der Frontier Design Group vorbei.
+
+$Comment -----------------------------------------------------------------------
+$Page M-Audio Trigger Finger
+$TargetName M-Audio Trigger Finger
+
+TriggerFingerEncoders.tif
+1: Geräte-Parameter
+
+TriggerFingerSliders.tif
+2: Master-Lautstärke
+
+$Comment -----------------------------------------------------------------------
+$Page Evolution UC 33e
+$TargetName Evolution UC 33e
+
+UC33Encoders.tif
+1: Geräte-Parameter
+2: Spur-Lautstärken
+3: Master-Lautstärke
+
+$Comment -----------------------------------------------------------------------
+$Page Mackie Control und M-Audio ProjectMix IO
+$TargetName Mackie Control and M-Audio ProjectMix IO
+
+$0 bietet auch eine umfangreiche Unterstützung von Bedienoberflächen, die den Mackie Control Standard nutzen und dadurch eine umfassende Steuerung des Programms ohne Maus ermöglichen. Durch die bidirektionale Verbindung von $0 und der Mackie Control werden sämtliche Änderungen in der Software sofort auf der Bedienoberfläche angezeigt und umgekehrt.
+MackieControlHands.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Tascam FireOne
+$TargetName Tascam FireOne
+
+TascamFireOne.tif
+1: Shift - das Halten dieser Taste ermöglicht zusätzliche Funktionalität für die anderen Bedienelemente
+2: Aufnahmebereitschaft umschalten (ohne Shift) oder Stummschaltung (mit Shift) der Spuren 1-8
+3: Transport. Shift-Play fährt mit der Wiedergabe fort. FF/Rwd (ohne Shift) spult taktweise. FF/Rwd (mit Shift) spult beatweise.
+
+4: Das Jog-Rad hat in Session- und Arrangement-Ansicht unterschiedliche Funktionen:
+
+-> Session: Wählt die Szene (ohne Shift) oder wählt die Spur (mit Shift)
+-> Arrangement: Wählt die Wiedergabeposition (ohne Shift) oder das Tempo des Sets (mit Shift)
+
+$Comment -----------------------------------------------------------------------
+$Page Akai MPK49, 61 und 88
+$TargetName Akai MPK49, 61 and 88
+
+AkaiMpk49.tif
+1: Geräte-Parameter
+2: Spur-Lautstärken
+3: Aufnahmebereitschaft Spuren
+
+AkaiMpk49Transport.tif
+4: Transport
+
+$Comment -----------------------------------------------------------------------
+$Page Korg padKONTROL
+$TargetName Korg padKONTROL
+
+KorgPadKontrol.tif
+1: Master Volume
+
+$Comment -----------------------------------------------------------------------
+$Page Faderfox (erste Generation)
+$TargetName Faderfox (1st Generation)
+
+FaderfoxesG1.tif
+Um die Bedienoberflächen LV1 und LX1 in $0 über die automatische Zuweisung zu nutzen, beachten Sie bitte die Einstellungen, die Sie im Kapitel 'Einstellungen im Systemmode' der Bedienungsanleitungen der Hardware finden. Die korrekte Wahl des internen Setups ist dabei von besonderer Bedeutung - das LV1 benutzt Setup 2.
+
+Es ist nicht mehr nötig, die beigefügten Live-Sets mit den verschiedenen MIDI-Zuweisungen zu benutzen; die automatische Zuweisung in $0 nimmt ohne Ihr Zutun sämtliche Einstellungen vor.
+
+Außerdem brauchen Sie nur ein Kabel, das vom MIDI-Ausgang der Hardware zum MIDI-Eingang Ihres MIDI-Interfaces führt, um die Verbindung herzustellen; eine Rückführung der Verbindung ist nicht mehr nötig.
+
+Die folgende Liste zeigt alle Funktionen der Bedienoberflächen, die sich von der Beschreibung in der Bedienungsanleitung unterscheiden oder die neu hinzugekommen sind:
+
+-> Automatisch zugewiesene Funktionen zum Starten von Szenen und Clips für die ersten acht Szenen und die ersten acht Clips jeder Spur. Anmerkung: Clip-Start ist nur im Trigger-Modus verfügbar.
+
+-> Steuerung der "Best-of-Bank" an Parametern für das angewählte Gerät über die Drehreglerin den Poti-Gruppen 'FX3' und 'FX4'.
+
+-> Sie können die Parameter des letzten EQ-Eight-Geräts der angewählten Spur über die alternative Spuren-Gruppe steuern, indem Sie die Shift-Taste zusammen mit den Pot-Schaltern drücken. Das Gerät muss vorher nicht angewählt werden.
+
+-> Der Joystick steuert die X/Y-Parameter des angewählten Geräts in den Pot-Gruppen 'FX1', bzw. 'FX2'.
+
+-> Schalten Sie zwischen den verschiedenen Ansichten (z.B. Arrangement/Session oder Spur/Clip) um, indem Sie auf dem LV1 die zwei weißen Taster drücken, während Sie die Shift-Taste gedrückt halten.
+
+Sie können natürlich sämtliche Zuweisungen im MIDI-Zuweisungs-Modus von $0 manuell ändern.
+
+$Comment -----------------------------------------------------------------------
+$Page Faderfox (zweite Generation)
+$TargetName Faderfox (2nd Generation)
+
+FaderfoxesG2.tif
+Um die Bedienoberflächen LV2, LX2, LC2 und LD2 in $0 über die automatische Zuweisung zu nutzen, beachten Sie bitte die Einstellungen, die Sie im Kapitel 'Einstellungen im Systemmode' der Bedienungsanleitungen der Hardware finden. Die korrekte Wahl des internen Setups ist dabei von besonderer Bedeutung - LV2, LC2 und LD2 nutzen Setup 2, während das LX2 Setup 1 benutzt.
+
+Es ist nicht mehr nötig, die beigefügten Live-Sets mit den verschiedenen MIDI-Zuweisungen zu benutzen; die automatische Zuweisung in $0 nimmt ohne Ihr Zutun sämtliche Einstellungen vor.
+
+Die folgende Liste zeigt alle Funktionen der Bedienoberflächen, die sich von der Beschreibung in der Bedienungsanleitung unterscheiden oder die neu hinzugekommen sind:
+
+-> Funktionen zum Starten von Szenen und Clips für die ersten zwölf Szenen und die ersten zwölf Clips jeder Spur werden automatisch den farbigen Tastern der Key-Mode "Slot-launch" und "Scene-launch" zugewiesen. Anmerkung: Clip-Start ist nur im Trigger-Modus verfügbar.
+
+-> Steuerung der "Best-of-Bank" an Parametern für das angewählte Gerät über die Drehreglerin den Poti-Gruppen 'FX3' und 'FX4' auf dem LV2 und dem LC2 und der Poti-Gruppe 'FXA' auf dem LD2.
+
+-> Sie können die Parameter des letzten EQ-Eight-Geräts der angewählten Spur über die EQ-Gruppe steuern. Das Gerät muss vorher nicht angewählt werden.
+
+-> Der Joystick steuert die X/Y-Parameter des angewählten Geräts in den Pot-Gruppen 'FX1', bzw. 'FX2'.
+
+-> Zwischen den verschiedenen Ansichten (z.B. Arrangement/Session oder Spur/Clip) können Sie umschalten, indem Sie auf dem LV2 und LC2 die beiden Pot-ctrl-Taster benutzen oder die Encoder-Taster von Drehregler2 und 3 auf dem LD2, während Sie die Shift-Taste gedrückt halten. Dabei muss 1-Track-Control angewählt sein.
+
+-> Der Encoder-C-Taster in der Haupt-Gruppe des LV2, bzw. LC2 kann benutzt werden, um die Track/Clip-Ansicht zu verstecken. Die gleiche Funktion kann auf dem LD2 durch einen Druck auf den Encoder-Taster von Drehregler4 bei gleichzeitigem Druck auf die Shift-Taste erreicht werden
+
+-> Im Moment ist die Clip-Steuerung auf den Transpose-Parameter beschränkt. Bitte weisen Sie gewünschte andere Funktionen manuell zu.
+
+Sie können natürlich sämtliche Zuweisungen im MIDI-Zuweisungs-Modus von $0 manuell ändern.
+
+$Comment -----------------------------------------------------------------------
+$Page Korg ZERO8
+$TargetName Korg ZERO8
+
+KorgZERO8A.tif
+Die Fader und Pan-Regler jedes Kanals steuern die entsprechenden Spur-Parameter, während die Regler Ext1 und Ext2 die Sends A und B steuern.
+
+KorgZERO8B.tif
+Wenn Bank A angewählt ist, sind die acht Drehregler Parametern des angewählten Geräts zugewiesen. Ein Druck auf einen der Regler schaltet zur entsprechenden Bank-Nummer um, so dass bis zu acht Bänke verfügbar sind.
+
+$Comment -----------------------------------------------------------------------
+$Page Akai MPD32
+$TargetName Akai MPD32
+
+AkaiMpd32.tif
+Die Schieberegler und Druckknöpfe steuern Lautstärke und Aufnahmebereitschaft der ersten acht Spuren.
+
+AkaiMpd32Knobs.tif
+Die Endlosregler wirken auf Geräteparameter in der "Best-of"-Bank.
+
+AkaiMpd32Transport.tif
+Transport-Steuerung
+
+*Anmerkung:* Für diese Funktionen müssen Control-Bank A und Pad-Bank A angewählt sein.
+AkaiMpd32BankA.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Akai MPD24
+$TargetName Akai MPD24
+
+AkaiMpd24Sliders.tif
+1: Spur-Lautstärken
+
+AkaiMpd24Encoders.tif
+2: Geräte-Parameter
+
+$Comment -----------------------------------------------------------------------
+$Page Vestax VCM-600
+$TargetName Vestax VCM-600
+VestaxChannelUpper.tif
+Parameter pro Spur:
+1: EQ-Bedienelemente (für EQ Eight oder EQ Three) und Kill Switches (nur EQ Three)
+2: Spur-Aktivierungs- und Solo-Schalter; Pan
+3: Send A und B
+4: Filterfrequenz und Resonanz (für Auto Filter oder Live-Instrumente mit einem Filter, zum Beispiel Operator oder Analog)
+5: Umschaltung für die A/B-Crossfader-Zuweisung, Wahl von Clip-/Track-Ansicht
+6: Stoppen des gerade gespielten Clips, starten des ausgewählten Clips
+7: Lautstärke der Spur
+
+VestaxMacros.tif
+Regler steuern Geräte-Parameter, Taster wählen Bänke.
+
+VestaxReturnsMaster.tif
+1: Return-Spuren A und B
+2: Master-Spur; Taster steuern globale Wiedergabe und Aufnahme.
+3: Crossfader
+
+VestaxGlobals.tif
+1: Spur-Bank-Schalter (schaltet zwischen den Spuren 1-6 und 7-12 um)
+2: Punch In/Out, Loop an/aus
+3: Tempo Nudge
+4: Grob/Fein-Einstellung für Tempo
+5: Szenenwahl (drücken um ausgewählte Szenen zu starten)
+
+$Comment -----------------------------------------------------------------------
+$Page Akai APC40
+$TargetName Akai APC40
+APC40.tif
+
+Die /APC40/ (Ableton Performance Controller) ist eine spezielle Hardware-Bedienoberfläche für Ableton Live, die vom gleichen Entwicklerteam stammt wie die legendäre Akai MPC-Produktserie.
+
+Die APC40 ist mit hochwertigen Bedienelementen für Mixing, Remixing und Produktion in Echtzeit ausgestattet. Insgesamt 109 Taster, 16 Endlos-Drehregler mit LED-Ringen, neun 45mm Fader und ein austauschbarer Crossfader ermöglichen Musikern und Produzenten den direkten Zugriff auf Lives Session-Ansicht, Effektgeräte, und virtuelle Instrumente.
+
+Divider.tif
+Aufgrund der enorm umfangreichen Steuerungsmöglichkeiten dieser Hardware-Bedienoberfläche, haben wir einen $Link Spezial-Kurs <Lesson:Builtin/BuiltinLessons/VendorSpecific/APC40> erstellt, der Ihnen hilft, die APC40 zu konfigurieren und mit ihr zu arbeiten.
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Akai LPD8
+$TargetName Akai LPD8
+AkaiLDP8Pads.tif
+Drum-Rack-Parameter
+
+AkaiLPD8Encoders.tif
+Geräte-Parameter
+
+$Comment -----------------------------------------------------------------------
+$Page Akai MPK25
+$TargetName Akai MPK25
+MPK25.tif
+
+1: Geräte-Parameter (Bank A)
+2: Spur-Lautstärke (Bank A: Spuren 1-4; Bank B: Spuren 5-8)
+3: Spuren aufnahmebereit schalten (Bank A: Spuren 1-4; Bank B: Spuren 5-8)
+4: Transport
+5: Bank-Auswahl
+
+$Comment -----------------------------------------------------------------------
+$Page Akai MPD18
+$TargetName Akai MPD18
+MPD18.tif
+
+1: Drum-Rack-Parameter
+2: Master-Lautstärke
+
+$Comment -----------------------------------------------------------------------
+$Page Novation Launchpad
+$TargetName Novation Launchpad
+Launchpad.tif
+
+Das /Launchpad/ ist eine spezielle Bedienoberfläche für Ableton Live, die gemeinsam von Ableton und Novation entwickelt wurde. Launchpad besitzt 64 rechteckige Pads und 16 runde Taster, die bereits vorkonfiguriert und perfekt in Live integriert sind.
+
+Divider.tif
+Aufgrund der vielen Möglichkeiten haben wir dieser Bedienoberfläche ein eigenes Kapitel in der $Link Ableton-Referenzanleitung  <Manual> gewidmet, das Ihnen hilft das Launchpad einzurichten und mit ihm zu arbeiten.
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Open Labs MiKo, NeKo und DBeat
+$TargetName Open Labs MiKo, NeKo and DBeat
+OpenLabsMixer.tif
+1: Lautstärke, Panorama und Spur-Aktivierung
+2: Master-Lautstärke
+3: Geräte-Parameter
+4: Vorherige/Nächste Spurbänke anwählen
+
+OpenLabsTransport.tif
+5: Transportsteuerung
+6: Befehl/Aktion widerrufen (Undo)
+7: Befehl/Aktion wiederholen (Redo)
+
+OpenLabsCrossfader.tif
+8: Lautstärke der ersten 7 Return-Spuren
+9: Crossfader
+
+$Comment -----------------------------------------------------------------------
+$Page M-Audio Oxygen 3rd Gen Serie
+$TargetName M-Audio Oxygen 3rd Gen Series
+Oxygen3rdGenEncoders.tif
+1: Geräte-Parameter
+2: Transport
+(In der Session-Ansicht startet Loop die gewählte Szene. Rewind/Fast Forward wählen die vorherige/nächste Szene aus.)
+
+Oxygen3rdGenTracks.tif
+3: Vorherige/nächste Spur (vorherige/nächste Spurbänke, wenn C26-Taste gedrückt wird)
+
+Oxygen3rdGenFaders.tif
+4: Lautstärke für die 8 Spuren der selektierten Bank und für die Masterspur (nur bei 49- und 61-Tasten-Modellen)
+5: Stumm schalten (Mute) für die 8 Spuren der selektierten Bank. C26 = Solo (nur bei 49- und 61-Tasten-Modellen) Bei gedrückter C26-Taste können mit den Previous/Next-Tasten die vorherigen/nächsten Spurbänke gewählt werden.
+
+Oxygen3rdGenMaster.tif
+6: Lautstärke der ausgewählten Spur (nur beim 25-Tasten-Modell)
+
+$Comment -----------------------------------------------------------------------
+$Page Akai APC20
+$TargetName Akai APC20
+APC20.tif
+
+Die /APC20/ (Ableton Performance Controller) ist eine spezielle Hardware-Bedienoberfläche für Ableton Live, die vom gleichen Entwicklerteam stammt wie die legendäre Akai MPC-Produktserie.
+
+Die APC20 bietet hochwertige Bedienelemente für Echtzeit-Mixing, Remixing und Produktion und ermöglicht Musikern und Produzenten die Steuerung von Lives Session-Ansicht.
+
+Divider.tif
+Aufgrund der umfangreichen Steuerungsmöglichkeiten dieser Hardware-Bedienoberfläche, haben wir einen $Link Spezial-Kurs <Lesson:Builtin/BuiltinLessons/VendorSpecific/APC20> erstellt, der Ihnen hilft, die APC20 zu konfigurieren und mit ihr zu arbeiten.
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Novation Impulse
+$TargetName Novation Impulse
+NovationImpulseFaders.tif
+1: Lautstärke von Spuren (25-Tasten-Modell hat einen Fader, der die Lautstärke der jeweils gewählten Spur steuert)
+2: Spur-Solo/Aktivierung
+3: Bank-Auswahl (mit Shift gedrückt)
+
+NovationImpulseEncoders.tif
+4: Geräte-Parameter (im /Plugin-/ Modus) oder Pans (im /Mixer-/ Modus). Wenn im Mixer-Modus Shift zusammen mit den Bank-Tasten gedrückt wird, wechseln die Drehregler zu den Sends A-D. (25-Tasten-Modell hat zusätzlich zu den Sends A-D noch eine Volume-Bank)
+5: Transportsteuerung. In der Session-Ansicht wählen Fwd und Rwd die nächste bzw. vorherige Szene. Loop startet die gewählte Szene.
+
+NovationImpulsePads.tif
+6: Drum-Pads. Im /Clip Launch-Modus/ starten sie die Clips der momentan gewählten Szene. Die Pads leuchten entsprechend ihrem Clip-Status:
+-> Aus: kein Clip vorhanden
+-> Gelb: Clip vorhanden
+-> Grün: Clip spielt/ist bereit zur Wiedergabe
+-> Rot: Clip nimmt auf/ist bereit zur Aufnahme
+-> Blinkend: wartet auf den nächsten Taktanfang, bevor der letzte Befehl ausgeführt wird.
+
+NovationImpulseTranspose.tif
+7: Spur hoch/runter (mit Shift gedrückt). Wird eine MIDI-Spur angewählt, wird sie automatisch aufnahmebereit geschaltet (sofern nicht eine andere Spur bereits aufnimmt).
+
+
+$Comment -----------------------------------------------------------------------
+$Page Zuweisung der Geräte-Parameter
+$TargetName Device Parameter Mappings
+
+Auf den folgenden Seiten finden Sie eine Übersicht über die Bänke mit Geräte-Parametern für jedes von $0s Geräten. Geräte mit mehr als einer Bank bieten zusätzlich eine "Best-Of"-Bank für Bedienoberflächen, die keine Umschaltung der Bänke ermöglichen. Dieser Abschnitt teilt die Geräte in drei Kategorien ein:
+
+-> $Link Instrumente <GotoPage:Instrument Mappings>
+
+-> $Link MIDI-Effekte <GotoPage:MIDI Effect Mappings>
+
+-> $Link Audio-Effekte <GotoPage:Audio Effect Mappings>
+
+
+$Comment -----------------------------------------------------------------------
+$Page Instrumenten-Mappings
+$TargetName Instrument Mappings
+
+/Analog/
+
+*Bank 1: Oszillatoren*
+Drehregler 1: OSC 1 Level
+Drehregler 2: OSC 1 Octave
+Drehregler 3: OSC 1 Semi
+Drehregler 4: OSC 1 Shape
+Drehregler 5: OSC 2 Level
+Drehregler 6: OSC 2 Octave
+Drehregler 7: OSC 2 Semi
+Drehregler 8: OSC 2 Shape
+
+*Bank 2: Filter*
+Drehregler 1: F1/F2 Mix für OSC 1
+Drehregler 2: F1 Freq
+Drehregler 3: F1 Reso
+Drehregler 4: F1 Typ
+Drehregler 5: F1/F2 Mix für OSC 2
+Drehregler 6: F2 Freq
+Drehregler 7: F2 Reso
+Drehregler 8: F2 Typ
+
+*Bank 3: Filter-Hüllkurve*
+Drehregler 1: F1 Attack
+Drehregler 2: F1 Decay
+Drehregler 3: F1 Sustain
+Drehregler 4: F1 Release
+Drehregler 5: F2 Attack
+Drehregler 6: F2 Decay
+Drehregler 7: F2 Sustain
+Drehregler 8: F2 Release
+
+*Bank 4: Filter-Modulation*
+Drehregler 1: F1 An/Aus
+Drehregler 2: F1 Frequenz < LFO1
+Drehregler 3: F1 Frequenz < Env
+Drehregler 4: F1 Resonanz < LFO1
+Drehregler 5: F2 An/Aus
+Drehregler 6: F2 Frequenz < LFO2
+Drehregler 7: F2 Frequenz < Env
+Drehregler 8: F2 Resonanz < LFO2
+
+*Bank 5: Lautstärke-Hüllkurven*
+Drehregler 1: AMP1 Attack
+Drehregler 2: AMP1 Decay
+Drehregler 3: AMP1 Sustain
+Drehregler 4: AMP1 Release
+Drehregler 5: AMP2 Attack
+Drehregler 6: AMP2 Decay
+Drehregler 7: AMP2 Sustain
+Drehregler 8: AMP2 Release
+
+*Bank 6: Mix*
+Drehregler 1: AMP1 Level
+Drehregler 2: AMP1 Pan
+Drehregler 4: LFO1 Shape
+Drehregler 5: LFO1 Rate
+Drehregler 5: AMP2 Level
+Drehregler 6: AMP2 Pan
+Drehregler 7: LFO2 Level
+Drehregler 8: LFO2 Rate
+
+*Bank 7: Output*
+Drehregler 1: Volume
+Drehregler 2: Noise An/Aus
+Drehregler 3: Noise Volume
+Drehregler 4: Noise Color
+Drehregler 5: Uni An/Aus
+Drehregler 6: Uni Detune
+Drehregler 7: Vib An/Aus
+Drehregler 8: Vib Amount
+
+*Best-Of Bank*
+Drehregler 1: Filter-Frequenz
+Drehregler 2: Filter-Resonanz
+Drehregler 3: OSC1 Oktave
+Drehregler 4: Vib An/Aus
+Drehregler 5: AMP1 Attack
+Drehregler 6: AMP1 Release
+Drehregler 7: Uni An/Aus
+Drehregler 8: Volume
+
+
+Divider.tif
+
+/Collision/
+
+*Bank 1: Mallet-Bereich*
+Drehregler 1: Mallet Ein/Aus
+Drehregler 2: Mallet Volume
+Drehregler 3: Mallet Noise Amount
+Drehregler 4: Mallet Stiffness
+Drehregler 5: Mallet Noise Color
+
+*Bank 2: Noise-Bereich*
+Drehregler 1: Noise Volume
+Drehregler 2: Noise Filter Type
+Drehregler 3: Noise Filter Freq
+Drehregler 4: Noise Filter Q
+Drehregler 5: Noise Attack
+Drehregler 6: Noise Decay
+Drehregler 7: Noise Sustain
+Drehregler 8: Noise Release
+
+*Bank 3: Resonator 1, Parametersatz A*
+Drehregler 1: Res 1 Decay
+Drehregler 2: Res 1 Material
+Drehregler 3: Res 1 Type
+Drehregler 4: Res 1 Quality
+Drehregler 5: Res 1 Tune
+Drehregler 6: Res 1 Fine Tune
+Drehregler 7: Res 1 Pitch Env.
+Drehregler 8: Res 1 Pitch Env. Time
+
+*Bank 4: Resonator 1, Parametersatz B*
+Drehregler 1: Res 1 Listening L
+Drehregler 2: Res 1 Listening R
+Drehregler 3: Res 1 Hit
+Drehregler 4: Res 1 Brightness
+Drehregler 5: Res 1 Inharmonics
+Drehregler 6: Res 1 Radius
+Drehregler 7: Res 1 Opening
+Drehregler 8: Res 1 Ratio
+
+*Bank 5: Resonator 2, Parametersatz A*
+Drehregler 1: Res 2 Decay
+Drehregler 2: Res 2 Material
+Drehregler 3: Res 2 Type
+Drehregler 4: Res 2 Quality
+Drehregler 5: Res 2 Tune
+Drehregler 6: Res 2 Fine Tune
+Drehregler 7: Res 2 Pitch Env.
+Drehregler 8: Res 2 Pitch Env. Time
+
+*Bank 6: Resonator 2, Parametersatz B*
+Drehregler 1: Res 2 Listening L
+Drehregler 2: Res 2 Listening R
+Drehregler 3: Res 2 Hit
+Drehregler 4: Res 2 Brightness
+Drehregler 5: Res 2 Inharmonics
+Drehregler 6: Res 2 Radius
+Drehregler 7: Res 2 Opening
+Drehregler 8: Res 2 Ratio
+
+*Best-Of Bank*
+Drehregler 1: Res 1 Decay
+Drehregler 2: Res 1 Material
+Drehregler 3: Res 1 Brightness
+Drehregler 4: Res 1 Inharmonics
+Drehregler 5: Res 1 Typ
+Drehregler 6: Res 1 Tune
+Drehregler 7: Mallet Stiffness
+Drehregler 8: Volume
+
+Divider.tif
+
+/Electric/
+
+*Bank 1: Mallet und Tine*
+Drehregler 1: Mallet Stiffness
+Drehregler 2: Mallet Strength
+Drehregler 3: Noise Pitch
+Drehregler 4: Noise Decay
+Drehregler 5: Noise Level
+Drehregler 6: Fork Tine Color
+Drehregler 7: Fork Tine Decay
+Drehregler 8: Fork Tine Level
+
+*Bank 2: Tone und Damper*
+Drehregler 1: Fork Tone Decay
+Drehregler 2: Fork Tone Level
+Drehregler 3: Fork Release
+Drehregler 4: Damper Tone
+Drehregler 5: Damper Att/Rel
+Drehregler 6: Damper Level
+
+*Bank 3: Pickup*
+Drehregler 1: Symmetry
+Drehregler 2: Distance
+Drehregler 3: Input
+Drehregler 4: Output
+Drehregler 5: Pickup Type
+
+*Bank 4: Modulation*
+Drehregler 1: Mallet Stiffness < Velocity
+Drehregler 2: Mallet Stiffness < Key
+Drehregler 3: Mallet Strength < Velocity
+Drehregler 4: Mallet Strength < Key
+Drehregler 5: Noise < Key
+Drehregler 6: Fork Tine < Key
+Drehregler 7: Pickup Output < Key
+
+*Bank 5: Global*
+Drehregler 1: Volume
+Drehregler 2: Voices
+Drehregler 3: Semitone
+Drehregler 4: Detune
+Drehregler 5: Keyboard Stretch
+Drehregler 6: Pitchbend-Bereich
+
+*Best-Of Bank*
+Drehregler 1: Mallet Stiffness
+Drehregler 2: Mallet Force
+Drehregler 3: Noise Level
+Drehregler 4: Fork Tine Level
+Drehregler 5: Fork Tone Level
+Drehregler 6: Fork Release
+Drehregler 7: Damper Level
+Drehregler 8: Volume
+
+
+Divider.tif
+
+/Impulse/
+
+*Bänke 1-8: Pads 1-8*
+Drehregler 1: Start
+Drehregler 2: Transp
+Drehregler 3: Stretch
+Drehregler 4: Drive
+Drehregler 5: Freq
+Drehregler 6: Res
+Drehregler 7: Pan
+Drehregler 8: Pad Volume
+
+*Best-Of Bank*
+Drehregler 1: Global Time
+Drehregler 2: Global Transposition
+Drehregler 3: Transponiere Pad 1
+Drehregler 4: Transponiere Pad 2
+Drehregler 5: Transponiere Pad 3
+Drehregler 6: Transponiere Pad 4
+Drehregler 7: Transponiere Pad 5
+Drehregler 8: Transponiere Pad 6
+
+
+Divider.tif
+
+/Operator/
+
+*Bänke 1-4: Oszillatoren 1-4*
+Drehregler 1: Attack
+Drehregler 2: Decay
+Drehregler 3: Sustain
+Drehregler 4: Release
+Drehregler 5: Coarse
+Drehregler 6: Fine
+Drehregler 7: Level<Vel
+Drehregler 8: Level
+
+*Bank 5: LFO*
+Drehregler 1: Attack
+Drehregler 2: Decay
+Drehregler 3: Sustain
+Drehregler 4: Release
+Drehregler 5: Rate
+Drehregler 6: Mod
+Drehregler 7: Wave
+Drehregler 8: Rate<Key
+
+*Bank 6: Filter*
+Drehregler 1: Attack
+Drehregler 2: Decay
+Drehregler 3: Sustain
+Drehregler 4: Release
+Drehregler 5: Freq
+Drehregler 6: Res
+Drehregler 7: Freq<Vel
+Drehregler 8: Envelope
+
+*Bank 7: Pitch Mod*
+Drehregler 1: Attack
+Drehregler 2: Decay
+Drehregler 3: Sustain
+Drehregler 4: Release
+Drehregler 5: Initial
+Drehregler 6: Time (Portamento)
+Drehregler 7: Pitch Env
+Drehregler 8: Spread
+
+*Bank 8: Routing*
+Drehregler 1: Time<Key
+Drehregler 2: Pan
+Drehregler 3: Key (Key<Pan)
+Drehregler 4: Rnd (Rnd<Pan)
+Drehregler 5: Algorithm
+Drehregler 6: Time
+Drehregler 7: Tone
+Drehregler 8: Volume
+
+*Best-Of Bank*
+Drehregler 1: Coarse Osc A
+Drehregler 2: Level Osc B
+Drehregler 3: Coarse Osc B
+Drehregler 4: Fine Osc B
+Drehregler 5: Filter Freq
+Drehregler 6: Filter Res
+Drehregler 7: Time
+Drehregler 8: Tone
+
+
+Divider.tif
+
+/Simpler/
+
+*Bank 1: Lautstärke-Hüllkurve | Loop*
+Drehregler 1: Attack
+Drehregler 2: Decay
+Drehregler 3: Sustain
+Drehregler 4: Release
+Drehregler 5: Start
+Drehregler 6: Loop
+Drehregler 7: Length
+Drehregler 8: Fade
+
+*Bank 2: Filter*
+Drehregler 1: Attack
+Drehregler 2: Decay
+Drehregler 3: Sustain
+Drehregler 4: Release
+Drehregler 5: Freq
+Drehregler 6: Res
+Drehregler 7: Vel
+Drehregler 8: Env
+
+*Bank 3: LFO*
+Drehregler 1: Attack
+Drehregler 2: Rate
+Drehregler 3: Key (LFO-Frequenz< Key)
+Drehregler 4: Type
+Drehregler 5: Volume < LFO
+Drehregler 6: Filter-Eckfrequenz < LFO
+Drehregler 7: Pitch < LFO
+Drehregler 8: Pan < LFO
+
+*Bank 4: Pitch-Hüllkurve | Global*
+Drehregler 1: Attack
+Drehregler 2: Decay
+Drehregler 3: Sustain
+Drehregler 4: Release
+Drehregler 5: Glide
+Drehregler 6: Spread
+Drehregler 7: Pan
+Drehregler 8: Volume
+
+*Best-Of Bank*
+Drehregler 1: Start
+Drehregler 2: Loop
+Drehregler 3: Length
+Drehregler 4: Volume Attack
+Drehregler 5: Volume Decay
+Drehregler 6: Volume Release
+Drehregler 7: Filter Freq
+Drehregler 8: Filter Res
+
+
+Divider.tif
+
+/Sampler/
+
+*Bank 1: Lautstärke*
+Drehregler 1: Volume
+$Comment Translation mark Sampler
+Drehregler 2: Attack
+$Comment Translation mark Sampler
+Drehregler 3: Decay
+$Comment Translation mark Sampler
+Drehregler 4: Sustain
+$Comment Translation mark Sampler
+Drehregler 5: Release
+Drehregler 6: Volume<Vel
+Drehregler 7: Global Time<Vel
+Drehregler 8: Global Time
+
+*Bank 2: Filter*
+Drehregler 1: Filter Type
+Drehregler 2: Filter Morph
+Drehregler 3: Filter Freq
+Drehregler 4: Filter Res
+Drehregler 5: Filter Vel
+Drehregler 6: Filter Key
+Drehregler 7: Filter Env
+Drehregler 8: Shaper Amount
+
+*Bank 3: Filter-Hüllkurve*
+Drehregler 1: FE Attack
+Drehregler 2: FE Decay
+Drehregler 3: FE Sustain
+Drehregler 4: FE Release
+Drehregler 5: FE End
+Drehregler 6: FE Loop Mode
+Drehregler 7: FE Loop Time
+Drehregler 8: FE Loop Beats
+
+*Bank 4: LFO 1*
+Drehregler 1: LFO 1 Wellenform
+Drehregler 2: LFO 1 Sync
+Drehregler 3: LFO 1 Rate
+Drehregler 4: LFO 1 Freq
+Drehregler 5: Volume < LFO 1
+Drehregler 6: Filter < LFO 1
+Drehregler 7: Pan < LFO 1
+Drehregler 8: Pitch < LFO 1
+
+*Bank 5: LFO 2*
+Drehregler 1: LFO 2 Wellenform
+Drehregler 2: LFO 2 Sync
+Drehregler 3: LFO 2 Rate
+Drehregler 4: LFO 2 Freq
+Drehregler 5: LFO 2 < Key
+Drehregler 6: LFO 2 Stereo-Modus
+Drehregler 7: LFO 2 Spin
+Drehregler 8: LFO 2 Phase
+
+*Bank 6: LFO 3*
+Drehregler 1: LFO 3 Wellenform
+Drehregler 2: LFO 3 Sync
+Drehregler 3: LFO 3 Rate
+Drehregler 4: LFO 3 Freq
+Drehregler 5: LFO 3 < Key
+Drehregler 6: LFO 3 Stereo-Modus
+Drehregler 7: LFO 3 Spin
+Drehregler 8: LFO 3 Phase
+
+*Bank 7: Oszillator*
+Drehregler 1: OSC Mode
+Drehregler 2: OSC Volume
+Drehregler 3: OSC Coarse
+Drehregler 4: OSC Fine
+Drehregler 5: OSC Attack
+Drehregler 6: OSC Decay
+Drehregler 7: OSC Sustain
+Drehregler 8: OSC Release
+
+*Bank 8: Pitch*
+Drehregler 1: Global Transposition
+Drehregler 2: Global Spread
+Drehregler 3: P Env Amount
+Drehregler 4: P Env Attack
+Drehregler 5: P Env Peak
+Drehregler 6: P Env Decay
+Drehregler 7: P Env Sustain
+Drehregler 8: P Env Release
+
+*Best-Of Bank*
+Drehregler 1: Volume Attack
+Drehregler 2: Volume Decay
+Drehregler 3: Volume Release
+Drehregler 4: Filter Freq
+Drehregler 5: Filter Res
+Drehregler 6: Filter Morph
+Drehregler 7: OSC Volume
+Drehregler 8: OSC Coarse
+
+
+Divider.tif
+
+/Tension/
+
+*Bank 1: Erreger und Saite*
+Drehregler 1: Excitator Type
+Drehregler 2: String Decay Time
+Drehregler 3: String Inharmonicity
+Drehregler 4: String Damping Amount
+Drehregler 5: Mass/Protrusion/Force
+Drehregler 6: Friction/Stiffness
+Drehregler 7: Excitator Velocity
+Drehregler 8: Excitator Position
+
+*Bank 2: Dämpfer*
+Drehregler 1: Damper An/Aus
+Drehregler 2: Damper Mass
+Drehregler 3: Damper Stiffness
+Drehregler 4: Damper Velocity
+Drehregler 5: Damper Position
+Drehregler 6: Damper Damping
+Drehregler 7: Damper Position < Velocity
+Drehregler 8: Fix. Position An/Aus
+
+*Bank 3: Termination und Pickup*
+Drehregler 1: Termination An/Aus
+Drehregler 2: Finger Mass
+Drehregler 3: Finger Stiffness
+Drehregler 4: Fret Stiffness
+Drehregler 5: Pickup An/Aus
+Drehregler 6: Pickup Position
+Drehregler 7: Finger Mass < Vel.
+Drehregler 8: Finger Mass < Key
+
+*Bank 4: Body*
+Drehregler 1: Body An/Aus
+Drehregler 2: Body Type
+Drehregler 3: Body Size
+Drehregler 4: Body Decay
+Drehregler 5: Body Low Cut
+Drehregler 6: Body High Cut
+Drehregler 7: String/Body Balance
+Drehregler 8: Global Vol.
+
+*Bank 5: Vibrato*
+Drehregler 1: Vibrato An/Aus
+Drehregler 2: Vib Delay
+Drehregler 3: Vib Attack
+Drehregler 4: Vib Rate
+Drehregler 5: Vib Amount
+Drehregler 6: Vib > Mod (Modulationsrad)
+Drehregler 7: Vib Error
+Drehregler 8: Global Volume
+
+*Bank 6: Filter*
+Drehregler 1: Filter An/Aus
+Drehregler 2: Filter Type
+Drehregler 3: Freq
+Drehregler 4: Reso
+Drehregler 5: Env < Cutoff
+Drehregler 6: Cutoff < LFO 1
+Drehregler 7: Env < Reso
+Drehregler 8: Reso < LFO
+
+*Bank 7: Hüllkurve und LFO*
+Drehregler 1: Env An/Aus
+$Comment Translation mark Tension
+Drehregler 2: Attack
+$Comment Translation mark Tension
+Drehregler 3: Decay
+$Comment Translation mark Tension
+Drehregler 4: Sustain
+$Comment Translation mark Tension
+Drehregler 5: Release
+Drehregler 6: LFO An/Aus
+Drehregler 7: LFO Type
+Drehregler 8: LFO Rate
+
+*Bank 8: Globales*
+Drehregler 1: Unison An/Aus
+Drehregler 2: Fine Tuning (Detune)
+Drehregler 3: Portamento An/Aus
+Drehregler 4: Portamento Time
+Drehregler 5: Voices (Polyphonie)
+Drehregler 6: Keyboard Octave
+Drehregler 7: Keyboard Semitone
+Drehregler 8: Volume
+
+*Best-Of Bank*
+Drehregler 1: Excitator Type
+Drehregler 2: Excitator Position
+Drehregler 3: String Decay
+Drehregler 4: String Damping
+Drehregler 5: Vibrato Amount
+Drehregler 6: Filter Frequency
+Drehregler 7: Filter Reso
+Drehregler 8: Volume
+
+$Comment -----------------------------------------------------------------------
+$Page MIDI-Effekt-Mappings
+$TargetName MIDI Effect Mappings
+
+/Arpeggiator/
+
+*Bank 1: Style*
+Drehregler 1: Style
+Drehregler 2: Groove
+Drehregler 3: Offset
+Drehregler 4: Rate
+Drehregler 5: Retrigger-Quelle
+Drehregler 6: Retrigger-Anzahl
+Drehregler 7: Repeat
+Drehregler 8: Gate
+
+*Bank 2: Pitch/Velocity*
+Drehregler 1: Transpose
+Drehregler 2: Key
+Drehregler 3: Steps
+Drehregler 4: Distance
+Drehregler 5: Velocity Decay
+Drehregler 6: Target
+Drehregler 7: Velocity Ein/Aus
+Drehregler 8: Velocity Retrigger
+
+*Best-Of Bank*
+Drehregler 1: Sync Rate
+Drehregler 2: Free Rate
+Drehregler 3: Steps
+Drehregler 4: Distance
+Drehregler 5: Gate
+Drehregler 6: Key
+Drehregler 7: Decay
+Drehregler 8: Target
+
+
+Divider.tif
+
+/Chord/
+
+*Bank 1: Shift*
+Drehregler 1: Shift 1
+Drehregler 2: Shift 2
+Drehregler 3: Shift 3
+Drehregler 4: Shift 4
+Drehregler 5: Shift 5
+Drehregler 6: Shift 6
+Drehregler 7: nicht zugewiesen
+Drehregler 8: nicht zugewiesen
+
+*Bank 2: Shift %*
+Drehregler 1: Shift % 1
+Drehregler 2: Shift % 2
+Drehregler 3: Shift % 3
+Drehregler 4: Shift % 4
+Drehregler 5: Shift % 5
+Drehregler 6: Shift % 6
+Drehregler 7: nicht zugewiesen
+Drehregler 8: nicht zugewiesen
+
+*Best-Of Bank*
+Drehregler 1: Shift 1
+Drehregler 2: Shift 2
+Drehregler 3: Shift 3
+Drehregler 4: Shift 4
+Drehregler 5: Shift 5
+Drehregler 6: Vel 5
+Drehregler 7: Shift 6
+Drehregler 8: Vel 6
+
+
+Divider.tif
+
+/Note Length/
+
+Drehregler 1: Mode
+Drehregler 2: Length (Time-Modus)
+Drehregler 3: Length (Sync-Modus)
+Drehregler 4: Gate
+Drehregler 5: Decay Time
+Drehregler 6: Ein/Aus Balance
+Drehregler 7: Key Scale
+Drehregler 8: nicht zugewiesen
+
+
+Divider.tif
+
+/Pitch/
+
+Drehregler 1: Pitch
+Drehregler 2: Range
+Drehregler 3: Lowest
+Drehregler 4: nicht zugewiesen
+Drehregler 5: nicht zugewiesen
+Drehregler 6: nicht zugewiesen
+Drehregler 7: nicht zugewiesen
+Drehregler 8: nicht zugewiesen
+
+
+Divider.tif
+
+/Random/
+
+Drehregler 1: Chance
+Drehregler 2: Choices
+Drehregler 3: Scale
+Drehregler 4: Sign
+Drehregler 5: nicht zugewiesen
+Drehregler 6: nicht zugewiesen
+Drehregler 7: nicht zugewiesen
+Drehregler 8: nicht zugewiesen
+
+
+Divider.tif
+
+/Scale/
+
+Drehregler 1: Base
+Drehregler 2: Transpose
+Drehregler 3: Range
+Drehregler 4: Lowest
+Drehregler 5: nicht zugewiesen
+Drehregler 6: nicht zugewiesen
+Drehregler 7: nicht zugewiesen
+Drehregler 8: nicht zugewiesen
+
+
+Divider.tif
+
+/Velocity/
+
+Drehregler 1: Drive
+Drehregler 2: Comp. (Compand)
+Drehregler 3: Random
+Drehregler 4: Mode
+Drehregler 5: Out Hi
+Drehregler 6: Out Low
+Drehregler 7: Range
+Drehregler 8: Lowest
+
+$Comment -----------------------------------------------------------------------
+$Page Audio-Effekt-Mappings
+$TargetName Audio Effect Mappings
+
+/Amp/
+
+*Bank 1:*
+Drehregler 1: Gain
+Drehregler 2: Bass
+Drehregler 3: Middle
+Drehregler 4: Treble
+Drehregler 5: Presence
+Drehregler 6: Volume
+Drehregler 7: Dry/Wet
+Drehregler 8: Amp Type
+
+*Bank 2:*
+Drehregler 1: Dual/Mono
+
+*Best-Of Bank*
+Drehregler 1: Gain
+Drehregler 2: Bass
+Drehregler 3: Middle
+Drehregler 4: Treble
+Drehregler 5: Presence
+Drehregler 6: Volume
+Drehregler 7: Dry/Wet
+Drehregler 8: Amp Type
+
+
+Divider.tif
+
+/Auto Filter/
+
+Drehregler 1: Frequenz
+Drehregler 2: Q
+Drehregler 3: Attack
+Drehregler 4: Release
+$Comment Translation mark Auto Filter
+Drehregler 5: Envelope Amount
+Drehregler 6: LFO Amount
+Drehregler 7: Rate
+Drehregler 8: Phase
+
+
+Divider.tif
+
+/Auto Pan/
+
+Drehregler 1: Amount
+Drehregler 2: Rate (Hz)
+Drehregler 3: Phase
+Drehregler 4: Shape
+Drehregler 5: Shape-Auswahl
+Drehregler 6: Rate (Beat-Raster)
+Drehregler 7: Offset
+Drehregler 8: Width
+
+
+Divider.tif
+
+/Beat Repeat/
+
+*Bank 1: Repeat Rate*
+Drehregler 1: Interval
+Drehregler 2: Offset
+Drehregler 3: Grid
+Drehregler 4: Variation
+Drehregler 5: Filter-Frequenz
+Drehregler 6: Filter-Resonanz
+Drehregler 7: Volume
+Drehregler 8: Decay
+
+*Bank 2: Gate/Pitch*
+Drehregler 1: Chance
+Drehregler 2: Gate
+Drehregler 3: Pitch
+Drehregler 4: Pitch Decay
+Drehregler 5: Filter-Frequenz
+Drehregler 6: Filter-Resonanz
+Drehregler 7: Volume
+Drehregler 8: Decay
+
+*Best-Of Bank*
+Drehregler 1: Interval
+Drehregler 2: Offset
+Drehregler 3: Gate
+Drehregler 4: Chance
+Drehregler 5: Grid
+Drehregler 6: Variation
+Drehregler 7: Pitch
+Drehregler 8: Filter-Frequenz
+
+
+Divider.tif
+
+/Cabinet/
+
+Drehregler 1: Cabinet Type
+Drehregler 2: Mic Position
+Drehregler 3: Mic Type
+Drehregler 4: Dual/Mono
+Drehregler 5: Dry/Wet
+
+
+Divider.tif
+
+/Chorus/
+
+Drehregler 1: Zeit Delay 1
+Drehregler 2: Zeit Delay 2
+Drehregler 3: Mod Amount
+Drehregler 4: Dry/Wet
+Drehregler 5: Delay 1 HP
+Drehregler 6: Delay 2 Mode
+Drehregler 7: Mod Rate
+Drehregler 8: Feedback
+
+
+Divider.tif
+
+/Compressor/
+
+*Bank 1: Kompression*
+Drehregler 1. Threshold
+Drehregler 2. Ratio
+Drehregler 3. Attack
+Drehregler 4. Release
+Drehregler 5. Knee
+Drehregler 6. EF Mode
+Drehregler 7. Look Ahead
+Drehregler 8. Model
+
+*Bank 2: Sidechain*
+Drehregler 1. Externes Signal An/Aus
+Drehregler 2. Externes Signal Gain
+Drehregler 3. Externes Signal Mix
+Drehregler 4. Sidechain vorhören
+Drehregler 5. EQ On
+Drehregler 6. EQ Frequency
+Drehregler 7. EQ Q
+Drehregler 8. EQ Mode
+
+*Bank 3: Output*
+Drehregler 1. EQ Gain
+Drehregler 2. Makeup Gain
+Drehregler 3. Output Gain
+
+*Best-Of Bank*
+Drehregler 1. Threshold
+Drehregler 2. Ratio
+Drehregler 3. Attack
+Drehregler 4. Release
+Drehregler 5. Externes Signal Gain
+Drehregler 6. Externes Signal Mix
+Drehregler 7. EQ Frequency
+Drehregler 8. Output Gain
+
+
+Divider.tif
+
+/Corpus/
+
+*Bank 1: *
+Drehregler 1: Decay
+Drehregler 2: Material
+Drehregler 3: Mid Freq
+Drehregler 4: Width
+Drehregler 5: Bleed
+Drehregler 6: Width
+Drehregler 7: Gain
+Drehregler 8: Dry/Wet
+
+*Bank 2:*
+Drehregler 1: Listening L
+Drehregler 2: Listening R
+Drehregler 3: Hit
+Drehregler 4: Brightness
+Drehregler 5: Inharmonics
+Drehregler 6: Radius
+Drehregler 7: Opening
+Drehregler 8: Ratio
+
+*Bank 3:*
+Drehregler 1: Resonance Type
+Drehregler 2: Tune
+Drehregler 3: Transpose
+Drehregler 4: Fine
+Drehregler 5: Spread
+Drehregler 6: Resonator Quality
+Drehregler 7: Note Off
+Drehregler 8: Off Decay
+
+*Best-Of Bank*
+Drehregler 1: Decay
+Drehregler 2: Material
+Drehregler 3: Brightness
+Drehregler 4: Inharmonics
+Drehregler 5: Resonanz-Typ
+Drehregler 6: Tune
+Drehregler 7: Gain
+Drehregler 8: Dry/Wet
+
+Divider.tif
+
+/Dynamic Tube/
+
+Drehregler 1: Drive
+Drehregler 2: Bias
+Drehregler 3: Tone
+Drehregler 4: Envelope
+Drehregler 5: Attack
+Drehregler 6: Release
+Drehregler 7: Dry/Wet
+Drehregler 8: Output
+
+
+Divider.tif
+
+/EQ Eight/
+
+*Bank 1: Band An/Aus*
+Drehregler 1: EQ 1 An/Aus
+Drehregler 2: EQ 2 An/Aus
+Drehregler 3: EQ 3 An/Aus
+Drehregler 4: EQ 4 An/Aus
+Drehregler 5: EQ 5 An/Aus
+Drehregler 6: EQ 6 An/Aus
+Drehregler 7: EQ 7 An/Aus
+Drehregler 8: EQ 8 An/Aus
+
+*Bank 2: Frequenz*
+Drehregler 1: Freq EQ 1
+Drehregler 2: Freq EQ 2
+Drehregler 3: Freq EQ 3
+Drehregler 4: Freq EQ 4
+Drehregler 5: Freq EQ 5
+Drehregler 6: Freq EQ 6
+Drehregler 7: Freq EQ 7
+Drehregler 8: Freq EQ 8
+
+*Bank 3: Pegel*
+Drehregler 1: Pegel EQ 1
+Drehregler 2: Pegel EQ 2
+Drehregler 3: Pegel EQ 3
+Drehregler 4: Pegel EQ 4
+Drehregler 5: Pegel EQ 5
+Drehregler 6: Pegel EQ 6
+Drehregler 7: Pegel EQ 7
+Drehregler 8: Pegel EQ 8
+
+*Bank 4: Resonanz*
+Drehregler 1: Res EQ 1
+Drehregler 2: Res EQ 2
+Drehregler 3: Res EQ 3
+Drehregler 4: Res EQ 4
+Drehregler 5: Res EQ 5
+Drehregler 6: Res EQ 6
+Drehregler 7: Res EQ 7
+Drehregler 8: Res EQ 8
+
+*Bank 5: Filter-Typ*
+Drehregler 1: Filter-Typ EQ 1
+Drehregler 2: Filter-Typ EQ 2
+Drehregler 3: Filter-Typ EQ 3
+Drehregler 4: Filter-Typ EQ 4
+Drehregler 5: Filter-Typ EQ 5
+Drehregler 6: Filter-Typ EQ 6
+Drehregler 7: Filter-Typ EQ 7
+Drehregler 8: Filter-Typ EQ 8
+
+*Bank 6: Allgemein*
+Drehregler 1: Output Gain
+Drehregler 2: Scale
+Drehregler 3: nicht zugewiesen
+Drehregler 4: nicht zugewiesen
+Drehregler 5: nicht zugewiesen
+Drehregler 6: nicht zugewiesen
+Drehregler 7: nicht zugewiesen
+Drehregler 8: nicht zugewiesen
+
+*Bank 7: EQs 1-3*
+Drehregler 1: Pegel EQ 1
+Drehregler 2: Freq EQ 1
+Drehregler 3: Res EQ 1
+Drehregler 4: Pegel EQ 2
+Drehregler 5: Freq EQ 2
+Drehregler 6: Res EQ 2
+Drehregler 7: Pegel EQ 3
+Drehregler 8: Freq EQ 3
+
+*Best-Of Bank*
+Drehregler 1: Freq EQ 1
+Drehregler 2: Pegel EQ 1
+Drehregler 3: Freq EQ 2
+Drehregler 4: Pegel EQ 2
+Drehregler 5: Freq EQ 3
+Drehregler 6: Pegel EQ 3
+Drehregler 7: Freq EQ 4
+Drehregler 8: Pegel EQ 4
+
+
+Divider.tif
+
+/EQ Three/
+
+Drehregler 1: Gain Low
+Drehregler 2: Gain Mid
+Drehregler 3: Gain High
+Drehregler 4: nicht zugewiesen
+Drehregler 5: Frequenz Low
+Drehregler 6: Frequenz High
+Drehregler 7: Slope
+Drehregler 8: nicht zugewiesen
+
+
+Divider.tif
+
+/Erosion/
+
+Drehregler 1: Freq
+Drehregler 2: Width
+Drehregler 3: Amount
+Drehregler 4: Noise | Wide Noise | Sine
+Drehregler 5: nicht zugewiesen
+Drehregler 6: nicht zugewiesen
+Drehregler 7: nicht zugewiesen
+Drehregler 8: nicht zugewiesen
+
+
+Divider.tif
+
+/Filter Delay/
+
+*Bank 1: Input L Filter*
+Drehregler 1: Frequenz
+Drehregler 2: Resonanz
+Drehregler 3: Delay Time
+Drehregler 4: Sync %
+Drehregler 5: Feedback
+Drehregler 6: Pan
+Drehregler 7: Volume
+Drehregler 8: Gesamt
+
+*Bank 2: Input L+R Filter*
+Drehregler 1: Frequenz
+Drehregler 2: Resonanz
+Drehregler 3: Delay Time
+Drehregler 4: Sync %
+Drehregler 5: Feedback
+Drehregler 6: Pan
+Drehregler 7: Volume
+Drehregler 8: Gesamt
+
+*Bank 3: Input R Filter*
+Drehregler 1: Frequenz
+Drehregler 2: Resonanz
+Drehregler 3: Delay Time
+Drehregler 4: Sync %
+Drehregler 5: Feedback
+Drehregler 6: Pan
+Drehregler 7: Volume
+Drehregler 8: Gesamt
+
+*Best-Of Bank*
+Drehregler 1: Frequenz L
+Drehregler 2: Beat Delay L
+Drehregler 3: Feedback L
+Drehregler 4: Volume L
+Drehregler 5: Frequenz R
+Drehregler 6: Beat Delay R
+Drehregler 7: Feedback R
+Drehregler 8: Volume R
+
+
+Divider.tif
+
+/Flanger/
+
+*Bank 1: Frequency Controls*
+Drehregler 1: High Pass
+Drehregler 2: Dry/Wet
+Drehregler 3: Delay Time
+Drehregler 4: Feedback
+Drehregler 5: Envelope
+Drehregler 6: Attack
+Drehregler 7: Release
+Drehregler 8: nicht zugewiesen
+
+*Bank 2: LFO/S&H*
+Drehregler 1: Amount
+Drehregler 2: Rate
+Drehregler 3: Phase
+Drehregler 4: Hz/Beat-Raster
+Drehregler 5: Offset
+Drehregler 6: Note Rate
+Drehregler 7: Width
+Drehregler 8: Shape
+
+*Best-Of Bank*
+Drehregler 1: High Pass
+Drehregler 2: Delay Time
+Drehregler 3: Feedback
+Drehregler 4: LFO Amount
+Drehregler 5: LFO Rate (Hz)
+Drehregler 6: LFO (Beat-Raster)
+Drehregler 7: Envelope
+Drehregler 8: Dry/Wet
+
+
+Divider.tif
+
+/Frequency Shifter/
+
+Drehregler 1: Coarse
+Drehregler 2: Fine
+Drehregler 3: Mode
+Drehregler 4: Ring Mod Frequency
+Drehregler 5: Drive Ein/Aus
+Drehregler 6: Drive
+Drehregler 7: Wide
+Drehregler 8: Dry/Wet
+
+
+Divider.tif
+
+/Gate/
+
+Drehregler 1: Threshold
+Drehregler 2: Gain
+Drehregler 3: nicht zugewiesen
+Drehregler 4: nicht zugewiesen
+Drehregler 5: Attack
+Drehregler 6: Hold
+Drehregler 7: Release
+Drehregler 8: nicht zugewiesen
+
+
+Divider.tif
+
+/Grain Delay/
+
+Drehregler 1: Spray
+Drehregler 2: Frequency
+Drehregler 3: Pitch
+Drehregler 4: Random Pitch
+Drehregler 5: Feedback
+Drehregler 6: Dry/Wet
+Drehregler 7: Sync %
+Drehregler 8: Time
+
+
+Divider.tif
+
+/Looper/
+
+Drehregler 1: State
+Drehregler 2: Speed
+Drehregler 3: Reverse
+Drehregler 4: Quantization
+Drehregler 5: Monitor
+Drehregler 6: Song Control
+Drehregler 7: Tempo Control
+Drehregler 8: Feedback
+
+
+Divider.tif
+
+/Multiband Dynamics/
+
+*Bank 1: Globale Parameter*
+Drehregler 1: Output Gain
+Drehregler 2: Amount
+Drehregler 3: Time
+Drehregler 4: Soft Knee
+Drehregler 5: RMS/Peak
+Drehregler 6: High Ein
+Drehregler 7: Mid Ein
+Drehregler 8: Low Ein
+
+*Bank 2: Unteres Band*
+Drehregler 1: Pre Gain Low
+Drehregler 2: Threshold Below Low
+Drehregler 3: Ratio Below Low
+Drehregler 4: Threshold Above Low
+Drehregler 5: Ratio Above Low
+Drehregler 6: Attack Low
+Drehregler 7: Release Low
+Drehregler 8: Post Gain Low
+
+*Bank 3: Mittleres Band*
+Drehregler 1: Pre Gain Mid
+Drehregler 2: Threshold Below Mid
+Drehregler 3: Ratio Below Mid
+Drehregler 4: Threshold Above Mid
+Drehregler 5: Ratio Above Mid
+Drehregler 6: Attack Mid
+Drehregler 7: Release Mid
+Drehregler 8: Post Gain Mid
+
+*Bank 4: Hohes Band*
+Drehregler 1: Pre Gain High
+Drehregler 2: Threshold Below High
+Drehregler 3: Ratio Below High
+Drehregler 4: Threshold Above High
+Drehregler 5: Ratio Above High
+Drehregler 6: Attack High
+Drehregler 7: Release High
+Drehregler 8: Post Gain High
+
+*Bank 5: Übergangs-Frequenzen*
+Drehregler 1: Low/Mid Split Freq
+Drehregler 2: Mid/High Split Freq
+Drehregler 4: nicht zugewiesen
+Drehregler 5: nicht zugewiesen
+Drehregler 6: nicht zugewiesen
+Drehregler 7: nicht zugewiesen
+Drehregler 8: nicht zugewiesen
+
+*Best-Of Bank*
+Drehregler 1: Threshold Below Low
+Drehregler 2: Ratio Below Low
+Drehregler 3: Threshold Below Mid
+Drehregler 4: Ratio Below Mid
+Drehregler 5: Threshold Below High
+Drehregler 6: Ratio Below High
+Drehregler 7: Output Gain
+Drehregler 8: Amount
+
+Divider.tif
+
+/Overdrive/
+
+Drehregler 1: Filter Freq
+Drehregler 2: Filter Width
+Drehregler 3: Drive
+Drehregler 4: Tone
+Drehregler 5: Dry/Wet
+Drehregler 6: Preserve Dynamics
+
+
+Divider.tif
+
+/Phaser/
+
+*Bank 1: Frequency Controls*
+Drehregler 1: Poles
+Drehregler 2: Color
+Drehregler 3: Dry/Wet
+Drehregler 4: Frequency
+Drehregler 5: Envelope Amount
+Drehregler 6: Attack
+Drehregler 7: Release
+Drehregler 8: Feedback
+
+*Bank 2: LFO/S&H*
+Drehregler 1: Amount
+Drehregler 2: Rate (Hz)
+Drehregler 3: Phase
+Drehregler 4: Hz/Beat-Raster
+Drehregler 5: Offset
+Drehregler 6: Rate (Beat-Raster)
+Drehregler 7: Spin
+Drehregler 8: Shape
+
+*Best-Of Bank*
+Drehregler 1: Poles
+Drehregler 2: Color
+$Comment Translation mark Phaser
+Drehregler 3: Frequency
+Drehregler 4: Feedback
+Drehregler 5: LFO Amount
+Drehregler 6: LFO Rate
+Drehregler 7: Envelope Amount
+Drehregler 8: Dry/Wet
+
+
+Divider.tif
+
+/Ping Pong Delay/
+
+Drehregler 1: Frequenz
+$Comment Translation mark Ping Pong Delay
+Drehregler 2: Width
+Drehregler 3: Time (ms)
+Drehregler 4: Synchronisierte Delay-Zeit (1-16)
+Drehregler 5: Swing
+Drehregler 6: Mode (Sync/Time)
+Drehregler 7: Feedback
+Drehregler 8: Dry/Wet
+
+
+Divider.tif
+
+/Redux/
+
+Drehregler 1: Bit Reduction
+Drehregler 2: Hard/Soft
+Drehregler 3: Downsample Hard
+Drehregler 4: Downsample Soft
+Drehregler 5: Bit Reduction On
+Drehregler 6: nicht zugewiesen
+Drehregler 7: nicht zugewiesen
+Drehregler 8: nicht zugewiesen
+
+
+Divider.tif
+
+/Saturator/
+
+*Bank 1: Allgemeine Bedienelemente*
+Drehregler 1: Drive
+Drehregler 2: Base
+Drehregler 3: Frequenz
+Drehregler 4: Width
+Drehregler 5: Depth
+Drehregler 6: Output
+Drehregler 7: Dry/Wet
+Drehregler 8: Curve-Auswahl
+
+*Bank 2: Waveshaper*
+Drehregler 1: WS Drive
+Drehregler 2: WS Lin
+Drehregler 3: WS Curve
+Drehregler 4: WS Damp
+Drehregler 5: WS Depth
+Drehregler 6: WS Period
+Drehregler 7: Dry/Wet
+Drehregler 8: nicht zugewiesen
+
+*Best-Of Bank*
+Drehregler 1: Drive
+Drehregler 2: Base
+Drehregler 3: Frequenz
+Drehregler 4: Depth
+Drehregler 5: WS Curve
+Drehregler 6: WS Depth
+Drehregler 7: WS Period
+Drehregler 8: WS Damp
+
+
+Divider.tif
+
+/Resonators/
+
+*Bank 1: Allgemein/Modus I*
+$Comment Translation mark Resonators
+Drehregler 1: Filter_Frequenz
+Drehregler 2: Width
+Drehregler 3: Globales Gain
+Drehregler 4: Dry/Wet
+Drehregler 5: Decay
+Drehregler 6: Note
+Drehregler 7: Color
+Drehregler 8: I Gain
+
+*Bank 2: Mode II - V*
+Drehregler 1: II Gain
+Drehregler 2: III Gain
+Drehregler 3: IV Gain
+Drehregler 4: V Gain
+Drehregler 5: II Pitch
+Drehregler 6: III Pitch
+Drehregler 7: IV Pitch
+Drehregler 8: V Pitch
+
+*Best-Of Bank*
+Drehregler 1: Decay
+Drehregler 2: Note
+Drehregler 3: II Pitch
+Drehregler 4: III Pitch
+Drehregler 5: IV Pitch
+Drehregler 6: V Pitch
+Drehregler 7: Global Gain
+Drehregler 8: Dry/Wet
+
+
+Divider.tif
+
+/Simple Delay/
+
+Drehregler 1: Delay Time L
+Drehregler 2: Sync % L
+Drehregler 3: Time (ms) L
+Drehregler 4: Dry/Wet
+Drehregler 5: Delay Time R
+Drehregler 6: Sync % R
+Drehregler 7: Time (ms) R
+Drehregler 8: Feedback
+
+
+Divider.tif
+
+/Utility/
+
+Drehregler 1: Width
+Drehregler 2: Panorama
+Drehregler 3: Mute
+Drehregler 4: Block DC
+Drehregler 5: Mode
+Drehregler 6: Gain
+Drehregler 7: Phz-L
+Drehregler 8: Phz-R
+
+
+Divider.tif
+
+/Reverb/
+
+*Bank 1: Reflections*
+Drehregler 1: Filter-Frequenz
+Drehregler 2: Filter-Resonanz
+Drehregler 3: Predelay
+Drehregler 4: Spin
+Drehregler 5: Early ref. Frequenz
+Drehregler 6: Early ref. Resonanz
+Drehregler 7: Early ref. Shape
+Drehregler 8: Diff. Net. Decay
+
+*Bank 2: Diffusion Network*
+Drehregler 1: Frequenz High
+Drehregler 2: Frequenz Low
+Drehregler 3: Frequenz Chorus
+Drehregler 4: Density
+Drehregler 5: Resonanz High
+Drehregler 6: Resonanz Low
+Drehregler 7: Intensität Chorus
+Drehregler 8: Scale
+
+*Bank 3: Global*
+Drehregler 1: Decay Time
+Drehregler 2: Freeze
+Drehregler 3: Size (Raumgröße)
+Drehregler 4: Stereo-Abbildung
+Drehregler 5: Reflect-Pegel
+Drehregler 6: Diffuse-Pegel
+Drehregler 7: Dry/Wet
+Drehregler 8: Globale Auswahl
+
+*Best-Of Bank*
+Drehregler 1: Decay Time
+Drehregler 2: Size (Raumgröße)
+Drehregler 3: Intensität Chorus
+Drehregler 4: Eingangs-Frequenz
+Drehregler 5: Frequenz High
+Drehregler 6: Gain High
+Drehregler 7: Stereo-Abbildung
+Drehregler 8: Dry/Wet
+
+
+Divider.tif
+
+/Vinyl Distortion/
+
+Drehregler 1: Tracing-Frequenz
+Drehregler 2: Tracing B
+Drehregler 3: Tracing-Intensität
+Drehregler 4: Crackle Density
+Drehregler 5: Pinch-Frequenz
+Drehregler 6: Pinch B
+Drehregler 7: Pinch-Intensität
+Drehregler 8: Crackle Volume
+
+
+Divider.tif
+
+/Vocoder/
+
+*Bank 1: Globale Parameter*
+Drehregler 1: Formant Shift
+Drehregler 2: Attack
+Drehregler 3: Release
+Drehregler 4: Mono/Stereo
+Drehregler 5: Output Gain
+Drehregler 6: Gate Level
+Drehregler 7: Depth
+Drehregler 8: Dry/Wet
+
+*Bank 2: Filter/Voicing-Parameter*
+Drehregler 1: Bandwidth
+Drehregler 2: High Frequency
+Drehregler 3: Low Frequency
+Drehregler 4: Retro
+Drehregler 5: Unvoiced Level
+Drehregler 6: Unvoiced Sensitivity
+Drehregler 7: Unvoiced Switch Rate
+Drehregler 8: Enhance Carrier
+
+*Bank 3: Carrier-Parameter*
+Drehregler 1: Noise Rate
+Drehregler 2: Noise Crackle
+Drehregler 3: Detection Upper Bound
+Drehregler 4: Detection Lower Bound
+Drehregler 5: Oscillator Pitch
+Drehregler 6: Oscillator Waveform
+Drehregler 7: Ext. In Gain
+Drehregler 8: nicht zugewiesen
+
+*Best-Of Bank*
+Drehregler 1: Formant Shift
+Drehregler 2: Attack
+Drehregler 3: Release
+Drehregler 4: Unvoiced Pegel
+Drehregler 5: Gate Pegel
+Drehregler 6: Bandwidth
+Drehregler 7: Depth
+Drehregler 8: Dry/Wet
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

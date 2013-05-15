@@ -1,0 +1,234 @@
+$Page Suonare gli Strumenti Software
+$TargetName Playing Software Instruments
+
+In questa lezione impareremo a usare le funzionalità MIDI di Live per suonare i suoi strumenti software incorporati, nonché gli strumenti VST o Audio Units installati nel computer.
+
+Questa lezione è disponibile anche in formato video. $Link Clicca qui <http://www.ableton.com/_common/downloads/movies/playing_with_software_instruments.mov> per lanciare il video dal sito web Ableton.
+
+Divider.tif
+*I documenti di Live sono definiti Live Set. Questa lezione è accompagnata da un Live Set col quale interagirai procedendo. Quando sei pronto $Link clicca qui <Set:/Sets/PlayingSoftwareInstruments.als> per caricare il Live Set.*
+Divider.tif
+
+
+Gli strumenti e gli effetti incorporati di Live sono accessibili tramite il /Browser dei Dispositivi,/ che si trova nella sezione in alto a sinistra della finestra dell'applicazione. Clicca sul /selettore/ del Browser dei Dispositivi per visualizzarlo:
+DeviceBrowserSelectorInst.tif
+
+
+Clicca sul pulsante /Pagina succ./ qui sotto per procedere.
+
+$Comment -----------------------------------------------------------------------
+$Page Il Browser dei Dispositivi
+$TargetName The Device Browser
+
+Nel Browser dei Dispositivi, gli strumenti e gli effetti sono raggruppati in categorie utilizzando le cartelle. Per aprire e chiudere una cartella col mouse, cliccane il triangolino a sinistra del nome:
+DeviceBrowserTopLevel.tif
+
+Quando il Browser è in primo piano, puoi usare anche i tasti freccia della tastiera del computer per la navigazione rapida:
+
+-> I tasti freccia *su* e *giù* spostano la selezione in alto e in basso;
+-> Il tasto freccia *destra* apre le cartelle, il tasto freccia *sinistra* le chiude.
+
+Apri la cartella /Instruments/ per accedere alla collezione di strumenti software incorporati di Live. Il contenuto di questa cartella può variare a seconda dei prodotti Ableton attivati, ma comprenderà almeno i seguenti elementi:
+$If Product 20-3F, 03
+-> /Impulse/
+-> /Simpler/
+-> Cartelle /Instrument Rack/ e /Drum Rack:/
+ListOfInstrumentsLE.tif
+$Else
+-> /Impulse,/ /Simpler/ e dispositivo /External Instrument/
+-> Cartelle /Instrument Rack/ e /Drum Rack:/
+ListOfInstruments.tif
+$Endif
+
+$Comment -----------------------------------------------------------------------
+$Page Caricare un Preset di Simpler
+$TargetName Loading a Simpler Preset
+
+Stiamo per caricare un preset di Simpler.
+
+Per arrivarci, naviga fino all'icona di Simpler ed espandila. Quindi, apri la cartella "Piano and Keys" e seleziona il preset "Keys-Acoustic Piano":
+SimplerPreset.tif
+
+Per caricare un preset, trascinalo a destra, mantenendo premuto il mouse, fin sopra la traccia *2 MIDI* dell'Arrangiamento. Il cursore del mouse cambierà per indicare che il preset può essere rilasciato in questa traccia:
+DragPreset.tif
+
+Dopo aver rilasciato il pulsante del mouse, potrai vedere il nuovo preset apparire nella /Vista Traccia,/ nella parte inferiore della finestra dell'applicazione:
+PresetInTrackView.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Suonare lo Strumento via MIDI
+$TargetName Playing the Instrument via MIDI
+
+Per suonare lo strumento software dobbiamo prima accertarci che la sua traccia sia /armata./ Di solito ciò avviene automaticamente quando si inserisce uno strumento, ma si può fare anche manualmente, cliccando sul pulsante /Arma/ del mixer della traccia:
+ArmButtonInst.tif
+
+Armando la traccia avvengono due cose:
+
+-> Si consente alla traccia di ricevere le note MIDI da una tastiera MIDI esterna (o, in mancanza di un dispositivo esterno, dalla tastiera del computer, come vedremo tra un attimo).
+-> Si abilita la traccia alla registrazione, permettendo di registrare in qualsiasi momento ciò che si suona.
+
+Se hai una tastiera MIDI collegata al computer, allora vai avanti e suona alcune note. Dovresti sentire lo strumento mentre suoni e questo dovrebbe essere riflesso dai meter di /entrata/ e di /uscita/ che racchiudono lo strumento nella Vista Traccia:
+TrackViewMeters.tif
+
+
+Divider.tif
+*Risoluzione dei problemi:* se le note suonate sulla tastiera non sembrano arrivare a Live, segui la lezione $Link Collegamento dei Controller MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Usare la tastiera del computer
+$TargetName Using the Computer Keyboard
+
+Se non disponi di una tastiera MIDI, in sua vece puoi usare la tastiera del computer. Per farlo, assicurati che l'interruttore /Tastiera MIDI del computer/ nell'angolo superiore destro dello schermo sia attivato:
+ComputerKeyboardSwitchInst.tif
+
+-> I tasti delle lettere della riga superiore della tastiera (QWER...) corrispondono ai tasti neri del piano;
+-> quelli della riga centrale (ASDF...) corrispondono ai tasti bianchi;
+-> I tasti *Z* e *X* traspongono l'intervallo della tastiera MIDI del computer;
+-> I tasti *C* e *V* cambiano la velocity, o intensità, delle note suonate.
+
+La /Barra di Stato/ ai piedi della finestra dell'applicazione fornisce delle informazioni quando si premono i tasti che agiscono sulla trasposizione o sulla velocity:
+StatusBarOctave.tif
+
+
+Divider.tif
+*Nota:* in Live, i tasti della tastiera del computer possono anche essere mappati a controlli arbitrari, come descritto nella sezione "Controllo Remoto via MIDI e tramite Tasti" del manuale di riferimento.
+
+Tieni presente che tutti gli Input/Output della tastiera del tuo computer sono mediati dal sistema operativo del computer, non da Live. Per questo motivo la tastiera MIDI del computer è più adatta per l'ascolto dei suoni; laddove sia necessaria un'immissione tattile più precisa sono più indicate una tastiera o una superficie di controllo esterne.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Salvare i Preset
+$TargetName Saving Presets
+
+Hai forse modificato i parametri di Simpler e creato un suono che desideri salvare per usi futuri? Puoi salvare le impostazioni correnti dello strumento in qualsiasi momento, cliccando sul pulsante /Salva Preset/ della barra del titolo del dispositivo:
+PresetSaveButtonInst.tif
+
+Il nuovo preset apparirà nel Browser dei Dispositivi accanto all'originale, evidenziato e pronto per essere rinominato:
+NewPresetInst.tif
+
+D'ora in poi, il tuo preset personalizzato sarà accessibile attraverso il Browser dei Dispositivi e potrà essere caricato in altri tuoi Live Set.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Sostituzione Dinamica dei Preset
+$TargetName Hot-Swapping Presets
+
+La Libreria di Live offre una grande varietà di suoni; quando desideri esplorare un altro preset, è sufficiente che clicchi sul pulsante /Sostituzione Dinamica/ nella barra del titolo del dispositivo:
+BrowseButtonInst.tif
+
+L'ultimo preset scelto apparirà evidenziato nel Browser, questa volta con un corrispondente pulsante di Sostituzione Dinamica alla sua destra:
+BrowseButtonTwinInst.tif
+
+Premendo il pulsante di Sostituzione Dinamica, si crea un collegamento temporaneo tra il Browser e il dispositivo della Vista Traccia. Selezionando un preset e poi premendo il tasto *Invio* sulla tastiera del computer si sostituirà lo strumento precedentemente caricato con il nuovo preset; se il preset appartiene ad un altro strumento, ad es. /Impulse,/ Live sostituirà anche il dispositivo al posto tuo!
+
+Una volta trovato uno strumento che faccia al caso tuo, puoi premere il tasto *Esc* della tastiera del computer per uscire dalla modalità di Sostituzione Dinamica.
+
+Il Browser di Live offre una comoda funzione di ricerca in grado di trovare i preset tramite parole chiave. Ad esempio, clicca sul pulsante /Cerca/ del Browser, poi digita "bass" e premi il tasto *Invio* per elencare tutti i preset di basso della Libreria di Live:
+BrowserSearchButton.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Usare Plug-In esterni
+$TargetName Using External Plug-Ins
+
+Gli strumenti e gli effetti incorporati di Live possono essere integrati con Plug-in di terze parti in formato VST o Audio Units (solo Mac). Usare i Plug-in è molto simile ad usare i dispositivi incorporati. Per inserire uno strumento Plug-in, in primo luogo apri il /Browser dei Plug-in/ tramite il relativo selettore:
+PluginBrowserSelector.tif
+
+*Nota:* se stai utilizzando i Plug-in per la prima volta, potrebbe essere necessario attivare il supporto per Plug-in di Live. Il pulsante /Attiva/ del Browser dei Plug-in ti condurrà alle Preferenze File/Folder, dove puoi impostare i Plug-in.
+
+Tutti i Plug-in di cui disponi saranno elencati nel Browser, organizzati innanzitutto per formato, poi per produttore. I Plug-in di strumenti possono essere distinti dai Plug-in di effetti tramite la /tastiera di piano/ che nel Browser occupa la metà inferiore dell'icona:
+PluginBrowserInst.tif
+
+Esattamente come per i dispositivi di Live, seleziona uno strumento e trascinalo in una traccia MIDI. La /finestra dell'editor personalizzato/ del Plug-in si aprirà automaticamente. Nella Vista Traccia, i dispositivi Plug-in appaiono con un /controllo X-Y/ assegnabile:
+PlugInTrackView.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Il Metronomo
+$TargetName The Metronome
+
+Prima di terminare questa lezione, diamo un rapido sguardo a come registrare le tue performance nell' /Arrangiamento,/ che è il registratore multitraccia di Live.
+
+E' importante registrare in sync per assicurarsi che poi tutto suoni in sync. Il modo più semplice per registrare in sync è quello di usare il /metronomo/ incorporato di Live, che si attiva attraverso il relativo interruttore della Barra di Controllo. Lo puoi trovare nell'angolo superiore sinistro della finestra dell'applicazione:
+MetronomeSwitch.tif
+
+Il metronomo ticchetta quando Live è in esecuzione. Premi la *barra spaziatrice* per avviare la riproduzione, poi regola il volume del metronomo usando il controllo /Volume di Anteprima/ della traccia Master:
+CueVolume.tif
+
+Premi di nuovo la *barra spaziatrice* per fermare la riproduzione.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Registrazione e Riproduzione
+$TargetName Recording and Playback
+
+Il nostro prossimo passo sarà avviare il processo di registrazione. La nostra traccia MIDI è già abilitata alla registrazione: in precedenza ne abbiamo attivato il pulsante Arma, affinché Live rispondesse alle note MIDI:
+ArrangerTracksInst.tif
+
+Clicca due volte sul pulsante /Stop/ della Barra di Controllo per resettare la posizione dell'Arrangiamento a *1.1.1:*
+TransportStopRec.tif
+
+Quindi, clicca sull'adiacente pulsante di /Registrazione Globale./ (Questo procedimento è probabilmente familiare a chi ha utilizzato macchine multitraccia a nastro: prima vengono armate per la registrazione le singole tracce, poi il pulsante di Registrazione Globale attiva la registrazione delle tracce armate):
+GlobalRecordRec.tif
+
+Infine, clicca sul pulsante /Play/ della Barra di Controllo (oppure premi la *barra spaziatrice* della tastiera del computer) per avviare la registrazione.
+TransportPlayRec.tif
+
+Mano a mano che la registrazione procede, vedrai crearsi una nuova /clip MIDI/ nella traccia.
+ArrangementMIDIClipRecording.tif
+
+Per interrompere la registrazione clicca sul pulsante Stop. Cliccalo una seconda volta per resettare l'Arrangiamento a *1.1.1* e ascolta la tua registrazione cliccando sul pulsante Play.
+
+
+Divider.tif
+*Suggerimento:* per scorrere avanti/indietro o ingrandire/rimpicciolire la visualizzazione, afferra con il mouse il /righello dei tempi di battuta/ lungo la parte superiore dell'Arrangiamento e trascinalo a sinistra/destra o su/giù.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Guardare dentro la Clip
+$TargetName Looking Inside the Clip
+
+Ci sono molte cose che puoi fare con la tua clip appena registrata.
+
+/Arrangiare/ la clip rispetto alle altre in una song: puoi afferrare le clip tramite le rispettive barre del titolo per spostarle in posizioni diverse, trascinarne i bordi per modificarne la lunghezza e altro ancora.
+ClipTitleBarInst.tif
+
+/Editare/ il contenuto e le impostazioni della clip. Per vedere il contenuto della tua nuova clip, fai doppio clic sulla sua barra del titolo: le note MIDI contenute all'interno della clip appariranno nella /Vista Clip,/ nella parte inferiore della finestra dell'applicazione.
+MIDIEditorInst.tif
+
+Per alternare tra la Vista Traccia (dove risiedono lo strumento e gli effetti) e la Vista Clip (che mostra i dettagli della clip MIDI), tieni premuto *$ShiftMod* quindi premi *Tab* oppure clicca su una delle corrispondenti panoramiche ai piedi della finestra dell'applicazione:
+DetailOverviewsInst.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Editing delle Note
+$TargetName Editing Notes
+
+L'editor MIDI ha un proprio righello dei tempi di battuta, che può essere usato per lo zoom e per lo scorrimento orizzontale, esattamente come nell'Arrangiamento. Puoi anche cliccare e trascinare nell'area a sinistra dei tasti di pianoforte per zoomare e scorrere l'editor verticalmente:
+MIDIEditorScrollAreas.tif
+
+Se disattivi l'interruttore della /Modalità Disegno/ della Barra di Controllo, puoi selezionare e spostare le note con il mouse. Puoi spostare gruppi di note trascinando un rettangolo di selezione attorno ad esse:
+DrawModeOffInst.tif
+
+Ogni nota ha il proprio marcatore di /velocity/ ai piedi dell'Editor MIDI. Questo marcatore definisce il parametro /note velocity,/ cioè l'intensità con cui la nota viene suonata. Le velocity possono anche essere modificate cliccandole e trascinandole:
+VelocityEditorInst.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Come continuare?
+$TargetName Where to Go from Here?
+
+In questa lezione hai appreso come selezionare i suoni, suonare gli strumenti software e registrare note MIDI. Utilizzando i principi indicati in questa semplice configurazione, puoi proseguire nella registrazione aggiungendo qualsiasi numero di tracce, ognuna con un diverso set di suoni. Per aggiungere tracce usa i comandi del menu Crea.
+
+Raccomandiamo di proseguire con le Lezioni per scoprire cos'altro sia possibile con Live.
+
+-> $Link Clicca qui <Lesson:Internal/BuiltinAutoToc> per accedere a tutte le lezioni installate.
+
+-> Se non hai seguito la lezione $Link Registrazione Audio <Lesson:Builtin/1-Live Basics Category/2-Recording Audio>, dovresti farlo come prossimo passo per essere in grado di fare un uso creativo delle tracce sia MIDI sia audio.
+
+-> Apprendi di più sulle clip MIDI tramite la $Link creazione di pattern di batteria <Lesson:Builtin/1-Live Basics Category/3-Creating Beats>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

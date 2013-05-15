@@ -1,0 +1,86 @@
+Application.NoSuchClient=Nem kliens létezik id% s.
+Application.NoSuchApp=Nem app létezik id% s.
+Application.NoClientProvided=Kérjük, adja meg ügyfél-azonosító a kérését.
+Application.NoRedirectProvided=Kérjük, adja meg irányítani a OAuth kérését. <br/> <b>Fejlesztők:</b> adja meg a visszahívás uri a paraméter <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> beállításával vagy az alapértelmezett visszahívás <a href="https://www.dailycred.com/admin/setup">a fiók beállításait</a> .
+Application.EnterEmailOrUsername=Kérjük, adja meg e-mail vagy felhasználói nevét.
+Application.EnterEmail=Kérjük, adja meg e-mail.
+Application.EnterUsername=Kérjük, adja meg a felhasználónevét.
+Application.EnterPassword=Kérjük, adja meg a jelszavát.
+Application.AtNotAllowed=A &quot;@&quot; jel nem használható a felhasználói név.
+Application.WrongPasswordOrUsername=Kérjük, ellenőrizze a felhasználónevet és a jelszót, majd próbálja újra. <a href="%s">A jelszó törléséhez kattintson ide.</a>
+Application.BadDomain=A tartomány &quot;% s&quot; nem érvényes.
+Application.BadEmail=Kérjük, ellenőrizze, hogy az e-mail helyesen adta meg, és próbálja újra.
+Application.BadNewEmail=Kérjük, ellenőrizze, hogy az új e-mail-ben lépett be, és próbáld újra.
+Application.PasswordTooShort=Kérjük, írja be a jelszót, legalább% d karakter.
+Application.NoCallbackUri=% S még nem állította be a visszahívás URI még. Kérjük, próbálkozzon később.
+Application.EmailTaken=Ez az email már használatban van.
+Application.UsernameTaken=Ez a felhasználónév már foglalt. Kérjük, használjon egy másik felhasználónevet.
+Application.EmailSent=Egy e-mailt küldtünk. Kérjük, ellenőrizze az e-mail a további utasításokat.
+Application.EmailSentGmail=Egy e-mailt küldtünk. <a href="http://mail.google.com/">Kérjük, ellenőrizze a Gmail a további utasításokat.</a>
+Application.GoToGmail=Menj a Gmail postafiók
+Application.EmailSentYahoo=Egy e-mailt küldtünk. <a href="http://mail.yahoo.com/">Kérjük, ellenőrizze az e-mail Yahoo! a további utasításokat.</a>
+Application.GoToYahoo=Menj a Yahoo postaládájába
+Application.EmailSentHotmail=Egy e-mailt küldtünk. <a href="http://www.hotmail.com/">Kérjük, ellenőrizze a Hotmail a további utasításokat.</a>
+Application.GoToHotmail=Ugrás a Hotmail postaládájába
+Application.EmailSentICloud=Egy e-mailt küldtünk. <a href="https://www.icloud.com/#mail">Kérjük, ellenőrizze az iCloud Mail a további utasításokat.</a>
+Application.GoToICloud=Menj a iCloud postaládájába
+Application.NoSuchEmail=Nincs felhasználó létezik az e-mail:% s.
+Application.NoSuchUser=Nincs felhasználói létezik id% s.
+Application.NoSuchUserFriendly=Nem találja a felhasználói fiókot az e-mail vagy felhasználói név. Kérjük, próbálja újra.
+Application.NoSuchToken=Hiba történt aláírásával Ön a fiókjába. Kérjük, próbálja meg később.
+Application.PasswordResetInvalid=Ez a jelszó kérés érvénytelen vagy nem található. Kérjük, próbálja meg visszaállítani a jelszót.
+Application.PasswordUpdated=A jelszó frissült.
+Application.APIWrongPassword=Kérjük, ellenőrizze a jelszót, majd próbálja újra.
+Application.APIError=Váratlan hiba történt. Kérjük, próbálja újra.
+Application.APIBadToken=Hibás OAuth hozzáférési token.
+Application.APINoToken=Az aktív hozzáférési token kell használni, hogy a lekérdezés információkat az aktuális felhasználó.
+Application.APIBadCode=Érvénytelen OAuth kódot.
+Application.TimeOut=Ez úgy tűnik, hogy túl sokáig tart. Kérjük, próbálja meg később.
+Application.BadURL=Ez nem egy érvényes URL-t. Ez a mező egy teljes, nem-relatív URL, mint https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Ez a mező maximális hossza 200 karakter. Kérjük, használja valami rövidebb.
+Application.NoStripeKey=Nem Stripe API Key találtak. Kérjük, állítsa be Stripe API kulcsot a <a href="https://dailycred.com/admin/setup">beállítások</a> oldalon.
+Application.OAuthCallBackNotInDomain=A megadott redirect_uri nem hagyja jóvá az ügyfél számlájára beállításait.
+Application.CNameNotValidDomain=A megadott CNAME nem úgy tűnik, hogy egy érvényes domain.
+Application.Required=Ez egy szükséges mezőt.
+Application.LogoFileTooLarge=A fájl mérete meghaladja méretet.
+Application.LogoFileIsNotImage=A fájl típusa nem érvényes. Csak a PNG, JPG és GIF megengedett.
+Application.NoClientSecret=Meg kell adni egy client_secret paramétert tartalmazza a Dailycred titkos kulcs.
+Application.InvalidClientSecret=Ez érvénytelen Dailycred titkos kulcs.
+Application.MissingRequiredFields=Úgy tűnik, hogy hiányzik néhány szükséges mezőket. Kérjük, látogasson el a <a href="/admin/setup">beállítások</a> oldalra, hogy hozzanak létre.
+Application.CouldNotUnsubscribe=Sajnáljuk, miatt a technikai hiba nem tudnánk leiratkoztathatja közvetlenül erre a linkre. Kérjük, próbálja újra, vagy <a href="mailto:support@dailycred.com">lépjen kapcsolatba velünk</a> , hogy el kell távolítani.
+Application.Unsubscribed=Voltál leiratkozás. Sajnáljuk, hogy elmész!
+Application.Subscribed=Már jegyzett. Köszönjük!
+Application.CouldNotSubscribe=Sajnáljuk, miatt a technikai hiba nem tudnánk fizetni, hogy közvetlenül erre a linkre. Kérjük, próbálja újra, vagy <a href="mailto:support@dailycred.com">lépjen kapcsolatba velünk közvetlenül</a> hozzá kell adni.
+Application.AdminsCantUnsubscribe=Elismeri, nem tudja lemondani a saját számlájára.
+Application.EmailIsSame=Az új e-mail ugyanaz, mint a jelenlegi e-mail.
+Application.EmailOnlyUserNotAllowed=Ez az alkalmazás nem támogatja a csak e-mailt használók.
+Application.EmailChangeSuccess=Az e-mail-re változott:% s. Kérjük, a visszaigazoló e-mailt, és ellenőrizze az új címre.
+Application.EmailVerifySuccess=Az email% s igazoltak.
+Application.PostOnly=Ezt kell kérni <b>HTTP POST kérés.</b> <br/><br/> Ha csak megnézni az API, javasoljuk a curl vagy <a target="_blank" href="http://hurl.it/">Hurl</a> .
+Application.StripeTrialEnd=A <a href="https://www.dailycred.com/admin/user/%s">felhasználó</a> egy próba, hogy hamarosan vége. Az e-mail okozta Stripe webhook.
+Application.StripePaymentSucceeded=A <a href="https://www.dailycred.com/admin/user/%s">felhasználó</a> sikeresen felszámolásra. Az e-mail okozta Stripe webhook.
+Application.StripePaymentFailed=A <a href="https://www.dailycred.com/admin/user/%s">felhasználó</a> sikertelenül felszámolásra. Az e-mail okozta Stripe webhook.
+Application.BillingError=Valami rosszul sült el, amikor megpróbálja beállítani a számlázási adatokat. Kérjük, próbálja újra egy pillanatra.
+Application.TrialWillEnd=Az ingyenes vizsgálatban Dailycred hamarosan véget% s. Kérjük, látogasson el a <a href="https://www.dailycred.com/admin/settings/billing">számlázási oldalt</a> , hogy megakadályozzák a fiókját letiltását.
+Application.TrialWillEndLong=Az ingyenes vizsgálatban DailyCred végződik hamarosan% s. <br><br> Ahhoz, hogy a fiók aktív, akkor kérjük, látogasson el a <a href="https://www.dailycred.com/admin/settings/billing">számlázási oldalt</a> , hogy vizsgálja felül az <a href="https://www.dailycred.com/pricing">alacsony költségű terveket</a> , és adja meg fizetési adatait ma.
+Application.CannotRemoveActiveCard=Nem távolítható el az aktív számlázási módszer. Ha szeretné, hogy megszünteti a fiók e-mail support@dailycred.com a számla számát.
+Application.StateCheckFailed=A kérés hiányzik az állam paramétert. Kérjük, próbálja újra.
+Application.UnexpectedError=Sajnos egy váratlan hiba történt. Kérjük, próbálja újra.
+Application.UserAnotherIdentityProvider=Úgy tűnik, hogy van egy fiókot% s. <a href="%s">Kattintson ide, csatlakozni% s</a> , vagy <a href="%s">kattintson ide az a jelszó</a> .
+Application.APIKeyNotFound=API kulcs nem található. Kérjük, állítsa be egy API kulcsot az identitás a szolgáltató a <a href="https://www.dailycred.com/admin/settings">beállítások oldalon</a> .
+Application.ForeignIDAlreadyRegistered=Nem kapcsolja ezt a számlát, mert foreignID% s:% s szolgáltató már társított% s felhasználó.
+Application.TwitterCallbackURLIncorrect=Ellenőrizze a <a href="https://dev.twitter.com/apps">Twitter alkalmazás beállításait</a> . Az App visszahívási URL nem lehet üres. (Ez lehet bármilyen érvényes URL-t.)
+Application.ThankYouForSigningUp=Köszönjük, hogy feliratkozik a% s!
+Application.ThankYouForSigningUpNoClient=Köszönjük a regisztrációt!
+Application.CannotDeleteLastApp=Nem lehet törölni: fiókjába kell legalább egy kb.
+Application.CouldNotSendEmail=Sajnáljuk, nem volt probléma, hogy a küldő e-mail. Kérjük, próbálja meg később.
+Application.EmailVerificationRequiredSignUp=Meg kell ellenőrizni az e-mail feliratkozás előtt. Kérjük, ellenőrizze az e-mail a további utasításokat.
+Application.EmailVerificationRequiredSignIn=Meg kell ellenőrizni az e-mail aláírása előtt be Kérjük, ellenőrizze az e-mail a további utasításokat.
+Application.Blocked=Sajnáljuk, hogy már blokkolja az adminisztrátor.
+
+=
+template.authorize.passwordStrength.0=Nagyon gyenge
+template.authorize.passwordStrength.1=Gyenge
+template.authorize.passwordStrength.2=Közepesen
+template.authorize.passwordStrength.3=Jó
+template.authorize.passwordStrength.4=Great!

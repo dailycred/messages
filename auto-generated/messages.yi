@@ -1,0 +1,86 @@
+Application.NoSuchClient=ניט קליענט יגזיסץ פֿאַר שייַן% s.
+Application.NoSuchApp=ניט אַפּ יגזיסץ פֿאַר שייַן% s.
+Application.NoClientProvided=ביטע צושטעלן דיין קליענט שייַן מיט דיין בקשה.
+Application.NoRedirectProvided=ביטע צושטעלן אַ רידערעקט מיט דיין אָאַוטה בעטן. <br/> <b>דעוועלאָפּערס:</b> צושטעלן דיין קאַללבאַקק טייפּס ניצן דעם פּאַראַמעטער <span style="font-family:monospace">רעדירעקט_ורי = http://website.com/callback</span> אָדער דורך באַשטעטיקן אַ פעליקייַט קאַללבאַקק אין <a href="https://www.dailycred.com/admin/setup">דיין חשבון סעטטינגס</a> .
+Application.EnterEmailOrUsername=ביטע אַרייַן אייער בליצפּאָסט אָדער נאמען.
+Application.EnterEmail=ביטע אַרייַן אייער בליצפּאָסט.
+Application.EnterUsername=ביטע אַרייַן דיין נאמען.
+Application.EnterPassword=ביטע אַרייַן אייער Password.
+Application.AtNotAllowed=דער סימבאָל &quot;@&quot; קענען ניט זייַן געניצט אין דיין נאמען.
+Application.WrongPasswordOrUsername=ביטע טשעק דיין נאמען און Password און פּרובירן ווידער. <a href="%s">צו באַשטעטיק דיין Password דריקט דאָ.</a>
+Application.BadDomain=די פעלד &quot;% s&quot; איז נישט גילטיק.
+Application.BadEmail=ביטע טשעק וואָס אייער בליצפּאָסט איז אריין ריכטיק און פּרובירן ווידער.
+Application.BadNewEmail=ביטע טשעק וואָס דיין נייַ Email איז אריין ריכטיק און פּרובירן ווידער.
+Application.PasswordTooShort=ביטע אַרייַן אַ Password מיט לפּחות% די אותיות.
+Application.NoCallbackUri=% S האט ניט שטעלן אַ קאַללבאַקק אורי נאָך. ביטע פּרובירן ווידער שפּעטער.
+Application.EmailTaken=דאס Email איז שוין אין נוצן.
+Application.UsernameTaken=דעם נאמען איז שוין גענומען. ביטע נוצן אַ אַנדערש נאמען.
+Application.EmailSent=אַ Email האט שוין געשיקט. ביטע טשעק דיין Email פֿאַר ווייַטער ינסטראַקשאַנז.
+Application.EmailSentGmail=אַ Email האט שוין געשיקט. <a href="http://mail.google.com/">ביטע טשעק דיין Gmail פֿאַר ווייַטער ינסטראַקשאַנז.</a>
+Application.GoToGmail=גיין צו דיין Gmail ינבאָקס
+Application.EmailSentYahoo=אַ Email האט שוין געשיקט. <a href="http://mail.yahoo.com/">ביטע טשעק דיין יאַהאָאָ! בליצפּאָסט פֿאַר ווייַטער ינסטראַקשאַנז.</a>
+Application.GoToYahoo=גיין צו דיין יאַהאָאָ ינבאָקס
+Application.EmailSentHotmail=אַ Email האט שוין געשיקט. <a href="http://www.hotmail.com/">ביטע טשעק דיין האָטמאַיל פֿאַר ווייַטער ינסטראַקשאַנז.</a>
+Application.GoToHotmail=גיין צו דיין האָטמאַיל ינבאָקס
+Application.EmailSentICloud=אַ Email האט שוין געשיקט. <a href="https://www.icloud.com/#mail">ביטע טשעק דיין יקלאָוד מעיל פֿאַר ווייַטער ינסטראַקשאַנז.</a>
+Application.GoToICloud=גיין צו דיין יקלאָוד ינבאָקס
+Application.NoSuchEmail=ניט באַניצער יגזיסץ פֿאַר Email% s.
+Application.NoSuchUser=ניט באַניצער יגזיסץ פֿאַר שייַן% s.
+Application.NoSuchUserFriendly=מיר קען נישט געפינען אַ באַניצער חשבון פֿאַר דעם Email אָדער נאמען. ביטע פּרובירן ווידער.
+Application.NoSuchToken=עס איז געווען אַ טעות סיינינג איר אין צו דיין חשבון. ביטע פּרובירן ווידער באַלד.
+Application.PasswordResetInvalid=דאס Password באַשטעטיק בעטן איז פאַרקריפּלט אָדער נישט געפונען. ביטע פּרובירן רעסעטטינג דיין Password ווידער.
+Application.PasswordUpdated=דיין Password האט שוין דערהייַנטיקט.
+Application.APIWrongPassword=ביטע טשעק דיין Password און פּרובירן ווידער.
+Application.APIError=אַ אומגעריכט טעות פארגעקומען. ביטע פּרובירן ווידער.
+Application.APIBadToken=פאַרקריפּלט אָאַוטה צוטריט סימען.
+Application.APINoToken=אַ אַקטיוו צוטריט סימען מוזן זייַן געניצט צו אָנפֿרעג אינפֿאָרמאַציע וועגן דעם קראַנט באַניצער.
+Application.APIBadCode=פאַרקריפּלט אָאַוטה קאָד.
+Application.TimeOut=וואָס מיינט צו זייַן גענומען צו לאַנג. ביטע פּרובירן ווידער באַלד.
+Application.BadURL=דאס איז נישט אַ גילטיק URL. דאס פעלד מוזן זייַן אַ פול, ניט-קאָרעוו URL, ווי https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=דאס פעלד האט אַ מאַקסימום לענג פון 200 אותיות. ביטע נוצן עפּעס קירצער.
+Application.NoStripeKey=ניט סטרייפּ אַפּי דורכפֿאַל איז געפונען. ביטע שטעלן דיין סטרייפּ אַפּי שליסל בייַ דיין <a href="https://dailycred.com/admin/setup">סעטאַפּ</a> בלאַט.
+Application.OAuthCallBackNotInDomain=די צוגעשטעלט רעדירעקט_ורי איז ניט באוויליקט דורך דעם קליענט &#39;ס חשבון סעטטינגס.
+Application.CNameNotValidDomain=די צוגעשטעלט קנאַמע טוט ניט דערשייַנען צו זייַן אַ גילטיק פעלד.
+Application.Required=דאס איז אַ פארלאנגט פעלד.
+Application.LogoFileTooLarge=דער טעקע יקסידז גרייס שיעור.
+Application.LogoFileIsNotImage=דער טעקע טיפּ איז נישט גילטיק. בלויז פּנג, דזשפּג און גיף זענען ערלויבט.
+Application.NoClientSecret=איר מוזן ספּעציפיצירן אַ קליענט_סעקרעט פּאַראַמעטער מיט דיין דאַיליקרעד סוד שליסל.
+Application.InvalidClientSecret=דאס איז אַ פאַרקריפּלט דאַיליקרעד סוד שליסל.
+Application.MissingRequiredFields=עס קוקט ווי איר זענט פעלנדיק אַ ביסל פארלאנגט פעלדער. ביטע גיין צו דיין <a href="/admin/setup">סעטאַפּ</a> בלאַט צו באַקומען שטעלן אַרויף.
+Application.CouldNotUnsubscribe=מיר ניטאָ נעבעכדיק, רעכט צו אַ טעכניש טעות מיר קען נישט אַנסאַבסקרייב איר גלייַך פון דעם לינק. ביטע פּרובירן ווידער, אָדער <a href="mailto:support@dailycred.com">קאָנטאַקט אונדז גלייַך</a> צו זייַן אראפגענומען.
+Application.Unsubscribed=איר האָט שוין אַנסאַבסקרייב. מיר ניטאָ נעבעכדיק צו זען איר גיין!
+Application.Subscribed=איר ווע שוין סאַבסקרייבד. דאַנק!
+Application.CouldNotSubscribe=מיר ניטאָ נעבעכדיק, רעכט צו אַ טעכניש טעות מיר קען נישט אַבאָנירן איר גלייַך פון דעם לינק. ביטע פּרובירן ווידער, אָדער <a href="mailto:support@dailycred.com">קאָנטאַקט אונדז גלייַך</a> צו זייַן צוגעגעבן.
+Application.AdminsCantUnsubscribe=אַדמיץ קענען נישט אַנסאַבסקרייב פון זייער אייגן חשבון.
+Application.EmailIsSame=די נייַ Email איז די זעלבע ווי דיין קראַנט Email.
+Application.EmailOnlyUserNotAllowed=דאס אַפּ טוט נישט שטיצן Email נאָר ניצערס.
+Application.EmailChangeSuccess=אייער בליצפּאָסט האט שוין געביטן צו% s. ביטע קוק פֿאַר די באַשטעטיקונג Email און באַשטעטיקן אייער נייַ אַדרעס.
+Application.EmailVerifySuccess=דער Email% s האט שוין וועראַפייד.
+Application.PostOnly=דאס בעטן מוזן זייַן געמאכט ניצן אַ <b>הטטפּ פּאָסטן בעטן.</b> <br/><br/> אויב איר ניטאָ נאָר קאָנטראָלירונג אויס די אַפּי, מיר פֿאָרשלאָגן ניצן גרייַזל אָדער <a target="_blank" href="http://hurl.it/">שלייַדערן</a> .
+Application.StripeTrialEnd=א <a href="https://www.dailycred.com/admin/user/%s">באַניצער</a> האט אַ פּראָצעס וואָס איז וועגן צו סוף. דאס Email איז געווען געפֿירט דורך אַ סטרייפּ וועבהאָאָק.
+Application.StripePaymentSucceeded=א <a href="https://www.dailycred.com/admin/user/%s">באַניצער</a> געווען הצלחה באפוילן. דאס Email איז געווען געפֿירט דורך אַ סטרייפּ וועבהאָאָק.
+Application.StripePaymentFailed=א <a href="https://www.dailycred.com/admin/user/%s">באַניצער</a> געווען אַנסאַקסעספאַלי באפוילן. דאס Email איז געווען געפֿירט דורך אַ סטרייפּ וועבהאָאָק.
+Application.BillingError=עפּעס זענען פאַלש ווען טריינג צו שטעלן דיין בילינג אינפֿאָרמאַציע. ביטע פּרובירן ווידער מאָומאַנטעראַלי.
+Application.TrialWillEnd=אייער פּאָטער פּראָצעס מיט דאַיליקרעד איז וועגן צו סוף אויף% s. ביטע באַזוכן דיין <a href="https://www.dailycred.com/admin/settings/billing">בילינג בלאַט</a> צו פאַרמייַדן דיין חשבון פון זייַענדיק דיאַקטיווייטיד.
+Application.TrialWillEndLong=אייער פּאָטער פּראָצעס מיט דאַיליקרעד ענדס באַלד אויף% s. <br><br> צו האַלטן דיין חשבון אַקטיוו, ביטע באַזוכן דיין <a href="https://www.dailycred.com/admin/settings/billing">בילינג בלאַט</a> צו באריכטן די <a href="https://www.dailycred.com/pricing">נידעריק-פּרייַז פּלאַנז</a> און אַרייַן צאָלונג פרטים הייַנט.
+Application.CannotRemoveActiveCard=איר קענען נישט אַראָפּנעמען דיין אַקטיוו בילינג אופֿן. אויב איר ווינטשן צו באָטל מאַכן דיין חשבון Email support@dailycred.com מיט דיין חשבון נומער.
+Application.StateCheckFailed=די בעטן איז פעלנדיק די שטאַט פּאַראַמעטער. ביטע פּרובירן ווידער.
+Application.UnexpectedError=אנטשולדיגט, אַ אומגעריכט טעות פארגעקומען. ביטע פּרובירן ווידער.
+Application.UserAnotherIdentityProvider=עס אויס איר האָבן אַ חשבון ניצן% s. <a href="%s">דריקט דאָ צו פאַרבינדן ניצן% s</a> אָדער <a href="%s">גיט דאָ צו שטעלן אַ פּאַראָל</a> .
+Application.APIKeyNotFound=אַפּי שליסל ניט געפונען. ביטע שטעלן אַ אַפּי שליסל פֿאַר דעם אידענטיטעט שפּייַזער אויף דיין <a href="https://www.dailycred.com/admin/settings">סעטטינגס בלאַט</a> .
+Application.ForeignIDAlreadyRegistered=מיר קען נישט לינק דעם חשבון ווייַל פאָרעיגניד% s פֿאַר שפּייַזער% s איז שוין פארבונדן מיט באַניצער% s.
+Application.TwitterCallbackURLIncorrect=טשעק דיין <a href="https://dev.twitter.com/apps">טוויטטער אַפּלאַקיישאַן ס סעטטינגס</a> . דיין אַפּ ס קאַללבאַקק URL קענען ניט זייַן ליידיק. (עס קענען זייַן קיין גילטיק URL.)
+Application.ThankYouForSigningUp=דאנק איר פֿאַר סיינינג אַרויף פֿאַר% s!
+Application.ThankYouForSigningUpNoClient=דאנק איר פֿאַר סיינינג אַרויף!
+Application.CannotDeleteLastApp=קענען נישט אויסמעקן: דיין חשבון מוזן האָבן לפּחות איין אַפּ.
+Application.CouldNotSendEmail=מיר ניטאָ נעבעכדיק, דאָרט איז געווען אַ פּראָבלעם שיקט אַז Email. ביטע פּרובירן ווידער באַלד.
+Application.EmailVerificationRequiredSignUp=איר מוזן באַשטעטיקן אייער בליצפּאָסט איידער סיינינג אַרויף. ביטע טשעק דיין Email פֿאַר ווייַטער ינסטראַקשאַנז.
+Application.EmailVerificationRequiredSignIn=איר מוזן באַשטעטיקן אייער בליצפּאָסט איידער סיינינג ין ביטע טשעק דיין Email פֿאַר ווייַטער ינסטראַקשאַנז.
+Application.Blocked=מיר ניטאָ נעבעכדיק, איר האָט שוין אפגעשטעלט דורך אַ אַדמיניסטראַטאָר.
+
+=
+template.authorize.passwordStrength.0=זייער שוואַך
+template.authorize.passwordStrength.1=שוואַך
+template.authorize.passwordStrength.2=אזוי-אַזוי
+template.authorize.passwordStrength.3=גוט
+template.authorize.passwordStrength.4=גרויס!

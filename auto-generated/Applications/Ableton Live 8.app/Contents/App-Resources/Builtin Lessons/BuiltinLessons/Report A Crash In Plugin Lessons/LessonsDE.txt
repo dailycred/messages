@@ -1,0 +1,33 @@
+$Page Absturz in einem Plug-In berichten
+$TargetName Report a Crash in a Plug-In
+BugReportingBanner.tif
+Vielen Dank, dass Sie sich die Zeit nehmen, uns den Absturz zu melden. Wir wissen Ihre Hilfe zu schätzen!
+
+Die Absturzdaten des Systems weisen darauf hin, dass das Problem eventuell vom folgenden CRASHED_PLUGIN_TYPE Plug-In verursacht wird:
+
+*CRASHED_PLUGIN_NAME (Version CRASHED_PLUGIN_VERSION)*
+
+Bitte prüfen Sie beim Hersteller des Plug-Ins, ob die Version des Plug-Ins auf dem neusten Stand ist. Bitte stellen Sie auch sicher, dass Sie $Link die neuste Version von Live  <http://www.ableton.com/latest-versions> nutzen.
+
+Divider.tif
+Damit wir das Problem weiter untersuchen können, klicken Sie bitte auf den nachfolgenden Link, um das Crash Report Pack auf Ihrem Rechner zu sehen:
+
+CRASH_REPORTING_PACKAGE_NAME
+
+Bitte senden Sie diese Datei nach $Link crashes@ableton.com  <mailto:crashes@ableton.com>.
+Divider.tif
+
+Das Crash Report Pack enthält Informationen, die erzeugt wurden, als Sie Live das letzte Mal laufen gelassen haben:
+
+-> Lives Voreinstellungen- und Autorisierungs-Dateien
+-> eine Log-Datei von dem, was die Software während des letzten Programmlaufs gemacht hat
+-> alle Live-Sets, Presets und Max-Geräte, die beim letzten Programmlauf verwendet wurden (alle ohne Samples)
+-> verschiedene andere von Live erzeugte Log-Dateien
+-> vom Betriebssystem erstellte Informationen über den Absturz
+
+Andere Informationen werden nicht gesendet. Wir verwenden die Daten der Fehlermeldung ausschließlich zum Beseitigen von Bugs. In unsere $Link Datenschutzerklärung <http://www.ableton.com/privacy-policy> erhalten Sie Auskunft darüber, wie wir Ihre Informationen verwenden.
+
+*Hinweis:* Sie erhalten auf Ihre Absturzmeldung eine automatische Antwort-Mail. Sollten Sie weitere Hilfe benötigen, kontaktieren Sie bitte unseren $Link technischen Support <http://www.ableton.com/support>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

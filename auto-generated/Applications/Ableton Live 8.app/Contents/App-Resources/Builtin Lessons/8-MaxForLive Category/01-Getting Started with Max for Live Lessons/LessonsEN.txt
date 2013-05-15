@@ -1,0 +1,25 @@
+$Page Max for Live
+$TargetName Max for Live
+Welcome to Max for Live.
+
+$If Product 70
+Max for Live is authorized on this machine but is not correctly installed. Please follow these steps to install Max for Live.
+
+-> Download $Link the latest version of Max <$MaxMSPDownloadUrl> from cycling74.com and install it. You may be asked to reboot after installation. After you have successfully installed Max, restart Live.
+$Else
+Max for Live is either not authorized on this machine or is not correctly installed. Please follow these steps to configure Max for Live.
+
+-> If you have not already done so, download $Link the latest version of Max <$MaxMSPDownloadUrl> from cycling74.com and install it. You may be asked to reboot after installation. After you have successfully installed Max, restart Live.
+
+-> Update your Live authorizations. You'll need to go to the $Link User Account/Licenses tab in Live's Preferences <Pref:products>. From here you can authorize online or offline.
+AuthorizationsTab.tif
+$Endif
+
+If you've installed Max somewhere other than the default location, you'll need to point to the Max application from the $Link File/Folder tab in Live's Preferences <Pref:FileFolder>.
+MaxFileFolderPref.tif
+
+-> Once Live is pointed to your Max installation, you should be prompted to install a Live Pack containing Max for Live content.
+
+-> After this Pack installs, follow the Live Lesson called $Link Getting Started with Max for Live <Lesson:/8-MaxForLive Category/01-Getting Started with Max for Live>. This will introduce you to the basic idea of Max for Live and get you started with some of the factory content and tutorials.
+
+$Comment Status: Translate

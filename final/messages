@@ -1,0 +1,87 @@
+# Application messages are referenced inside Java Controller Classes.
+# Please keep these separate from template references.
+Application.NoSuchClient=No client exists for id %s.
+Application.NoSuchApp=No app exists for id %s.
+Application.NoClientProvided=Please provide your client ID with your request.
+Application.NoRedirectProvided=Please provide a redirect with your OAuth request.<br/><b>Developers:</b> provide your callback uri using the parameter <span style="font-family:monospace">redirect_uri=http://website.com/callback</span> or by setting a default callback in <a href="https://www.dailycred.com/admin/setup">your account settings</a>.
+Application.EnterEmailOrUsername=Please enter your email or username.
+Application.EnterEmail=Please enter your email.
+Application.EnterUsername=Please enter your username.
+Application.EnterPassword=Please enter your password.
+Application.AtNotAllowed=The symbol "@" cannot be used in your username.
+Application.WrongPasswordOrUsername=Please check your username and password and try again.  <a href="%s">To reset your password click here.</a>
+Application.BadDomain=The domain "%s" is not valid.
+Application.BadEmail=Please check that your email was entered correctly and try again.
+Application.BadNewEmail=Please check that your new email was entered correctly and try again.
+Application.PasswordTooShort=Please enter a password with at least %d characters.
+Application.NoCallbackUri=%s has not set a callback URI yet.  Please try again later.
+Application.EmailTaken=This email is already in use.
+Application.UsernameTaken=This username is already taken.  Please use a different username.
+Application.EmailSent=An email has been sent.  Please check your email for further instructions.
+Application.EmailSentGmail=An email has been sent. <a href="http://mail.google.com/">Please check your Gmail for further instructions.</a>
+Application.GoToGmail=Go to your Gmail inbox
+Application.EmailSentYahoo=An email has been sent.  <a href="http://mail.yahoo.com/">Please check your Yahoo! Email for further instructions.</a>
+Application.GoToYahoo=Go to your Yahoo inbox
+Application.EmailSentHotmail=An email has been sent.  <a href="http://www.hotmail.com/">Please check your hotmail for further instructions.</a>
+Application.GoToHotmail=Go to your Hotmail inbox
+Application.EmailSentICloud=An email has been sent.  <a href="https://www.icloud.com/#mail">Please check your iCloud Mail for further instructions.</a>
+Application.GoToICloud=Go to your iCloud inbox
+Application.NoSuchEmail=No user exists for email %s.
+Application.NoSuchUser=No user exists for id %s.
+Application.NoSuchUserFriendly=We couldn't find a user account for this email or username. Please try again.
+Application.NoSuchToken=There was an error signing you in to your account.  Please try again shortly.
+Application.PasswordResetInvalid=This password reset request is invalid or not found.  Please try resetting your password again.
+Application.PasswordUpdated=Your password has been updated.
+Application.APIWrongPassword=Please check your password and try again.
+Application.APIError=An unexpected error occurred.  Please try again.
+Application.APIBadToken=Invalid OAuth access token.
+Application.APINoToken=An active access token must be used to query information about the current user.
+Application.APIBadCode=Invalid OAuth code.
+Application.TimeOut=That seems to be taking too long.  Please try again shortly.
+Application.BadURL=This is not a valid URL. This field must be a full, non-relative URL, like https://www.dailycred.com/callback
+Application.FriendlyNameTooLong= This field has a maximum length of 200 characters. Please use something shorter.
+Application.NoStripeKey= No Stripe API Key was found. Please set your Stripe API key at your <a href="https://dailycred.com/admin/setup">setup</a> page.
+Application.OAuthCallBackNotInDomain=The provided redirect_uri is not approved by this client's account settings.
+Application.CNameNotValidDomain=The provided cname does not appear to be a valid domain.
+Application.Required=This is a required field.
+Application.LogoFileTooLarge=The file exceeds size limit.
+Application.LogoFileIsNotImage=The file type is not valid. Only PNG, JPG and GIF are allowed.
+Application.NoClientSecret=You must specify a client_secret parameter containing your Dailycred secret key.
+Application.InvalidClientSecret=This is an invalid Dailycred secret key.
+Application.MissingRequiredFields=It looks like you are missing a few required fields. Please go to your <a href="/admin/setup">setup</a> page to get set up.
+Application.CouldNotUnsubscribe=We're sorry, due to a technical error we could not unsubscribe you directly from this link.  Please try again, or <a href="mailto:support@dailycred.com">contact us directly</a> to be removed.
+Application.Unsubscribed=You have been unsubscribe.  We're sorry to see you go!
+Application.Subscribed=You've been subscribed.  Thanks!
+Application.CouldNotSubscribe=We're sorry, due to a technical error we could not subscribe you directly from this link.  Please try again, or <a href="mailto:support@dailycred.com">contact us directly</a> to be added.
+Application.AdminsCantUnsubscribe=Admits cannot unsubscribe from their own account.
+Application.EmailIsSame=The new email is the same as your current email.
+Application.EmailOnlyUserNotAllowed=This app does not support email only users.
+Application.EmailChangeSuccess=Your email has been changed to %s. Please look for the confirmation email and verify your new address.
+Application.EmailVerifySuccess=The email %s has been verified.
+Application.PostOnly=This request must be made using an <b>HTTP POST request</b>.<br/><br/>If you're just checking out the API, we suggest using cURL or <a target="_blank" href="http://hurl.it/">hURL</a>.
+Application.StripeTrialEnd=A <a href="https://www.dailycred.com/admin/user/%s">user</a> has a trial that is about to end. This email was caused by a Stripe webhook.
+Application.StripePaymentSucceeded=A <a href="https://www.dailycred.com/admin/user/%s">user</a> was successfully charged. This email was caused by a Stripe webhook.
+Application.StripePaymentFailed=A <a href="https://www.dailycred.com/admin/user/%s">user</a> was unsuccessfully charged. This email was caused by a Stripe webhook.
+Application.BillingError=Something went wrong when trying to set your billing information.  Please try again momentarily.
+Application.TrialWillEnd=Your free trial with Dailycred is about to end on %s. Please visit your <a href="https://www.dailycred.com/admin/settings/billing">billing page</a> to prevent your account from being deactivated.
+Application.TrialWillEndLong=Your free trial with DailyCred ends soon on %s.<br><br> To keep your account active, please visit your <a href="https://www.dailycred.com/admin/settings/billing">billing page</a> to review the <a href="https://www.dailycred.com/pricing">low-cost plans</a> and enter payment details today.
+Application.CannotRemoveActiveCard=You cannot remove your active billing method.  If you wish to cancel your account email support@dailycred.com with your account number.
+Application.StateCheckFailed=The request is missing the state parameter. Please try again.
+Application.UnexpectedError=Sorry, an unexpected error occurred. Please try again.
+Application.UserAnotherIdentityProvider=It appears you have an account using %s.  <a href="%s">Click here to connect using %s</a> or <a href="%s">click here to set a password</a>.
+Application.APIKeyNotFound=API key not found. Please set an API key for this identity provider on your <a href="https://www.dailycred.com/admin/settings">settings page</a>.
+Application.ForeignIDAlreadyRegistered=We could not link this account because foreignID %s for provider %s is already associated with user %s.
+Application.TwitterCallbackURLIncorrect=Check your <a href="https://dev.twitter.com/apps">Twitter application's settings</a>.  Your App's callback URL cannot be empty.  (It can be any valid URL.)
+Application.ThankYouForSigningUp=Thank you for signing up for %s!
+Application.ThankYouForSigningUpNoClient=Thank you for signing up!
+Application.CannotDeleteLastApp=Cannot delete: your account must have at least one App.
+Application.CouldNotSendEmail=We're sorry, there was a problem sending that email.  Please try again shortly.
+Application.EmailVerificationRequiredSignUp=You must verify your email before signing up. Please check your email for further instructions.
+Application.EmailVerificationRequiredSignIn=You must verify your email before signing in. Please check your email for further instructions.
+Application.Blocked=We're sorry, you have been blocked by an administrator.
+
+template.authorize.passwordStrength.0=Very Weak
+template.authorize.passwordStrength.1=Weak
+template.authorize.passwordStrength.2=So-so
+template.authorize.passwordStrength.3=Good
+template.authorize.passwordStrength.4=Great!

@@ -1,0 +1,86 @@
+Application.NoSuchClient=Không có khách hàng nào cho id% s.
+Application.NoSuchApp=Không có ứng dụng nào cho id% s.
+Application.NoClientProvided=Vui lòng cung cấp ID khách hàng của bạn với yêu cầu của bạn.
+Application.NoRedirectProvided=Vui lòng cung cấp một chuyển hướng với yêu cầu OAuth của bạn. <br/> <b>Các nhà phát triển:</b> cung cấp uri gọi lại của bạn bằng cách sử dụng tham số <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> hoặc bằng cách thiết lập một cuộc gọi lại mặc định trong <a href="https://www.dailycred.com/admin/setup">cài đặt tài khoản của bạn</a> .
+Application.EnterEmailOrUsername=Vui lòng nhập email hoặc tên đăng nhập của bạn.
+Application.EnterEmail=Vui lòng nhập email của bạn.
+Application.EnterUsername=Điền tên đăng nhập của bạn.
+Application.EnterPassword=Vui lòng nhập mật khẩu của bạn.
+Application.AtNotAllowed=Biểu tượng &quot;@&quot; có thể không được sử dụng trong tên đăng nhập của bạn.
+Application.WrongPasswordOrUsername=Vui lòng kiểm tra tên người dùng và mật khẩu của bạn và thử lại. <a href="%s">Để thiết lập lại mật khẩu của bạn bấm vào đây.</a>
+Application.BadDomain=Tên miền &quot;% s&quot; là không hợp lệ.
+Application.BadEmail=Hãy kiểm tra email của bạn đã được nhập chính xác và thử lại.
+Application.BadNewEmail=Hãy kiểm tra email mới của bạn đã được nhập chính xác và thử lại.
+Application.PasswordTooShort=Hãy nhập mật khẩu có ít nhất% d ký tự.
+Application.NoCallbackUri=% S đã không thiết lập một URI gọi lại được nêu ra. Vui lòng thử lại sau.
+Application.EmailTaken=Email này đã được sử dụng.
+Application.UsernameTaken=Tên tài khoản đã được thực hiện. Vui lòng sử dụng một tên người dùng khác nhau.
+Application.EmailSent=Một email đã được gửi đi. Hãy kiểm tra email của bạn để được hướng dẫn thêm.
+Application.EmailSentGmail=Một email đã được gửi đi. <a href="http://mail.google.com/">Xin hãy kiểm tra Gmail của bạn để được hướng dẫn thêm.</a>
+Application.GoToGmail=Đi đến hộp thư Gmail của bạn
+Application.EmailSentYahoo=Một email đã được gửi đi. <a href="http://mail.yahoo.com/">Xin hãy kiểm tra Yahoo! của bạn Email để được hướng dẫn thêm.</a>
+Application.GoToYahoo=Tới Yahoo hộp thư của bạn
+Application.EmailSentHotmail=Một email đã được gửi đi. <a href="http://www.hotmail.com/">Xin hãy kiểm tra hotmail của bạn để được hướng dẫn thêm.</a>
+Application.GoToHotmail=Đi đến hộp thư Hotmail của bạn
+Application.EmailSentICloud=Một email đã được gửi đi. <a href="https://www.icloud.com/#mail">Xin hãy kiểm tra thư iCloud của bạn để được hướng dẫn thêm.</a>
+Application.GoToICloud=Tới iCloud hộp thư của bạn
+Application.NoSuchEmail=Không có người dùng cho email% s.
+Application.NoSuchUser=Không có người dùng cho id% s.
+Application.NoSuchUserFriendly=Chúng tôi không thể tìm thấy một tài khoản người dùng cho email này hoặc tên người dùng. Vui lòng thử lại.
+Application.NoSuchToken=Có một lỗi ký bạn vào tài khoản của bạn. Vui lòng thử lại ngay.
+Application.PasswordResetInvalid=Yêu cầu đặt lại mật khẩu này là không hợp lệ hoặc không được tìm thấy. Hãy thử đặt lại mật khẩu của bạn một lần nữa.
+Application.PasswordUpdated=Mật khẩu của bạn đã được cập nhật.
+Application.APIWrongPassword=Vui lòng kiểm tra mật khẩu của bạn và thử lại.
+Application.APIError=Đã xảy ra lỗi không mong muốn. Vui lòng thử lại.
+Application.APIBadToken=Truy cập mã thông báo OAuth không hợp lệ.
+Application.APINoToken=Một thẻ truy cập hoạt động phải được sử dụng để truy vấn thông tin về người sử dụng hiện tại.
+Application.APIBadCode=Đang OAuth không hợp lệ.
+Application.TimeOut=Điều đó có vẻ mất nhiều thời gian. Vui lòng thử lại ngay.
+Application.BadURL=Đây không phải là một URL hợp lệ. Lĩnh vực này phải là đầy đủ, URL không liên quan, như https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Lĩnh vực này có chiều dài tối đa 200 ký tự. Vui lòng sử dụng một cái gì đó ngắn hơn.
+Application.NoStripeKey=Không sọc API chính đã được tìm thấy. Xin vui lòng thiết lập khóa API sọc tại của bạn <a href="https://dailycred.com/admin/setup">thiết lập</a> trang.
+Application.OAuthCallBackNotInDomain=Các redirect_uri cung cấp không được chấp thuận bởi các thiết lập tài khoản của khách hàng này.
+Application.CNameNotValidDomain=Các CNAME cung cấp không xuất hiện như một tên miền hợp lệ.
+Application.Required=Đây là một lĩnh vực cần thiết.
+Application.LogoFileTooLarge=Tập tin vượt quá giới hạn kích thước.
+Application.LogoFileIsNotImage=Các loại tập tin không hợp lệ. Chỉ PNG, JPG và GIF được phép.
+Application.NoClientSecret=Bạn phải chỉ định một tham số client_secret chứa khóa bí mật Dailycred của bạn.
+Application.InvalidClientSecret=Đây là một khóa bí mật không hợp lệ Dailycred.
+Application.MissingRequiredFields=Có vẻ như bạn đang thiếu một số lĩnh vực cần thiết. Xin vui lòng đến của bạn <a href="/admin/setup">cài đặt</a> trang để có được thiết lập.
+Application.CouldNotUnsubscribe=Chúng tôi xin lỗi, do một lỗi kỹ thuật chúng tôi không thể bỏ đăng ký bạn trực tiếp từ liên kết này. Vui lòng thử lại, hoặc <a href="mailto:support@dailycred.com">liên hệ trực tiếp</a> để được gỡ bỏ.
+Application.Unsubscribed=Bạn đã được hủy đăng ký. Chúng tôi xin lỗi để xem bạn đi!
+Application.Subscribed=Bạn đã được đăng ký. Cảm ơn!
+Application.CouldNotSubscribe=Chúng tôi xin lỗi, do một lỗi kỹ thuật chúng tôi không thể đăng ký bạn trực tiếp từ liên kết này. Vui lòng thử lại, hoặc <a href="mailto:support@dailycred.com">liên hệ trực tiếp</a> để được thêm vào.
+Application.AdminsCantUnsubscribe=Thừa nhận không thể bỏ đăng ký từ tài khoản của mình.
+Application.EmailIsSame=Các email mới cũng giống như email hiện tại của bạn.
+Application.EmailOnlyUserNotAllowed=Ứng dụng này không hỗ trợ email chỉ có người sử dụng.
+Application.EmailChangeSuccess=Email của bạn đã được thay đổi thành% s. Xin vui lòng tìm kiếm các email xác nhận và xác minh địa chỉ mới của bạn.
+Application.EmailVerifySuccess=Email% s đã được xác minh.
+Application.PostOnly=Yêu cầu này phải được thực hiện bằng cách sử dụng một <b>yêu cầu HTTP POST.</b> <br/><br/> Nếu bạn chỉ cần kiểm tra ra các API, chúng tôi đề nghị sử dụng cURL hoặc <a target="_blank" href="http://hurl.it/">ném</a> .
+Application.StripeTrialEnd=Một <a href="https://www.dailycred.com/admin/user/%s">người sử dụng</a> có một thử nghiệm mà là về để kết thúc. Email này được gây ra bởi một webhook sọc.
+Application.StripePaymentSucceeded=Một <a href="https://www.dailycred.com/admin/user/%s">người sử dụng</a> đã được tính phí thành công. Email này được gây ra bởi một webhook sọc.
+Application.StripePaymentFailed=Một <a href="https://www.dailycred.com/admin/user/%s">người sử dụng</a> bị buộc tội nhưng không thành công. Email này được gây ra bởi một webhook sọc.
+Application.BillingError=Có lỗi khi cố gắng thiết lập thông tin thanh toán của bạn. Vui lòng thử lại trong giây lát.
+Application.TrialWillEnd=Dùng thử miễn phí của bạn với Dailycred sắp kết thúc vào% s. Vui lòng truy cập của bạn <a href="https://www.dailycred.com/admin/settings/billing">trang thanh toán</a> để ngăn chặn tài khoản của bạn không bị ngừng hoạt động.
+Application.TrialWillEndLong=Dùng thử miễn phí của bạn với DailyCred kết thúc sớm trên% s. <br><br> Để giữ cho tài khoản của bạn hoạt động, vui lòng truy cập của bạn <a href="https://www.dailycred.com/admin/settings/billing">trang thanh toán</a> để xem xét các <a href="https://www.dailycred.com/pricing">kế hoạch chi phí thấp</a> và nhập các chi tiết thanh toán ngày hôm nay.
+Application.CannotRemoveActiveCard=Bạn không thể loại bỏ phương thức thanh toán đang hoạt động. Nếu bạn muốn hủy bỏ support@dailycred.com email tài khoản của bạn với số lượng tài khoản của bạn.
+Application.StateCheckFailed=Yêu cầu là thiếu tham số nhà nước. Vui lòng thử lại.
+Application.UnexpectedError=Xin lỗi, xảy ra một lỗi không mong muốn. Vui lòng thử lại.
+Application.UserAnotherIdentityProvider=Nó xuất hiện bạn có một tài khoản sử dụng% s. <a href="%s">Bấm vào đây để kết nối sử dụng% s</a> hoặc <a href="%s">bấm vào đây để thiết lập một mật khẩu</a> .
+Application.APIKeyNotFound=API key không được tìm thấy. Hãy thiết lập một khóa API để cung cấp nhận dạng này của bạn trên <a href="https://www.dailycred.com/admin/settings">trang cài đặt</a> .
+Application.ForeignIDAlreadyRegistered=Chúng tôi không thể liên kết tài khoản này vì foreignID% s cho nhà cung cấp% s đã được liên kết với người sử dụng% s.
+Application.TwitterCallbackURLIncorrect=Kiểm tra của bạn <a href="https://dev.twitter.com/apps">cài đặt ứng dụng Twitter</a> . URL gọi lại của ứng dụng của bạn không thể để trống. (Nó có thể là bất kỳ URL hợp lệ.)
+Application.ThankYouForSigningUp=Cảm ơn bạn đã đăng ký% s!
+Application.ThankYouForSigningUpNoClient=Cảm ơn bạn đã đăng ký!
+Application.CannotDeleteLastApp=Không thể xóa: tài khoản của bạn phải có ít nhất một ứng dụng.
+Application.CouldNotSendEmail=Chúng tôi xin lỗi, có một vấn đề gửi email đó. Vui lòng thử lại ngay.
+Application.EmailVerificationRequiredSignUp=Bạn phải xác minh email của bạn trước khi đăng ký. Hãy kiểm tra email của bạn để được hướng dẫn thêm.
+Application.EmailVerificationRequiredSignIn=Bạn phải xác minh email của bạn trước khi đăng nhập Hãy kiểm tra email của bạn để được hướng dẫn thêm.
+Application.Blocked=Chúng tôi xin lỗi, bạn đã bị chặn bởi người quản trị.
+
+=
+template.authorize.passwordStrength.0=Rất yếu
+template.authorize.passwordStrength.1=Yếu
+template.authorize.passwordStrength.2=Tạm được
+template.authorize.passwordStrength.3=Tốt
+template.authorize.passwordStrength.4=Tuyệt vời!

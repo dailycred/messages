@@ -1,0 +1,86 @@
+Application.NoSuchClient=هیچ مشتری برای گرفتن شناسه (شماره)٪ بازدید کنندگان وجود دارد.
+Application.NoSuchApp=هیچ برنامه ای برای گرفتن شناسه (شماره) از٪ s وجود دارد.
+Application.NoClientProvided=لطفا شناسه مشتری خود را با درخواست شما.
+Application.NoRedirectProvided=لطفا تغییر مسیر با درخواست OAuth حفظ خود. <br/> <b>توسعه دهندگان:</b> ارائه URI پاسخ به تماس خود را با استفاده از پارامتر <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> و یا با قرار دادن یک Callback function پیش فرض در <a href="https://www.dailycred.com/admin/setup">تنظیمات حساب کاربری خود شوید</a> .
+Application.EnterEmailOrUsername=لطفا ایمیل یا نام کاربری خود را وارد کنید.
+Application.EnterEmail=لطفا ایمیل خود را وارد کنید.
+Application.EnterUsername=لطفا نام کاربری خود را وارد کنید.
+Application.EnterPassword=لطفا رمز عبور خود را وارد کنید.
+Application.AtNotAllowed=علامت &quot;@&quot; را نمی توان در نام کاربری خود را استفاده می شود.
+Application.WrongPasswordOrUsername=لطفا نام کاربری و رمز عبور خود را بررسی کرده و دوباره امتحان کنید. <a href="%s">برای تنظیم مجدد رمز عبور خود را اینجا را کلیک کنید.</a>
+Application.BadDomain=دامنه &quot;٪ s&quot; معتبر نیست.
+Application.BadEmail=لطفا بررسی کنید که ایمیل خود را به درستی وارد شد و دوباره سعی کنید.
+Application.BadNewEmail=لطفا بررسی کنید که ایمیل جدید خود را به درستی وارد شد و دوباره سعی کنید.
+Application.PasswordTooShort=لطفا یک رمز عبور با حداقل٪ d کاراکتر را وارد کنید.
+Application.NoCallbackUri=٪ s از یک URI پاسخ به تماس تنظیم نشده است. لطفا بعدا دوباره امتحان کنید.
+Application.EmailTaken=این ایمیل در حال حاضر در حال استفاده است.
+Application.UsernameTaken=این نام کاربری قبلا گرفته شده. لطفا از یک نام کاربری دیگر استفاده کنید.
+Application.EmailSent=ایمیل ارسال شده است. لطفا ایمیل خود را برای دستورالعمل های بیشتر بررسی کنید
+Application.EmailSentGmail=ایمیل فرستاده شده است. <a href="http://mail.google.com/">جیمیل خود را چک کنید برای دستورالعمل های بیشتر.</a>
+Application.GoToGmail=برو به صندوق پستی جیمیل خود
+Application.EmailSentYahoo=ایمیل ارسال شده است. <a href="http://mail.yahoo.com/">لطفا چک کردن ایمیل یاهو خود را برای دستورالعمل های بیشتر.</a>
+Application.GoToYahoo=برو خود را به صندوق پستی یاهو
+Application.EmailSentHotmail=ایمیل ارسال شده است. <a href="http://www.hotmail.com/">لطفا هاتمیل خود را بررسی کنید برای دستورالعمل های بیشتر.</a>
+Application.GoToHotmail=برو به صندوق هاتمیل شما
+Application.EmailSentICloud=ایمیل ارسال شده است. <a href="https://www.icloud.com/#mail">لطفا iCloud ایمیل خود را بررسی کنید برای دستورالعمل های بیشتر است.</a>
+Application.GoToICloud=برو به iCloud صندوق پستی شما
+Application.NoSuchEmail=هیچ کاربری برای ایمیل از٪ s وجود دارد.
+Application.NoSuchUser=هیچ کاربری برای شناسه (شماره) از٪ s وجود دارد.
+Application.NoSuchUserFriendly=ما می تواند یک حساب کاربر برای این ایمیل یا نام کاربری را پیدا کند. لطفا دوباره سعی کنید.
+Application.NoSuchToken=خطایی در امضای شما به حساب شما وجود دارد. لطفا مدت کوتاهی دوباره سعی کنید.
+Application.PasswordResetInvalid=این درخواست تنظیم مجدد رمز عبور رمز عبور خود را فراموش کرده اید؟ نامعتبر است و یا یافت نشد. لطفا سعی کنید بازنشانی رمز عبور خود را دوباره.
+Application.PasswordUpdated=رمز عبور شما به روز شده است.
+Application.APIWrongPassword=لطفا رمز عبور خود را بررسی کرده و دوباره امتحان کنید.
+Application.APIError=خطای غیر منتظره رخ داده است. لطفا دوباره سعی کنید.
+Application.APIBadToken=نشانه دسترسی نامعتبر OAuth حفظ.
+Application.APINoToken=نشانه دسترسی فعال باید به پرس و جو اطلاعات مربوط به کاربر فعلی استفاده می شود.
+Application.APIBadCode=کد OAuth حفظ نامعتبر است.
+Application.TimeOut=به نظر می رسد مصرف بیش از حد طولانی است. لطفا مدت کوتاهی دوباره سعی کنید.
+Application.BadURL=این است که یک URL معتبر نیست. در این زمینه باید URL کامل و غیر نسبی باشد، مانند https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=در این زمینه دارای طول حداکثر 200 کاراکتر. لطفا از چیزی کوتاه تر استفاده کنید.
+Application.NoStripeKey=بدون خط خطی API کلید پیدا شد. لطفا خط خطی کلید API خود را در صفحه خود را <a href="https://dailycred.com/admin/setup">راه اندازی</a> .
+Application.OAuthCallBackNotInDomain=redirect_uri ارائه شده توسط تنظیمات حساب این مشتری تایید نیست.
+Application.CNameNotValidDomain=CNAME ارائه شده به نظر نمی رسد به یک دامنه معتبر.
+Application.Required=این فیلد ضروری است.
+Application.LogoFileTooLarge=این فایل بیش از حد اندازه است.
+Application.LogoFileIsNotImage=نوع فایل معتبر نیست. فقط PNG، JPG و GIF امکان پذیر است.
+Application.NoClientSecret=شما باید یک پارامتر client_secret حاوی کلید راز Dailycred خود را مشخص کنید.
+Application.InvalidClientSecret=این یک کلید مخفی Dailycred نامعتبر است.
+Application.MissingRequiredFields=به نظر می رسد شما از دست رفته چند زمینه های مورد نیاز. لطفا برای رفتن به <a href="/admin/setup">راه اندازی</a> صفحه خود را برای دریافت راه اندازی اینجا را کلیک کنید.
+Application.CouldNotUnsubscribe=ما با عرض پوزش، به دلیل یک خطای فنی ما می تواند شما را به طور مستقیم از این لینک لغو اشتراک دارید. لطفا دوباره امتحان کنید، یا <a href="mailto:support@dailycred.com">با ما تماس بگیرید به طور مستقیم</a> برداشته شود.
+Application.Unsubscribed=شما لغو اشتراک شده اند. ما متأسفیم برای دیدن شما بروید!
+Application.Subscribed=شما عضو شده ام. با تشکر از شما
+Application.CouldNotSubscribe=با عرض پوزش، به دلیل یک خطای فنی ما می تواند شما را به طور مستقیم از این لینک عضو شوید. لطفا دوباره امتحان کنید، یا <a href="mailto:support@dailycred.com">با ما تماس بگیرید به طور مستقیم</a> به آن اضافه شود.
+Application.AdminsCantUnsubscribe=اذعان می کند که نمی توانید از حساب خود را لغو اشتراک.
+Application.EmailIsSame=ایمیل جدید در همان ایمیل فعلی شما است.
+Application.EmailOnlyUserNotAllowed=این برنامه به کاربران ایمیل تنها را پشتیبانی نمی کند.
+Application.EmailChangeSuccess=پست الکترونیک شما شده است به٪ s تغییر کرده است. لطفا برای ایمیل تایید و بررسی آدرس جدید خود را.
+Application.EmailVerifySuccess=ایمیل٪ بوده است تأیید شده است.
+Application.PostOnly=این درخواست باید با استفاده از یک <b>درخواست HTTP POST</b> ساخته شده است. <br/><br/> اگر شما فقط چک کردن API، ما نشان می دهد با استفاده از حلقه و یا برای <a target="_blank" href="http://hurl.it/">پرتاب</a> است.
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">کاربر</a> دارای یک محاکمه است که برای پایان دادن به. این ایمیل توسط یک خط خطی webhook ناشی شد.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">کاربر با</a> موفقیت شارژ شد. این ایمیل توسط یک خط خطی webhook ناشی شد.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">کاربر</a> ناموفق عنوان شده است. این ایمیل توسط یک خط خطی webhook ناشی شد.
+Application.BillingError=(احساس می کنم) چیزی رو هنگام تلاش برای تنظیم اطلاعات صدور صورت حساب خود را اشتباه رفت. لطفا لحظه ای دوباره سعی کنید.
+Application.TrialWillEnd=محاکمه آزاد خود را با Dailycred است در مورد به پایان دادن بر٪ s. لطفا برای بازدید از <a href="https://www.dailycred.com/admin/settings/billing">صفحه صدور صورت حساب</a> برای جلوگیری از حساب خود را از غیر فعال شدن اینجا را کلیک کنید.
+Application.TrialWillEndLong=محاکمه رایگان شما با DailyCred است، به پایان می رسد به زودی بر٪ s. <br><br> به حساب خود را فعال نگه دارید، لطفا خود را بازدید از <a href="https://www.dailycred.com/admin/settings/billing">صفحه صدور صورت حساب</a> برای این فایل نقد می نویسید: <a href="https://www.dailycred.com/pricing">برنامه های کم هزینه</a> و جزئیات پرداخت را وارد کنید امروز.
+Application.CannotRemoveActiveCard=شما می توانید روش صورت حساب فعال خود را حذف کنید. اگر شما مایل به لغو حساب شما support@dailycred.com ایمیل با شماره حساب خود را.
+Application.StateCheckFailed=درخواست پارامتر حالت را از دست داده است. لطفا دوباره سعی کنید.
+Application.UnexpectedError=با عرض پوزش، خطای غیر منتظره رخ داده است. لطفا دوباره سعی کنید.
+Application.UserAnotherIdentityProvider=به نظر می رسد شما باید یک حساب کاربری با استفاده از٪ s را. <a href="%s">اینجا را کلیک کنید برای اتصال با استفاده از٪ s و</a> یا <a href="%s">اینجا را کلیک کنید تا یک رمز عبور</a> .
+Application.APIKeyNotFound=کلید API یافت نشد. لطفا یک کلید API برای این ارائه دهنده هویت خود را در <a href="https://www.dailycred.com/admin/settings">صفحه تنظیمات</a> .
+Application.ForeignIDAlreadyRegistered=ما می تواند این لینک نیست زیرا foreignID٪ برای ارائه از٪ s در حال حاضر با کاربر٪ s را همراه است.
+Application.TwitterCallbackURLIncorrect=خود را بررسی کنید <a href="https://dev.twitter.com/apps">تنظیمات برنامه توییتر</a> . URL پاسخ به تماس نرم افزار شما نمی تواند خالی باشد. (این می تواند هر URL معتبر است.)
+Application.ThankYouForSigningUp=با تشکر از شما برای ثبت نام برای٪ s!
+Application.ThankYouForSigningUpNoClient=با تشکر از شما برای ثبت نام!
+Application.CannotDeleteLastApp=نمی توانید حذف کنید: حساب شما باید حداقل یک نرم افزار داشته باشند.
+Application.CouldNotSendEmail=با عرض پوزش، مشکل ارسال آن ایمیل وجود دارد. لطفا مدت کوتاهی دوباره سعی کنید.
+Application.EmailVerificationRequiredSignUp=شما باید ایمیل خود را قبل از ثبت نام بررسی کنید. لطفا ایمیل خود را برای دستورالعمل های بیشتر بررسی کنید.
+Application.EmailVerificationRequiredSignIn=شما باید ایمیل خود را قبل از ورود به سیستم بررسی لطفا ایمیل خود را برای دستورالعمل های بیشتر تیک بزنید.
+Application.Blocked=متأسفیم، شما توسط مدیر مسدود شده است.
+
+=
+template.authorize.passwordStrength.0=بسیار ضعیف
+template.authorize.passwordStrength.1=ضعیف
+template.authorize.passwordStrength.2=حد وسط
+template.authorize.passwordStrength.3=خوب
+template.authorize.passwordStrength.4=بزرگ!

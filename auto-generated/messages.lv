@@ -1,0 +1,86 @@
+Application.NoSuchClient=Neviens klients pastāv id% s.
+Application.NoSuchApp=Nav app pastāv id% s.
+Application.NoClientProvided=Lūdzu, norādiet savu klienta ID ar jūsu pieprasījumu.
+Application.NoRedirectProvided=Lūdzu, sniedziet pārorientēt ar savu OAuth pieprasījumu. <br/> <b>Izstrādātāji:</b> nodrošināt savu atzvanu URI, izmantojot parametru <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> vai nosakot noklusējuma atzvanu, kas <a href="https://www.dailycred.com/admin/setup">konta iestatījumiem</a> .
+Application.EnterEmailOrUsername=Lūdzu ievadiet savu e-pasta adresi vai lietotājvārdu.
+Application.EnterEmail=Lūdzu ievadiet savu e-pasta adresi.
+Application.EnterUsername=Lūdzu, ievadiet savu lietotājvārdu.
+Application.EnterPassword=Lūdzu, ievadiet savu paroli.
+Application.AtNotAllowed=Simbols &quot;@&quot; nevar izmantot savu lietotājvārdu.
+Application.WrongPasswordOrUsername=Lūdzu, pārbaudiet savu lietotājvārdu un paroli un mēģiniet vēlreiz. <a href="%s">Lai atjaunotu paroli, noklikšķiniet šeit.</a>
+Application.BadDomain=Domēns &quot;% s&quot; nav derīgs.
+Application.BadEmail=Lūdzu, pārbaudiet, vai jūsu e-pastu tika ievadīta pareizi, un mēģiniet vēlreiz.
+Application.BadNewEmail=Lūdzu pārliecinieties, ka jūsu jaunā e-pastu tika ievadīta pareizi, un mēģiniet vēlreiz.
+Application.PasswordTooShort=Lūdzu, ievadiet paroli, ar vismaz% d simboliem.
+Application.NoCallbackUri=% S nav noteikts atzvana URI vēl. Lūdzu, mēģiniet vēlreiz vēlāk.
+Application.EmailTaken=Šis e-pasts jau tiek izmantots.
+Application.UsernameTaken=Šis lietotājvārds jau ir aizņemts. Lūdzu, izmantojiet citu lietotājvārdu.
+Application.EmailSent=E-pasts tika nosūtīts. Lūdzu, pārbaudiet savu e-pastu, lai iegūtu papildu norādījumus.
+Application.EmailSentGmail=E-pasts tika nosūtīts. <a href="http://mail.google.com/">Lūdzu, pārbaudiet savu Gmail turpmākiem norādījumiem.</a>
+Application.GoToGmail=Dodieties uz savu Gmail iesūtnē
+Application.EmailSentYahoo=E-pasts tika nosūtīts. <a href="http://mail.yahoo.com/">Lūdzu, pārbaudiet savu Yahoo! e-pastu uz tālākiem norādījumiem.</a>
+Application.GoToYahoo=Dodieties uz savu Yahoo iesūtni
+Application.EmailSentHotmail=E-pasts tika nosūtīts. <a href="http://www.hotmail.com/">Lūdzu, pārbaudiet savu Hotmail turpmākiem norādījumiem.</a>
+Application.GoToHotmail=Dodieties uz savu Hotmail iesūtni
+Application.EmailSentICloud=E-pasts tika nosūtīts. <a href="https://www.icloud.com/#mail">Lūdzu, pārbaudiet savu iCloud Mail turpmākiem norādījumiem.</a>
+Application.GoToICloud=Dodieties uz savu iCloud iesūtni
+Application.NoSuchEmail=Neviens lietotājs eksistē e-pasta% s.
+Application.NoSuchUser=Neviens lietotājs pastāv id% s.
+Application.NoSuchUserFriendly=Mēs nevarējām atrast lietotāja kontu, lai šo e-pastu vai paroli neeksistē. Lūdzu, mēģiniet vēlreiz.
+Application.NoSuchToken=Tur bija kļūda, parakstot jūs savā kontā. Lūdzu, mēģiniet vēlreiz tuvākajā laikā.
+Application.PasswordResetInvalid=Šo paroli reset pieprasījums ir nederīgs vai nav atrasts. Lūdzu, mēģiniet atiestatīt savu paroli vēlreiz.
+Application.PasswordUpdated=Jūsu parole ir atjaunināta.
+Application.APIWrongPassword=Lūdzu, pārbaudiet savu paroli un mēģiniet vēlreiz.
+Application.APIError=Negaidīta kļūda. Lūdzu, mēģiniet vēlreiz.
+Application.APIBadToken=Nederīga OAuth piekļuves pilnvara.
+Application.APINoToken=Aktīvā piekļuves pilnvaru ir jāizmanto, lai vaicājumu informāciju par pašreizējo lietotāju.
+Application.APIBadCode=Nederīgs OAuth kodu.
+Application.TimeOut=Tas, šķiet, ir ņemot pārāk ilgi. Lūdzu, mēģiniet vēlreiz tuvākajā laikā.
+Application.BadURL=Šis nav derīgs URL. Šis lauks ir pilns, non-relatīvo URL, piemēram, https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Šis lauks ir maksimālais garums ir 200 rakstzīmes. Lūdzu, izmantot kaut ko īsāku.
+Application.NoStripeKey=Nav Stripe API atslēga tika atrasts. Lūdzu noteikt savu joslas API atslēgu jūsu <a href="https://dailycred.com/admin/setup">iestatījumu</a> lapā.
+Application.OAuthCallBackNotInDomain=Nosacījumu redirect_uri nav apstiprinājusi šī klienta konta iestatījumus.
+Application.CNameNotValidDomain=Nosacījumu, CNAME nešķiet būt derīgs domēns.
+Application.Required=Šis ir obligāts lauks.
+Application.LogoFileTooLarge=Fails pārsniedz lieluma ierobežojumu.
+Application.LogoFileIsNotImage=Faila tips nav derīgs. Tikai PNG, JPG un GIF ir atļauti.
+Application.NoClientSecret=Jums jānorāda client_secret parametru, kurā savu Dailycred slepeno atslēgu.
+Application.InvalidClientSecret=Tas ir derīgs Dailycred slepenā atslēga.
+Application.MissingRequiredFields=Izskatās, ka jums trūkst dažu pieprasītos laukus. Lūdzu, dodieties uz savu <a href="/admin/setup">iestatījumu</a> lapu, lai saņemtu izveidot.
+Application.CouldNotUnsubscribe=Diemžēl, sakarā ar tehnisku kļūdu, mēs nevarējām atteikties jūs tieši no šīs saites. Lūdzu, mēģiniet vēlreiz, vai <a href="mailto:support@dailycred.com">sazinieties ar mums tieši</a> noņemt.
+Application.Unsubscribed=Jūs esat bijis atrakstīties. Atvainojamies, lai redzētu jums iet!
+Application.Subscribed=Jūs esat abonējis. Paldies!
+Application.CouldNotSubscribe=Diemžēl, sakarā ar tehnisku kļūdu, mēs nevarētu parakstīties jūs tieši no šīs saites. Lūdzu, mēģiniet vēlreiz, vai <a href="mailto:support@dailycred.com">sazinieties ar mums tieši</a> , kas jāpievieno.
+Application.AdminsCantUnsubscribe=Atzīst, nevar atteikties no sava konta.
+Application.EmailIsSame=Jaunais e-pasts ir tāds pats kā jūsu pašreizējo e-pastu.
+Application.EmailOnlyUserNotAllowed=Šī app neatbalsta e-pastu tikai lietotājiem.
+Application.EmailChangeSuccess=Jūsu e-pasts ir mainīts uz% s. Lūdzu, meklēt apstiprinājuma e-pastu un pārbaudīt savu jauno adresi.
+Application.EmailVerifySuccess=E-pasts% s ir pārbaudīta.
+Application.PostOnly=Šis pieprasījums ir jāiesniedz, izmantojot <b>HTTP POST pieprasījums.</b> <br/><br/> Ja jūs tikai pārbaudes veic API, mēs iesakām izmantot čokurošanās vai <a target="_blank" href="http://hurl.it/">mest</a> .
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">Lietotājs</a> ir izmēģinājuma, kas drīz beigsies. Šī e-pasta izraisīja Stripe webhook.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">Lietotājs</a> tika veiksmīgi iekasēta. Šī e-pasta izraisīja Stripe webhook.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">Lietotājs</a> bija neveiksmīgi uzlādēts. Šī e-pasta izraisīja Stripe webhook.
+Application.BillingError=Kaut kas nogāja greizi, mēģinot noteikt savu norēķinu informāciju. Lūdzu, mēģiniet vēlreiz momentāni.
+Application.TrialWillEnd=Jūsu bezmaksas izmēģinājums ar Dailycred drīz beigsies% s. Lūdzu, apmeklējiet savu <a href="https://www.dailycred.com/admin/settings/billing">norēķinu lapu,</a> lai novērstu jūsu konta tiek deaktivizēts.
+Application.TrialWillEndLong=Jūsu bezmaksas izmēģinājuma ar DailyCred beidzas ātri uz% s. <br><br> Lai saglabātu jūsu konts aktīvs, lūdzu, apmeklējiet savu <a href="https://www.dailycred.com/admin/settings/billing">norēķinu lapu,</a> lai pārskatītu <a href="https://www.dailycred.com/pricing">zemu izmaksu plānus</a> un ievadiet informāciju par maksājumiem šodien.
+Application.CannotRemoveActiveCard=Jūs nevarat noņemt savu aktīvo norēķinu metodi. Ja vēlaties atcelt savu konta e-pasta support@dailycred.com ar savu konta numuru.
+Application.StateCheckFailed=Pieprasījumā nav valsts parametrs. Lūdzu, mēģiniet vēlreiz.
+Application.UnexpectedError=Atvainojiet, negaidīta kļūda. Lūdzu, mēģiniet vēlreiz.
+Application.UserAnotherIdentityProvider=Šķiet, jums ir konts, izmantojot% s. <a href="%s">Klikšķiniet šeit, lai izveidotu savienojumu, izmantojot% s</a> vai <a href="%s">noklikšķiniet šeit, lai uzstādītu paroli</a> .
+Application.APIKeyNotFound=API atslēga nav atrasts. Lūdzu noteikt API atslēgu šim identitātes pakalpojumu sniedzējs jūsu <a href="https://www.dailycred.com/admin/settings">iestatījumu lapā</a> .
+Application.ForeignIDAlreadyRegistered=Mēs nevarētu saistīt šo kontu, jo foreignID% s sniedzējs% s jau ir saistīts ar lietotāja% s.
+Application.TwitterCallbackURLIncorrect=Pārbaudiet savu <a href="https://dev.twitter.com/apps">Twitter aplikācijas uzstādījumus</a> . Jūsu App atzvanu URL nevar būt tukšs. (Tas var būt jebkurš derīgs URL.)
+Application.ThankYouForSigningUp=Paldies par pierakstīšanos uz% s!
+Application.ThankYouForSigningUpNoClient=Paldies par pierakstīšanos!
+Application.CannotDeleteLastApp=Nevar izdzēst: jūsu kontā ir jābūt vismaz vienam App.
+Application.CouldNotSendEmail=Diemžēl, tur bija problēma, nosūtot šo e-pastu. Lūdzu, mēģiniet vēlreiz tuvākajā laikā.
+Application.EmailVerificationRequiredSignUp=Jums ir pārbaudīt savu e-pastu pirms pierakstīšanos. Lūdzu, pārbaudiet savu e-pastu, lai iegūtu papildu norādījumus.
+Application.EmailVerificationRequiredSignIn=Jums ir pārbaudīt savu e-pastu pirms pierakstīšanās Lūdzu, pārbaudiet savu e-pasta adresi, lai iegūtu papildu norādījumus.
+Application.Blocked=Atvainojamies, Jums ir bloķējis administrators.
+
+=
+template.authorize.passwordStrength.0=Ļoti vāja
+template.authorize.passwordStrength.1=Vājš
+template.authorize.passwordStrength.2=Puslīdz
+template.authorize.passwordStrength.3=Labs
+template.authorize.passwordStrength.4=Lieliski!

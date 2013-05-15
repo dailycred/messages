@@ -1,0 +1,156 @@
+$Page Creación de un Patch de bajo
+$TargetName Creating a Bass Patch
+$ListInTocForProduct 40
+
+Ahora que ya comprende mejor el potencial sonoro de Operator, vamos a crear un sonido de bajo personalizado. Como pronto descubrirá, el enfoque de síntesis híbrida de Operator puede ofrecer de todo, desde tremendos sonidos de estilo analógico hasta texturas metálicas más inusuales.
+
+Divider.tif
+*Nota:* Esta lección viene acompañada de un Live Set con el que interactuará a medida que sigue la lección. Por favor pulse $Link aquí <Set:/Sets/OP-Default Set.als> para cargar el Live Set.*
+Divider.tif
+
+Al igual que con las otras lecciones de Operator, obtendrá una mejor visión del instrumento en la /vista Track./ Pliegue la /vista Info/ pulsando sobre el botón mostrar/ocultar en la parte inferior izquierda de la pantalla.
+HideInfoBass.tif
+
+Divider.tif
+/Nota:/ Puesto que en este tutorial vamos a construir sonidos de bajo, sería conveniente utilizar las octavas más graves en su teclado. En los dispositivos más pequeños, debe transponer el teclado una octava o dos hacia abajo para tener el rango correcto de sonidos.
+
+Si está usando el teclado del ordenador, puede trasnsponerlo arriba y abajo usando las teclas Z y X. Para esta lección recomendamos C2 - C3.
+Divider.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Elección del algoritmo
+$TargetName Choosing an Algorithm
+
+Operator utiliza /algoritmos/ para configurar los encaminamientos de modulación FM de sus cuatro osciladores. Cada algoritmo tiene su propio carácter y ventajas. Por ejemplo, los primeros ocho algoritmos son óptimos para crear avanzadas texturas FM, mientras que los restantes tres algoritmos son mejores para patches híbridos y sustractivos de estilo analógico.
+
+Para acceder a los algoritmos, seleccione la sección global del panel de forma que quede resaltada, así:
+GlobalSectionBass.tif
+Los algoritmos aparecerán en la parte superior de la pantalla de Operator.
+
+El algoritmo por defecto en Operator es el primero, que configura los osciladores de forma que el D modula al C, el C al B y el B modula al A.
+Algorithms.tif
+Con esta configuración, si cambia el /Level/ del oscilador A controla el /volumen,/ mientras que si cambia el /Level/ de los otros osciladores controla la cantidad de FM, ajustando el /timbre/ del sonido.
+
+$Comment --------------------------------------------------------------------------------
+$Page Afinación y niveles
+$TargetName Tuning and Levels
+
+Puesto que el oscilador B está modulando al oscilador A, aumente lentamente su /Level/ a -6 dB al tiempo que reproduce para escuchar el efecto de la modulación.
+OscBLevelBass.tif
+Fíjese como cambia el tono a medida que incrementa el valor. A mayores niveles se añaden más armónicos al sonido.
+
+Ahora, ajuste la afinación /Coarse/ del oscilador B. Cada valor de afinación para este control crea un grupo diferente de armónicos, ofreciéndole una ámplia variedad de opciones tonales. Los ajustes más altos a menudo pueden producir texturas más duras y brillantes.
+
+Una vez haya experimentado un poco, ajuste el valor de afinación /Coarse/ a 0.5 y /Level/ a -20 dB:
+OscBLevelAndCoarse.tif
+Cuando esté reproduciendo las octavas más graves, escuchará unos ricos tonos de bajo, que le recordarán los sonidos de un bajo eléctrico.
+
+/Sugerencia:/ Puede que encuentre más rápido y cómodo pulsar sobre los controles de Operator e introducir directamente los valores en vez de usar el ratón para realizar los ajustes.
+
+$Comment --------------------------------------------------------------------------------
+$Page Añadiendo modulación FM
+$TargetName Adding FM Modulation
+
+Ahora vamos a utilizar los otros osciladores para enriquecer este tono.
+
+El oscilador C añade modulación FM al oscilador B, así que pruebe a experimentar con diversos niveles y afinaciones del oscilador C. Fíjese otra vez que a mayores valores de afinación /Coarse/ se añade esa pizca picante de altas frecuencias digitales. (Recuerde que necesitará aumentar el /Level/ del oscilador C antes de poder escuchar los cambios en su afinación.)
+
+Una vez haya explorado sus opciones, ajuste el valor de /Coarse/ a 12 y /Level/ a -30 dB:
+OscCLevelBass.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Utilización de envolventes
+$TargetName Using Envelopes
+
+Para aportar al sonido algo de animación tímbrica, vamos a experimentar con la /envolvente/ del oscilador C, que cambiará el nivel de la modulación del sonido del oscilador con respecto al tiempo mientras mantenga pulsada cada tecla.
+
+Con el oscilador C todavía seleccionado en el panel, ajuste el nivel de /Sustain/ a -21 dB:
+Sustain-21.tif
+Los valores de /Decay/ más cortos añaden un cierto chasquido al ataque del sonido. Los decaimientos más cortos permiten que los armónicos se fundan lentamente mientras se mantienen pulsadas las notas. Experimente con el parámetro /Decay/ para escuchar la diferencia.
+
+Probemos a usar un tiempo de /caída/ de 397 ms:
+Decay397.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Utilización de la velocidad para crear dinámica
+$TargetName Using Velocity to Create Dynamics
+
+Podemos dar un mayor sentimiento de dinámica a nuestra interpretación haciendo que el volumen del sonido responda a la velocidad de las notas.
+
+Por favor, regrese al oscilador A pulsando sobre este en el panel...
+OscABass2.tif
+... y después ajuste su parámetro /Vel>Level/ a 75%, así:
+VelocityLevel.tif
+Ahora el sonido responderá de forma dinámica a su interpretación.
+
+$Comment --------------------------------------------------------------------------------
+$Page Añadiendo elementos inarmónicos
+$TargetName Adding Inharmonic Elements
+
+Llegado a este punto, ha creado un sonido de bajo FM clásico, adecuado para una amplia variedad de géneros musicales. Ahora vamos a transformar este sonido de bajo en algo muy diferente.
+
+Cambie la afinación /Coarse/ del oscilador B a 1, y su afinación /Fine/ a 500. Esto cambiará el carácter del sonido haciéndolo más metálico, al añadir elementos no armónicos.
+OscBCoarseFine.tif
+Ahora incremente el /Level/ a -7 dB, de forma que pueda oír mejor el oscilador:
+IncreaseLevel.tif
+Puede seguir experimentando activando y desactivando el oscilador C. Esto se consigue pulsando sobre el icono "C" en el panel, así:
+CIcon.tif
+Fíjese en como cambia la textura del sonido dependiendo de si el oscilador C modula o no al oscilador B.
+
+Pulsando sobre los iconos A,B y D desactivará (o activará) de igual modo los otros osciladores de Operator.
+
+Asegúrese de volver a activar los cuatro osciladores antes de pasar a la página siguiente.
+
+$Comment --------------------------------------------------------------------------------
+$Page Control de volumen y envolvente
+$TargetName Volume and Envelope Control
+
+Podemos convertir este sonido metálico en algo más percusivo con la envolvente del oscilador B.
+
+Antes de nada, compruebe que el oscilador B está seleccionado en el panel:
+OscBBass.tif
+Vamos a ajustar /Decay/ a 1.44 s y /Sustain/ a -inf dB:
+MetallicOscB.tif
+Este patch ahora puede fácilmente distorsionar cuando se reproduzca, así que por favor reduzca el volumen general del sonido mediante el control global de /Volume/ a unos -20 dB:
+Volume20.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page La sección del filtro
+$TargetName The Filter Section
+
+Ahora que ya ha creado unos pocos sonidos de bajo y ya posee algún conocimiento de como funciona la síntesis FM, vamos a añadir un toque de filtrado.
+
+Deberíamos comenzar primero activando la sección del filtro. Esto se consigue pulsando sobre la casilla debajo de la palabra "Filter," así:
+FilterOnBass.tif
+
+Una vez haya activado el filtro, ajuste su potenciómetro de frecuencia /(Freq),/ barriendo desde su configuración menor hasta la más alta, y luego devuélvala a los 500 Hz:
+AFreqyKnob.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Frecuencia de corte y resonancia
+$TargetName Cutoff and Resonance
+
+Puede acentuar el comportamiento del filtro ajustando el potenciómetro de resonancia /(Res)./
+
+Pruebe a reproducir algo y barra el potenciómetro /Res/ desde su ajuste más bajo hasta el más alto, dejándolo en 7.0 cuando haya terminado:
+ResTo7.tif
+Los valores de resonancia altos enfatizan la frecuencia de corte, dándole al sonido un carácter electrónico clásico.
+
+Vamos a ver como este ajuste más alto de la resonancia afecta a diferentes frecuencias de corte barriendo el potenciómetro /Freq/ de izquierda a derecha, y luego ajustándolo a 1.9 kHz:
+Cutoff19.tif
+Podemos rápidamente comparar esto con el sonido sin el filtro desactivando la sección del filtro:
+FilterOff.tif
+Volviendo a activar el filtro, podemos añadir dinámica a su respuesta ajustando el parámetro /Freq<Vel/ a 75% (necesitará un teclado sensible a la velocidad para escuchar este efecto):
+DynamicFilter.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page ... y finalmente
+$TargetName ... and Finally
+
+Al combinar un sistema de encaminamientos de modulación FM flexibles con filtros clásicos, Operator le permite elegir de entre una amplia serie de opciones de síntesis para la generación de sonidos de bajo (o de cualquier tipo de sonido). En la próxima lección, exploraremos las posibilidades que ofrece Operator para la creación de sonidos incisivos de cajas de ritmos analógicas.
+
+Recuerde que la vista Info es un excelente recurso que puede proporcionarle una breve descripción de cualquier parámetro en Operator. Siempre podrá mostrarlo u ocultarlo pulsando sobre el botón triangular en la esquina inferior izquierda de la pantalla.
+BassInfoView.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

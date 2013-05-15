@@ -1,0 +1,33 @@
+$Page Rapporter un crash avec un plug-in
+$TargetName Report a Crash in a Plug-In
+BugReportingBanner.tif
+Nous vous sommes reconnaissants de prendre le temps de nous rapporter un crash. Merci pour votre aide!
+
+Les données de crash du système suggèrent que le problème peut être lié à ce plug-in CRASHED_PLUGIN_TYPE:
+
+*CRASHED_PLUGIN_NAME (version CRASHED_PLUGIN_VERSION)*
+
+Veuillez vérifier avec le producteur de ce plug-in qu'il est à jour. Assurez-vous aussi que vous utilisez bien $Link la dernière version de Live <http://www.ableton.com/latest-versions>.
+
+Divider.tif
+Afin que nous puissions mieux analyser le problème, veuillez cliquer sur le lien ci-dessous pour afficher le Pack rapport de crash sur votre ordinateur:
+
+CRASH_REPORTING_PACKAGE_NAME
+
+Veuillez envoyer ce fichier à $Link crashes@ableton.com <mailto:crashes@ableton.com>.
+Divider.tif
+
+Ce Pack rapport de crash contient des informations qui ont été générées la dernière fois que vous avez fait fonctionner Live:
+
+-> les fichiers de préférences et d'autorisation de Live
+-> un journal de ce qu'a fait le logiciel durant la dernière exécution du programme
+-> tous les Sets Live, presets et périphériques Max utilisés durant la dernière exécution du programme (tous sans échantillons)
+-> divers autres fichiers-journaux créés par Live
+-> les informations de plantage du système d'exploitation
+
+Aucune autre information n'est envoyée. Nous n'utiliserons les données contenues dans ce rapport que pour corriger les bogues. Voir notre $Link politique de confidentialité <http://www.ableton.com/privacy-policy> pour découvrir comment nous utilisons vos informations.
+
+*Note:* vous recevrez une réponse automatique à votre rapport de crash. S'il vous faut plus d'aide, veuillez contacter notre $Link assistance technique <http://www.ableton.com/support>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

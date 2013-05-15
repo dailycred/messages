@@ -1,0 +1,180 @@
+$Page Verwenden der APC40
+$TargetName Using the APC40
+APC40.tif
+
+Die /APC40 (Ableton Performance Controller)/ ist eine spezielle Hardware-Bedienoberfläche für Ableton Live, die vom gleichen Entwicklerteam stammt wie die legendäre Akai MPC-Produktserie. Dieser Kurs hilft Ihnen beim Einrichten Ihrer APC40 und macht Sie mit ihren Funktionen und Möglichkeiten vertraut.
+
+Klicken Sie $Link hier <Set:/Sets/APC40 Demo.als>, um ein Live-Set einzuladen, mit dem Sie beim Kennenlernen der einzelnen APC40-Funktionen arbeiten können. Um weiterzublättern, klicken Sie bitte unten rechts in diesem Kurs auf /Nächste Seite./ Zur schnellen Navigation können Sie auch folgende Links benutzen:
+
+-> $Link Einrichten der APC40 <GotoPage:Connecting the APC40>
+-> $Link Die Clip-Launch-Matrix <GotoPage:Clip Launch Matrix>
+-> $Link Die Session-Übersicht <GotoPage:Session Overview>
+-> $Link Der Mixer-Bereich <GotoPage:Mixer Section>
+-> $Link Steuerung von Geräten in Live <GotoPage:Device Control>
+-> $Link Transport und globale Funktions-Taster <GotoPage:Transport and Global Buttons>
+-> $Link Steuerung von Spuren <GotoPage:Track Control>
+-> $Link Tempo-Steuerung <GotoPage:Tempo Control>
+-> $Link Der Crossfader <GotoPage:Crossfader>
+-> $Link Anpassung der APC40-Bedienelemente <GotoPage:Customizing the APC40 Controls>
+
+Eine allgemeine Einführung zum Verwenden von Hardware-Bedienoberflächen mit Live finden Sie im Kurs $Link Referenz zu den Bedienoberflächen <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference>. Dieser Kurs informiert Sie auch, wie Geräte von Live den Hardware-Bedienoberflächen zugewiesen werden.
+
+$Comment -----------------------------------------------------------------------
+$Page Einrichten der APC40
+$TargetName Connecting the APC40
+
+Nachdem Sie Live freigeschaltet, die APC40 eingeschaltet und an den USB-Port Ihres Rechners angeschlossen haben, müssen Sie die APC40 in Lives /Voreinstellungen/ zuordnen und aktivieren.
+
+1) Öffnen Sie Lives Voreinstellungen über das /Live-Menü/ unter OS X, oder das /Optionen-Menü/ unter Windows
+
+2) Gehen Sie auf die /MIDI/Sync-Seite/ (mit Klick auf den gleichnamigen Reiter)
+
+3) Wählen Sie unter /Bedienoberfläche/ das APC40-Preset  aus. Stellen Sie dann in den Menüs /Eingang/ und /Ausgang/ den MIDI-Port ein, an den Sie die APC40 angeschlossen haben:
+MIDISyncSetup.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Die Clip-Launch-Matrix
+$TargetName Clip Launch Matrix
+
+Mit der Tasten-Matrix der APC40 können Sie direkt auf Clips in Ihrer Session-Ansicht zugreifen. Die Matrix besteht aus 40 dreifarbigen Tastern in einer 5x8-Anordnung. Von der Matrix werden somit jeweils 5 Szenen und 8 Spuren pro Szene repräsentiert. Die Farbkodierung der Tasten informiert Sie über den Zustand der Clips und mit den Pfeiltasten der APC40 können Sie sehr einfach in Lives Session-Ansicht navigieren.
+LaunchMatrix.tif
+
+Das Drücken eines der 40 /Clip-Launch-Taster/ startet den Clip im entsprechenden Clip-Slot in Live. Wenn eine Spur aufnahmebereit geschaltet ist (Record Arm), wird mit dem Drücken der Taste ein neuer Clip aufgenommen.
+
+Die Taster der Matrix leuchten in drei verschiedenen Farben, um den Zustand des Slots/Clips mitzuteilen:
+
+-> Gelb: dieser Slot enthält einen Clip
+-> Grün: dieser Clip wird abgespielt
+-> Rot: dieser Clip wird aufgenommen
+
+Viele Aspekte von Lives Programmoberfläche spiegeln sich in der APC40 wieder. Sie können z.B. die gesamte Musik einer Spur mit Druck auf den /Clip Stop-Taster/ der Spur stoppen, oder aber ganze horizontale Linien von Clips mit den /Scene Launch-Tasten/ auf einmal "abfeuern". Die /Stop All Clips-Taste/ stoppt die Wiedergabe aller Clips.
+
+Die APC20-Bedienoberfläche informiert Sie darüber, was in der Live-Software passiert. Genauso wichtig ist jedoch auch, dass die Software den Zustand der Hardware-Bedienoberfläche reflektiert. Zum Beispiel werden die Clip-Slots, die momentan von der Tasten-Matrix gesteuert werden, in Live mit einer roten Umrandung angezeigt.
+RedBorder.tif
+
+Die Pfeiltasten und die /Shift-Taste/ der APC40 erweitern den Zugriffsbereich der 8x5 Matrix für Szenen und Clips:
+NavigateAndShift.tif
+
+-> Das Drücken der Pfeiltasten hoch/runter bewegt die Auswahl jeweils eine Szene nach oben oder unten. Wird dabei die Shift-Taste gehalten, bewegen Sie sich in 5er-Schritten, also jeweils um 5 Szenen nach oben oder unten.
+-> Das Drücken der Pfeiltasten links/rechts bewegt die Auswahl jeweils eine Spur nach links oder rechts. Wird dabei die Shift-Taste gehalten, bewegen Sie sich bankweise um jeweils 8 Spuren nach links oder rechts.
+
+$Comment -----------------------------------------------------------------------
+$Page Die Session-Übersicht
+$TargetName Session Overview
+
+Die /Session-Übersicht/ der APC40 ermöglicht Ihnen schnell durch Ihr Live-Set zu navigieren. Wenn Sie die Shift-Taste halten, zoomt die Matrix auf eine Übersichtsdarstellung Ihrer Session-Ansicht. In dieser Session-Übersicht repräsentiert jeder Matrix-Taster je einen 8-Spuren-mal-5-Szenen-Block mit Clips. Insgesamt stellt die Matrix in der Übersicht 125 Szenen und 64 Spuren dar. Drücken Sie eine Taste der Matrix, um auf den gewünschten Bereich in der Session-Ansicht zu fokussieren. Wenn Sie z.B. die Shift-Taste halten und dann den Taster in der dritten Reihe der ersten Spalte drücken, fokussieren Sie die Matrix auf die Szenen 11-15 und die Spuren 1-8.
+SessionOverview.tif
+
+Die Farbkodierung in der Session-Übersicht unterscheidet sich etwas von der normalen Kodierung:
+
+-> Gelb: zeigt den momentan ausgewählten Block mit Clips an, der in der Software von der roten Umrandung umgeben ist.
+-> Grün: in diesem Block werden Clips abgespielt (unabhängig davon, ob der jeweilige Block mit Clips gerade ausgewählt ist oder nicht).
+-> Rot: in diesem Block werden keine Clips abgespielt.
+-> Keine Farbe: in diesem Block sind keine Spuren oder Szenen enthalten.
+
+$Comment -----------------------------------------------------------------------
+$Page Mixer-Bereich
+$TargetName Mixer Section
+
+Die APC40 bietet acht Spuren, jeweils mit eigenem /Fader/ und Tasten für /Solo/Pre-Cue,/ /Mute/ und /Record Arm./ Ein /Master-Fader/ steuert die Gesamtlautstärke und der /Cue Level-Regler/ steuert die Lautstärke zum Vorhören. Sie können also einen Clip oder ein Metronom vorhören, ohne dass Ihr Publikum dies mitbekommt.
+MixerSection.tif
+
+Mit den Pfeiltasten können Sie diese acht Spuren innerhalb der Session-Ansicht verschieben. Drücken Sie die Pfeiltasten links/rechts, um sich jeweils eine Spur weiterzubewegen. Das Halten der Shift-Taste beim Drücken von Pfeil rechts/links, lässt Sie jeweils um acht Spuren weiter springen.
+
+$Comment -----------------------------------------------------------------------
+$Page Steuerung von Geräten in Live
+$TargetName Device Control
+
+Die APC40 ermöglicht Ihnen den intuitiven Zugriff auf die Effekte und virtuellen Instrumente in Live. Acht /Endlos-Regler/ und vier /Parameter-Tasten/ werden Ihren Geräten automatisch zugewiesen und erlauben so die schnelle und flexible Steuerung von Live im Studio oder auf der Bühne.
+DeviceControl.tif
+
+Die Track-Selection-Taster wählen die Spur aus, bei der die acht Endlos-Regler den Parametern des ersten Geräts bzw. Geräte-Racks zugeordnet werden. Die LED-Ringe zeigen Ihnen automatisch die Werte der gewählten Parameter an.
+
+Die vier Tasten unter den Reglern geben Ihnen zusätzliche Steuerungs-Möglichkeiten. Mit /Clip/Track/ können Sie zwischen der Geräte-Ansicht einer Spur oder den Eigenschaften des momentan abgespielten Clips wechseln. /Device On/Off/ schaltet das momentan gewählte Gerät ein oder aus. Mit /Device Left/ und /Device Right/ (mit den beiden Pfeilen beschriftet) bewegen Sie sich jeweils einen Schritt in der Gerätekette einer Spur weiter.
+
+Einige Effekte oder virtuelle Instrumente besitzen mehr als acht Parameter. Wird die Shift-Taste gehalten, können Sie mit diesen acht Tasten insgesamt 8 Parameterbänke zur Steuerung von jeweils acht Geräte-Parametern auswählen:
+DeviceParameterBanking.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Transport und globale Funktions-Taster
+$TargetName Transport and Global Buttons
+
+Die Tasten für Lives /Play-,/ /Stop-/ und /Global-Record-Tasten/ sind auf der APC40 gut erreichbar und vier globale Funktionstasten helfen Ihnen beim "Aufräumen" Ihres Bildschirms auf der Bühne und befreien Sie von der Maus im Studio:
+TransportAndGlobalButtons.tif
+
+-> /Detail View/ öffnet und schließt die Clip/Track-Ansicht, sodass Sie mehr von Ihren Clips sehen können.
+-> /Record Quantization/ lässt Sie die Aufnahme-Quantisierung zwischen 'Keine' und dem letzten gewählten Quantisierungswert umschalten.
+-> /MIDI Overdub/ lässt Sie einen MIDI-Clip overdubben.
+-> /Metronome/ schaltet das Metronom ein und aus.
+
+$Comment -----------------------------------------------------------------------
+$Page Steuerung von Spuren
+$TargetName Track Control
+
+Der Track-Control-Bereich der APC40 ermöglicht es Ihnen, Stereo-Panorama und Send-Effekte für die acht momentan gewählten Spuren einzustellen. Der Bereich besteht aus acht /Endlos-Reglern/ mit LED-Ringen und vier Tasten: /Pan,/ /Send A,/ /Send B/ und /Send C./
+TrackControl.tif
+
+Mit den Tasten lässt sich die Mixer-Funktion auswählen, die von den Reglern gesteuert wird. Die Drehregler selbst bestimmen dann die Stereoposition oder den Pegel des Effekt-Sends.
+
+$Comment -----------------------------------------------------------------------
+$Page Tempo-Steuerung
+$TargetName Tempo Control
+
+Die /Tap-Tempo/ und /Nudge-Left/Right/ Taster sind für Live-Einsätze unentbehrlich und helfen Ihnen dabei zu Plattenspielern, anderen Musikern oder einer Live-Band synchron zu bleiben und Timing-Probleme schnell zu korrigieren.
+TempoControl.tif
+
+Wenn Sie den Tap-Tempo-Taster einmal pro Schlag (Vierteltakt) drücken, folgt das Tempo des Live-Sets Ihrer Vorgabe.
+
+Sie können die Tapping-Funktion auch zum Einzählen verwenden: Wenn Sie mit einem 4/4-Taktmaß arbeiten, startet die Wiedergabe nach vier Taps im gewünschten Tempo.
+
+Auf der Bühne und im Studio kann es immer wieder vorkommen, dass Sie sich an Quellen anpassen müssen, die kein festes Tempo besitzen, wie zum Beispiel Live-Musiker oder Plattenspieler. Mit den Nudge-Tastern können Sie Lives Wiedergabetempo zeitweise erhöhen oder verringern und sich somit an diese Quellen anpassen.
+
+$Comment -----------------------------------------------------------------------
+$Page Der Crossfader
+$TargetName Crossfader
+
+Der austauschbare Crossfader der APC40 ist sehr robust und hält selbst extremsten Belastungen stand. Er ist nicht nur DAS essentielle Bedienelement beim DJing, sondern eignet sich auch hervorragend zur Steuerung von Effekten, Lautstärke und Modulationskurven.
+Crossfader.tif
+
+In Live können Sie jede Spur einem Ziel A oder B zuweisen und dann mit dem Crossfader zwischen A und B überblenden.
+CrossfadeAssignment.tif
+
+Nach einer Weile im intensiven Einsatz zeigen Crossfader Abnutzungserscheinungen, die sie dann unbrauchbar machen. Der Crossfader der APC40 ist vollständig austauschbar und der Austausch kann leicht und bequem über die Geräteunterseite erfolgen, sodass Sie die Lebensdauer des - ohnehin schon langlebigen Gerätes - problemlos verlängern können.
+
+$Comment -----------------------------------------------------------------------
+$Page Anpassung der APC40-Bedienelemente
+$TargetName Customizing the APC40 Controls
+
+Sie können die Zuordnungen für alle APC40-Regler, -Fader und -Taster ändern und an Ihre Anforderungen anpassen.
+
+Um die APC40 für Ihre eigenen Zuordnungen vorzubereiten, müssen Sie zuerst wieder auf die /MIDI/Sync-Seite/ von Lives Voreinstellungen gehen. Aktivieren Sie dort den Fernsteuerungs-Schalter bei den /Eingangs-/ und /Ausgangs-Ports,/ an denen die APC40 angeschlossen ist:
+CustomMappingSettings.tif
+
+Die Aktivierung des Fernsteuerungs-Schalters eines Eingangs-Ports lässt $0 auf MIDI-Controller-Meldungen warten, die über diesen Port empfangen werden. Der Fernsteuerungs-Schalter für den Ausgangs-Port hingegen ermöglicht es, in Live gemachte Änderungen an die Hardware-Bedienoberfläche zu senden.
+
+Sie können nun, indem Sie Lives /MIDI-Zuweisungs-Modus/ aktivieren, die standardmäßig zugeordneten Funktionen für alle Regler, Fader und Taster der APC40 mit eigenen Zuweisungen überschreiben, z.B. Steuerungs-Parameter wie Tempo selbst zuweisen und die gesamte Bedienoberfläche und ihre Elemente an Ihren persönlichen Workflow anpassen.
+
+Divider.tif
+*Tipp:* Wenn Sie die Standard-Zuweisungen der APC40 mit Ihren eigenen, manuellen Zuordnungen ergänzt haben, können Sie leicht wieder zu den ursprünglichen Standard-Zuweisungen zurückkehren. Deaktivieren Sie dazu den Fernsteuerungs-Taster des APC40 Eingangs-Ports. Wenn Sie den Taster danach wieder aktivieren, sind Ihre manuellen Zuweisungen wieder aktiv.
+Divider.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Mehrere APC40 anschließen
+$TargetName Connecting Multiple APC40s
+
+Sie können maximal sechs APC40 gleichzeitig verwenden. Jede zugewiesene Bedienoberfläche wird in Lives Session-Ansicht mit einem farblich anderen Ring angezeigt. Um mehrere Oberflächen zuzuweisen:
+
+1) Stellen Sie bitte sicher, dass alle APCs angeschlossen und eingeschaltet sind.
+
+2) Konfigurieren Sie, wie $Link bereits beschrieben  <GotoPage:Connecting the APC40>, die erste APC.
+
+3) Zur Konfiguration der nächsten Bedienoberfläche wählen Sie bitte "APC40" in einem noch nicht benutzten /Bedienoberflächen-Menü./
+SecondAPC.tif
+
+4) Wählen Sie dann den passenden Port in den Menüs /Eingang/ und /Ausgang./ Unter OS X heißt dieser Port "Akai APC40 (Port 2)", unter Windows "USB Audio Device (Port 2)".
+
+*Hinweis:* Sie können einen beliebigen der sechs Bedienoberflächen-Slots für Ihre APC40 verwenden. Wenn Sie jedoch von einem Slot zu einem anderen wechseln, kann es sein, dass Sie die vorherigen Port-Zuweisungen zu den Eingang-/Ausgang-Menüs erst manuell aufheben müssen, bevor Ihre neue Auswahl funktioniert.
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,28 @@
+$Page Auto-Warp steuern
+$TargetName Directing Auto-Warp
+
+Falls der /Auto-Warp-Algorithmus/ nicht genau das tut, was Sie erwarten, können Sie seine Arbeit mit $ContextMenu auf die Raster-Marker steuern.
+GridMarkerContextMenu.tif
+Der Befehl /Setze 1.1.1 hier/ verschiebt das Raster so, dass der selektierte Marker zur Position 1.1.1. wird. Dies ist nützlich falls /Auto-Warp/ das richtige Tempo aber die falsche Eins ermittelt hat. Dieser $ContextMenu-Befehl ist auch für den Start-Marker verfügbar.
+
+Die Befehle /Warpen ab hier.../ bieten Optionen für das Setzen der Warp-Marker rechts der selektierten Position. Warp-Marker links davon werden nicht beeinflusst.
+
+-> /Warpen ab hier/ startet einfach das /Auto-Warping./
+-> /Warpen ab hier (beginne mit ... BPM)/ weist /Auto-Warp/ an, das Projekt-Tempo als Startpunkt für die Tempoermittlung zu verwenden. Mit Hilfe dieses Befehls können Sie folgendes tun: Deaktivieren Sie das Warping für den Clip und spielen Sie ihn ohne Warping ab; verwenden Sie den Tap-Taster im Transportbereich, um mit dem Clip mitzutappen und so das Projekt-Tempo zu bestimmen; schalten Sie das Warping wieder ein und verwenden Sie diesen Befehl, um /Auto-Warp/ anzuweisen, Ihr getapptes Tempo zu verwenden.
+-> /Warpen ab hier (gerade)/ informiert /Auto-Warp/ darüber, dass ein Clip ohne Temposchwankungen vorliegt, zum Beispiel ein elektronisch produziertes Stück. /Auto-Warp/ wird deswegen nur einen Warp-Marker auf der Basis seiner eigenen Tempoermittlung vergeben.
+-> /Warpen ... BPM ab hier/ weist /Auto-Warp/ an, den Clip als exakt zum Projekt-Tempo passend zu interpretieren. Dies ist dann nützlich, wenn Sie das exakte Tempo eines elektronisch produzierten Stücks kennen.
+
+/Warpen als ...-Takt-Loop/ weist /Auto-Warp/ an, den Clip als perfekt geschnittenen Loop mit einer Länge von 1, 2, 4, 8, etc. Takten zu interpretieren. $0 wird eine Loop-Länge vorschlagen, die beim gegebenen Projekt-Tempo am sinnvollsten erscheint. Das Reduzieren des Projekt-Tempos kann beispielsweise bewirken, dass $0 einen Loop als 8-taktig bei 90 BPM statt als 16-taktig bei 180 BPM ansieht.
+
+
+$Page Auto-Warp-Optionen
+$TargetName Auto-Warp Options
+
+Sie können in den Voreinstellungen bestimmen, welche Annahmen $0 bezüglich neuer Samples treffen soll. Ist die Option /Lange Samples automatisch warpen/ an, dann nimmt $0 an, dass lange Samples Musik enthalten, die synchron zum Projekt-Tempo abgespielt werden soll. Wenn Sie es vorziehen, dass $0 solche Samples so wie sie sind abspielt, daktivieren Sie diese Option.
+AutoWarpLongSamplesPref.tif
+
+Unabhängig davon, wie $0 neue Samples standardmäßig interpretiert, können Sie dieses Verhalten jederzeit und für jeden einzelnen Clip mit seinem Warp-Schalter ändern.
+ClipViewWarpSwitch.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

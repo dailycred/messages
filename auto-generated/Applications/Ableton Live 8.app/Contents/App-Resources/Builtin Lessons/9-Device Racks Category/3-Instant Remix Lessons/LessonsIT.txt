@@ -1,0 +1,103 @@
+$Page Remix Istantaneo
+$TargetName Instant Remix
+$ListInTocForProduct 00
+
+Fino a qui le nostre lezioni sui Rack hanno trattato vari tipi di Rack di Strumenti suonabili. In questa lezione apprenderai come i Rack di Effetti processino i segnali audio. Lungo il percorso imparerai anche qualcosa in più sul /Selettore di Catena/ e su come modularlo per reindirizzare rapidamente l'audio all'interno della catena dei dispositivi di una traccia. Questo può essere utile per effettuare notevoli manipolazioni del suono al volo.
+
+Divider.tif
+*Questa lezione è accompagnata da un Live Set col quale interagirai procedendo. Quando sei pronto $Link clicca qui <Set:/Sets/Instant Remix.als> per caricare il Live Set.*
+Divider.tif
+
+
+Una volta caricato il Set, clicca sul pulsante /Pagina succ./ qui sotto per continuare.
+
+$Comment --------------------------------------------------------------------------------
+$Page Cosa c'è in questo Set?
+$TargetName What's in this Set?
+
+Questo Set contiene un traccia chiamata *Drums,* che a sua volta contiene una singola clip. Premi la *barra spaziatrice* per lanciare questa clip e ascoltala per un po'. Mentre suona, daremo uno sguardo ai nostri dispositivi per capire cosa stia accadendo in questa traccia.
+
+Prima di tutto analizziamo il flusso del segnale da sinistra verso destra. La traccia contiene un /Drum Rack,/ il cui segnale passa ad un /Compressor,/ poi ad un /Rack di Effetti Audio/ (che abbiamo chiamato *Beat Repeats)* e, infine, ad un altro /Compressor./
+
+Se agisci sull' /Attivatore del Dispositivo/ per disattivare il Rack *Beat Repeats*, il segnale compresso del Drum Rack passa semplicemente attraverso questo Rack senza essere processato e arriva al secondo Compressor.
+DrumsRackActivator.tif
+
+Quando esegui questa operazione, rimani con un loop da due misure piuttosto semplice. Chiaramente il centro d'interesse di questa raccolta di dispositivi è il Rack *Beat Repeats.* Diamo un'occhiata al suo interno per vedere come funzioni...
+
+$Comment -------------------------------------------------------------------------------
+$Page Beat Repeats
+$TargetName Beat Repeats
+
+Puoi vedere dall' /Elenco delle Catene/ del Rack *Beat Repeats* che abbiamo a che fare con cinque catene. Riattiviamo il Rack e mettiamo in Solo ciascuna catena, una alla volta, per sentire come contribuisca all'uscita complessiva.
+DrumsChainSolos.tif
+
+Noterai che ogni catena sta eseguendo un diverso tipo di processamento del segnale. Ora clicca sul pulsante /Mostra/Nascondi Dispositivi/ del Rack per visualizzare i contenuti di ciascuna catena.
+ShowDevices.tif
+
+Puoi vedere che ogni catena contiene due dispositivi: un /Beat Repeat/ seguito da un altro effetto, diverso per ciascuna catena. Gli effetti Beat Repeat servono a ripetere brevi porzioni  controllate ritmicamente del segnale audio d'entrata, mentre gli effetti dopo di essi forniscono ulteriori elaborazioni del suono.
+
+Ma, oltre a fornire un diverso processamento, ogni catena è attiva solo in momenti specifici. Probabilmente lo hai sentito quando hai messo in Solo le catene; e comunque lo puoi anche vedere osservando i livelli di ingresso delle catene.
+DrumsChainInputLevels.tif
+
+Questi compiono delle escursioni e si spengono, mostrando il livello presente all'ingresso della catena, /dopo/ che è stato filtrato dall' /Editor di Selezione di Catena./ Clicca sul pulsante *Chain* per aprire l'editor e poter esaminare ciò che accade...
+DrumsChainSelectEditor.tif
+
+$Comment -------------------------------------------------------------------------------
+$Page Approfondimento sul Selettore di Catena
+$TargetName More About the Chain Selector
+Con l'Editor della Selezione di Catena aperto, ora puoi vedere che il /Selettore di Catena/ cambia posizione mentre la clip suona, facendo sì che le catene si attivino e disattivino a seconda che in quel momento le loro zone si sovrappongano o meno alla posizione del Selettore di Catena. Per ottenere un'indicazione visiva ancor più dettagliata di questo comportamento, puoi cliccare sul pulsante *Auto,* posto sopra l'Elenco delle Catene.
+DrumsChainAuto.tif
+
+Se Auto è attivato, qualsiasi catena in grado di processare i segnali diventa selezionata. Questo può essere molto utile per diagnosticare i problemi del flusso del segnale nelle catene complesse.
+
+Il movimento del Selettore di Catena è il risultato di un /inviluppo di automazione,/ che puoi vedere nella /Vista Arrangiamento,/ sotto la clip. L'inviluppo rappresenta la modulazione del Selettore di Catena nel corso del tempo. Poiché fino ad ora lo zoom è rimasto ridotto, è difficile vedere la curva dell'inviluppo. Prova ad aumentare lo zoom, dapprima portando il mouse sul /Righello dei Tempi di Battuta,/ fino a che il cursore non diventi una lente d'ingrandimento...
+ZoomCursor.tif
+
+...poi cliccando e trascinando il mouse verso il basso per incrementare l'ingrandimento. Facendolo, inizierai a vedere i singoli /breakpoint/ (punti di interruzione) che compongono l'inviluppo.
+LaneZoom.tif
+
+Quando la riproduzione attraversa questi breakpoint, il Selettore di Catena scatta nelle posizioni da essi definite.
+
+Prova a trascinare alcuni dei breakpoint in qualche altra posizione per sentire come questo cambi il suono della riproduzione. Puoi anche disegnare una tua curva d'inviluppo personalizzata premendo *$CommandMod-B* o cliccando sull' *interruttore della Modalità Disegno.*
+DrawButton.tif
+
+*Nota* - in verità, questo inviluppo si ripete in modo piuttosto regolare, ma lo fa con una frequenza diversa rispetto alla ripetizione delle note della clip. Infatti, l'inizio della clip e l'inizio dell'inviluppo coincidono una sola volta ogni 102 misure, che è la lunghezza del nostro loop dell'Arrangiamento. La combinazione di loop irregolari come questo è un modo per generare variazioni su grande scala con materiali di piccole dimensioni.
+
+$Comment -------------------------------------------------------------------------------
+$Page Prevalere sulle Automazioni
+$TargetName Overriding Automation
+
+Divider.tif
+Per questa parte della lezione avrai bisogno di usare una superficie di controllo con manopole e/o fader. Se hai bisogno di aiuto per la configurazione, segui la lezione $Link Collegamento dei Controller MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+Divider.tif
+
+Per consentire un controllo più "tattile" del Selettore di Catena, puoi assegnare quest'ultimo ad un controller MIDI fisico che lo moduli al posto dell'inviluppo. Per farlo, accedi alla *Modalità Mappatura MIDI,* premendo *$CommandMod-M* oppure cliccando sul relativo interruttore.
+MIDIMapButton.tif
+
+Per abilitare il Selettore di Catena alla mappatura MIDI, clicca da qualche parte nel /Righello di Selezione di Catena./ I sottili bordi neri che appaiono ai suoi angoli indicano che è in attesa dell'assegnazione di un controller MIDI.
+ChainSelectRuler.tif
+
+Muovi una manopola o un fader del tuo controller MIDI per completare la mappatura. Quindi esci dalla Modalità Mappatura MIDI premendo nuovamente *$CommandMod-M* o cliccando sull'interruttore Modalità Mappatura MIDI.
+
+Non appena muoverai il controller MIDI assegnato, l'inviluppo di automazione verrà disabilitato e tu avrai il controllo manuale del Selettore di Catena. Nota come il pulsante /Torna all'Arrangiamento/ si illumini per indicare che lo stato della riproduzione non è più controllato dall'Arrangiamento.
+BackToArrangement.tif
+
+Per restituire il controllo all'Arrangiamento è sufficiente cliccare su questo pulsante (che si spegnerà). Ciò riabiliterà l'inviluppo del Selettore di Catena.
+
+$Comment -------------------------------------------------------------------------------
+$Page Come continuare?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> A questo punto hai imparato ad usare il Selettore di Catena per passare velocemente tra le catene di dispositivi, al fine di reindirizzare rapidamente i segnali audio. Hai anche visto un esempio di automazione e l'assegnazione di un controller MIDI.
+
+-> Prova ad assegnare i /Controlli Macro/ ad alcuni parametri dei dispositivi di effetto contenuti nelle catene del Rack *Beat Repeats.* Modulando quelli che cambiano le catene (come il Selettore di Catena) puoi esplorare possibilità di sound design ancor più profonde.
+
+-> Anziché ad una manopola o ad un fader, prova a mappare il Selettore di Catena ad un intervallo di tasti della tastiera MIDI. In questo modo puoi passare istantaneamente da una catena ad una qualsiasi altra, senza dover scorrere l'ordine delle catene.
+
+-> Prova a cambiare la lunghezza del loop dell'inviluppo di automazione e/o le posizioni dei suoi breakpoint. Anche piccoli cambiamenti nel rapporto tra le lunghezze delle clip e degli inviluppi possono avere un notevole effetto sul suono complessivo.
+
+-> Prova a sostituire i dispositivi di effetto con altri effetti o addirittura ad aggiungere ulteriori catene di effetto. Applicando l'inviluppo originale a dispositivi completamente diversi si possono determinare trasformazioni radicali del risultato.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

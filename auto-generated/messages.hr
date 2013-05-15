@@ -1,0 +1,86 @@
+Application.NoSuchClient=Ne postoji za klijenta id% s.
+Application.NoSuchApp=Ne postoji aplikacija za id% s.
+Application.NoClientProvided=Navedite svoj ID klijenta s zahtjev.
+Application.NoRedirectProvided=Navedite preusmjeravanje s Oauth zahtjev. <br/> <b>Developeri:</b> dati svoje povratni URI koristeći parametar <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> ili postavljanjem zadane por u <a href="https://www.dailycred.com/admin/setup">postavkama računa</a> .
+Application.EnterEmailOrUsername=Unesite svoju e-mail ili korisničko ime.
+Application.EnterEmail=Unesite svoju e-mail.
+Application.EnterUsername=Molimo unesite svoje korisničko ime.
+Application.EnterPassword=Unesite svoju lozinku.
+Application.AtNotAllowed=Simbol &quot;@&quot; ne može se koristiti u vaše korisničko ime.
+Application.WrongPasswordOrUsername=Provjerite svoje korisničko ime i lozinku i pokušajte ponovno. <a href="%s">Za resetiranje vaše lozinke kliknite ovdje.</a>
+Application.BadDomain=Domene &quot;% s&quot; nije valjana.
+Application.BadEmail=Molimo provjerite je li vaš e-mail točno unijeli i pokušajte ponovno.
+Application.BadNewEmail=Molimo provjerite je li vaš novi e-mail točno unijeli i pokušajte ponovno.
+Application.PasswordTooShort=Molimo unesite lozinku s najmanje% d znakova.
+Application.NoCallbackUri=% S nije skužio povratni URI još. Molimo pokušajte ponovno kasnije.
+Application.EmailTaken=Ovaj e-mail je već u uporabi.
+Application.UsernameTaken=Ovo korisničko ime već zauzeto. Upotrijebite drugu korisničko ime.
+Application.EmailSent=E-mail je poslan. Molimo provjerite e-poštu za daljnje upute.
+Application.EmailSentGmail=E-mail je poslan. <a href="http://mail.google.com/">provjerite svoj ​​Gmail za daljnje upute.</a>
+Application.GoToGmail=Idi na svoj Gmail inbox
+Application.EmailSentYahoo=E-mail je poslan. <a href="http://mail.yahoo.com/">provjerite svoj ​​Yahoo! e za daljnje upute.</a>
+Application.GoToYahoo=Idi na Yahoo inbox
+Application.EmailSentHotmail=E-mail je poslan. <a href="http://www.hotmail.com/">provjerite svoj ​​Hotmail za daljnje upute.</a>
+Application.GoToHotmail=Idite na Hotmail inbox
+Application.EmailSentICloud=E-mail je poslan. <a href="https://www.icloud.com/#mail">provjerite svoj ​​iCloud Mail za daljnje upute.</a>
+Application.GoToICloud=Idi na iCloud inbox
+Application.NoSuchEmail=Ne postoji korisnik% s e-mail.
+Application.NoSuchUser=Ne postoji korisnik id% s.
+Application.NoSuchUserFriendly=Nismo mogli pronaći korisnički račun za ovaj e-mail ili korisničko ime. Molimo pokušajte ponovno.
+Application.NoSuchToken=Došlo je do pogreške te se prijaviti na svoj račun. Molimo pokušajte ponovo poslije.
+Application.PasswordResetInvalid=Ovaj zahtjev Password Reset je nevažeća ili nije pronađen. Pokušajte ponovno postaviti zaporku.
+Application.PasswordUpdated=Vaša lozinka je promijenjena.
+Application.APIWrongPassword=Provjerite svoju zaporku i pokušajte ponovno.
+Application.APIError=Neočekivana pogreška. Molimo pokušajte ponovno.
+Application.APIBadToken=Invalid token OAuth pristup.
+Application.APINoToken=Aktivan pristup token mora se koristiti za postavljanje upita informacije o trenutnom korisniku.
+Application.APIBadCode=Nevažeći OAuth broj.
+Application.TimeOut=To čini da se predugo traje. Molimo pokušajte ponovo poslije.
+Application.BadURL=Ovo nije važeći URL. Ovo polje mora biti puna, a ne relativni URL, poput https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Ovo polje ima maksimalnu duljinu od 200 znakova. Molimo koristite nešto kraći.
+Application.NoStripeKey=Nema prugica API ključ je pronađen. Molimo postavite svoj ​​ključ API pruga na <a href="https://dailycred.com/admin/setup">postavljanje</a> stranice.
+Application.OAuthCallBackNotInDomain=Uvjetom redirect_uri nije odobren od strane klijentovih računa.
+Application.CNameNotValidDomain=Uvjetom CNAME ne pojaviti se biti valjana domene.
+Application.Required=Ovo je obavezno polje.
+Application.LogoFileTooLarge=File premašuje ograničenu veličinu.
+Application.LogoFileIsNotImage=Vrsta datoteke nije valjan. Samo PNG, JPG i GIF dopušteno.
+Application.NoClientSecret=Morate navesti client_secret parametar sadrži Dailycred svoj tajni ključ.
+Application.InvalidClientSecret=To je valjan Dailycred tajni ključ.
+Application.MissingRequiredFields=To izgleda kao da nedostaje nekoliko potrebna polja. Molimo otiđite na <a href="/admin/setup">postavljanje</a> stranice kako bi se postavili.
+Application.CouldNotUnsubscribe=Ispričavamo se, zbog tehničkih pogrešaka nismo mogli odjaviti direktno iz ovog linka. Molimo pokušajte ponovno ili <a href="mailto:support@dailycred.com">kontaktirajte nas izravno</a> biti uklonjena.
+Application.Unsubscribed=Vi ste bili odjaviti. Ispričavamo se ako odete!
+Application.Subscribed=Vi ste se pretplatili. Hvala!
+Application.CouldNotSubscribe=Ispričavamo se, zbog tehničkih pogrešaka nismo mogli izravno pretplate na ovom linku. Molimo pokušajte ponovno ili <a href="mailto:support@dailycred.com">kontaktirajte nas izravno</a> biti dodan.
+Application.AdminsCantUnsubscribe=Priznaje se ne mogu odjaviti iz vlastitog računa.
+Application.EmailIsSame=Nova e-mail je isti kao vaš trenutni e-pošte.
+Application.EmailOnlyUserNotAllowed=Ova aplikacija ne podržava e samo korisnika.
+Application.EmailChangeSuccess=Vaša e-mail je promijenjen% s. Molimo tražiti potvrdu e-pošte i potvrdili svoju novu adresu.
+Application.EmailVerifySuccess=E% s potvrđena.
+Application.PostOnly=Ovaj zahtjev mora biti izrađen pomoću <b>HTTP POST zahtjev.</b> <br/><br/> Ako ste tek odjavljivanje API, predlažemo korištenje uvijati ili <a target="_blank" href="http://hurl.it/">skresati</a> .
+Application.StripeTrialEnd=<a href="https://www.dailycred.com/admin/user/%s">Korisnik</a> ima ispitivanje koja je na izmaku. Ovaj e-mail je bio uzrokovan pruga webhook.
+Application.StripePaymentSucceeded=<a href="https://www.dailycred.com/admin/user/%s">Korisnik</a> je uspješno naplaćuje. Ovaj e-mail je bio uzrokovan pruga webhook.
+Application.StripePaymentFailed=<a href="https://www.dailycred.com/admin/user/%s">Korisnik</a> neuspješno je optužen. Ovaj e-mail je bio uzrokovan pruga webhook.
+Application.BillingError=Nešto je pošlo po zlu kada je pokušavao postaviti svoje podatke o naplati. Molimo pokušajte ponovno trenutak.
+Application.TrialWillEnd=Vaš bez suđenja s Dailycred uskoro će završiti na% s. Molimo posjetite <a href="https://www.dailycred.com/admin/settings/billing">stranicu naplate</a> kako bi se spriječilo vaš račun od toga da bude isključen.
+Application.TrialWillEndLong=Vaš bez suđenja s DailyCred završava uskoro na% s. <br><br> Da bi se račun aktivan, molimo posjetite <a href="https://www.dailycred.com/admin/settings/billing">stranicu naplate</a> za pregled <a href="https://www.dailycred.com/pricing">low-cost planova</a> i unos podataka o plaćanju je danas.
+Application.CannotRemoveActiveCard=Ne možete ukloniti svoju aktivnu način naplate. Ako želite otkazati svoj račun support@dailycred.com e-mail s vašim brojem računa.
+Application.StateCheckFailed=Zahtjevu nedostaje parametar stanja. Molimo pokušajte ponovno.
+Application.UnexpectedError=Nažalost, do neočekivane pogreške. Molimo pokušajte ponovno.
+Application.UserAnotherIdentityProvider=Čini se da imate račun koristeći% s. <a href="%s">Kliknite ovdje za povezivanje pomoću% s</a> ili <a href="%s">kliknite ovdje postaviti lozinku</a> .
+Application.APIKeyNotFound=API ključ nije pronađen. Molimo postavite API ključ za ovaj identiteta usluga na Vaše <a href="https://www.dailycred.com/admin/settings">stranice postavki</a> .
+Application.ForeignIDAlreadyRegistered=Nismo mogli povezati taj račun, jer foreignID% s za davatelja% s već je povezana s korisničkim% s..
+Application.TwitterCallbackURLIncorrect=Provjerite svoj <a href="https://dev.twitter.com/apps">​​Twitter aplikacije postavke</a> . Tvoje prijave URL povratni poziv ne može biti prazan. (To može biti bilo koji valjani URL.)
+Application.ThankYouForSigningUp=Hvala prijave za% s!
+Application.ThankYouForSigningUpNoClient=Hvala vam za upis!
+Application.CannotDeleteLastApp=Ne može se izbrisati: vaš račun mora imati barem jednu aplikaciju.
+Application.CouldNotSendEmail=Ispričavamo se, došlo je do problema prilikom slanja taj e-mail. Molimo pokušajte ponovo poslije.
+Application.EmailVerificationRequiredSignUp=Morate ovjeriti vašu e-mail prije prijave. Molimo provjerite e-poštu za daljnje upute.
+Application.EmailVerificationRequiredSignIn=Morate ovjeriti vašu e-mail prije potpisivanja u. Molimo provjerite e-poštu za daljnje upute.
+Application.Blocked=Nažalost, vi ste bili blokirani od strane administratora.
+
+=
+template.authorize.passwordStrength.0=Vrlo Slab
+template.authorize.passwordStrength.1=Slab
+template.authorize.passwordStrength.2=Svakojako
+template.authorize.passwordStrength.3=Dobro
+template.authorize.passwordStrength.4=Sjajno!

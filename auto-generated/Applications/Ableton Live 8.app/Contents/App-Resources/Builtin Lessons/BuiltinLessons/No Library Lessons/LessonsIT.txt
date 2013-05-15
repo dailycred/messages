@@ -1,0 +1,14 @@
+$Page Libreria Non Trovata
+$TargetName Library Not Found
+
+-> La tua libreria si trova su un hard disk esterno che non è connesso?
+
+-> Hai rinominato, spostato o cancellato la cartella della tua Libreria?
+
+-> Hai eliminato il file delle Preferenze di Live?
+
+In questi casi puoi impostare il percorso della tua Libreria $Link cliccando qui <Pref:FileFolder> per aprire la scheda Library delle Preferenze di Live e usando il pulsante /Cambia Locazione/ che trovi nella sezione Locazione della Libreria:
+LibraryLocation.tif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

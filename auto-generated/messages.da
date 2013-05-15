@@ -1,0 +1,86 @@
+Application.NoSuchClient=Ingen klient findes for id% s.
+Application.NoSuchApp=Ingen app findes for id% s.
+Application.NoClientProvided=Giv din klient-id med din anmodning.
+Application.NoRedirectProvided=Giv en omdirigering med din OAuth anmodning. <br/> <b>Udviklere:</b> give din tilbagekald uri med parameteren <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> eller ved at sætte en standard tilbagekald i <a href="https://www.dailycred.com/admin/setup">dine kontoindstillinger</a> .
+Application.EnterEmailOrUsername=Indtast venligst din email eller brugernavn.
+Application.EnterEmail=Indtast din e-mail.
+Application.EnterUsername=Indtast dit brugernavn.
+Application.EnterPassword=Indtast din adgangskode.
+Application.AtNotAllowed=Symbolet &quot;@&quot; kan ikke bruges i dit brugernavn.
+Application.WrongPasswordOrUsername=Tjek venligst dit brugernavn og din adgangskode og prøv igen. <a href="%s">at nulstille din adgangskode klik her.</a>
+Application.BadDomain=Domænet &quot;% s&quot; er ikke gyldig.
+Application.BadEmail=Du kontrollere, at din e-mail blev indtastet korrekt, og prøv igen.
+Application.BadNewEmail=Du kontrollere, at din nye e-mail blev indtastet korrekt, og prøv igen.
+Application.PasswordTooShort=Indtast en adgangskode med mindst% d tegn.
+Application.NoCallbackUri=% S har ikke fastsat en tilbagekald URI endnu. Prøv venligst igen senere.
+Application.EmailTaken=Denne e-mail er allerede i brug.
+Application.UsernameTaken=Dette brugernavn er allerede taget. Brug venligst et andet brugernavn.
+Application.EmailSent=En e-mail er blevet sendt. Tjek venligst din e-mail for yderligere anvisninger.
+Application.EmailSentGmail=En e-mail er blevet sendt. <a href="http://mail.google.com/">Tjek venligst din Gmail for yderligere instruktioner.</a>
+Application.GoToGmail=Gå til din Gmail-indbakke
+Application.EmailSentYahoo=En e-mail er blevet sendt. <a href="http://mail.yahoo.com/">Tjek venligst din Yahoo! mail for yderligere anvisninger.</a>
+Application.GoToYahoo=Gå til din Yahoo indbakke
+Application.EmailSentHotmail=En e-mail er blevet sendt. <a href="http://www.hotmail.com/">Tjek venligst din hotmail for yderligere instruktioner.</a>
+Application.GoToHotmail=Gå til din Hotmail-indbakke
+Application.EmailSentICloud=En e-mail er blevet sendt. <a href="https://www.icloud.com/#mail">Tjek venligst din iCloud Mail for yderligere instruktioner.</a>
+Application.GoToICloud=Gå til din iCloud indbakke
+Application.NoSuchEmail=Ingen bruger eksisterer for email% s.
+Application.NoSuchUser=Ingen bruger eksisterer for id% s.
+Application.NoSuchUserFriendly=Vi kunne ikke finde en brugerkonto til denne e-mail eller brugernavn. Prøv igen.
+Application.NoSuchToken=Der opstod en fejl underskrive dig ind på din konto. Prøv igen om lidt.
+Application.PasswordResetInvalid=Denne anmodning om nulstilling er ugyldigt eller ikke fundet. Prøv venligst nulstille din adgangskode igen.
+Application.PasswordUpdated=Dit password er blevet opdateret.
+Application.APIWrongPassword=Tjek venligst din adgangskode, og prøv igen.
+Application.APIError=En uventet fejl opstod. Prøv igen.
+Application.APIBadToken=Ugyldig OAuth adgang token.
+Application.APINoToken=En aktiv adgangstoken skal bruges til at forespørge information om den aktuelle bruger.
+Application.APIBadCode=Ugyldig OAuth kode.
+Application.TimeOut=Det synes at tage for lang tid. Prøv igen om lidt.
+Application.BadURL=Dette er ikke en gyldig webadresse. Dette felt skal være en fuldstændig, ikke-relativ URL, ligesom https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Dette felt har en maksimal længde på 200 tegn. Brug venligst noget kortere.
+Application.NoStripeKey=Ingen Stripe API-nøgle blev fundet. Skal du indstille din Stripe API-nøgle på din <a href="https://dailycred.com/admin/setup">opsætning</a> siden.
+Application.OAuthCallBackNotInDomain=Den angivne redirect_uri ikke er godkendt af denne kundes kontoindstillinger.
+Application.CNameNotValidDomain=Den angivne CNAME synes ikke at være et gyldigt domæne.
+Application.Required=Dette er et påkrævet felt.
+Application.LogoFileTooLarge=Filen overskrider størrelse grænse.
+Application.LogoFileIsNotImage=Filtypen er ikke gyldig. Kun PNG, JPG og GIF er tilladt.
+Application.NoClientSecret=Du skal angive en client_secret parameter med dit Dailycred hemmelige nøgle.
+Application.InvalidClientSecret=Dette er en ugyldig Dailycred hemmelige nøgle.
+Application.MissingRequiredFields=Det ser ud som du mangler et par obligatoriske felter. Gå til din <a href="/admin/setup">opsætning</a> side for at få oprettet.
+Application.CouldNotUnsubscribe=Vi beklager, på grund af en teknisk fejl, vi ikke kunne afmelde dig direkte fra dette link. Prøv igen, eller <a href="mailto:support@dailycred.com">kontakt os direkte</a> for at blive fjernet.
+Application.Unsubscribed=Du har været afmelde dig. Vi er kede af at se dig gå!
+Application.Subscribed=Du er blevet fuldtegnet. Thanks!
+Application.CouldNotSubscribe=Vi beklager, på grund af en teknisk fejl, vi ikke kunne tilmelde dig direkte fra dette link. Prøv igen, eller <a href="mailto:support@dailycred.com">kontakt os direkte</a> for at blive tilføjet.
+Application.AdminsCantUnsubscribe=Indrømmer ikke kan afmelde fra deres egen konto.
+Application.EmailIsSame=Den nye e-mail er den samme som din aktuelle e-mail.
+Application.EmailOnlyUserNotAllowed=Denne app understøtter ikke e-mail kun brugere.
+Application.EmailChangeSuccess=Din e-mail er blevet ændret til% s. Venligst se efter bekræftelse e-mail og bekræfte din nye adresse.
+Application.EmailVerifySuccess=Den e-mail% s er blevet bekræftet.
+Application.PostOnly=Denne anmodning skal ske ved hjælp af en <b>HTTP POST anmodning.</b> <br/><br/> Hvis du lige tjekker ud API, foreslår vi at bruge cURL eller <a target="_blank" href="http://hurl.it/">kyle</a> .
+Application.StripeTrialEnd=En <a href="https://www.dailycred.com/admin/user/%s">bruger</a> har en retssag, der er ved at ende. Denne e-mail var forårsaget af en stribe webhook.
+Application.StripePaymentSucceeded=En <a href="https://www.dailycred.com/admin/user/%s">bruger</a> med succes blev opkrævet. Denne e-mail var forårsaget af en stribe webhook.
+Application.StripePaymentFailed=En <a href="https://www.dailycred.com/admin/user/%s">bruger</a> blev held opkrævet. Denne e-mail var forårsaget af en stribe webhook.
+Application.BillingError=Noget gik galt, når de forsøger at sætte dine faktureringsoplysninger. Prøv venligst igen øjeblik.
+Application.TrialWillEnd=Din gratis prøveperiode med Dailycred er ved at ende på% s. Besøg din <a href="https://www.dailycred.com/admin/settings/billing">fakturering side</a> for at forhindre din konto fra at blive deaktiveret.
+Application.TrialWillEndLong=Din gratis prøveversion med DailyCred ender snart på% s. <br><br> For at holde kontoen aktiv, kan du besøge din <a href="https://www.dailycred.com/admin/settings/billing">fakturering side</a> til at gennemgå de <a href="https://www.dailycred.com/pricing">lavpris-planer</a> og indtast betalingsoplysninger dag.
+Application.CannotRemoveActiveCard=Du kan ikke fjerne din aktive fakturering metode. Hvis du ønsker at annullere din konto email support@dailycred.com med dit kontonummer.
+Application.StateCheckFailed=Anmodningen mangler staten parameter. Prøv igen.
+Application.UnexpectedError=Beklager, en uventet fejl opstod. Prøv igen.
+Application.UserAnotherIdentityProvider=Det ser du har en konto ved hjælp af% s. <a href="%s">Klik her for at oprette forbindelse ved hjælp% s</a> eller <a href="%s">klik her for at angive en adgangskode</a> .
+Application.APIKeyNotFound=API-nøgle ikke fundet. Sæt venligst en API-nøgle for denne identitet udbyder på din <a href="https://www.dailycred.com/admin/settings">indstillinger</a> .
+Application.ForeignIDAlreadyRegistered=Vi kunne ikke linke denne konto, fordi foreignID% s for udbyder% s allerede er forbundet med bruger% s.
+Application.TwitterCallbackURLIncorrect=Tjek din <a href="https://dev.twitter.com/apps">Twitter programmets indstillinger</a> . Din App callback URL kan ikke være tom. (Det kan være ethvert gyldigt URL).
+Application.ThankYouForSigningUp=Tak for din tilmelding til% s!
+Application.ThankYouForSigningUpNoClient=Tak for din tilmelding!
+Application.CannotDeleteLastApp=Kan ikke slette: din konto skal have mindst én App.
+Application.CouldNotSendEmail=Vi beklager, der var et problem at sende denne e-mail. Prøv igen om lidt.
+Application.EmailVerificationRequiredSignUp=Du skal bekræfte din e-mail før du tilmelder dig. Tjek venligst din e-mail for yderligere anvisninger.
+Application.EmailVerificationRequiredSignIn=Du skal bekræfte din e-mail, før du tilmelder i. Tjek din e-mail for yderligere instruktioner.
+Application.Blocked=Vi beklager, men har du været blokeret af en administrator.
+
+=
+template.authorize.passwordStrength.0=Meget svag
+template.authorize.passwordStrength.1=Svag
+template.authorize.passwordStrength.2=So-so
+template.authorize.passwordStrength.3=Godt
+template.authorize.passwordStrength.4=Great!

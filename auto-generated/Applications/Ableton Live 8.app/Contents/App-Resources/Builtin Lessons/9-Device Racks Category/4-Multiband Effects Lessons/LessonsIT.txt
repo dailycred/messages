@@ -1,0 +1,91 @@
+$Page Effetti Multibanda
+$TargetName Multiband Effects
+$ListInTocForProduct 00
+
+Comprendere il principio del flusso del segnale all'interno delle /catene di dispositivi/ è un passo importante verso l'utilizzo creativo ed efficace dei Rack. In questa lezione apprenderai a costruire dispositivi di effetti multibanda, utilizzando gli EQ per dividere in catene separate le componenti di frequenza di un segnale audio.
+
+Divider.tif
+*Questa lezione è accompagnata da un Live Set col quale interagirai procedendo. Quando sei pronto $Link clicca qui <Set:/Sets/Multiband Effects.als> per caricare il Live Set.*
+Divider.tif
+
+
+Una volta caricato il Set, clicca sul pulsante /Pagina succ./ qui sotto per continuare.
+
+$Comment --------------------------------------------------------------------------------
+$Page Identificazione del Problema
+$TargetName Identifying the Problem
+
+Questo Set contiene una clip con un loop di batteria che useremo come materiale sorgente. Clicca sul pulsante Play della clip per avviarla.
+
+Poiché questo è un mixdown (anziché un insieme di tracce con singoli strumenti), normalmente sarebbe molto difficile isolare le singole frequenze al suo interno per processarle. Ad esempio, l'aggiunta di riverbero ai soli acuti sarebbe stata un'operazione facile da eseguire se i vari elementi (tamburi, piatti, etc.) si fossero trovati su tracce separate - ma ora che sono mixati tra loro diventa più complicata. Questa è la situazione tipo che gli ingegneri di mastering devono affrontare: isolare e processare alcune componenti di un file audio mixato indipendentemente dalle altre.
+
+Fortunatamente, i Rack di Live ci permettono di risolvere questo problema facilmente.
+
+$Comment --------------------------------------------------------------------------------
+$Page Allestimento del nostro Rack
+$TargetName Building our Rack
+
+Per iniziare ad allestire il nostro Rack, apri il /Browser dei Dispositivi/ di Live, cliccandone il pulsante nell'area dei Browser.
+DeviceBrowserButton.tif
+
+Apri la cartella /Audio Effects/ e inserisci un /Audio Effect Rack/ con un *doppio clic* o trascinandolo in una traccia.
+AudioEffectRack.tif
+
+Ora aggiungiamo le nostre catene di dispositivi. Ci servirà una catena per ogni banda di frequenza che ci piacerebbe controllare in modo indipendente. Per questa lezione proviamo a lavorare con tre bande. Prima di tutto visualizza /l'Elenco delle Catene/ cliccandone il pulsante nel Rack.
+ChainList.tif
+
+Inizia trascinando un effetto /EQ Three/ dal Browser all'Elenco delle Catene per creare la nostra prima catena di dispositivi.
+Chain1.tif
+
+Poi trascina un altro EQ Three nell'Elenco delle Catene per creare la nostra seconda catena.
+Chain2.tif
+
+Nota come il volume diventi subito significativamente più alto. Questo è dovuto al fatto che entrambe le catene stanno processando indipendentemente l'audio d'ingresso. Poiché non abbiamo ancora eseguito alcuna regolazione dei nostri EQ, niente sta attenuando il livello d'uscita complessivo. Prima di aggiungere la nostra terza catena, abbassa un po' il volume della traccia o dell'uscita Master.
+
+Ora trascina un terzo EQ Three nell'Elenco delle Catene per creare la nostra ultima catena. A questo punto abbiamo un Rack che non sta facendo altro che rendere il nostro segnale troppo forte. Per renderlo utile, regoleremo i parametri del dispositivo EQ di ogni catena in modo che ciascuno di essi lasci passare solo una determinata gamma di frequenze.
+
+$Comment -------------------------------------------------------------------------------
+$Page Regolazione dei Parametri
+$TargetName Adjusting the Parameters
+
+Rinominiamo le nostre catene in modo da tener traccia più facilmente del nostro lavoro. Per farlo, clicca sulla voce di ciascuna catena nell'Elenco delle Catene e premi *$CommandMod-R* oppure *cliccala destro* per richiamarne il menu di contesto. Chiama le catene *Low,* *Mid* e *High.*
+RenamedChains.tif
+
+Ora regoliamo l'EQ di ciascuna catena. Clicca sulla catena *Low* per selezionarla, quindi disattiva le bande *M* e *H* del suo EQ, lasciando abilitata solo la banda *L.*
+LowEQParameters.tif
+
+Ripeti questo processo nelle altre due catene, abilitando solo la banda *M* nella catena *Mid* e solo la banda *H* nella catena *High.* Prova i controlli di crossover *FreqLow* and *FreqHigh* di ogni EQ, nonché i selettori *24 dB/48 dB* per ottimizzare la risposta in frequenza di ciascuna catena.
+OtherParameters.tif
+
+Mettendo in Solo le catene puoi aiutarti a sentire meglio gli effetti delle tue modifiche.
+SoloButtons.tif
+
+$Comment -------------------------------------------------------------------------------
+$Page Aggiunta di altri Effetti
+$TargetName Adding more Effects
+Ora che ogni catena è responsabile di una sola componente di frequenza, puoi aggiungere degli effetti dopo gli EQ per consentire ulteriori processamenti, specifici per ogni catena. Ad esempio, proviamo ad aggiungere un effetto /Reverb/ alla catena *High:* come prima cosa, clicca sulla catena nell'Elenco delle Catene per selezionarla; quindi trascina l'effetto Reverb dal Browser dei Dispositivi e rilascialo a destra dell'EQ.
+HiReverb.tif
+
+Fai attenzione a non rilasciare il Reverb a destra della staffa che indica la fine del Rack. Eventuali effetti collocati qui processeranno il mix complessivo del Rack, il che significa che saranno processate tutte le bande di frequenza.
+
+Continua aggiungendo un /Compressor/ alla catena *Low.*
+LowCompressor.tif
+
+Quindi aggiungi un /Ping Pong Delay/ alla catena *Mid.*
+MidPingPong.tif
+
+Una volta aggiunti gli effetti, diventa molto più facile sentire l'isolamento di frequenza di ciascuna catena.
+
+$Comment -------------------------------------------------------------------------------
+$Page Come continuare?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Fai degli esperimenti provando ad aggiungere effetti diversi a ciascuna catena e provando differenti impostazioni dei parametri e degli EQ. Anche piccoli cambiamenti nei punti di crossover possono avere un notevole impatto su come ogni catena isoli determinate frequenze.
+
+-> L'aggiunta di ulteriori EQ a nuove catene può consentirti di avere un controllo ancora più preciso sulle bande di frequenza. Prova ad aggiungere qualche altra catena, magari con /EQ Eights/ per un controllo ancora più raffinato.
+
+-> Aggiungi qualche effetto dopo (o prima) dell'intero Rack per processarne il risultato complessivo.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

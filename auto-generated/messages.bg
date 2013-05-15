@@ -1,0 +1,86 @@
+Application.NoSuchClient=Никой клиент не съществува за самоличност%.
+Application.NoSuchApp=Не ап съществува за самоличност%.
+Application.NoClientProvided=Моля, въведете ID клиент на вашата заявка.
+Application.NoRedirectProvided=Моля, пренасочи с OAuth вашата заявка. <br/> <b>Разработчици:</b> осигури си обаждане URI използва параметъра <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> или чрез задаване на обаждане по подразбиране в <a href="https://www.dailycred.com/admin/setup">настройките на профила си</a> .
+Application.EnterEmailOrUsername=Моля, въведете вашия имейл или потребителско име.
+Application.EnterEmail=Моля, въведете вашия имейл.
+Application.EnterUsername=Моля, въведете потребителското си име.
+Application.EnterPassword=Моля, въведете паролата.
+Application.AtNotAllowed=Символът &quot;@&quot; не може да се използва в потребителското си име.
+Application.WrongPasswordOrUsername=Вашето потребителско име и парола и опитайте отново. <a href="%s">За да възстановите паролата си щракнете тук.</a>
+Application.BadDomain=Домейнът &quot;% S&quot; не е валидно.
+Application.BadEmail=Моля, проверете дали вашия имейл е въведен правилно и опитайте отново.
+Application.BadNewEmail=Моля, проверете дали вашия нов имейл е въведен правилно и опитайте отново.
+Application.PasswordTooShort=Моля, въведете парола с най-малко% D знаци.
+Application.NoCallbackUri=% S не е променил обаждане URI все още. Моля, опитайте отново по-късно.
+Application.EmailTaken=Този имейл е вече в употреба.
+Application.UsernameTaken=Това потребителско име вече е заето. Моля, използвайте различно име.
+Application.EmailSent=Един имейл е изпратен. Моля, проверете електронната си поща за по-нататъшни инструкции.
+Application.EmailSentGmail=Един имейл е изпратен. <a href="http://mail.google.com/">Моля, проверете Gmail за допълнителни инструкции.</a>
+Application.GoToGmail=Отидете до вашата пощенска кутия Gmail
+Application.EmailSentYahoo=Един имейл е изпратен. <a href="http://mail.yahoo.com/">Моля, проверете Email Yahoo! за допълнителни инструкции.</a>
+Application.GoToYahoo=Върви си в Yahoo пощенска кутия
+Application.EmailSentHotmail=Един имейл е изпратен. <a href="http://www.hotmail.com/">Моля, проверете Hotmail за допълнителни инструкции.</a>
+Application.GoToHotmail=Върви си в Hotmail пощенската кутия
+Application.EmailSentICloud=Един имейл е изпратен. <a href="https://www.icloud.com/#mail">Моля, проверете iCloud Mail за допълнителни инструкции.</a>
+Application.GoToICloud=Върви си в iCloud пощенска кутия
+Application.NoSuchEmail=Нито един потребител не съществува за имейл% S.
+Application.NoSuchUser=Нито един потребител не съществува за самоличност%.
+Application.NoSuchUserFriendly=Не успяхме да открием потребителски акаунт за този имейл или потребителско име. Моля, опитайте отново.
+Application.NoSuchToken=Имаше грешка ли да влезете в профила си. Моля, опитайте отново след малко.
+Application.PasswordResetInvalid=Това искане за възстановяване на паролата е невалидна или не е открита. Моля, опитайте да зададете повторно паролата отново.
+Application.PasswordUpdated=Паролата ви е актуализиран.
+Application.APIWrongPassword=Моля, проверете паролата си и опитайте отново.
+Application.APIError=Възникна неочаквана грешка. Моля, опитайте отново.
+Application.APIBadToken=Невалиден достъп OAuth знак.
+Application.APINoToken=Активно токена за достъп трябва да се използват за заявки информация за текущия потребител.
+Application.APIBadCode=Невалиден код OAuth.
+Application.TimeOut=Това изглежда да се взема прекалено дълго. Моля, опитайте отново след малко.
+Application.BadURL=Това не е валиден URL. Това поле трябва да бъде пълна, без относителен URL, като https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Това поле е с максимална дължина от 200 знака. Моля, използвайте нещо по-кратко.
+Application.NoStripeKey=Не Stripe API Key е намерен. Моля, задайте ключа API Stripe на ваше <a href="https://dailycred.com/admin/setup">настройка</a> страница.
+Application.OAuthCallBackNotInDomain=Предоставената redirect_uri не е одобрена от това клиента настройките на профила.
+Application.CNameNotValidDomain=Предоставената CNAME не изглежда да е валиден домейн.
+Application.Required=Това поле е задължително.
+Application.LogoFileTooLarge=Файлът надвишава лимита.
+Application.LogoFileIsNotImage=Типът на файла не е валиден. Само PNG, JPG и GIF право.
+Application.NoClientSecret=Трябва да посочите client_secret параметър, съдържащ вашата Dailycred секретен ключ.
+Application.InvalidClientSecret=Това е невалиден Dailycred секретен ключ.
+Application.MissingRequiredFields=Изглежда, че липсват няколко задължителни полета. Моля, отидете на <a href="/admin/setup">Setup</a> страницата, за да създаде.
+Application.CouldNotUnsubscribe=За съжаление, поради техническа грешка не можахме да се отпишете директно от този линк. Моля, опитайте отново или <a href="mailto:support@dailycred.com">се свържете с нас директно</a> да бъдат премахнати.
+Application.Unsubscribed=Вие сте били отпишете. Съжаляваме, че се отказвате!
+Application.Subscribed=Вие сте били регистрирани. Благодаря!
+Application.CouldNotSubscribe=За съжаление, поради техническа грешка не бихме могли да се абонирате директно от този линк. Моля, опитайте отново или <a href="mailto:support@dailycred.com">се свържете с нас директно</a> да се добави.
+Application.AdminsCantUnsubscribe=Признава не могат да се откажат от собствената си сметка.
+Application.EmailIsSame=Новата поща е същото като текущата вашия имейл.
+Application.EmailOnlyUserNotAllowed=Това приложение не поддържа имейл само потребителите.
+Application.EmailChangeSuccess=Вашият имейл е променено на% S. Моля, търся имейла за потвърждение и потвърдите новия си адрес.
+Application.EmailVerifySuccess=Имейл S% е била проверена.
+Application.PostOnly=Това искане трябва да бъде направено като се използва <b>HTTP POST заявка.</b> <br/><br/> Ако сте само проверка на API, ние препоръчваме да използвате Curl или <a target="_blank" href="http://hurl.it/">хвърлят</a> .
+Application.StripeTrialEnd=A <a href="https://www.dailycred.com/admin/user/%s">потребител</a> има процес, който е на път да приключи. Този имейл е бил причинен от webhook Stripe.
+Application.StripePaymentSucceeded=A <a href="https://www.dailycred.com/admin/user/%s">потребителя</a> беше успешно заредена. Този имейл е бил причинен от webhook Stripe.
+Application.StripePaymentFailed=A <a href="https://www.dailycred.com/admin/user/%s">потребителя</a> неуспешно се изисква. Този имейл е бил причинен от webhook Stripe.
+Application.BillingError=Нещо се обърка, когато се опитват да определят своята платежна информация. Моля, опитайте отново по-кратко.
+Application.TrialWillEnd=Вашият безплатен пробен период с Dailycred е на път да завърши на% S. Моля, посетете вашия <a href="https://www.dailycred.com/admin/settings/billing">страница фактуриране</a> за предотвратяване на профила си да бъде деактивирана.
+Application.TrialWillEndLong=Вашият безплатен пробен период с DailyCred завърши скоро на% S. <br><br> За да запазите профила си активен, моля, посетете <a href="https://www.dailycred.com/admin/settings/billing">страницата за фактуриране</a> за преглед на <a href="https://www.dailycred.com/pricing">нискотарифни планове</a> и въведете данни за плащане днес.
+Application.CannotRemoveActiveCard=Вие не можете да премахнете вашия активен метод за плащане. Ако желаете да се откажете от support@dailycred.com имейл акаунт с номера на сметката си.
+Application.StateCheckFailed=Искането липсва държавата параметър. Моля, опитайте отново.
+Application.UnexpectedError=Съжаляваме, но е неочаквана грешка. Моля, опитайте отново.
+Application.UserAnotherIdentityProvider=Изглежда имате акаунт използвате% S. <a href="%s">Кликнете тук, за да се свържете, като използвате% S</a> или <a href="%s">кликнете тук, за да зададете парола</a> .
+Application.APIKeyNotFound=API ключ не е намерен. Моля, задайте на API ключ за тази идентичност доставчик на вашия <a href="https://www.dailycred.com/admin/settings">страницата с настройки</a> .
+Application.ForeignIDAlreadyRegistered=Ние не може да се свърже този профил, защото foreignID% и за доставчика на% вече е свързан с S потребител%.
+Application.TwitterCallbackURLIncorrect=Проверете <a href="https://dev.twitter.com/apps">настройките Twitter приложения на</a> . Обаждане URL Вашият App не може да бъде празно. (Това може да бъде всеки валиден URL.)
+Application.ThankYouForSigningUp=Благодаря ви за записването за% S!
+Application.ThankYouForSigningUpNoClient=Благодаря ви за записването!
+Application.CannotDeleteLastApp=Не може да се изтрие: Вашата сметка трябва да има поне един App.
+Application.CouldNotSendEmail=За съжаление, има проблем с изпращането, че електронната поща. Моля, опитайте отново след малко.
+Application.EmailVerificationRequiredSignUp=Трябва да потвърдите имейл преди да се регистрираш. Моля, проверете електронната си поща за по-нататъшни инструкции.
+Application.EmailVerificationRequiredSignIn=Трябва да потвърдите имейл, преди да подпише инча Моля, проверете електронната си поща за по-нататъшни инструкции.
+Application.Blocked=Настъпи грешка, те са блокирани от администратор.
+
+=
+template.authorize.passwordStrength.0=Много слаб
+template.authorize.passwordStrength.1=Слаб
+template.authorize.passwordStrength.2=Горе-долу
+template.authorize.passwordStrength.3=Добър
+template.authorize.passwordStrength.4=Great!

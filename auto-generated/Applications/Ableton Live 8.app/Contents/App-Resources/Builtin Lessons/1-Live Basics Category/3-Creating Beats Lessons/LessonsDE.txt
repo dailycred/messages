@@ -1,0 +1,155 @@
+$Page Beats erzeugen
+$TargetName Creating Beats
+
+Dieser Kurs wird Ihnen zeigen, wie Sie mit $0 Drum-Patterns aufnehmen, einzeichnen und bearbeiten.
+
+Dieser Kurs ist auch als Film verfügbar. Klicken Sie $Link hier, <http://www.ableton.com/_common/downloads/movies/creating_beats.mov> um den Film von der Ableton-Webseite abzuspielen.
+
+Wir wollen bei Null beginnen, drücken Sie also bitte $CommandMod + N, um ein neues Live Set zu erzeugen.
+
+Wir werden das in $0 integrierte Instrument /Impulse/ verwenden. Impulse ist unter den Geräten im /Geräte-Browser/ zu finden, der links oben im Fenster zu sehen ist.
+SessionFullBrowser.tif
+
+Klicken Sie bitte auf den /Wahlschalter/ des Geräte-Browsers, um ihn anzuzeigen. Mit Doppelklick auf den Wahlschalter können Sie alle geöffneten Ordner schließen, um einen besseren Überblick über die hier abgelegten Dateien zu erhalten.
+DeviceBrowserButton.tif
+
+Drücken Sie bitte auf /Nächste Seite/ um fortzufahren.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Impulse laden
+$TargetName Loading Impulse
+
+Impulse befindet sich im Ordner /Instruments/. Wenn Sie den Ordner von Impulse öffnen, finden sie eine Auswahl mit Drum-Kit-Presets, die als /Instrumenten-Racks/ gespeichert worden sind. Diese Racks kombinieren jeweils das Impulse-Instrument mit verschiedenen Audio-Effekten von Live.
+
+Wählen Sie ein Preset aus, das Sie interessiert (In unserem Fall passt "Backbeat Room" ganz gut).
+ImpulsePresetBackbeatRoom.tif
+
+Klicken Sie auf das Preset und ziehen Sie es nach rechts in die Spur mit dem Namen "2 MIDI." Beachten Sie, dass der Mauszeiger anzeigt, dass das Instrument hier abgelegt werden kann.
+MIDITrackHighlight.tif
+
+Nach dem Loslassen der Maustaste ändert sich der Name der Spur automatisch zu "2 Backbeat Room". Außerdem erscheint das Preset nun unten im Fenster:
+ImpulseTrackView.tif
+
+/Tipp:/ Sie können das Impulse-Preset auch auf der "leeren" Fläche rechts neben den Spuren fallenlassen und $0 dadurch eine neue Spur für das Instrument erzeugen lassen.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Impulse spielen
+$TargetName Playing Impulse
+
+Als wir das Impulse-Preset in die MIDI-Spur geladen haben, wurde der /Schalter für die Aufnahmebereitschaft/ der Spur automatisch aktiviert. Dies ermöglicht der Spur, auf empfangene MIDI-Daten zu reagieren:
+ArmButton.tif
+
+Wenn Sie eine MIDI-Tastatur an Ihren Rechner angeschlossen haben, sollten die weißen Tasten in der Oktave von C3 bis C4 nun Impulse spielen.
+
+Wenn Ihnen keine MIDI-Tastatur zur Verfügung steht, können Sie stattdessen die Rechnertastatur verwenden. Stellen Sie dazu bitte sicher, dass der /Schalter für die MIDI-Rechnertastatur/ in der rechten oberen Ecke des Fensters aktiviert ist.
+ComputerMIDIKeyboard.tif
+
+Die Tasten in der mittleren Reihe der Tastatur (ASDF...) sprechen standardmäßig die Drum-Instrumente von Impulse an. Empfängt ein Instrumenten-Slot eine Note, leuchtet er auf und Sie hören den entsprechenden Sound.
+
+Divider.tif
+*Fehlerbehebung:* Falls Sie bei der Einrichtung Ihres MIDI-Keyboards für die Arbeit mit Live Hilfe benötigen, lesen Sie bitte den Kurs $Link MIDI-Hardware anschließen <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+
+Sie können auch die Rechnertastatur zum Senden von MIDI verwenden. Nähere Informationen hierzu erhalten Sie im Abschnitt "MIDI mit der Rechnertastatur erzeugen" im Kapitel "Eingänge/Ausgänge und Signal-Routing" des Handbuchs.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Ein Pattern aufnehmen
+$TargetName Recording a Pattern
+
+Nehmen wir nun ein Drum-Pattern auf. Das neue Pattern soll in einem eigenen neuen Clip entstehen – doppelklicken Sie in dem Track, der Impulse enthält, in einen leeren Session-Slot (seien Sie vorsichtig, um dabei keinen der runden Aufnahmeschalter links neben den Clips zu betätigen).
+EmptySessionSlot.tif
+
+Wir haben nun einen leeren MIDI-Clip erzeugt, in den wir aufnehmen können.
+
+Wahrscheinlich möchten Sie jetzt auch das /Metronom/ einschalten - es sei denn Sie haben eigenes Material, mit dem Sie den Takt halten können:
+MetronomeSwitch.tif
+
+Sie können auch die Optionen /Quantisierung bei Aufnahme/ aus dem Bearbeiten-Menü nutzen, um Ihr Spiel automatisch auf metrische Werte zu quantisieren. Sollten Sie es bevorzugen, nach Ihrem eigenen Takt zu spielen, setzen Sie die Option auf /Keine Quantisierung./ Natürlich können Sie auch nachträglich quantisieren.
+
+Klicken Sie den Wiedergabetaster des Clips an, um die Aufnahme zu aktivieren:
+ClipRecordButton.tif
+
+Spielen Sie C3 auf Ihrer MIDI-Tastatur oder das A auf der Rechnertastatur. Sie werden den entsprechenden Sound sofort und dann erneut in jedem Takt hören. Jede gespielte Note wird in dem neuen Pattern aufgezeichnet und bei jedem Loop-Durchgang wiederholt.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Nachbessern
+$TargetName Getting it Right
+
+Geben Sie nicht gleich auf, wenn Ihr erstes Pattern nicht ganz Ihren Erwartungen entspricht. Verwenden Sie den Widerrufen-Befehl (drücken Sie $CommandMod-Z), um die im letzten Loop-Durchgang eingespielten Noten wieder zu löschen. Sie können das zu jeder Zeit und beliebig oft tun – falls gewünscht, sogar bis das Pattern wieder leer ist. Achten Sie dabei darauf, wie der /Noten-Editor/ in der Clip-Ansicht die Änderungen widerspiegelt.
+NoteEditor.tif
+
+Um bei laufendem Pattern zu üben, ohne die Noten aufzuzeichnen, deaktivieren Sie den Schalter /Overdub/ im Transportbereich. Aktivieren Sie den Schalter wieder, sobald Sie bereit zum Aufnehmen sind.
+OverdubSwitch.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Noten einzeichnen und bearbeiten
+$TargetName Drawing and Editing Notes
+
+Sie können Patterns nicht nur aufnehmen, sondern auch /einzeichnen./
+
+Stellen Sie sicher, dass der /Zeichen-Modus/ aktiviert ist:
+DrawModeSwitch.tif
+
+Im Zeichen-Modus, erzeugt ein Klick in eine leere Zelle des Noten-Editors dort eine Note; ein Klick auf eine bereits besetzte Zelle löscht diese wieder. Wenn Sie bei gehaltener Maustaste über die Zellen ziehen, löschen oder füllen Sie diese.
+DrawingAcrossGridTiles.tif
+
+Sie können die Rasterweite schnell über das Kontext-Menü ändern: Rufen Sie dieses in einem Bereich des Editors ohne Noten mit $ContextMenu auf und wählen Sie das gewünschte Raster von der "Fixiertes Raster"-Seite.
+GridContextMenu.tif
+
+Bei deaktivierten Zeichen-Modus können Noten durch Mausklicks angewählt werden. Mehrere Noten gleichzeitig werden durch Aufziehen eines Auswahl-Rahmens mit der Maus angewählt. Gruppen von angewählten Noten können dann gemeinsam bearbeitet werden.
+
+Der Befehl /Quantisierungs-Einstellungen.../ aus dem Bearbeiten-Menü öffnet ein Fenster mit Optionen zum Verschieben der gewählten Noten auf die nächstliegende, gewählte metrische Position:
+QuantizeWindow.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Velocitywerte einzeichnen
+$TargetName Drawing Velocities
+
+Das Zeichnen im /Velocity-Editor/ ändert die Velocitywerte (Anschlagsgeschwindigkeit) der Noten. Die Farbe der Noten in der Anzeige korrespondiert mit ihrer Anschlagsgeschwindigkeit: Dunklere Noten haben einen stärkeren Anschlag.
+DrawingVelocities.tif
+
+Wenn Sie die Velocity für einen einzelnen Schlagzeug-Klang ändern möchten, klicken Sie auf die weiße Taste neben dem Namen des Klangs und wählen so alle Noten dieses Klanges aus ...
+SelectAllNotesInAKeytrack.tif
+
+... dann bewegen Sie einen der Velocity-Marker, um die Velocity für alle Noten gleichzeitig zu ändern.
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Mehrtaktige Patterns
+$TargetName Multi-Bar Patterns
+
+Sie können Ihr Muster verlängern, indem Sie die gewünschte Loop-Länge eingeben. Das linke /Length-Feld/ im /Notes-Rähmchen/ bestimmt die Anzahl der Takte für das Muster. Klicken Sie in dieses Feld und geben Sie zum Beispiel "2" ein; drücken Sie dann die Enter/Return-Taste:
+SettingLoopLengthToTwoBars.tif
+
+Sie hören jetzt einen zwei-taktigen Loop mit leerem zweiten Takt. Füllen Sie ihn mit Noten, indem Sie spielen, zeichnen oder kopieren und einfügen.
+
+Um eine Noten-Auswahl zu kopieren, klicken und ziehen Sie ein Gummiband um die zu kopierenden Noten herum auf.
+CopyNotes.tif
+
+Kopieren Sie dann Ihre Auswahl in die Zwischenablage (mit dem entsprechenden Befehl im Bearbeiten-Menü oder mit *$CommandMod + C* ). Klicken Sie in den Noten-Editor, um den /Einfüge-Marker/ an die Stelle zu setzen, an der die kopierten Noten eingefügt werden sollen und wählen den Befehl Einsetzen (im Bearbeiten Menü oder mit *$CommandMod + V*).
+Pasted.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Mehr Möglichkeiten...
+$TargetName Where to Go from Here?
+
+-> Wir empfehlen, alle Live-Kurse durchzuarbeiten. Klicken Sie $Link hier <Lesson:Internal/BuiltinAutoToc>, um alle installierten Kurse zu erreichen.
+
+-> Nachdem Sie nun mit dem Erzeugen von Patterns in $0 vertraut sind, werden Sie wahrscheinlich direkt mehrere erstellen wollen. Sie können eine beliebige Anzahl von leeren MIDI-Clips in der Session-Ansicht erzeugen und in diese aufnehmen. Sie können auch bestehende Clips duplizieren und Variationen eines Pattern erzeugen. Beachten Sie, dass Sie jederzeit per Overdub in ein bestehendes Pattern aufnehmen können.
+
+-> Sie sollten auf jeden Fall auch die mächtigen Möglichkeiten zur Klangformung ausprobieren, die Ihnen Impulse bietet. Wenn Sie dies tun und dabei gleichzeitig mit Ihren Clips arbeiten, werden Sie sicherlich das Tastaturkommando $ShiftMod-Tab zu schätzen wissen. Es schaltet zwischen der /Clip-Ansicht/ (mit dem Noten-Editor) und der /Spur-Ansicht/ (die Impulse anzeigt) um.
+
+-> Sie können mit der für das Erzeugen von Beats vorgestellten Arbeitsweise auch Basslinien, Melodien und Harmonien erzeugen. Ziehen Sie zum Spaß doch mal ein /Simpler-Preset/ aus dem Geräte-Browser in den Track mit dem neuen Clip und hören Sie, was passiert. Sie können mit dem Wiederrufen-Befehl jederzeit zurück.
+
+$If Product 00, 35, 39
+-> Noch mehr kreatives Potenzial bietet Ihnen ein /Drum-Rack/ als Instrument. Drum-Racks verwenden eine erweiterte Variante des Pad-Konzepts von Impulse und bieten eine Vielzahl zusätzlicher Bearbeitungs- und Klanggestaltungs-Möglichkeiten. Mehr Informationen hierzu finden Sie im Kapitel "Instrumente, Drum- und Effekt-Racks."
+$Endif
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

@@ -1,0 +1,101 @@
+$Page Surface de contrôle M-Audio Axiom Pro
+$TargetName M-Audio Axiom Pro Control Surface
+
+$0 étend sa prise en charge des surfaces de contrôle au clavier /Axiom Pro/ de M-Audio. Cette leçon vous aidera à configurer votre Axiom Pro, et vous présentera ses possibilités.
+AxiomPro.tif
+
+Veuillez cliquer sur le bouton /Page suivante/ en bas à droite de cette leçon pour continuer, ou utilisez les liens suivants pour un accès rapide:
+
+-> $Link Configuration de l'Axiom Pro <GotoPage:Setting Up the Axiom Pro>
+-> $Link Bases de l'Axiom Pro <GotoPage:Axiom Pro Basics>
+-> $Link Contrôle de la Session et de l'Arrangement <GotoPage:Controlling the Session and Arrangement>
+-> $Link Contrôle du mélangeur de Live <GotoPage:Controlling Live's Mixer>
+-> $Link Contrôle des périphériques de Live <GotoPage:Controlling Live's Devices>
+
+Pour une introduction générale à l'emploi des surfaces de contrôle avec Live, ainsi qu'une liste des affectations des périphériques de Live sur les surfaces de contrôle, veuillez lire la leçon $Link Référence des surfaces de contrôle <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference>.
+
+$Comment -----------------------------------------------------------------------
+$Page Configuration de l'Axiom Pro
+$TargetName Setting Up the Axiom Pro
+
+D'abord, veuillez vérifier que votre Axiom Pro est branché à votre ordinateur et mis sous tension. Les utilisateurs de Windows qui ne l'ont pas fait avant de lancer $0 devront faire redémarrer $0 avant que l'Axiom Pro puisse être reconnu.
+
+Ouvrez les Préférences de $0 en sélectionnant /Préférences/ dans le menu $0 (MacOS) ou dans le menu "Options" (Windows). Puis sélectionnez l'onglet /MIDI/Sync./
+
+Dans la section du haut, sélectionnez Axiom Pro avec le sélecteur /Surface de contrôle,/ puis définissez les ports d'entrée et de sortie MIDI auxquels il est branché.
+
+Enfin, fermez les Préférences de $0.
+
+$Comment -----------------------------------------------------------------------
+$Page Bases de l'Axiom Pro
+$TargetName Axiom Pro Basics
+
+L'Axiom Pro alterne entre /mode mélangeur/ et /mode périphérique/ en pressant F1.
+
+En mode mélangeur, les 8 commandes rotatives contrôlent une variété de paramètres relatifs au mixage (selon la /page/ actuelle, qui est sélectionnée par les boutons de fonction immédiatement sous l'écran.)
+
+En mode périphérique, les 8 commandes rotatives contrôlent des paramètres du périphérique actuellement sélectionné. Comme en mode mélangeur, vous pouvez utiliser les touches de fonction d'écran pour accéder aux pages supplémentaires en cas de périphériques ayant plus de 8 paramètres.
+
+Les touches F ont toujours les mêmes fonctions, quel que soit le mode:
+
+-> F1: Sélection du mode (mélangeur ou périphérique)
+-> F2: Sélectionne la piste précédente
+-> F3: Sélectionne la piste suivante
+-> F4: Coupe la piste sélectionnée
+-> F5: Met en solo la piste sélectionnée
+-> F6: Active la /banque/ de huit pistes précédente
+-> F7: Active la /banque/ de huit pistes suivante
+
+Les boutons de sélection de piste comprennent aussi toute piste de retour.
+L'écran de l'Axiom Pro s'actualise toujours pour afficher les valeurs des paramètres de piste et de périphérique quand vous les changez dans Live ou sur l'appareil.
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle de la Session et de l'Arrangement
+$TargetName Controlling the Session and Arrangement
+
+Les /boutons de transport/ de l'Axiom Pro contrôlent les fonctions suivante en écran Session et en écran Arrangement:
+
+-> BOUCLE: Déclenche la lecture de Scène (écran Session) | Active le mode boucle (écran Arrangement).
+-> RETOUR RAPIDE: Sélectionne la Scène précédente (écran Session) | Recule d'une mesure (écran Arrangement).
+-> AVANCE RAPIDE: Sélectionne la Scène suivante (écran Session) | Avance d'une mesure (écran Arrangement).
+-> STOP: Stop
+-> LECTURE: Lecture
+-> ENREGISTREMENT: Enregistrement
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle du mélangeur de Live
+$TargetName Controlling Live's Mixer
+
+Selon le modèle Axiom Pro dont vous disposez, les 8 commandes rotatives fonctionneront d'une façon légèrement différente en mode Mélangeur (Mixer). Pour l'Axiom Pro 25, elles contrôlent les paramètres suivants:
+
+-> Page 1: Volume des huit pistes disponibles
+-> Page 2: Panoramique des huit pistes disponibles
+-> Page 3: Niveau de départ (Send) 1 pour les huit pistes disponibles
+-> Page 4: Niveau de départ (Send) 2 pour les huit pistes disponibles
+
+Pour l'Axiom Pro 49 et 61, elles contrôlent:
+
+-> Page 1: Panoramique des huit pistes disponibles
+-> Page 2: Niveau de départ (Send) 1 pour les huit pistes disponibles
+-> Page 3: Niveau de départ (Send) 2 pour les huit pistes disponibles
+-> Page 4: Niveau de départ (Send) 3 pour les huit pistes disponibles
+
+Sur l'Axiom Pro 49 et 61, les curseurs et boutons situés en dessous d'eux contrôlent ce qui suit (aussi bien en mode Mélangeur qu'en mode Périphérique):
+
+-> Curseurs 1-8: Volume des huit pistes disponibles.
+-> Curseur 9: Volume général (Master)
+-> Boutons curseurs 1-8: Sélectionnent, arment, activent ou mettent en solo les huit pistes disponibles.
+-> Bouton curseur 9: Alterne entre les modes sélection, armement, activation et solo. Le mode sélectionné s'affiche brièvement à l'écran.
+
+(Veuillez noter que les curseurs et boutons de curseur ne sont pas disponibles sur l'Axiom Pro 25.)
+
+$Comment -----------------------------------------------------------------------
+$Page Contrôle des périphériques de Live
+$TargetName Controlling Live's Devices
+
+L'Axiom Pro contrôlera le dernier périphérique sélectionné ou celui actuellement actif. Si c'est un Rack, les commandes rotatives piloteront automatiquement les macro-commandes. Si un autre périphérique est sélectionné, les commandes rotatives piloteront les paramètres spécifiques de ce périphérique. Les affectations actuelles des commandes, ainsi que la valeur actuelle des paramètres, s'affichent toujours à l'écran.
+
+Certains périphériques de $0 ont plus de 8 paramètres. Dans ce cas, les paramètres sont divisés en pages qui, comme en mode mélangeur, peuvent être changées via les touches situées immédiatement sous l'écran.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

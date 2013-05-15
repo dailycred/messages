@@ -1,0 +1,13 @@
+$Page Purging Unused Samples 
+$TargetName Purging Unused Samples
+
+$0's File Manager can find the unused samples in a Project for you. You can then review and optionally delete them, individually or all at once.
+
+When searching for "unused" samples, $0 will inspect each sample in a project folder, checking whether it is referenced by any of the Live Sets, Live Clips or device presets in the Project. If not, the sample is regarded as unused - /even if other Projects or programs still use it./
+
+To see the unused samples for the current Project, use the /Show/ buttons for each respective sample category:
+UnusedSamplesSection.tif
+
+$0 will list the unused samples in the File Browser, where you can preview and delete them if you like.
+
+$Comment Status: Translate

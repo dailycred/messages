@@ -1,0 +1,236 @@
+$Page Visite guidée de Live
+$TargetName A Tour of Live
+$If Product 20 - 34, 36 - 38, 3A, 3B, 3D - 3F
+*Bienvenue dans Live Lite!*
+
+*Ableton Live Lite* apporte de nombreuses fonctionnalités d'Ableton Live - la révolutionnaire solution de production musicale aux nombreux prix qui vous permet de spontanément composer, enregistrer, remixer, improviser et éditer vos idées musicales dans un environnement audio/MIDI transparent. Cette édition de Live Lite comprend :
+
+-> Enregistrement 32 bits
+-> Télécommande par MIDI
+-> ...et bien plus encore
+$Endif
+$If Product 2B, 34
+
+(Veuillez suivre $Link cette leçon <Lesson:Builtin/BuiltinLessons/VendorSpecific/TonePort> afin d'apprendre comment configurer $0 pour l'emploi avec votre interface audio *Line 6* .)
+$Endif
+$If Product 35, 3C
+*Bienvenue dans Live 8 Akai Professional APC Edition!*
+
+*Ableton Live 8 Akai Professional APC Edition* apporte de nombreuses fonctionnalités d'Ableton Live - la révolutionnaire solution de production musicale aux nombreux prix qui vous permet de spontanément composer, enregistrer, remixer, improviser et éditer vos idées musicales dans un environnement audio/MIDI transparent. Cette édition de Live comprend :
+
+-> Jusqu'à 16 pistes
+-> Enregistrement 32 bits
+-> Télécommande par MIDI
+-> 20 scènes d'écran Session
+-> ...et bien plus encore
+$Endif
+$If Product 39
+*Bienvenue dans Live 8 Launchpad Edition!*
+
+*Ableton Live 8 Launchpad Edition* apporte de nombreuses fonctionnalités d'Ableton Live - la révolutionnaire solution de production musicale aux nombreux prix qui vous permet de spontanément composer, enregistrer, remixer, improviser et éditer vos idées musicales dans un environnement audio/MIDI transparent. Cette édition de Live comprend :
+
+-> Jusqu'à 16 pistes
+-> Enregistrement 32 bits
+-> Télécommande par MIDI
+-> 8 scènes d'écran Session
+-> ...et bien plus encore
+$Endif
+$Comment -----------------------------------------------------------------------
+$If Product 00
+*Bienvenue dans $0!*
+$Endif
+$Comment -----------------------------------------------------------------------
+$If Product 03
+*Bienvenue dans Live Intro!*
+$Endif
+
+Cette leçon a pour but de vous aider à prendre en main le programme. Plutôt que de couvrir l'ensemble de fonctions de $0 dans sa totalité, nous vous présenterons quelques termes de base et vous ferons faire un tour dans l'environnement de travail de $0.
+
+Une introduction complète aux concepts qui sous-tendent $0 est fournie dans le chapitre "Concepts de Live" du manuel de référence. Le manuel de référence est accessible via le menu /Aide./
+
+Pour les besoins de ce didacticiel, veuillez suivre les étapes décrites avant tout changement de réglage.
+
+Si quelque chose d'inattendu se produit, ne vous inquiétez pas, car vous pouvez toujours choisir /Annuler/ dans le menu /Edition/ ou employer le raccourci $CommandMod-Z. Si vous vous perdez en route, rechargez simplement la leçon et recommencez.
+
+Cette leçon a aussi été réalisée en vidéo. Cliquez $Link ici <http://www.ableton.com/_common/downloads/movies/tour_of_live.mov> pour lancer la vidéo depuis le site internet Ableton.
+
+Divider.tif
+*Les documents de $0 s'appellent des Sets Live. Cette leçon est accompagnée d'un Set Live avec lequel vous interagirez en suivant la leçon. Quand vous êtes prêt, veuillez cliquer $Link ici <Set:/Sets/Tour of Live Demo.als> pour charger le Set Live.*
+Divider.tif
+
+
+Veuillez cliquer ci-dessous sur /Page suivante/ pour continuer.
+
+$Comment -----------------------------------------------------------------------
+$Page Faire jouer l'Arrangement de démo
+$TargetName Playing the Demo Arrangement
+
+Voici /l'écran Arrangement/ de $0 :
+Arrangement.tif
+
+L'écran Arrangement est l'environnement d'enregistrement et d'édition multipiste de $0. Si vous avez déjà utilisé auparavant un autre logiciel d'enregistrement multipiste, cet affichage vous semblera vraisemblablement très familier - le temps est représenté horizontalement tandis que les pistes sont empilées verticalement.
+
+Pour écouter l'arrangement, veuillez presser la barre d'espace du clavier de votre ordinateur. /Vous pouvez toujours employer la barre d'espace pour faire alterner lecture et arrêt./
+
+Ecoutez le morceau suffisamment longtemps pour que le défilement de l'Arrangement commence. Pour ramener l'affichage en arrière ou en avant, ou pour zoomer dedans, attrapez la /règle temporelle/ avec la souris, et tirez à gauche, à droite, en haut ou en bas.
+BeatTimeRuler.tif
+
+Les mouvements de souris verticaux permettent de zoomer en écran Arrangement; les mouvements horizontaux font défiler à gauche et à droite. /Cela fonctionne sur toute règle temporelle dans n'importe quel affichage de $0./
+
+
+$Comment -----------------------------------------------------------------------
+$Page L'écran Session
+$TargetName The Session View
+
+En plus de la vue familière de l'axe chronologique ou "timeline" dans l'Arrangement, $0 offre une autre façon de travailler, appelée /écran Session./ Il est représenté ci-dessous :
+Session.tif
+
+Pour aller et venir entre écran Session et écran Arrangement, pressez la touche Tab du clavier de votre ordinateur.
+
+L'écran Session offre une approche de la création musicale par improvisation, vous permettant d'enregistrer, de jouer et de combiner des idées /à la volée./ Cet outil est tout aussi utile à l'écriture de morceaux qu'à un boeuf (seul ou avec d'autres musiciens) ou au DJing. Vos transitions restent toujours calées sur la cadence musicale, même en cas de changement de tempo et de groove.
+
+Regardons maintenant comment la musique est organisée en écran Session.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Scènes
+$TargetName Scenes
+
+Les rangées horizontales de l'écran Session se nomment /scènes./ Dans cette configuration, chaque scène représente une section de morceau, comme une intro, un couplet, un chorus, etc.
+
+Veuillez cliquer sur le /Bouton de lancement de scène/ triangulaire du côté droit de la scène du haut, comme représenté ci-dessous.
+SceneLaunchButton.tif
+
+La scène "A" commencera à jouer :
+SessionViewScene.tif
+
+Elle continuera de jouer jusqu'à ce que vous lanciez une autre scène. Veuillez essayer de lancer les scènes "B" et "B2" pour passer en revue les sections du morceau, ou réarrangez les parties du morceau à la volée en lançant les scènes dans n'importe quel autre ordre.
+
+Divider.tif
+*Contrairement à un morceau arrangé linéairement, chaque section peut jouer aussi longtemps que vous le voulez et dans n'importe quel ordre.*
+
+
+$Comment -----------------------------------------------------------------------
+$Page Faire jouer les clips
+$TargetName Playing Clips
+
+Chaque scène est constituée de parties plus petites, nommées /clips./  Les clips sont simplement des conteneurs de données audio ou MIDI qui vous permettent de pousser encore plus loin la composition non linéaire en vous affranchissant des scènes et en essayant des variations. Par exemple, lancez à nouveau la scène "A" en premier :
+ASceneAgain.tif
+
+Essayons de combiner une ligne de basse d'une autre partie de morceau avec les clips de "A". Cliquez sur le /bouton de lecture/ du clip "Bass" dans la scène "B", comme représenté :
+ClipVariationOnScene.tif
+
+Maintenant, vous pouvez essayer de combiner différents clips de parties de morceau différentes. Tout clip ou scène lancé restera synchronisé sur le tempo du Set. Et par défaut, tous les clips ne démarrent que sur le temps fort suivant le moment auquel ils sont déclenchés.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Arrêter les clips
+$TargetName Stopping Clips
+
+Notez que lancer un clip stoppe la lecture du clip précédemment joué dans la même colonne. Les colonnes verticales en écran Session représentent les /pistes,/ et une piste ne peut jouer qu'un clip à la fois. Par conséquent, on place en général les variations d'un clip sur une même piste.
+
+Si vous voulez stopper un clip sans en déclencher un autre, vous pouvez employer n'importe quel bouton /Stop de clip/ dans la même piste. Ces boutons carrés apparaissent par défaut dans tout slot de clip vide :
+ClipStopButtonsInTracks.tif
+
+Toutefois, dans certains cas - comme dans les pistes "Pad", "ShortBright" et "Warm EP" - des slots de clip sont vides sans bouton Stop. N'ayez pas peur, il y a toujours un bouton Stop en bas de chaque piste, juste au-dessus du mélangeur de Session :
+ClipStopButton.tif
+
+Divider.tif
+Les clips sont les éléments de base de la construction musicale dans $0. Maintenant que nous savons comment les lancer et les stopper, il est temps de voir de quoi ils sont faits.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Observons un clip audio
+$TargetName Peeking Into an Audio Clip
+
+Dans la scène "A", veuillez double-cliquer sur le nom du clip "ShortBright A" (mais pas sur son bouton de lancement) :
+ShortBrightClip.tif
+
+Le contenu du clip est maintenant affiché dans la /fenêtre Clip/ de Live :
+AudioInClipView.tif
+
+"ShortBright A" est un /clip audio./ Les clips audio produisent le son qui a été sauvegardé dans un fichier échantillon ou /sample./ $0 offre de nombreuses options intéressantes pour manipuler les échantillons pendant qu'ils sont lus.
+
+A titre d'exemple, voyons comme il est facile de transposer ce clip d'une quinte vers le bas.
+
+Le panneau d'échantillon /Sample/ d'un clip dispose de plusieurs commandes qui affectent la lecture de l'échantillon du clip. Pendant que le clip est reproduit, cliquez une fois sur la commande /Transpose/ et saisissez "-7", puis appuyez sur la touche Entrée/Retour du clavier de votre ordinateur :
+ChangingTranspose.tif
+
+Notez que le tempo du clip ne change pas quand nous transposons ce dernier. $0 traite l'audio avec le même genre de flexibilité que des données MIDI, vous permettant un contrôle indépendant et en temps réel de la hauteur et du tempo pour chaque clip de votre Set.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Observons un clip MIDI
+$TargetName Peeking Into a MIDI Clip
+
+Maintenant, cliquez sur le clip "Drums A" dans la scène "A" :
+DrumsMIDIClip.tif
+
+A nouveau, le contenu du clip s'affiche en fenêtre Clip :
+DrumsInClipView.tif
+
+Le clip de batterie est un /clip MIDI./ Il ne produit aucun son par lui-même, mais contient des /notes MIDI/ qui indiquent à un instrument virtuel ce qu'il doit jouer. Pour voir l'instrument sur cette piste, pressez Shift-Tab afin de basculer en /fenêtre Piste :/
+TrackView.tif
+
+Cette piste contient deux des périphériques intégrés à $0 : un instrument /Drum Rack/  ou "Rack de batterie" et un effet /Beat Repeat./ Le Rack de batterie apporte une organisation de pads familière pour nos échantillons de percussion, tandis que l'effet Beat Repeat ajoute de la variété à notre groove en créant des variations semi-aléatoires de la sortie audio du Rack de batterie.
+
+Nous pouvons alterner entre fenêtre Piste et fenêtre Clip à tout moment en pressant à chaque fois Shift-Tab.
+
+Pour plus d'informations sur l'emploi des instruments virtuels, voir la leçon $Link "Jouer d'instruments virtuels" <Lesson:Builtin/1-Live Basics Category/4-Playing Software Instruments>.
+
+
+$Comment -----------------------------------------------------------------------
+$Page De l'ébauche à la composition
+$TargetName From Sketch to Composition
+
+Les écrans Session et Arrangement de $0 vous ont été présentés, et vous avez une idée de la façon dont fonctionnent les clips et les pistes. Voyons maintenant comme un boeuf en écran Session évolue naturellement en une composition finie par l'enregistrement de vos actions dans un nouvel Arrangement.
+
+Divider.tif
+*D'abord, chargeons un autre Set en cliquant $Link ici <Set:/Sets/Tour of Live Demo Empty.als>. Cliquez sur "Non" quand Live vous demande si vous aimeriez sauver vos modifications.*
+Divider.tif
+
+Le nouveau Set contient exactement le même matériel d'écran Session mais rien dans l'Arrangement; nous allons faire le nôtre.
+
+D'abord, stoppez la lecture de tous les clips de l'écran Session en cliquant sur le bouton /Stop Clips :/
+StopAllClips.tif
+
+Ensuite, ramenez l'Arrangement sur la position 1.1.1 en pressant deux fois le /bouton Stop/ de la barre de contrôle.
+StopButton.tif
+
+Pressez le /bouton Enregistrement/ de la barre de contrôle.
+RecordButton.tif
+
+L'enregistrement commencera quand un clip ou une scène quelconque sera lancé. $0 conservera un journal précis de chaque clip et scène lancé, de chaque commande de mélangeur et d'effet changée, et même des modifications de tempo.
+
+Cliquez sur le bouton Stop quand vous avez fini.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Votre Arrangement
+$TargetName Your Arrangement
+
+Pressez la touche Tab de votre clavier informatique pour passer en écran Arrangement de $0, où cette leçon a commencé.
+
+Vous pouvez y voir votre enregistrement, configuré comme un arrangement de clips horizontaux. Ramenez la position de lecture de l'Arrangement à nouveau sur 1.1.1, puis appuyez sur la barre d'espace pour que $0 reproduise votre interprétation.
+ArrangementWithAutomation.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Et maintenant, que faire?
+$TargetName Where to Go from Here?
+
+$0 construit des passerelles de l'improvisation à la composition- et réciproquement. Il est à coup sûr payant de comprendre les concepts sous-jacents, comme présentés dans le chapitre "Concepts de Live" du manuel de référence. Nous vous recommandons aussi de suivre le reste des leçons.
+
+Voici quelques pistes d'expérimentation et d'apprentissage :
+
+-> Cliquez $Link ici <Lesson:Internal/BuiltinAutoToc> pour accéder à toutes les leçons installées.
+
+-> Essayez de charger d'autres clips, soit depuis votre propre collection d'échantillons, soit depuis le contenu de la Bibliothèque de Live qui a été installé avec le programme. Bien sûr, vous pouvez aussi enregistrer vos propres clips $Link audio <Lesson:Builtin/1-Live Basics Category/2-Recording Audio> ou $Link MIDI <Lesson:Builtin/1-Live Basics Category/3-Creating Beats>.
+
+$If Product 00
+-> Tous les sons de cette démo ont été faits avec des presets et instruments issus de *l'Ableton Suite.* Si vous possédez cette Suite, vous pouvez aussi $Link charger une version entièrement MIDI du Set de démo <Set:/Sets/Tour of Live Suite Demo.als>. *Veuillez noter que la Démo avec Suite nécessite beaucoup plus de puissance de processeur que la version audio.*
+$Endif
+
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

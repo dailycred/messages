@@ -1,0 +1,14 @@
+$Page Export von Projekten in die Library
+$TargetName Exporting Projects to the Library
+
+Jegliche Live Clips, Samples oder Presets, die Sie in $0s Library speichern, sind danach für jedes Projekt verfügbar. Sie können den /Export-Schalter/ im Datei-Manager nutzen, um sämtliche Dateien des gerade offenen Projektes in die Librayr zu kopieren.
+ExportSection.tif
+
+Ihr Projekt wird durch diesen Vorgang nicht beeinflusst, da die Dateien nur kopiert und nicht bewegt werden.
+
+
+Divider.tif
+*Anmerkung:* Wenn Sie ein Projekt nach dem Export löschen möchten, nutzen Sie bitte den Datei-Browser von $0.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

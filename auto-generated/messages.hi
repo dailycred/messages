@@ -1,0 +1,86 @@
+Application.NoSuchClient=कोई ग्राहक आईडी% s के लिए मौजूद है.
+Application.NoSuchApp=कोई अनुप्रयोग आईडी% s के लिए मौजूद है.
+Application.NoClientProvided=आपके अनुरोध के साथ अपने ग्राहक आईडी प्रदान करें.
+Application.NoRedirectProvided=एक अपने OAuth का अनुरोध के साथ अनुप्रेषित प्रदान करें. <br/> <b>डेवलपर्स:</b> पैरामीटर <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> या में एक डिफ़ॉल्ट कॉलबैक सेट करके उपयोग कर अपने कॉलबैक उड़ी उपलब्ध कराने के <a href="https://www.dailycred.com/admin/setup">लिए अपने खाते की सेटिंग्स</a> .
+Application.EnterEmailOrUsername=अपने ईमेल या उपयोगकर्ता नाम दर्ज करें.
+Application.EnterEmail=अपने ईमेल दर्ज करें.
+Application.EnterUsername=अपना उपयोगकर्ता नाम दर्ज करें.
+Application.EnterPassword=अपना पासवर्ड दर्ज करें.
+Application.AtNotAllowed=प्रतीक &quot;@&quot; आपके उपयोगकर्ता नाम में इस्तेमाल नहीं किया जा सकता.
+Application.WrongPasswordOrUsername=अपने यूज़रनेम और पासवर्ड की जाँच करें और पुन: प्रयास करें. <a href="%s">अपना पासवर्ड यहां क्लिक करें रीसेट करने के लिए.</a>
+Application.BadDomain=डोमेन &quot;% s&quot; को मान्य नहीं है.
+Application.BadEmail=अपने ईमेल सही ढंग से दर्ज किया गया था कि जाँच करें और पुन: प्रयास करें.
+Application.BadNewEmail=अपना नया ईमेल सही ढंग से दर्ज किया गया था कि जाँच करें और पुन: प्रयास करें.
+Application.PasswordTooShort=कम से कम% d वर्ण के साथ एक पासवर्ड दर्ज करें.
+Application.NoCallbackUri=% S को अभी तक एक कॉलबैक यूआरआई निर्धारित नहीं किया गया है. बाद में पुन: प्रयास करें.
+Application.EmailTaken=यह ईमेल पहले से ही प्रयोग में है.
+Application.UsernameTaken=उपयोगकर्ता नाम पहले ही ले लिया गया है. एक अन्य उपयोगकर्ता नाम का उपयोग करें.
+Application.EmailSent=एक ईमेल भेजा गया है. आगे के निर्देशों के लिए अपने ईमेल की जाँच करें.
+Application.EmailSentGmail=एक ईमेल भेजा गया है. <a href="http://mail.google.com/">आगे के निर्देशों के लिए अपने जीमेल की जांच करें.</a>
+Application.GoToGmail=आपके जीमेल इनबॉक्स में जाओ
+Application.EmailSentYahoo=एक ईमेल भेजा गया है. <a href="http://mail.yahoo.com/">आगे के निर्देशों के लिए अपने याहू ईमेल की जांच करें.</a>
+Application.GoToYahoo=अपने याहू इनबॉक्स में जाओ
+Application.EmailSentHotmail=एक ईमेल भेजा गया है. <a href="http://www.hotmail.com/">आगे के निर्देशों के लिए अपने हॉटमेल की जांच करें.</a>
+Application.GoToHotmail=अपने हॉटमेल इनबॉक्स में जाओ
+Application.EmailSentICloud=एक ईमेल भेजा गया है. <a href="https://www.icloud.com/#mail">आगे के निर्देशों के लिए अपने iCloud मेल की जांच करें.</a>
+Application.GoToICloud=अपने iCloud इनबॉक्स में जाओ
+Application.NoSuchEmail=कोई उपयोगकर्ता ईमेल% s के लिए मौजूद है.
+Application.NoSuchUser=कोई उपयोगकर्ता आईडी% s के लिए मौजूद है.
+Application.NoSuchUserFriendly=हम इस ईमेल या उपयोगकर्ता नाम के लिए एक उपयोगकर्ता खाते नहीं मिल सकता है. पुन: प्रयास करें.
+Application.NoSuchToken=अपने खाते में आप पर हस्ताक्षर करने में कोई त्रुटि थी. शीघ्र ही पुन: प्रयास करें.
+Application.PasswordResetInvalid=यह पासवर्ड रीसेट अनुरोध अमान्य या नहीं मिला है. फिर अपना पासवर्ड रीसेट करने का प्रयास करें.
+Application.PasswordUpdated=आपका पासवर्ड अद्यतन किया गया है.
+Application.APIWrongPassword=आपके पासवर्ड की जाँच करें और पुन: प्रयास करें.
+Application.APIError=एक अप्रत्याशित त्रुटि हुई. पुन: प्रयास करें.
+Application.APIBadToken=अवैध OAuth पहुंच टोकन.
+Application.APINoToken=एक सक्रिय पहुँच टोकन वर्तमान उपयोगकर्ता के बारे में जानकारी क्वेरी करने के लिए इस्तेमाल किया जाना चाहिए.
+Application.APIBadCode=अवैध OAuth का कोड.
+Application.TimeOut=वह भी लंबे समय लग रहा है. शीघ्र ही पुन: प्रयास करें.
+Application.BadURL=यह एक मान्य URL नहीं है. इस क्षेत्र https://www.dailycred.com/callback की तरह, एक पूर्ण, गैर सापेक्ष URL होना चाहिए
+Application.FriendlyNameTooLong=इस क्षेत्र में 200 अक्षरों की अधिकतम लंबाई है. कम कुछ का उपयोग करें.
+Application.NoStripeKey=धारी एपीआई कुंजी नहीं मिला. अपने पर अपनी धारी एपीआई कुंजी सेट करें <a href="https://dailycred.com/admin/setup">सेटअप</a> पेज.
+Application.OAuthCallBackNotInDomain=प्रदान की redirect_uri इस ग्राहक का खाता सेटिंग्स द्वारा अनुमोदित नहीं है.
+Application.CNameNotValidDomain=प्रदान की CNAME एक मान्य डोमेन होना प्रतीत नहीं होता है.
+Application.Required=यह क्षेत्र जरूरी है.
+Application.LogoFileTooLarge=फ़ाइल आकार सीमा से अधिक है.
+Application.LogoFileIsNotImage=फ़ाइल प्रकार मान्य नहीं है. केवल पीएनजी, JPG और GIF अनुमति दी जाती है.
+Application.NoClientSecret=आप अपने Dailycred गुप्त कुंजी युक्त एक client_secret पैरामीटर निर्दिष्ट करना होगा.
+Application.InvalidClientSecret=यह एक अवैध Dailycred रहस्य की कुंजी है.
+Application.MissingRequiredFields=आप कुछ जरूरी क्षेत्र अनुपस्थित हैं ऐसा लगता है. आपके जाने के लिए कृपया <a href="/admin/setup">सेटअप</a> की स्थापना करने के लिए पृष्ठ.
+Application.CouldNotUnsubscribe=हम इस लिंक से सीधे आप सदस्यता समाप्त नहीं कर सकता है, माफ करना एक तकनीकी त्रुटि के कारण कर रहे हैं. फिर प्रयास करें, या कृपया <a href="mailto:support@dailycred.com">हमसे सीधे संपर्क</a> हटा दिया जाएगा.
+Application.Unsubscribed=आप सदस्यता समाप्त कर दिया गया है. हम तुम जाओ देखने के लिए खेद है!
+Application.Subscribed=आप सदस्यता लिया गया है. धन्यवाद!
+Application.CouldNotSubscribe=हम इस लिंक से सीधे आप सदस्यता नहीं सकता है एक तकनीकी त्रुटि के कारण, हमें खेद है. फिर प्रयास करें, या कृपया <a href="mailto:support@dailycred.com">हमसे सीधे संपर्क</a> में जोड़ा जाएगा.
+Application.AdminsCantUnsubscribe=मानते अपने स्वयं के खाते से सदस्यता समाप्त नहीं कर सकते हैं.
+Application.EmailIsSame=नए ईमेल आपके वर्तमान ईमेल के रूप में ही है.
+Application.EmailOnlyUserNotAllowed=इस बॉक्स में ईमेल केवल उपयोगकर्ताओं का समर्थन नहीं करता.
+Application.EmailChangeSuccess=आपका ईमेल% से बदल दिया गया है. पुष्टिकरण ईमेल के लिए देखते हैं और आपके नए पते की पुष्टि करें.
+Application.EmailVerifySuccess=ईमेल% s को सत्यापित किया गया है.
+Application.PostOnly=यह अनुरोध एक <b>HTTP पोस्ट अनुरोध</b> का उपयोग किया जाना चाहिए. <br/><br/> आप बस एपीआई बाहर की जाँच कर रहे हैं, तो हम कर्ल या उपयोग करने का सुझाव <a target="_blank" href="http://hurl.it/">उछालना</a> .
+Application.StripeTrialEnd=एक <a href="https://www.dailycred.com/admin/user/%s">उपयोगकर्ता</a> के बारे में समाप्त करने के लिए है कि एक परीक्षण है. यह ईमेल एक धारी webhook की वजह से हुई.
+Application.StripePaymentSucceeded=एक <a href="https://www.dailycred.com/admin/user/%s">उपयोगकर्ता</a> को सफलतापूर्वक आरोप लगाया गया था. यह ईमेल एक धारी webhook की वजह से हुई.
+Application.StripePaymentFailed=एक <a href="https://www.dailycred.com/admin/user/%s">उपयोगकर्ता</a> असफल आरोप लगाया गया था. यह ईमेल एक धारी webhook की वजह से हुई.
+Application.BillingError=अपनी बिलिंग जानकारी सेट करने के लिए प्रयास करते समय कुछ गलत हो गया था. क्षण भर के पुन: प्रयास करें.
+Application.TrialWillEnd=Dailycred साथ अपने नि: शुल्क परीक्षण% s पर खत्म करने के बारे में है. अपनी यात्रा कृपया <a href="https://www.dailycred.com/admin/settings/billing">बिलिंग पेज</a> निष्क्रिय किया जा रहा से अपने खाते को रोकने के लिए.
+Application.TrialWillEndLong=DailyCred साथ अपने नि: शुल्क परीक्षण% है पर जल्द ही समाप्त हो जाती है. <br><br> अपने खाते को सक्रिय रखने के लिए, आपके यात्रा कृपया <a href="https://www.dailycred.com/admin/settings/billing">बिलिंग पृष्ठ</a> की समीक्षा करने के लिए <a href="https://www.dailycred.com/pricing">कम लागत वाली योजनाओं</a> और आज भुगतान विवरण दर्ज करें.
+Application.CannotRemoveActiveCard=आप अपने सक्रिय बिलिंग विधि को दूर नहीं कर सकते हैं. आप अपने खाता संख्या के साथ अपने खाते से ईमेल support@dailycred.com रद्द करना चाहते हैं.
+Application.StateCheckFailed=अनुरोध राज्य पैरामीटर लापता है. पुन: प्रयास करें.
+Application.UnexpectedError=क्षमा करें, एक अप्रत्याशित त्रुटि हुई. पुन: प्रयास करें.
+Application.UserAnotherIdentityProvider=यह आप% s का उपयोग कर एक खाता है प्रकट होता है. <a href="%s">% का उपयोग कर कनेक्ट करने के लिए यहां क्लिक करें</a> या <a href="%s">एक पासवर्ड सेट करने के लिए यहां क्लिक करें</a> .
+Application.APIKeyNotFound=एपीआई कुंजी नहीं मिला. अपने पर इस पहचान प्रदाता के लिए एक एपीआई कुंजी सेट कृपया <a href="https://www.dailycred.com/admin/settings">सेटिंग पेज</a> .
+Application.ForeignIDAlreadyRegistered=प्रदाता% s के लिए foreignID% पहले से ही उपयोगकर्ता% s के साथ जुड़ा हुआ है क्योंकि हम इस खाते लिंक नहीं कर सकता.
+Application.TwitterCallbackURLIncorrect=अपनी जाँच करें <a href="https://dev.twitter.com/apps">चहचहाना आवेदन की सेटिंग्स</a> . अपने अनुप्रयोग के कॉलबैक URL खाली नहीं हो सकता. (यह किसी मान्य URL हो सकता है.)
+Application.ThankYouForSigningUp=% S के लिए साइन अप करने के लिए धन्यवाद!
+Application.ThankYouForSigningUpNoClient=साइन अप करने के लिए धन्यवाद!
+Application.CannotDeleteLastApp=मिटा नहीं सकता है: अपने खाते में कम से कम एक अनुप्रयोग होना आवश्यक है.
+Application.CouldNotSendEmail=हमें खेद है, कि ईमेल भेजने में कोई समस्या नहीं थी. शीघ्र ही पुन: प्रयास करें.
+Application.EmailVerificationRequiredSignUp=आप साइन अप करने से पहले अपने ईमेल की पुष्टि करनी होगी. आगे के निर्देशों के लिए अपने ईमेल की जाँच करें.
+Application.EmailVerificationRequiredSignIn=आप ने हस्ताक्षर करने से पहले अपने ईमेल की पुष्टि करनी होगी आगे के निर्देशों के लिए अपने ईमेल की जाँच करें.
+Application.Blocked=हमें खेद है, यदि आप एक व्यवस्थापक द्वारा अवरुद्ध कर दिया गया है रहे हैं.
+
+=
+template.authorize.passwordStrength.0=बहुत कमजोर
+template.authorize.passwordStrength.1=कमज़ोर
+template.authorize.passwordStrength.2=गवारा
+template.authorize.passwordStrength.3=अच्छा
+template.authorize.passwordStrength.4=महान!

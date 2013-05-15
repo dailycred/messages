@@ -1,0 +1,170 @@
+$Page Bâtir des instruments multicouches
+$TargetName Building Layered Instruments
+$ListInTocForProduct 00
+
+Les Racks facilitent la construction d'instruments complexes, multicouches, normalement associés aux coûteux échantillonneurs logiciels de tierces parties - en n'utilisant que les périphériques intégrés à $0.
+
+Dans cette leçon, vous apprendrez comment utiliser les Racks pour créer des configurations à sons empilés et répartis sur le clavier, des patches commutant en fonction de la dynamique et de la note jouée, et des couches dédiées au relâchement.
+
+Divider.tif
+*Cette leçon est accompagnée d'un Set Live avec lequel vous interagirez durant la leçon. Quand vous êtes prêt, veuillez cliquer $Link ici <Set:/Sets/Building Layered Instruments.als> pour charger le Set Live.*
+Divider.tif
+
+
+Une fois que vous avez chargé le Set, veuillez cliquer sur le bouton /Page suivante/ ci-dessous pour continuer.
+
+$Comment --------------------------------------------------------------------------------
+$Page Commandes basiques du Rack
+$TargetName Basic Rack Controls
+
+Comme vous pouvez le voir, ce Set contient une piste, appelée "Synth". Elle est armée pour l'enregistrement, donc si vous avez déjà un clavier MIDI branché, vous pouvez tout de suite en jouer. Essayez dès maintenant.
+
+(Si vous avez besoin d'aide pour configurer votre clavier MIDI, veuillez lire la leçon $Link Connexion de contrôleurs MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.)
+
+Les sons que vous entendez sont produits par un seul instrument /Simpler/ dans la /chaîne de périphériques/ de la piste. Pour construire un instrument multicouches disposant de plusieurs sources sonores, nous allons faire entrer le Simpler dans un conteneur spécial appelé Rack d'instruments.
+
+Pour commencer, mettons notre instrument Simpler dans un Rack d'instruments. Pour faire cela, il suffit d'un *$ContextMenu* dans la barre de titre de Simpler et de sélectionner /Grouper/ (ou de presser *$CommandMod-G).*
+
+Au premier abord, il n'y a pas de grand changement. Votre instrument possède maintenant une fine barre de titre verticale sur sa gauche (la barre de titre du Rack)
+RackTitleBar.tif
+
+La bordure de droite indique où se termine le Rack.
+RackEndBracket.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Ajout d'une autre chaîne
+$TargetName Adding Another Chain
+
+Jusqu'à présent, vous n'avez pas ajouté de périphériques ou chaînes additionnelles - vous avez simplement placé notre chaîne de périphériques d'origine dans un Rack. Mais vous pouvez maintenant ajouter des chaînes de périphériques supplémentaires. Voyons comment cela fonctionne en cliquant sur le bouton /Liste des chaînes/ dans la barre de titre du Rack:
+ChainListToggle.tif
+
+La liste des chaînes donne une vue d'ensemble rapide des chaînes de périphériques d'un Rack. Elle sert aussi de mélangeur pour ces chaînes - chaque chaîne de la liste a ses propres commandes de volume, panoramique, activateur, solo et remplacement à chaud.
+ChainList.tif
+
+Vous pouvez ajouter une autre chaîne au Rack en ouvrant le /navigateur de périphériques/ de $0 et en faisant glisser un preset de ce navigateur dans le Rack. Ouvrez le navigateur de périphériques en cliquant sur son icône:
+DeviceBrowserButton.tif
+
+Puis naviguez jusqu'au preset "Keys-Acoustic Piano" dans le dossier Instruments > Simpler > Piano and Keys:
+HighlightedPreset.tif
+
+Faites glisser ce preset sur la /zone de dépôt/ de la liste des chaînes et déposez-le.
+NewChain.tif
+
+Une nouvelle chaîne sera automatiquement créée. Maintenant, quand vous jouez sur votre clavier MIDI, vous jouez de deux instruments Simpler différents en même temps. Félicitations - vous avez créé un empilage.
+
+$Comment --------------------------------------------------------------------------------
+$Page Mixage des chaînes de Rack
+$TargetName Mixing Rack Chains
+
+Tout en jouant, vous pouvez ajuster les commandes du mélangeur de la liste de chaînes jusqu'à ce que vous ayez trouvé les réglages de volume et de panoramique qui vous satisfont.
+ChainMixer.tif
+
+Vous pouvez aussi mixer les chaînes de Rack conjointement aux pistes dans le mélangeur de Session lui-même. Vous avez peut-être remarqué que quand vous avez créé ce Rack, la piste qui le contient a été dotée d'un bouton près de son nom:
+InlineToggle.tif
+
+Cliquez sur ce bouton pour faire basculer l'affichage des chaînes dans le mélangeur:
+InlineRackView.tif
+
+Tout changement apporté aux commandes du mélangeur de Rack dans une de ces vues se reflètera immédiatement dans l'autre.
+
+$Comment --------------------------------------------------------------------------------
+$Page Partage du clavier
+$TargetName Splitting the Keyboard
+
+Dans certains cas, vous pouvez vouloir créer un clavier /partagé/ - par exemple avec la moitié basse du clavier faisant jouer une chaîne et la moitié haute une autre. Pour configurer cela, ouvrez /l'éditeur de zone de notes./
+KeyZoneButton.tif
+
+Une /zone/ est un filtre de données qui détermine si une valeur entrante particulière peut ou non passer par la chaîne de périphériques. Cet éditeur affiche les zones de notes, qui sont des filtres pour les tessitures MIDI. Par défaut, toutes les chaînes ont la totalité de leur tessiture activée. Pour changer cela, tirez sur le bord droit ou gauche d'une des zones.
+DraggingZoneEdge.tif
+
+Notez que la valeur de note est visible sous la zone pendant que vous l'ajustez, pour vous aider à affiner le réglage. De plus, si la zone n'occupe pas toute la tessiture, vous pouvez la déplacer dans sa totalité en cliquant en son milieu et en la tirant vers un nouvel emplacement. Cela conserve sa taille relative, et pendant que vous la déplacez vous pouvez voir la valeur de note de ses limites haute et basse.
+DraggingZoneRange.tif
+
+Pour agrandir ou réduire l'affichage de zone, faites un *$ContextMenu* dans l'éditeur de zone et choisissez entre les trois tailles de visualisation.
+ZoneSizingContext.tif
+
+Notez que vous pouvez devoir faire défiler le /sélecteur de fenêtre Piste/ pour voir toute la tessiture, en fonction du grossissement que vous avez choisi et de la taille de votre écran.
+TrackViewSelector.tif
+
+Souvent, vous voudrez répartir ou distribuer équitablement les chaînes sur votre clavier. Pour faire cela rapidement, faites un *$ContextMenu* dans l'éditeur de zones et choisissez *Répartir les plages.*
+DistributeRangesEqually.tif
+
+Quand vous jouez sur votre clavier, essayez différentes zones de notes pour trouver un réglage qui vous plaît. Quand vous avez fini, ramenez les deux zones à leur valeur par défaut (totalité de la tessiture) avant de passer à la page suivante.
+
+$Comment --------------------------------------------------------------------------------
+$Page Commutation par la dynamique
+$TargetName Velocity Switching
+
+Vous pouvez aussi changer de chaîne en basant le filtrage sur la /dynamique/ des notes reçues plutôt que sur la hauteur des notes - par exemple, les dynamiques faibles feront jouer une chaîne et les dynamiques fortes une autre (notez que cet exemple ne fonctionnera que si votre clavier produit des informations MIDI de dynamique de note). Pour configurer cela, ouvrez /l'éditeur de zone de dynamique./
+VelZoneButton.tif
+
+Cet éditeur ressemble beaucoup à l'éditeur de zone de notes. Mais au lieu de représenter des valeurs de notes MIDI, les zones représentent ici la dynamique MIDI, dans une plage *1-127.* Comme pour les zones de notes, le réglage par défaut est ici la totalité de la plage; chaque chaîne sera déclenchée par toutes les dynamiques. Pour créer un patch se commutant en fonction de la dynamique, changez simplement la taille des zones de dynamique comme vous l'avez fait auparavant:
+DraggingVelEdge.tif
+
+Testez différentes plages de dynamique pour trouver des valeurs qui vous satisfont.
+
+En jouant avec la modification de dynamique, vous constaterez probablement que les périphériques des chaînes répondent de façons différentes à la dynamique. En particulier, l'instrument "Xylophone Attack" est plus fort pour les dynamiques élevées tandis que l'instrument "Synth" joue toujours au même niveau quelle que soit la dynamique.
+
+Cela nous amène à un point important concernant l'éditeur de dynamique - il n'y a /pas/ de relation entre les zones de dynamique et la commande dynamique d'un paramètre particulier de périphérique. Les éditeurs de zone veillent simplement à déterminer quelle plage de signaux d'entrée peut passer et vers quelles chaînes. Ce qui arrive à ces signaux une fois les éditeurs passés dépend de la programmation des périphériques dans les chaînes elles-mêmes.
+
+Quand vous avez fini de tester l'éditeur de dynamique, ramenez les deux zones à leur valeur par défaut (totalité de la plage) avant de passer à la page suivante.
+
+$Comment --------------------------------------------------------------------------------
+$Page Commutation par les notes
+$TargetName Key Switching
+Lors d'une prestation, utiliser certaines touches du clavier pour changer de couche d'échantillon peut être une alternative rapide aux changements de patches. Vous pouvez constituer dans $0 des patches à commuter par des notes en assignant ces notes au /sélecteur de chaîne/ du Rack qui fonctionne comme les zones de notes et de dynamique mais agit comme un filtre supplémentaire pour les chaînes, non lié à un paramètre MIDI spécifique, quel qu'il soit.
+
+D'abord, changeons les zones de notes de nos chaînes pour que les touches qui serviront à la commutation de produisent pas de son. Pour cela, ouvrez l'éditeur de zone de notes et ramenez le bord gauche des zones sur *D-2.*
+DSharpZones.tif
+
+Ouvrez maintenant /l'éditeur de sélecteur de chaîne/ en cliquant sur le bouton /Chain:/
+ChainSelectButton.tif
+
+Remarquez la fine ligne verticale dans la règle de sélecteur de chaîne. C'est un indicateur appelé /sélecteur de chaîne/ et que vous pouvez faire glisser. Alors que les zones de notes et de dynamique se comparent aux valeurs entrantes, les zones de sélection de chaîne ne s'intéressent qu'à la valeur du sélecteur de chaîne: les chaînes dont la zone ne couvre pas sa position actuelle ne recevront aucune entrée.
+ChainSelector.tif
+
+Par défaut, le sélecteur de chaîne est réglé sur 0 et c'est le cas des deux zones. Maintenant, étirons les deux zones sur la totalité de la plage. Puis après un *$ContextMenu* dans l'éditeur de zone, choisissez *Répartir les plages.*
+
+Si vous jouez à présent de votre clavier, vous n'entendez jouer que la chaîne "Synth". C'est parce que la zone de sélection pour la chaîne "Keys-Acoustic Piano" ne couvre plus le 0 qui est la position du sélecteur de chaîne. Pour changer la position du sélecteur de chaîne, nous l'affecterons à une plage de touches MIDI. Passez en mode d'affectation MIDI en pressant *$CommandMod-M* ou en cliquant sur le *commutateur de mode d'affectation MIDI.*
+MIDIMapButton.tif
+
+Cliquez dans la *Règle de sélecteur de chaîne* afin de la sélectionner pour l'affecter en MIDI.
+ChainSelectRuler.tif
+
+Vous affecterez trois notes *(C2-D2)* comme touches de commutation. Pressez et maintenez *C2,* puis pressez *D2,* et enfin relâchez les deux touches. Quittez maintenant le mode d'affectation via *$CommandMod-M* ou en cliquant à nouveau sur le *commutateur de mode d'affectation MIDI.*
+
+Votre tessiture de trois notes est maintenant affectée sur toute la plage du sélecteur de chaîne. Presser C2 le déplace sur 0 (n'activant ainsi que la chaîne "Synth"). Presser D2 le déplace sur 127 (n'activant ainsi que la chaîne "Keys-Acoustic Piano"). Presser C#2 le déplace sur 64, qui n'active actuellement qu'une seule chaîne. Comme nous voulons que cette note soit notre commutateur d'"empilage", nous modifierons les zones de chaîne pour qu'elles se superposent en 64. Nous pouvons le faire en étendant la zone "Synth" vers la droite.
+OverlappingZones.tif
+
+Maintenant, essayez de presser les notes C2-D2 tout en jouant des notes supérieures pour entendre comment fonctionne la sélection de chaînes. Notez qu'aucune note en cours n'est affectée par la sélection de chaînes - si un accord de "Synth" est maintenu alors que vous basculez en zone "Keys-Acoustic Piano", seules les notes nouvellement jouées déclencheront la chaîne "Keys-Acoustic Piano". Contrairement aux changements de patches traditionnels, les changements par commutation au clavier ne causent jamais de clics ou d'interruption du son.
+
+Quand vous avez fini de tester l'éditeur de sélection de chaîne, ramenez les deux zones à leur valeur par défaut (0), refaites glisser le sélecteur de chaîne sur 0, et fermez l'éditeur en cliquant sur le bouton /Hide/ avant de passer à la page suivante.
+
+$Comment --------------------------------------------------------------------------------
+$Page Déclenchement au relâchement
+$TargetName Release Triggering
+
+Un type de programmation communément trouvé sur les bibliothèques d'échantillons de haut de gamme est l'emploi de "couches de relâchement". Ce sont des groupes d'échantillons qui ne jouent que quand les touches sont relâchées et non quand elles sont enfoncées. Cette technique peut être utilisée pour créer des simulations réalistes d'instruments acoustiques - de clavecins par exemple. Les Racks vous permettent de faire cela facilement, par l'emploi de l'effet MIDI /Note Length/ qui a fait son apparition dans $0 6.
+
+Pour configurer un déclenchement au relâchement, ouvrons à nouveau le navigateur de périphériques et naviguons jusqu'à MIDI Effects - Note Length.
+NoteLength.tif
+
+Faites glisser ce périphérique jusque sur la chaîne "Keys-Acoustic Piano" dans la liste des chaînes et déposez-le. Cela insère l'effet Note Length dans la chaîne, en face de cet instrument.
+
+Pour que des messages de relâchement (note-off) déclenchent cette chaîne, cliquez sur le bouton /Trigger/ de l'outil Note Length afin de changer son comportement de *Note On* en *Note Off.*
+NoteOff.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Et maintenant, que faire?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Maintenant que vous êtes familiarisé avec quelques principes de base de la constitution d'un Rack, vous pouvez vouloir les essayer avec différent instruments, périphériques MIDI, effets audio, etc.
+
+-> Si vous ne l'avez pas encore fait, nous vous recommandons fortement de lire le chapitre "Racks d'instruments, de batterie et d'effets" dans le $Link manuel de référence. <Manual> Les Racks ont été conçus pour être aussi intuitifs que possible. Mais ils sont très performants et extrêmement flexibles, et pour réellement en tirer le maximum, il faut une compréhension complète de toutes leurs fonctions.
+
+-> Une fois que vous êtes à l'aise avec les bases des Racks, faites-vous la main sur le reste des leçons sur les Racks...
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

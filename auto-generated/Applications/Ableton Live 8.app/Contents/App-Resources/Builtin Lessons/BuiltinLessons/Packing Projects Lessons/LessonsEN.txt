@@ -1,0 +1,17 @@
+$Page Packing Projects 
+$TargetName Packing Projects
+
+You can archive a project folder by creating a /Live Pack./ This copies the contents of your project folder into a single compressed file that can be saved or shared easily.
+PackingSection.tif
+
+Because the Live Pack simply duplicates the contents of your project folder, it won't include any external samples which your Project references. If you need to create a complete archive of a Project, first use the /External Samples/ section of the File Manager to collect these files into the project folder.
+
+Live Packs use lossless compression to minimize their size. Depending upon the samples used, the total file size can be reduced by as much as 50 percent without ever altering your material.
+
+You can unpack Live Packs by double-clicking, by dragging them into $0, or by using the File menu's *Install Live Pack* command.
+
+
+Divider.tif
+*Note:* If you want to delete a Project after packing it, use $0's File Browser.
+
+$Comment Status: Translate

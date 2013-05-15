@@ -1,0 +1,86 @@
+Application.NoSuchClient=Ningún cliente existe para id% s.
+Application.NoSuchApp=Non existe ningún app para id% s.
+Application.NoClientProvided=Por favor, forneza o seu ID de cliente con a súa solicitude.
+Application.NoRedirectProvided=Por favor, forneza unha redirección a súa solicitude OAuth. <br/> <b>Os creadores:</b> proporcionar o seu URI callback usar o parámetro <span style="font-family:monospace">redirect_uri = http://website.com/callback</span> ou definindo un retorno de chamada por defecto en <a href="https://www.dailycred.com/admin/setup">súas opcións de conta</a> .
+Application.EnterEmailOrUsername=Introduce o teu correo-e ou nome de usuario.
+Application.EnterEmail=Introduce o teu correo electrónico.
+Application.EnterUsername=Por favor, introduza o seu nome de usuario.
+Application.EnterPassword=Introduza o seu contrasinal.
+Application.AtNotAllowed=O símbolo &quot;@&quot; non se pode usar no seu nome.
+Application.WrongPasswordOrUsername=Verifique o seu nome de usuario e contrasinal e ténteo de novo. <a href="%s">Para restablecer o seu contrasinal, prema aquí.</a>
+Application.BadDomain=O dominio &quot;% s&quot; non é válido.
+Application.BadEmail=Verifique se o correo electrónico foi ingresaran correctamente e ténteo de novo.
+Application.BadNewEmail=Verifique se o novo correo se ingresaran correctamente e ténteo de novo.
+Application.PasswordTooShort=Introduza un contrasinal con polo menos% d caracteres.
+Application.NoCallbackUri=% S non definiu a URI volta aínda. Por favor, inténteo de novo máis tarde.
+Application.EmailTaken=Este correo xa está en uso.
+Application.UsernameTaken=Este nome de usuario xa está tomada. Por favor, use un nome de usuario diferente.
+Application.EmailSent=Un correo-e foi enviado. Verifique o seu correo electrónico para máis instrucións.
+Application.EmailSentGmail=Un correo-e foi enviado. <a href="http://mail.google.com/">Verifique o seu Gmail para máis instrucións.</a>
+Application.GoToGmail=Vaia á súa bandexa de entrada de Gmail
+Application.EmailSentYahoo=Un correo-e foi enviado. <a href="http://mail.yahoo.com/">Verifique o seu correo electrónico de Yahoo! para máis instrucións.</a>
+Application.GoToYahoo=Vaia á súa caixa de entrada de Yahoo
+Application.EmailSentHotmail=Un correo-e foi enviado. <a href="http://www.hotmail.com/">Verifique o seu Hotmail para máis instrucións.</a>
+Application.GoToHotmail=Vaia á súa caixa de entrada de Hotmail
+Application.EmailSentICloud=Un correo-e foi enviado. <a href="https://www.icloud.com/#mail">Verifique o seu correo iCloud para máis instrucións.</a>
+Application.GoToICloud=Vaia á súa caixa de entrada iCloud
+Application.NoSuchEmail=Ningún usuario existe para correo-e% s.
+Application.NoSuchUser=Ningún usuario existe para id% s.
+Application.NoSuchUserFriendly=Non puidemos atopar unha conta de usuario para este correo-e ou nome de usuario. Por favor, ténteo de novo.
+Application.NoSuchToken=Houbo un erro ao conecta-lo á súa conta. Por favor, inténteo de novo en breve.
+Application.PasswordResetInvalid=Esta proposta de redefinición de contrasinal non é válido ou non se atopou. Ténteo de restablecer o seu contrasinal de novo.
+Application.PasswordUpdated=O seu contrasinal foi actualizada.
+Application.APIWrongPassword=Verifique o seu contrasinal e ténteo de novo.
+Application.APIError=Produciuse un erro inesperado. Por favor, ténteo de novo.
+Application.APIBadToken=Token de acceso OAuth válido.
+Application.APINoToken=Un token de acceso activo debe ser usado para consultar información sobre o usuario actual.
+Application.APIBadCode=Válido código OAuth.
+Application.TimeOut=Que parece estar demorando demasiado. Por favor, inténteo de novo en breve.
+Application.BadURL=Este non é unha URL válida. Este campo debe ser un completo, URL non relativa, como https://www.dailycred.com/callback
+Application.FriendlyNameTooLong=Este campo ten unha lonxitude máxima de 200 caracteres. Por favor, use algo máis curto.
+Application.NoStripeKey=O Stripe API Key se atopou. Por favor, estableza a súa chave API Stripe na súa <a href="https://dailycred.com/admin/setup">configuración de</a> páxina.
+Application.OAuthCallBackNotInDomain=O redirect_uri indicado non é aprobado pola configuración da conta deste cliente.
+Application.CNameNotValidDomain=As disposicións CNAME non parece ser un dominio válido.
+Application.Required=Este é un campo obrigatorio.
+Application.LogoFileTooLarge=O ficheiro excede o límite de tamaño.
+Application.LogoFileIsNotImage=O tipo de ficheiro non é válido. Só PNG, JPG e GIF están permitidos.
+Application.NoClientSecret=Debe especificar un parámetro client_secret contén súa chave secreta Dailycred.
+Application.InvalidClientSecret=Esta é unha chave secreta Dailycred válido.
+Application.MissingRequiredFields=Parece que faltan algúns campos obrigatorios. Por favor, vaia á súa <a href="/admin/setup">configuración de</a> páxina para configurar.
+Application.CouldNotUnsubscribe=Sentímolo, debido a un erro técnico non poderiamos cancelar a inscripción directamente dende este enlace. Por favor, ténteo de novo, ou <a href="mailto:support@dailycred.com">póñase en contacto connosco</a> para ser eliminado.
+Application.Unsubscribed=Ten sido unsubscribe. Sentímolo velo ir!
+Application.Subscribed=Vostede foi inscrito. Thanks!
+Application.CouldNotSubscribe=Sentímolo, debido a un erro técnico non poderiamos inscribirse lo directamente dende este enlace. Por favor, ténteo de novo, ou <a href="mailto:support@dailycred.com">póñase en contacto connosco</a> para ser engadido.
+Application.AdminsCantUnsubscribe=Admite que non pode cancelar a súa inscrición a partir da súa propia conta.
+Application.EmailIsSame=O novo correo é o mesmo que o seu correo electrónico actual.
+Application.EmailOnlyUserNotAllowed=Esta aplicación non soporta só usuarios de correo electrónico.
+Application.EmailChangeSuccess=O seu correo electrónico foi modificado para% s. Por favor, mire para o correo electrónico de confirmación e comprobar o seu novo enderezo.
+Application.EmailVerifySuccess=O correo-e% s comprobada.
+Application.PostOnly=Esta petición debe facerse mediante unha <b>solicitude HTTP POST.</b> <br/><br/> Se vostede está só comprobando o API, suxerimos utilizar curl ou <a target="_blank" href="http://hurl.it/">lanzar</a> .
+Application.StripeTrialEnd=Un <a href="https://www.dailycred.com/admin/user/%s">usuario</a> ten un xuízo que está a piques de rematar. Este correo electrónico foi causado por un webhook Stripe.
+Application.StripePaymentSucceeded=Un <a href="https://www.dailycred.com/admin/user/%s">usuario</a> que se cargou correctamente. Este correo electrónico foi causado por un webhook Stripe.
+Application.StripePaymentFailed=Un <a href="https://www.dailycred.com/admin/user/%s">usuario</a> foi sen éxito cobra. Este correo electrónico foi causado por un webhook Stripe.
+Application.BillingError=Algo deu mal ao tentar definir a información de facturación. Por favor, ténteo de novo momentaneamente.
+Application.TrialWillEnd=A súa avaliación gratuíta con Dailycred está a piques de rematar en% s. Por favor, visita a súa <a href="https://www.dailycred.com/admin/settings/billing">páxina de facturación</a> para evitar que a súa conta sexa desactivada.
+Application.TrialWillEndLong=A súa avaliación gratuíta con DailyCred remata pronto en% s. <br><br> Para manter a súa conta activa, por favor visite a <a href="https://www.dailycred.com/admin/settings/billing">páxina de facturación</a> para revisar os <a href="https://www.dailycred.com/pricing">plans de baixo custo</a> e introducir os detalles de pagamento hoxe.
+Application.CannotRemoveActiveCard=Non pode eliminar o seu método de cobro activa. Se desexa cancelar a súa conta de correo electrónico support@dailycred.com co seu número de conta.
+Application.StateCheckFailed=A petición está falta o parámetro de estado. Por favor, ténteo de novo.
+Application.UnexpectedError=Sentímolo, ocorreu un erro inesperado. Por favor, ténteo de novo.
+Application.UserAnotherIdentityProvider=Parece que ten unha conta empregando% s. <a href="%s">Prema aquí para conectarse empregando% s</a> ou <a href="%s">prema aquí para definir un contrasinal</a> .
+Application.APIKeyNotFound=Clave da API non se atopou. Por favor, defina unha clave de API para ese proveedor de identidade na súa <a href="https://www.dailycred.com/admin/settings">páxina de configuración</a> .
+Application.ForeignIDAlreadyRegistered=Non poderiamos vincular esta conta porque foreignID s% para proveedor% s xa está asociado co usuario% s.
+Application.TwitterCallbackURLIncorrect=Asegúrese de que o seu <a href="https://dev.twitter.com/apps">configuración da aplicación de Twitter</a> . URL de retorno de chamada do seu programa non pode ser baleiro. (Pode ser calquera URL válida.)
+Application.ThankYouForSigningUp=Grazas por rexistrarte para% s!
+Application.ThankYouForSigningUpNoClient=Grazas por se rexistrar!
+Application.CannotDeleteLastApp=Non se puido eliminar: súa conta debe ter polo menos unha aplicación.
+Application.CouldNotSendEmail=Sentímolo, houbo un problema ao enviar o correo electrónico. Por favor, inténteo de novo en breve.
+Application.EmailVerificationRequiredSignUp=Debería comprobar o seu correo electrónico antes de se rexistrar. Verifique o seu correo electrónico para máis instrucións.
+Application.EmailVerificationRequiredSignIn=Debería comprobar o seu correo electrónico antes de asinar dentro Verifique o seu correo electrónico para máis instrucións.
+Application.Blocked=Sentímolo, vostede foi bloqueado por un administrador.
+
+=
+template.authorize.passwordStrength.0=Moi feble
+template.authorize.passwordStrength.1=Feble
+template.authorize.passwordStrength.2=Así-así
+template.authorize.passwordStrength.3=Bo
+template.authorize.passwordStrength.4=Great!

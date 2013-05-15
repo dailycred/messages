@@ -1,0 +1,113 @@
+$Page Using the APC20 
+$TargetName Using the APC20
+APC20.tif
+
+The /APC20/ (Ableton Performance Controller) is a dedicated controller for Ableton Live, designed by the same engineering team responsible for Akai's iconic MPC range of products. This lesson will help you set up your APC20, and introduce its capabilities.
+
+Click $Link here <Set:/Sets/APC20 Demo.als> to launch a Live Set that you can work with while learning the APC20. Then click the /Next Page/ button at the bottom right of this lesson to proceed, or use the following links for quick reference:
+
+-> $Link Connecting the APC20 <GotoPage:Connecting the APC20>
+-> $Link Clip Launch Matrix <GotoPage:Clip Launch Matrix>
+-> $Link Session Overview <GotoPage:Session Overview>
+-> $Link Transport and Global Buttons <GotoPage:Transport and Global Buttons>
+-> $Link Mixer Section <GotoPage:Mixer Section>
+-> $Link Note Mode <GotoPage:Note Mode>
+-> $Link Combination Mode <GotoPage:Combination Mode>
+
+For a general introduction to using control surfaces with Live, as well as a list of how Live's devices are mapped across control surfaces, please see the $Link Control Surface Reference <Lesson:Builtin/3-Hardware Setup Category/4-Control Surface Reference> lesson.
+
+$Comment -----------------------------------------------------------------------
+$Page Connecting the APC20 
+$TargetName Connecting the APC20
+
+Once you've unlocked Live, powered on the APC20 and connected it to your computer's USB port, you'll need to select the APC20 in Live's /Preferences./
+
+1) Open Live's Preferences from the /Live/ menu in OS X (or the /Options/ menu in Windows)
+
+2) Go to the /MIDI/Sync Tab/
+
+3) Select the APC20 Preset from the /Control Surface/ chooser. Then select the port the APC20 is connected to in the /Input/ and /Output/ choosers:
+MIDISyncSetup.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Clip Launch Matrix 
+$TargetName Clip Launch Matrix
+
+The APC20's matrix of buttons gives you direct access to the clips in your Session View. The matrix has 40 three-color buttons arranged in a five-scene-deep-by-eight-track-wide grid. The color-coding system lets you know exactly what is happening in each clip, and directional controls let you move around inside your Session View.
+LaunchMatrix.tif
+
+Pressing a /Clip Launch/ button triggers the clip in the corresponding clip slot in Live. If the track is armed to record, pressing the button records a new clip.
+
+The buttons in the matrix light up in different colors so you know what's going on:
+
+-> Yellow: this slot contains a clip
+-> Green: this clip is playing
+-> Red: this clip is recording
+-> No color: this slot is empty
+
+Many aspects of the Live interface are replicated in the APC20. You can stop all music in a track with its /Clip Stop/ button and fire horizontal lines of clips with the /Scene Launch/ buttons. Pressing /Shift/ and any of the /Clip Stop/ buttons stops all clips.
+
+The controller tells you what's going on in the software, but, importantly, the software also reflects what's happening on the controller. The clip slots currently being controlled by the button matrix are shown in Live with a simple red border.
+RedBorder.tif
+
+The cursor controls allow you to navigate around the Session View:
+
+-> Pressing Up or Down moves you up or down one scene at a time.
+-> The Left and Right arrow keys move you left or right one track at a time.
+
+$Comment -----------------------------------------------------------------------
+$Page Session Overview 
+$TargetName Session Overview
+
+The APC20's /Session Overview/ lets you navigate through large Live Sets quickly without looking at your computer screen. Hold down the Shift button and the matrix zooms out to reveal an overview of your Session View. In the Session Overview, each clip launch button represents a five-scene-by-eight-track block of clips, giving you a matrix of 125 scenes by 64 tracks. Hit a button to focus on that section of the Session View. For example, hitting the Shift button and then pressing the button in row three, column one will put the focus on scenes 11-15 and tracks 1-8.
+SessionOverview.tif
+
+In the Session Overview, the color coding is a little different:
+
+-> Yellow: indicates the currently selected block of clips, which will be surrounded by a border in the software.
+-> Green: there are clips playing in that block of clips (though that may not be the block of clips selected).
+-> Red: there are no clips playing in that range.
+-> No color: there are no tracks or scenes in that range.
+
+$Comment -----------------------------------------------------------------------
+$Page Transport and Global Buttons
+$TargetName Transport and Global Buttons
+
+Live's /Play,/ /Stop/ and /Global Record/ buttons are all easily accessible, while /MIDI Overdub/ lets you overdub on a MIDI clip.
+TransportAndGlobalButtons.tif
+
+$Comment -----------------------------------------------------------------------
+$Page Mixer Section 
+$TargetName Mixer Section
+
+The Mixer section gives you control of your mix, as well as all soloing, pre-cueing, muting, pans, sends and more. The APC20 features eight tracks and a master fader, all of which can be expanded with the Session Overview. A /Cue Level/ knob controls cue volume, so you can pre-listen to a clip or the metronome without your audience hearing it.
+MixerSection.tif
+
+You can shift these eight tracks around the Session View. Press the right or left buttons to move incrementally, one track at a time. In the Session Overview, you can jump in blocks of eight tracks at a time.
+
+The /Vol, Pan, Send A, Send B, Send C, User 1, User 2/ and /User 3/ buttons provide additional control possibilities, by re-assigning the eight faders to the selected function. Selecting Pan, for example, lets you use the eight faders to control track pan setting.
+
+To change the functionality of the faders, simply hold down the Shift button and select the parameter you want to control. The selected parameter bank will light up red, showing you that it's selected. When you release the shift button, the faders will remain locked to the corresponding function.
+
+The user banks let you use Live's /MIDI Map Mode/ to customize what the banks of faders control. Try mapping tempo or the global groove amount to your faders.
+
+The Master fader works as a master fader in all modes.
+
+$Comment -----------------------------------------------------------------------
+$Page Note Mode
+$TargetName Note Mode
+
+Pressing the /Note Mode/ button changes the functionality of the clip launch matrix.
+NoteMode.tif
+
+When Note Mode is on (i.e., when the button is lit), the buttons on the grid send MIDI notes instead of controlling Live's Session View.
+
+$Comment -----------------------------------------------------------------------
+$Page Combination Mode 
+$TargetName Combination Mode
+
+The real power of the APC20 comes through when you combine it with additional APC20s or the Akai Professional APC40.
+
+When you connect more than one APC unit to Ableton Live, the controllers will automatically work in /Combination Mode./ You can use up to six total APC20s or APC40s side by side. The topmost controller selected in your preferences will control tracks 1-8, the second controller selected will control tracks 9-16, and so on. When an APC40 and an APC20 are connected at the same time, the APC20's buttons will default to Track Selection, and its faders will default to volume, allowing swift access to an expanding array of clips and tracks.
+
+$Comment Status: Translate

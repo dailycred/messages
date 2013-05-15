@@ -1,0 +1,4 @@
+Live7LessonsImage.tif
+Las lecciones son tutoriales interactivos cortos que le ayudan a sacar el máximo de $0. Puede navegar por las Lecciones de igual forma que con las páginas web. Para más ayuda sobre como navegar entre las lecciones, pulse $Link aquí <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Lesson View>.
+
+*Nuevo en Live 8* - Échele un vistazo a las nuevas funciones y mejoras en $0 8.

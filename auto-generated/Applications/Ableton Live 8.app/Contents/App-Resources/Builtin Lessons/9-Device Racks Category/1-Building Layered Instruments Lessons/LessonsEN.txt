@@ -1,0 +1,169 @@
+$Page Building Layered Instruments
+$TargetName Building Layered Instruments
+$ListInTocForProduct 00
+
+Racks make it easy to build the kind of complex, multi-layered instruments normally associated with expensive, third-party softsamplers - using nothing more than $0's built-in devices.
+
+In this lesson, you'll learn how to use Racks to create stacked and split keyboard setups, velocity- and key-switched patches, and release layers.
+
+Divider.tif
+*This lesson is accompanied by a Live Set which you'll be interacting with as you follow the lesson. Whenever you're ready, please click $Link here <Set:/Sets/Building Layered Instruments.als> to load the Live Set.*
+Divider.tif
+
+
+Once you've loaded the set, please click the /Next Page/ button below to continue.
+
+$Comment --------------------------------------------------------------------------------
+$Page Basic Rack Controls
+$TargetName Basic Rack Controls
+
+As you can see, this set contains one track, called "Synth." It's armed for recording, so if you already have a MIDI keyboard attached, you can play it right away. Try this now.
+
+(If you need help setting up your MIDI keyboard, please see the $Link Connecting MIDI Controllers <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers> lesson.)
+
+The sounds you hear are being produced by a single /Simpler/ instrument in the track's /device chain./ In order to build a multi-layered instrument featuring more than one sound source, we're going to wrap the Simpler in a special container known as an Instrument Rack.
+
+To get started, let's put our Simpler instrument into an Instrument Rack. To do this, simply *$ContextMenu* in Simpler's title bar and select /Group/ (or press *$CommandMod-G).*
+
+At first glance, not much has changed. Your instrument now has a thin vertical title bar to its left (the Rack's title bar)
+RackTitleBar.tif
+
+The bracket on the right shows where the Rack ends.
+RackEndBracket.tif
+
+$Comment --------------------------------------------------------------------------------
+$Page Adding Another Chain
+$TargetName Adding Another Chain
+
+So far, you've added no additional devices or chains - you've simply placed our original device chain into a Rack. But you can now add additional device chains. Let's see how this works by clicking the /Chain List/ button in the Rack's title bar:
+ChainListToggle.tif
+
+The Chain List gives a quick overview of the device chains in a Rack. It also serves as a mixer for these chains - each chain in the list has its own Volume, Pan, Activator, Solo and Hotswap controls.
+ChainList.tif
+
+You can add another chain to the Rack by opening $0's /Device Browser/ and dragging a preset from the Browser to the Rack. Open the Device Browser by clicking its icon:
+DeviceBrowserButton.tif
+
+Then navigate to the "Keys-Acoustic Piano" preset in the folder Instruments > Simpler > Piano and Keys:
+HighlightedPreset.tif
+
+Drag this preset to the chain list's /drop area/ and drop it.
+NewChain.tif
+
+A new chain will be created automatically. Now when you play your MIDI keyboard, you're playing two separate Simpler instruments at the same time. Congratulations - you've created a stack.
+
+$Comment --------------------------------------------------------------------------------
+$Page Mixing Rack Chains
+$TargetName Mixing Rack Chains
+
+As you play, you might want to adjust the mixer controls in the chain list until you've found volume and pan settings you're happy with.
+ChainMixer.tif
+
+You can also mix Rack chains alongside tracks in the Session mixer itself. You may have noticed that when you created this Rack, the track that contains it gained a button near its name:
+InlineToggle.tif
+
+Press this button to toggle the chain view in the mixer:
+InlineRackView.tif
+
+Any changes you make to the Rack's mixer controls in either view will update the other view immediately.
+
+$Comment --------------------------------------------------------------------------------
+$Page Splitting the Keyboard
+$TargetName Splitting the Keyboard
+
+In some cases, you might want to create a /split/ keyboard - for example, the lower half of the keyboard playing one chain, and the upper half playing the other. To set this up, open the /Key Zone Editor./
+KeyZoneButton.tif
+
+A /zone/ is a data filter that determines whether or not a particular input value can pass through to the device chain. This editor shows the Key Zones, which are filters for MIDI key ranges. By default, all chains have their full key ranges enabled. To change this, drag either the right or left edges of one of the zones.
+DraggingZoneEdge.tif
+
+Notice that the note value is visible below the zone as you adjust it, to help with fine tuning. Also, if the zone is smaller than full-range, you can move the entire zone by clicking its middle and dragging it to a new location. This maintains its relative size, and you can see both its upper and lower note value as you drag.
+DraggingZoneRange.tif
+
+To increase or decrease the zone view, *$ContextMenu* in the zone editor and choose between the three view sizes.
+ZoneSizingContext.tif
+
+Note that you may need to scroll the /Track View Selector/ to see all of the key range, depending on the size you've chosen and the size of your screen.
+TrackViewSelector.tif
+
+Often, you will want your keyboard to be split evenly between each chain. To do this quickly, *$ContextMenu* in the zone editor and choose *Distribute Ranges Equally.*
+DistributeRangesEqually.tif
+
+As you play your keyboard, experiment with different key zone ranges to find a setting you like. When you're finished, return both zones to their default (full-range) values before moving on to the next page.
+
+$Comment --------------------------------------------------------------------------------
+$Page Velocity Switching
+$TargetName Velocity Switching
+
+You can also switch between chains based on the /velocity/ of incoming notes as the filter, rather than note ranges - for example, low velocities playing one chain and high velocities playing the other. (Note that this example will only work if your keyboard supports MIDI Note Velocity.) To set this up, open the /Velocity Zone Editor./
+VelZoneButton.tif
+
+This editor looks quite similar to the Key Zone editor. But instead of representing MIDI note values, the zones here represent MIDI velocity, with a range of *1-127.* As with the key zones, the default here is full-range; each chain will be triggered at all velocities. To create a velocity-switched patch, simply change the size of the velocity zones as you did before:
+DraggingVelEdge.tif
+
+Experiment with different velocity ranges to find values you're happy with.
+
+As you play with velocity editing, you'll probably notice that the devices in the chains respond to velocity in different ways. Specifically, the "Xylophone Attack" instrument gets louder at higher velocities while the "Synth" instrument always plays at the same level regardless of velocity.
+
+This brings up an important point about the velocity editor - there is /no/ relationship between velocity zones and velocity control of any particular parameter in a device. The zone editors simply work to determine what range of input signals can pass to which chains. What happens to those signals once they've passed the editors depends on the programming of the devices within the chains themselves.
+
+When you've finished experimenting with the velocity editor, return both zones to their default (full-range) values before going on to the next page.
+
+$Comment --------------------------------------------------------------------------------
+$Page Key Switching
+$TargetName Key Switching
+For performance, using certain keyboard keys to switch between sample layers can be a fast alternative to patch changes. You can build key-switching patches in $0 by assigning keys to the Rack's /Chain Selector,/ which functions similarly to the Key and Velocity zones but acts as an additional filter for chains that is not tied to any particular MIDI parameter.
+
+First, let's change the key zones of our chains so that the keys you'll use for key-switching won't also make sound. To do this, open the Key Zone Editor and drag the left edge of both zones to *D-2.*
+DSharpZones.tif
+
+Now open the /Chain Select Editor/ by clicking on the /Chain/ button:
+ChainSelectButton.tif
+
+Notice the thin vertical line in the Chain Select ruler. This is a draggable indicator known as the /Chain Selector./ Whereas Key and Velocity Zones compare themselves to some incoming value, Chain Select Zones are only concerned with the value of the Chain Selector: Chains whose zones don't overlap its current position won't receive any input.
+ChainSelector.tif
+
+By default, the Chain Selector is set to 0 and so are both zones. Now, stretch both zones to the full range. Then *$ContextMenu* in the zone editor and choose *Distribute Ranges Equally.*
+
+When you play your keyboard now, you'll hear that only the "Synth" chain is playing. This is because the Chain Select zone for the "Keys-Acoustic Piano" chain no longer includes 0, which is the position of the Chain Selector. In order to change the position of the Chain Selector, we'll assign it to a range of MIDI keys. Enter MIDI Mapping Mode by pressing *$CommandMod-M* or by clicking the *MIDI Map Mode Switch.*
+MIDIMapButton.tif
+
+Click in the *Chain Select Ruler* to select it for MIDI assignment.
+ChainSelectRuler.tif
+
+You'll be assigning three keys *(C2-D2)* as your key switches. Press and hold *C2,* then press *D2,* and finally release both keys. Now exit mapping mode via *$CommandMod-M* or by clicking the *MIDI Map Mode Switch* again.
+
+Your three-note key range is now mapped across the full range of the Chain Selector. Pressing C2 moves it to 0 (thus enabling only the "Synth" chain). Pressing D2 moves it to 127 (thus enabling only the "Keys-Acoustic Piano" chain). Pressing C#2 moves it to 64, which currently only enables one chain. Since we want this note to be our "stacking" switch, we'll need to alter the chain zones so that they both overlap 64. We can do this by extending the "Synth" zone to the right.
+OverlappingZones.tif
+
+Now, try pressing the notes C2-D2 as you play the upper notes to hear how the chain selection works. Note that any currently playing notes are not affected by the chain selection process - if a "Synth" chord is held while you switch to the "Keys-Acoustic Piano" zone, only newly played notes will trigger the "Keys-Acoustic Piano" chain. Unlike traditional patch changes, key-switched changes will never cause clicks or breaks in the sound.
+
+When you've finished experimenting with the chain select editor, return both zones to their default (0) values, drag the Chain Selector back to 0, and close the editor by clicking the /Hide/ button before going on to the next page.
+
+$Comment --------------------------------------------------------------------------------
+$Page Release Triggering
+$TargetName Release Triggering
+
+One kind of programming commonly found in high-end sample libraries is the use of "release layers". These are groups of samples that only play when keys are released, rather than when they are depressed. This technique can be used to create realistic acoustic instrument simulations - of harpsichords, for example. Racks allow you to do this easily, through the use of the /Note Length/ MIDI effect that was introduced in $0 6.
+
+To set up a release trigger, let's open the device browser again and navigate to MIDI Effects - Note Length.
+NoteLength.tif
+
+Drag this device over the "Keys-Acoustic Piano" chain in the chain list and release it. This inserts the Note Length effect into the chain, in front of the instrument.
+
+In order to trigger this chain with note-off messages, click the /Trigger/ button on the Note Length tool to switch its behavior from *Note On* to *Note Off.*
+NoteOff.tif
+
+
+$Comment --------------------------------------------------------------------------------
+$Page Where to Go From Here?
+$TargetName Where to Go From Here?
+Live7LessonsNoText.tif
+
+-> Now that you're familiar with some basic principles of Rack building, you might want to experiment with using different instruments, MIDI devices, audio effects, etc.
+
+-> If you haven't already done so, we strongly suggest reading the "Instrument, Drum and Effect Racks" chapter in the $Link reference manual. <Manual> Racks have been designed to be as intuitive as possible. But they're very powerful and extremely flexible, and to really get the most out of them requires a thorough understanding of all of their functions.
+
+-> Once you're comfortable with the basics of Racks, try your hand at the rest of the Racks lessons...
+
+$Comment Status: Translate

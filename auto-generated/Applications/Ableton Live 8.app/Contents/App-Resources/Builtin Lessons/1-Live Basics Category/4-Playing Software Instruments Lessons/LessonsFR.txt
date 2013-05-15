@@ -1,0 +1,234 @@
+$Page Jouer d'instruments virtuels
+$TargetName Playing Software Instruments
+
+Dans cette leçon, nous apprendrons comment utiliser les possibilités MIDI de $0 pour jouer de ses instruments virtuels intégrés ainsi que de tout instrument VST ou Audio Unit installé sur votre ordinateur.
+
+Cette leçon a aussi été réalisée en vidéo. Cliquez $Link ici <http://www.ableton.com/_common/downloads/movies/playing_with_software_instruments.mov> pour lancer la vidéo depuis le site internet Ableton.
+
+Divider.tif
+*Les documents de $0 s'appellent des Sets Live. Cette leçon est accompagnée d'un Set Live avec lequel vous interagirez en suivant la leçon. Quand vous êtes prêt, veuillez cliquer $Link ici <Set:/Sets/PlayingSoftwareInstruments.als> pour charger le Set Live.*
+Divider.tif
+
+
+Les instruments et effets intégrés à $0 sont accessibles au travers du /Navigateur de périphériques,/ qui se trouve dans la section située en haut à gauche de la fenêtre de l'application. Cliquez sur le /sélecteur/ du navigateur de périphériques pour l'afficher:
+DeviceBrowserSelectorInst.tif
+
+
+Veuillez cliquer ci-dessous sur le bouton /Page suivante/ pour continuer.
+
+$Comment -----------------------------------------------------------------------
+$Page Le navigateur de périphériques
+$TargetName The Device Browser
+
+Les instruments et effets sont groupés en catégories utilisant des dossiers dans le navigateur de périphériques. Pour ouvrir et fermer un dossier avec la souris, cliquez sur le petit triangle à gauche de son nom:
+DeviceBrowserTopLevel.tif
+
+Quand le navigateur est sélectionné, vous pouvez aussi utiliser les touches flèches du clavier de votre ordinateur pour une navigation rapide:
+
+-> Les flèches *haut* et *bas* font monter et descendre la sélection;
+-> La flèche *droite* ouvre les dossiers et la flèche *gauche* les ferme.
+
+Ouvrez le dossier /Instruments/ pour accéder à la collection d'instruments virtuels intégrés à $0. Le contenu de ce dossier variera en fonction des produits Ableton que vous aurez activés, mais il contiendra au moins:
+$If Product 20-3F, 03
+-> /Impulse/
+-> /Simpler/
+-> les dossiers /Instrument Rack/ et /Drum Rack:/
+ListOfInstrumentsLE.tif
+$Else
+-> /Impulse,/ /Simpler/ et le périphérique /External Instrument/
+-> les dossiers /Instrument Rack/ et /Drum Rack:/
+ListOfInstruments.tif
+$Endif
+
+$Comment -----------------------------------------------------------------------
+$Page Charger un preset de Simpler
+$TargetName Loading a Simpler Preset
+
+Nous allons charger un preset de Simpler.
+
+Pour cela, naviguez jusqu'à l'icône de Simpler et déployez-la. Puis ouvrez le dossier "Piano and Keys" et sélectionnez le preset "Keys-Acoustic Piano":
+SimplerPreset.tif
+
+Pour charger un preset, faites-le glisser sur la droite, en l'amenant au-dessus de la piste d'Arrangement "2 MIDI". Le curseur de la souris changera pour indiquer que le preset peut être déposé dans cette piste:
+DragPreset.tif
+
+Après avoir relâché le bouton de la souris, vous verrez le nouveau preset apparaître dans la /fenêtre Piste/ en bas de la fenêtre de l'application:
+PresetInTrackView.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Jouer de l'instrument par MIDI
+$TargetName Playing the Instrument via MIDI
+
+Pour jouer de l'instrument virtuel, nous devons d'abord nous assurer que sa piste est /armée./ Cela se fait normalement de façon automatique quand un instrument est inséré, mais vous pouvez le faire manuellement en cliquant sur le bouton /Armement/ de la piste dans le mélangeur de pistes:
+ArmButtonInst.tif
+
+Armer la piste entraîne deux choses:
+
+-> Cela permet à la piste de recevoir des notes MIDI d'un clavier MIDI externe (ou, en l'absence d'un appareil externe, du clavier de votre ordinateur, comme nous le verrons dans un moment).
+-> Cela arme la piste pour l'enregistrement, vous permettant d'enregistrer ce que vous jouez à tout moment;
+
+Si vous avez branché un clavier MIDI à votre ordinateur, alors continuez et jouez quelques notes. Vous devez alors entendre l'instrument quand vous jouez, et cela doit être signalé par les indicateurs de niveau /d'entrée/ et de /sortie/ qui entourent l'instrument dans la fenêtre Piste:
+TrackViewMeters.tif
+
+
+Divider.tif
+*Guide de dépannage:* Si des notes jouées au clavier ne semblent pas parvenir à $0, alors veuillez suivre la leçon $Link Connexion de contrôleurs MIDI <Lesson:Builtin/3-Hardware Setup Category/3-Connecting MIDI Controllers>.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Emploi du clavier de l'ordinateur
+$TargetName Using the Computer Keyboard
+
+Si vous n'avez pas de clavier MIDI sous la main, vous pouvez à la place employer le clavier de votre ordinateur. Pour cela, vérifiez que le bouton /Clavier MIDI d'ordinateur/ en haut à droite de l'écran est activé.
+ComputerKeyboardSwitchInst.tif
+
+-> Les touches de lettres de la rangée supérieure du clavier (AZER...) feront jouer les touches noires du piano;
+-> Celles de la rangée centrale (QSDF...) feront jouer les touches blanches;
+-> Les touches *W* et *X* transposeront la tessiture du clavier MIDI informatique;
+-> Les touches *C* et *V* changeront la dynamique ou "vélocité" des notes que vous jouez.
+
+La /barre de statut/ en bas de la fenêtre de l'application vous informera des changements effectués par pression des touches de transposition ou de dynamique:
+StatusBarOctave.tif
+
+
+Divider.tif
+*Note:* Les touches du clavier d'ordinateur peuvent aussi être affectées à des commandes de $0, comme décrit en section "Télécommande par MIDI et par touche" du manuel de référence.
+
+Gardez à l'esprit que toutes les entrées/sorties du clavier de votre ordinateur sont arbitrées par le système d'exploitation de l'ordinateur, pas par $0. C'est pour cette raison que le clavier MIDI de l'ordinateur convient le mieux à l'écoute des sons; un clavier ou une surface de contrôle externes doivent être employés quand il faut une entrée tactile plus précise.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Sauvegarder des Presets
+$TargetName Saving Presets
+
+Sans doute avez-vous modifié les paramètres de Simpler et avez-vous créé un son que vous désirez conserver pour plus tard? Vous pouvez à tout instant sauvegarder les réglages actuels de l'instrument en cliquant sur le bouton /Sauvegarder Preset/ dans la barre de titre du périphérique:
+PresetSaveButtonInst.tif
+
+Le nouveau preset apparaîtra dans le navigateur de périphériques près de l'original, surligné et prêt à être renommé:
+NewPresetInst.tif
+
+Votre preset personnel sera maintenant accessible au travers du navigateur de périphériques et pourra être chargé dans vos autres Sets Live.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Remplacement à chaud de Preset
+$TargetName Hot-Swapping Presets
+
+La Bibliothèque de $0 apporte une grande diversité de sons, aussi lorsque vous avez envie d'explorer un autre preset, cliquez simplement sur le bouton /Remplacement de preset à chaud/ dans la barre de titre du périphérique:
+BrowseButtonInst.tif
+
+Le dernier preset choisi apparaîtra surligné dans le navigateur, avec cette fois un bouton de remplacement à chaud correspondant sur sa droite:
+BrowseButtonTwinInst.tif
+
+En cliquant sur le bouton de remplacement à chaud, nous avons créé un lien temporaire entre le navigateur et le périphérique dans la fenêtre Piste. Sélectionner un preset puis appuyer sur la touche *Entrée/Retour* de votre clavier remplacera l'instrument préalablement chargé par le nouveau preset; si le preset appartient à un autre instrument, comme /Impulse,/ $0 changera même de périphérique pour vous!
+
+Une fois que vous avez trouvé un instrument qui vous convient, vous pouvez appuyer sur la touche *Ech* de votre clavier informatique pour sortir du mode de remplacement à chaud.
+
+Le navigateur de $0 offre aussi une fonction pratique de recherche qui trouvera les presets par mot-clé. Par exemple, cliquez sur le bouton /Chercher/ du navigateur, puis saisissez le mot "bass" at appuyez sur la touche *Retour* pour obtenir une liste de tous les presets de basse présents dans la bibliothèque de $0:
+BrowserSearchButton.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Emploi de plug-ins externes
+$TargetName Using External Plug-Ins
+
+Les instruments et effets intégrés à $0 peuvent être complétés par des plug-ins de tierces parties aux formats VST ou Audio Unit (Mac seulement). L'emploi de plug-ins est très similaire à l'emploi des périphériques intégrés. Pour insérer un plug-in d'instrument, ouvrez d'abord le /navigateur de plug-ins/ à l'aide de ce sélecteur:
+PluginBrowserSelector.tif
+
+*Note:* Vous pouvez devoir activer la prise en charge de plug-in par $0 si vous utilisez des plug-ins pour la première fois. Le bouton /Activer/ du navigateur de plug-ins vous amènera aux Préférences File/Folder où vous pouvez configurer vos plug-ins.
+
+Tous les plug-ins que vous possédez seront listés dans le navigateur, organisés d'abord par format, puis par créateur. Les plug-ins d'instrument peuvent être différenciés des plug-ins d'effet par les petites /touches de piano/ qui occupent la moitié basse de leur icône de navigateur:
+PluginBrowserInst.tif
+
+Comme avec les périphériques de $0, sélectionnez un instrument et faites-le glisser dans une piste MIDI. La /fenêtre d'édition personnalisée/ du plug-in s'ouvrira automatiquement. Dans la fenêtre Piste, les plug-ins de périphérique sont représentés avec une /grille X-Y/ assignable:
+PlugInTrackView.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Le métronome
+$TargetName The Metronome
+
+Avant d'en terminer avec cette leçon, voyons rapidement comment enregistrer votre interprétation dans /l'Arrangement,/ qui est l'enregistreur multipiste de $0.
+
+Il est important *d'enregistrer en mesure* (d'être "synchrone") pour être sûr que tout sera ultérieurement *lu de façon synchrone.* La façon la plus simple d'enregistrer de façon synchrone consiste à employer le /métronome/ intégré, qui s'active au moyen de son bouton dans la barre de contrôle. Vous le trouverez dans le coin supérieur gauche de la fenêtre de l'application:
+MetronomeSwitch.tif
+
+Le métronome bat le tempo actuel quand $0 est en lecture. Pressez la *barre d'espace* pour lancer la lecture, puis réglez le volume du métronome à l'aide de la commande /Volume de pré-écoute/Contrôle/ de la piste Master:
+CueVolume.tif
+
+Pressez de nouveau sur la *barre d'espace* pour arrêter.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Enregistrement et lecture
+$TargetName Recording and Playback
+
+Nos étapes suivantes lanceront le processus d'enregistrement. Notre piste MIDI est déjà armée pour l'enregistrement - nous avons activé son bouton Armement précédemment pour que $0 réponde aux notes MIDI:
+ArrangerTracksInst.tif
+
+Pressez deux fois le bouton /Stop/ de la barre de contrôle pour ramener l'Arrangement à la position *1.1.1:*
+TransportStopRec.tif
+
+Pressez maintenant le /bouton d'enregistrement global/ adjacent (il est probablement familier à ceux d'entre vous qui ont déjà utilisé des enregistreurs multipistes: les pistes peuvent être individuellement armées pour l'enregistrement, et c'est le bouton d'enregistrement global qui permet l'enregistrement pour les pistes armées):
+GlobalRecordRec.tif
+
+Enfin, pressez le bouton /Lecture/ de la barre de contrôle (ou utilisez la *barre d'espace* du clavier de votre ordinateur) pour lancer l'enregistrement:
+TransportPlayRec.tif
+
+Au fur et à mesure de la progression de l'enregistrement, vous verrez un nouveau /clip MIDI/ se créer sur la piste:
+ArrangementMIDIClipRecording.tif
+
+Pour stopper l'enregistrement, pressez le bouton Stop. Pressez-le à nouveau pour ramener l'Arrangement sur *1.1.1,* et écoutez votre enregistrement en pressant le bouton de lecture.
+
+
+Divider.tif
+*Astuce:* Pour faire défiler la fenêtre en arrière et en avant, ou pour zoomer dans les deux sens, saisissez la /barre temporelle/ avec la souris en haut de l'Arrangement, et tirez à gauche, à droite, en haut ou en bas.
+
+
+$Comment -----------------------------------------------------------------------
+$Page Regarder à l'intérieur du clip
+$TargetName Looking Inside the Clip
+
+Vous pouvez faire beaucoup de choses avec votre clip nouvellement enregistré.
+
+/Arranger/ le clip par rapport aux autres dans un morceau: vous pouvez saisir les clips par leur barre de titre pour les déplacer en d'autres positions, tirer sur leurs côtés pour changer leur longueur et plus encore.
+ClipTitleBarInst.tif
+
+/Editer/ le contenu et les réglages d'un clip: pour voir le contenu de votre nouveau clip, double-cliquez sur sa barre de titre - les notes MIDI qu'il contient apparaîtront dans la /fenêtre Clip/ en bas de la fenêtre de l'application.
+MIDIEditorInst.tif
+
+Pour alterner entre la fenêtre Piste, où se trouvent l'instrument et les effets, et la fenêtre Clip, qui affiche les détails du clip MIDI, maintenez *$ShiftMod* puis pressez *Tab* ou cliquez sur une des vues générales correspondantes en bas de la fenêtre de l'application:
+DetailOverviewsInst.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Edition des notes
+$TargetName Editing Notes
+
+L'Editeur MIDI a sa propre règle temporelle, qui peut servir à zoomer et à faire défiler horizontalement, comme dans l'Arrangement. Vous pouvez aussi cliquer et tirer sur la zone située à gauche des touches de piano pour zoomer et faire défiler l'Editeur verticalement:
+MIDIEditorScrollAreas.tif
+
+Si vous désactivez le bouton /Mode Dessin/ dans la barre de contrôle, vous pouvez sélectionner et déplacer des notes avec la souris. Déplacez des groupes de notes en décrivant un cadre de sélection autour d'elles:
+DrawModeOffInst.tif
+
+Chaque note a son propre témoin de /dynamique/ en bas de l'Editeur MIDI. Ce témoin donne la /dynamique de note/ - c'est-à-dire la force ("vélocité") avec laquelle elle a été jouée. Les dynamiques peuvent aussi être changées en cliquant sur ces témoins et en tirant:
+VelocityEditorInst.tif
+
+
+$Comment -----------------------------------------------------------------------
+$Page Et maintenant, que faire?
+$TargetName Where to Go from Here?
+
+Dans cette leçon, vous avez appris comment sélectionner des sons, faire jouer des instruments virtuels et enregistrer des notes MIDI. En employant les principes démontrés dans cette configuration d'enregistrement simple, vous pouvez continuer d'enregistrer, en ajoutant autant de pistes que vous le voulez, chacune pouvant contenir un ensemble de sons différents. Utilisez les commandes du menu Créer pour créer des pistes supplémentaires.
+
+Nous vous suggérons de continuer avec les leçons pour apprendre ce qu'il est possible de faire d'autre avec $0:
+
+-> Cliquez $Link ici <Lesson:Internal/BuiltinAutoToc> pour accéder à toutes les leçons installées.
+
+-> Si vous n'avez pas encore regardé la leçon $Link Enregistrement audio <Lesson:Builtin/1-Live Basics Category/2-Recording Audio>, vous devriez le faire à présent afin de pouvoir exercer votre créativité avec à la fois les pistes audio et les pistes MIDI.
+
+-> Découvrez les clips MIDI en $Link créant des patterns de batterie <Lesson:Builtin/1-Live Basics Category/3-Creating Beats>.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date

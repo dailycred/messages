@@ -1,0 +1,21 @@
+$Page Technische Hilfe erhalten
+$TargetName Getting Technical Help
+SupportLogo.tif
+
+Um unserem Support-Team zu helfen, fügen Sie bitte bei einer Kontaktaufnahme folgende Datei hinzu:
+
+BUG_REPORTING_PACKAGE_NAME
+
+Dieses Status Report Pack enthält Informationen, die beim aktuellen Programmlauf von Live erzeugt wurden:
+
+-> Lives Voreinstellungen- und Autorisierungs-Dateien
+-> eine Log-Datei darüber, was die Software bislang im aktuellen Programmlauf gemacht hat
+-> alle Live-Sets, Presets und Max-Geräte, die im aktuellen Programmlauf verwendet werden (jeweils ohne Samples)
+-> verschiedene andere von Live erzeugte Log-Dateien
+
+Andere Informationen werden nicht gesendet. Wir verwenden die Daten der Fehlermeldung ausschließlich zum Beseitigen von Bugs. In unsere $Link Datenschutzerklärung <http://www.ableton.com/privacy-policy> erhalten Sie Auskunft darüber, wie wir Ihre Informationen verwenden.
+
+Bitte besuchen Sie unsere $Link Support-Webseite <http://www.ableton.com/support>, um mehr darüber zu erfahren, wie Sie den Support kontaktieren.
+
+$Comment Status: Translate
+$Comment Translation Status: Up-to-date
