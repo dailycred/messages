@@ -1,4 +1,0 @@
-Live7LessonsImage.tif
-Le lezioni sono brevi tutorial interattivi che consentono di ottenere il massimo da Live. Le lezioni si navigano in modo molto simile ai siti web. Per un aiuto sulla navigazione $Link clicca qui <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Lesson View>.
-
-*Novità di Live 8* - Dai un'occhiata alle nuove caratteristiche e ai miglioramenti di Live 8.

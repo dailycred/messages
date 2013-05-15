@@ -1,1 +1,0 @@
-*Hardware Setup* - Making sure $0 works perfectly with your hardware.

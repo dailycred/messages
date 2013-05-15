@@ -1,1 +1,0 @@
-*Configuration matérielle* - S'assurer que $0 fonctionne parfaitement avec votre matériel.

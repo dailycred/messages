@@ -1,1 +1,0 @@
-*Configurazione Hardware* - Assicurarsi che Live lavori perfettamente con il proprio hardware.

@@ -1,1 +1,0 @@
-*Operator* - Creación de sonidos con el sintetizador Operator.

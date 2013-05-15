@@ -1,4 +1,0 @@
-Live7LessonsImage.tif
-Kurse sind kurze, interaktive Tutoriale, die Ihnen dabei helfen, $0 optimal zu nutzen. In Kursen navigiert man ähnlich wie auf Webseiten. Erläuterung zur Navigation erhalten Sie $Link hier <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Lesson View>.
-
-*Neu in Live 8* - Ein Überblick über die neuen Funktionen und Verbesserungen in $0 8.

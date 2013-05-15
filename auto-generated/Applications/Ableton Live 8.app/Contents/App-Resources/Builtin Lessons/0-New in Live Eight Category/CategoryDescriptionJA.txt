@@ -1,4 +1,0 @@
-Live7LessonsImage.tif
-「レッスン」は、$0を理解し機能を活用するこつを学ぶことのできるインタラクティブなチュートリアルです。 レッスンは、ウェブサイトをナビゲートするように操作することができます。 操作について、詳しくは $Link ここ <Lesson:Builtin/BuiltinLessons/Sub-Lessons/Lesson View> をくりっくしてください。
-
-*Live 8の新機能* - $0 8の新機能と機能向上について学びます。
