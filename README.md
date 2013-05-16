@@ -2,6 +2,8 @@
 
 ### How to Contribute
 
+See the [official issue](https://github.com/dailycred/messages/issues/1) for a list of needed corrections.
+
 1. Find a file in the `auto-generated` with your language. It has all of our messages auto-translated by Google Translate
 2. Compare it to the [final messages file](https://github.com/dailycred/messages/blob/master/final/messages) in English, and correct any errors you find in the translated version.
 3. When you've completed the translation, [edit the file](https://github.com/blog/844-forking-with-the-edit-button) with your corrections. [example](https://github.com/dailycred/messages/commit/7f7f3862af2e263ba60a1317e76c4f5254affb72)
@@ -9,7 +11,7 @@
 
 API calls will be returned in the translated language (if possible) that you indicate in an `ACCEPT-LANGUAGE` HTTP header.
 
-## Languages to be translated
+## Languages
 
 * [Afrikaans](https://github.com/dailycred/messages/blob/master/auto-generated/messages.af)
 * [Albanian](https://github.com/dailycred/messages/blob/master/auto-generated/messages.sq)
