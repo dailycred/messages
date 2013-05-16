@@ -1,5 +1,3 @@
-# Application messages are referenced inside Java Controller Classes.
-# Please keep these separate from template references.
 Application.NoSuchClient=No client exists for id %s.
 Application.NoSuchApp=No app exists for id %s.
 Application.NoClientProvided=Please provide your client ID with your request.
