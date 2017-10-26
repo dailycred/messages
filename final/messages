@@ -51,7 +51,7 @@ Application.CouldNotUnsubscribe=We're sorry, due to a technical error we could n
 Application.Unsubscribed=You have been unsubscribe.  We're sorry to see you go!
 Application.Subscribed=You've been subscribed.  Thanks!
 Application.CouldNotSubscribe=We're sorry, due to a technical error we could not subscribe you directly from this link.  Please try again, or <a href="mailto:support@dailycred.com">contact us directly</a> to be added.
-Application.AdminsCantUnsubscribe=Admits cannot unsubscribe from their own account.
+Application.AdminsCantUnsubscribe=Admins cannot unsubscribe from their own account.
 Application.EmailIsSame=The new email is the same as your current email.
 Application.EmailOnlyUserNotAllowed=This app does not support email only users.
 Application.EmailChangeSuccess=Your email has been changed to %s. Please look for the confirmation email and verify your new address.
